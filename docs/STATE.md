@@ -13,6 +13,6 @@ Open-source strategy and digital commons only. English only. Final outputs: prop
 
 ## Next
 - Joint review of REVIEW-DRAFT.md (see Part 5 questions)
-- Re-fetch the unreachable CN sources from the server
+- Sources: all retrieved; direct re-fetch via the China VPN — see TODO.md
 - Draft the 4 proposition papers + 2 sets of talking points
 - Website: deferred until the content is approved
