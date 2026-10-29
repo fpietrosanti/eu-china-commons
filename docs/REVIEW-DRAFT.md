@@ -3,7 +3,7 @@
 **Draft v0.1 — 29 October 2026.** Prepared for review before the final proposition papers and conference talking points are drafted.
 **Scope:** open-source strategy and digital commons only. English only.
 **Labels:** **[F]** fact from the cited text · **[C]** published commitment or target, not a realised result · **[I]** our inference · **[P]** our proposal.
-**Sources:** EU side: the *DC-EDIC Implementation Strategy 2026–2027* (adopted 16 Oct 2026), cited as *IS p.N*. We read it in full. China side: the research memo of 29 Oct 2026 ([memo-2026-10-29.md](memo-2026-10-29.md)), cited by its [S##] IDs. We did not re-read the Chinese originals. The URL check run on 29 Oct ([../data/source_check.tsv](../data/source_check.tsv)) found that S05, S16 (HTTP 403), S19, S23 and S31 did not respond from this machine. Until we confirm them from another network, claims based on those sources are marked ⚠.
+**Sources:** EU side: the *DC-EDIC Implementation Strategy 2026–2027* (adopted 16 Oct 2026), cited as *IS p.N*. We read it in full. China side: the research memo of 29 Oct 2026 ([memo-2026-10-29.md](memo-2026-10-29.md)), cited by its [S##] IDs. We did not re-read the Chinese originals. All 40 sources were retrieved and hashed on 29 Oct ([../data/source_check.tsv](../data/source_check.tsv)). S05, S16 and S23 came from the EU server. The Chongqing sources S19 and S31 are geo-blocked outside China and were retrieved through the r.jina.ai relay; they will be re-fetched directly once the China VPN is set up (see [../TODO.md](../TODO.md)). The key figures were confirmed in the retrieved texts: the Jiangsu fund matrix of at least RMB 1bn plus the RMB 30M micro-seed fund, the Chongqing "1+3+N" plan with 50k developers by 2030, Chongqing licence 渝民许准字〔2023〕78号, and XiangShan/Ruyi.
 
 ---
 
@@ -62,7 +62,7 @@ For each level: EU key points · China key points · complementarity · what can
 - Evidence-gated, stop/scale decisions at end-2027 (IS p.36).
 
 **China key points**
-- Open source as **national capability and industrial resilience**: 14th FYP and the MIIT software plan [S04, S05⚠]; *AI + Software* plan, Sept 2026, with ≥5 major projects by 2028 [C][S06].
+- Open source as **national capability and industrial resilience**: 14th FYP and the MIIT software plan [S04, S05]; *AI + Software* plan, Sept 2026, with ≥5 major projects by 2028 [C][S06].
 - Central platforms: OpenAtom and AtomGit [S06, S07].
 - Explicit encouragement of international participation [S12, S13].
 - The Shanghai 2026 declaration uses the term *数字公地核心原则* (core principles of digital commons) [S20]. This is a conference declaration, not a binding text.
@@ -90,7 +90,7 @@ These are announced envelopes, not verified disbursements.
 - **Project grants and incubation:** Hangzhou up to RMB 1M / 0.5M per project [S15].
 - **Operating-cost support for communities:** Guangdong 30%, cap RMB 8M [S17].
 - **Adoption subsidies:** Shenzhen +15% for OpenHarmony and +5% for RISC-V, cap RMB 10M [S18].
-- **Venture-style funds:** Jiangsu/Suzhou ≥RMB 1bn planned [S16⚠]; Shanghai investment fund [S20].
+- **Venture-style funds:** Jiangsu/Suzhou ≥RMB 1bn planned [S16]; Shanghai investment fund [S20].
 - No identified Chinese instrument resembling STA/EU-STF: public-interest maintenance funding for existing upstream maintainers, regardless of who they are.
 
 **Complementarity [I]**
@@ -113,7 +113,7 @@ These are announced envelopes, not verified disbursements.
 - Future domains include desktop OS, mobile distribution and AI.
 
 **China key points [F/C]**
-- OpenHarmony, openEuler, openKylin, AtomGit; RISC-V via XiangShan/Ruyi [S23⚠].
+- OpenHarmony, openEuler, openKylin, AtomGit; RISC-V via XiangShan/Ruyi [S23].
 - AtomGit claims 80k models, 370k datasets and 12M users. These are official figures, not audited [S06].
 - **No identified Chinese equivalent of the Collaborative Workspace** (memo gap; still open).
 
@@ -137,7 +137,7 @@ These are announced envelopes, not verified disbursements.
 **China key points [F]**
 - **KAIYUANSHE:** est. 2014, vendor-neutral, volunteer-run, OSI affiliate since 2016, annual China Open Source Report; COSCon 2026 is in Hangzhou, 14–15 Nov [S08, S09, S32].
 - **OpenAtom:** foundation, government-linked.
-- **Chance Foundation:** Chongqing [S19⚠, S31⚠].
+- **Chance Foundation:** Chongqing [S19, S31].
 - **CCF open-source committees** [S22].
 - **Shanghai Open Source IT Association:** digital-commons declaration [S20].
 
@@ -190,5 +190,5 @@ Scale 1–5. *Fit* = thematic complementarity. *Feasibility* = how realistic in 
 1. **Voice:** independent analysis (whose name?), or a contribution to be submitted to the DC-EDIC Advisory Board or EDCOM WP2?
 2. **COSCon 14–15 Nov is in 16 days.** Do we want Chinese-side talking points ready for it? If yes, they take priority.
 3. Do the scores in Part 3 match your read? In particular, is P-3 (SBOM) too exposed for 2026–27?
-4. Should the Chinese originals (S05, S16, S19, S23, S31) be re-fetched from the server to remove the ⚠ marks before the papers are written?
+4. ~~Re-fetch unreachable sources~~: done 29 Oct; direct re-fetch via the China VPN is in TODO.md.
 5. Should the "parallel funding" idea (F-2) appear in public talking points or stay internal?
