@@ -1,0 +1,2152 @@
+                                           ADOPTED
+
+               Digital Commons EDIC
+
+Implementation
+Strategy
+
+2026-2027
+
+Connect actors and needs,
+deploy digital commons
+and maintain them at scale.
+
+Adopted by the Assembly of Members
+
+ASSEMBLY         FIRST CYCLE               REVIEW
+
+16 October 2026  2026-2027                 End of 2027
+
+Adopted          Delivery and evidence     Review results and next steps
+
+Adopted by the Assembly | 16 October 2026
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 2
+
+Reading guide
+
+CONTENTS
+
+Executive Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1. Mandate And Strategic Objective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2. Strategic Logic And Principles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+3. Connect: From Distributed Capacity To Coordinated Action . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+4. Deploy: Making Adoption Work End To End . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+5. Maintain: Critical Dependencies And Stewardship . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+6. The 2026-2027 Portfolio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+7. Conditions For Trustworthy Adoption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+8. Delivery, Governance And Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+9. Results, Learning And Scale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+10. Implementation Commitment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+Annex A. Statutory Coverage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+Annex B. Correspondence With Annex V Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+Annex C. Common Portfolio Review Criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+Annex D. Indicators And Their Use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+Annex E. EDCOM Contribution To The Strategy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+
+How to read
+
+Sections 1-2 explain the mandate and strategic choices. Sections 3-5 describe Connect,
+Deploy and Maintain. Sections 6-9 set out the portfolio, responsibilities, resources and
+evaluation. The annexes map statutory and EDCOM requirements and provide the review
+and indicator frameworks.
+
+Assembly
+
+Adopted on 16 October 2026.
+
+Adopted by the Assembly | 16 October 2026  2 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 3
+
+Executive Summary
+
+Europe has strong open-source communities, public-sector initiatives, companies,
+maintainers and technical resources. Wider adoption remains difficult: needs,
+expertise and deployment experience are scattered across countries and
+organisations. Teams repeatedly solve similar integration and procurement problems,
+while demand, support and maintenance priorities remain hard to coordinate.
+
+The Digital Commons European Digital Infrastructure Consortium (DC-EDIC) will
+organise European cooperation to connect these actors and needs, deploy digital
+commons and maintain them at scale. It will preserve national choice, open
+contribution and fair participation across the ecosystem. The DC-EDIC maintains the
+shared agenda and comparable evidence; the best-placed actors deliver, once their
+proposed roles and resources are confirmed.
+
+Three priorities will guide the 2026-2027 cycle:
+
+ � Connect: establish light European coordination to bring needs, expertise,
+     resources and contributions together around shared problems.
+
+ � Deploy: implement complete user journeys to make adoption repeatable and
+     develop reusable components, interfaces and methods, preserving solution
+     diversity and choice.
+
+ � Maintain: assess critical dependencies and strengthen their resilience through
+     long-term care and targeted funding.
+
+Work can start with any function. Shared needs can prompt deployment; use can
+reveal maintenance needs; dependency findings can change a deployment choice.
+Evidence can redirect priorities at any stage.
+
+The first cycle has eight expected results: seven operating products or services and
+a Future Domains Roadmap for assessing later options and deciding which to
+pursue. Each identifies its users or decision-makers, the result expected by
+end-2027 and the evidence needed to evaluate it.
+
+Adopted by the Assembly | 16 October 2026  3 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 4
+
+EDCOM provides the first funded programme: community activities, a one-stop
+shop, strategic dependency assessments, the EU Sovereign Tech Fund Pilot (EU-
+STF Pilot) and 100-day challenges. The Strategy brings them together around
+common results, within EDCOM's contractual governance.
+
+The Collaborative Workspace is the first proposed deployment flagship, bringing
+contributors together to improve everyday tools, trusted interoperability and shared
+components that sustain a diverse European market. Document collaboration and
+messaging provide the initial use cases; meetings remain to be confirmed. Work will
+combine component improvements with integration, adoption and long-term care.
+
+The EU-STF Pilot, operated by the Sovereign Tech Agency within EDCOM, will test
+European financing for selected critical open-source dependencies. Working with
+trusted maintainers, it will assess public benefit and support efficiency, with
+proportionate reporting and accountability. Maintain also covers dependency
+assessment, security and long-term continuity beyond the pilot.
+
+The first cycle will produce early results and use experience to improve them,
+concentrating limited resources where work demonstrates value. Success will be
+judged by:
+
+ � coordinated action and European capacity: assessed needs and contributions
+     lead to action, shared findings inform decisions, and countries and ecosystem
+     actors reuse results;
+
+ � adoption and deployment: organisations use open-source solutions in routine
+     work, and shared improvements make deployment repeatable elsewhere;
+
+ � maintenance and resilience: supported critical dependencies improve in
+     remediation, continuity, maintainer capacity or adoption confidence.
+
+By end-2027, the Assembly will review the portfolio and decide what follows,
+including whether the DC-EDIC's own contribution justifies the coordination effort.
+Each intervention should provide reusable methods, findings, relationships or
+delivery capacity. Together, these results should strengthen Europe's capacity to
+develop, deploy and sustain digital commons.
+
+Adopted by the Assembly | 16 October 2026  4 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 5
+
+1. Mandate And Strategic Objective
+
+1.1 The Mandate
+
+Article 24 of the DC-EDIC Statutes requires an Implementation Strategy covering
+actions and timelines; roles and responsibilities; resources; governance and
+stakeholder contributions; implementation arrangements; milestones, targets and
+deliverables; key performance indicators; and risks.
+Article 3 and Annex V define the wider tasks: build a European community around
+digital commons, facilitate access to funding and support, support maintenance and
+scaling, contribute to strategic developments and organise collaboration on concrete
+projects.
+This Strategy sets first-cycle priorities within that mandate. It identifies which needs
+come first, how the tasks reinforce one another and where limited European
+resources and expertise can have the greatest effect.
+
+1.2 The Policy And Delivery Context
+
+The Statutes and Annex V establish the Strategy's legal and political mandate.
+EDCOM provides its initial delivery base; the European Commission's Open Source
+Strategy sets the wider policy context.
+EDCOM funds community building, the one-stop shop, strategic dependency
+mapping, preparatory EU-STF work and 100-day challenges. The DC-EDIC will build
+on them within the programme's existing governance and contractual framework.
+The Commission's Strategy links open source to sovereignty, resilience, public-
+sector capacity and competitiveness. Within its mandate and capacity, the DC-EDIC
+contributes by deploying secure alternatives with Member States, sustaining
+strategic European assets, and jointly identifying and developing reusable open
+digital assets. The Commission's supply- and demand-side measures inform the
+priorities for first-cycle tests. Results from those tests will inform decisions on which
+European capabilities to sustain or expand beyond 2027.
+Rapid technological change requires adaptable instruments. Artificial intelligence (AI)
+is changing software production, testing, documentation, security and support, while
+cybersecurity obligations are strengthening. Cloud, identity, mobile-device and
+collaboration architectures are evolving; procurement and licensing practices face
+renewed scrutiny. The Strategy maintains a stable direction while adapting its
+instruments to experience and findings.
+
+1.3 The Central Objective
+
+The objective for 2026-2027 is:
+
+   Build the European capacity to connect actors and needs, deploy digital
+   commons and maintain them at scale.
+
+Dependable open-source adoption requires resources now spread across many
+actors: technical assets, procurement and integration expertise, deployment
+environments, support capacity and dependency evidence. Coordinating them
+
+Adopted by the Assembly | 16 October 2026  5 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 6
+
+around shared needs can reduce repeated work, remove adoption barriers and
+gather enough demand to sustain dependable integration, support and maintenance.
+
+Shared work can make a practical difference. An infrastructure component can
+reduce duplicated integration across countries; a tested procurement method can
+reduce uncertainty for buyers and suppliers. Dependency evidence can direct
+maintenance support, and a reusable deployment pattern can give a new participant
+a tested starting point.
+
+Member States gain from reuse, faster access to tested methods, stronger
+negotiating power through credible alternatives and continuity for capabilities
+supporting public services. Common requirements can make European demand
+clearer to software companies. These effects strengthen European agency: the
+ability to understand, adapt, deploy, support and replace critical capabilities.
+
+The DC-EDIC will strengthen the actors already doing this work. Member States
+retain policy and procurement choice; communities and maintainers retain technical
+agency. Companies, integrators, hosters and support providers remain essential to
+delivery. The DC-EDIC sustains the common agenda, makes evidence comparable,
+coordinates responsibilities and preserves continuity across projects and countries.
+
+1.4 A Focused First Cycle
+
+The first cycle runs from Assembly validation to end-2027: enough time to deliver
+services and pilots, within a credible horizon for a fast-changing field. It establishes
+the operating model through tangible results using available resources and delivery
+arrangements.
+
+The end-2027 findings will shape the next work programme: which capabilities to
+continue, scale or extend into other statutory tasks. The Future Domains Roadmap
+keeps later needs available for assessment and decision.
+
+Each intervention starts from a shared need or dependency, uses the smallest useful
+response and supports a decision on what follows. The best-placed actor delivers it.
+The DC-EDIC relies on partners' existing expertise, relationships and funded
+responsibilities, acting directly where shared accountability, evidence or governance
+needs a responsible European body. A proposed contribution is available only after
+the actor confirms its role and resources.
+
+Connect, Deploy and Maintain have equal strategic standing. Their budgets,
+maturity, timetables and direct DC-EDIC workload reflect the smallest useful proof,
+available funded instruments, confirmed partner capacity and evidence needed for
+the next decision. Focus prevents effort dispersing across an activity catalogue;
+shared results make pilots useful beyond their original setting.
+
+Adopted by the Assembly | 16 October 2026  6 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 7
+
+2. Strategic Logic And Principles
+
+2.1 The Operating-Capacity Gap
+
+Adoption at scale requires open-source code and the capacity to integrate, use
+and sustain it. Organisations need interoperability, security, usability, support and
+maintenance suited to their context. They also need credible migration, appropriate
+procurement terms, integration expertise and continuity when a component or
+supplier changes.
+
+The knowledge and means are distributed. A community may need procurement
+expertise; an administration, integration support; an integrator, a common reference
+profile. A funder may support maintenance when evidence identifies dependencies
+blocking adoption.
+
+Repeated national effort and deployment gaps weaken common demand.
+Integrators, support providers and maintainers become harder to sustain, reducing
+adoption confidence and reinforcing dependency on established proprietary offers.
+
+The DC-EDIC links needs, delivery and dependencies around real cases. Component
+ownership stays distributed; the DC-EDIC coordinates interfaces and responsibilities
+and makes evidence usable.
+
+2.2 Three Strategic Priorities
+
+Connect organises light European coordination to turn distributed needs, expertise
+and contributions into joint action. It qualifies requests, connects peers and experts,
+maps actors and capabilities, and gathers adoption knowledge and findings for
+decisions.
+
+Deploy uses end-to-end use cases to build repeatable adoption paths and reusable
+components, interfaces and adoption resources, preserving solution diversity and
+choice. Defined user journeys focus each flagship; targeted challenges address
+blockers exposed by real deployment.
+
+Maintain combines dependency intelligence, stewardship and targeted financing to
+strengthen the resilience of critical digital commons over time. It draws on
+deployment evidence, maintainer knowledge and public-interest priorities to pilot
+proportionate support, continuity and financing responses.
+
+Each function has its own instruments and proofs. A dependency assessment can
+change a deployment choice; a maintenance signal can prompt a coalition or use
+case. Every substantial intervention will state what must be connected, what will be
+deployed and what must be maintained.
+
+Adopted by the Assembly | 16 October 2026  7 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 8
+
+   Figure 1: Connect, Deploy and Maintain learn from one another. Work may start, change direction or
+          stop at several points; each case contributes knowledge and methods that others can use.
+
+2.3 Shared Conditions For Adoption
+
+The DC-EDIC will concentrate on conditions where shared European action can
+materially improve adoption: user journeys and acceptance criteria; interoperability
+profiles, open standards and conformance tests; procurement, migration and
+adoption methods; maturity, support and maintenance criteria; dependency and
+public-value evidence; and review decisions.
+
+Common requirements allow convergence while preserving choice. Different
+components and national configurations can meet them. A reference implementation
+may demonstrate that requirements work together; subsequent selection continues
+to follow shared evidence and criteria.
+
+Sharing can take different forms at each technical layer. Common standards and
+tests support compatible implementations but require continuing specification and
+conformance work. A common codebase allows shared development and
+corrections while creating common dependencies and maintenance choices. Open
+
+Adopted by the Assembly | 16 October 2026  8 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 9
+
+interfaces keep components replaceable. Partners choose the form that best serves
+users, balancing autonomy, integration, coordination and lifecycle costs.
+
+Reusing a component means adopting existing software. Pooling effort means
+sharing resources or responsibilities for development, maintenance, testing or
+operation. Joint support can strengthen the community already sustaining a widely
+reused component.
+
+2.4 Principles For Implementation
+
+All Strategy activities follow these principles.
+
+Subsidiarity. Address shared needs, create reusable value or resolve coordination
+problems more efficiently at European level than through separate national or project
+action. Responsibility for delivery stays with the best-placed teams and
+communities. Strengthen suitable existing capabilities and support initiatives that
+explore better approaches.
+
+Openness and neutrality. Select and assess through transparent criteria, open
+standards and fair contribution routes. Guard against hidden product endorsement or
+capture by a supplier, country or community.
+
+Reliability. Support adoption claims with evidence on security, support,
+maintenance, continuity and operating responsibility.
+
+Usability. Treat user experience, accessibility and organisational adoption as
+technical quality. Demonstrate that people can use and operate the solution
+effectively.
+
+European capacity. Strengthen European communities, maintainers, product
+companies, integrators, hosters and support providers so they can deliver and
+sustain digital commons around real demand.
+
+Multiplier effect. Focus on shared assets and decisions that mobilise partners'
+expertise and resources and improve conditions for wider investment and adoption.
+Generic foundations serving similar, stable needs across products are strong
+candidates for shared development and maintenance. Product diversity can improve
+workflows, user experience and capabilities.
+
+Evidence and iteration. Use pilots to deliver and learn. Test credible hypotheses of
+user benefit through bounded experiments. Base continued investment and wider
+deployment on observed results and credible maintenance. Each pilot defines its
+decision, evidence and conditions for stopping, adjusting or scaling.
+
+Proportionate operation. Match technical convergence and shared responsibility to
+the intended result. Use governance and reporting to protect public value and
+support timely delivery, treating administrative burden as an implementation risk.
+
+2.5 Collective Action
+
+The DC-EDIC combines collective action with distributed delivery. A core group of
+Member State partners and communities shares its objectives. A small coordinating
+function maintains their common agenda and evidence, preserves continuity and
+keeps activities focused on shared outcomes. It clarifies decision rights and
+supports regular communication around decisions. Partners retain room to act and
+clear accountability.
+
+Adopted by the Assembly | 16 October 2026  9 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 10
+
+3. Connect: From Distributed Capacity To
+Coordinated Action
+
+3.1 Purpose
+
+Connect will help European actors find the expertise and support needed to act.
+Knowledge is spread across public administrations, communities, foundations,
+universities, companies, integrators, hosters, Open Source Programme Offices
+(OSPOs), funders and European programmes. Needs and contribution offers often
+fail to reach an actor able to respond.
+
+During the first cycle, Connect will route qualified European needs, barriers and
+contribution offers to expertise, procurement support, deployment actions,
+maintainers, funding instruments or governance decisions.
+
+It serves both demand and supply. Public and private organisations need help
+adopting and operating digital commons. Communities, maintainers and European
+suppliers need clearer demand signals, contribution routes, and access to
+deployment environments and expertise. Connect brings them together around
+concrete cases.
+
+The first cycle will test whether this light structure advances real cases and makes
+findings from different sources useful for common decisions. Success means
+progress from a qualified need to a useful next step. Directory size, contacts, events
+and reports are supporting activity measures.
+
+3.2 The Minimum Connect Offer
+
+The first cycle will concentrate on three linked services.
+
+Qualified intake and routing. The one-stop shop will receive European use cases,
+support and expertise requests, adoption barriers, dependency needs and
+contribution offers. It will qualify each request and route it to the most credible
+existing support through national or local nodes, EDCOM partners, experts and
+communities, procurement resources, challenges, EU-STF or other European
+instruments. Decisions requiring DC-EDIC governance will go to the competent level.
+
+Access will be online, complemented where useful by events, nodes and partner
+facilities. The expertise hub will begin with active EDCOM and Strategy cases,
+providing guidance or referrals where credible expertise is available. Its scope will
+grow as expertise and capacity are confirmed.
+
+The service will reuse European and national catalogue records, including the EU
+Open Source Solutions Catalogue, through links, shared metadata and technical
+federation where access and reuse conditions permit. It will add case qualification,
+evidence and a practical next step, using structured metadata such as
+publiccode.yml where useful.
+
+For adoption cases, qualification will cover the user need, demonstrated maturity,
+deployment conditions, available security and conformity evidence, support
+providers, support and maintenance responsibilities and procurement routes.
+Information will be dated and its limitations explicit.
+
+Cooperation with the Open Internet Stack and public-sector Open Source
+Programme Offices will connect users to existing discovery, assessment, support
+
+Adopted by the Assembly | 16 October 2026  10 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 11
+
+and deployment services. The DC-EDIC will qualify needs, refer cases and add
+support where a gap is established. Regular operational exchanges with
+counterparts will clarify service boundaries, referrals, responsibilities and reusable
+evidence as services develop.
+
+A first-cycle journey may connect a community, open-source software steward,
+manufacturer or user with competent legal, security, remediation, service or funding
+support for a Cyber Resilience Act (CRA) need. Referrals will respect existing
+statutory responsibilities and the competence of conformity authorities.
+
+Shared adoption resources. The DC-EDIC will test a small set of resources against
+recurring needs from active cases, starting with partners' reviewed methods,
+migration playbooks, deployment evidence and expert referrals. Procurement
+guidance, model clauses, rulebooks, trust and data-governance patterns or training
+material may follow as use cases, competent owners and resources are confirmed.
+Maintained resources will have owners, review arrangements and reuse conditions.
+
+Where several components must form one service, this work may test service-
+integration and common procurement models. These will preserve open competition,
+component substitutability, transparent responsibilities and a credible maintenance
+route.
+
+Selected procurement resources will be tested with buyers and providers on a real
+case before wider dissemination. Validated elements may form a reusable toolkit for
+Member States and interested organisations, separating common methods from
+necessary national adaptations.
+
+Use-case actor and capability map. For active requests and Strategy use cases, the
+DC-EDIC will map adopters, product teams, communities, maintainers, integrators,
+hosters, security and procurement expertise, and other capabilities needed. The
+map will identify availability and gaps, matching each case to the capabilities it
+needs. It will grow with the cases handled and retain evidence for portfolio decisions.
+
+Adopted by the Assembly | 16 October 2026  11 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 12
+
+ Figure 2: Connect links shared needs to expertise and action, then uses the results to improve support
+                                                          and common priorities.
+
+3.3 Community Network And Local Nodes
+
+The Community Network will connect actors to share cases, expertise and evidence.
+Voluntary local nodes may coordinate national, regional, sectoral or thematic
+participation where a capable organisation is willing to convene actors, qualify needs
+or support participation.
+
+Nodes will follow common participation and evidence principles; formal governance
+rights remain those of the Statutes. They can make European cooperation accessible
+across languages, administrative levels and levels of maturity.
+
+EDCOM WP2 supports initial network coordination, shared methods and contact
+points. National and local conveners connect users and contributors; the designated
+DC-EDIC representative ensures alignment with common priorities and European
+activities. Member State representatives and contact points help identify shared
+needs, drawing first on contributions received. The Director and team compare
+converging requirements and gaps with members and delivery partners to inform
+
+Adopted by the Assembly | 16 October 2026  12 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 13
+
+priorities under Sections 6 and 8. Countries can contribute users, expertise or test
+cases regardless of whether they bring a product team or funding.
+
+Peer exchanges, workshops and communication support Connect when they help
+solve cases, spread reusable methods or build trust for delivery. Their value lies in
+the resulting action and reuse. Communication on results and successful cases will
+make delivery evidence available to a wider audience.
+
+Connect will help maintainers share practices and access expertise; Maintain will
+address specific dependencies' continuity needs.
+
+Member States and partners may form regional or thematic acceleration groups
+around concrete cases. Their methods and outputs should remain open to wider
+participation and reusable across the Community Network.
+
+3.4 State Of Digital Commons
+
+The State of Digital Commons will provide a concise annual synthesis of identified
+needs, relevant initiatives and lessons from Strategy activities. It will draw on existing
+project reporting, Member State and observer knowledge, and selected research,
+concentrating analysis on findings that change portfolio, contribution or governance
+decisions.
+
+Significant developments may prompt targeted updates between editions.
+Recommendations will identify their sources, scope and intended audience. Work
+will remain proportionate to delivery priorities, while EDCOM outputs retain their
+agreed timetable.
+
+3.5 First-Cycle Results
+
+By the end of 2027, Connect will demonstrate that:
+
+ � qualified needs and contribution offers can reach useful next steps with limited
+     administrative burden;
+
+ � active cases reuse reviewed adoption guidance, deployment lessons or expert
+     referrals, with procurement work tied to confirmed owners and resources;
+
+ � active use cases have credible actor and capability maps;
+ � the Community Network and selected local nodes improve access to expertise
+
+     and participation;
+ � recurring ecosystem evidence informs portfolio and governance decisions.
+
+Expansion beyond this lean minimum offer will require repeated demand, a credible
+owner and confirmed resources.
+
+Adopted by the Assembly | 16 October 2026  13 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 14
+
+4. Deploy: Making Adoption Work End To End
+
+4.1 Purpose And Target Model
+
+Deploy aims to give Member States and European organisations open-source
+alternatives they can deploy at scale in key domains.
+
+The DC-EDIC will define specific use cases in priority domains. With partners, it will
+select mature software and components and mobilise the integration, operating and
+maintenance capacity to deploy and sustain them.
+
+Users and operators will validate solutions through concrete journeys covering
+integration, identity and permissions, security and compliance, accessibility and user
+experience, procurement and migration, organisational adoption, support and
+maintenance. Priority will go to improvements in components, interfaces and
+methods that other organisations can reuse.
+
+Transparent criteria, open standards and interfaces, replaceable components and
+shared tests will govern selection. Other actors can contribute and other solutions
+can meet the same requirements. Organisations retain the ability to switch solutions.
+Deployment findings will establish readiness, remaining barriers and choices to
+revisit. The approach can be repeated in other domains.
+
+4.2 First-Cycle Scope: Collaborative Workspace
+
+The first proposed flagship will improve collaborative knowledge work across
+organisations and countries. Five objectives guide the programme:
+
+  1. Better tools for everyday work. Improve quality, accessibility, ease of use and
+      continuity between tools, including useful AI assistance under user control.
+
+ 2. European interoperability that preserves trust. Enable collaboration across
+      independently governed environments, with reliable identities, clear permissions
+      and control over information.
+
+ 3. A diverse and innovative European market. Give communities and companies,
+      including smaller providers, common foundations for differentiated products and
+      services, while preserving users' ability to change tools or providers.
+
+ 4. Shared, high-quality building blocks maintained for the long term. Align
+      technical priorities and contributions to development, integration, end-to-end
+      testing, security and lifecycle care, reducing duplicated effort where joint work
+      proves more effective.
+
+ 5. A contributing coalition around a common brand. Bring States, product teams,
+      maintainers, providers and adopters together around a shared roadmap and
+      concrete contributions. The programme brand will identify this effort and its
+      results alongside participating product brands, under Section 8.5.
+
+Members outside EDCOM can contribute alongside its funded work. Nationally
+managed resources may support agreed common projects; participating teams
+confirm their contributions and retain their product and deployment choices.
+
+The initial use-case tracks are:
+
+Track     User journey                     What should work across configurations
+Document
+          Co-edit, share and export a      Find, open and share the same document
+          document with another            with explicit permissions, then export it in a
+          organisation.                    portable format.
+
+Adopted by the Assembly | 16 October 2026   14 / 50
+Implementation Strategy / 2026-2027           Digital Commons EDIC | 15
+
+Track          User journey                   What should work across configurations
+Communication
+               Message project participants   Users on independently governed servers
+Meeting (TBC)  and receive relevant mentions  can join a shared room under mutually
+               and notifications.             recognised access and trust policies, with
+                                              clear user and administrator controls.
+               Join from the project space
+               and retain authorised notes,   Meeting outputs remain traceable,
+               recording, transcript or       appropriately accessible and linked to
+               summary.                       relevant project resources.
+
+A first document proof would test creating, inviting, co-editing, sharing and portable
+export in at least two controlled reference environments representing distinct
+organisational and national settings. Tests will cover identity and permissions, and,
+where transition requires it, coexistence with incumbent formats, calendars and
+workflows.
+
+The Matrix protocol offers an emerging route for Communication; Meeting remains in
+discovery. A validated shared gap may justify assessing a reusable
+videoconferencing layer, such as a selective forwarding unit.
+
+Across modular tools or pre-integrated suites, journeys should preserve identity,
+permissions, context and authorised outputs, considering shared resource
+addressing, events and audit conventions. The flagship will establish a shared
+reference of interfaces, tests, reproducible configurations and operating
+conditions. Partners will develop it within the DC-EDIC's validated common
+framework and choose delivery arrangements.
+
+4.3 Choosing Interventions For Shared Value
+
+The DC-EDIC and partners will use a consistent, proportionate approach to selecting
+technologies, standards and delivery partners: start from a validated user need,
+compare feasible options against the portfolio criteria and explain the choice through
+existing programme records.
+
+Selection will favour the strongest shared user benefit relative to full lifecycle costs
+and risks, considering European added value and partner capabilities. Interventions
+may support upstream improvements, shared components and interoperability, or
+procurement, migration and adoption.
+
+Shared foundations merit joint development where needs converge; distinct
+products can improve usability, capability or resilience. Support will favour open,
+modular assets that serve several solutions and remain replaceable under common
+tests. Projects and maintainers will agree contributions, integration and maintenance
+arrangements. Product owners retain responsibility for product-specific
+development and fixes; shared dependency weaknesses go to Maintain.
+
+Where shared needs justify joint effort, the DC-EDIC will seek cooperation with the
+Open Internet Stack (OIS), relevant EDICs and other ecosystem actors to identify and
+develop reusable open digital assets. Contributions will build on existing assets and
+community work. Each will enter the existing portfolio with a receiving owner, clear
+reuse conditions and validated resources.
+
+Adopted by the Assembly | 16 October 2026     15 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 16
+
+4.4 Delivering Through 100-Day Challenges
+
+First-cycle challenges will improve existing open-source components where
+needed to complete qualified use cases. Priority goes to general-purpose
+commons serving several solutions, such as BlockNote for collaborative editing or
+Matrix for real-time communication.
+
+Member States and partners may initiate independently funded 100-day challenges
+within the agreed strategic framework through a simple notification procedure.
+Formal DC-EDIC approval is only required where central resources are involved or
+where the challenge is to become part of the official DC-EDIC portfolio.
+
+Challenges involving central resources or seeking inclusion in the official DC-EDIC
+portfolio follow the two-phase process below:
+
+Qualification. Proposals from Member States and observers, EDCOM partners,
+users, product teams, maintainers or Connect are assessed for need, European
+added value and feasibility. The phase ends with an approved launch brief covering:
+
+ � Result and approach: the intended result and user benefit, blocker to resolve in
+     100 days, reusable intervention, feasible alternatives within programme scope
+     and chosen form of sharing.
+
+ � People and resources: participating users and environments, delivery lead,
+     confirmed resources, credible receiving owner, responsibilities and contribution
+     arrangements.
+
+ � Success and continuity: measurable success criteria, evidence for the next
+     decision, and handover and maintenance arrangements.
+
+Delivery. Partners carry out the work, test it with users and arrange handover. The
+phase ends with a completion brief recording results against success criteria,
+supporting evidence, deviations, reuse and maintenance conditions, and proposed
+next steps. Accepted results and the brief enter the portfolio for review and reuse.
+
+Challenge records will specify the applicable start and completion dates, key review
+points and resources, using existing programme documents where they serve this
+purpose. Challenges already under way will continue under their agreed EDCOM
+arrangements; the DC-EDIC and work-package leads will consolidate their progress
+and remaining milestones through programme management.
+
+Governance responsibilities:
+
+ � DC-EDIC validates the launch brief on strategic grounds and reviews the
+     completion brief against the same criteria: Strategy and portfolio alignment,
+     European added value, common principles (Section 2.4) and expected results.
+     The Director and team act within the approved frame and delegations, with
+     independently secured capacity.
+
+ � Delivery partners manage technical, organisational and contractual
+     arrangements and prepare both briefs within their mandate and applicable
+     technical governance. The receiving owner validates technical conformity and
+     takes over the result under the delivery agreements.
+
+The Assembly retains decisions reserved by the Statutes and Section 8.7. EDCOM
+scope and resources remain subject to its governance and contractual procedures.
+Detailed work package 4 (WP4) criteria will be consolidated through the programme.
+
+Adopted by the Assembly | 16 October 2026  16 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 17
+
+DINUM and ZenDiS will lead initial EDCOM campaigns with the DC-EDIC, seeking
+wider participation. Collaborative Workspace remains the priority. Subject to
+confirmed design and capacity, a use case may span several challenges. The
+proposed first Document campaign could, for instance, align openDesk Notes and
+Docs release cycles, then consider BlockNote improvements in accessibility, mobile
+use, suggested edits and reliable AI assistance for collaborative editing across
+products and configurations.
+
+Within the official DC-EDIC portfolio, a challenge in another domain may provide a
+bounded preparatory proof after Future Domains Roadmap qualification and a
+decision confirming scope, owner, resources and evidence requirements. A new
+flagship requires an explicit portfolio decision.
+
+Adopted by the Assembly | 16 October 2026  17 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 18
+
+       Figure 3: Each flagship develops through selected user journeys. Challenges improve existing
+                                components to remove the obstacles those journeys reveal.
+
+4.5 First-Cycle Results And Learning
+
+Deployment proofs will test representative journeys with trustworthy permissions
+and data. They will identify barriers to regular use and repeat deployment, covering
+integration, migration, accessibility, training, support, organisational ownership,
+procurement and user confidence. Relevant tests will include legacy formats, critical
+workflows and web-desktop interoperability.
+The DC-EDIC will work with participating teams to collect and consolidate feedback
+from users across countries, including beyond products' home markets. Teams will
+use existing project channels to show how this feedback informs priorities and fixes,
+
+Adopted by the Assembly | 16 October 2026  18 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 19
+
+and explain significant needs left unmet. Findings will inform subsequent challenges
+and portfolio reviews, while product owners retain responsibility for their roadmaps.
+
+For journeys reaching regular use, partners will also document the path from need to
+procurement, operation and support. The review will specify the arrangements
+actually used, observed costs, maintenance responsibilities and the conditions
+enabling another organisation to repeat the journey.
+
+By the end of 2027, Deploy will have produced:
+
+ � regular cross-organisational document collaboration in participating
+     organisations, with accountable operators, and reuse of the shared reference in a
+     further organisational setting;
+
+ � reference proofs for at least one additional qualified use case, tested across
+     several controlled environments;
+
+ � challenge results accepted and integrated by receiving owners, removing
+     defined blockers in real use;
+
+ � reusable interoperability, migration, security, user experience and support
+     evidence.
+
+Connect will reuse the improvements and evidence with adopters, integrators and
+other ecosystem actors. Material dependency risks go to Maintain.
+
+During 2027, one Future Domain, or two if capacity permits, may enter discovery.
+Each requires verified European demand, a credible user and contributor coalition,
+accountable preparation, a plausible reusable intervention and identified resources.
+Discovery must protect delivery capacity for Collaborative Workspace and other
+first-cycle commitments.
+
+The end-2027 review will decide which journeys to continue, whether the model can
+be repeated, which assets to add to the shared reference base and whether a Future
+Domain is ready to become a flagship. Material new programmes follow Section 8.7
+decision rights and remain subject to available capacity.
+
+Adopted by the Assembly | 16 October 2026  19 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 20
+
+5. Maintain: Critical Dependencies And Stewardship
+
+5.1 Purpose
+
+Maintain helps make digital commons dependable infrastructure by identifying
+critical projects and organising action to secure, repair and sustain them. It builds
+European understanding of shared dependencies and strengthens stewardship
+through proportionate action. Funding is one instrument of this broader function.
+
+Stewardship keeps maintenance, security, support and continuity responsibilities
+visible and credible over time. Software ownership and direct maintenance remain
+with the relevant projects, communities, companies or operators.
+
+Maintain will combine real-deployment evidence, maintainer knowledge, security
+signals and public-interest priorities to identify dependencies. It will assess where
+European coordination can reduce shared risk or improve adoption confidence,
+choose proportionate support or continuity responses and review results.
+Assessments may change deployment choices, trigger remediation or continuity
+work, connect projects to support or identify targeted financing needs.
+
+EU-STF is the first identified financing route for targeted maintenance. Other
+remediation or continuity actions require an existing partner route or additional
+funding.
+
+The initial DC-EDIC contribution to the European Digital Public Infrastructure Steward
+Organisation envisaged by the Commission will be preparatory design input. Under
+the Director's responsibility, its scope, expected output and means will be agreed
+with the Commission and interested Member States and communities, taking
+account of existing stewards.
+
+The first cycle will test whether dependency evidence leads to credible interventions
+that improve resilience with a proportionate burden on maintainers. The link between
+deployment needs, interventions and results must remain visible.
+
+5.2 Critical Dependency Intelligence
+
+Critical Dependency Intelligence will regularly assess dependencies important to the
+DC-EDIC portfolio and Member States. Assessments will combine evidence such as
+prevalence in real use cases, functional importance, vulnerability, governance
+health, maintainer capacity, public interest and the feasibility of useful intervention.
+
+The DC-EDIC remains accountable for the questions addressed, assessment-
+method integrity and links to portfolio decisions. Member States and observers,
+EDCOM partners, security actors and maintainers provide specialist assessments
+under appropriate delivery arrangements.
+
+Each assessment must state sources, uncertainty and limits, drawing on maintainer
+knowledge through proportionate reporting and engagement. It may identify
+candidate interventions; funding follows the applicable governance and resource
+process.
+
+For selected cases, the assessment, funded work package or deployment record will
+specify responsibilities, maintenance and security arrangements, support routes,
+continuity gaps and a review point. Maintainers and delivery partners will carry out
+resulting actions.
+
+Adopted by the Assembly | 16 October 2026  20 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 21
+
+For selected dependencies, the assessment will also examine how user
+organisations and service providers contribute to upstream projects: funding,
+maintenance time, fixes or other contributions agreed with maintainers. It will make
+visible any continuity needs that remain unmet.
+
+The DC-EDIC will maintain exploratory exchanges with the JRC and relevant
+Commission services as their open-source assessment work develops.
+
+5.3 EU-STF Pilot
+
+The EU-STF Pilot will test whether targeted European financing improves the
+resilience, security and continuity of selected critical digital commons.
+
+It covers the full funding cycle: bottom-up dependency identification and
+assessment, informed by an open ecosystem consultation; agreement on bounded
+work packages with trusted maintainers; contracting; implementation support; and
+review. Based on an open survey, selection will consider relevance, prevalence,
+vulnerability, public interest, feasible activities, maintainer expertise and European
+added value.
+
+The Sovereign Tech Agency will operate the pilot within EDCOM, leading technical
+design, assessment, work-package development, contracting, delivery support and
+operational reporting under the agreed mandate. The DC-EDIC will be accountable
+for the European public-value hypothesis, governance safeguards, links to
+dependency and deployment evidence, and evidence-based review.
+
+Drawing on the Sovereign Tech Agency's experience with core digital infrastructure,
+the pilot will target open digital base technologies. It complements Deploy, which
+starts from shared use cases and functional adoption barriers.
+
+The pilot has three proportionate decision points:
+
+ � Design review: the DC-EDIC aligns with the Sovereign Tech Agency on criteria,
+     safeguards, operating arrangements and the evidence model.
+
+ � Cohort selection: the DC-EDIC Director coordinates the selection of the
+     proposed cohort with the Sovereign Tech Agency following its technical analysis.
+
+ � End-2027 review: the Assembly of Members, regularly informed of progress,
+     evaluates the pilot and decides whether and under which conditions it should
+     scale.
+
+During 2026-2027, the pilot will move from design to a bounded cohort launch and
+initial evidence collection. Funded work may continue into 2028; the end-2027
+review will use the evidence then available. Findings can inform future European and
+Member State decisions, including possible longer-term maintenance capacity.
+
+Operating evidence can inform the Commission's proposed Open Source
+Maintenance Instrument. Financing experience contributes to the wider stewardship
+agenda in Section 5.1.
+
+Adopted by the Assembly | 16 October 2026  21 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 22
+
+5.4 First-Cycle Results
+
+By the end of 2027, Maintain will demonstrate that:
+
+ � deployment and ecosystem signals can produce trusted dependency
+     assessments;
+
+ � a bounded maintenance cohort can be selected and contracted through a
+     credible partner-carried route;
+
+ � initial delivery evidence is useful, maintainer administrative burden remains
+     proportionate and maintainer experience is documented;
+
+ � selected assessments, funded work packages and deployment proofs identify
+     credible maintenance, stewardship and continuity responsibilities;
+
+ � evidence supports a decision on developing European maintenance capacity
+     further.
+
+The EU-STF Pilot and Critical Dependency Intelligence will launch separately during
+the first cycle. The end-of-cycle review will also assess Maintain's coherence as a
+system. Critical Dependency Intelligence should inform priorities and interventions;
+EU-STF will test targeted financing. Statutory support routes and EDCOM outputs
+will make maintenance and continuity responsibilities visible. The instruments should
+share evidence, apply consistent criticality criteria and, where practical, use a
+common intake and assessment route.
+
+Adopted by the Assembly | 16 October 2026  22 / 50
+Implementation Strategy / 2026-2027                   Digital Commons EDIC | 23
+
+6. The 2026-2027 Portfolio
+
+6.1 Eight Expected First-Cycle Results
+
+The first cycle has eight expected results. Seven organise delivery: three Connect
+products form a collective-action system; two Deploy products link a flagship to its
+delivery instrument; two Maintain products connect dependency intelligence with a
+first financing pilot. The eighth, the Future Domains Roadmap, manages options
+across the portfolio.
+
+Each has a defined purpose, identifiable users or decision-makers, a tangible result
+expected by the end of 2027 and a review point. EDCOM-backed services, proposed
+pilots and future-option decisions differ in maturity, resources and delivery
+arrangements. All must produce useful results.
+
+The seven operating products follow the common impact requirement in Section 9.2.
+The Future Domains Roadmap is assessed separately for the quality and usefulness
+of its prioritisation and preparation decisions.
+
+Product or service       Function                     Tangible result by the end of 2027
+                         Connect
+Community Network and                                 A working participation network and selected
+Local Nodes                                           voluntary nodes help connect real cases with
+                                                      actors, expertise and contribution opportunities.
+one-stop shop and        Connect
+expertise hub                                         A usable intake and routing service brings qualified
+                                                      European needs and contribution offers to a
+State of Digital Commons Connect                      credible next step.
+
+Deployment Challenge     Deploy                       A concise annual synthesis of needs, initiatives and
+Programme                                             lessons informs portfolio, contribution or
+                                                      governance decisions, with targeted updates when
+Collaborative Workspace  Deploy                       useful.
+Flagship
+                                                      Bounded challenges remove adoption blockers
+Critical Dependency      Maintain                     through accepted, integrated and used
+Intelligence             Maintain                     improvements, reusable assets and clear handover
+                                                      to a receiving owner.
+EU-STF Pilot
+                                                      Organisations collaborate across organisational
+Future Domains Roadmap Cross-                         boundaries on documents in routine work, with
+                                           portfolio  accountable operators, and reuse the shared
+                                                      reference in a further organisational setting. At least
+                                                      one additional qualified use case is tested across
+                                                      controlled environments.
+
+                                                      Recurring assessments inform deployment,
+                                                      security, maintenance and funding decisions.
+
+                                                      A bounded maintenance cohort is selected and
+                                                      contracted through a credible partner-carried route,
+                                                      generating initial evidence.
+
+                                                      Future domains meeting preparation conditions
+                                                      receive evidence packs and explicit launch,
+                                                      prepare, defer or stop decisions.
+
+Detailed product charters remain working management instruments, recording
+current users, named accountability, delivery arrangements, resources, evidence,
+risks and next review points.
+
+Adopted by the Assembly | 16 October 2026             23 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 24
+
+6.2 Sequencing
+
+Delivery actors will organise work in stages around the smallest useful proof, existing
+funding, confirmed partner capacity and evidence needed for later decisions.
+Budgets and timetables will reflect these conditions, starting with EDCOM funding.
+
+Connect will start through EDCOM work package 2 (WP2). Community engagement
+and local nodes will open participation routes; the one-stop shop and expertise hub
+will develop intake and referral; the State of Digital Commons will provide the initial
+evidence base. Linked from the outset, they will turn engagement into qualified
+cases and clear contribution opportunities within one operating system.
+
+Deploy will start through EDCOM challenges, initially focused on digital workspaces.
+They will improve existing open-source components for qualified use cases and can
+progressively strengthen the Collaborative Workspace Flagship. The Sovereign Tech
+Agency will operate EU-STF, the first Maintain pilot, within EDCOM. Connect will
+bring cases and actors to these instruments; they will return deployment and
+maintenance evidence to the portfolio.
+
+Critical Dependency Intelligence and EU-STF remain separate first-cycle
+instruments. The end-2027 review will assess whether they should work as a more
+coherent system.
+
+The Future Domains Roadmap develops alongside delivery. Domains beyond the first
+flagship can enter active preparation or delivery once evidence, ownership and
+capacity are established through its decision process.
+
+6.3 Future Domains Roadmap
+
+As open-source technologies and markets evolve during and after the first cycle, the
+roadmap identifies potential domains for assessment of shared demand, European
+added value and delivery capacity. Illustrative families include:
+
+ � cloud, hosting and network services;
+ � coding and developer tools;
+ � desktop operating systems and virtualisation;
+ � mobile application distribution;
+ � AI-enabled open-source capabilities;
+ � other strategic digital commons proposed by Member States.
+
+Selection and commitment follow the roadmap decision process, using six common
+criteria:
+
+ � shared demand and intended users;
+ � European added value, relation to the statutory mandate and complementarity
+
+     with relevant European initiatives, including the EU Open Source Strategy;
+ � existing assets, actors and contribution capacity;
+ � adoption, interoperability and security barriers;
+ � the smallest useful proof;
+ � ownership, resources and maintenance path.
+
+Active work requires a defined decision need, accountable preparation and
+confirmed capacity. Every theme must reach an explicit launch, prepare, defer or
+stop decision. A material new programme follows the appropriate Assembly or
+delegated governance route. Regular decisions keep the roadmap current and
+resolve outstanding themes.
+
+Adopted by the Assembly | 16 October 2026  24 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 25
+
+7. Conditions For Trustworthy Adoption
+
+7.1 Cybersecurity
+
+Cybersecurity is a condition of adoption from discovery to handover. Every
+deployment or maintenance intervention identifies the security and software-supply-
+chain baseline, assurance methods, responsibility for vulnerabilities, means to
+remedy them and expected continuity arrangements.
+
+Evidence remains proportionate to the use case and legal context. Relevant
+obligations and practices may include the Cyber Resilience Act, NIS2, GDPR, supply-
+chain security, secure hosting, privacy and security by design, zero-trust principles
+and independent assessment. Existing European schemes and ENISA work will be
+reused where appropriate. Assurance will also consider cryptographic agility and
+readiness for future cryptographic transitions where relevant.
+
+Identifying vulnerabilities must lead to credible means of remedying them. Where
+stronger requirements create work for communities or maintainers, the intervention
+examines the capacity and resources they need to meet them.
+
+A security concern can reshape or stop a pilot. The concern, evidence, responsible
+actor and review process are recorded to inform that decision.
+
+7.2 Artificial Intelligence
+
+AI can reduce the cost of producing code, tests, documentation, translations and
+support. It can help analyse vulnerabilities, understand large codebases and operate
+complex systems. This changes open-source economics and practice, potentially
+allowing smaller communities and public-interest projects to achieve results
+previously requiring much larger teams.
+
+Faster code production can also increase review and maintenance workloads.
+Generated contributions may weaken provenance or community trust. AI-enabled
+features can create dependencies on models, data, compute, licences and external
+services, and change users' understanding of responsibility when systems propose
+or perform actions.
+
+A dedicated AI workstream will open where AI materially changes a portfolio activity,
+user journey, software-production process, security posture, maintenance burden or
+strategic dependency. It will state the expected value, human-control arrangements,
+data and compute needs, licensing and provenance conditions, security implications
+and community effects. Assessment of a material AI-enabled capability also covers
+exit conditions and costs if a model, provider, service or compute source becomes
+unavailable or unacceptable.
+
+Collaborative Workspace AI assistance must demonstrate reliability, remain
+attributable and reviewable, and keep consequential actions under human control. In
+Maintain, AI may support code understanding, testing and vulnerability handling
+while preserving maintainer judgement and manageable community review
+workloads.
+
+The Future Domains Roadmap can assess AI-enabled open-source capabilities as a
+possible domain. A general AI programme requires a later portfolio and governance
+decision.
+
+Adopted by the Assembly | 16 October 2026  25 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 26
+
+7.3 Interoperability, Portability And Exit
+
+European reuse depends on interoperability. Assessments will address legal,
+organisational, semantic and technical interoperability, drawing proportionately on
+the European Interoperability Framework and applying Interoperable Europe Act
+requirements where relevant. Open source supports transparency, reuse and
+adaptation; technological neutrality and effective switching also require open
+standards, compatible interfaces and evidence from deployment and substitution
+tests. The Strategy favours open standards and formats, explicit interfaces and
+documented conformance methods. Deployment assessments will establish whether
+data, permissions and relevant workflows retain acceptable integrity and usability
+across components and organisations. Cross-organisational or cross-country proofs
+will check consistent meanings for shared information and access rights, with
+explicit mappings where practices or languages differ.
+
+Procurement arrangements and reference configurations will make migration
+assumptions visible, preserve auditability and favour practically replaceable
+dependencies. Portability includes the ability to leave a solution: a substitution test is
+often more informative than a general claim of modularity.
+
+Transition evidence will separate the cost of leaving the incumbent and reaching a
+neutral, usable interface from the cost of adopting the target solution. This keeps
+total transition effort visible without attributing accumulated lock-in to the alternative.
+
+The DC-EDIC may publish profiles, requirements and test evidence during the first
+cycle. A future certification or label role requires separate legal, governance,
+technical, market-neutrality and maintenance analysis and an appropriate decision.
+
+Where deployment reveals a standards gap, the DC-EDIC will raise it through the
+relevant European or international standardisation and interoperability channel and
+support the competent process.
+
+7.4 User Experience And Organisational Adoption
+
+Usability determines whether people can adopt an interoperable, secure capability.
+Each proof includes representative users and considers accessibility, design,
+multilingual use, onboarding, support and the complete journey's coherence.
+
+Organisational adoption receives the same rigour as code. Management support,
+political confidence, procurement readiness, training, migration planning and
+operating responsibility can determine success. As it moves to regular use, each
+participating organisation will identify its adoption lead and the resources needed to
+support users. Evidence will distinguish a functioning prototype from a capability the
+organisation can operate.
+
+Adopted by the Assembly | 16 October 2026  26 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 27
+
+7.5 European Ecosystem And Economic Capacity
+
+Digital commons rely on viable organisations as well as code. Communities and
+foundations provide governance and knowledge; maintainers sustain the technical
+base. Open-source companies, integrators, hosters and support providers turn
+components into dependable services. Public administrations and other anchor
+users bring demand, evidence and continuity.
+
+Shared software foundations allow several companies to offer integration, hosting,
+training and support services. The aim is to widen buyers' effective choice and
+enable European providers, particularly SMEs, to develop their business across
+countries using common resources.
+
+The first cycle strengthens their combined delivery capacity around concrete use
+cases. Transparent requirements and procurement methods can help European
+SMEs and integrators meet demand. Reference implementations can reveal support
+or integration gaps; maintenance interventions can improve trusted maintainers'
+working conditions; reusable evidence can lower entry costs in another national
+market.
+
+The DC-EDIC will use open contribution routes, objective criteria and conflict-of-
+interest safeguards. Ecosystem growth will be demonstrated by European actors'
+ability to deliver, support and sustain capabilities users need.
+
+Adopted by the Assembly | 16 October 2026  27 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 28
+
+8. Delivery, Governance And Resources
+
+8.1 Operating Accountability
+
+Statutory responsibilities remain unchanged. The Assembly sets direction, adopts
+the Strategy and annual work programme, supervises implementation, and decides
+material changes and the portfolio's future at the end of 2027.
+
+Members exercise governance and voting rights, provide statutory contributions and
+support DC-EDIC work, including uptake, user feedback and national digital
+commons ecosystems. Observers may contribute to Strategy activities, provide ad
+hoc support and promote uptake and ecosystem development under the Statutes.
+
+The Assembly appoints the Advisory Board with an equitable distribution of
+stakeholders with relevant expertise. The Board advises the Assembly and may
+challenge evidence and advise on priorities, risks and review decisions. Executive
+and statutory authority remain with the Director and Assembly.
+
+The Director manages the DC-EDIC day to day and implements Assembly decisions.
+With the team's support, the Director allocates work within the approved budget and
+work programme, manages implementation risks, reports progress and submits
+proposed amendments to the Assembly.
+
+Each active product or service will have a named DC-EDIC point of accountability,
+held by the Director or a designated team member. This person ensures alignment
+with the Strategy, reviews results and brings material issues to the appropriate
+decision level. Operational delivery may be led by an implementation partner, such
+as the Sovereign Tech Agency for EU-STF, under agreed responsibilities and
+reporting arrangements.
+
+The designated DC-EDIC representative will have direct access to beneficiaries and
+delivery teams, access to expertise to assess user needs and technical feasibility,
+and authority to agree and adjust priorities with partners within approved mandates
+and resources. Partners retain technical choices and delivery methods. These
+arrangements enable action on user feedback and delivery obstacles.
+
+The Director will give the Assembly regular, concise updates on progress against
+expected results, resources, material risks, partner dependencies and decisions due
+for review. Material deviations or commitments outside the validated Strategy follow
+the appropriate Assembly procedure. Routine delivery remains with the Director,
+designated team members and implementation partners, according to their agreed
+responsibilities.
+
+The DC-EDIC acts directly where shared accountability, governance or evidence
+requires a responsible European body. Elsewhere, it coordinates, supports or tests
+partner delivery. Activities lacking a credible owner, delivery route or resources will
+be deferred.
+
+8.2 EDCOM: The First Delivery Programme
+
+EDCOM provides the first funded delivery programme: WP2 for Connect, WP3 for
+Maintain and WP4 challenge campaigns for Deploy. Annex E details the
+correspondence.
+
+EDCOM provides funded capacity and delivery partnerships for the first cycle.
+Partners contribute expertise and evidence to Strategy development; the Assembly
+
+Adopted by the Assembly | 16 October 2026  28 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 29
+
+adopts the Strategy and the Director implements it under Sections 8.1 and 8.7.
+Partners retain their technical and contractual responsibilities under the Grant
+Agreement.
+
+EDCOM outputs retain their contractual scope, timetable and governance. The
+Strategy links them to expected results and shared evidence through the existing
+Grant Agreement and delivery structures. Results outside EDCOM require separately
+authorised delivery and resource arrangements.
+
+8.3 Participation, Membership And Enlargement
+
+Enlargement is a priority of this Strategy: bringing in additional Member States will
+help the DC-EDIC reach critical mass within the European Union and broaden its
+financial, technical and human resources.
+
+Member States, observers, countries interested in joining and ecosystem actors can
+contribute to specific work. Communities, maintainers, companies, researchers, civil
+society and European institutions may propose use cases, host pilots, contribute
+code, methods or expertise, involve users, fund work or provide in-kind support.
+
+The DC-EDIC will explain contribution needs, who assesses proposals and how
+contributors receive feedback. A proposal becomes a commitment when its work,
+responsibilities, resources, timetable and conditions are approved under applicable
+rules.
+
+An interested country can assess cooperation by joining a pilot or contributing
+expertise. The consortium gains use cases, skills and further organisations for
+testing solutions.
+
+Membership brings participation in Assembly decisions on priorities, budget and
+Strategy, with statutory rights and responsibilities. Observers contribute under their
+status; other actors use transparent contribution or delivery arrangements. Open
+outputs benefit the wider ecosystem under Section 8.6. During the first cycle, the
+DC-EDIC will explain these opportunities through ongoing work and achieved results.
+
+Practical cooperation will support both engagement with additional countries and the
+path from participation to membership. The DC-EDIC's partnerships work will
+connect companies, including SMEs and integrators, with shared projects around
+users' needs, building on initial use cases and national ecosystems. Its work
+programme will develop these relationships within available capacity and transparent
+participation arrangements.
+
+8.4 Resource Discipline And Concentration
+
+The portfolio combines the DC-EDIC core team and budget, EDCOM-funded
+capacity for initial Connect, Deploy and Maintain instruments, confirmed Member
+State and observer contributions, and the expertise, infrastructure and pilot
+environments of implementation partners described in Section 8.1. The mix varies by
+product and service.
+
+Protect core functions and choose priorities. Resources first cover statutory
+operations and portfolio accountability. The DC-EDIC must retain internal skills for
+user-centred product leadership and informed technical judgement, programme and
+grant control, Member State and ecosystem coordination, communication and
+institutional knowledge. The annual work programme then concentrates effort on
+
+Adopted by the Assembly | 16 October 2026  29 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 30
+
+limited activities selected for expected benefit, European added value, readiness and
+confirmed partner capacity.
+
+Confirm resources before starting work. Each product or service requires the DC-
+EDIC accountability defined in Section 8.1, a credible delivery lead or route,
+proportionate confirmed resources and access to relevant users or decision-makers.
+The applicable budget, work programme, product charter or delivery agreement will
+identify leads and record agreed funding, staffing and technical resources. One
+person may be accountable for several products, with explicit responsibility for each.
+
+Contributions enter delivery plans once scope, owner, timetable and conditions are
+confirmed. Each is counted once; expressions of interest require confirmation.
+Insufficient resources require a narrower objective, staged work or a deferred
+launch.
+
+Use enlargement to extend proven results. New members' contributions follow the
+same allocation criteria through the annual budget and work programme. They
+strengthen shared capacity for a larger membership, extend Connect, Deploy and
+Maintain results to more countries and, resources permitting, enable work on
+qualified Future Domains. New members' use cases, expertise, infrastructure or co-
+funding may accelerate this progression.
+
+Build skills in step with the work. From validation through the first quarter of 2027,
+the team will establish product leadership, direct user engagement, intake, evidence
+collection and programme control. Confirmed EDCOM and partner capacity will
+support first proofs. Additional skills and capacity will be mobilised for validated
+cases during 2027. The end-2027 review will determine what needs a durable
+internal, partner or mixed operating arrangement.
+
+8.5 Communication, Dissemination, Advocacy And Cooperation
+
+First-cycle communication will explain the mandate and work, establishing the DC-
+EDIC as a trusted European reference point on digital commons, open-source
+adoption and digital sovereignty. It will open participation and enlargement
+opportunities, use credible evidence to build adoption confidence and influence
+policy, and report progress, limitations and forthcoming decisions.
+
+The Director ensures coherence both institutionally and in the common narrative,
+and exercises publication authority subject to Assembly decisions and applicable
+procedures. Designated DC-EDIC representatives supply activity evidence and
+source caveats. EDCOM WP1 funds the first communication and dissemination
+campaign.
+
+Partner communication will use shared messages and brand principles, respecting
+delivery responsibilities and institutional voices. Partners remain responsible for
+claims about their own work. Joint communication will specify purpose, lead,
+attribution, supporting evidence, approval and timetable. The DC-EDIC
+communication plan will define audiences, responsibilities, channels and frequency.
+
+The Collaborative Workspace flagship will have a distinct programme brand clearly
+associated with the DC-EDIC, within its broader digital commons mission. Its promise
+is to help organisations collaborate, deploy and switch solutions through proven
+shared capabilities. The brand will identify the programme and its shared results;
+
+Adopted by the Assembly | 16 October 2026  30 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 31
+
+participating initiatives retain their own brands and delivery responsibilities. The
+communication plan will define the public name and rules of use.
+
+Assessment will cover reach and outcomes such as qualified contributions, reuse of
+published methods, new adoption paths, prospective-country engagement and
+documented follow-up to policy recommendations. The State of Digital Commons
+and portfolio results provide the principal advocacy evidence.
+
+The DC-EDIC will pursue limited practical links with related EDICs and relevant
+Interoperable Europe structures for defined use cases, interoperability, reuse or
+shared evidence. Before creating a parallel mechanism, it will assess reuse,
+federation or interoperability of existing European services under acceptable
+governance and access conditions.
+
+It will, for instance, explore cooperation with ALT-EDIC on multilingual capabilities
+and adoption pathways, potentially including translation, terminology, evaluation or
+language-technology support for cross-border services. Progress depends on
+validating the relationship, expected result and technology choices. Every
+cooperation initiative will identify an accountable contact and review point.
+
+8.6 Access, Reuse And Publication Conditions
+
+DC-EDIC services, infrastructures, events, advisory support and facilities will have
+open, transparent and non-discriminatory access conditions. Eligibility, priorities,
+selection criteria, available support and material limitations will be published
+electronically through an appropriate channel. Restricting an otherwise open activity
+to members requires Assembly approval.
+
+Selection decisions will explain the shared need, expected benefits across countries
+and relevant delivery capacity, using proportionate records within existing
+programme arrangements. The Director will address material gaps in participation
+through outreach and operational adjustments, reporting issues requiring collective
+decisions through the existing governance.
+
+Access and contributions will follow proportionate data-protection, security,
+confidentiality, procurement and conflict-of-interest safeguards. A service opens
+once responsibility, access, decision authority and sensitive-information handling
+are clear.
+
+Software jointly developed through the DC-EDIC will by default use licences meeting
+Article 27 free-software and open-source requirements. Contributors must disclose
+relevant prior knowledge, third-party components and restrictions early enough to
+prevent incompatible rights from limiting dissemination or reuse. Non-software
+outputs will have clear ownership, access, attribution and reuse conditions suited to
+their nature.
+
+Companion policies will maintain detailed access and intellectual-property
+procedures. Product charters and delivery agreements will apply them before
+relevant work or publication begins.
+
+8.7 Decision Rights And Adaptation
+
+The Assembly validates the strategic objective, Connect / Deploy / Maintain
+architecture, first-cycle portfolio, implementation principles, governance boundaries
+and reporting model. It retains strategic, statutory and reserved authority. A new
+
+Adopted by the Assembly | 16 October 2026  31 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 32
+
+first-cycle flagship, product endorsement, permanent funding mechanism, material
+resource commitment or substantial change to the Strategy or its perimeter returns
+to the Assembly through the appropriate procedure.
+
+The Director and team validate readiness to start, evidence for accepting results and
+next steps under the approved Strategy, budget, work programme and delegations
+for activities involving central resources or included in the official DC-EDIC portfolio.
+Independently funded challenges within the agreed strategic framework follow the
+notification procedure in Section 4.4. Within that perimeter and resource envelope,
+the Director may adjust milestones, methods, delivery instruments and individual
+items' scope or next steps in response to evidence. Product reviews cover scope
+and evidence; decisions are recorded at the competent level.
+
+Implementation partners retain technical assessment, contracting and routine
+delivery control; EDCOM delivery follows EDCOM governance. Partner-delivered
+pilots use staged reviews and reporting by exception. The DC-EDIC sets their
+common mandate, safeguards and evidence requirements and validates operational
+next steps within the approved frame.
+
+Adopted by the Assembly | 16 October 2026  32 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 33
+
+8.8 Timeline
+
+Following adoption by the Assembly on 16 October 2026, the first phase will confirm
+designated DC-EDIC representatives, delivery routes, initial evidence baselines and
+the scope of first operational proofs.
+
+During the remainder of 2026 and the first quarter of 2027, the DC-EDIC and
+partners will:
+
+ � establish minimum Connect intake and evidence routes;
+ � configure the first Collaborative Workspace journey in at least two controlled
+
+     reference environments and qualify an additional use case for first-cycle testing;
+ � complete the EU-STF design review and prepare the first bounded cohort;
+ � confirm initial portfolio baselines, risks and review dates;
+ � identify the first Future Domains Roadmap themes meeting preparation
+
+     conditions.
+
+These steps draw on the DC-EDIC team, EDCOM work-package capacity and
+confirmed partner contributions: WP2 and national counterparts for Connect; WP3
+and the Sovereign Tech Agency for EU-STF; WP4 and delivery teams for Workspace.
+Detailed schedules and allocations will be consolidated through existing programme
+management and the DC-EDIC work programme, within approved resources.
+Prospective funding or contributions enter delivery plans only once confirmed.
+Operational adjustments follow Section 8.7.
+
+During 2027, Connect services will operate and improve through real cases, and
+scoped deployment challenges will deliver improvements used in practice.
+Collaborative Workspace will progress from controlled proofs to regular document
+collaboration and reuse of the shared reference in a further organisational setting.
+This phase also includes launch and review of a bounded EU-STF maintenance
+cohort, recurring evidence publications and explicit roadmap decisions.
+
+The end-2027 review will assess each product against its expected result and
+decide whether to stop, adjust, continue, transition or scale. Contracted maintenance
+may extend into 2028 where approved work packages require it. The strategic
+review will remain on schedule and inform the next Strategy period.
+
+Adopted by the Assembly | 16 October 2026  33 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 34
+
+Figure 4: The first cycle moves from Assembly validation to delivery and an end-2027 review. Each
+                                  result is assessed before its next stage is decided.
+
+Adopted by the Assembly | 16 October 2026  34 / 50
+Implementation Strategy / 2026-2027                Digital Commons EDIC | 35
+
+9. Results, Learning And Scale
+
+9.1 What Success Means
+
+Success means lasting improvements for European actors: problems solved, useful
+work made possible and better decisions. Three outcome families guide evaluation;
+activity measures track delivery.
+
+Outcome family  What the DC-EDIC needs to          Illustrative evidence
+                demonstrate
+Coordinated                                        Time from need to useful next step,
+action and      Qualified needs and                confirmed contributions converted into
+European        contributions reach useful next    action, evidence used in decisions,
+capacity        steps; shared evidence informs     cross-country reuse and case-linked
+                decisions; European actors build   delivery capacity.
+Adoption and    or reuse capacity around real
+deployment      cases.                             Regular use confirmed by users and
+                                                   operators, challenge improvements
+Maintenance     Organisations routinely use        integrated and used, repeat deployment
+and resilience  open-source solutions for          effort, interoperability and migration
+                selected use cases; improved       results, operating and support
+                components remove blockers;        conditions.
+                the shared reference is reused in
+                a further setting.                 Assessments used in decisions, time and
+                                                   burden from case to contract,
+                Dependency intelligence and        remediation and continuity evidence,
+                targeted interventions improve     maintainer experience and additionality.
+                security, continuity, maintainer
+                capacity or adoption confidence
+                through a credible operating
+                model.
+
+Every product has a tangible 2027 result and a review decision. Section 9.2 explains
+how intended improvements will be measured.
+
+EDCOM activity and reach indicators remain subject to Grant Agreement reporting.
+They track delivery and use of funded instruments; the outcome framework
+assesses the resulting benefits.
+
+9.2 Assessing Real-World Impact
+
+Each operating product will be assessed on improvements for beneficiaries
+beyond its deliverables. At the start, its lead will define the intended change with
+beneficiaries. The existing charter will record a baseline, review date and a few
+simple indicators, with quantified objectives where meaningful, refined as initial
+measurements become available. Monitoring will be proportionate to resources and
+stakes.
+
+Indicators may track a procurement route actually used, support capacity available in
+another country, the effort needed to repeat a deployment, or maintenance
+resources confirmed beyond initial funding.
+
+The team and partners will test improvements with users in short cycles and adjust
+priorities from feedback. Usage data and feedback from operators, maintainers and
+receiving owners will show what improves, for whom, what remains difficult and how
+far the action explains observed changes. Findings will be dated, sourced and
+explicit about limitations and disappointing results.
+
+Adopted by the Assembly | 16 October 2026          35 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 36
+
+Continuation and expansion depend on benefits relative to costs and the DC-
+EDIC's contribution. Reviews will distinguish partners' achievements from what the
+DC-EDIC enabled, accelerated or made reusable beyond what they could reasonably
+have achieved separately. Costs include coordination and partners' time. Shared
+results will identify each product's contribution and count once at portfolio level.
+
+Findings will guide improvements, resource shifts or proposals to stop. Expansion
+also requires repeatable benefits, an accountable owner and maintenance or
+continuity resources. A technical test may justify a first step; adoption and scale
+require real-world evidence. Financial and compliance checks complement this
+evaluation.
+
+9.3 Review And Learning
+
+Review frequency will follow decision needs. Reviews consider results and evidence,
+user or decision-maker responses, material risks and resources, then ask:
+
+ � Are Connect, Deploy and Maintain achieving the outcomes in Section 9.1 and
+     reinforcing one another?
+
+ � Are resources concentrated on the highest shared value?
+ � What did the DC-EDIC make possible, faster, more reliable or reusable across
+
+     countries, and was it worth the coordination effort?
+ � Which product stops, adjusts, continues, transitions or scales?
+
+Stopping ends an intervention with insufficient value or evidence; the underlying
+strategic need returns for a fresh decision on how the portfolio should address it.
+Adjusting means fixing, improving, narrowing or redesigning the intervention before
+its next review.
+
+Annually, the Director will submit an implementation report to the Assembly covering
+the portfolio, material evidence, resources, unresolved risks and proposed
+amendments. After Assembly approval, it will be transmitted to the Commission
+under Article 24. The annual activity report is also made public under Article 19.
+
+9.4 Risks
+
+The main strategic risks are:
+
+Portfolio dispersion. Eight products may be read as eight simultaneous
+programmes. Proportionate scopes, sequencing and activation conditions keep
+effort focused.
+
+Activity disconnected from adoption. Networks, challenges or pilots may generate
+activity but little improvement in user journeys or decisions. Every product will be
+judged against its expected result.
+
+Fragmentation. National configurations, projects or standards may diverge. Shared
+use cases, interfaces, tests and reusable evidence provide common reference
+points.
+
+Winner-picking or market capture. Reference implementations may be mistaken for
+endorsed products. Modular requirements, transparent criteria, substitution tests and
+conflict-of-interest safeguards preserve neutrality.
+
+Prospective capacity. Delivery may rely on unconfirmed partners, funding or staff.
+Activation requires named ownership, a credible delivery route and proportionate
+resources.
+
+Adopted by the Assembly | 16 October 2026  36 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 37
+
+Delegated delivery losing strategic control. A partner could become the de facto
+owner of European priorities. The DC-EDIC defines the mandate, safeguards,
+evidence requirements and review points, preserving accountability while drawing
+efficiently on partners' operational expertise.
+
+Maintenance after pilot delivery. Outputs may lack a receiving owner or continuity
+path. Challenges and pilots require handover and maintenance conditions before
+launch.
+
+Administrative burden. Governance and reporting may slow intended beneficiaries.
+Evidence and accountability requirements will be designed with users and
+maintainers and reviewed for proportionality.
+
+Unfunded security remediation. Stronger assurance may reveal issues lacking a
+resourced response. Security review must identify the remedy and responsible actor.
+
+Roadmap accumulation. Future themes may become implicit commitments. Active
+work requires accountable preparation, confirmed capacity and an explicit launch,
+prepare, defer or stop decision for every theme.
+
+Loss of trust. Overclaiming country support, funding, product readiness or European
+consensus would weaken the Strategy. Source status and decision authority remain
+visible.
+
+Existing project and portfolio reporting will record risk likelihood and impact, the
+accountable owner, mitigation actions, action deadlines and the next review date.
+The Director and designated DC-EDIC representatives will establish this view during
+initial implementation, using existing programme records, and update it at product
+reviews, escalating material risks through the reporting and decision rights in
+Sections 8.1, 8.7 and 9.3.
+
+Adopted by the Assembly | 16 October 2026  37 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 38
+
+9.5 Durability And Scale
+
+The first cycle prepares results for wider use, subject to evidence justifying
+expansion. Each product will provide:
+
+ � an understandable, reusable method;
+ � evidence of the conditions under which it works;
+ � an accountable owner or transition route;
+ � governance and contribution rules;
+ � a resource and maintenance model;
+ � a clear next decision.
+
+Scale may mean wider country uptake, repeated delivery in new environments,
+integration into an established programme, transition to a durable service or
+adoption by another capable owner. Growth within the DC-EDIC is one possible
+route.
+
+The end-2027 review will test immediate impact and readiness for wider use. A
+useful pilot may provide valuable lessons; durable European capacity also requires
+credible continuity arrangements. A modest first result may justify expansion where
+method, ownership and demand are strong.
+
+Adopted by the Assembly | 16 October 2026  38 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 39
+
+10. Implementation Commitment
+
+This Strategy commits the DC-EDIC to turning European cooperation into capabilities
+that people and organisations can use.
+
+Seven operating products implement Connect, Deploy and Maintain. Their results will
+test whether European coordination makes adoption repeatable and critical
+commons resilient, while preserving solution diversity and choice. The eighth result,
+the Future Domains Roadmap, identifies later options for explicit decisions. Evidence
+will inform decisions on what to repeat, fund, sustain or stop.
+
+Different national approaches and open participation by communities and market
+actors must produce shared results. Cooperation needs action on agreed priorities
+and clear delivery and maintenance responsibilities. Through this work, Europe will
+build the capacity to develop, deploy and maintain digital commons collectively and
+sustainably.
+
+Adopted by the Assembly | 16 October 2026  39 / 50
+Implementation Strategy / 2026-2027                                Digital Commons EDIC | 40
+
+Annex A. Statutory Coverage
+
+This table maps Article 24(2) requirements to the Strategy and shows how
+outstanding details will be confirmed during implementation. It provides statutory
+traceability; legal interpretation remains subject to competent review.
+
+Article 24            Coverage in the Strategy                     How details are confirmed
+requirement
+Detailed actions and  Sections 3-6 and 8.8: priorities, expected   The annual work
+timeline              results, sequence and 2026-2027              programme and product
+Tasks, roles and      timeline. Annex B maps these to Annex V.     charters fix product dates.
+responsibilities      Sections 8.1-8.3: roles of members,
+                      observers, the Director, Advisory Board,     Named assignments and
+Resources required    designated DC-EDIC representatives and       partner delivery
+for each action       delivery partners.                           arrangements are
+                                                                   confirmed before delivery
+Governance and        Sections 6 and 8.4: first-cycle resource     begins.
+contributing          model, concentration of effort and
+stakeholders          conditions for starting work. Annexes B      The annual budget, work
+Implementation        and E identify the main statutory and        programme, product
+modalities            funded delivery bases.                       charters and delivery
+                                                                   agreements confirm
+Milestones, targets   Sections 2.5, 3 and 8.1-8.6: collective      allocations and in-kind
+and deliverables      action, governance, participation, access    capacity.
+                      and contribution.
+Key performance                                                    Delegation, publication and
+indicators            Sections 3-8 and Annex E: delivery           participation arrangements
+                      instruments, EDCOM links, access, reuse      undergo the applicable
+Implementation risks  and adaptation.                              legal and procedural review.
+
+Other relevant        Sections 6, 8.8 and 9.3: tangible results,   Companion policies,
+aspects               sequence and review. Annex C defines         product charters and
+                      common review criteria.                      delivery agreements
+                                                                   specify operating
+                      Sections 9.1-9.2 and Annex D: outcome        procedures.
+                      families, evidence requirements and initial
+                      indicator framework.                         Product charters specify
+                                                                   milestones and reviews;
+                      Section 9.4: main strategic risks and        intended improvements and
+                      responses.                                   measures are recorded as
+                                                                   work starts.
+                      Sections 7 and 9.5: trustworthy adoption,
+                      durability and scale. Section 6.3 governs    Measures are defined as
+                      future options.                              work starts; quantified
+                                                                   targets are set where
+                                                                   meaningful and refined with
+                                                                   initial measurements.
+
+                                                                   Product and portfolio
+                                                                   management records
+                                                                   identify accountable risk
+                                                                   owners and operational
+                                                                   review dates.
+
+                                                                   The end-2027 review
+                                                                   informs amendments and
+                                                                   the next Strategy period.
+
+Adopted by the Assembly | 16 October 2026                          40 / 50
+Implementation Strategy / 2026-2027                                      Digital Commons EDIC | 41
+
+Annex B. Correspondence With Annex V Activities
+
+Each Annex V activity is addressed through direct DC-EDIC work, partner delivery or
+a later option. The relevant product charter, annual work programme, EDCOM
+arrangement or Assembly decision will specify first-cycle roles, resources and
+milestones.
+
+Action 1 -- Build a European community for digital commons
+
+Annex V activity     Work in the first cycle    Main delivery            Decision in the first
+                                                instrument or capacity   cycle
+1.1 Create a strong  Enable practical
+public-civic-        contributions around       Community Network        Confirm the
+private              real cases and support     and Local Nodes;         minimum node offer,
+partnership          voluntary local or         Member State and         common principles
+                     thematic nodes.            ecosystem                and organisations
+1.2 Organize                                    contributions; EDCOM     able to convene
+events and           Match needs with           community activity.      participants.
+matchmaking          expertise and identify
+                     potential joint work       Community Network;       Confirm event
+                     through targeted           EDCOM community          arrangements and
+                     exchanges and an open      engagement and event     assess whether
+                     community forum.           partnerships.            participation yields
+                                                                         qualified
+1.3 Promote the      Build awareness,           Shared adoption          connections and
+use of digital       confidence and reuse       resources; State of      action.
+commons              through credible           Digital Commons;
+                     evidence, practical        communication and        Set audiences,
+                     adoption methods and       dissemination activity.  responsibilities,
+                     successful cases.                                   competition
+                     Apply objective criteria                            safeguards,
+                     when prioritising digital                           publication
+                     commons.                                            conditions and
+                                                                         outcome indicators
+                                                                         in the
+                                                                         communication
+                                                                         strategy.
+
+Adopted by the Assembly | 16 October 2026                                41 / 50
+Implementation Strategy / 2026-2027                                      Digital Commons EDIC | 42
+
+Action 2 -- Facilitate access to funding
+
+Annex V activity     Work in the first cycle   Main delivery             Decision in the first
+                                               instrument or capacity    cycle
+2.1 Create a         Run a lean online entry   one-stop shop and
+physical and         point with physical       expertise hub;            Validate user
+online one-stop-     access through            Community Network;        journeys, access
+shop                 selected events and       EDCOM design and          conditions, service
+                     nodes. Assess needs       prototype baseline.       boundaries and
+2.2 Provide          and contribution offers;                            quality safeguards
+support and          direct them to a useful   one-stop shop and         before opening.
+expertise for        next step.                expertise hub; EU-STF
+fundraising                                    where relevant; existing  Confirm available
+                     Help users find relevant  funding actors.           expertise;
+2.3 Coordinate       funding and experts,                                distinguish
+calls for proposals  including for European,   Future Domains            guidance,
+from Member          national or maintenance   Roadmap; Member           application support
+States               instruments.              State and Assembly        and funding
+                                               work programme.           decisions.
+                     Examine common
+                     parameters and                                      Explicitly decide to
+                     collective funding                                  prepare, defer or
+                     arrangements as a later                             launch, based on
+                     option. Any joint call                              demand, authority
+                     requires a specific                                 and resources.
+                     decision on demand,
+                     authority and
+                     resources.
+
+Adopted by the Assembly | 16 October 2026                                42 / 50
+Implementation Strategy / 2026-2027                                          Digital Commons EDIC | 43
+
+Action 3 -- Support maintenance, development and scaling
+First-cycle stewardship draws on existing Maintain products and partner capacity.
+
+Annex V activity Work in the first cycle         Main delivery               Decision in the first
+                                                 instrument or capacity      cycle
+3.1 Provide           Connect users and          one-stop shop and
+technical, legal      digital commons with       expertise hub; shared       Define minimum
+and other advice      quality-controlled         adoption resources;         support, transparent
+                      technical, legal,          qualified partners and      access conditions
+3.2 Provide           licensing, accessibility,  experts.                    and the quality-
+dedicated             multilingual,                                          assurance method.
+resources and         governance, business,      Partner and Member
+testing facilities    adoption and               State facilities; relevant  Start the service
+                      stewardship support.       pilot environments;         only after confirming
+                                                 Future Domains              recurring demand,
+                      Identify and assess        Roadmap if new shared       an accountable
+                      existing hosting,          capacity is proposed.       owner, access
+                      software forge, testing,                               conditions and a
+                      experimentation and        Use-case capability         sustainable resource
+                      continuity capacity        map; expertise hub;         model.
+                      before creating a          security and specialist
+                      shared service.            partners.                   Confirm expert
+                                                                             selection criteria,
+3.3 Gather            Connect users with                                     conflicts-of-interest
+technical skills for  trusted specialist                                     safeguards, service
+consulting            advice, audits,                                        boundaries and
+                      cybersecurity                                          evidence of user
+                      compliance and                                         value.
+                      continuity support
+                      through the expertise
+                      hub and qualified
+                      partners.
+
+Adopted by the Assembly | 16 October 2026                                    43 / 50
+Implementation Strategy / 2026-2027                                    Digital Commons EDIC | 44
+
+Actions 4-5 -- Strategic development and concrete projects
+
+Annex V activity  Work in the first cycle    Main delivery             Decision in the first
+4.1 Strengthen                               instrument or capacity    cycle
+advocacy for      Target                     State of Digital
+digital commons   recommendations,           Commons; institutional    Confirm editorial
+                  engage relevant            communication and         responsibility,
+4.2 Enhance       audiences and follow       policy engagement.        priority audiences
+synergy between   up using portfolio and                               and tracking of
+related EDICs     ecosystem evidence.        Director and Member       recommendation
+                                             State institutional       uptake.
+5.1 Enhance the   Cooperate with related     coordination; portfolio-
+development and   EDICs and relevant         specific cooperation      Identify a few
+deployment of     Interoperable Europe       subject to counterpart    practical links
+digital commons   structures where           agreement.                between
+tools             shared standards,                                    organisations,
+                  assets or use cases        Deployment Challenge      accountable
+                  create value. For          Programme;                contacts, expected
+                  example, explore ALT-      Collaborative             shared results and
+                  EDIC cooperation on        Workspace Flagship;       review points.
+                  multilingual capabilities  later initiatives
+                  and adoption pathways.     authorised through the    Accept, adjust,
+                                             Future Domains            transition, scale or
+                  Test focused use cases     Roadmap.                  stop each proof,
+                  and produce reusable                                 based on adoption,
+                  adoption evidence,                                   reuse, ownership
+                  preserving solution                                  and maintenance
+                  choice.                                              evidence.
+
+Adopted by the Assembly | 16 October 2026                              44 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 45
+
+Options After 2027 Within The Wider Statutory Mandate
+
+The end-2027 review and next Implementation Strategy will determine which options
+proceed in the next cycle, subject to the relevant strategy, governance and resource
+decisions.
+
+Annex V activity                     Possible post-2027 direction
+
+2.3 Coordinate calls for             Consider coordinated calls or other collective funding once
+proposals from Member                shared demand, authority and resources are demonstrated.
+States
+                                     Expand common support where first-cycle demand and referral
+3.1 Provide technical, legal         evidence justifies lasting European capacity.
+and other advice
+                                     Consider shared or federated testing, hosting, software forges
+3.2 Provide dedicated                or experimentation capacity once recurring demand, access
+resources and testing                conditions and a sustainable operating model are established.
+facilities
+                                     Strengthen the European network of qualified experts and
+3.3 Gather technical skills for      specialist support where the first-cycle expertise hub
+consulting                           demonstrates recurring needs.
+
+4.1 Strengthen advocacy for          Inform policy engagement with the State of Digital Commons
+digital commons                      and portfolio results, with defined audiences and follow-up
+                                     indicators.
+4.2 Enhance synergy between
+related EDICs                        Develop selected cooperation into shared services, standards
+                                     work or joint use cases once counterpart agreements and
+5.1 Enhance the development          shared value are confirmed.
+and deployment of digital
+commons tools                        Launch further flagships or challenge programmes through the
+                                     Future Domains Roadmap when evidence, ownership and
+                                     resources support an Assembly decision.
+
+Adopted by the Assembly | 16 October 2026  45 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 46
+
+Annex C. Common Portfolio Review Criteria
+
+Product charters remain the detailed management reference for users, scope,
+delivery arrangements and evidence. Six common criteria guide decisions on all
+eight expected results:
+
+  1. Strategic relevance: a clear shared need, fit with the statutory mandate and
+      European added value.
+
+ 2. Responsibility: both a named DC-EDIC point of accountability and a credible
+      delivery lead or arrangement are confirmed.
+
+ 3. Impact and evidence: observed improvements for beneficiaries, product and
+      DC-EDIC contributions, and reliable, traceable sources support assessment at
+      the relevant stage of work.
+
+ 4. Resources: scope matches available DC-EDIC, EDCOM, Member State and
+      partner capacity.
+
+ 5. Trust and continuity: proportionate treatment of security, neutrality, conflicts of
+      interest, support and maintenance.
+
+ 6. Next decision: evidence supports an explicit choice: stop, adjust, continue,
+      transition or scale for operating results; launch, prepare, defer or stop for
+      roadmap themes.
+
+For the EU-STF Pilot, these criteria apply at three first-cycle decision points: design
+review, coordinated cohort selection and end-2027 review, under the responsibilities
+in Section 5.3. Technical assessment and routine delivery follow confirmed delivery
+arrangements unless a material exception requires DC-EDIC action.
+
+Adopted by the Assembly | 16 October 2026  46 / 50
+Implementation Strategy / 2026-2027                                        Digital Commons EDIC | 47
+
+Annex D. Indicators And Their Use
+
+The initial set of indicators remains small. Measures should be credible, inform
+decisions, require proportionate collection effort and resist improvement through
+activity alone. The framework separates delivery control from strategic impact
+evidence and accommodates different routes to results.
+
+Evidence level Question                    Illustrative evidence           Decision
+                                                                           supported
+Activity        Was planned work           Requests handled, workshops     Monitor delivery
+                performed?                 held, assessments started or    and operating
+                                           work packages funded.           burden.
+Output          Was a usable result                                        Accept, rework or
+                produced?                  A defined next step for an      complete the result.
+                                           assessed need, deployment
+Use and effect  Did the result             method, reference               Continue, adjust or
+                improve a real             configuration, dependency       stop the approach.
+                decision, journey or       assessment or completed
+                capability?                maintenance work.               Transition, extend,
+                                                                           defer or prepare
+Scale-          Can the result be          Evidence used in a decision,    scale-up.
+readiness       repeated efficiently       journey completed, blocker
+                in a new setting?          removed, method reused,         Shape the next
+                                           procurement route clarified or  Strategy and
+Durable impact  Did European digital       maintainer need addressed.      longer-term
+                commons capacity                                           investment.
+                improve over time?         Reusable method and assets,
+                                           confirmed owner, resource
+                                           model, support and
+                                           maintenance arrangements.
+
+                                           Cross-country reuse, stronger
+                                           delivery capacity, improved
+                                           resilience, maintained
+                                           dependencies or practical
+                                           convergence.
+
+Adopted by the Assembly | 16 October 2026                                  47 / 50
+Implementation Strategy / 2026-2027        Digital Commons EDIC | 48
+
+Connect measures may include time from a qualified need to a useful next step,
+contributions put into action, guidance reuse and evidence used in decisions.
+
+Deploy measures may include regular use in participating organisations,
+improvements integrated and used, blockers removed, migration effort, component
+substitution, and deployment cost and time in a further setting.
+
+Maintain measures may include time and burden to move a maintenance case to
+support, remediation and continuity outcomes, maintainer experience and
+additionality: what support achieved beyond what would otherwise have happened.
+
+Participation and enlargement measures may show whether engagement with a
+prospective country yields a substantive contribution, reuse, pilot participation, an
+observer role or a documented next step towards formal status.
+
+Cross-country reuse and confirmed delivery capacity indicate scale-readiness.
+Activity measures support operations; outcome evidence shows what changed.
+
+Where relevant, the DC-EDIC will map verified portfolio evidence to the
+Commission's open-source monitoring framework, including procurement-support
+reuse, maintained dependencies and standards-related contributions. Definitions
+and attribution will be agreed before aggregation. Existing evidence records will be
+used, keeping service activity distinct from adoption and durable impact.
+
+Adopted by the Assembly | 16 October 2026  48 / 50
+Implementation Strategy / 2026-2027                                     Digital Commons EDIC | 49
+
+Annex E. EDCOM Contribution To The Strategy
+
+EDCOM is the Strategy's first funded delivery base within a wider portfolio. WP2
+primarily supports Connect, WP4 supports Deploy, and WP3 supports Maintain and
+longer-term prioritisation. These tables distinguish their contributions and link grant
+activities to expected results, responsibilities and conditions.
+
+Connect -- WP2 community and evidence activities
+
+EDCOM activity       Strategy              Contribution to the          Responsibilities and
+                     product or            Strategy                     conditions
+WP2 community        service
+engagement, event                          Qualifies requests,          EDCOM governs
+partnerships, Open   Community             organises contributions,     delivery and outputs;
+Community Forums     Network and           connects actors and          the DC-EDIC retains
+and local-node       Local Nodes           gathers real-case            Strategy-result
+support                                    evidence through             accountability and
+                                           engagement. Node             statutory governance.
+WP2 one-stop-        one-stop shop         participation remains
+shop, expertise-hub  and expertise         voluntary, supported by      Service boundaries,
+and capacity-        hub                   funded coordination,         quality safeguards,
+building activities                        common principles and        available expertise,
+                                           contact-point                DC-EDIC
+WP2 recurring State  State of Digital      arrangements.                accountability and
+of Digital Commons   Commons                                            post-grant
+work                                       Connects needs to            responsibility require
+                                           assessment, expertise,       confirmation.
+WP2 European         State of Digital      adoption or maintenance
+Digital Commons      Commons and           support, funding, pilots or  Editorial responsibility,
+Research Award       Community             contributions. Funded        evidence access and
+                     Network               portal, guidance and         conditions for
+                                           capacity-building outputs    sustaining a recurring
+                                           form the initial service     product require
+                                           base.                        confirmation.
+
+                                           Informs portfolio,           The Award remains a
+                                           dependency and               distinct EDCOM output
+                                           Assembly decisions           with its own
+                                           through the report, with     governance, timetable
+                                           common source and            and reporting
+                                           evidence requirements.       obligations.
+
+                                           Brings relevant research
+                                           and ecosystem
+                                           perspectives into evidence
+                                           and policy discussion,
+                                           supporting existing
+                                           Strategy products.
+
+Adopted by the Assembly | 16 October 2026                               49 / 50
+Implementation Strategy / 2026-2027                                    Digital Commons EDIC | 50
+
+Deploy -- WP4 challenge campaigns
+
+EDCOM activity        Strategy             Contribution to the         Responsibilities and
+                      product or           Strategy                    conditions
+WP4 challenge         service
+campaigns, initially                       Organises targeted          DINUM and ZenDiS
+focused on digital    Deployment           functional improvements     lead campaigns and
+workspaces            Challenge            to existing open-source     seek other Member
+                      Programme and        components from qualified   State and observer
+                      Collaborative        use cases, through          participation. The
+                      Workspace            discovery, development,     flagship may also
+                      Flagship             release and evaluation.     require ecosystem or
+                                           Results must be accepted,   non-EDCOM
+                                           with reusable evidence, an  contributions.
+                                           owner to receive them and
+                                           clear maintenance
+                                           conditions.
+
+Maintain -- WP3 dependency work and the EU-STF Pilot
+
+EDCOM activity        Strategy product or  Contribution to the         Responsibilities and
+WP3 strategic         service              Strategy                    conditions
+mapping and           Critical Dependency
+roadmap work          Intelligence and     Produces recurring          Changes to WP3
+                      Future Domains       dependency                  scope, method or
+Sovereign Tech        Roadmap              assessments and             delivery
+Agency-operated                            informs roadmap             responsibilities follow
+EU-STF activity       EU-STF Pilot         decisions through           EDCOM governance
+within EDCOM                               mapping, including          and applicable
+                                           evidence on                 contractual
+                                           maintainer capacity,        procedures.
+                                           support needs and
+                                           continuity gaps.            The DC-EDIC aligns
+                                                                       with the Sovereign
+                                           Tests a bounded             Tech Agency on
+                                           model for bottom-up         design. The DC-EDIC
+                                           identification,             Director coordinates
+                                           assessment,                 cohort selection with
+                                           selection, funding          the Agency following
+                                           and remediation,            its technical analysis.
+                                           including operating         The Assembly is
+                                           efficiency. The             informed during
+                                           Sovereign Tech              delivery and decides
+                                           Agency leads                at the end-2027
+                                           operational design          review whether and
+                                           and delivery; the DC-       under which
+                                           EDIC retains                conditions the pilot
+                                           accountability for          should scale.
+                                           European public
+                                           value, safeguards and
+                                           strategic review.
+
+This alignment operates within the current Grant Agreement. Changes to EDCOM
+tasks, responsibilities or resources follow EDCOM governance and applicable
+contractual procedures.
+
+Adopted by the Assembly | 16 October 2026                              50 / 50
+
