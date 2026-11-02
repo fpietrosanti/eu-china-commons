@@ -13,6 +13,8 @@ Updated: 2026-11-03 · Milestone v0.1 public: **12 Nov 2026**
 - Public email; native-speaker ZH review; public vs private source archive; Chinese partner for WeChat
 
 ## In progress
+- Research round 2 (gaps) in background; China-VPN queue: docs/CN-VPN-QUEUE.md (tools/vpn_queue.sh)
+- Site v0.1 FROZEN until gate A (see TODO.md)
 - Source archive: server job ~/ecdc (ubuntu@51.158.36.151, temporary) → to move to the dedicated account
 - Multi-level analysis (data/initiatives.json, docs/MULTILEVEL-ANALYSIS.md)
 

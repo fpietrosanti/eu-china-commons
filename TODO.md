@@ -1,100 +1,86 @@
-# Roadmap — Observatory on European and Chinese Digital Commons
-*欧洲与中国数字公地观察站 · Osservatorio sui Digital Commons Europei e Cinesi*
+# Roadmap — Europe–China Digital Commons Observatory
+*中欧数字公地观察站 · eu-china-commons.eu*
 
-Updated 2 Nov 2026. **First milestone: 12 Nov 2026**, two days before COSCon (Hangzhou, 14–15 Nov).
-Way of working: low impact, at a steady pace, every step committed. Sources are archived with hashes, and every claim is labelled fact, commitment, inference or proposal.
+Updated 3 Nov 2026. Rules: **max 10% of the weekly token budget** · low impact, steady pace · every source archived (copy + original link) · every claim labelled (fact / commitment / inference / proposal) · STATE.md and this file updated at every step.
+
+## Sequence and gates
+Each phase starts only once the previous gate is met.
+
+```
+Phase A  Research (continuous)            ── gate A: "enough information"
+Phase B  Site structure + white paper      ── gate B: structures approved by Fabio
+Phase C  Brand identity and design         (prepared in parallel with A, chosen at gate B)
+Phase D  Writing, EN + ZH publication
+Phase E  Content operations, social, outreach (continuous)
+Phase F  Translation into all EU languages (LOWEST PRIORITY, local CPU LLM)
+```
+
+The v0.1 site already online locally stays **frozen as a placeholder**. It is not expanded until gate A.
+
+**Gate A, "enough information".** All of these must hold:
+- [ ] Registry ≥ 60 initiatives across 4 levels, ≥ 60% with a primary source *(currently 50, 20 primary)*
+- [ ] Catalogue: ≥ 5 verified PA-reuse cases per side *(EU 2, CN ~2)*
+- [ ] Original texts of the key Chinese documents fetched (Section B of docs/CN-VPN-QUEUE.md)
+- [ ] Systematic literature review including academic databases and CNKI
+- [ ] At least 3 "bridge opportunities" checked with sources on both sides
 
 ---
 
-## Milestone 12 Nov — "v0.1 public"
-- [ ] EN + ZH website with the name, contacts, open call, catalogue v0.1, a governance & funding section, priorities and roadmap
-- [ ] Catalogue v0.1: PA reuse cases (EU and CN) and implicit collaborations, each with a status (verified / to verify)
-- [ ] "Unused strengths" and policy, governance and advocacy priorities note (on the site, plus 2 pages in PDF)
-- [ ] Literature review and novelty verdict (docs/LITERATURE-REVIEW.md)
-- [ ] Domain chosen and registered (.eu), site online
-- [ ] Native-speaker review of the Chinese text (**required before publishing ZH**)
-- [ ] Fabio's public email for the contact section
+## Phase A — Research (continuous, within budget)
+- [x] DC-EDIC Implementation Strategy analysed (docs/REVIEW-DRAFT.md)
+- [x] Literature review v1 (docs/LITERATURE-REVIEW.md)
+- [x] Multi-level registry v1: 50 initiatives (data/initiatives.json, docs/MULTILEVEL-ANALYSIS.md)
+- [x] Archive of 108+ sources (sources/archive/, index with SHA-256)
+- [ ] Round 2 (in progress): Shanghai declaration, 15th Five-Year Plan, GB/T 44272-2024, CAC/SASAC, Chinese PA reuse, Sichuan/Fujian/Shandong/Hubei/Hunan, EDCOM, EU instrument budgets
+- [ ] **China VPN** → work through docs/CN-VPN-QUEUE.md (regenerate with tools/vpn_queue.sh)
+- [ ] Academic databases (Scholar, SSRN, Scopus) and CNKI (via VPN)
+- [ ] Read the flagged items: OpenUK *AI Openness Report* (Jul 2026), MERICS AI stack (Jul 2025)
+- [ ] Oniro/OpenHarmony case study at repository level, plus a reply to the House Select Committee letter (Jun 2025)
+- [ ] Funding comparison: EU maintenance vs Chinese incubation, with additionality as the metric
+- [ ] Weekly monitoring of new policies (server job, once the dedicated account is available)
 
----
+## Phase B — Site and white paper structure (after gate A)
+- [ ] Information architecture of the site: sections, catalogue, registry, sources, publications, call. Must be multilingual from the start
+- [ ] White paper structure: executive summary, method, the 4 levels, complementarity and risk, bridge opportunities, call to institutions, annexes (registry, sources)
+- [ ] Present both to Fabio for approval
 
-## M1 — Research → paper
-| When | Step |
-|---|---|
-| by 12 Nov | Systematic literature review, novelty verdict, priorities note |
-| Nov | Chinese programme registry in YAML (memo §10 template), with an evidence chain from policy to actual use |
-| Nov | Fetch Chinese originals through the China VPN (Phase 0 below) |
-| Dec | Oniro/OpenHarmony case study at repository level, **including a reply to the House Select Committee letter (June 2025)** |
-| Dec | Comparison of funding models: EU maintenance vs Chinese incubation, with additionality as the metric |
-| Jan 2027 | Full paper draft. Target: working paper (SSRN/Zenodo with DOI), then a journal (*Policy & Internet* / *Telecommunications Policy* / *Internet Policy Review*) |
-| Q1 2027 | Four proposition papers (strategic, funding, project, community) and talking points for EU and CN audiences |
+## Phase C — Brand identity and design that resonates in China
+Prepared in parallel with research; the choice is made at gate B.
+- [ ] Brief: cultural proximity without exoticism or clichés (no dragons, no stereotyped pagodas). Keep the correct technical jargon in both languages (开源, 数字公地, 开源治理, 供应链安全; open source, digital commons, stewardship)
+- [ ] Chinese name: check tone, register and connotations with native speakers (中欧数字公地观察站; short brand to be found). Avoid ambiguous homophones and Belt-and-Road political lexicon
+- [ ] Colours: avoid pairings that read badly in China (e.g. green hats; white/black only as mourning colours). Red and gold carry meaning but should be used sparingly so as not to look like official propaganda. Balance with EU blue
+- [ ] Numbers and symbols: avoid 4 in prominent positions. Consider bridge, knot (结) and "shared field" motifs. Logo legible at small sizes in WeChat
+- [ ] Typography: system fonts that work in China (PingFang, Microsoft YaHei, Noto Sans CJK); no Google Fonts (blocked)
+- [ ] Tone of voice in ZH: formal but not bureaucratic; the register of Chinese tech communities (KAIYUANSHE, OSChina)
+- [ ] Test the brand with 5–10 Chinese contacts and 5–10 European contacts before adopting it
+- [ ] Logo, palette, social templates for WeChat cover images and LinkedIn banners
 
-## M2 — Bilingual website (EN/ZH), kept up to date
-- [x] Static structure: one bilingual JSON drives the catalogue, two language pages
-- [ ] Publish on GitHub Pages under the chosen .eu domain
-- [ ] Monthly update cycle: catalogue, sources, news. Use a "last updated" date and a public changelog
-- [ ] Downloadable papers (PDF) linked from the site
-- [ ] Data in the open (CSV/JSON of the catalogue and the source register)
-- [ ] Later: accessibility, light SEO in both languages, reachability from China (no Google Fonts or CDNs blocked in CN; consider a CN mirror)
+## Phase D — Writing and publication (EN + ZH)
+- [ ] White paper v1 EN, then ZH (native review required)
+- [ ] Site v1 on GitHub Pages at eu-china-commons.eu
+- [ ] Four proposition papers and talking points for EU and CN audiences
+- [ ] Working paper with a DOI (Zenodo/SSRN)
 
-## M3 — Catalogue of successful reuse actions (EU and CN)
-- [x] v0.1 seed: a few cases per side, with status
-- [ ] Verify every case with primary sources (background research under way)
-- [ ] Common record format: narrative, actors, since, scale, reuse logic, sources, status
-- [ ] **Chinese side: find real public-administration reuse cases** (gap: the literature talks about industry and OS, rarely about PA reuse)
-- [ ] Contribution form: anyone can propose a case, and it is verified before publication
-- [ ] Twice-yearly review: drop or update stale cases
+## Phase E — Operations, social, outreach (continuous)
+- [ ] Token ledger + weekly job with a 10% cap (dedicated server account)
+- [ ] Social EU: LinkedIn, Mastodon, Bluesky, YouTube, GitHub. CN: WeChat 公众号 (via a Chinese partner), Weibo, Zhihu, Bilibili, OSChina, Gitee. **Accounts created by Fabio**
+- [ ] Monthly newsletter "Commons Bridge Brief"; monthly catalogue update
+- [ ] Call to institutions: EU, China, member states and provinces (draft already on the v0.1 site)
+- [ ] Fundraising EU + CN under the funding policy (no funder above ~30%, transparency, sanctions screening)
 
-## M4 — Surface existing collaboration, explicit or implicit
-- [x] v0.1: Eclipse Oniro ↔ OpenHarmony, RISC-V International, Apache projects born in China, licence work (EPL-2.0 ZH, Mulan PSL OSI)
-- [ ] Contributor map: Chinese contributors to commons used by European administrations, and the reverse
-- [ ] Interviews with maintainers who already collaborate (with consent; publish only what they approve)
-- [ ] "Bridge stories" section: short stories from people who already work across both sides
+## Phase F — Translation into all 24 EU languages (LOWEST PRIORITY)
+Goal: site and white paper in every official EU language, kept up to date **without spending Claude tokens**.
+- [ ] Model: local, on the server CPU (8 threads, 31 GB RAM, AVX2; ollama already installed). Candidates:
+  - **EuroLLM-9B-Instruct**: EU-funded, covers all 24 EU languages, open licence. The preferred choice
+  - **Opus-MT (Helsinki-NLP / Marian)**: one model per language pair, very fast on CPU, open licence. Fallback for quality and speed
+  - *Avoid NLLB-200*: non-commercial licence (CC-BY-NC)
+- [ ] Pipeline: sources in EN (master) → segments with a hash → translation cache → only changed segments are retranslated. Nightly job with `nice`, a few segments per night, no hurry
+- [ ] Glossary of fixed terms per language (digital commons, DC-EDIC, open source…) applied before and after translation
+- [ ] Every page carries the note "machine translation, last updated …" plus a link to the EN original; human review by volunteers when available
+- [ ] ⚠ Server disk is 93% full (66 GB free): check space before downloading models (~6 GB per model)
 
-## M5 — Policy, governance and advocacy-outreach priorities
-- [x] v0.1 note: unused strengths and priorities (on the site)
-- [ ] Talking points for COSCon (14–15 Nov) — **optional, only if Fabio attends or is in contact with someone who does**
-- [ ] EU channels: DC-EDIC Advisory Board, EDCOM WP2 forums, State of Digital Commons (E3), OSOR/Interoperable Europe, Sovereign Tech Agency
-- [ ] CN channels: KAIYUANSHE (COSCon, China Open Source Report), OpenAtom (developer conference), Shanghai Open Source IT Association, CCF ODC
-- [ ] Diplomatic channels: EU–China High-Level Digital Dialogue, EU Delegation in Beijing, Chinese Mission to the EU
-- [ ] Rule: always "non-competitive cooperation on the global commons", never "EU–China technology bloc"
-
-## M6 — Observatory governance and funding (on the site and in practice)
-- [ ] Charter: independence, conflicts of interest, editorial policy, right to publish critical findings
-- [ ] Advisory board with balanced EU/CN and academic, industry and community representation
-- [ ] Funding policy: pluralism, no single funder above ~30%, all funders public, no editorial veto
-- [ ] Legal home: association or foundation in an EU state, or hosting by an existing body (Fabio to decide)
-
-## M7 — Open call for collaboration
-- [x] Text on the site for academics, diplomats, industry operators and ecosystem developers
-- [ ] Simple intake channel (email + GitHub issues; later a form)
-- [ ] First wave of targeted invitations: 10 EU contacts + 10 CN contacts
-
-## M8 — Brand and .eu domain
-- [ ] Choose from docs/DOMAIN-OPTIONS.md (also check for negative meanings in Chinese)
-- [ ] Register the .eu domain (this needs an EU residence or registrant) and Chinese name, plus a defensive .com/.cn if useful
-- [ ] Bilingual logo; short ZH name
-
-## M9 — Fundraising, EU and CN
-- [ ] EU: NGI / Next Generation Internet calls, Horizon Europe (with the restrictions on Chinese participation), Sovereign Tech Agency (for research on maintenance), private foundations (Mercator, Robert Bosch, Open Society, Ford, Mozilla, Sloan)
-- [ ] CN: OpenAtom, KAIYUANSHE partnerships, enterprise sponsors (Huawei, Alibaba, Tencent, Baidu) — **only under the funding policy in M6 and with full disclosure**
-- [ ] Neutral/global: Linux Foundation, OSI, Eclipse, ISOC Foundation, UN/ITU DPGA
-- [ ] Check legal limits before accepting Chinese funds: EU sanctions/entity lists, national rules, reputation risk
-
-## Phase 0 — Sources and infrastructure
-- [x] 40 sources fetched and hashed; 5 recovered (server + relay)
-- [ ] **Set up a Chinese VPN** (mainland exit node) for geo-blocked .gov.cn sites
-- [ ] Re-fetch S19/S31 directly and replace the relay copies
-- [ ] Full Chinese originals (S06, S12, S13, S14, S20 declaration + signatories)
-- [ ] National foundation registry (chinanpo.mca.gov.cn): OpenAtom, Chance Foundation
-
-## Done
-- [x] Analysis draft v0.1 (docs/REVIEW-DRAFT.md)
-- [x] Literature scan v0.1 (docs/LITERATURE-AND-NOVELTY.md)
-
-## Added 3 Nov 2026
-- [ ] **Archive every source in the repo** (tools/archive_sources.sh, idempotent job on the server → sources/archive/ + index.tsv). Decide: public repo (official docs only) + private mirror, or private only
-- [ ] **Multi-level analysis**: EU ↔ China central, EU member states ↔ Chinese provinces (data/initiatives.json + docs/MULTILEVEL-ANALYSIS.md, in progress)
-- [ ] Domain: 30 options in docs/DOMAIN-OPTIONS.md. Proposal: europe-china-digital-commons.eu + china-europe-digital-commons.eu + zhongou-commons.eu + eu-china-commons.eu
-- [ ] Operations (docs/OPERATIONS.md): **weekly token cap** + ledger + weekly job on the server; fixed content cadence
-- [ ] Social brand EU (LinkedIn, Mastodon, Bluesky, YouTube, GitHub) and CN (WeChat 公众号 via a Chinese partner, Weibo, Zhihu, Bilibili, OSChina, Gitee); accounts created by Fabio
-- [x] "Call to institutions" section on the site (EN/ZH): EU, China, member states/provinces
+## Infrastructure and decisions
+- [x] Domain chosen: **eu-china-commons.eu** (to register, EU registrant)
+- [x] GitHub Pages workflow ready (.github/workflows/pages.yml, site/CNAME)
+- [ ] GitHub repo and dedicated server account (Fabio) → push, Pages, move the jobs
+- [ ] Public email; native ZH reviewer; public vs private source archive; Chinese partner for WeChat
