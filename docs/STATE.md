@@ -26,11 +26,11 @@
 | Criterion | Target | Now |
 |---|---|---|
 | Registry initiatives | ≥ 60, ≥ 60% primary | **62, 41 primary (66%) ✓** |
-| Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 4 deployed** (e-gov clouds offering openEuler: Fujian province, Yancheng, Jinan — all A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases excluded, kept as context. **1 short** |
+| Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 5 ✓** (e-gov clouds offering openEuler: Fujian province, Yancheng, Jinan; Shijiazhuang market-supervision platform specified on openEuler 22.03 LTS — all A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases excluded, kept as context |
 | Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
-| Verified bridge opportunities | ≥ 3 | **2 EU–CN verified** (Eclipse–OpenAtom sister projects; High-Level Digital Dialogue channel) **+ 1 shared standard** (OpenChain ISO 18974 adopted by openEuler — LF project, borderline) + 1 partial (EPL-2.0 ZH translation, EU source missing) |
-| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 10 ✓** (6 A, 2 C). Gaps: CN cloud/automotive/data-space layers empty; no documented public funding for CN stacks; adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
+| Verified bridge opportunities | ≥ 3 | **3 EU–CN verified ✓** (Eclipse–OpenAtom sister projects; High-Level Digital Dialogue channel; **Catena-X ↔ CAAM/VDA China–Europe automotive trusted data space**, both sides A, 2 Nov) **+ 1 shared standard** (OpenChain ISO 18974 adopted by openEuler — LF project, borderline) + 1 partial (EPL-2.0 ZH translation, EU source missing) |
+| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 11 ✓** (7 A, 2 C; + EasyXMen automotive, CETC, 2 Nov). Gaps: CN cloud/data-space layers (leads: OpenCloudOS, OpenAnolis, SecretFlow); no documented public funding for CN stacks; adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
 
 **Registry by level and evidence:**
 
@@ -89,4 +89,6 @@
 Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every run in reviews/ + data/llm-runs.tsv; every lead re-verified by Claude before use.
 - Run 1 (2 Nov): DeepSeek + Qwen on Chinese PA deployments → Fujian e-gov cloud openEuler default (verified, A). ChatGPT on bridges → 2 verified, 2 partial, 1 rejected (off-topic Horizon project marked "yes" by ChatGPT).
 - Lessons: DeepSeek free loses "Search" on follow-ups; LLM "verified" flags are unreliable; Chinese LLMs are better than Western ones at finding .gov.cn documents.
-- Next questions: EU-side source for EPL-2.0 translation; OCR of the Hulunbuir e-gov cloud contract; openEuler OSV list as bridge evidence for Kylin/UOS; third bridge (e.g. OW2/OpenInfra with Chinese members, OpenHarmony–Oniro compatibility).
+- Run 2 (2 Nov): ChatGPT on Catena-X/China → 3 Catena-X pages verified; DeepSeek on the Chinese side → 2 CAAM pages verified → **third bridge (Catena-X ↔ CAAM)**. Qwen on e-gov OSS → **Shijiazhuang openEuler (5th CN case)**, Changde context, 4 leads queued. DeepSeek on CN industrial stacks → EasyXMen (CETC) verified; still no documented public funding.
+- Gate A remaining: Chinese originals via VPN, academic databases + CNKI.
+- Next questions: unchecked Qwen leads (Fengxian, Pingli, OpenHarmony water terminals); Huawei role in Catena-X; EU-side source for EPL-2.0 translation; OCR of the Hulunbuir e-gov cloud contract; openEuler OSV list as bridge evidence for Kylin/UOS; third bridge (e.g. OW2/OpenInfra with Chinese members, OpenHarmony–Oniro compatibility).

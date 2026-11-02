@@ -18,12 +18,13 @@ Phase F  Translation into all EU languages (LOWEST PRIORITY, local CPU LLM)
 The v0.1 site already online locally stays **frozen as a placeholder**. It is not expanded until gate A.
 
 **Gate A, "enough information".** All of these must hold:
-- [ ] Registry ≥ 60 initiatives across 4 levels, ≥ 60% with a primary source *(currently 50, 20 primary)*
-- [ ] Catalogue: ≥ 5 verified PA-reuse cases per side *(EU 2, CN ~2)*
+
+- [x] Catalogue: ≥ 5 verified PA-reuse cases per side *(EU 8, CN 5 — 2 Nov)*
 - [ ] Original texts of the key Chinese documents fetched (Section B of docs/CN-VPN-QUEUE.md)
 - [ ] Systematic literature review including academic databases and CNKI
-- [ ] At least 3 "bridge opportunities" checked with sources on both sides
-- [ ] ≥ 8 verified industrial open-source stack cases per side (added 2 Nov)
+- [x] At least 3 "bridge opportunities" checked with sources on both sides *(Eclipse–OpenAtom, Digital Dialogue, Catena-X–CAAM — 2 Nov)*
+- [x] ≥ 8 verified industrial open-source stack cases per side (added 2 Nov; EU 10, CN 11)
+- [x] Registry ≥ 60 initiatives, ≥ 60% primary *(62, 66%)*
 
 ---
 

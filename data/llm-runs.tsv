@@ -5,3 +5,7 @@ date	model_shown	service	search	task	prompt_file	output_file	notes
 2026-11-02	ChatGPT (Plus)	chatgpt.com	on	EU–China OSS bridges, ranked, both-side sources	inline EN	reviews/2026-11-02_chatgpt_bridges.md	2 verified both sides, 1 partial, 1 rejected
 2026-11-02	Qwen (web, free)	chat.qwen.ai	auto	follow-up: gov clouds listing openEuler/OpenHarmony/openKylin	inline ZH	reviews/2026-11-02_qwen_cn-pa-oss-cases.md	2 verified (Yancheng, Jinan)
 2026-11-02	ChatGPT (Plus)	chatgpt.com	on	follow-up: EPL EU source, OpenChain CN source, 3rd bridge	inline EN	reviews/2026-11-02_chatgpt_bridges.md	EPL EU not found; OpenChain verified; no 3rd
+2026-11-02	ChatGPT (Plus, reasoning medium)	chatgpt.com	on	Catena-X/Tractus-X and China	inline EN	reviews/2026-11-02_chatgpt_catenax-china.md	3/8 claims verified A (EU side); candidate 3rd bridge
+2026-11-02	DeepSeek (web, free)	chat.deepseek.com	on	CN industrial stacks cloud/auto/data-space + funding	inline ZH	reviews/2026-11-02_deepseek_cn-industrial-stacks.md	EasyXMen verified A; no gov funding found
+2026-11-02	Qwen (web, free)	chat.qwen.ai	on	more CN e-gov clouds/systems on OSS OS	inline ZH	reviews/2026-11-02_qwen_cn-egov-oss-round6.md	Shijiazhuang verified A (5th CN case); Changde context
+2026-11-02	DeepSeek (web, free)	chat.deepseek.com	on	CN-side sources Catena-X cooperation	inline ZH	reviews/2026-11-02_deepseek_caam-catenax-cn-side.md	2 CAAM pages verified A; 3rd bridge
