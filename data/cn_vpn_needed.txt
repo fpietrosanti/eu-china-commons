@@ -1,0 +1,4 @@
+https://www.gov.cn/ (15th FYP Outline full text, 2 parts; news.cn page gives only chapter headings)	determine whether any 开源 passage exists (tech self-reliance and Digital China parts)	search full text for 开源/开源生态/开源社区 with chapter and paragraph
+Shanghai gov / STCSM / Pudong Innovation Forum Sept 2026 coverage (shanghai.gov.cn)	开源创新国际合作宣言 not found in any search; may not exist under this title	full text, signatory list, issuing body, follow-up mechanism
+https://www.gov.cn/ and ccgp.gov.cn	official basis for government OS replacement / openEuler, openKylin adoption (only secondary English blogs found)	procurement notices or policy document numbers naming domestic OS
+Sichuan/Chengdu, Fujian, Shandong provincial government sites	no open-source policy found in searches	any 开源 implementation plan or fund

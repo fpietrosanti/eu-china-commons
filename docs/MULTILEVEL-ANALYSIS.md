@@ -94,3 +94,18 @@ Priority for next work: 1, 2, 4. They rely on published texts, need no data shar
 - **Outcome evidence:** neither side offers independent results. Chinese items are almost all targets; French and German adoption figures come from the operators.
 - **Structural:** Chinese public-administration reuse remains an open question; Wuhan, Longgang and Chongqing suggest OpenHarmony pilots rather than a reuse regime. Revisit the OFE finding that there is no formal policy.
 - **Cautions** (memo §8): export controls, data transfer, dual-use, political sensitivity. Nothing here is an agreed position of the DC-EDIC.
+
+
+## Round 2 findings (2026-11-02)
+
+Light pass (about 15 searches/fetches). Catalogue now 56 records (added CNC-12..15, CNP-HB-WH, EU-13); notes appended to EU-01, EU-05, CNP-BJ/ZJ/HN.
+
+- **Shanghai September 2026 declaration (priority 1): not found.** Chinese and English searches return only the Dec 2025 Shanghai open-source plan and the 12 Sep 2026 Pudong Innovation Forum. Treat the declaration, including its title, as unconfirmed until a primary text appears. Listed in data/cn_vpn_needed.txt.
+- **15th FYP Outline:** Xinhua published the full text on 13 Mar 2026 (18 parts incl. Digital China); the fetched page held only the part list, so no 开源 passage could be confirmed or ruled out. Still open.
+- **MIIT:** 4 Sep 2026 AI SME start-up plan 2026-28 (AtomGit, funds for open-source projects); 13 Jan 2026 industrial-internet platform plan (open-source ecosystem goal); on 20 Jul 2026 MIIT said an "AI+software" action plan is coming and 50+ projects are incubating at the national foundation. No joint MIIT/NDRC open-source document found.
+- **GB/T 44272-2024: verified** on the SAMR openstd listing (current; published 2024-08-23; effective 2025-03-01). Full text not read.
+- **SASAC (new):** Huanxin AI open-source community v2.0, July 2026, China Mobile-led; Feb 2026 directive to central SOEs on open-source communities. Figures are press-only. CAC, MOST, MOE: nothing found.
+- **Public-administration reuse:** only secondary English reports on replacing government Windows with Kylin/UOS (openEuler/openKylin as upstreams); no official source, nothing on code sharing between agencies. The no-formal-reuse-regime finding stands.
+- **Provinces:** Wuhan (4 OpenHarmony OS, 100k developers by 2027) and Hunan (doc no. 湘制造强省办〔2026〕7号, 13 Oct 2026: 100 scenes, 50k developers by 2028) now have dated targets, still secondary. Sichuan/Chengdu, Fujian, Shandong: nothing found.
+- **EU:** strategy is COM(2026) 503. No official budget for the Maintenance Instrument or Open Internet Stack; EUR 350m for an EU-STF is a study/advocacy figure. DC-EDIC (FR, DE, NL, IT, LU; Paris; director from 1 Apr 2026) has no published budget; a Digital Europe EDIC Support Hub call exists (EUR 1m ceiling per an aggregator, to check). CRA: non-binding guidance C(2026) 5252 of 27 Jul 2026 covers FOSS; no separate steward act; reporting duties from 11 Sep 2026, main duties 11 Dec 2027. EU OSPO and EU-STF start date: not researched.
+- **Catalogue upgrades (priority 8):** not done beyond the above, for budget reasons.
