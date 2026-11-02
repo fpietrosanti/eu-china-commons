@@ -74,3 +74,6 @@ Only institutional channels (generic pages, forms, press offices) are stored. No
 
 ## Link check (automated, 2 Nov 2026)
 Home pages reached with HTTP 2xx/3xx: 39 of 111 (field `web_http` in the JSON). Failures are mostly timeouts or bot-blocking from a bulk check (code 0), plus a few 403/404/412 (eu-digit-ospo, eu-itre, ms-fi-dvv, cn-caict, cn-js). They are **not** proof the sites are wrong. Re-check from a normal browser, and from the server for the Chinese sites (see CN-VPN-QUEUE), before any outreach. Pages in contact_channel were not individually fetched.
+
+## Link check (2026-11-02, from the EU server, no tokens)
+214 URLs checked (tools/linkcheck.sh): **160 OK (200)**, 22 not found (404), 19 unreachable (timeout or geo-block), 9 blocked (403), 4 other. Failures are in data/stakeholders_linkcheck_fail.tsv. The 404s need the URL corrected; the timeouts on Chinese sites go to the China VPN queue. **A reachable URL does not mean the entry is verified:** organisation, role and contact channel still have to be checked before any outreach.
