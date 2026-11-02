@@ -1,14 +1,20 @@
-# STATE — Observatory on European and Chinese Digital Commons
+# STATE — Europe–China Digital Commons Observatory (中欧数字公地观察站)
 
-Updated: 2026-11-02 · Milestone: v0.1 public by **12 Nov 2026**
+Updated: 2026-11-03 · Milestone v0.1 public: **12 Nov 2026**
 
-## Where we are
-- Roadmap per mission: TODO.md (M1 paper, M2 site, M3 catalogue, M4 implicit collaboration, M5 priorities, M6 governance/funding, M7 open call, M8 brand/domain, M9 fundraising, Phase 0 sources/VPN)
-- Site v0.1 EN+ZH in site/ (preview: node tools/serve.js → :8090). Catalogue from site/data/catalogue.json (14 cases, bilingual)
-- Domain options: docs/DOMAIN-OPTIONS.md (recommendation: commons-bridge.eu + gongxiang.eu alias)
-- Analysis: docs/REVIEW-DRAFT.md; literature: docs/LITERATURE-AND-NOVELTY.md
-- Background research running: docs/LITERATURE-REVIEW.md + data/catalogue-verified.json (to merge into the site catalogue)
+## Decisions (Fabio)
+- Scope: open source / digital commons only. Site EN + ZH; working docs EN.
+- Domain: **eu-china-commons.eu** (site/CNAME ready). Handle: EUChinaCommons.
+- Token budget: **max 10% of the available weekly budget** (ledger + weekly job, see docs/OPERATIONS.md).
+- Hosting: one GitHub repo = repository + site via GitHub Pages (workflow .github/workflows/pages.yml publishes site/). A dedicated server account will run the jobs (maximise what is deployed there).
 
-## Blocking for 12 Nov (Fabio)
-- Choose and register the domain; public email; legal home of the observatory
-- Native-speaker review of the ZH text; publication repo (public GitHub?)
+## Waiting on Fabio
+- GitHub repo (name/org) and server account → then push, Pages, DNS of eu-china-commons.eu (registration + CNAME/A records to GitHub Pages)
+- Public email; native-speaker ZH review; public vs private source archive; Chinese partner for WeChat
+
+## In progress
+- Source archive: server job ~/ecdc (ubuntu@51.158.36.151, temporary) → to move to the dedicated account
+- Multi-level analysis (data/initiatives.json, docs/MULTILEVEL-ANALYSIS.md)
+
+## Where things are
+TODO.md (roadmap per mission) · site/ · docs/REVIEW-DRAFT.md · docs/LITERATURE-REVIEW.md · docs/DOMAIN-OPTIONS.md · docs/OPERATIONS.md · tools/

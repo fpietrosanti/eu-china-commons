@@ -3,7 +3,7 @@
 Draft of 3 Nov 2026, for Fabio's decision. The aim is to keep research, publishing and outreach running week after week **with a capped token consumption** and to stay resumable at any moment (STATE.md, idempotent jobs on the server).
 
 ## 1. Weekly token budget
-- **Cap: to be set by Fabio.** Proposal: a fixed weekly budget in tokens, split as follows.
+- **Cap (decided by Fabio, 3 Nov 2026): at most 10% of the available weekly budget** of the Claude subscription. Split as follows.
 
   | Share | Activity |
   |---|---|

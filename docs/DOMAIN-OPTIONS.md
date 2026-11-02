@@ -46,6 +46,9 @@ Scores: EU = clarity for Europeans, CN = resonance for Chinese readers, L = leng
 
 Excluded: silkcode.eu (taken; "silk" also evokes the Belt and Road), *gongjian* (共建 is Belt and Road language), *hehe* (和合 reads as 呵呵, a sarcastic laugh online), *tianxia* (天下, political).
 
+## DECISION (3 Nov 2026)
+**Main domain: `eu-china-commons.eu`** (chosen by Fabio). Optional aliases, to be decided: china-europe-digital-commons.eu → /zh/, zhongou-commons.eu (CN social/print). Handle: `EUChinaCommons`.
+
 ## Recommendation (4 domains, about €40/year)
 1. **`europe-china-digital-commons.eu`**: main domain, EN.
 2. **`china-europe-digital-commons.eu`**: redirects to /zh/.
