@@ -1,1722 +1,1909 @@
 [
- {
-  "title_original": "EU Open Source Strategy (with Communication on European Tech Sovereignty)",
-  "dc_edic_results": [
-   "E2",
-   "E6",
-   "E7",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "CNC-01",
-   "CNC-03"
-  ],
-  "sources": [
-   "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
-   "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy",
-   "https://digital-strategy.ec.europa.eu/en/factpages/eu-open-source-strategy",
-   "https://www.osborneclarke.com/insights/new-eu-open-source-strategy-europes-path-digital-sovereignty-through-open-technologies",
-   "https://www.linux-magazine.com/Online/News/EU-Open-Source-Strategy-Plays-Key-Role-in-Tech-Sovereignty-Package",
-   "https://techpolicy.press/how-the-eus-tech-sovereignty-package-finally-puts-open-source-to-the-test",
-   "https://data.consilium.europa.eu/doc/document/ST-10220-2026-ADD-1/en/pdf",
-   "https://www.swisscore.org/a-new-path-for-europes-open-digital-future/",
-   "https://buttondown.com/ossfunded/archive/2026-06-15/"
-  ],
-  "unknowns": [
-   "Full Communication text and annex not read directly (summarised via Commission policy page and law-firm/press summaries)",
-   "Budget lines and the EUR 2bn figure",
-   "Binding vs aspirational status of \"open source first\" wording (CNLL calls it weak)"
-  ],
-  "id": "EU-01",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "EU Open Source Strategy",
-  "issuing_authority": "European Commission",
-  "legal_status": "plan",
-  "date": "2026-06-03",
-  "objective": "Place open source at the centre of EU tech sovereignty via four objectives: open source for sovereignty, a vibrant ecosystem, open source in public administration, and standards/international reach.",
-  "instruments": [
-   "procurement",
-   "maintenance",
-   "grant",
-   "community",
-   "platform"
-  ],
-  "targets_or_budget": "No funding amounts in the Commission page or trade summaries read. Tech Policy Press (secondary) mentions a proposed EUR 2bn envelope over seven years; scope of that figure not verified.",
-  "reuse_logic": "Procurement guidelines favouring open standards and fair evaluation of open-source bids; reusable public digital assets; strengthened Commission OSPO and EU Public Sector OSPO Network; common security baselines for Commission repositories.",
-  "evidence": "primary",
-  "note": "Round 2 (2026-11-02): Strategy is COM(2026) 503. Maintenance Instrument and Open Internet Stack (NGI scale-up) confirmed as plans; no official allocation found. EUR 350m minimum for an EU-STF over next MFF is a feasibility-study/advocacy figure, not Commission. NLnet pausing most open calls pending three Open Internet Stack programmes after summer 2026."
- },
- {
-  "title_original": "Open Source Maintenance Instrument",
-  "dc_edic_results": [
-   "E6",
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "CNC-04",
-   "CNP-JS"
-  ],
-  "sources": [
-   "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
-   "https://www.osborneclarke.com/insights/new-eu-open-source-strategy-europes-path-digital-sovereignty-through-open-technologies"
-  ],
-  "unknowns": [
-   "Design, operator, budget, relation to EU-STF pilot and to the Sovereign Tech Agency"
-  ],
-  "id": "EU-02",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "Open Source Maintenance Instrument (proposed)",
-  "issuing_authority": "European Commission (announced in EU-01)",
-  "legal_status": "programme",
-  "date": "2026-06-03",
-  "objective": "Address chronic underfunding of maintenance of critical open-source components; the strategy annex tracks the share of listed critical dependencies actively supported.",
-  "instruments": [
-   "maintenance"
-  ],
-  "targets_or_budget": "Unknown: no amount, legal basis or timetable found.",
-  "reuse_logic": "Linked to critical-dependency mapping and mirroring capacity so that shared components are kept alive for all users.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Open Internet Stack",
-  "dc_edic_results": [
-   "E4",
-   "E5"
-  ],
-  "cn_eu_counterpart": [
-   "CNC-05"
-  ],
-  "sources": [
-   "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
-   "https://commons.ngi.eu/2026/02/17/eu-open-source-week-2026-demonstrates-growing-institutional-commitment-to-digital-commons-and-open-technologies/"
-  ],
-  "unknowns": [
-   "Budget, programme vehicle (Horizon/Digital Europe/MFF), relation to NGI"
-  ],
-  "id": "EU-03",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "Open Internet Stack catalogue / funding programme",
-  "issuing_authority": "European Commission",
-  "legal_status": "programme",
-  "date": "2026-06-03",
-  "objective": "Scale a catalogue/funding line for open alternatives (cloud, workplace tools, secure e-mail, decentralised social media) to reduce lock-in and improve interoperability.",
-  "instruments": [
-   "grant",
-   "platform"
-  ],
-  "targets_or_budget": "Unknown. An NGI commentary reports no clear definition of scope or implementation yet.",
-  "reuse_logic": "Catalogue of reusable open components that Member States can adopt.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Commission Open Source Programme Office (OSPO) and EU Public Sector OSPO Network",
-  "dc_edic_results": [
-   "E1",
-   "E2"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-BJ"
-  ],
-  "sources": [
-   "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy"
-  ],
-  "unknowns": [
-   "Staffing, budget, network membership"
-  ],
-  "id": "EU-04",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "Commission OSPO and EU Public Sector OSPO Network",
-  "issuing_authority": "European Commission (DG DIGIT attribution not verified)",
-  "legal_status": "institution",
-  "date": "2026-06-03 (strengthening announced); founding date not verified",
-  "objective": "Strategy aims to strengthen the Commission OSPO and the public-sector OSPO network, supporting procurement guidance and reusable public digital assets.",
-  "instruments": [
-   "community",
-   "platform"
-  ],
-  "targets_or_budget": "Unknown.",
-  "reuse_logic": "Peer network of public-sector OSPOs sharing practices and code.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Digital Commons EDIC",
-  "dc_edic_results": [
-   "E1",
-   "E2",
-   "E3",
-   "E4",
-   "E5",
-   "E6",
-   "E7",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "CNC-04",
-   "CNP-BJ",
-   "CNP-SH"
-  ],
-  "sources": [
-   "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf",
-   "https://digital-commons-edic.eu/about/",
-   "https://eur-lex.europa.eu/eli/dec_impl/2025/2170/oj/eng",
-   "https://commons.ngi.eu/2026/04/01/digital-commons-edic-takes-shape-with-more-countries-director-and-first-projects/",
-   "https://digital-strategy.ec.europa.eu/en/news/commission-launch-digital-commons-edic-support-sovereign-european-digital-infrastructure-and",
-   "https://openfuture.eu/note/digital-commons-edic-announces-leadership-and-initial-projects/",
-   "https://www.sovereign.tech/press/edic-digital-commons-director",
-   "https://grantedai.com/grants/support-to-the-implementation-of-multi-country-projects-edic-support-hub-european-commission-digital-europe-progr-5d7e0065"
-  ],
-  "unknowns": [
-   "Own budget lines, membership list at date"
-  ],
-  "id": "EU-05",
-  "level": "EU",
-  "jurisdiction": "European Union (Member State consortium, seat Paris)",
-  "title_english": "Digital Commons European Digital Infrastructure Consortium (DC-EDIC)",
-  "issuing_authority": "Commission Implementing Decision (EU) 2025/2170; Member State Assembly",
-  "legal_status": "institution",
-  "date": "2025 (decision); 2026-04-01 director in post; 2026-10-16 Implementation Strategy adopted",
-  "objective": "Connect, deploy and maintain digital commons at European scale; first cycle defines results E1-E8 by end-2027.",
-  "instruments": [
-   "community",
-   "adoption-subsidy",
-   "maintenance",
-   "platform"
-  ],
-  "targets_or_budget": "Strategy budgets not extracted in this pass; first cycle delivered through EDCOM-funded work packages (see docs/REVIEW-DRAFT.md).",
-  "reuse_logic": "Collaborative Workspace flagship (openDesk Notes/Docs, BlockNote, Matrix) proven in two or more national reference environments; community nodes; 100-day challenges.",
-  "evidence": "primary",
-  "note": "Round 2 (2026-11-02): DC-EDIC: founded by FR, DE, NL, IT, LU; seat Paris; director Laurent Rojey from 1 Apr 2026; Commission approval Oct 2025; first projects incl. EU-STF pilot. No budget published. Digital Europe EDIC Support Hub call DIGITAL-2026-BESTUSE-MCP-10-HUB (ceiling EUR 1m per aggregator; check F&T portal)."
- },
- {
-  "title_original": "EDCOM",
-  "dc_edic_results": [
-   "E1",
-   "E2",
-   "E4",
-   "E6",
-   "E7"
-  ],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
-  ],
-  "unknowns": [
-   "Grant budget, funder programme, duration"
-  ],
-  "id": "EU-06",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "EDCOM, first funded delivery programme of the DC-EDIC",
-  "issuing_authority": "Grant-funded programme under contractual governance; funder and full name not established in sources read",
-  "legal_status": "programme",
-  "date": "first cycle through 2027 (per Strategy)",
-  "objective": "Funds WP2 Connect (community, one-stop shop), WP3 Maintain (EU-STF pilot via Sovereign Tech Agency, dependency mapping), WP4 Deploy (100-day challenges led by DINUM and ZenDiS).",
-  "instruments": [
-   "grant",
-   "community"
-  ],
-  "targets_or_budget": "Unknown: amounts not captured.",
-  "reuse_logic": "Work packages produce shared services reused by DC-EDIC members.",
-  "evidence": "primary"
- },
- {
-  "title_original": "Regulation (EU) 2024/903 Interoperable Europe Act; Interoperable Europe portal; Open Source Observatory (OSOR)",
-  "dc_edic_results": [
-   "E2",
-   "E3"
-  ],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://eur-lex.europa.eu/EN/legal-content/summary/interoperable-europe-act.html",
-   "https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2026-06/guidelines-on-sharing-interoperability-solutions_extended-version.pdf",
-   "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence",
-   "https://en.wikipedia.org/wiki/Interoperable_Europe_Act"
-  ],
-  "unknowns": [
-   "Dates not verified on EUR-Lex",
-   "Article numbers from secondary sources"
-  ],
-  "id": "EU-07",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "Interoperable Europe Act with portal and OSOR",
-  "issuing_authority": "European Parliament and Council; Commission (portal, Board)",
-  "legal_status": "law",
-  "date": "adopted 2024-03-13; in force 2024-04-11, applying from 2024-07-12 (Wikipedia; not checked on EUR-Lex)",
-  "objective": "Cross-border interoperability of public services; assessment and sharing of interoperability solutions; public bodies to prioritise solutions without restrictive licensing (e.g. open source) where equivalent (Art. 4(6) per Commission guidelines).",
-  "instruments": [
-   "legal-obligation",
-   "platform",
-   "standard"
-  ],
-  "targets_or_budget": "No dedicated budget found.",
-  "reuse_logic": "Sharing and reuse of interoperability solutions on the Interoperable Europe portal (ex-Joinup), EUPL permitted; OSOR publishes country reports on public-sector open source.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Next Generation Internet (NGI) / NGI Zero Commons Fund",
-  "dc_edic_results": [
-   "E7",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-HZ"
-  ],
-  "sources": [
-   "https://www.nlnet.nl/commonsfund",
-   "https://www.fundingprogrammesportal.gov.cy/en/call/ngi-zero-commons-fund-13th-open-call-reclaim-the-public-nature-of-the-internet-en-2026/"
-  ],
-  "unknowns": [
-   "Post-2027 successor (possibly Open Internet Stack)"
-  ],
-  "id": "EU-08",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "NGI Zero Commons Fund (NLnet, Horizon Europe)",
-  "issuing_authority": "European Commission via NLnet foundation",
-  "legal_status": "programme",
-  "date": "13th and final open call closed 2026-06-01",
-  "objective": "Fund small open-source, open-hardware and standards projects (\"reclaim the public nature of the internet\").",
-  "instruments": [
-   "grant"
-  ],
-  "targets_or_budget": "Final call budget EUR 6.1m (call listing, secondary). Total programme budget not verified.",
-  "reuse_logic": "Results released under open licences; supports components used by public-sector stacks.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Regulation (EU) 2024/2847 Cyber Resilience Act, Art. 24 (open-source software stewards)",
-  "dc_edic_results": [
-   "E6",
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-BJ"
-  ],
-  "sources": [
-   "https://digital-strategy.ec.europa.eu/en/policies/cra-open-source",
-   "https://policy.openssf.org/CRA/stewards-playbook.html"
-  ],
-  "unknowns": [
-   "EUR-Lex text not read; application dates and fine exemption unverified"
-  ],
-  "id": "EU-09",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "Cyber Resilience Act open-source steward provisions",
-  "issuing_authority": "European Parliament and Council",
-  "legal_status": "law",
-  "date": "OJ 2024-11-20; steward duties applicable 2027-12-11 per one secondary source",
-  "objective": "Light-touch obligations on stewards: verifiable cybersecurity policy, cooperation with market surveillance, scoped vulnerability reporting.",
-  "instruments": [
-   "legal-obligation"
-  ],
-  "targets_or_budget": "n/a. One secondary source claims stewards are exempt from administrative fines (Art. 64(10)); unverified.",
-  "reuse_logic": "Creates a recognised legal role (steward) for foundations maintaining shared code.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Digital Europe Programme",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [],
-  "unknowns": [
-   "Whether it funds EDCOM or Open Internet Stack; call data not retrieved"
-  ],
-  "id": "EU-10",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "Digital Europe Programme (open-source-relevant calls)",
-  "issuing_authority": "European Commission",
-  "legal_status": "programme",
-  "date": "2021-2027",
-  "objective": "Possible funding vehicle for deployment of open solutions; not researched.",
-  "instruments": [
-   "grant"
-  ],
-  "targets_or_budget": "Not researched.",
-  "reuse_logic": "Unknown",
-  "evidence": "unverified"
- },
- {
-  "title_original": "Joint Research Centre open-source assessment work",
-  "dc_edic_results": [
-   "E3",
-   "E6"
-  ],
-  "cn_eu_counterpart": [
-   "CNC-09"
-  ],
-  "sources": [
-   "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
-  ],
-  "unknowns": [
-   "JRC outputs and mandate not researched"
-  ],
-  "id": "EU-11",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "JRC open-source assessment work",
-  "issuing_authority": "European Commission JRC",
-  "legal_status": "programme",
-  "date": "2026",
-  "objective": "DC-EDIC Strategy states exploratory exchanges with the JRC as its open-source assessment work develops.",
-  "instruments": [
-   "community"
-  ],
-  "targets_or_budget": "Unknown.",
-  "reuse_logic": "Evidence base for critical-dependency assessment.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "EU Sovereign Tech Fund Pilot (EU-STF)",
-  "dc_edic_results": [
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-JS",
-   "CNP-HZ",
-   "CNC-04"
-  ],
-  "sources": [
-   "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf",
-   "https://www.sovereign.tech/news/open-resilient-european-the-edic-digital-commons",
-   "https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/"
-  ],
-  "unknowns": [
-   "Budget and cohort"
-  ],
-  "id": "EU-12",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_english": "EU-STF Pilot operated by Sovereign Tech Agency within EDCOM",
-  "issuing_authority": "DC-EDIC / EDCOM; operator Sovereign Tech Agency",
-  "legal_status": "programme",
-  "date": "announced Mar 2026; Matrix.org says kicked off June 2026 (timing conflict)",
-  "objective": "Test European financing for selected critical open-source dependencies with trusted maintainers; one bounded cohort selected and contracted by end-2027.",
-  "instruments": [
-   "maintenance"
-  ],
-  "targets_or_budget": "Pilot size not found.",
-  "reuse_logic": "Funds fixes and maintenance time in components used by many public bodies.",
-  "evidence": "primary"
- },
- {
-  "title_original": "“人工智能+软件”专项行动实施方案",
-  "dc_edic_results": [
-   "E1",
-   "E3",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "EU-01"
-  ],
-  "sources": [
-   "https://www.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_95c0b992336a4cb1b87ec3ccc576a669.html"
-  ],
-  "unknowns": [
-   "Plan text itself (only press-conference text read)",
-   "Text read does not address public-sector adoption, SBOM or international cooperation"
-  ],
-  "id": "CNC-01",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "AI + Software Special Action Implementation Plan",
-  "issuing_authority": "Ministry of Industry and Information Technology (MIIT)",
-  "legal_status": "plan",
-  "date": "2026-09-11 (press conference)",
-  "objective": "Use open source as infrastructure for AI-software innovation: host key projects on OpenAtom/AtomGit, open-source zones, project selection mechanism, contribution-based evaluation.",
-  "instruments": [
-   "platform",
-   "community",
-   "venture"
-  ],
-  "targets_or_budget": "Announced: incubate more than 5 key open-source projects by 2028 (memo wrote \"at least five\"); AtomGit 80,000+ models, 370,000+ datasets, 12m+ registered users by Aug 2026 (official statement, not audited). No monetary amounts in the text read.",
-  "reuse_logic": "Central hosting platform and licence/compliance guidance; code, model and dataset sharing on AtomGit; universities and SME assessments credit open-source contributions.",
-  "evidence": "primary"
- },
- {
-  "title_original": "“十四五”规划和2035年远景目标纲要; 工信部“十四五”软件和信息技术服务业发展规划",
-  "dc_edic_results": [
-   "E1",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "EU-01"
-  ],
-  "sources": [
-   "https://www.miit.gov.cn/xwdt/szyw/art/2021/art_86371f315d484a36811c5c94298912fa.html",
-   "https://www.gov.cn/zhengce/zhengceku/2021-12/01/5655205/files/a44b507d67c74591ad4f5e55b98c4518.pdf"
-  ],
-  "unknowns": [
-   "Not re-read in this pass; relies on memo S04, S05"
-  ],
-  "id": "CNC-02",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "14th Five-Year Plan and MIIT 14th FYP for software and IT services",
-  "issuing_authority": "State Council / NPC; MIIT",
-  "legal_status": "plan",
-  "date": "2021",
-  "objective": "Support open-source communities, domestic open-source foundations, code-hosting infrastructure and incubation.",
-  "instruments": [
-   "platform",
-   "community"
-  ],
-  "targets_or_budget": "No figures captured.",
-  "reuse_logic": "Foundations and code forges as shared infrastructure.",
-  "evidence": "primary"
- },
- {
-  "title_original": "国民经济和社会发展第十五个五年规划纲要; 2026年政府工作报告",
-  "dc_edic_results": [
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "EU-01"
-  ],
-  "sources": [
-   "https://english.www.gov.cn/news/202603/05/content_WS69a8fd53c6d00ca5f9a098c2.html",
-   "https://cset.georgetown.edu/publication/china-fourth-plenum-proposal-2026/"
-  ],
-  "unknowns": [
-   "Whether the final Outline contains an explicit open-source passage: NOT confirmed; full text not read"
-  ],
-  "id": "CNC-03",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "15th Five-Year Plan Outline (2026-2030); 2026 Government Work Report",
-  "issuing_authority": "NPC / State Council",
-  "legal_status": "plan",
-  "date": "approved 2026-03-12; text released 2026-03-13",
-  "objective": "2026 Government Work Report reportedly \"supports building AI open-source communities\" (secondary quote via a People's Daily reprint).",
-  "instruments": [
-   "community"
-  ],
-  "targets_or_budget": "Outline: AI-related industry above RMB 10 trillion by end of 15th FYP (NDRC, secondary). No open-source figure found.",
-  "reuse_logic": "Unknown.",
-  "evidence": "unverified"
- },
- {
-  "title_original": "开放原子开源基金会",
-  "dc_edic_results": [
-   "E1",
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "EU-05",
-   "EU-12"
-  ],
-  "sources": [
-   "https://www.openatom.org/",
-   "https://newsroom.eclipse.org/news/announcements/eclipse-foundation-and-openatom-foundation-forge-strategic-initiative-focused",
-   "https://blogs.eclipse.org/post/mike-milinkovich/eclipse-and-openatom-pioneering-open-source-innovation"
-  ],
-  "unknowns": [
-   "Funding sources, board independence"
-  ],
-  "id": "CNC-04",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "OpenAtom Foundation",
-  "issuing_authority": "OpenAtom Foundation (non-profit, Beijing)",
-  "legal_status": "institution",
-  "date": "2020-06",
-  "objective": "Stewardship, incubation, governance and community infrastructure for open-source projects (OpenHarmony, openEuler, openKylin, AtomGit, OpenLET).",
-  "instruments": [
-   "community",
-   "platform",
-   "venture"
-  ],
-  "targets_or_budget": "Unknown; funding sources not established.",
-  "reuse_logic": "Neutral legal home for donated projects; incubation and compliance support; sister-project mechanism with Eclipse.",
-  "evidence": "primary"
- },
- {
-  "title_original": "AtomGit",
-  "dc_edic_results": [
-   "E1",
-   "E3"
-  ],
-  "cn_eu_counterpart": [
-   "EU-03",
-   "EUN-NL-02"
-  ],
-  "sources": [
-   "https://www.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_95c0b992336a4cb1b87ec3ccc576a669.html"
-  ],
-  "unknowns": [
-   "Openness, exportability, cross-border access"
-  ],
-  "id": "CNC-05",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "AtomGit national AI open-source community and code platform",
-  "issuing_authority": "OpenAtom Foundation",
-  "legal_status": "platform",
-  "date": "before 2026-08",
-  "objective": "Domestic code, model and dataset hosting.",
-  "instruments": [
-   "platform"
-  ],
-  "targets_or_budget": "12m+ registered users, 80k+ models, 370k+ datasets (official statement).",
-  "reuse_logic": "Hosting and discovery for reuse of code, models and data.",
-  "evidence": "primary"
- },
- {
-  "title_original": "码云 Gitee",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://22.merics.org/sites/default/files/2021-05/MERICS%20Primer%20Open%20Source%202021_0.pdf"
-  ],
-  "unknowns": [
-   "Current status relative to AtomGit"
-  ],
-  "id": "CNC-06",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "Gitee, MIIT-endorsed code-hosting platform",
-  "issuing_authority": "Oschina (company); designated by MIIT 2020 (per MERICS)",
-  "legal_status": "platform",
-  "date": "2020-08",
-  "objective": "Independent domestic code hosting.",
-  "instruments": [
-   "platform"
-  ],
-  "targets_or_budget": "5m+ members (2021 self-report).",
-  "reuse_logic": "Code hosting.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "木兰宽松许可证 / 木兰公共许可证",
-  "dc_edic_results": [
-   "E2"
-  ],
-  "cn_eu_counterpart": [
-   "EU-07"
-  ],
-  "sources": [
-   "https://opensource.org/meeting-minutes/2020-02-14"
-  ],
-  "unknowns": [
-   "OSI status of other Mulan licences"
-  ],
-  "id": "CNC-07",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "Mulan Permissive Software License v2 and Mulan family",
-  "issuing_authority": "Chinese licence stewards (OSI-approved v2)",
-  "legal_status": "standard",
-  "date": "OSI approval of Mulan PSL v2: 2020-02-14",
-  "objective": "Chinese-origin licences recognised internationally.",
-  "instruments": [
-   "standard"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "Licence compatibility enabling cross-border reuse.",
-  "evidence": "primary"
- },
- {
-  "title_original": "GB/T 44272-2024",
-  "dc_edic_results": [
-   "E2"
-  ],
-  "cn_eu_counterpart": [
-   "EU-07"
-  ],
-  "sources": [
-   "https://www.chinesestandard.net/List.aspx/GBT/Page228"
-  ],
-  "unknowns": [
-   "Title, scope, effective date: only a listing seen; verify on openstd.samr.gov.cn"
-  ],
-  "id": "CNC-08",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "GB/T 44272-2024 (title per a third-party listing: \"Information technology - Open source - Open source license framework\")",
-  "issuing_authority": "SAMR / SAC (presumed)",
-  "legal_status": "standard",
-  "date": "2024",
-  "objective": "Not verified.",
-  "instruments": [
-   "standard"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "Licence framework; not read.",
-  "evidence": "unverified"
- },
- {
-  "title_original": "开源社 KAIYUANSHE 《中国开源年度报告》",
-  "dc_edic_results": [
-   "E1",
-   "E3"
-  ],
-  "cn_eu_counterpart": [
-   "EU-11",
-   "EU-05"
-  ],
-  "sources": [
-   "https://www.kaiyuanshe.cn/about",
-   "https://kaiyuanshe.github.io/2025-China-Open-Source-Report/en/"
-  ],
-  "unknowns": [
-   "Governance caution in memo section 4.2"
-  ],
-  "id": "CNC-09",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "KAIYUANSHE and China Open Source Report",
-  "issuing_authority": "KAIYUANSHE (community association)",
-  "legal_status": "institution",
-  "date": "annual; 2025 edition",
-  "objective": "Community network and annual state-of-open-source reporting.",
-  "instruments": [
-   "community"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "Evidence and community channel.",
-  "evidence": "primary"
- },
- {
-  "title_original": "开源鸿蒙 OpenHarmony (OpenAtom project)",
-  "dc_edic_results": [
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "EU-05"
-  ],
-  "sources": [
-   "https://metrics.eclipse.org/wgs/oniro/",
-   "https://blogs.eclipse.org/post/ignacio-ahedo/frameworks-hardware-and-community-oniro%E2%80%99s-2026-mid-year-update"
-  ],
-  "unknowns": [
-   "Licence and control detail; not equal to HarmonyOS"
-  ],
-  "id": "CNC-10",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "OpenHarmony",
-  "issuing_authority": "OpenAtom Foundation",
-  "legal_status": "programme",
-  "date": "n/a",
-  "objective": "Open OS foundation promoted by provinces for devices and, in pilots, government systems.",
-  "instruments": [
-   "community",
-   "adoption-subsidy"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "Common OS base; Eclipse Oniro downstream in Europe.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "RISC-V national guidance",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://www.trendforce.com/news/2025/03/04/news-china-reportedly-set-to-roll-out-nationwide-risc-v-chip-push-with-policy-expected-by-march/"
-  ],
-  "unknowns": [
-   "Whether issued"
-  ],
-  "id": "CNC-11",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_english": "RISC-V policy guidance (reported draft)",
-  "issuing_authority": "Reported multi-agency",
-  "legal_status": "plan",
-  "date": "reported Mar 2025",
-  "objective": "Promote RISC-V adoption.",
-  "instruments": [
-   "adoption-subsidy"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "n/a",
-  "evidence": "unverified"
- },
- {
-  "title_original": "La Suite numérique (Docs, Visio, Tchap) – DINUM",
-  "dc_edic_results": [
-   "E1",
-   "E4",
-   "E5"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-SZ-LG",
-   "CNP-WH"
-  ],
-  "sources": [
-   "https://indico.math.cnrs.fr/event/15889/contributions/15215/attachments/6380/11212/2026-03-11-journees-mathrice-la-suite-DINUM.pdf",
-   "https://siecledigital.fr/2026/01/28/letat-dit-stop-a-teams-et-zoom-bienvenue-a-visio/",
-   "https://acteurspublics.fr/articles/la-dinum-demande-aux-ministeres-de-mettre-la-main-au-portefeuille-pour-developper-sa-suite-numerique/",
-   "https://acteurspublics.fr/articles/la-cour-invite-encore-la-dsi-de-letat-a-collaborer-davantage-avec-les-ministeres-pour-sa-suite-numerique/"
-  ],
-  "unknowns": [
-   "Official decree/circular text for the 2027 deadline not read"
-  ],
-  "id": "EUN-FR-01",
-  "level": "EU-national",
-  "jurisdiction": "France",
-  "title_english": "La Suite numérique (State digital suite)",
-  "issuing_authority": "DINUM (Direction interministérielle du numérique)",
-  "legal_status": "platform",
-  "date": "suite c.2024; Visio generalisation announced Jan 2026",
-  "objective": "Sovereign collaborative suite for State agents; Visio to replace Teams/Zoom/Meet/Webex by 2027 (press, minister David Amiel).",
-  "instruments": [
-   "platform",
-   "adoption-subsidy",
-   "community"
-  ],
-  "targets_or_budget": "Tchap 400k MAU, Visio 100k MAU (DINUM slides Mar 2026). DINUM asks ministries for voluntary funding (Acteurs Publics, Feb 2026). Cour des comptes critical (Oct 2026).",
-  "reuse_logic": "Code published (MIT/AGPL); co-development with ZenDiS (Docs); BlockNote editor from NL; ProConnect SSO.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Etalab / loi pour une République numérique: code source des administrations",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [],
-  "unknowns": [
-   "All details unverified; no source fetched"
-  ],
-  "id": "EUN-FR-02",
-  "level": "EU-national",
-  "jurisdiction": "France",
-  "title_english": "French open-source policy (Etalab, 2016 Digital Republic law)",
-  "issuing_authority": "DINUM/Etalab",
-  "legal_status": "law",
-  "date": "2016 (from background knowledge, not sourced)",
-  "objective": "Not researched in this pass.",
-  "instruments": [
-   "legal-obligation",
-   "platform"
-  ],
-  "targets_or_budget": "Unknown",
-  "reuse_logic": "From background knowledge only: administrations' source code treated as communicable documents; code.gouv.fr catalogue.",
-  "evidence": "unverified"
- },
- {
-  "title_original": "ZenDiS / openDesk / openCode",
-  "dc_edic_results": [
-   "E1",
-   "E4",
-   "E5"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-SZ-LG"
-  ],
-  "sources": [
-   "https://www.opendesk.eu/en/about",
-   "https://www.deutsche-rentenversicherung.de/Bund/DE/Presse/Pressemitteilungen/pressemitteilungen_aktuell/2026/2026-07-21-ckki-zendis-opendesk",
-   "https://vergabeblog.de/2026-04-21/zendis-strategische-neuausrichtung-mit-fokus-auf-open-source/"
-  ],
-  "unknowns": [
-   "Budget, independent adoption counts"
-  ],
-  "id": "EUN-DE-01",
-  "level": "EU-national",
-  "jurisdiction": "Germany",
-  "title_english": "Centre for Digital Sovereignty (ZenDiS) and openDesk",
-  "issuing_authority": "ZenDiS GmbH (federally owned, founded Dec 2022)",
-  "legal_status": "institution",
-  "date": "openDesk v1.0 2024-10-20",
-  "objective": "Maintain and market an open-source workplace suite for public administrations; partner programme for private providers from Sep 2026.",
-  "instruments": [
-   "platform",
-   "adoption-subsidy",
-   "community"
-  ],
-  "targets_or_budget": "About 100,000 workstations (ZenDiS claim, July 2026 DRV press release); strategy process Apr 2026. No budget found.",
-  "reuse_logic": "Single maintained distribution reused by federal, state and social-insurance bodies; openCode repository.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Sovereign Tech Agency (ex Sovereign Tech Fund)",
-  "dc_edic_results": [
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-HZ",
-   "CNP-JS",
-   "CNC-04"
-  ],
-  "sources": [
-   "https://www.sovereign.tech/news/newsletter-november-2025",
-   "https://interoperable-europe.ec.europa.eu/node/731113",
-   "https://www.sovereign.tech/press/edic-digital-commons-director"
-  ],
-  "unknowns": [
-   "Current annual budget"
-  ],
-  "id": "EUN-DE-02",
-  "level": "EU-national",
-  "jurisdiction": "Germany",
-  "title_english": "Sovereign Tech Agency",
-  "issuing_authority": "SPRIND subsidiary; financed by federal digital ministry (BMDS)",
-  "legal_status": "institution",
-  "date": "fund 2022; agency later (date not verified)",
-  "objective": "Invest in maintenance and security of open digital base technologies.",
-  "instruments": [
-   "maintenance",
-   "grant"
-  ],
-  "targets_or_budget": "EUR 33.6m invested in 96 technologies (STA newsletter Nov 2025); earlier EUR 24.6m/60+ projects (OSOR); a heise EUR 114m figure conflicts and is not used.",
-  "reuse_logic": "Maintains components used across public and private sector; operates EU-STF pilot.",
-  "evidence": "primary"
- },
- {
-  "title_original": "Deutschland-Stack; Vergabe/EVB-IT changes; OZG",
-  "dc_edic_results": [
-   "E4",
-   "E5"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-BJ"
-  ],
-  "sources": [
-   "https://vergabeblog.de/2026-04-21/zendis-strategische-neuausrichtung-mit-fokus-auf-open-source/",
-   "https://www.computerwoche.de/article/4000120/digitale-souveranitat-wird-deutschland-zum-vorbild-in-europa.html"
-  ],
-  "unknowns": [
-   "No legal open-source preference found; OZG not researched; primary texts not read"
-  ],
-  "id": "EUN-DE-03",
-  "level": "EU-national",
-  "jurisdiction": "Germany",
-  "title_english": "Deutschland-Stack and procurement changes",
-  "issuing_authority": "Federal government (BMDS)",
-  "legal_status": "plan",
-  "date": "2026",
-  "objective": "Uniform sovereign technology base for federal, state and local government by 2028 (press); standard open-source procurement templates under the Vergabebeschleunigungsgesetz 2026 and revised EVB-IT (March 2026), per secondary sources.",
-  "instruments": [
-   "procurement",
-   "platform"
-  ],
-  "targets_or_budget": "Unknown",
-  "reuse_logic": "Common stack across federal levels.",
-  "evidence": "unverified"
- },
- {
-  "title_original": "Schleswig-Holstein Open-Source-Strategie",
-  "dc_edic_results": [
-   "E4"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-SZ-LG"
-  ],
-  "sources": [
-   "https://borncity.com/news/libreoffice-in-schleswig-holstein-fast-80-prozent-der-arbeitsplaetze-umgestellt/",
-   "https://www.computerwoche.de/a/schleswig-holstein-verabschiedet-sich-von-microsoft,3698585"
-  ],
-  "unknowns": [
-   "Official state document not read"
-  ],
-  "id": "EUN-DE-04",
-  "level": "EU-national",
-  "jurisdiction": "Germany / Schleswig-Holstein (sub-national)",
-  "title_english": "Schleswig-Holstein migration to LibreOffice, Open-Xchange, Nextcloud, Linux",
-  "issuing_authority": "State government of Schleswig-Holstein",
-  "legal_status": "programme",
-  "date": "2024-2026",
-  "objective": "Reduce vendor dependency in state administration.",
-  "instruments": [
-   "adoption-subsidy",
-   "procurement"
-  ],
-  "targets_or_budget": "About 80% of workstations on LibreOffice by end-2025; savings over EUR 15m (state claim via trade press).",
-  "reuse_logic": "Own migration; exportable experience.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "CAD (D.Lgs. 82/2005) artt. 68-69; Linee guida AgID su acquisizione e riuso; Developers Italia",
-  "dc_edic_results": [
-   "E1",
-   "E2"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-BJ"
-  ],
-  "sources": [
-   "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82~art69",
-   "https://developers.italia.it/en/reuse/publication",
-   "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/publiccodeyml-standard"
-  ],
-  "unknowns": [
-   "Art. 68 text; AgID guideline text; catalogue size; compliance rate"
-  ],
-  "id": "EUN-IT-01",
-  "level": "EU-national",
-  "jurisdiction": "Italy",
-  "title_english": "Digital Administration Code arts. 68-69, AgID guidelines, Developers Italia",
-  "issuing_authority": "Parliament/Government; AgID; Developers Italia team",
-  "legal_status": "law",
-  "date": "D.Lgs. 82/2005 (current text on Normattiva)",
-  "objective": "Art. 69: administrations owning software built to their specification must make source code and documentation available in a public repository under an open licence (exceptions: public order/security, defence, elections); tenders must secure the administration's rights unless excessively costly; publication on AgID-designated platforms. Art. 68 text not read.",
-  "instruments": [
-   "legal-obligation",
-   "platform",
-   "standard"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "Mandatory publication plus publiccode.yml metadata; Developers Italia crawler catalogue.",
-  "evidence": "primary"
- },
- {
-  "title_original": "Open, tenzij (open source by default); BZK Open Source Programme Office",
-  "dc_edic_results": [
-   "E2"
-  ],
-  "cn_eu_counterpart": [
-   "CNP-BJ",
-   "CNP-WH"
-  ],
-  "sources": [
-   "https://fosdem.org/2026/schedule/event/from-policy-to-practice-open-source-in-gov",
-   "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/updated-report-state-open-source-netherlands"
-  ],
-  "unknowns": [
-   "Primary Dutch government text not read"
-  ],
-  "id": "EUN-NL-01",
-  "level": "EU-national",
-  "jurisdiction": "Netherlands",
-  "title_english": "Dutch \"open unless\" open-source policy and BZK OSPO",
-  "issuing_authority": "Ministry of the Interior (BZK)",
-  "legal_status": "plan",
-  "date": "2020 (policy); BZK report 2022",
-  "objective": "Use and procure open source unless impossible; exceptions for security and confidentiality.",
-  "instruments": [
-   "procurement",
-   "community"
-  ],
-  "targets_or_budget": "Unknown",
-  "reuse_logic": "Publication on a government code platform; OSPO coordination.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "code.overheid.nl",
-  "dc_edic_results": [
-   "E2"
-  ],
-  "cn_eu_counterpart": [
-   "CNC-05"
-  ],
-  "sources": [
-   "https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform/"
-  ],
-  "unknowns": [
-   "Page itself not read"
-  ],
-  "id": "EUN-NL-02",
-  "level": "EU-national",
-  "jurisdiction": "Netherlands",
-  "title_english": "Government open-source code platform (Forgejo pilot)",
-  "issuing_authority": "Dutch central government (BZK)",
-  "legal_status": "platform",
-  "date": "soft launch from 2026-04",
-  "objective": "Government-wide publication of open-source code.",
-  "instruments": [
-   "platform"
-  ],
-  "targets_or_budget": "Unknown",
-  "reuse_logic": "Central forge for reuse by all government bodies.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Centro de Transferencia de Tecnología (CTT); ENI (RD 4/2010) art. 16",
-  "dc_edic_results": [
-   "E1",
-   "E2"
-  ],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/spain-2025-country-report",
-   "https://forum.ospo-alliance.org/t/new-country-level-reports-on-public-sector-floss-in-spain-italy/191"
-  ],
-  "unknowns": [
-   "No 2026 strategy found; Decidim (Barcelona) municipal level not expanded here"
-  ],
-  "id": "EUN-ES-01",
-  "level": "EU-national",
-  "jurisdiction": "Spain",
-  "title_english": "Spain Technology Transfer Centre and National Interoperability Scheme",
-  "issuing_authority": "Ministerio de Política Territorial y Función Pública",
-  "legal_status": "platform",
-  "date": "RD 4/2010; CTT earlier",
-  "objective": "Directory of reusable public-sector solutions with source code, federated with Joinup; ENI art. 16 sets licensing conditions for reusable open-source applications.",
-  "instruments": [
-   "platform",
-   "legal-obligation"
-  ],
-  "targets_or_budget": "Unknown",
-  "reuse_logic": "Directory-based reuse across administrations (Law 40/2015 link not verified).",
-  "evidence": "secondary"
- },
- {
-  "title_original": "Digitaliseringsministeriet: LibreOffice migration",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://www.computing.co.uk/news/2025/denmark-digital-ministry-drops-microsoft",
-   "https://itsfoss.com/news/denmark-set-to-replace-microsoft/"
-  ],
-  "unknowns": [
-   "No 2026 outcome found; national open-source policy not researched"
-  ],
-  "id": "EUN-DK-01",
-  "level": "EU-national",
-  "jurisdiction": "Denmark",
-  "title_english": "Danish Ministry of Digitalisation move to LibreOffice",
-  "issuing_authority": "Ministry of Digitalisation (minister Caroline Stage Olsen)",
-  "legal_status": "programme",
-  "date": "2025-06 announcement",
-  "objective": "Reduce Microsoft dependence within the ministry (target end-2025); Copenhagen and Aarhus similar. The Linux part was retracted by Politiken.",
-  "instruments": [
-   "adoption-subsidy"
-  ],
-  "targets_or_budget": "Unknown",
-  "reuse_logic": "Ministry and municipal examples; no shared programme verified.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "X-Road / NIIS",
-  "dc_edic_results": [
-   "E1"
-  ],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://niis.org/news-archive?year=2019",
-   "https://news.err.ee/915067/iceland-latest-nation-to-adopt-estonia-s-x-road-platform"
-  ],
-  "unknowns": [
-   "Estonian national OSS policy not read (OSOR update exists)"
-  ],
-  "id": "EUN-EE-01",
-  "level": "EU-national",
-  "jurisdiction": "Estonia (with Finland, Iceland)",
-  "title_english": "X-Road data-exchange layer, run by NIIS",
-  "issuing_authority": "Nordic Institute for Interoperability Solutions",
-  "legal_status": "platform",
-  "date": "NIIS 2017; Iceland joined 2021-06-01",
-  "objective": "Open-source secure data exchange.",
-  "instruments": [
-   "platform",
-   "community"
-  ],
-  "targets_or_budget": "Unknown",
-  "reuse_logic": "Jointly governed open code reused across countries.",
-  "evidence": "primary"
- },
- {
-  "title_original": "Bundesheer: Umstellung auf LibreOffice",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://itsfoss.com/news/austrian-forces-ditch-microsoft-office/",
-   "https://www.janes.com/osint-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice"
-  ],
-  "unknowns": [
-   "Federal-level Austrian policy not found; completion not confirmed"
-  ],
-  "id": "EUN-AT-01",
-  "level": "EU-national",
-  "jurisdiction": "Austria",
-  "title_english": "Austrian Armed Forces migration to LibreOffice",
-  "issuing_authority": "Federal Ministry of Defence / Bundesheer",
-  "legal_status": "programme",
-  "date": "2025",
-  "objective": "Digital sovereignty; about 16,000 workstations by end-2025; improvements fed back upstream.",
-  "instruments": [
-   "adoption-subsidy",
-   "community"
-  ],
-  "targets_or_budget": "16,000 workstations (announced).",
-  "reuse_logic": "Upstream contributions to LibreOffice.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "(no dedicated national framework)",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/belgium-osor-factsheet-2026.pdf"
-  ],
-  "unknowns": [
-   "Report read only via search summary"
-  ],
-  "id": "EUN-BE-01",
-  "level": "EU-national",
-  "jurisdiction": "Belgium",
-  "title_english": "Belgium: no comprehensive open-source policy (OSOR 2026)",
-  "issuing_authority": "n/a",
-  "legal_status": "plan",
-  "date": "2026 report",
-  "objective": "OSOR 2026: no comprehensive framework; open-by-default at federal level has not led to systematic adoption.",
-  "instruments": [
-   "community"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "Competences split federal/regional/community.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "(OSOR Poland country report, 2026 update)",
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/poland-2026-country-report"
-  ],
-  "unknowns": [
-   "2026 content not read"
-  ],
-  "id": "EUN-PL-01",
-  "level": "EU-national",
-  "jurisdiction": "Poland",
-  "title_english": "Poland public-sector open source (OSOR)",
-  "issuing_authority": "Ministry of Digital Affairs",
-  "legal_status": "plan",
-  "date": "2026 report",
-  "objective": "Earlier OSOR report: no dedicated public body for open-source regulation or promotion.",
-  "instruments": [
-   "community"
-  ],
-  "targets_or_budget": "n/a",
-  "reuse_logic": "Unknown",
-  "evidence": "unverified"
- },
- {
-  "title_original": "北京市开源生态体系建设实施方案（2026—2028年）",
-  "dc_edic_results": [
-   "E2",
-   "E6"
-  ],
-  "cn_eu_counterpart": [
-   "EUN-NL-01",
-   "EUN-IT-01",
-   "EU-09"
-  ],
-  "sources": [
-   "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202512/t20251224_4360437.html",
-   "https://www.news.cn/fortune/20260625/1a13799c33a745c9857888e16149105c/c.html"
-  ],
-  "unknowns": [
-   "Implementation, suppliers, SBOM coverage"
-  ],
-  "id": "CNP-BJ",
-  "level": "CN-provincial",
-  "jurisdiction": "Beijing (province-level municipality)",
-  "title_english": "Beijing Open-Source Ecosystem Construction Implementation Plan 2026-2028",
-  "issuing_authority": "Beijing Municipal Bureau of Economy and Information Technology",
-  "legal_status": "plan",
-  "date": "2025-12-24",
-  "objective": "Build internationally influential projects, SBOM-enabled procurement, district incubators.",
-  "instruments": [
-   "procurement",
-   "platform",
-   "grant",
-   "venture",
-   "adoption-subsidy"
-  ],
-  "targets_or_budget": "Announced: 10 internationally influential projects (>=5 internationally leading), 30 leading domestic projects (>=10 AI), 100 industry large-model deployments. No monetary amounts. \"Open-source first solution\" support at a share of actual procurement value (percentage unspecified); compute vouchers.",
-  "reuse_logic": "Government-funded software procurement should in principle include an SBOM; public SBOM service platform; municipal SOEs encouraged to donate projects to municipal or national open-source platforms; open-source promotion centres for consulting and governance assessment.",
-  "evidence": "primary",
-  "note": "Round 2 (2026-11-02): Beijing Open-Source Ecosystem Plan 2026-2028 reported by Xinhua: 10 internationally influential and 30 domestic star projects."
- },
- {
-  "title_original": "上海市加强开源体系建设实施方案 (沪府办〔2025〕33号)",
-  "dc_edic_results": [
-   "E1",
-   "E6",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "EU-05",
-   "EU-01"
-  ],
-  "sources": [
-   "https://www.shanghai.gov.cn/nw12344/20251225/7ccd262a2d094d5792a13fa896a892a2.html",
-   "https://shanghaiopen.org.cn/organization/"
-  ],
-  "unknowns": [
-   "Sept 2026 declaration text (digital commons language) not obtained; memo S20 is secondary"
-  ],
-  "id": "CNP-SH",
-  "level": "CN-provincial",
-  "jurisdiction": "Shanghai (province-level municipality)",
-  "title_english": "Shanghai Implementation Plan for Strengthening the Open-Source System",
-  "issuing_authority": "General Office of Shanghai Municipal People's Government",
-  "legal_status": "plan",
-  "date": "issued 2025-12-09; effective 2025-12-15 to 2028-12-14",
-  "objective": "Open-source system by 2027 with international communities, commercialisation, supply-chain risk.",
-  "instruments": [
-   "community",
-   "grant",
-   "standard",
-   "venture"
-  ],
-  "targets_or_budget": "Announced by 2027: 1-2 internationally influential communities, 100 commercial open-source firms, 200+ projects incubated, 3m+ developers; at least 50 projects discovered per year; compute/model vouchers without amounts. No monetary amounts.",
-  "reuse_logic": "National SBOM standard implementation and supply-chain management; no explicit procurement or OSPO provisions; invites overseas open-source organisations to open branches.",
-  "evidence": "primary"
- },
- {
-  "title_original": "关于加快推进浙江省开源体系建设的实施意见",
-  "dc_edic_results": [
-   "E1",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "EU-05"
-  ],
-  "sources": [
-   "https://zjic.zj.gov.cn/ywdh/qyfz/202607/t20260721_24162869.shtml"
-  ],
-  "unknowns": [
-   "Text read is a government-hosted report, not the notice itself"
-  ],
-  "id": "CNP-ZJ",
-  "level": "CN-provincial",
-  "jurisdiction": "Zhejiang Province",
-  "title_english": "Implementation Opinions on Accelerating Zhejiang's Open-Source System",
-  "issuing_authority": "Zhejiang Dept. of Economy and IT plus six departments",
-  "legal_status": "plan",
-  "date": "2026-07-20 (effective on release)",
-  "objective": "Communities, projects, firms, benchmarks; contribution-based evaluation.",
-  "instruments": [
-   "community",
-   "grant"
-  ],
-  "targets_or_budget": "Announced by 2027: 1-2 globally influential and 3-4 nationally known communities, 2+ research institutions, 50+ projects, 150+ firms, 100+ benchmarks. No monetary amounts.",
-  "reuse_logic": "Open-source contributions count in title appointments and performance reviews; token/compute/data vouchers; no public-procurement provisions in the article read.",
-  "evidence": "secondary",
-  "note": "Round 2 (2026-11-02): Zhejiang open-source system opinion, 7 departments, effective 20 Jul 2026, target 50+ quality projects by 2027 (secondary press)."
- },
- {
-  "title_original": "杭政办函〔2026〕9号 (software industry policy), Art. 8 and Art. 3",
-  "dc_edic_results": [
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "EUN-DE-02",
-   "EU-08",
-   "EU-12"
-  ],
-  "sources": [
-   "https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml"
-  ],
-  "unknowns": [
-   "Awards actually granted"
-  ],
-  "id": "CNP-HZ",
-  "level": "CN-provincial",
-  "jurisdiction": "Hangzhou (sub-provincial city, Zhejiang)",
-  "title_english": "Hangzhou 2026 software-industry policy: open-source grants",
-  "issuing_authority": "General Office of Hangzhou Municipal People's Government",
-  "legal_status": "programme",
-  "date": "issued 2026-03-27; effective 2026-05-27 to 2028-12-31",
-  "objective": "One-time awards for open-source incubation and quality projects.",
-  "instruments": [
-   "grant"
-  ],
-  "targets_or_budget": "Verified in policy text (caps, not disbursements): up to RMB 1m per incubation-stage project hosted by a national-level open-source body; up to 10 projects/products per year, up to RMB 500k each; platform grants up to RMB 2m (Art. 3).",
-  "reuse_logic": "Requires hosting in a national open-source institution, steering projects into shared foundations.",
-  "evidence": "primary"
- },
- {
-  "title_original": "开放原子紫金专区 / 2026开源创新生态大会",
-  "dc_edic_results": [
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "EU-12",
-   "EUN-DE-02"
-  ],
-  "sources": [
-   "https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html"
-  ],
-  "unknowns": [
-   "Fund governance, disbursement"
-  ],
-  "id": "CNP-JS",
-  "level": "CN-provincial",
-  "jurisdiction": "Jiangsu Province (Suzhou)",
-  "title_english": "OpenAtom Zijin Zone and OPC fund matrix",
-  "issuing_authority": "Jiangsu government with OpenAtom Foundation; Nanjing Yuhuatai District",
-  "legal_status": "programme",
-  "date": "2026-08-28",
-  "objective": "Provincial open-source carrier, incubation, investor alliance.",
-  "instruments": [
-   "venture",
-   "community"
-  ],
-  "targets_or_budget": "Announced: OPC fund matrix planned at not less than RMB 1bn; RMB 30m AI micro-seed fund with Yuhuatai District; 16 first tenants signed. Paid-in capital not stated.",
-  "reuse_logic": "Incubating projects under national foundation hosting.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "广东省开源社区及生态中心资助 (新闻发布会)",
-  "dc_edic_results": [
-   "E1",
-   "E7"
-  ],
-  "cn_eu_counterpart": [
-   "EU-02",
-   "EUN-DE-02"
-  ],
-  "sources": [
-   "https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4694765.html"
-  ],
-  "unknowns": [
-   "Formal policy document and year"
-  ],
-  "id": "CNP-GD",
-  "level": "CN-provincial",
-  "jurisdiction": "Guangdong Province",
-  "title_english": "Guangdong support for open-source communities and ecosystem centres",
-  "issuing_authority": "Guangdong Provincial Dept. of Industry and IT (announced by deputy director)",
-  "legal_status": "programme",
-  "date": "announced 9 April (year not stated on page; presumably 2026)",
-  "objective": "Operating-cost support for communities.",
-  "instruments": [
-   "grant"
-  ],
-  "targets_or_budget": "Announced: up to 5 communities/centres per year, 30% of audited prior-year operating costs, cap RMB 8m each. No policy document number.",
-  "reuse_logic": "Sustains community operating costs, the closest Chinese analogue to maintenance funding.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "深府办规〔2026〕1号 工业设备更新和技术改造措施",
-  "dc_edic_results": [
-   "E4",
-   "E8"
-  ],
-  "cn_eu_counterpart": [
-   "EU-03"
-  ],
-  "sources": [
-   "https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html"
-  ],
-  "unknowns": [
-   "Uptake"
-  ],
-  "id": "CNP-SZ",
-  "level": "CN-provincial",
-  "jurisdiction": "Shenzhen (sub-provincial city, Guangdong)",
-  "title_english": "Shenzhen industrial equipment renewal and technology-upgrade measures (OpenHarmony/RISC-V)",
-  "issuing_authority": "General Office of Shenzhen Municipal People's Government",
-  "legal_status": "programme",
-  "date": "signed 2026-02-27; effective 2026-03-10 for three years",
-  "objective": "Subsidise OpenHarmony adoption in industrial upgrades.",
-  "instruments": [
-   "adoption-subsidy"
-  ],
-  "targets_or_budget": "Verified in policy text: up to 15% of approved investment for OpenHarmony upgrades of RMB 5m or more; extra 5% for equipment using OpenHarmony-compatible RISC-V chips; cap RMB 10m per project; 20% of ultra-long special treasury bond support where applicable.",
-  "reuse_logic": "Demand-side adoption of a shared open OS base.",
-  "evidence": "primary"
- },
- {
-  "title_original": "龙岗区开源鸿蒙应用创新实验室",
-  "dc_edic_results": [
-   "E5"
-  ],
-  "cn_eu_counterpart": [
-   "EUN-FR-01",
-   "EUN-DE-01",
-   "EUN-DE-04"
-  ],
-  "sources": [
-   "https://www.lg.gov.cn/english/news/latestnews/content/post_12698243.html"
-  ],
-  "unknowns": [
-   "Deployment scale"
-  ],
-  "id": "CNP-SZ-LG",
-  "level": "CN-provincial",
-  "jurisdiction": "Shenzhen Longgang District",
-  "title_english": "OpenHarmony Application Innovation Lab, Longgang",
-  "issuing_authority": "Longgang Government Services and Data Administration Bureau with Huawei and others",
-  "legal_status": "programme",
-  "date": "2026-03-18",
-  "objective": "Adapt government information systems to OpenHarmony.",
-  "instruments": [
-   "adoption-subsidy",
-   "community"
-  ],
-  "targets_or_budget": "No budget stated.",
-  "reuse_logic": "Pilot of public-administration systems on an open base.",
-  "evidence": "primary"
- },
- {
-  "title_original": "重庆市加快构建开源鸿蒙应用创新生态工作方案",
-  "dc_edic_results": [
-   "E1"
-  ],
-  "cn_eu_counterpart": [
-   "EUN-FR-01"
-  ],
-  "sources": [
-   "https://cq.gov.cn/ywdt/jrcq/202604/t20260415_15611230.html"
-  ],
-  "unknowns": [
-   "Funding"
-  ],
-  "id": "CNP-CQ",
-  "level": "CN-provincial",
-  "jurisdiction": "Chongqing (province-level municipality)",
-  "title_english": "Chongqing plan to build the OpenHarmony application-innovation ecosystem",
-  "issuing_authority": "Chongqing Municipal Economy and Information Commission",
-  "legal_status": "plan",
-  "date": "issued 2026-04-14",
-  "objective": "1 alliance + 3 platforms + N scenarios; scenarios start with government affairs and public utilities.",
-  "instruments": [
-   "community",
-   "adoption-subsidy"
-  ],
-  "targets_or_budget": "Announced: 20,000 developers and 10 typical scenarios by 2027; 50,000 developers by 2030. No funding amounts in text.",
-  "reuse_logic": "Public-sector adaptation first, then health, education, finance; university courses.",
-  "evidence": "primary"
- },
- {
-  "title_original": "重庆天工开物开源基金会 (Chance Foundation)",
-  "dc_edic_results": [
-   "E1"
-  ],
-  "cn_eu_counterpart": [
-   "CNC-04"
-  ],
-  "sources": [
-   "https://mzj.cq.gov.cn/zwgk_218/fdzdgknr/xzxk/xzspjg/202303/t20230324_11806332.html"
-  ],
-  "unknowns": [
-   "Activity level"
-  ],
-  "id": "CNP-CQ-F",
-  "level": "CN-provincial",
-  "jurisdiction": "Chongqing",
-  "title_english": "Chongqing Tiangong Kaiwu Open Source Foundation",
-  "issuing_authority": "Registered by Chongqing Civil Affairs; licence 渝民许准字〔2023〕78号",
-  "legal_status": "institution",
-  "date": "2023-03",
-  "objective": "Local non-profit foundation for open source.",
-  "instruments": [
-   "community"
-  ],
-  "targets_or_budget": "Unknown.",
-  "reuse_logic": "Foundation home for local projects.",
-  "evidence": "primary"
- },
- {
-  "title_original": "武汉市加快培育发展开源鸿蒙生态的实施方案",
-  "dc_edic_results": [
-   "E4",
-   "E5"
-  ],
-  "cn_eu_counterpart": [
-   "EUN-NL-01",
-   "EUN-FR-01"
-  ],
-  "sources": [
-   "https://www.ithome.com/0/914/290.htm",
-   "https://m.gelonghui.com/live/2257208"
-  ],
-  "unknowns": [
-   "Official text not retrieved"
-  ],
-  "id": "CNP-WH",
-  "level": "CN-provincial",
-  "jurisdiction": "Wuhan (sub-provincial city, Hubei)",
-  "title_english": "Wuhan plan to foster the OpenHarmony ecosystem",
-  "issuing_authority": "General Office of Wuhan Municipal People's Government",
-  "legal_status": "plan",
-  "date": "2026-01-15",
-  "objective": "Public-sector use: encourages Party-government bodies, public institutions and SOEs to build or upgrade IoT systems on OpenHarmony with fiscal funds (IT Home report).",
-  "instruments": [
-   "procurement",
-   "adoption-subsidy"
-  ],
-  "targets_or_budget": "Announced by 2027: 100 demonstration scenarios, 200 apps, 50 device adaptations, 100,000+ developers.",
-  "reuse_logic": "Fiscally funded systems to use an open base; app migration in batches.",
-  "evidence": "secondary"
- },
- {
-  "title_original": "湖南省培育开源鸿蒙生态加快软件和信息服务创新发展的实施方案（湘制造强省办〔2026〕7号）",
-  "dc_edic_results": [
-   "E4"
-  ],
-  "cn_eu_counterpart": [],
-  "sources": [
-   "https://news.qq.com/rain/a/20261014A08SQL00",
-   "https://news.qq.com/rain/a/20261014A08SQL00"
-  ],
-  "unknowns": [
-   "Official text"
-  ],
-  "id": "CNP-HN",
-  "level": "CN-provincial",
-  "jurisdiction": "Hunan Province",
-  "title_english": "Hunan plan to cultivate the OpenHarmony ecosystem",
-  "issuing_authority": "Hunan Manufacturing-Power Leading Group Office",
-  "legal_status": "plan",
-  "date": "2026-10-13",
-  "objective": "OpenHarmony scenarios and developers.",
-  "instruments": [
-   "adoption-subsidy",
-   "community"
-  ],
-  "targets_or_budget": "Announced by 2028: 100 scenarios, 150 demo projects, 50,000 developers, 100+ core firms. No funding.",
-  "reuse_logic": "Unknown",
-  "evidence": "secondary",
-  "note": "Round 2 (2026-11-02): Hunan OpenHarmony plan (湘制造强省办〔2026〕7号), issued 2026-10-13: 100 demo scenes and 50,000 developers by 2028 (ITHome, QQ News)."
- },
- {
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "instruments": [],
-  "targets_or_budget": "",
-  "reuse_logic": "",
-  "unknowns": [
-   "Full text not read (preview/download only on openstd); scope clauses unknown"
-  ],
-  "id": "CNC-12",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_original": "GB/T 44272-2024 信息技术 开源 开源许可证框架",
-  "title_english": "GB/T 44272-2024 Information technology - Open source - Open source licence framework",
-  "issuing_authority": "SAMR / Standardization Administration (SAC)",
-  "legal_status": "standard",
-  "date": "2024-08-23",
-  "objective": "National standard framing open-source licences; in force 2025-03-01.",
-  "evidence": "primary",
-  "sources": [
-   "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=48875862F65D66457449A1964058C8B1",
-   "https://openstd.samr.gov.cn/bzgk/gb/std_list?p.p1=0&p.p2=44272"
-  ],
-  "note": "Round 2 (2026-11-02): official SAMR listing: status current, published 2024-08-23, effective 2025-03-01, CCS L67, ICS 35.240. English title is a translation of the Chinese listing title; recheck."
- },
- {
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "instruments": [],
-  "targets_or_budget": "Reported: 280+ ecosystem partners, 2,000+ domestic accelerator cards offered free, 20,000+ open models, 3,000+ datasets",
-  "reuse_logic": "",
-  "unknowns": [
-   "No formal SASAC policy document found; figures from press; SASAC primary text not read"
-  ],
-  "id": "CNC-13",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_original": "国务院国资委 焕新社区 人工智能开源社区 (2.0版, 2026-07)",
-  "title_english": "SASAC central-SOE AI open-source community Huanxin (v2.0)",
-  "issuing_authority": "SASAC; led by China Mobile",
-  "legal_status": "programme",
-  "date": "2026-07-17",
-  "objective": "SASAC instructs central SOEs to build open-source communities; Huanxin 2.0 opens models, compute and data.",
-  "evidence": "secondary",
-  "sources": [
-   "https://www.stdaily.com/web/gdxw/2026-07/18/content_549460.html",
-   "https://www.news.cn/fortune/20260717/8f5b61db99244c74bb8279e826e7011c/c.html",
-   "https://news.10jqka.com.cn/20260721/c678317461.shtml",
-   "https://www.news.cn/politics/20260211/993b8f520d58476e9949476dfe6996ce/c.html"
-  ],
-  "note": "Round 2 (2026-11-02): answers gap 4 (SASAC). Feb 2026 SASAC meeting asked central SOEs to strengthen open-source collaboration; 20 Jul 2026 party-committee meeting reiterated."
- },
- {
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "instruments": [],
-  "targets_or_budget": "",
-  "reuse_logic": "",
-  "unknowns": [
-   "Official MIIT text not read"
-  ],
-  "id": "CNC-14",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_original": "人工智能中小企业创业支持计划（2026—2028年）",
-  "title_english": "MIIT AI SME Start-up Support Plan 2026-2028",
-  "issuing_authority": "MIIT General Office",
-  "legal_status": "plan",
-  "date": "2026-09-04",
-  "objective": "Encourages AI start-ups to join open-source ecosystems, supports national AI open-source community (AtomGit), steers funds to quality open-source projects.",
-  "evidence": "secondary",
-  "sources": [
-   "https://m.thepaper.cn/newsDetail_forward_34022351",
-   "https://www.cls.cn/detail/2474188"
-  ]
- },
- {
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "instruments": [],
-  "targets_or_budget": "",
-  "reuse_logic": "",
-  "unknowns": [
-   "Official text not read"
-  ],
-  "id": "CNC-15",
-  "level": "CN-central",
-  "jurisdiction": "China (national)",
-  "title_original": "推动工业互联网平台高质量发展行动方案（2026—2028年）",
-  "title_english": "MIIT Industrial Internet Platform Action Plan 2026-2028",
-  "issuing_authority": "MIIT",
-  "legal_status": "plan",
-  "date": "2026-01-13",
-  "objective": "Goal of an open-source, open next-generation industrial internet platform ecosystem by 2028 (secondary theme).",
-  "evidence": "secondary",
-  "sources": [
-   "https://www.ithome.com/0/978/948.htm"
-  ]
- },
- {
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "instruments": [],
-  "targets_or_budget": "By 2027: 4 industry-grade OpenHarmony OS, 100,000+ developers",
-  "reuse_logic": "",
-  "unknowns": [
-   "Official text not read"
-  ],
-  "id": "CNP-HB-WH",
-  "level": "CN-provincial",
-  "jurisdiction": "Wuhan (sub-provincial city, Hubei)",
-  "title_original": "武汉市加快培育发展开源鸿蒙生态实施方案",
-  "title_english": "Wuhan OpenHarmony ecosystem implementation plan",
-  "issuing_authority": "Wuhan Municipal Government General Office",
-  "legal_status": "plan",
-  "date": "2026-01",
-  "objective": "OpenHarmony ecosystem growth.",
-  "evidence": "secondary",
-  "sources": [
-   "https://m.gelonghui.com/live/2257208"
-  ],
-  "note": "Round 2 (2026-11-02): refines CNP-WH with target figures."
- },
- {
-  "dc_edic_results": [],
-  "cn_eu_counterpart": [],
-  "instruments": [],
-  "targets_or_budget": "",
-  "reuse_logic": "",
-  "unknowns": [
-   "Annex steward sections not read directly"
-  ],
-  "id": "EU-13",
-  "level": "EU",
-  "jurisdiction": "European Union",
-  "title_original": "Commission guidance on Regulation (EU) 2024/2847 (CRA), C(2026) 5252",
-  "title_english": "CRA implementation guidance (incl. FOSS scope; steward role Art. 24)",
-  "issuing_authority": "European Commission",
-  "legal_status": "guidance (non-binding)",
-  "date": "2026-07-27",
-  "objective": "Clarifies scope incl. FOSS; no separate steward implementing act found. Reporting duties apply from 2026-09-11, main obligations 2027-12-11.",
-  "evidence": "secondary",
-  "sources": [
-   "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation",
-   "https://digitalpolicyalert.org/event/42217-european-commission-adopted-guidance-on-implementation-of-cyber-resilience-act",
-   "https://policy.openssf.org/CRA/stewards-one-pager.html"
-  ]
- }
+  {
+    "title_original": "EU Open Source Strategy (with Communication on European Tech Sovereignty)",
+    "dc_edic_results": [
+      "E2",
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "CNC-01",
+      "CNC-03"
+    ],
+    "sources": [
+      "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
+      "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy",
+      "https://digital-strategy.ec.europa.eu/en/factpages/eu-open-source-strategy",
+      "https://www.osborneclarke.com/insights/new-eu-open-source-strategy-europes-path-digital-sovereignty-through-open-technologies",
+      "https://www.linux-magazine.com/Online/News/EU-Open-Source-Strategy-Plays-Key-Role-in-Tech-Sovereignty-Package",
+      "https://techpolicy.press/how-the-eus-tech-sovereignty-package-finally-puts-open-source-to-the-test",
+      "https://data.consilium.europa.eu/doc/document/ST-10220-2026-ADD-1/en/pdf",
+      "https://www.swisscore.org/a-new-path-for-europes-open-digital-future/",
+      "https://buttondown.com/ossfunded/archive/2026-06-15/"
+    ],
+    "unknowns": [
+      "Full Communication text and annex not read directly (summarised via Commission policy page and law-firm/press summaries)",
+      "Budget lines and the EUR 2bn figure",
+      "Binding vs aspirational status of \"open source first\" wording (CNLL calls it weak)"
+    ],
+    "id": "EU-01",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "EU Open Source Strategy",
+    "issuing_authority": "European Commission",
+    "legal_status": "plan",
+    "date": "2026-06-03",
+    "objective": "Place open source at the centre of EU tech sovereignty via four objectives: open source for sovereignty, a vibrant ecosystem, open source in public administration, and standards/international reach.",
+    "instruments": [
+      "procurement",
+      "maintenance",
+      "grant",
+      "community",
+      "platform"
+    ],
+    "targets_or_budget": "No funding amounts in the Commission page or trade summaries read. Tech Policy Press (secondary) mentions a proposed EUR 2bn envelope over seven years; scope of that figure not verified.",
+    "reuse_logic": "Procurement guidelines favouring open standards and fair evaluation of open-source bids; reusable public digital assets; strengthened Commission OSPO and EU Public Sector OSPO Network; common security baselines for Commission repositories.",
+    "evidence": "primary",
+    "note": "Round 2 (2026-11-02): Strategy is COM(2026) 503. Maintenance Instrument and Open Internet Stack (NGI scale-up) confirmed as plans; no official allocation found. EUR 350m minimum for an EU-STF over next MFF is a feasibility-study/advocacy figure, not Commission. NLnet pausing most open calls pending three Open Internet Stack programmes after summer 2026."
+  },
+  {
+    "title_original": "Open Source Maintenance Instrument",
+    "dc_edic_results": [
+      "E6",
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "CNC-04",
+      "CNP-JS"
+    ],
+    "sources": [
+      "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
+      "https://www.osborneclarke.com/insights/new-eu-open-source-strategy-europes-path-digital-sovereignty-through-open-technologies"
+    ],
+    "unknowns": [
+      "Design, operator, budget, relation to EU-STF pilot and to the Sovereign Tech Agency"
+    ],
+    "id": "EU-02",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "Open Source Maintenance Instrument (proposed)",
+    "issuing_authority": "European Commission (announced in EU-01)",
+    "legal_status": "programme",
+    "date": "2026-06-03",
+    "objective": "Address chronic underfunding of maintenance of critical open-source components; the strategy annex tracks the share of listed critical dependencies actively supported.",
+    "instruments": [
+      "maintenance"
+    ],
+    "targets_or_budget": "Unknown: no amount, legal basis or timetable found.",
+    "reuse_logic": "Linked to critical-dependency mapping and mirroring capacity so that shared components are kept alive for all users.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Official Commission strategy page, objective 2: \"Create an Open Source Maintenance Instrument, critical dependency mapping, and mirroring capabilities\" (fact: announced; commitment: not yet funded/launched)."
+  },
+  {
+    "title_original": "Open Internet Stack",
+    "dc_edic_results": [
+      "E4",
+      "E5"
+    ],
+    "cn_eu_counterpart": [
+      "CNC-05"
+    ],
+    "sources": [
+      "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
+      "https://commons.ngi.eu/2026/02/17/eu-open-source-week-2026-demonstrates-growing-institutional-commitment-to-digital-commons-and-open-technologies/"
+    ],
+    "unknowns": [
+      "Budget, programme vehicle (Horizon/Digital Europe/MFF), relation to NGI"
+    ],
+    "id": "EU-03",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "Open Internet Stack catalogue / funding programme",
+    "issuing_authority": "European Commission",
+    "legal_status": "programme",
+    "date": "2026-06-03",
+    "objective": "Scale a catalogue/funding line for open alternatives (cloud, workplace tools, secure e-mail, decentralised social media) to reduce lock-in and improve interoperability.",
+    "instruments": [
+      "grant",
+      "platform"
+    ],
+    "targets_or_budget": "Unknown. An NGI commentary reports no clear definition of scope or implementation yet.",
+    "reuse_logic": "Catalogue of reusable open components that Member States can adopt.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Official Commission strategy page, objective 1: \"Scale the Open Internet Stack - a catalogue for open source solutions\" (fact: announced as objective; no allocation found)."
+  },
+  {
+    "title_original": "Commission Open Source Programme Office (OSPO) and EU Public Sector OSPO Network",
+    "dc_edic_results": [
+      "E1",
+      "E2"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-BJ"
+    ],
+    "sources": [
+      "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy"
+    ],
+    "unknowns": [
+      "Staffing, budget, network membership"
+    ],
+    "id": "EU-04",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "Commission OSPO and EU Public Sector OSPO Network",
+    "issuing_authority": "European Commission (DG DIGIT attribution not verified)",
+    "legal_status": "institution",
+    "date": "2026-06-03 (strengthening announced); founding date not verified",
+    "objective": "Strategy aims to strengthen the Commission OSPO and the public-sector OSPO network, supporting procurement guidance and reusable public digital assets.",
+    "instruments": [
+      "community",
+      "platform"
+    ],
+    "targets_or_budget": "Unknown.",
+    "reuse_logic": "Peer network of public-sector OSPOs sharing practices and code.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Official Commission page, objective 3: \"Strengthen the Commission Open Source Programme Office (OSPO), EU Public Sector OSPO Network\" (fact). Founding dates still not verified."
+  },
+  {
+    "title_original": "Digital Commons EDIC",
+    "dc_edic_results": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "CNC-04",
+      "CNP-BJ",
+      "CNP-SH"
+    ],
+    "sources": [
+      "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf",
+      "https://digital-commons-edic.eu/about/",
+      "https://eur-lex.europa.eu/eli/dec_impl/2025/2170/oj/eng",
+      "https://commons.ngi.eu/2026/04/01/digital-commons-edic-takes-shape-with-more-countries-director-and-first-projects/",
+      "https://digital-strategy.ec.europa.eu/en/news/commission-launch-digital-commons-edic-support-sovereign-european-digital-infrastructure-and",
+      "https://openfuture.eu/note/digital-commons-edic-announces-leadership-and-initial-projects/",
+      "https://www.sovereign.tech/press/edic-digital-commons-director",
+      "https://grantedai.com/grants/support-to-the-implementation-of-multi-country-projects-edic-support-hub-european-commission-digital-europe-progr-5d7e0065"
+    ],
+    "unknowns": [
+      "Own budget lines, membership list at date"
+    ],
+    "id": "EU-05",
+    "level": "EU",
+    "jurisdiction": "European Union (Member State consortium, seat Paris)",
+    "title_english": "Digital Commons European Digital Infrastructure Consortium (DC-EDIC)",
+    "issuing_authority": "Commission Implementing Decision (EU) 2025/2170; Member State Assembly",
+    "legal_status": "institution",
+    "date": "2025 (decision); 2026-04-01 director in post; 2026-10-16 Implementation Strategy adopted",
+    "objective": "Connect, deploy and maintain digital commons at European scale; first cycle defines results E1-E8 by end-2027.",
+    "instruments": [
+      "community",
+      "adoption-subsidy",
+      "maintenance",
+      "platform"
+    ],
+    "targets_or_budget": "Strategy budgets not extracted in this pass; first cycle delivered through EDCOM-funded work packages (see docs/REVIEW-DRAFT.md).",
+    "reuse_logic": "Collaborative Workspace flagship (openDesk Notes/Docs, BlockNote, Matrix) proven in two or more national reference environments; community nodes; 100-day challenges.",
+    "evidence": "primary",
+    "note": "Round 2 (2026-11-02): DC-EDIC: founded by FR, DE, NL, IT, LU; seat Paris; director Laurent Rojey from 1 Apr 2026; Commission approval Oct 2025; first projects incl. EU-STF pilot. No budget published. Digital Europe EDIC Support Hub call DIGITAL-2026-BESTUSE-MCP-10-HUB (ceiling EUR 1m per aggregator; check F&T portal)."
+  },
+  {
+    "title_original": "EDCOM",
+    "dc_edic_results": [
+      "E1",
+      "E2",
+      "E4",
+      "E6",
+      "E7"
+    ],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
+    ],
+    "unknowns": [
+      "Grant budget, funder programme, duration"
+    ],
+    "id": "EU-06",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "EDCOM, first funded delivery programme of the DC-EDIC",
+    "issuing_authority": "Grant-funded programme under contractual governance; funder and full name not established in sources read",
+    "legal_status": "programme",
+    "date": "first cycle through 2027 (per Strategy)",
+    "objective": "Funds WP2 Connect (community, one-stop shop), WP3 Maintain (EU-STF pilot via Sovereign Tech Agency, dependency mapping), WP4 Deploy (100-day challenges led by DINUM and ZenDiS).",
+    "instruments": [
+      "grant",
+      "community"
+    ],
+    "targets_or_budget": "Unknown: amounts not captured.",
+    "reuse_logic": "Work packages produce shared services reused by DC-EDIC members.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "Regulation (EU) 2024/903 Interoperable Europe Act; Interoperable Europe portal; Open Source Observatory (OSOR)",
+    "dc_edic_results": [
+      "E2",
+      "E3"
+    ],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://eur-lex.europa.eu/EN/legal-content/summary/interoperable-europe-act.html",
+      "https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2026-06/guidelines-on-sharing-interoperability-solutions_extended-version.pdf",
+      "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence",
+      "https://en.wikipedia.org/wiki/Interoperable_Europe_Act"
+    ],
+    "unknowns": [
+      "Dates not verified on EUR-Lex",
+      "Article numbers from secondary sources"
+    ],
+    "id": "EU-07",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "Interoperable Europe Act with portal and OSOR",
+    "issuing_authority": "European Parliament and Council; Commission (portal, Board)",
+    "legal_status": "law",
+    "date": "adopted 2024-03-13; in force 2024-04-11, applying from 2024-07-12 (Wikipedia; not checked on EUR-Lex)",
+    "objective": "Cross-border interoperability of public services; assessment and sharing of interoperability solutions; public bodies to prioritise solutions without restrictive licensing (e.g. open source) where equivalent (Art. 4(6) per Commission guidelines).",
+    "instruments": [
+      "legal-obligation",
+      "platform",
+      "standard"
+    ],
+    "targets_or_budget": "No dedicated budget found.",
+    "reuse_logic": "Sharing and reuse of interoperability solutions on the Interoperable Europe portal (ex-Joinup), EUPL permitted; OSOR publishes country reports on public-sector open source.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "Next Generation Internet (NGI) / NGI Zero Commons Fund",
+    "dc_edic_results": [
+      "E7",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-HZ"
+    ],
+    "sources": [
+      "https://www.nlnet.nl/commonsfund",
+      "https://www.fundingprogrammesportal.gov.cy/en/call/ngi-zero-commons-fund-13th-open-call-reclaim-the-public-nature-of-the-internet-en-2026/"
+    ],
+    "unknowns": [
+      "Post-2027 successor (possibly Open Internet Stack)"
+    ],
+    "id": "EU-08",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "NGI Zero Commons Fund (NLnet, Horizon Europe)",
+    "issuing_authority": "European Commission via NLnet foundation",
+    "legal_status": "programme",
+    "date": "13th and final open call closed 2026-06-01",
+    "objective": "Fund small open-source, open-hardware and standards projects (\"reclaim the public nature of the internet\").",
+    "instruments": [
+      "grant"
+    ],
+    "targets_or_budget": "Final call budget EUR 6.1m (call listing, secondary). Total programme budget not verified.",
+    "reuse_logic": "Results released under open licences; supports components used by public-sector stacks.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Operator page nlnet.nl: funded by Commission NGI programme / Horizon Europe grant 101135429; \"thirteenth and final call ... closed on June 1st 2026\" (fact)."
+  },
+  {
+    "title_original": "Regulation (EU) 2024/2847 Cyber Resilience Act, Art. 24 (open-source software stewards)",
+    "dc_edic_results": [
+      "E6",
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-BJ"
+    ],
+    "sources": [
+      "https://digital-strategy.ec.europa.eu/en/policies/cra-open-source",
+      "https://policy.openssf.org/CRA/stewards-playbook.html"
+    ],
+    "unknowns": [
+      "EUR-Lex text not read; application dates and fine exemption unverified"
+    ],
+    "id": "EU-09",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "Cyber Resilience Act open-source steward provisions",
+    "issuing_authority": "European Parliament and Council",
+    "legal_status": "law",
+    "date": "OJ 2024-11-20; steward duties applicable 2027-12-11 per one secondary source",
+    "objective": "Light-touch obligations on stewards: verifiable cybersecurity policy, cooperation with market surveillance, scoped vulnerability reporting.",
+    "instruments": [
+      "legal-obligation"
+    ],
+    "targets_or_budget": "n/a. One secondary source claims stewards are exempt from administrative fines (Art. 64(10)); unverified.",
+    "reuse_logic": "Creates a recognised legal role (steward) for foundations maintaining shared code.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Official Commission CRA open-source page: stewards subject to Art. 24 obligations (security policy, cooperation with authorities, reporting exploited vulnerabilities); exempt from administrative fines under Art. 64(10) (fact). Application dates not stated on that page; EUR-Lex blocked from this host, so dates remain from a secondary source."
+  },
+  {
+    "title_original": "Digital Europe Programme",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [],
+    "unknowns": [
+      "Whether it funds EDCOM or Open Internet Stack; call data not retrieved"
+    ],
+    "id": "EU-10",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "Digital Europe Programme (open-source-relevant calls)",
+    "issuing_authority": "European Commission",
+    "legal_status": "programme",
+    "date": "2021-2027",
+    "objective": "Possible funding vehicle for deployment of open solutions; not researched.",
+    "instruments": [
+      "grant"
+    ],
+    "targets_or_budget": "Not researched.",
+    "reuse_logic": "Unknown",
+    "evidence": "unverified"
+  },
+  {
+    "title_original": "Joint Research Centre open-source assessment work",
+    "dc_edic_results": [
+      "E3",
+      "E6"
+    ],
+    "cn_eu_counterpart": [
+      "CNC-09"
+    ],
+    "sources": [
+      "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
+    ],
+    "unknowns": [
+      "JRC outputs and mandate not researched"
+    ],
+    "id": "EU-11",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "JRC open-source assessment work",
+    "issuing_authority": "European Commission JRC",
+    "legal_status": "programme",
+    "date": "2026",
+    "objective": "DC-EDIC Strategy states exploratory exchanges with the JRC as its open-source assessment work develops.",
+    "instruments": [
+      "community"
+    ],
+    "targets_or_budget": "Unknown.",
+    "reuse_logic": "Evidence base for critical-dependency assessment.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "EU Sovereign Tech Fund Pilot (EU-STF)",
+    "dc_edic_results": [
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-JS",
+      "CNP-HZ",
+      "CNC-04"
+    ],
+    "sources": [
+      "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf",
+      "https://www.sovereign.tech/news/open-resilient-european-the-edic-digital-commons",
+      "https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/"
+    ],
+    "unknowns": [
+      "Budget and cohort"
+    ],
+    "id": "EU-12",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_english": "EU-STF Pilot operated by Sovereign Tech Agency within EDCOM",
+    "issuing_authority": "DC-EDIC / EDCOM; operator Sovereign Tech Agency",
+    "legal_status": "programme",
+    "date": "announced Mar 2026; Matrix.org says kicked off June 2026 (timing conflict)",
+    "objective": "Test European financing for selected critical open-source dependencies with trusted maintainers; one bounded cohort selected and contracted by end-2027.",
+    "instruments": [
+      "maintenance"
+    ],
+    "targets_or_budget": "Pilot size not found.",
+    "reuse_logic": "Funds fixes and maintenance time in components used by many public bodies.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "“人工智能+软件”专项行动实施方案",
+    "dc_edic_results": [
+      "E1",
+      "E3",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "EU-01"
+    ],
+    "sources": [
+      "https://www.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_95c0b992336a4cb1b87ec3ccc576a669.html"
+    ],
+    "unknowns": [
+      "Plan text itself (only press-conference text read)",
+      "Text read does not address public-sector adoption, SBOM or international cooperation"
+    ],
+    "id": "CNC-01",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "AI + Software Special Action Implementation Plan",
+    "issuing_authority": "Ministry of Industry and Information Technology (MIIT)",
+    "legal_status": "plan",
+    "date": "2026-09-11 (press conference)",
+    "objective": "Use open source as infrastructure for AI-software innovation: host key projects on OpenAtom/AtomGit, open-source zones, project selection mechanism, contribution-based evaluation.",
+    "instruments": [
+      "platform",
+      "community",
+      "venture"
+    ],
+    "targets_or_budget": "Announced: incubate more than 5 key open-source projects by 2028 (memo wrote \"at least five\"); AtomGit 80,000+ models, 370,000+ datasets, 12m+ registered users by Aug 2026 (official statement, not audited). No monetary amounts in the text read.",
+    "reuse_logic": "Central hosting platform and licence/compliance guidance; code, model and dataset sharing on AtomGit; universities and SME assessments credit open-source contributions.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "“十四五”规划和2035年远景目标纲要; 工信部“十四五”软件和信息技术服务业发展规划",
+    "dc_edic_results": [
+      "E1",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "EU-01"
+    ],
+    "sources": [
+      "https://www.miit.gov.cn/xwdt/szyw/art/2021/art_86371f315d484a36811c5c94298912fa.html",
+      "https://www.gov.cn/zhengce/zhengceku/2021-12/01/5655205/files/a44b507d67c74591ad4f5e55b98c4518.pdf"
+    ],
+    "unknowns": [
+      "Not re-read in this pass; relies on memo S04, S05"
+    ],
+    "id": "CNC-02",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "14th Five-Year Plan and MIIT 14th FYP for software and IT services",
+    "issuing_authority": "State Council / NPC; MIIT",
+    "legal_status": "plan",
+    "date": "2021",
+    "objective": "Support open-source communities, domestic open-source foundations, code-hosting infrastructure and incubation.",
+    "instruments": [
+      "platform",
+      "community"
+    ],
+    "targets_or_budget": "No figures captured.",
+    "reuse_logic": "Foundations and code forges as shared infrastructure.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "国民经济和社会发展第十五个五年规划纲要; 2026年政府工作报告",
+    "dc_edic_results": [
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "EU-01"
+    ],
+    "sources": [
+      "https://english.www.gov.cn/news/202603/05/content_WS69a8fd53c6d00ca5f9a098c2.html",
+      "https://cset.georgetown.edu/publication/china-fourth-plenum-proposal-2026/"
+    ],
+    "unknowns": [
+      "Whether the final Outline contains an explicit open-source passage: NOT confirmed; full text not read"
+    ],
+    "id": "CNC-03",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "15th Five-Year Plan Outline (2026-2030); 2026 Government Work Report",
+    "issuing_authority": "NPC / State Council",
+    "legal_status": "plan",
+    "date": "approved 2026-03-12; text released 2026-03-13",
+    "objective": "2026 Government Work Report reportedly \"supports building AI open-source communities\" (secondary quote via a People's Daily reprint).",
+    "instruments": [
+      "community"
+    ],
+    "targets_or_budget": "Outline: AI-related industry above RMB 10 trillion by end of 15th FYP (NDRC, secondary). No open-source figure found.",
+    "reuse_logic": "Unknown.",
+    "evidence": "unverified"
+  },
+  {
+    "title_original": "开放原子开源基金会",
+    "dc_edic_results": [
+      "E1",
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "EU-05",
+      "EU-12"
+    ],
+    "sources": [
+      "https://www.openatom.org/",
+      "https://newsroom.eclipse.org/news/announcements/eclipse-foundation-and-openatom-foundation-forge-strategic-initiative-focused",
+      "https://blogs.eclipse.org/post/mike-milinkovich/eclipse-and-openatom-pioneering-open-source-innovation"
+    ],
+    "unknowns": [
+      "Funding sources, board independence"
+    ],
+    "id": "CNC-04",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "OpenAtom Foundation",
+    "issuing_authority": "OpenAtom Foundation (non-profit, Beijing)",
+    "legal_status": "institution",
+    "date": "2020-06",
+    "objective": "Stewardship, incubation, governance and community infrastructure for open-source projects (OpenHarmony, openEuler, openKylin, AtomGit, OpenLET).",
+    "instruments": [
+      "community",
+      "platform",
+      "venture"
+    ],
+    "targets_or_budget": "Unknown; funding sources not established.",
+    "reuse_logic": "Neutral legal home for donated projects; incubation and compliance support; sister-project mechanism with Eclipse.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "AtomGit",
+    "dc_edic_results": [
+      "E1",
+      "E3"
+    ],
+    "cn_eu_counterpart": [
+      "EU-03",
+      "EUN-NL-02"
+    ],
+    "sources": [
+      "https://www.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_95c0b992336a4cb1b87ec3ccc576a669.html"
+    ],
+    "unknowns": [
+      "Openness, exportability, cross-border access"
+    ],
+    "id": "CNC-05",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "AtomGit national AI open-source community and code platform",
+    "issuing_authority": "OpenAtom Foundation",
+    "legal_status": "platform",
+    "date": "before 2026-08",
+    "objective": "Domestic code, model and dataset hosting.",
+    "instruments": [
+      "platform"
+    ],
+    "targets_or_budget": "12m+ registered users, 80k+ models, 370k+ datasets (official statement).",
+    "reuse_logic": "Hosting and discovery for reuse of code, models and data.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "码云 Gitee",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://22.merics.org/sites/default/files/2021-05/MERICS%20Primer%20Open%20Source%202021_0.pdf"
+    ],
+    "unknowns": [
+      "Current status relative to AtomGit"
+    ],
+    "id": "CNC-06",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "Gitee, MIIT-endorsed code-hosting platform",
+    "issuing_authority": "Oschina (company); designated by MIIT 2020 (per MERICS)",
+    "legal_status": "platform",
+    "date": "2020-08",
+    "objective": "Independent domestic code hosting.",
+    "instruments": [
+      "platform"
+    ],
+    "targets_or_budget": "5m+ members (2021 self-report).",
+    "reuse_logic": "Code hosting.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "木兰宽松许可证 / 木兰公共许可证",
+    "dc_edic_results": [
+      "E2"
+    ],
+    "cn_eu_counterpart": [
+      "EU-07"
+    ],
+    "sources": [
+      "https://opensource.org/meeting-minutes/2020-02-14"
+    ],
+    "unknowns": [
+      "OSI status of other Mulan licences"
+    ],
+    "id": "CNC-07",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "Mulan Permissive Software License v2 and Mulan family",
+    "issuing_authority": "Chinese licence stewards (OSI-approved v2)",
+    "legal_status": "standard",
+    "date": "OSI approval of Mulan PSL v2: 2020-02-14",
+    "objective": "Chinese-origin licences recognised internationally.",
+    "instruments": [
+      "standard"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "Licence compatibility enabling cross-border reuse.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "GB/T 44272-2024",
+    "dc_edic_results": [
+      "E2"
+    ],
+    "cn_eu_counterpart": [
+      "EU-07"
+    ],
+    "sources": [
+      "https://www.chinesestandard.net/List.aspx/GBT/Page228"
+    ],
+    "unknowns": [
+      "Title, scope, effective date: only a listing seen; verify on openstd.samr.gov.cn"
+    ],
+    "id": "CNC-08",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "GB/T 44272-2024 (title per a third-party listing: \"Information technology - Open source - Open source license framework\")",
+    "issuing_authority": "SAMR / SAC (presumed)",
+    "legal_status": "standard",
+    "date": "2024",
+    "objective": "Not verified.",
+    "instruments": [
+      "standard"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "Licence framework; not read.",
+    "evidence": "unverified"
+  },
+  {
+    "title_original": "开源社 KAIYUANSHE 《中国开源年度报告》",
+    "dc_edic_results": [
+      "E1",
+      "E3"
+    ],
+    "cn_eu_counterpart": [
+      "EU-11",
+      "EU-05"
+    ],
+    "sources": [
+      "https://www.kaiyuanshe.cn/about",
+      "https://kaiyuanshe.github.io/2025-China-Open-Source-Report/en/"
+    ],
+    "unknowns": [
+      "Governance caution in memo section 4.2"
+    ],
+    "id": "CNC-09",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "KAIYUANSHE and China Open Source Report",
+    "issuing_authority": "KAIYUANSHE (community association)",
+    "legal_status": "institution",
+    "date": "annual; 2025 edition",
+    "objective": "Community network and annual state-of-open-source reporting.",
+    "instruments": [
+      "community"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "Evidence and community channel.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "开源鸿蒙 OpenHarmony (OpenAtom project)",
+    "dc_edic_results": [
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "EU-05"
+    ],
+    "sources": [
+      "https://metrics.eclipse.org/wgs/oniro/",
+      "https://blogs.eclipse.org/post/ignacio-ahedo/frameworks-hardware-and-community-oniro%E2%80%99s-2026-mid-year-update"
+    ],
+    "unknowns": [
+      "Licence and control detail; not equal to HarmonyOS"
+    ],
+    "id": "CNC-10",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "OpenHarmony",
+    "issuing_authority": "OpenAtom Foundation",
+    "legal_status": "programme",
+    "date": "n/a",
+    "objective": "Open OS foundation promoted by provinces for devices and, in pilots, government systems.",
+    "instruments": [
+      "community",
+      "adoption-subsidy"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "Common OS base; Eclipse Oniro downstream in Europe.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "RISC-V national guidance",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://www.trendforce.com/news/2025/03/04/news-china-reportedly-set-to-roll-out-nationwide-risc-v-chip-push-with-policy-expected-by-march/"
+    ],
+    "unknowns": [
+      "Whether issued"
+    ],
+    "id": "CNC-11",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_english": "RISC-V policy guidance (reported draft)",
+    "issuing_authority": "Reported multi-agency",
+    "legal_status": "plan",
+    "date": "reported Mar 2025",
+    "objective": "Promote RISC-V adoption.",
+    "instruments": [
+      "adoption-subsidy"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "n/a",
+    "evidence": "unverified"
+  },
+  {
+    "title_original": "La Suite numérique (Docs, Visio, Tchap) – DINUM",
+    "dc_edic_results": [
+      "E1",
+      "E4",
+      "E5"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-SZ-LG",
+      "CNP-WH"
+    ],
+    "sources": [
+      "https://lasuite.numerique.gouv.fr/produits/tchap",
+      "https://indico.math.cnrs.fr/event/15889/contributions/15215/attachments/6380/11212/2026-03-11-journees-mathrice-la-suite-DINUM.pdf",
+      "https://siecledigital.fr/2026/01/28/letat-dit-stop-a-teams-et-zoom-bienvenue-a-visio/",
+      "https://acteurspublics.fr/articles/la-dinum-demande-aux-ministeres-de-mettre-la-main-au-portefeuille-pour-developper-sa-suite-numerique/",
+      "https://acteurspublics.fr/articles/la-cour-invite-encore-la-dsi-de-letat-a-collaborer-davantage-avec-les-ministeres-pour-sa-suite-numerique/"
+    ],
+    "unknowns": [
+      "Official decree/circular text for the 2027 deadline not read"
+    ],
+    "id": "EUN-FR-01",
+    "level": "EU-national",
+    "jurisdiction": "France",
+    "title_english": "La Suite numérique (State digital suite)",
+    "issuing_authority": "DINUM (Direction interministérielle du numérique)",
+    "legal_status": "platform",
+    "date": "suite c.2024; Visio generalisation announced Jan 2026",
+    "objective": "Sovereign collaborative suite for State agents; Visio to replace Teams/Zoom/Meet/Webex by 2027 (press, minister David Amiel).",
+    "instruments": [
+      "platform",
+      "adoption-subsidy",
+      "community"
+    ],
+    "targets_or_budget": "Tchap 400k MAU, Visio 100k MAU (DINUM slides Mar 2026). DINUM asks ministries for voluntary funding (Acteurs Publics, Feb 2026). Cour des comptes critical (Oct 2026).",
+    "reuse_logic": "Code published (MIT/AGPL); co-development with ZenDiS (Docs); BlockNote editor from NL; ProConnect SSO.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Official La Suite site: workspace created and operated by DINUM, tools hosted in France (SecNumCloud), Tchap code public on the Matrix protocol (fact). User figures remain DINUM slides only."
+  },
+  {
+    "title_original": "Etalab / loi pour une République numérique: code source des administrations",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [],
+    "unknowns": [
+      "All details unverified; no source fetched"
+    ],
+    "id": "EUN-FR-02",
+    "level": "EU-national",
+    "jurisdiction": "France",
+    "title_english": "French open-source policy (Etalab, 2016 Digital Republic law)",
+    "issuing_authority": "DINUM/Etalab",
+    "legal_status": "law",
+    "date": "2016 (from background knowledge, not sourced)",
+    "objective": "Not researched in this pass.",
+    "instruments": [
+      "legal-obligation",
+      "platform"
+    ],
+    "targets_or_budget": "Unknown",
+    "reuse_logic": "From background knowledge only: administrations' source code treated as communicable documents; code.gouv.fr catalogue.",
+    "evidence": "unverified"
+  },
+  {
+    "title_original": "ZenDiS / openDesk / openCode",
+    "dc_edic_results": [
+      "E1",
+      "E4",
+      "E5"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-SZ-LG"
+    ],
+    "sources": [
+      "https://www.opendesk.eu/en/about",
+      "https://www.deutsche-rentenversicherung.de/Bund/DE/Presse/Pressemitteilungen/pressemitteilungen_aktuell/2026/2026-07-21-ckki-zendis-opendesk",
+      "https://vergabeblog.de/2026-04-21/zendis-strategische-neuausrichtung-mit-fokus-auf-open-source/"
+    ],
+    "unknowns": [
+      "Budget, independent adoption counts"
+    ],
+    "id": "EUN-DE-01",
+    "level": "EU-national",
+    "jurisdiction": "Germany",
+    "title_english": "Centre for Digital Sovereignty (ZenDiS) and openDesk",
+    "issuing_authority": "ZenDiS GmbH (federally owned, founded Dec 2022)",
+    "legal_status": "institution",
+    "date": "openDesk v1.0 2024-10-20",
+    "objective": "Maintain and market an open-source workplace suite for public administrations; partner programme for private providers from Sep 2026.",
+    "instruments": [
+      "platform",
+      "adoption-subsidy",
+      "community"
+    ],
+    "targets_or_budget": "About 100,000 workstations (ZenDiS claim, July 2026 DRV press release); strategy process Apr 2026. No budget found.",
+    "reuse_logic": "Single maintained distribution reused by federal, state and social-insurance bodies; openCode repository.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Deutsche Rentenversicherung Bund press release 21 Jul 2026: ZenDiS federally owned GmbH (2022, Bochum), product owner of openDesk; \"about 100,000 public-sector workplaces\" use openDesk (claim by a federal body, not independently audited)."
+  },
+  {
+    "title_original": "Sovereign Tech Agency (ex Sovereign Tech Fund)",
+    "dc_edic_results": [
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-HZ",
+      "CNP-JS",
+      "CNC-04"
+    ],
+    "sources": [
+      "https://www.sovereign.tech/news/newsletter-november-2025",
+      "https://interoperable-europe.ec.europa.eu/node/731113",
+      "https://www.sovereign.tech/press/edic-digital-commons-director"
+    ],
+    "unknowns": [
+      "Current annual budget"
+    ],
+    "id": "EUN-DE-02",
+    "level": "EU-national",
+    "jurisdiction": "Germany",
+    "title_english": "Sovereign Tech Agency",
+    "issuing_authority": "SPRIND subsidiary; financed by federal digital ministry (BMDS)",
+    "legal_status": "institution",
+    "date": "fund 2022; agency later (date not verified)",
+    "objective": "Invest in maintenance and security of open digital base technologies.",
+    "instruments": [
+      "maintenance",
+      "grant"
+    ],
+    "targets_or_budget": "EUR 33.6m invested in 96 technologies (STA newsletter Nov 2025); earlier EUR 24.6m/60+ projects (OSOR); a heise EUR 114m figure conflicts and is not used.",
+    "reuse_logic": "Maintains components used across public and private sector; operates EU-STF pilot.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "Deutschland-Stack; Vergabe/EVB-IT changes; OZG",
+    "dc_edic_results": [
+      "E4",
+      "E5"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-BJ"
+    ],
+    "sources": [
+      "https://vergabeblog.de/2026-04-21/zendis-strategische-neuausrichtung-mit-fokus-auf-open-source/",
+      "https://www.computerwoche.de/article/4000120/digitale-souveranitat-wird-deutschland-zum-vorbild-in-europa.html"
+    ],
+    "unknowns": [
+      "No legal open-source preference found; OZG not researched; primary texts not read"
+    ],
+    "id": "EUN-DE-03",
+    "level": "EU-national",
+    "jurisdiction": "Germany",
+    "title_english": "Deutschland-Stack and procurement changes",
+    "issuing_authority": "Federal government (BMDS)",
+    "legal_status": "plan",
+    "date": "2026",
+    "objective": "Uniform sovereign technology base for federal, state and local government by 2028 (press); standard open-source procurement templates under the Vergabebeschleunigungsgesetz 2026 and revised EVB-IT (March 2026), per secondary sources.",
+    "instruments": [
+      "procurement",
+      "platform"
+    ],
+    "targets_or_budget": "Unknown",
+    "reuse_logic": "Common stack across federal levels.",
+    "evidence": "unverified"
+  },
+  {
+    "title_original": "Schleswig-Holstein Open-Source-Strategie",
+    "dc_edic_results": [
+      "E4"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-SZ-LG"
+    ],
+    "sources": [
+      "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/_startseite/Artikel2025/IV/251006_ox-umstellung-abschluss.html",
+      "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2025/cds/251204_cds_open-source",
+      "https://borncity.com/news/libreoffice-in-schleswig-holstein-fast-80-prozent-der-arbeitsplaetze-umgestellt/",
+      "https://www.computerwoche.de/a/schleswig-holstein-verabschiedet-sich-von-microsoft,3698585"
+    ],
+    "unknowns": [
+      "Official state document not read"
+    ],
+    "id": "EUN-DE-04",
+    "level": "EU-national",
+    "jurisdiction": "Germany / Schleswig-Holstein (sub-national)",
+    "title_english": "Schleswig-Holstein migration to LibreOffice, Open-Xchange, Nextcloud, Linux",
+    "issuing_authority": "State government of Schleswig-Holstein",
+    "legal_status": "programme",
+    "date": "2024-2026",
+    "objective": "Reduce vendor dependency in state administration.",
+    "instruments": [
+      "adoption-subsidy",
+      "procurement"
+    ],
+    "targets_or_budget": "About 80% of workstations on LibreOffice by end-2025; savings over EUR 15m (state claim via trade press).",
+    "reuse_logic": "Own migration; exportable experience.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): State press releases (seen via search summary): LibreOffice binding standard, nearly 80% of workstations (Dec 2025); Exchange/Outlook to Open-Xchange/Thunderbird completed 2 Oct 2025, 40,000+ mailboxes; savings >EUR 15m vs EUR 9m one-off in 2026 are state claims."
+  },
+  {
+    "title_original": "CAD (D.Lgs. 82/2005) artt. 68-69; Linee guida AgID su acquisizione e riuso; Developers Italia",
+    "dc_edic_results": [
+      "E1",
+      "E2"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-BJ"
+    ],
+    "sources": [
+      "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82~art69",
+      "https://developers.italia.it/en/reuse/publication",
+      "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/publiccodeyml-standard"
+    ],
+    "unknowns": [
+      "Art. 68 text; AgID guideline text; catalogue size; compliance rate"
+    ],
+    "id": "EUN-IT-01",
+    "level": "EU-national",
+    "jurisdiction": "Italy",
+    "title_english": "Digital Administration Code arts. 68-69, AgID guidelines, Developers Italia",
+    "issuing_authority": "Parliament/Government; AgID; Developers Italia team",
+    "legal_status": "law",
+    "date": "D.Lgs. 82/2005 (current text on Normattiva)",
+    "objective": "Art. 69: administrations owning software built to their specification must make source code and documentation available in a public repository under an open licence (exceptions: public order/security, defence, elections); tenders must secure the administration's rights unless excessively costly; publication on AgID-designated platforms. Art. 68 text not read.",
+    "instruments": [
+      "legal-obligation",
+      "platform",
+      "standard"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "Mandatory publication plus publiccode.yml metadata; Developers Italia crawler catalogue.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "Open, tenzij (open source by default); BZK Open Source Programme Office",
+    "dc_edic_results": [
+      "E2"
+    ],
+    "cn_eu_counterpart": [
+      "CNP-BJ",
+      "CNP-WH"
+    ],
+    "sources": [
+      "https://fosdem.org/2026/schedule/event/from-policy-to-practice-open-source-in-gov",
+      "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/updated-report-state-open-source-netherlands"
+    ],
+    "unknowns": [
+      "Primary Dutch government text not read"
+    ],
+    "id": "EUN-NL-01",
+    "level": "EU-national",
+    "jurisdiction": "Netherlands",
+    "title_english": "Dutch \"open unless\" open-source policy and BZK OSPO",
+    "issuing_authority": "Ministry of the Interior (BZK)",
+    "legal_status": "plan",
+    "date": "2020 (policy); BZK report 2022",
+    "objective": "Use and procure open source unless impossible; exceptions for security and confidentiality.",
+    "instruments": [
+      "procurement",
+      "community"
+    ],
+    "targets_or_budget": "Unknown",
+    "reuse_logic": "Publication on a government code platform; OSPO coordination.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "code.overheid.nl",
+    "dc_edic_results": [
+      "E2"
+    ],
+    "cn_eu_counterpart": [
+      "CNC-05"
+    ],
+    "sources": [
+      "https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform/"
+    ],
+    "unknowns": [
+      "Page itself not read"
+    ],
+    "id": "EUN-NL-02",
+    "level": "EU-national",
+    "jurisdiction": "Netherlands",
+    "title_english": "Government open-source code platform (Forgejo pilot)",
+    "issuing_authority": "Dutch central government (BZK)",
+    "legal_status": "platform",
+    "date": "soft launch from 2026-04",
+    "objective": "Government-wide publication of open-source code.",
+    "instruments": [
+      "platform"
+    ],
+    "targets_or_budget": "Unknown",
+    "reuse_logic": "Central forge for reuse by all government bodies.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): nldigitalgovernment.nl, 27 Apr 2026: code.overheid.nl, pilot on Forgejo, initiated by the BZK OSPO with DAWO (SSC-ICT); not all organisations can use it yet (fact)."
+  },
+  {
+    "title_original": "Centro de Transferencia de Tecnología (CTT); ENI (RD 4/2010) art. 16",
+    "dc_edic_results": [
+      "E1",
+      "E2"
+    ],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/spain-2025-country-report",
+      "https://forum.ospo-alliance.org/t/new-country-level-reports-on-public-sector-floss-in-spain-italy/191"
+    ],
+    "unknowns": [
+      "No 2026 strategy found; Decidim (Barcelona) municipal level not expanded here"
+    ],
+    "id": "EUN-ES-01",
+    "level": "EU-national",
+    "jurisdiction": "Spain",
+    "title_english": "Spain Technology Transfer Centre and National Interoperability Scheme",
+    "issuing_authority": "Ministerio de Política Territorial y Función Pública",
+    "legal_status": "platform",
+    "date": "RD 4/2010; CTT earlier",
+    "objective": "Directory of reusable public-sector solutions with source code, federated with Joinup; ENI art. 16 sets licensing conditions for reusable open-source applications.",
+    "instruments": [
+      "platform",
+      "legal-obligation"
+    ],
+    "targets_or_budget": "Unknown",
+    "reuse_logic": "Directory-based reuse across administrations (Law 40/2015 link not verified).",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): OSOR (Commission) report 16 Jun 2025: CTT remains the main reference catalogue; National Agency updated its Guide on Publication and Licensing of IT Solutions; \"no specific national policy promoting open source\" (fact per OSOR)."
+  },
+  {
+    "title_original": "Digitaliseringsministeriet: LibreOffice migration",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://www.digmin.dk/digitalisering/nyheder/nyhedsarkiv/2025/jun/digitaliseringsministeriet-saetter-gang-i-pilotprojekt-om-digital-suveraenitet",
+      "https://www.computing.co.uk/news/2025/denmark-digital-ministry-drops-microsoft",
+      "https://itsfoss.com/news/denmark-set-to-replace-microsoft/"
+    ],
+    "unknowns": [
+      "No 2026 outcome found; national open-source policy not researched"
+    ],
+    "id": "EUN-DK-01",
+    "level": "EU-national",
+    "jurisdiction": "Denmark",
+    "title_english": "Danish Ministry of Digitalisation move to LibreOffice",
+    "issuing_authority": "Ministry of Digitalisation (minister Caroline Stage Olsen)",
+    "legal_status": "programme",
+    "date": "2025-06 announcement",
+    "objective": "Reduce Microsoft dependence within the ministry (target end-2025); Copenhagen and Aarhus similar. The Linux part was retracted by Politiken.",
+    "instruments": [
+      "adoption-subsidy"
+    ],
+    "targets_or_budget": "Unknown",
+    "reuse_logic": "Ministry and municipal examples; no shared programme verified.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Ministry release 19 Jun 2025: pilot with Collabora (LibreOffice-based) in the F2 case system for a group of departement staff; full rollout only if the pilot succeeds (fact: pilot; commitment: conditional). Not a ministry-wide Microsoft exit."
+  },
+  {
+    "title_original": "X-Road / NIIS",
+    "dc_edic_results": [
+      "E1"
+    ],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://niis.org/news-archive?year=2019",
+      "https://news.err.ee/915067/iceland-latest-nation-to-adopt-estonia-s-x-road-platform"
+    ],
+    "unknowns": [
+      "Estonian national OSS policy not read (OSOR update exists)"
+    ],
+    "id": "EUN-EE-01",
+    "level": "EU-national",
+    "jurisdiction": "Estonia (with Finland, Iceland)",
+    "title_english": "X-Road data-exchange layer, run by NIIS",
+    "issuing_authority": "Nordic Institute for Interoperability Solutions",
+    "legal_status": "platform",
+    "date": "NIIS 2017; Iceland joined 2021-06-01",
+    "objective": "Open-source secure data exchange.",
+    "instruments": [
+      "platform",
+      "community"
+    ],
+    "targets_or_budget": "Unknown",
+    "reuse_logic": "Jointly governed open code reused across countries.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "Bundesheer: Umstellung auf LibreOffice",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://itsfoss.com/news/austrian-forces-ditch-microsoft-office/",
+      "https://www.janes.com/osint-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice"
+    ],
+    "unknowns": [
+      "Federal-level Austrian policy not found; completion not confirmed"
+    ],
+    "id": "EUN-AT-01",
+    "level": "EU-national",
+    "jurisdiction": "Austria",
+    "title_english": "Austrian Armed Forces migration to LibreOffice",
+    "issuing_authority": "Federal Ministry of Defence / Bundesheer",
+    "legal_status": "programme",
+    "date": "2025",
+    "objective": "Digital sovereignty; about 16,000 workstations by end-2025; improvements fed back upstream.",
+    "instruments": [
+      "adoption-subsidy",
+      "community"
+    ],
+    "targets_or_budget": "16,000 workstations (announced).",
+    "reuse_logic": "Upstream contributions to LibreOffice.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "(no dedicated national framework)",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/belgium-osor-factsheet-2026.pdf"
+    ],
+    "unknowns": [
+      "Report read only via search summary"
+    ],
+    "id": "EUN-BE-01",
+    "level": "EU-national",
+    "jurisdiction": "Belgium",
+    "title_english": "Belgium: no comprehensive open-source policy (OSOR 2026)",
+    "issuing_authority": "n/a",
+    "legal_status": "plan",
+    "date": "2026 report",
+    "objective": "OSOR 2026: no comprehensive framework; open-by-default at federal level has not led to systematic adoption.",
+    "instruments": [
+      "community"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "Competences split federal/regional/community.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "(OSOR Poland country report, 2026 update)",
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/poland-2026-country-report"
+    ],
+    "unknowns": [
+      "2026 content not read"
+    ],
+    "id": "EUN-PL-01",
+    "level": "EU-national",
+    "jurisdiction": "Poland",
+    "title_english": "Poland public-sector open source (OSOR)",
+    "issuing_authority": "Ministry of Digital Affairs",
+    "legal_status": "plan",
+    "date": "2026 report",
+    "objective": "Earlier OSOR report: no dedicated public body for open-source regulation or promotion.",
+    "instruments": [
+      "community"
+    ],
+    "targets_or_budget": "n/a",
+    "reuse_logic": "Unknown",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): OSOR (Commission) report 24 Jul 2026: Ministry of Digital Affairs Open Source Team (early 2026, not formally an OSPO); National Digitalisation Strategy (June 2026) calls for a National OSPO, code repository and local-authority programme (commitment); civil-society alliance SPOIWO."
+  },
+  {
+    "title_original": "北京市开源生态体系建设实施方案（2026—2028年）",
+    "dc_edic_results": [
+      "E2",
+      "E6"
+    ],
+    "cn_eu_counterpart": [
+      "EUN-NL-01",
+      "EUN-IT-01",
+      "EU-09"
+    ],
+    "sources": [
+      "https://jxj.beijing.gov.cn/zwgk/2024zcwj/202512/t20251224_4360437.html",
+      "https://www.news.cn/fortune/20260625/1a13799c33a745c9857888e16149105c/c.html"
+    ],
+    "unknowns": [
+      "Implementation, suppliers, SBOM coverage"
+    ],
+    "id": "CNP-BJ",
+    "level": "CN-provincial",
+    "jurisdiction": "Beijing (province-level municipality)",
+    "title_english": "Beijing Open-Source Ecosystem Construction Implementation Plan 2026-2028",
+    "issuing_authority": "Beijing Municipal Bureau of Economy and Information Technology",
+    "legal_status": "plan",
+    "date": "2025-12-24",
+    "objective": "Build internationally influential projects, SBOM-enabled procurement, district incubators.",
+    "instruments": [
+      "procurement",
+      "platform",
+      "grant",
+      "venture",
+      "adoption-subsidy"
+    ],
+    "targets_or_budget": "Announced: 10 internationally influential projects (>=5 internationally leading), 30 leading domestic projects (>=10 AI), 100 industry large-model deployments. No monetary amounts. \"Open-source first solution\" support at a share of actual procurement value (percentage unspecified); compute vouchers.",
+    "reuse_logic": "Government-funded software procurement should in principle include an SBOM; public SBOM service platform; municipal SOEs encouraged to donate projects to municipal or national open-source platforms; open-source promotion centres for consulting and governance assessment.",
+    "evidence": "primary",
+    "note": "Round 2 (2026-11-02): Beijing Open-Source Ecosystem Plan 2026-2028 reported by Xinhua: 10 internationally influential and 30 domestic star projects."
+  },
+  {
+    "title_original": "上海市加强开源体系建设实施方案 (沪府办〔2025〕33号)",
+    "dc_edic_results": [
+      "E1",
+      "E6",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "EU-05",
+      "EU-01"
+    ],
+    "sources": [
+      "https://www.shanghai.gov.cn/nw12344/20251225/7ccd262a2d094d5792a13fa896a892a2.html",
+      "https://shanghaiopen.org.cn/organization/"
+    ],
+    "unknowns": [
+      "Sept 2026 declaration text (digital commons language) not obtained; memo S20 is secondary"
+    ],
+    "id": "CNP-SH",
+    "level": "CN-provincial",
+    "jurisdiction": "Shanghai (province-level municipality)",
+    "title_english": "Shanghai Implementation Plan for Strengthening the Open-Source System",
+    "issuing_authority": "General Office of Shanghai Municipal People's Government",
+    "legal_status": "plan",
+    "date": "issued 2025-12-09; effective 2025-12-15 to 2028-12-14",
+    "objective": "Open-source system by 2027 with international communities, commercialisation, supply-chain risk.",
+    "instruments": [
+      "community",
+      "grant",
+      "standard",
+      "venture"
+    ],
+    "targets_or_budget": "Announced by 2027: 1-2 internationally influential communities, 100 commercial open-source firms, 200+ projects incubated, 3m+ developers; at least 50 projects discovered per year; compute/model vouchers without amounts. No monetary amounts.",
+    "reuse_logic": "National SBOM standard implementation and supply-chain management; no explicit procurement or OSPO provisions; invites overseas open-source organisations to open branches.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "关于加快推进浙江省开源体系建设的实施意见",
+    "dc_edic_results": [
+      "E1",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "EU-05"
+    ],
+    "sources": [
+      "https://zjic.zj.gov.cn/ywdh/qyfz/202607/t20260721_24162869.shtml"
+    ],
+    "unknowns": [
+      "Text read is a government-hosted report, not the notice itself"
+    ],
+    "id": "CNP-ZJ",
+    "level": "CN-provincial",
+    "jurisdiction": "Zhejiang Province",
+    "title_english": "Implementation Opinions on Accelerating Zhejiang's Open-Source System",
+    "issuing_authority": "Zhejiang Dept. of Economy and IT plus six departments",
+    "legal_status": "plan",
+    "date": "2026-07-20 (effective on release)",
+    "objective": "Communities, projects, firms, benchmarks; contribution-based evaluation.",
+    "instruments": [
+      "community",
+      "grant"
+    ],
+    "targets_or_budget": "Announced by 2027: 1-2 globally influential and 3-4 nationally known communities, 2+ research institutions, 50+ projects, 150+ firms, 100+ benchmarks. No monetary amounts.",
+    "reuse_logic": "Open-source contributions count in title appointments and performance reviews; token/compute/data vouchers; no public-procurement provisions in the article read.",
+    "evidence": "secondary",
+    "note": "Round 2 (2026-11-02): Zhejiang open-source system opinion, 7 departments, effective 20 Jul 2026, target 50+ quality projects by 2027 (secondary press)."
+  },
+  {
+    "title_original": "杭政办函〔2026〕9号 (software industry policy), Art. 8 and Art. 3",
+    "dc_edic_results": [
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "EUN-DE-02",
+      "EU-08",
+      "EU-12"
+    ],
+    "sources": [
+      "https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml"
+    ],
+    "unknowns": [
+      "Awards actually granted"
+    ],
+    "id": "CNP-HZ",
+    "level": "CN-provincial",
+    "jurisdiction": "Hangzhou (sub-provincial city, Zhejiang)",
+    "title_english": "Hangzhou 2026 software-industry policy: open-source grants",
+    "issuing_authority": "General Office of Hangzhou Municipal People's Government",
+    "legal_status": "programme",
+    "date": "issued 2026-03-27; effective 2026-05-27 to 2028-12-31",
+    "objective": "One-time awards for open-source incubation and quality projects.",
+    "instruments": [
+      "grant"
+    ],
+    "targets_or_budget": "Verified in policy text (caps, not disbursements): up to RMB 1m per incubation-stage project hosted by a national-level open-source body; up to 10 projects/products per year, up to RMB 500k each; platform grants up to RMB 2m (Art. 3).",
+    "reuse_logic": "Requires hosting in a national open-source institution, steering projects into shared foundations.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "开放原子紫金专区 / 2026开源创新生态大会",
+    "dc_edic_results": [
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "EU-12",
+      "EUN-DE-02"
+    ],
+    "sources": [
+      "https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html"
+    ],
+    "unknowns": [
+      "Fund governance, disbursement"
+    ],
+    "id": "CNP-JS",
+    "level": "CN-provincial",
+    "jurisdiction": "Jiangsu Province (Suzhou)",
+    "title_english": "OpenAtom Zijin Zone and OPC fund matrix",
+    "issuing_authority": "Jiangsu government with OpenAtom Foundation; Nanjing Yuhuatai District",
+    "legal_status": "programme",
+    "date": "2026-08-28",
+    "objective": "Provincial open-source carrier, incubation, investor alliance.",
+    "instruments": [
+      "venture",
+      "community"
+    ],
+    "targets_or_budget": "Announced: OPC fund matrix planned at not less than RMB 1bn; RMB 30m AI micro-seed fund with Yuhuatai District; 16 first tenants signed. Paid-in capital not stated.",
+    "reuse_logic": "Incubating projects under national foundation hosting.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "广东省开源社区及生态中心资助 (新闻发布会)",
+    "dc_edic_results": [
+      "E1",
+      "E7"
+    ],
+    "cn_eu_counterpart": [
+      "EU-02",
+      "EUN-DE-02"
+    ],
+    "sources": [
+      "https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4694765.html"
+    ],
+    "unknowns": [
+      "Formal policy document and year"
+    ],
+    "id": "CNP-GD",
+    "level": "CN-provincial",
+    "jurisdiction": "Guangdong Province",
+    "title_english": "Guangdong support for open-source communities and ecosystem centres",
+    "issuing_authority": "Guangdong Provincial Dept. of Industry and IT (announced by deputy director)",
+    "legal_status": "programme",
+    "date": "announced 9 April (year not stated on page; presumably 2026)",
+    "objective": "Operating-cost support for communities.",
+    "instruments": [
+      "grant"
+    ],
+    "targets_or_budget": "Announced: up to 5 communities/centres per year, 30% of audited prior-year operating costs, cap RMB 8m each. No policy document number.",
+    "reuse_logic": "Sustains community operating costs, the closest Chinese analogue to maintenance funding.",
+    "evidence": "primary",
+    "note": "Round 4 (2026-11-02): Source is an official provincial gd.gov.cn press-conference page; kept as primary for the announcement; the formal policy document and year remain unfound."
+  },
+  {
+    "title_original": "深府办规〔2026〕1号 工业设备更新和技术改造措施",
+    "dc_edic_results": [
+      "E4",
+      "E8"
+    ],
+    "cn_eu_counterpart": [
+      "EU-03"
+    ],
+    "sources": [
+      "https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html"
+    ],
+    "unknowns": [
+      "Uptake"
+    ],
+    "id": "CNP-SZ",
+    "level": "CN-provincial",
+    "jurisdiction": "Shenzhen (sub-provincial city, Guangdong)",
+    "title_english": "Shenzhen industrial equipment renewal and technology-upgrade measures (OpenHarmony/RISC-V)",
+    "issuing_authority": "General Office of Shenzhen Municipal People's Government",
+    "legal_status": "programme",
+    "date": "signed 2026-02-27; effective 2026-03-10 for three years",
+    "objective": "Subsidise OpenHarmony adoption in industrial upgrades.",
+    "instruments": [
+      "adoption-subsidy"
+    ],
+    "targets_or_budget": "Verified in policy text: up to 15% of approved investment for OpenHarmony upgrades of RMB 5m or more; extra 5% for equipment using OpenHarmony-compatible RISC-V chips; cap RMB 10m per project; 20% of ultra-long special treasury bond support where applicable.",
+    "reuse_logic": "Demand-side adoption of a shared open OS base.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "龙岗区开源鸿蒙应用创新实验室",
+    "dc_edic_results": [
+      "E5"
+    ],
+    "cn_eu_counterpart": [
+      "EUN-FR-01",
+      "EUN-DE-01",
+      "EUN-DE-04"
+    ],
+    "sources": [
+      "https://www.lg.gov.cn/english/news/latestnews/content/post_12698243.html"
+    ],
+    "unknowns": [
+      "Deployment scale"
+    ],
+    "id": "CNP-SZ-LG",
+    "level": "CN-provincial",
+    "jurisdiction": "Shenzhen Longgang District",
+    "title_english": "OpenHarmony Application Innovation Lab, Longgang",
+    "issuing_authority": "Longgang Government Services and Data Administration Bureau with Huawei and others",
+    "legal_status": "programme",
+    "date": "2026-03-18",
+    "objective": "Adapt government information systems to OpenHarmony.",
+    "instruments": [
+      "adoption-subsidy",
+      "community"
+    ],
+    "targets_or_budget": "No budget stated.",
+    "reuse_logic": "Pilot of public-administration systems on an open base.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "重庆市加快构建开源鸿蒙应用创新生态工作方案",
+    "dc_edic_results": [
+      "E1"
+    ],
+    "cn_eu_counterpart": [
+      "EUN-FR-01"
+    ],
+    "sources": [
+      "https://cq.gov.cn/ywdt/jrcq/202604/t20260415_15611230.html"
+    ],
+    "unknowns": [
+      "Funding"
+    ],
+    "id": "CNP-CQ",
+    "level": "CN-provincial",
+    "jurisdiction": "Chongqing (province-level municipality)",
+    "title_english": "Chongqing plan to build the OpenHarmony application-innovation ecosystem",
+    "issuing_authority": "Chongqing Municipal Economy and Information Commission",
+    "legal_status": "plan",
+    "date": "issued 2026-04-14",
+    "objective": "1 alliance + 3 platforms + N scenarios; scenarios start with government affairs and public utilities.",
+    "instruments": [
+      "community",
+      "adoption-subsidy"
+    ],
+    "targets_or_budget": "Announced: 20,000 developers and 10 typical scenarios by 2027; 50,000 developers by 2030. No funding amounts in text.",
+    "reuse_logic": "Public-sector adaptation first, then health, education, finance; university courses.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "重庆天工开物开源基金会 (Chance Foundation)",
+    "dc_edic_results": [
+      "E1"
+    ],
+    "cn_eu_counterpart": [
+      "CNC-04"
+    ],
+    "sources": [
+      "https://mzj.cq.gov.cn/zwgk_218/fdzdgknr/xzxk/xzspjg/202303/t20230324_11806332.html"
+    ],
+    "unknowns": [
+      "Activity level"
+    ],
+    "id": "CNP-CQ-F",
+    "level": "CN-provincial",
+    "jurisdiction": "Chongqing",
+    "title_english": "Chongqing Tiangong Kaiwu Open Source Foundation",
+    "issuing_authority": "Registered by Chongqing Civil Affairs; licence 渝民许准字〔2023〕78号",
+    "legal_status": "institution",
+    "date": "2023-03",
+    "objective": "Local non-profit foundation for open source.",
+    "instruments": [
+      "community"
+    ],
+    "targets_or_budget": "Unknown.",
+    "reuse_logic": "Foundation home for local projects.",
+    "evidence": "primary"
+  },
+  {
+    "title_original": "武汉市加快培育发展开源鸿蒙生态的实施方案",
+    "dc_edic_results": [
+      "E4",
+      "E5"
+    ],
+    "cn_eu_counterpart": [
+      "EUN-NL-01",
+      "EUN-FR-01"
+    ],
+    "sources": [
+      "https://www.ithome.com/0/914/290.htm",
+      "https://m.gelonghui.com/live/2257208"
+    ],
+    "unknowns": [
+      "Official text not retrieved"
+    ],
+    "id": "CNP-WH",
+    "level": "CN-provincial",
+    "jurisdiction": "Wuhan (sub-provincial city, Hubei)",
+    "title_english": "Wuhan plan to foster the OpenHarmony ecosystem",
+    "issuing_authority": "General Office of Wuhan Municipal People's Government",
+    "legal_status": "plan",
+    "date": "2026-01-15",
+    "objective": "Public-sector use: encourages Party-government bodies, public institutions and SOEs to build or upgrade IoT systems on OpenHarmony with fiscal funds (IT Home report).",
+    "instruments": [
+      "procurement",
+      "adoption-subsidy"
+    ],
+    "targets_or_budget": "Announced by 2027: 100 demonstration scenarios, 200 apps, 50 device adaptations, 100,000+ developers.",
+    "reuse_logic": "Fiscally funded systems to use an open base; app migration in batches.",
+    "evidence": "secondary"
+  },
+  {
+    "title_original": "湖南省培育开源鸿蒙生态加快软件和信息服务创新发展的实施方案（湘制造强省办〔2026〕7号）",
+    "dc_edic_results": [
+      "E4"
+    ],
+    "cn_eu_counterpart": [],
+    "sources": [
+      "https://news.qq.com/rain/a/20261014A08SQL00",
+      "https://news.qq.com/rain/a/20261014A08SQL00"
+    ],
+    "unknowns": [
+      "Official text"
+    ],
+    "id": "CNP-HN",
+    "level": "CN-provincial",
+    "jurisdiction": "Hunan Province",
+    "title_english": "Hunan plan to cultivate the OpenHarmony ecosystem",
+    "issuing_authority": "Hunan Manufacturing-Power Leading Group Office",
+    "legal_status": "plan",
+    "date": "2026-10-13",
+    "objective": "OpenHarmony scenarios and developers.",
+    "instruments": [
+      "adoption-subsidy",
+      "community"
+    ],
+    "targets_or_budget": "Announced by 2028: 100 scenarios, 150 demo projects, 50,000 developers, 100+ core firms. No funding.",
+    "reuse_logic": "Unknown",
+    "evidence": "secondary",
+    "note": "Round 2 (2026-11-02): Hunan OpenHarmony plan (湘制造强省办〔2026〕7号), issued 2026-10-13: 100 demo scenes and 50,000 developers by 2028 (ITHome, QQ News)."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "instruments": [],
+    "targets_or_budget": "",
+    "reuse_logic": "",
+    "unknowns": [
+      "Full text not read (preview/download only on openstd); scope clauses unknown"
+    ],
+    "id": "CNC-12",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_original": "GB/T 44272-2024 信息技术 开源 开源许可证框架",
+    "title_english": "GB/T 44272-2024 Information technology - Open source - Open source licence framework",
+    "issuing_authority": "SAMR / Standardization Administration (SAC)",
+    "legal_status": "standard",
+    "date": "2024-08-23",
+    "objective": "National standard framing open-source licences; in force 2025-03-01.",
+    "evidence": "primary",
+    "sources": [
+      "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=48875862F65D66457449A1964058C8B1",
+      "https://openstd.samr.gov.cn/bzgk/gb/std_list?p.p1=0&p.p2=44272"
+    ],
+    "note": "Round 2 (2026-11-02): official SAMR listing: status current, published 2024-08-23, effective 2025-03-01, CCS L67, ICS 35.240. English title is a translation of the Chinese listing title; recheck."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "instruments": [],
+    "targets_or_budget": "Reported: 280+ ecosystem partners, 2,000+ domestic accelerator cards offered free, 20,000+ open models, 3,000+ datasets",
+    "reuse_logic": "",
+    "unknowns": [
+      "No formal SASAC policy document found; figures from press; SASAC primary text not read"
+    ],
+    "id": "CNC-13",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_original": "国务院国资委 焕新社区 人工智能开源社区 (2.0版, 2026-07)",
+    "title_english": "SASAC central-SOE AI open-source community Huanxin (v2.0)",
+    "issuing_authority": "SASAC; led by China Mobile",
+    "legal_status": "programme",
+    "date": "2026-07-17",
+    "objective": "SASAC instructs central SOEs to build open-source communities; Huanxin 2.0 opens models, compute and data.",
+    "evidence": "secondary",
+    "sources": [
+      "https://www.stdaily.com/web/gdxw/2026-07/18/content_549460.html",
+      "https://www.news.cn/fortune/20260717/8f5b61db99244c74bb8279e826e7011c/c.html",
+      "https://news.10jqka.com.cn/20260721/c678317461.shtml",
+      "https://www.news.cn/politics/20260211/993b8f520d58476e9949476dfe6996ce/c.html"
+    ],
+    "note": "Round 2 (2026-11-02): answers gap 4 (SASAC). Feb 2026 SASAC meeting asked central SOEs to strengthen open-source collaboration; 20 Jul 2026 party-committee meeting reiterated."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "instruments": [],
+    "targets_or_budget": "",
+    "reuse_logic": "",
+    "unknowns": [
+      "Official MIIT text not read"
+    ],
+    "id": "CNC-14",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_original": "人工智能中小企业创业支持计划（2026—2028年）",
+    "title_english": "MIIT AI SME Start-up Support Plan 2026-2028",
+    "issuing_authority": "MIIT General Office",
+    "legal_status": "plan",
+    "date": "2026-09-04",
+    "objective": "Encourages AI start-ups to join open-source ecosystems, supports national AI open-source community (AtomGit), steers funds to quality open-source projects.",
+    "evidence": "secondary",
+    "sources": [
+      "https://m.thepaper.cn/newsDetail_forward_34022351",
+      "https://www.cls.cn/detail/2474188"
+    ]
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "instruments": [],
+    "targets_or_budget": "",
+    "reuse_logic": "",
+    "unknowns": [
+      "Official text not read"
+    ],
+    "id": "CNC-15",
+    "level": "CN-central",
+    "jurisdiction": "China (national)",
+    "title_original": "推动工业互联网平台高质量发展行动方案（2026—2028年）",
+    "title_english": "MIIT Industrial Internet Platform Action Plan 2026-2028",
+    "issuing_authority": "MIIT",
+    "legal_status": "plan",
+    "date": "2026-01-13",
+    "objective": "Goal of an open-source, open next-generation industrial internet platform ecosystem by 2028 (secondary theme).",
+    "evidence": "secondary",
+    "sources": [
+      "https://www.ithome.com/0/978/948.htm"
+    ]
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "instruments": [],
+    "targets_or_budget": "By 2027: 4 industry-grade OpenHarmony OS, 100,000+ developers",
+    "reuse_logic": "",
+    "unknowns": [
+      "Official text not read"
+    ],
+    "id": "CNP-HB-WH",
+    "level": "CN-provincial",
+    "jurisdiction": "Wuhan (sub-provincial city, Hubei)",
+    "title_original": "武汉市加快培育发展开源鸿蒙生态实施方案",
+    "title_english": "Wuhan OpenHarmony ecosystem implementation plan",
+    "issuing_authority": "Wuhan Municipal Government General Office",
+    "legal_status": "plan",
+    "date": "2026-01",
+    "objective": "OpenHarmony ecosystem growth.",
+    "evidence": "secondary",
+    "sources": [
+      "https://m.gelonghui.com/live/2257208"
+    ],
+    "note": "Round 2 (2026-11-02): refines CNP-WH with target figures."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "instruments": [],
+    "targets_or_budget": "",
+    "reuse_logic": "",
+    "unknowns": [
+      "Annex steward sections not read directly"
+    ],
+    "id": "EU-13",
+    "level": "EU",
+    "jurisdiction": "European Union",
+    "title_original": "Commission guidance on Regulation (EU) 2024/2847 (CRA), C(2026) 5252",
+    "title_english": "CRA implementation guidance (incl. FOSS scope; steward role Art. 24)",
+    "issuing_authority": "European Commission",
+    "legal_status": "guidance (non-binding)",
+    "date": "2026-07-27",
+    "objective": "Clarifies scope incl. FOSS; no separate steward implementing act found. Reporting duties apply from 2026-09-11, main obligations 2027-12-11.",
+    "evidence": "primary",
+    "sources": [
+      "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation",
+      "https://digitalpolicyalert.org/event/42217-european-commission-adopted-guidance-on-implementation-of-cyber-resilience-act",
+      "https://policy.openssf.org/CRA/stewards-one-pager.html"
+    ],
+    "note": "Round 4 (2026-11-02): Official Commission page (27 Jul 2026): guidance C(2026) 5252 with annex, non-binding, covers free and open source software in scope clarifications; page does not mention stewards (fact)."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [
+      "EUN-DE-04"
+    ],
+    "unknowns": [
+      "Budget",
+      "Uptake of government-terminal conversion"
+    ],
+    "instruments": [
+      "adoption-subsidy",
+      "platform"
+    ],
+    "evidence": "primary",
+    "id": "CNP-GZ-01",
+    "level": "CN-provincial",
+    "jurisdiction": "Guangzhou (sub-provincial city, Guangdong)",
+    "title_original": "穗工信函〔2026〕192号 广州市鸿蒙智城建设行动计划(2026-2028年)",
+    "title_english": "Guangzhou Harmony Smart City Action Plan 2026-2028",
+    "issuing_authority": "Guangzhou Municipal Bureau of Industry and Information Technology",
+    "legal_status": "plan",
+    "date": "letter 2026-06-25; web page 2026-06-29",
+    "objective": "Integrate open-source HarmonyOS (开源鸿蒙) with AI; use provincial and municipal OpenHarmony adaptation centres in a \"one centre, multiple parks\" layout.",
+    "targets_or_budget": "By end-2028: at least 2 industry-level HarmonyOS systems and at least 100 high-quality demonstration scenarios (commitment). No budget on the page.",
+    "reuse_logic": "Plan text: convert government terminals to HarmonyOS and embed it in data sharing, administrative approval and regulation (commitment, not outcome).",
+    "sources": [
+      "https://www.gz.gov.cn/zt/gzzzlsqj/zcyzt/gxzc/content/post_10968068.html"
+    ],
+    "note": "Round 4 (2026-11-02). Read through WebFetch of the gz.gov.cn page; summary relies on quoted sentences."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [
+      "EUN-DE-01"
+    ],
+    "unknowns": [
+      "Whether the build uses OpenHarmony code as upstream (inference only)",
+      "User numbers audited?"
+    ],
+    "instruments": [
+      "platform"
+    ],
+    "evidence": "primary",
+    "id": "CNP-GD-02",
+    "level": "CN-provincial",
+    "jurisdiction": "Guangdong Province",
+    "title_original": "粤政易鸿蒙版(HarmonyOS NEXT)",
+    "title_english": "Yue Zhengyi (Guangdong government collaboration app) HarmonyOS version",
+    "issuing_authority": "Guangdong Provincial Administration of Government Services and Data Management",
+    "legal_status": "platform",
+    "date": "2025-08-14",
+    "objective": "Provide the provincial government collaboration app as a HarmonyOS native version for provincial staff.",
+    "targets_or_budget": "Agency claims the first HarmonyOS government collaboration app with a million-level user base (self-reported). No cost data.",
+    "reuse_logic": "Adaptation of an existing provincial platform to a Huawei-led OS stack (HarmonyOS NEXT, which the page does not describe as OpenHarmony).",
+    "sources": [
+      "https://zfsg.gd.gov.cn/xxfb/ywsd/content/post_4758463.html"
+    ],
+    "note": "Round 4. Deployment fact (agency page); million-user figure is self-reported. The same page says Yue Sheng Shi and Yue Shang Tong joined the HarmonyOS ecosystem."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "unknowns": [
+      "OpenHarmony linkage"
+    ],
+    "instruments": [
+      "platform"
+    ],
+    "evidence": "primary",
+    "id": "CNP-GZ-02",
+    "level": "CN-provincial",
+    "jurisdiction": "Guangzhou (sub-provincial city, Guangdong)",
+    "title_original": "穗好办APP鸿蒙5版",
+    "title_english": "Sui Hao Ban (Guangzhou unified government service app) HarmonyOS 5 version",
+    "issuing_authority": "Guangzhou Municipal Administration of Government Services and Data Management",
+    "legal_status": "platform",
+    "date": "2025-09-20",
+    "objective": "Offer a HarmonyOS 5 version of the municipal service app (dark mode, HarmonyOS account login, file management, new rendering engine).",
+    "targets_or_budget": "None stated.",
+    "reuse_logic": "Platform port; the page describes features, not open-source reuse. HarmonyOS 5 is not described as OpenHarmony.",
+    "sources": [
+      "https://zsj.gz.gov.cn/zmhd/cjwt/shbapp/content/post_10480793.html"
+    ],
+    "note": "Round 4. Deployment fact from the issuing bureau FAQ page."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [
+      "CNP-GZ-01"
+    ],
+    "unknowns": [
+      "Whether ZenDiS membership completed"
+    ],
+    "instruments": [
+      "procurement",
+      "adoption-subsidy",
+      "institution"
+    ],
+    "evidence": "primary",
+    "id": "EUN-DE-05",
+    "level": "EU-national",
+    "jurisdiction": "Germany / Schleswig-Holstein (sub-national)",
+    "title_original": "Open Innovation und Open Source Strategie des Landes Schleswig-Holstein",
+    "title_english": "Schleswig-Holstein Open Source Strategy",
+    "issuing_authority": "Staatskanzlei, Landesregierung Schleswig-Holstein",
+    "legal_status": "plan",
+    "date": "2024-11-25",
+    "objective": "Reduce dependence on few proprietary vendors; move about 25,000 state IT workplaces to open source (LibreOffice/ODF first, then Linux, Nextcloud, Open-Xchange, telephony).",
+    "targets_or_budget": "IT budgets to shift from licence fees to development and support contracts (commitment); internal OSPO to be built; aim to join ZenDiS and the Deutsche Verwaltungscloud.",
+    "reuse_logic": "Shifts spending to support contracts and shared components.",
+    "sources": [
+      "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/241125_cds_open-source-strategie"
+    ],
+    "note": "Round 4. Strategy announcement; implementation results are tracked in EUN-DE-04."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [
+      "CNP-GD-02"
+    ],
+    "unknowns": [
+      "Test results beyond \"positive\""
+    ],
+    "instruments": [
+      "platform"
+    ],
+    "evidence": "primary",
+    "id": "EUN-DE-06",
+    "level": "EU-national",
+    "jurisdiction": "Germany (federal social insurance)",
+    "title_original": "CKKI-Projekt: openDesk als Notfallarbeitsplatz",
+    "title_english": "CKKI project: openDesk as emergency workplace for social insurance",
+    "issuing_authority": "Deutsche Rentenversicherung Bund with Bundesagentur fuer Arbeit, BITMARCK, BG-Phoenics, ZenDiS",
+    "legal_status": "programme",
+    "date": "2026-07-21",
+    "objective": "Test openDesk as an emergency workplace for social-insurance bodies.",
+    "targets_or_budget": "Public consultation on the emergency use case announced to begin late August 2026 (commitment).",
+    "reuse_logic": "Reuse of a shared open-source suite across federal bodies.",
+    "sources": [
+      "https://www.deutsche-rentenversicherung.de/Bund/DE/Presse/Pressemitteilungen/pressemitteilungen_aktuell/2026/2026-07-21-ckki-zendis-opendesk"
+    ],
+    "note": "Round 4. Results described as positive by the participants themselves."
+  },
+  {
+    "dc_edic_results": [],
+    "cn_eu_counterpart": [],
+    "unknowns": [
+      "Full report not read, only the agency news item"
+    ],
+    "instruments": [
+      "community"
+    ],
+    "evidence": "primary",
+    "id": "EUN-DK-02",
+    "level": "EU-national",
+    "jurisdiction": "Denmark",
+    "title_original": "Open source i den offentlige sektor 2025",
+    "title_english": "Danish Agency for Digital Government report on open source in the public sector",
+    "issuing_authority": "Digitaliseringsstyrelsen",
+    "legal_status": "guidance",
+    "date": "2025-12-18",
+    "objective": "Assess open source in public authorities: prospects exist, but authorities take more responsibility (licences, security updates, maintenance) and need resources.",
+    "targets_or_budget": "None.",
+    "reuse_logic": "Interviewed authorities see potential for reusing code between authorities, but lack resources to share; critical systems are limited by special frameworks.",
+    "sources": [
+      "https://digst.dk/nyheder/nyhedsarkiv/2025/december/open-source-stiller-krav-til-myndighedernes-ansvar-for-it-loesninger/"
+    ],
+    "note": "Round 4."
+  }
 ]

@@ -109,3 +109,15 @@ Light pass (about 15 searches/fetches). Catalogue now 56 records (added CNC-12..
 - **Provinces:** Wuhan (4 OpenHarmony OS, 100k developers by 2027) and Hunan (doc no. 湘制造强省办〔2026〕7号, 13 Oct 2026: 100 scenes, 50k developers by 2028) now have dated targets, still secondary. Sichuan/Chengdu, Fujian, Shandong: nothing found.
 - **EU:** strategy is COM(2026) 503. No official budget for the Maintenance Instrument or Open Internet Stack; EUR 350m for an EU-STF is a study/advocacy figure. DC-EDIC (FR, DE, NL, IT, LU; Paris; director from 1 Apr 2026) has no published budget; a Digital Europe EDIC Support Hub call exists (EUR 1m ceiling per an aggregator, to check). CRA: non-binding guidance C(2026) 5252 of 27 Jul 2026 covers FOSS; no separate steward act; reporting duties from 11 Sep 2026, main duties 11 Dec 2027. EU OSPO and EU-STF start date: not researched.
 - **Catalogue upgrades (priority 8):** not done beyond the above, for budget reasons.
+
+## Round 4 counts (2026-11-02)
+Registry now **62 records, 41 primary (66%)**. Upgrades and additions are listed in docs/CATALOGUE-VERIFICATION-NOTES.md (Round 4).
+
+| Level | Primary | Secondary | Unverified | Total |
+|---|---|---|---|---|
+| EU | 10 | 2 | 1 | 13 |
+| China central | 7 | 5 | 3 | 15 |
+| EU member states | 13 | 3 | 2 | 18 |
+| Chinese provinces / cities | 11 | 5 | 0 | 16 |
+
+Guangdong/Guangzhou finding: provincial and municipal bodies have shipped HarmonyOS versions of government apps (Yue Zhengyi Aug 2025, Sui Hao Ban Sep 2025; facts) and Guangzhou commits to converting government terminals by 2028 (commitment). The sources say HarmonyOS, not OpenHarmony; the open-source link is an inference.

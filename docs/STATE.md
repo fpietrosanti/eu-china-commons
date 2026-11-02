@@ -23,8 +23,8 @@
 ## 3. Gate A — progress
 | Criterion | Target | Now |
 |---|---|---|
-| Registry initiatives | ≥ 60, ≥ 60% primary | **56**, 21 primary (37%) |
-| Verified PA-reuse cases | ≥ 5 per side | **EU 8 ✓**, CN 4 (Longgang, Wuhan, Shenzhen, Chongqing: plans, not deployments). Candidate 5th: Guangdong OpenHarmony centre |
+| Registry initiatives | ≥ 60, ≥ 60% primary | **62**, 41 primary (66%) ✓ |
+| Verified PA-reuse cases | ≥ 5 per side | **EU 8 ✓**, CN 4 plans + 2 HarmonyOS deployments (Guangdong Yue Zhengyi, Guangzhou Sui Hao Ban; open-source link inferred) |
 | Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
 | Verified bridge opportunities | ≥ 3 | 12 proposed, 0 verified on both sides |
