@@ -30,6 +30,7 @@
 | Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
 | Verified bridge opportunities | ≥ 3 | **2 EU–CN verified** (Eclipse–OpenAtom sister projects; High-Level Digital Dialogue channel) **+ 1 shared standard** (OpenChain ISO 18974 adopted by openEuler — LF project, borderline) + 1 partial (EPL-2.0 ZH translation, EU source missing) |
+| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 10 ✓** (6 A, 2 C). Gaps: CN cloud/automotive/data-space layers empty; no documented public funding for CN stacks; adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
 
 **Registry by level and evidence:**
 
