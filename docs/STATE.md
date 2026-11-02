@@ -1,22 +1,82 @@
 # STATE — Europe–China Digital Commons Observatory (中欧数字公地观察站)
 
-Updated: 2026-11-03 · Milestone v0.1 public: **12 Nov 2026**
+**Updated: 4 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
 
-## Decisions (Fabio)
-- Scope: open source / digital commons only. Site EN + ZH; working docs EN.
-- Domain: **eu-china-commons.eu** (site/CNAME ready). Handle: EUChinaCommons.
-- Token budget: **max 10% of the available weekly budget** (ledger + weekly job, see docs/OPERATIONS.md).
-- Hosting: one GitHub repo = repository + site via GitHub Pages (workflow .github/workflows/pages.yml publishes site/). A dedicated server account will run the jobs (maximise what is deployed there).
+## 1. Where we are, in one paragraph
+**Phase A (research) is in progress. Gate A is not met yet.**
+- We have the full analysis of the DC-EDIC Strategy, a literature review, a 4-level registry of 56 initiatives, a catalogue of reuse and collaboration cases, an archive of more than 100 sources with SHA-256, and a research and dissemination methodology.
+- The v0.1 site (EN/ZH) exists locally and is **frozen** until gate A.
+- **Not done yet:** nothing is published, and GitHub and the domain are waiting on Fabio.
 
-## Waiting on Fabio
-- GitHub repo (name/org) and server account → then push, Pages, DNS of eu-china-commons.eu (registration + CNAME/A records to GitHub Pages)
-- Public email; native-speaker ZH review; public vs private source archive; Chinese partner for WeChat
+## 2. Decisions taken (Fabio)
+| Date | Decision |
+|---|---|
+| 29 Oct | Scope: open source / digital commons only. Working docs in EN |
+| 2 Nov | Site EN + ZH; name "Osservatorio sui Digital Commons Europei e Cinesi" → EN *Europe–China Digital Commons Observatory*, ZH 中欧数字公地观察站 |
+| 3 Nov | Domain **eu-china-commons.eu**; **token budget max 10% of the weekly budget**; one GitHub repo = repository + Pages site; dedicated server account (maximise what is deployed there) |
+| 3 Nov | A copy of every external source in the repo + link to the original |
+| 3 Nov | Translation into all 24 EU languages = lowest priority, local CPU LLM, no Claude tokens |
+| 3 Nov | Site and white paper structure only after "enough information" (gate A); brand identity that resonates in China |
+| 4 Nov | Research and dissemination methodology is itself a deliverable; Chinese LLMs (Qwen, DeepSeek) **through subscription chat only, no API** |
 
-## In progress
-- Research round 2 (gaps) in background; China-VPN queue: docs/CN-VPN-QUEUE.md (tools/vpn_queue.sh)
-- Site v0.1 FROZEN until gate A (see TODO.md)
-- Source archive: server job ~/ecdc (ubuntu@51.158.36.151, temporary) → to move to the dedicated account
-- Multi-level analysis (data/initiatives.json, docs/MULTILEVEL-ANALYSIS.md)
+## 3. Gate A — progress
+| Criterion | Target | Now |
+|---|---|---|
+| Registry initiatives | ≥ 60, ≥ 60% primary | **56**, 21 primary (37%) |
+| Verified PA-reuse cases | ≥ 5 per side | EU 2, CN ~2 → round 3 in progress |
+| Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
+| Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
+| Verified bridge opportunities | ≥ 3 | 12 proposed, 0 verified on both sides |
 
-## Where things are
-TODO.md (roadmap per mission) · site/ · docs/REVIEW-DRAFT.md · docs/LITERATURE-REVIEW.md · docs/DOMAIN-OPTIONS.md · docs/OPERATIONS.md · tools/
+**Registry by level and evidence:**
+
+| Level | Primary | Secondary | Unverified | Total |
+|---|---|---|---|---|
+| EU | 4 | 8 | 1 | 13 |
+| China central | 7 | 5 | 3 | 15 |
+| EU member states | 3 | 9 | 3 | 15 |
+| Chinese provinces | 7 | 6 | 0 | 13 |
+
+## 4. What is running now
+- **Round 3 verification** of PA-reuse cases, toward gate A (background; updates data/catalogue-verified.json).
+- Archiving the round-2 sources on the server (ubuntu@51.158.36.151:~/ecdc, temporary). It is copied back into the repo and committed automatically.
+
+## 5. Waiting on Fabio
+| Item | Why it matters |
+|---|---|
+| GitHub repo | Push, Pages, publication |
+| Dedicated server account | Move jobs: archive, weekly monitoring, token ledger, CPU translation |
+| China VPN | 8 resources in docs/CN-VPN-QUEUE.md (Shanghai declaration, 15th Five-Year Plan, Chongqing…) |
+| Qwen + DeepSeek accounts (chat) | 3-task pilot of Chinese cross-checking |
+| Register eu-china-commons.eu | EU registrant |
+| Public email; native ZH reviewer; Chinese partner for WeChat | Contacts, ZH quality, Chinese channels |
+| Public or private source archive | Copyright of articles and think-tank reports |
+
+## 6. Map of the work
+| Area | File |
+|---|---|
+| Roadmap | TODO.md |
+| DC-EDIC analysis, 4 levels, scores | docs/REVIEW-DRAFT.md |
+| Literature + novelty | docs/LITERATURE-REVIEW.md, docs/LITERATURE-AND-NOVELTY.md |
+| Multi-level registry | data/initiatives.json, docs/MULTILEVEL-ANALYSIS.md |
+| Catalogue | data/catalogue-verified.json (research), site/data/catalogue.json (site) |
+| Sources | sources/archive/ + index.tsv; tools/archive_sources.sh |
+| China-VPN queue | docs/CN-VPN-QUEUE.md (tools/vpn_queue.sh), data/cn_vpn_needed.txt |
+| Method | docs/METHODOLOGY.md; protocols/, reviews/, data/llm-runs.tsv |
+| Operations, social, budget | docs/OPERATIONS.md |
+| Brand / domain | docs/DOMAIN-OPTIONS.md |
+| Site v0.1 (frozen) | site/ (preview: node tools/serve.js, port 8090) |
+
+## 7. Next steps (in order, within budget)
+1. Merge round 3 (PA reuse) → update gate A.
+2. Raise registry evidence to primary: official sources for the "secondary" EU-national records (low cost).
+3. Academic databases (Scholar/SSRN/Scopus) → PRISMA-style literature review.
+4. Write the protocols/ for the research questions (method §3.1).
+5. Brand brief (phase C) as a document only; no design before gate B.
+6. When the accounts and the VPN arrive: Chinese pilot + VPN queue.
+
+## 8. Known risks
+- Server disk at 93%: check before downloading LLM models.
+- House Select Committee letter (Jun 2025) on Eclipse–OpenAtom: we must answer it in the white paper.
+- Novelty: don't claim to be "first on complementarity" (Huawei/Bitergia keynote, Aug 2025).
+- Chinese figures are announced envelopes, not proven spending.
