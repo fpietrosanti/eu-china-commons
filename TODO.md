@@ -90,3 +90,11 @@ Way of working: low impact, at a steady pace, every step committed. Sources are 
 ## Done
 - [x] Analysis draft v0.1 (docs/REVIEW-DRAFT.md)
 - [x] Literature scan v0.1 (docs/LITERATURE-AND-NOVELTY.md)
+
+## Added 3 Nov 2026
+- [ ] **Archive every source in the repo** (tools/archive_sources.sh, idempotent job on the server → sources/archive/ + index.tsv). Decide: public repo (official docs only) + private mirror, or private only
+- [ ] **Multi-level analysis**: EU ↔ China central, EU member states ↔ Chinese provinces (data/initiatives.json + docs/MULTILEVEL-ANALYSIS.md, in progress)
+- [ ] Domain: 30 options in docs/DOMAIN-OPTIONS.md. Proposal: europe-china-digital-commons.eu + china-europe-digital-commons.eu + zhongou-commons.eu + eu-china-commons.eu
+- [ ] Operations (docs/OPERATIONS.md): **weekly token cap** + ledger + weekly job on the server; fixed content cadence
+- [ ] Social brand EU (LinkedIn, Mastodon, Bluesky, YouTube, GitHub) and CN (WeChat 公众号 via a Chinese partner, Weibo, Zhihu, Bilibili, OSChina, Gitee); accounts created by Fabio
+- [x] "Call to institutions" section on the site (EN/ZH): EU, China, member states/provinces
