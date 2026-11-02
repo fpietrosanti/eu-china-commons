@@ -23,7 +23,7 @@
 | Criterion | Target | Now |
 |---|---|---|
 | Registry initiatives | ≥ 60, ≥ 60% primary | **56**, 21 primary (37%) |
-| Verified PA-reuse cases | ≥ 5 per side | EU 2, CN ~2 → round 3 in progress |
+| Verified PA-reuse cases | ≥ 5 per side | **EU 8 ✓**, CN 4 (Longgang, Wuhan, Shenzhen, Chongqing: plans, not deployments). Candidate 5th: Guangdong OpenHarmony centre |
 | Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
 | Verified bridge opportunities | ≥ 3 | 12 proposed, 0 verified on both sides |
@@ -38,7 +38,7 @@
 | Chinese provinces | 7 | 6 | 0 | 13 |
 
 ## 4. What is running now
-- **Round 3 verification** of PA-reuse cases, toward gate A (background; updates data/catalogue-verified.json).
+- Round 3 done (4 Nov): EU 8 verified PA cases; CN 4. Gap: no named Chinese government body running openEuler/openKylin found (a finding in itself).
 - Archiving the round-2 sources on the server (ubuntu@51.158.36.151:~/ecdc, temporary). It is copied back into the repo and committed automatically.
 
 ## 5. Waiting on Fabio
@@ -68,7 +68,7 @@
 | Site v0.1 (frozen) | site/ (preview: node tools/serve.js, port 8090) |
 
 ## 7. Next steps (in order, within budget)
-1. Merge round 3 (PA reuse) → update gate A.
+1. Fifth CN case (Guangdong/Guangzhou OpenHarmony, provincial 政务 apps) + archive the round-3 sources.
 2. Raise registry evidence to primary: official sources for the "secondary" EU-national records (low cost).
 3. Academic databases (Scholar/SSRN/Scopus) → PRISMA-style literature review.
 4. Write the protocols/ for the research questions (method §3.1).

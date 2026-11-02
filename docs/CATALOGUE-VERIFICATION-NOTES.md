@@ -31,3 +31,11 @@ Scope: `data/catalogue-verified.json`. Budget was low-intensity (about 40 web ca
 
 ## Reading across
 - The key structural finding is `cn-no-pa-reuse-policy`: as of July 2023, no formal OSS procurement/reuse policy in Chinese public administrations. Our evidence for PA reuse in China is therefore pilots (Longgang) and sector adoption (power grids), not a reuse regime. Revisit against the 2025-26 regional plans before using it as a current statement.
+
+## Round 3 (2026-11-02)
+Evidence level per METHODOLOGY section 4 now in the `evidence` field.
+- Upgraded to verified (EU PA reuse): Schleswig-Holstein (A, state press releases), Tchap (A), BwMessenger (A, BWI), Decidim (A, Barcelona City Council), openDesk (A, operator + BMDS; the ~100,000 workstations claim stays press-only), code.overheid.nl (A, pilot), La Suite (A-v; DINUM user figures conflict, use Tchap entry). X-Road was already verified.
+- Still partly verified: Developers Italia / art. 69 (B; statute text not read), Denmark (C, press only), Munich LiMux (B, negative lesson).
+- CN verified: Longgang lab (earlier), Wuhan plan Wuzhengban [2026] No.3 (A), Shenzhen 2024 action plan (A), Chongqing 2026 plan (A-v, press piece on gov portal). Caveat: Wuhan/Shenzhen/Chongqing are policy documents with targets, not deployment data.
+- openEuler/openKylin: no named government body adoption found on gov.cn; the Fujian group migration page names no OS and is expired. r.jina.ai worked for cq.gov.cn; nothing added to cn_vpn_needed.txt.
+- Counts (pa-reuse, verified): EU 7 (openDesk, La Suite, Tchap, BwMessenger, Schleswig-Holstein, Decidim, code.overheid.nl) plus X-Road = 8; CN 4. Gate A met for EU; CN needs 1 more (candidates: Guangdong/Guangzhou OpenHarmony adaptation centre, a 政务 app on HarmonyOS from a provincial data bureau, a primary source for openEuler at State Grid).
