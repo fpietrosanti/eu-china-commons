@@ -1,31 +1,31 @@
 # STAKEHOLDERS — outreach map
 
-Source of truth: [../data/stakeholders.json](../data/stakeholders.json) (111 entries). Built from the audience map (METHODOLOGY Part II) plus the brief; **no invitations are sent**.
+Source of truth: [../data/stakeholders.json](../data/stakeholders.json) (133 entries; 111 in the first draft, 22 added on 2 Nov 2026). Built from the audience map (METHODOLOGY Part II) plus the brief; **no invitations are sent**.
 
-**Status: first draft.** Websites and contact pages come from prior knowledge and have not yet been checked entry by entry (`verified: false`). Entries marked "to confirm" (APELL, China Chamber to the EU) need identity checks. Run a link check before any outreach.
+**Status: first draft, partly checked.** 15 of 133 entries are `verified: true` (official page fetched on 2026-11-02 and organisation name matched; fields `verified_source`, `verified_date`); all others remain `false`. Websites and contact pages come from prior knowledge and have not yet been checked entry by entry (`verified: false`). Entries marked "to confirm" (APELL, China Chamber to the EU) need identity checks. Run a link check before any outreach.
 
 ## Counts
 | side | n |
 |---|---|
-| EU | 58 |
-| CN | 47 |
+| EU | 75 |
+| CN | 52 |
 | global | 6 |
 
 | level | n |
 |---|---|
 | EU | 11 |
 | diplomacy | 10 |
-| member-state | 18 |
+| member-state | 33 |
 | region | 3 |
-| CN-central | 8 |
-| CN-provincial | 8 |
-| foundation | 16 |
-| community | 8 |
+| CN-central | 9 |
+| CN-provincial | 11 |
+| foundation | 17 |
+| community | 9 |
 | media | 1 |
-| company | 19 |
+| company | 20 |
 | academia | 9 |
 
-Priority 1: 31, priority 2: 33, priority 3: 47.
+Priority 1: 31, priority 2: 34, priority 3: 68.
 
 ## First wave (priority 1)
 | id | name | level | country | lang |
@@ -66,7 +66,7 @@ Priority 1: 31, priority 2: 33, priority 3: 47.
 - **Need Chinese (ZH) materials:** 36 entries (CN-central, CN-provincial, CN communities, most CN companies). Use the ZH brief in official register for ministries, community register for KAIYUANSHE, OSChina, Gitee.
 - **Need an intermediary (do not cold-contact):** Chinese ministries and provincial bureaus (MIIT, CAC, NDRC, MOST, MOFCOM, SASAC, provincial bureaus): go via KAIYUANSHE, CCF ODC, CAICT, ECNU X-lab, OpenAtom, or the EU Delegation / Chinese Mission. Chinese embassies and the mission: via EEAS or national contacts. Chinese state websites mostly list no generic email; contact_channel is the site's own contact or home page, to be completed by a trusted partner.
 - **EU institutions:** official contact forms; for DC-EDIC and EDCOM go through DG CNECT and the Advisory Board secretariat.
-- **Member states:** prefer OSPO or digital-agency generic channels; pair each with the matching provincial case ("Beijing <-> Netherlands"). Not yet covered: BG, HR, CY, GR, HU, IE, LV, LT, MT, RO, SK, SI (add in a second pass).
+- **Member states:** prefer OSPO or digital-agency generic channels; pair each with the matching provincial case ("Beijing <-> Netherlands"). All 27 member states are now covered (BG, HR, CY, GR, HU, IE, LV, LT, MT, RO, SK, SI added 2 Nov 2026; SI: the digital portfolio now sits in the Ministry of the Interior and Public Administration, to confirm).
 - **Companies:** use corporate open-source offices, not sales contacts.
 
 ## GDPR and approvals
@@ -77,3 +77,11 @@ Home pages reached with HTTP 2xx/3xx: 39 of 111 (field `web_http` in the JSON). 
 
 ## Link check (2026-11-02, from the EU server, no tokens)
 214 URLs checked (tools/linkcheck.sh): **160 OK (200)**, 22 not found (404), 19 unreachable (timeout or geo-block), 9 blocked (403), 4 other. Failures are in data/stakeholders_linkcheck_fail.tsv. The 404s need the URL corrected; the timeouts on Chinese sites go to the China VPN queue. **A reachable URL does not mean the entry is verified:** organisation, role and contact channel still have to be checked before any outreach.
+
+## Second pass (2026-11-02)
+- **404 fixes:** 21 contact or home URLs corrected (EC DIGIT, EEAS, EU Delegation China, ENISA, CoR, ZenDiS, BMDS, Sovereign Tech, Digital Austria, Digst, DIGG, Schleswig-Holstein, LF Europe, TDF, Wikimedia Europe, OSChina, Element, XWiki, IONOS, OVHcloud, Bruegel, EU Chamber). Where no dedicated contact page was found the home page is used.
+- **needs_vpn (10):** cn-cesi, cn-caict (412), cn-zj, cn-cq, cn-hn, cm-chance, cm-sh-osa, cm-copu, cn-sz, cn-hz. See CN-VPN-QUEUE.
+- **403 kept (site exists, bot-blocked):** digital-strategy.ec.europa.eu, JRC, digital.gouv.lu, dvv.fi, Barcelona, FSFE, OSI; new entries ms-gr-mindigital, ms-lt-vssa, ms-mt-mita, ms-ie-ogcio, ms-bg-meu are likewise unverified because the check was blocked.
+- **Unreachable, no fix found (field `link_note`):** apell.eu, cccceu.eu, digitalnicesko.gov.cz.
+- **Cross-reference additions (from initiatives.json and catalogue-verified.json):** Federal Ministry of Defence DE, SPRIND, Danish Ministry of Digital Affairs, Spanish territorial ministry, Decidim Association, SAMR/SAC, Shenzhen, Hangzhou, Wuhan, China Mobile.
+- **Verified (15):** ms-hr-mpudt, ms-cy-dmrid, ms-hu-dke, ms-lv-varam, ms-ro-adr, ms-sk-mirri, ms-si-mnzjt, ms-de-bmvg, fd-sprind, ms-dk-digmin, ms-es-mptfp, co-decidim, cn-samr, cn-wh, co-chinamobile. Verification = official home page returned 200 and contained the organisation's name; the contact page itself was not always fetched.

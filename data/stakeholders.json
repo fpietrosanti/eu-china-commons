@@ -33,13 +33,13 @@
    "operations"
   ],
   "priority": 1,
-  "official_website": "https://commission.europa.eu/about/departments-and-executive-agencies/informatics_en",
+  "official_website": "https://commission.europa.eu/about/departments-and-executive-agencies/digital-services_en",
   "contact_channel": "https://commission.europa.eu/about/contact_en",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
   "source_url": "https://commission.europa.eu/about/contact_en",
   "verified": false,
-  "web_http": 404
+  "web_http": 200
  },
  {
   "id": "eu-interop",
@@ -95,12 +95,12 @@
   ],
   "priority": 2,
   "official_website": "https://www.eeas.europa.eu",
-  "contact_channel": "https://www.eeas.europa.eu/eeas/contact-us_en",
+  "contact_channel": "https://www.eeas.europa.eu/eeas/contact_en",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.eeas.europa.eu/eeas/contact-us_en",
+  "source_url": "https://www.eeas.europa.eu/eeas/contact_en",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "eu-del-china",
@@ -115,10 +115,10 @@
   ],
   "priority": 2,
   "official_website": "https://www.eeas.europa.eu/china_en",
-  "contact_channel": "https://www.eeas.europa.eu/delegations/china/contact_en",
+  "contact_channel": "https://www.eeas.europa.eu/delegations/china_en",
   "contact_type": "official institutional page (generic)",
   "language": "EN/ZH",
-  "source_url": "https://www.eeas.europa.eu/delegations/china/contact_en",
+  "source_url": "https://www.eeas.europa.eu/delegations/china_en",
   "verified": false,
   "web_http": 200
  },
@@ -221,10 +221,10 @@
   ],
   "priority": 3,
   "official_website": "https://www.enisa.europa.eu",
-  "contact_channel": "https://www.enisa.europa.eu/about-enisa/contact",
+  "contact_channel": "https://www.enisa.europa.eu/about-enisa/contact/contact",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.enisa.europa.eu/about-enisa/contact",
+  "source_url": "https://www.enisa.europa.eu/about-enisa/contact/contact",
   "verified": false,
   "web_http": 200
  },
@@ -261,12 +261,12 @@
   ],
   "priority": 3,
   "official_website": "https://cor.europa.eu",
-  "contact_channel": "https://cor.europa.eu/en/about/Pages/contact.aspx",
+  "contact_channel": "https://www.cor.europa.eu/en/contact-us",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://cor.europa.eu/en/about/Pages/contact.aspx",
+  "source_url": "https://www.cor.europa.eu/en/contact-us",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "ms-fr-dinum",
@@ -303,11 +303,11 @@
    "operations"
   ],
   "priority": 1,
-  "official_website": "https://zendis.de",
-  "contact_channel": "https://zendis.de/kontakt",
+  "official_website": "https://www.zendis.de",
+  "contact_channel": "https://www.zendis.de/en/contact",
   "contact_type": "official institutional page (generic)",
   "language": "EN/DE",
-  "source_url": "https://zendis.de/kontakt",
+  "source_url": "https://www.zendis.de/en/contact",
   "verified": false,
   "web_http": 200
  },
@@ -325,10 +325,10 @@
   ],
   "priority": 2,
   "official_website": "https://bmds.bund.de",
-  "contact_channel": "https://bmds.bund.de/service/kontakt",
+  "contact_channel": "https://bmds.bund.de/kontakt",
   "contact_type": "official institutional page (generic)",
   "language": "DE/EN",
-  "source_url": "https://bmds.bund.de/service/kontakt",
+  "source_url": "https://bmds.bund.de/kontakt",
   "verified": false,
   "web_http": 200
  },
@@ -346,10 +346,10 @@
   ],
   "priority": 1,
   "official_website": "https://www.sovereign.tech",
-  "contact_channel": "https://www.sovereign.tech/contact",
+  "contact_channel": "https://www.sovereign.tech/faq",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.sovereign.tech/contact",
+  "source_url": "https://www.sovereign.tech/faq",
   "verified": false,
   "web_http": 200
  },
@@ -511,10 +511,10 @@
   ],
   "priority": 3,
   "official_website": "https://www.digitalaustria.gv.at",
-  "contact_channel": "https://www.digitalaustria.gv.at/Kontakt.html",
+  "contact_channel": "https://www.digitalaustria.gv.at/kontakt.html",
   "contact_type": "official institutional page (generic)",
   "language": "EN/DE",
-  "source_url": "https://www.digitalaustria.gv.at/Kontakt.html",
+  "source_url": "https://www.digitalaustria.gv.at/kontakt.html",
   "verified": false,
   "web_http": 200
  },
@@ -532,10 +532,10 @@
   ],
   "priority": 2,
   "official_website": "https://en.digst.dk",
-  "contact_channel": "https://en.digst.dk/contact/",
+  "contact_channel": "https://en.digst.dk/about-us/contact/",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://en.digst.dk/contact/",
+  "source_url": "https://en.digst.dk/about-us/contact/",
   "verified": false,
   "web_http": 200
  },
@@ -594,10 +594,10 @@
   ],
   "priority": 3,
   "official_website": "https://www.digg.se/en",
-  "contact_channel": "https://www.digg.se/en/contact",
+  "contact_channel": "https://www.digg.se/en",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.digg.se/en/contact",
+  "source_url": "https://www.digg.se/en",
   "verified": false,
   "web_http": 200
  },
@@ -619,7 +619,8 @@
   "language": "EN/CZ",
   "source_url": "https://www.digitalnicesko.gov.cz/kontakt",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "link_note": "unreachable from the EU server on 2026-11-02 (timeout); re-check from a browser"
  },
  {
   "id": "ms-pt-ama",
@@ -656,12 +657,12 @@
   ],
   "priority": 1,
   "official_website": "https://www.schleswig-holstein.de",
-  "contact_channel": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/digitalisierungsministerium",
+  "contact_channel": "https://www.schleswig-holstein.de/DE/landesportal/servicemeta/kontakt",
   "contact_type": "official institutional page (generic)",
   "language": "DE/EN",
-  "source_url": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/digitalisierungsministerium",
+  "source_url": "https://www.schleswig-holstein.de/DE/landesportal/servicemeta/kontakt",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "reg-bcn",
@@ -847,7 +848,8 @@
   "language": "ZH",
   "source_url": "https://www.cesi.cn/",
   "verified": false,
-  "web_http": 200
+  "web_http": 200,
+  "needs_vpn": true
  },
  {
   "id": "cn-caict",
@@ -868,7 +870,8 @@
   "language": "ZH",
   "source_url": "https://www.caict.ac.cn/",
   "verified": false,
-  "web_http": 412
+  "web_http": 412,
+  "needs_vpn": true
  },
  {
   "id": "cn-mission-eu",
@@ -1034,7 +1037,8 @@
   "language": "ZH",
   "source_url": "https://jxt.zj.gov.cn/",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "needs_vpn": true
  },
  {
   "id": "cn-js",
@@ -1099,7 +1103,8 @@
   "language": "ZH",
   "source_url": "https://jjxxw.cq.gov.cn/",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "needs_vpn": true
  },
  {
   "id": "cn-hb",
@@ -1141,7 +1146,8 @@
   "language": "ZH",
   "source_url": "https://gxt.hunan.gov.cn/",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "needs_vpn": true
  },
  {
   "id": "fd-eclipse",
@@ -1179,10 +1185,10 @@
   ],
   "priority": 1,
   "official_website": "https://linuxfoundation.eu",
-  "contact_channel": "https://linuxfoundation.eu/contact",
+  "contact_channel": "https://linuxfoundation.eu/",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://linuxfoundation.eu/contact",
+  "source_url": "https://linuxfoundation.eu/",
   "verified": false,
   "web_http": 200
  },
@@ -1246,7 +1252,8 @@
   "language": "EN",
   "source_url": "https://apell.eu/",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "link_note": "unreachable from the EU server on 2026-11-02 (timeout); re-check from a browser"
  },
  {
   "id": "fd-osba",
@@ -1283,10 +1290,10 @@
   ],
   "priority": 2,
   "official_website": "https://www.documentfoundation.org",
-  "contact_channel": "https://www.documentfoundation.org/contact/",
+  "contact_channel": "https://www.documentfoundation.org/",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.documentfoundation.org/contact/",
+  "source_url": "https://www.documentfoundation.org/",
   "verified": false,
   "web_http": 200
  },
@@ -1428,12 +1435,12 @@
   ],
   "priority": 3,
   "official_website": "https://wikimedia.brussels",
-  "contact_channel": "https://wikimedia.brussels/contact/",
+  "contact_channel": "https://wikimedia.brussels/",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://wikimedia.brussels/contact/",
+  "source_url": "https://wikimedia.brussels/",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "cm-openatom",
@@ -1496,7 +1503,8 @@
   "language": "ZH",
   "source_url": "https://www.chancefoundation.org/",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "needs_vpn": true
  },
  {
   "id": "cm-sh-osa",
@@ -1517,7 +1525,8 @@
   "language": "ZH",
   "source_url": "https://www.shosa.org.cn/",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "needs_vpn": true
  },
  {
   "id": "cm-ccf-odc",
@@ -1559,7 +1568,8 @@
   "language": "ZH",
   "source_url": "http://www.copu.org.cn/",
   "verified": false,
-  "web_http": 0
+  "web_http": 0,
+  "needs_vpn": true
  },
  {
   "id": "cm-oschina",
@@ -1574,12 +1584,12 @@
   ],
   "priority": 1,
   "official_website": "https://www.oschina.net",
-  "contact_channel": "https://www.oschina.net/home/contact",
+  "contact_channel": "https://www.oschina.net/",
   "contact_type": "official institutional page (generic)",
   "language": "ZH",
-  "source_url": "https://www.oschina.net/home/contact",
+  "source_url": "https://www.oschina.net/",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "cm-gitee",
@@ -1718,12 +1728,12 @@
   ],
   "priority": 3,
   "official_website": "https://element.io",
-  "contact_channel": "https://element.io/contact",
+  "contact_channel": "https://element.io/contact-us",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://element.io/contact",
+  "source_url": "https://element.io/contact-us",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "co-nextcloud",
@@ -1798,12 +1808,12 @@
   ],
   "priority": 3,
   "official_website": "https://xwiki.com",
-  "contact_channel": "https://xwiki.com/en/contact",
+  "contact_channel": "https://xwiki.com/en/contact-us",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://xwiki.com/en/contact",
+  "source_url": "https://xwiki.com/en/contact-us",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "co-redhat",
@@ -1838,12 +1848,12 @@
   ],
   "priority": 3,
   "official_website": "https://www.ionos.com",
-  "contact_channel": "https://www.ionos.com/about-us/contact",
+  "contact_channel": "https://www.ionos.com/contact",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.ionos.com/about-us/contact",
+  "source_url": "https://www.ionos.com/contact",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "co-ovh",
@@ -1858,12 +1868,12 @@
   ],
   "priority": 3,
   "official_website": "https://corporate.ovhcloud.com",
-  "contact_channel": "https://corporate.ovhcloud.com/en/contact/",
+  "contact_channel": "https://www.ovhcloud.com/en/contact/",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://corporate.ovhcloud.com/en/contact/",
+  "source_url": "https://www.ovhcloud.com/en/contact/",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "co-huawei",
@@ -2079,12 +2089,12 @@
   ],
   "priority": 2,
   "official_website": "https://www.bruegel.org",
-  "contact_channel": "https://www.bruegel.org/contact",
+  "contact_channel": "https://www.bruegel.org/contact-us",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.bruegel.org/contact",
+  "source_url": "https://www.bruegel.org/contact-us",
   "verified": false,
-  "web_http": 0
+  "web_http": 200
  },
  {
   "id": "ac-ecfr",
@@ -2242,12 +2252,12 @@
   ],
   "priority": 2,
   "official_website": "https://www.europeanchamber.com.cn",
-  "contact_channel": "https://www.europeanchamber.com.cn/en/contact",
+  "contact_channel": "https://www.europeanchamber.com.cn/en/contact-membership",
   "contact_type": "official institutional page (generic)",
   "language": "EN",
-  "source_url": "https://www.europeanchamber.com.cn/en/contact",
+  "source_url": "https://www.europeanchamber.com.cn/en/contact-membership",
   "verified": false,
-  "web_http": 0
+  "web_http": 405
  },
  {
   "id": "dp-eusmec",
@@ -2287,6 +2297,483 @@
   "language": "EN",
   "source_url": "https://www.cccceu.eu/",
   "verified": false,
+  "web_http": 0,
+  "link_note": "unreachable from the EU server on 2026-11-02 (timeout); re-check from a browser"
+ },
+ {
+  "id": "ms-bg-meu",
+  "side": "EU",
+  "level": "member-state",
+  "country": "BG",
+  "name_en": "Ministry of e-Government Bulgaria",
+  "name_original": "Министерство на електронното управление",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://egov.government.bg",
+  "contact_channel": "https://egov.government.bg/wps/portal/ministry-meu/home",
+  "contact_type": "official institutional page (generic)",
+  "language": "BG/EN",
+  "source_url": "https://egov.government.bg/wps/portal/ministry-meu/home",
+  "verified": false,
+  "web_http": 200
+ },
+ {
+  "id": "ms-hr-mpudt",
+  "side": "EU",
+  "level": "member-state",
+  "country": "HR",
+  "name_en": "Ministry of Justice, Public Administration and Digital Transformation Croatia",
+  "name_original": "Ministarstvo pravosuđa, uprave i digitalne transformacije",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://mpudt.gov.hr",
+  "contact_channel": "https://mpudt.gov.hr/",
+  "contact_type": "official institutional page (generic)",
+  "language": "HR",
+  "source_url": "https://mpudt.gov.hr/",
+  "verified": true,
+  "verified_source": "https://mpudt.gov.hr",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-cy-dmrid",
+  "side": "EU",
+  "level": "member-state",
+  "country": "CY",
+  "name_en": "Deputy Ministry of Research, Innovation and Digital Policy Cyprus",
+  "name_original": "Υφυπουργείο Έρευνας, Καινοτομίας και Ψηφιακής Πολιτικής",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://www.dmrid.gov.cy",
+  "contact_channel": "https://www.dmrid.gov.cy",
+  "contact_type": "official institutional page (generic)",
+  "language": "EL/EN",
+  "source_url": "https://www.dmrid.gov.cy",
+  "verified": true,
+  "verified_source": "https://www.dmrid.gov.cy",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-gr-mindigital",
+  "side": "EU",
+  "level": "member-state",
+  "country": "GR",
+  "name_en": "Ministry of Digital Governance Greece",
+  "name_original": "Υπουργείο Ψηφιακής Διακυβέρνησης",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://mindigital.gr",
+  "contact_channel": "https://mindigital.gr",
+  "contact_type": "official institutional page (generic)",
+  "language": "EL/EN",
+  "source_url": "https://mindigital.gr",
+  "verified": false,
+  "web_http": 403
+ },
+ {
+  "id": "ms-hu-dke",
+  "side": "EU",
+  "level": "member-state",
+  "country": "HU",
+  "name_en": "Digital Government Agency Hungary (DKÜ Zrt.)",
+  "name_original": "Digitális Kormányzati Ügynökség Zrt.",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://dkuzrt.hu",
+  "contact_channel": "https://dkuzrt.hu/",
+  "contact_type": "official institutional page (generic)",
+  "language": "HU",
+  "source_url": "https://dkuzrt.hu/",
+  "verified": true,
+  "verified_source": "https://dkuzrt.hu",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-ie-ogcio",
+  "side": "EU",
+  "level": "member-state",
+  "country": "IE",
+  "name_en": "Office of the Government Chief Information Officer Ireland (OGCIO)",
+  "name_original": "Oifig an Phríomhoifigeach Faisnéise Rialtais",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://www.gov.ie/en/organisation-information/6ee40f-office-of-the-government-chief-information-officer",
+  "contact_channel": "https://www.gov.ie/en/organisation-information/6ee40f-office-of-the-government-chief-information-officer",
+  "contact_type": "official institutional page (generic)",
+  "language": "EN",
+  "source_url": "https://www.gov.ie/en/organisation-information/6ee40f-office-of-the-government-chief-information-officer",
+  "verified": false,
+  "web_http": 403
+ },
+ {
+  "id": "ms-lv-varam",
+  "side": "EU",
+  "level": "member-state",
+  "country": "LV",
+  "name_en": "Ministry of Smart Administration and Regional Development Latvia (VARAM)",
+  "name_original": "Viedās administrācijas un reģionālās attīstības ministrija",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://www.varam.gov.lv/en",
+  "contact_channel": "https://www.varam.gov.lv/en",
+  "contact_type": "official institutional page (generic)",
+  "language": "LV/EN",
+  "source_url": "https://www.varam.gov.lv/en",
+  "verified": true,
+  "verified_source": "https://www.varam.gov.lv/en",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-lt-vssa",
+  "side": "EU",
+  "level": "member-state",
+  "country": "LT",
+  "name_en": "State Digital Solutions Agency Lithuania (formerly Information Society Development Committee)",
+  "name_original": "Valstybės skaitmeninių sprendimų agentūra",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://vssa.lrv.lt/en/",
+  "contact_channel": "https://vssa.lrv.lt/en/",
+  "contact_type": "official institutional page (generic)",
+  "language": "LT/EN",
+  "source_url": "https://vssa.lrv.lt/en/",
+  "verified": false,
+  "web_http": 403
+ },
+ {
+  "id": "ms-mt-mita",
+  "side": "EU",
+  "level": "member-state",
+  "country": "MT",
+  "name_en": "Malta Information Technology Agency (MITA)",
+  "name_original": "Malta Information Technology Agency",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://mita.gov.mt",
+  "contact_channel": "https://mita.gov.mt",
+  "contact_type": "official institutional page (generic)",
+  "language": "EN",
+  "source_url": "https://mita.gov.mt",
+  "verified": false,
+  "web_http": 403
+ },
+ {
+  "id": "ms-ro-adr",
+  "side": "EU",
+  "level": "member-state",
+  "country": "RO",
+  "name_en": "Authority for the Digitalisation of Romania (ADR)",
+  "name_original": "Autoritatea pentru Digitalizarea României",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://www.adr.gov.ro",
+  "contact_channel": "https://www.adr.gov.ro/contact",
+  "contact_type": "official institutional page (generic)",
+  "language": "RO/EN",
+  "source_url": "https://www.adr.gov.ro/contact",
+  "verified": true,
+  "verified_source": "https://www.adr.gov.ro",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-sk-mirri",
+  "side": "EU",
+  "level": "member-state",
+  "country": "SK",
+  "name_en": "Ministry of Investments, Regional Development and Informatisation Slovakia",
+  "name_original": "Ministerstvo investícií, regionálneho rozvoja a informatizácie SR",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://mirri.gov.sk",
+  "contact_channel": "https://mirri.gov.sk/kontakt/",
+  "contact_type": "official institutional page (generic)",
+  "language": "SK",
+  "source_url": "https://mirri.gov.sk/kontakt/",
+  "verified": true,
+  "verified_source": "https://mirri.gov.sk",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-si-mnzjt",
+  "side": "EU",
+  "level": "member-state",
+  "country": "SI",
+  "name_en": "Ministry of the Interior and Public Administration Slovenia (digital transformation portfolio)",
+  "name_original": "Ministrstvo za notranje zadeve in javno upravo",
+  "role_relevance": "National body for digital government and open source (added from the EU-27 gap list).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://www.gov.si/en/state-authorities/ministries/ministry-of-digital-transformation/",
+  "contact_channel": "https://www.gov.si/en/state-authorities/ministries/ministry-of-digital-transformation/about-the-ministry",
+  "contact_type": "official institutional page (generic)",
+  "language": "SL/EN",
+  "source_url": "https://www.gov.si/en/state-authorities/ministries/ministry-of-digital-transformation/about-the-ministry",
+  "verified": true,
+  "verified_source": "https://www.gov.si/en/state-authorities/ministries/ministry-of-digital-transformation/",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-de-bmvg",
+  "side": "EU",
+  "level": "member-state",
+  "country": "DE",
+  "name_en": "Federal Ministry of Defence Germany (BwMessenger, Matrix/Element)",
+  "name_original": "Bundesministerium der Verteidigung",
+  "role_relevance": "Bundeswehr BwMessenger on Matrix/Element (catalogue eu-bwmessenger).",
+  "pillar": [
+   "operations"
+  ],
+  "priority": 3,
+  "official_website": "https://www.bmvg.de",
+  "contact_channel": "https://www.bmvg.de/de/kontakt",
+  "contact_type": "official institutional page (generic)",
+  "language": "DE",
+  "source_url": "https://www.bmvg.de/de/kontakt",
+  "verified": true,
+  "verified_source": "https://www.bmvg.de",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "fd-sprind",
+  "side": "EU",
+  "level": "foundation",
+  "country": "DE",
+  "name_en": "SPRIND (Federal Agency for Disruptive Innovation; parent of the Sovereign Tech Agency)",
+  "name_original": "Bundesagentur für Sprunginnovationen",
+  "role_relevance": "Parent of Sovereign Tech Agency (initiatives.json).",
+  "pillar": [
+   "funding"
+  ],
+  "priority": 3,
+  "official_website": "https://www.sprind.org",
+  "contact_channel": "https://www.sprind.org/en/contact",
+  "contact_type": "official institutional page (generic)",
+  "language": "EN",
+  "source_url": "https://www.sprind.org/en/contact",
+  "verified": true,
+  "verified_source": "https://www.sprind.org",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-dk-digmin",
+  "side": "EU",
+  "level": "member-state",
+  "country": "DK",
+  "name_en": "Danish Ministry of Digital Affairs",
+  "name_original": "Digitaliseringsministeriet",
+  "role_relevance": "Ministry that moved to LibreOffice in 2025 (catalogue eu-dk-digmin).",
+  "pillar": [
+   "policy",
+   "operations"
+  ],
+  "priority": 2,
+  "official_website": "https://digmin.dk",
+  "contact_channel": "https://digmin.dk/",
+  "contact_type": "official institutional page (generic)",
+  "language": "DA/EN",
+  "source_url": "https://digmin.dk/",
+  "verified": true,
+  "verified_source": "https://digmin.dk",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "ms-es-mptfp",
+  "side": "EU",
+  "level": "member-state",
+  "country": "ES",
+  "name_en": "Spain Ministry of Territorial Policy and Democratic Memory (successor of the Ministry of Territorial Policy and Civil Service)",
+  "name_original": "Ministerio de Política Territorial y Función Pública",
+  "role_relevance": "Issuing authority of Spanish public-sector software-reuse initiative (initiatives.json).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://mpt.gob.es",
+  "contact_channel": "https://mpt.gob.es/",
+  "contact_type": "official institutional page (generic)",
+  "language": "ES",
+  "source_url": "https://mpt.gob.es/",
+  "verified": true,
+  "web_http": 200,
+  "verified_source": "https://mpt.gob.es/",
+  "verified_date": "2026-11-02"
+ },
+ {
+  "id": "co-decidim",
+  "side": "EU",
+  "level": "community",
+  "country": "ES",
+  "name_en": "Decidim Association (Barcelona)",
+  "name_original": "Associació Decidim",
+  "role_relevance": "Participatory democracy platform used in Barcelona (catalogue eu-decidim).",
+  "pillar": [
+   "operations",
+   "governance"
+  ],
+  "priority": 3,
+  "official_website": "https://decidim.org",
+  "contact_channel": "https://decidim.org/contact/",
+  "contact_type": "official institutional page (generic)",
+  "language": "EN",
+  "source_url": "https://decidim.org/contact/",
+  "verified": true,
+  "verified_source": "https://decidim.org",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "cn-samr",
+  "side": "CN",
+  "level": "CN-central",
+  "country": "CN",
+  "name_en": "State Administration for Market Regulation (SAMR) and Standardization Administration (SAC)",
+  "name_original": "国家市场监督管理总局 / 国家标准化管理委员会",
+  "role_relevance": "Standards and open-source licence standardisation (initiatives.json).",
+  "pillar": [
+   "governance"
+  ],
+  "priority": 3,
+  "official_website": "https://www.samr.gov.cn",
+  "contact_channel": "https://www.samr.gov.cn/",
+  "contact_type": "official institutional page (generic)",
+  "language": "ZH",
+  "source_url": "https://www.samr.gov.cn/",
+  "verified": true,
+  "verified_source": "https://www.samr.gov.cn",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "cn-sz",
+  "side": "CN",
+  "level": "CN-provincial",
+  "country": "Shenzhen",
+  "name_en": "Shenzhen Municipal People's Government",
+  "name_original": "深圳市人民政府",
+  "role_relevance": "Shenzhen OpenHarmony action plan 2024 (catalogue cn-shenzhen-openharmony-2024).",
+  "pillar": [
+   "policy",
+   "funding"
+  ],
+  "priority": 3,
+  "official_website": "https://www.sz.gov.cn",
+  "contact_channel": "https://www.sz.gov.cn/",
+  "contact_type": "official institutional page (generic)",
+  "language": "ZH",
+  "source_url": "https://www.sz.gov.cn/",
+  "verified": false,
+  "needs_vpn": true,
   "web_http": 0
+ },
+ {
+  "id": "cn-hz",
+  "side": "CN",
+  "level": "CN-provincial",
+  "country": "Hangzhou",
+  "name_en": "Hangzhou Municipal People's Government",
+  "name_original": "杭州市人民政府",
+  "role_relevance": "Hangzhou open-source policy (initiatives.json).",
+  "pillar": [
+   "policy"
+  ],
+  "priority": 3,
+  "official_website": "https://www.hangzhou.gov.cn",
+  "contact_channel": "https://www.hangzhou.gov.cn/",
+  "contact_type": "official institutional page (generic)",
+  "language": "ZH",
+  "source_url": "https://www.hangzhou.gov.cn/",
+  "verified": false,
+  "needs_vpn": true,
+  "web_http": 0
+ },
+ {
+  "id": "cn-wh",
+  "side": "CN",
+  "level": "CN-provincial",
+  "country": "Wuhan",
+  "name_en": "Wuhan Municipal People's Government",
+  "name_original": "武汉市人民政府",
+  "role_relevance": "Wuhan OpenHarmony ecosystem plan 2026 (catalogue cn-wuhan-openharmony-plan).",
+  "pillar": [
+   "policy",
+   "funding"
+  ],
+  "priority": 3,
+  "official_website": "https://www.wuhan.gov.cn",
+  "contact_channel": "https://www.wuhan.gov.cn/",
+  "contact_type": "official institutional page (generic)",
+  "language": "ZH",
+  "source_url": "https://www.wuhan.gov.cn/",
+  "verified": true,
+  "verified_source": "https://www.wuhan.gov.cn",
+  "verified_date": "2026-11-02",
+  "web_http": 200
+ },
+ {
+  "id": "co-chinamobile",
+  "side": "CN",
+  "level": "company",
+  "country": "CN",
+  "name_en": "China Mobile (SASAC-led open-source initiative)",
+  "name_original": "中国移动",
+  "role_relevance": "Led an SASAC-coordinated open-source effort (initiatives.json).",
+  "pillar": [
+   "operations"
+  ],
+  "priority": 3,
+  "official_website": "https://www.chinamobileltd.com",
+  "contact_channel": "https://www.chinamobileltd.com/en/contact/",
+  "contact_type": "official institutional page (generic)",
+  "language": "EN/ZH",
+  "source_url": "https://www.chinamobileltd.com/en/contact/",
+  "verified": true,
+  "verified_source": "https://www.chinamobileltd.com",
+  "verified_date": "2026-11-02",
+  "web_http": 200
  }
 ]
