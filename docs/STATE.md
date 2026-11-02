@@ -17,6 +17,7 @@
 | 3 Nov | A copy of every external source in the repo + link to the original |
 | 3 Nov | Translation into all 24 EU languages = lowest priority, local CPU LLM, no Claude tokens |
 | 3 Nov | Site and white paper structure only after "enough information" (gate A); brand identity that resonates in China |
+| 4 Nov | Source archive: **all copies public** in the repo (Fabio), including third-party sources, with attribution and original link
 | 4 Nov | Research and dissemination methodology is itself a deliverable; Chinese LLMs (Qwen, DeepSeek) **through subscription chat only, no API** |
 
 ## 3. Gate A — progress
@@ -50,7 +51,7 @@
 | Qwen + DeepSeek accounts (chat) | 3-task pilot of Chinese cross-checking |
 | Register eu-china-commons.eu | EU registrant |
 | Public email; native ZH reviewer; Chinese partner for WeChat | Contacts, ZH quality, Chinese channels |
-| Public or private source archive | Copyright of articles and think-tank reports |
+
 
 ## 6. Map of the work
 | Area | File |
