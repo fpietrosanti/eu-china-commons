@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Open Source in China: Next Four Years</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="https://interconnected.blog/assets/built/screen.css?v=iO4jYX1uOlmzVbad" />
+    
+    <link rel="icon" href="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/size/w256h256/2020/02/cropped_logo.png" type="image/png">
+    <link rel="canonical" href="https://interconnected.blog/open-source-in-china-next-four-years/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Interconnected">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Open Source in China: Next Four Years">
+    <meta property="og:description" content="Last May, I wrote a three-part series that surveyed the entire open source
+landscape in China:
+
+ * Part I: the Players
+   [https://interconnected.blog/open-source-in-china-the-players/]
+ * Part II: the Game
+   [https://interconnected.blog/open-source-in-china-the-game/]
+ * Part III: the Trends
+   [https://interconnected.blog/">
+    <meta property="og:url" content="https://interconnected.blog/open-source-in-china-next-four-years/">
+    <meta property="og:image" content="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/2021/12/apollo-1.jpg">
+    <meta property="article:published_time" content="2021-12-13T14:24:00.000Z">
+    <meta property="article:modified_time" content="2022-04-16T01:47:40.000Z">
+    <meta property="article:tag" content="Open Source">
+    <meta property="article:tag" content="China">
+    <meta property="article:tag" content="Alibaba">
+    <meta property="article:tag" content="Huawei">
+    <meta property="article:tag" content="Baidu">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/pg/Interconnected-103361817939971/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Open Source in China: Next Four Years">
+    <meta name="twitter:description" content="Last May, I wrote a three-part series that surveyed the entire open source
+landscape in China:
+
+ * Part I: the Players
+   [https://interconnected.blog/open-source-in-china-the-players/]
+ * Part II: the Game
+   [https://interconnected.blog/open-source-in-china-the-game/]
+ * Part III: the Trends
+   [https://interconnected.blog/">
+    <meta name="twitter:url" content="https://interconnected.blog/open-source-in-china-next-four-years/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/2021/12/apollo.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Kevin Xu">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Open Source, China, Alibaba, Huawei, Baidu">
+    <meta name="twitter:site" content="@interconnect_ed">
+    <meta name="twitter:creator" content="@kevinsxu">
+    <meta property="og:image:width" content="650">
+    <meta property="og:image:height" content="397">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Interconnected",
+        "url": "https://interconnected.blog/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/2020/02/Interconnected_cropped_white_transparent.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Kevin Xu",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/2020/02/Headshot_KevinXu.jpg",
+            "width": 400,
+            "height": 400
+        },
+        "url": "https://interconnected.blog/author/kevin/",
+        "sameAs": [
+            "https://x.com/kevinsxu"
+        ]
+    },
+    "headline": "Open Source in China: Next Four Years",
+    "url": "https://interconnected.blog/open-source-in-china-next-four-years/",
+    "datePublished": "2021-12-13T14:24:00.000Z",
+    "dateModified": "2022-04-16T01:47:40.000Z",
+    "keywords": "Open Source, China, Alibaba, Huawei, Baidu",
+    "description": "Last May, I wrote a three-part series that surveyed the entire open source\nlandscape in China:\n\n * Part I: the Players\n   [https://interconnected.blog/open-source-in-china-the-players/]\n * Part II: the Game\n   [https://interconnected.blog/open-source-in-china-the-game/]\n * Part III: the Trends\n   [https://interconnected.blog/open-source-in-china-the-trends/]\n\nSince then, the landscape has changed significantly as “open source” continues\nto receive top-down attention from the central government. ",
+    "mainEntityOfPage": "https://interconnected.blog/open-source-in-china-next-four-years/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.74">
+    <link rel="alternate" type="application/rss+xml" title="Interconnected" href="https://interconnected.blog/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.72/umd/portal.min.js" data-i18n="true" data-ghost="https://interconnected.blog/" data-key="b4d09e2f3c3d21ade0660f85f9" data-api="https://kevinxu-3.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/sodo-search.min.js" data-key="b4d09e2f3c3d21ade0660f85f9" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/main.css" data-sodo-search="https://kevinxu-3.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js" data-announcement-bar="https://interconnected.blog/" data-api-url="https://interconnected.blog/members/api/announcement/" crossorigin="anonymous"></script>
+    <link href="https://interconnected.blog/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=ShRHxgy4po8zN-Wf"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://interconnected.blog/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="78d26a90-7584-4fe6-8840-c19acdf54122" tb_post_uuid="53176706-d6d7-42ba-8aad-57b44d55dc8c" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #15171A;}</style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158928199-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158928199-1');
+</script>
+
+<!-- Lead Feeder Snippet -->
+<script>
+  (function(){
+
+    window.ldfdr = window.ldfdr || {};
+    (function(d, s, ss, fs){
+      fs = d.getElementsByTagName(s)[0];
+
+      function ce(src){
+        var cs  = d.createElement(s);
+        cs.src = src;
+        setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1);
+      }
+
+      ce(ss);
+    })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_YEgkB8lvbAy4ep3Z.js');
+  })();
+</script>
+
+</head>
+<body class="post-template tag-open-source tag-china tag-alibaba tag-huawei tag-baidu">
+
+    <svg width="0" height="0" class="hidden">
+      <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="linkedin">
+        <title>LinkedIn icon</title>
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+      </symbol>
+      <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="facebook">
+        <title>Facebook icon</title>
+        <path d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z"></path>
+      </symbol>
+      <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="twitter">
+        <title>Twitter icon</title>
+        <path d="M23.954 4.569a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.061a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.937 4.937 0 0 0 4.604 3.417 9.868 9.868 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 0 0 2.46-2.548l-.047-.02z"></path>
+      </symbol>
+    </svg>
+
+
+    <div class="site-wrapper">
+
+        
+
+<header class="site-header">
+    <div class="outer site-nav-main">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left-wrapper">
+        <div class="site-nav-left">
+                <a class="site-nav-logo" href="https://interconnected.blog"><img src="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/2020/02/Interconnected_cropped_white_transparent.png" alt="Interconnected" /></a>
+            <div class="site-nav-content">
+                        <!-- primary navigation -->
+    <ul class="nav" role="menu">
+            <li class="nav-about" role="menuitem">
+                <a href="https://interconnected.blog/about/">About</a>
+            </li>
+            <li class="nav-quarterly-and-annual-letters" role="menuitem">
+                <a href="https://interconnected.blog/tag/quarterly-and-annual-letters/">Quarterly and Annual Letters</a>
+            </li>
+            <li class="nav-sovereign-ai" role="menuitem">
+                <a href="https://interconnected.blog/tag/sovereign-ai/">Sovereign AI</a>
+            </li>
+            <li class="nav-substack-edition" role="menuitem">
+                <a href="https://interconnect.substack.com">Substack Edition</a>
+            </li>
+            <li class="nav-mr-market" role="menuitem">
+                <a href="https://interconnected.blog/tag/mr-market/">Mr. Market</a>
+            </li>
+            <li class="nav-open-source" role="menuitem">
+                <a href="https://interconnected.blog/tag/open-source/">Open Source</a>
+            </li>
+            <li class="nav-cloud-war" role="menuitem">
+                <a href="https://interconnected.blog/tag/cloud-industry/">Cloud War</a>
+            </li>
+            <li class="nav-long-form-profiles" role="menuitem">
+                <a href="https://interconnected.blog/tag/profiles/">Long-Form Profiles</a>
+            </li>
+            <li class="nav-archive" role="menuitem">
+                <a href="https://interconnected.blog/archive/">Archive</a>
+            </li>
+    </ul>
+
+                    <span class="nav-post-title ">Open Source in China: Next Four Years</span>
+            </div>
+        </div>
+    </div>
+    <div class="site-nav-right">
+                <!-- secondary navigation -->
+    <ul class="nav" role="menu">
+            <li class="nav-twitter" role="menuitem">
+                <a href="https://twitter.com/interconnect_ed" class="social-link">
+                    <svg width="16" height="16" role="img" aria-label="twitter icon">
+                        <use xlink:href="#twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="nav-facebook" role="menuitem">
+                <a href="https://www.facebook.com/pg/Interconnected-103361817939971/" class="social-link">
+                    <svg width="16" height="16" role="img" aria-label="facebook icon">
+                        <use xlink:href="#facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="nav-linkedin" role="menuitem">
+                <a href="https://www.linkedin.com/company/interconnected-media" class="social-link">
+                    <svg width="16" height="16" role="img" aria-label="linkedin icon">
+                        <use xlink:href="#linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+    </ul>
+
+
+            <a class="subscribe-button" href="#/portal/signup">Subscribe</a>
+    </div>
+</nav>
+    </div>
+</div></header>
+
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post tag-open-source tag-china tag-alibaba tag-huawei tag-baidu no-image no-image">
+
+            <header class="post-full-header">
+
+
+                    <span class="post-card-primary-tag">Topics: </span>
+                        <span class="post-card-primary-tag">
+                            <a href="/tag/open-source/">Open Source</a>
+                        </span>
+                        <span class="bull">&bull;</span>
+                        <span class="post-card-primary-tag">
+                            <a href="/tag/china/">China</a>
+                        </span>
+                        <span class="bull">&bull;</span>
+                        <span class="post-card-primary-tag">
+                            <a href="/tag/alibaba/">Alibaba</a>
+                        </span>
+                        <span class="bull">&bull;</span>
+
+                <h1 class="post-full-title">Open Source in China: Next Four Years</h1>
+
+
+                <div class="post-full-byline">
+
+                    <section class="post-full-byline-content">
+
+                        <ul class="author-list">
+                            <li class="author-list-item">
+
+                                <div class="author-card">
+                                    <img class="author-profile-image" src="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/size/w100/2020/02/Headshot_KevinXu.jpg" alt="Kevin Xu" />
+                                    <div class="author-info">
+                                        <div class="bio">
+                                            <h2>Kevin Xu</h2>
+                                            <p>Author and founder of Interconnected. 
+See &quot;About Interconnected&quot; for more information.</p>
+                                            <p><a href="/author/kevin/">More posts</a> by Kevin Xu.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="/author/kevin/" class="author-avatar">
+                                    <img class="author-profile-image" src="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/size/w100/2020/02/Headshot_KevinXu.jpg" alt="Kevin Xu" />
+                                </a>
+
+                            </li>
+                        </ul>
+
+                        <section class="post-full-byline-meta">
+                            <h4 class="author-name"><a href="/author/kevin/">Kevin Xu</a></h4>
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2021-12-13">13 Dec 2021</time>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+
+            <section class="post-full-content">
+                
+                <div class="post-tab-language">
+                    <a href="#english-version" class="active">English</a>
+                    <a href="#chinese-version">中文</a>
+                </div>
+                <div class="post-content post-full-inner-content">
+                    <!-- social share icon -->
+                    <div class="social-icon sidebar">
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="https://www.facebook.com/sharer/sharer.php?u=https://interconnected.blog/open-source-in-china-next-four-years/" target="_blank"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.2831 8.9908H14.6794V6.63C14.6794 5.7434 15.2696 5.5354 15.683 5.5354H18.2207V1.638L14.721 1.625C10.8392 1.625 9.95783 4.5318 9.95783 6.3934V8.9908H7.71143V13.0052H9.95783V24.3724H14.682V13.0078H17.8697L18.2831 8.9908Z" fill="currentColor"/>
+</svg>
+    </a>
+
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="https://twitter.com/share?text=Open%20Source%20in%20China%3A%20Next%20Four%20Years&url=https://interconnected.blog/open-source-in-china-next-four-years/" target="_blank"><svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.5028 2.3548C23.6012 2.7552 22.6324 3.024 21.616 3.1472C22.6548 2.5256 23.45 1.54 23.8252 0.3668C22.8536 0.9436 21.7756 1.3608 20.6332 1.5876C19.7176 0.6104 18.41 0 16.9652 0C14.1876 0 11.9364 2.2484 11.9364 5.026C11.9364 5.4208 11.9812 5.8044 12.0652 6.1712C7.8876 5.9612 4.1832 3.962 1.7052 0.9184C1.274 1.6604 1.0248 2.5256 1.0248 3.4468C1.0248 5.1912 1.9124 6.7284 3.2592 7.63C2.436 7.6048 1.6604 7.378 0.9828 7V7.0644C0.9828 9.5004 2.716 11.5304 5.0148 11.9924C4.5948 12.1072 4.1496 12.1688 3.6904 12.1688C3.3656 12.1688 3.052 12.138 2.7468 12.0792C3.3852 14.0756 5.2416 15.5288 7.4396 15.5708C5.7204 16.9176 3.556 17.7212 1.1984 17.7212C0.7924 17.7212 0.3948 17.6988 0 17.6512C2.226 19.0764 4.8664 19.908 7.7056 19.908C16.9512 19.908 22.008 12.25 22.008 5.6084C22.008 5.39 22.0024 5.1744 21.994 4.9588C22.9768 4.2476 23.8308 3.3628 24.5028 2.3548Z" fill="currentColor"/>
+</svg>
+    </a>
+
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url=Open%20Source%20in%20China%3A%20Next%20Four%20Years&url=https://interconnected.blog/open-source-in-china-next-four-years/">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.1151 1.87207H3.88505C2.82005 1.87207 1.95605 2.71507 1.95605 3.75607V26.2441C1.95605 27.2851 2.82005 28.1251 3.88505 28.1251H26.1151C27.1801 28.1251 28.0441 27.2851 28.0441 26.2441V3.75307C28.0411 2.71507 27.1771 1.87207 26.1151 1.87207ZM9.86405 23.8441H5.92505V11.9941H9.86405V23.8441V23.8441ZM7.89605 10.3771H7.86905C6.54605 10.3771 5.69405 9.46807 5.69405 8.32807C5.69405 7.16407 6.57605 6.27907 7.92005 6.27907C9.27005 6.27907 10.0981 7.16407 10.1221 8.32807C10.1221 9.46807 9.27005 10.3771 7.89605 10.3771ZM24.0721 23.8441H20.1301V17.5051C20.1301 15.9121 19.5631 14.8261 18.1381 14.8261C17.0461 14.8261 16.3981 15.5581 16.1131 16.2661C16.0111 16.5211 15.9871 16.8751 15.9871 17.2261V23.8501H12.0451C12.0451 23.8501 12.0961 13.1101 12.0451 11.9971H15.9871V13.6741C16.5091 12.8671 17.4481 11.7181 19.5361 11.7181C22.1281 11.7181 24.0721 13.4131 24.0721 17.0551V23.8441V23.8441Z" fill="currentColor"/>
+</svg>    </a>
+
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="http://reddit.com/submit?url=https://interconnected.blog/open-source-in-china-next-four-years/&title=Open%20Source%20in%20China%3A%20Next%20Four%20Years" data-track-share="reddit" rel="noopener noreferrer" aria-label="Share via reddit">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.5144 12.7848C16.5696 12.924 16.5936 13.0656 16.5936 13.2096C16.5936 13.4952 16.4952 13.7736 16.3296 14.0016C16.1664 14.2248 15.9336 14.4 15.66 14.4768L15.6552 14.4792H15.6504C15.5232 14.5224 15.3912 14.544 15.2616 14.544C14.9568 14.544 14.6568 14.4336 14.4168 14.2464C14.1792 14.0592 13.9992 13.7904 13.9416 13.4736V13.4688C13.9248 13.3872 13.9152 13.3056 13.9152 13.224C13.9152 12.948 14.0088 12.684 14.1648 12.4656C14.3184 12.2472 14.5368 12.0744 14.7912 11.9856H14.796C14.94 11.9328 15.0936 11.9064 15.2424 11.9064C15.516 11.9064 15.7872 11.9904 16.0152 12.1416C16.2408 12.2904 16.4232 12.5112 16.5144 12.7824L16.5168 12.7872C16.5144 12.7824 16.5144 12.7848 16.5144 12.7848ZM15.6744 16.1688C15.5664 16.0992 15.4416 16.056 15.3096 16.056C15.204 16.056 15.0936 16.0872 14.9952 16.152C14.0664 16.7064 12.9768 17.0088 11.892 17.0088C11.0784 17.0088 10.272 16.8384 9.54 16.4784L9.5352 16.476L9.5304 16.4736C9.42 16.428 9.2952 16.332 9.156 16.2408C9.0864 16.1952 9.0144 16.1496 8.9328 16.1184C8.8536 16.0848 8.7648 16.0608 8.6688 16.0608C8.5896 16.0608 8.508 16.0776 8.4264 16.116L8.4144 16.1208C8.2872 16.1688 8.1864 16.2576 8.1216 16.3632C8.0544 16.4712 8.0208 16.5984 8.0208 16.7256C8.0208 16.8384 8.0472 16.9536 8.1024 17.0568C8.1552 17.1552 8.2368 17.2416 8.3424 17.2968C9.3888 18.0024 10.62 18.3216 11.8584 18.3216C12.9744 18.3216 14.0952 18.0624 15.0936 17.5944L15.0984 17.592L15.1032 17.5896C15.2352 17.5128 15.4104 17.4408 15.576 17.34C15.6576 17.2872 15.7368 17.2272 15.8064 17.1504C15.8736 17.0736 15.9288 16.9776 15.96 16.8624C15.972 16.812 15.9792 16.764 15.9792 16.716C15.9792 16.6224 15.9576 16.536 15.9192 16.4568C15.8712 16.3344 15.78 16.2384 15.6744 16.1688ZM8.328 14.472C8.3304 14.472 8.3328 14.472 8.3352 14.4744C8.4696 14.5224 8.6064 14.5464 8.7432 14.5464C9.084 14.5464 9.4128 14.4072 9.6648 14.1792C9.9144 13.9512 10.0848 13.6296 10.0848 13.2624V13.2312C10.0848 13.2144 10.0872 13.1976 10.0872 13.1784C10.0872 12.8136 9.9192 12.492 9.672 12.2616C9.4248 12.0336 9.0936 11.892 8.7528 11.892C8.6616 11.892 8.568 11.9016 8.4768 11.9232H8.4696C8.0184 12.0168 7.6224 12.3528 7.476 12.8136V12.816C7.4352 12.9432 7.4136 13.0728 7.4136 13.2024C7.4136 13.4856 7.5072 13.7592 7.668 13.9872C7.8264 14.2104 8.0544 14.3856 8.3256 14.4672L8.328 14.472ZM22.4952 11.1744C22.4976 11.2224 22.5 11.268 22.5 11.3136C22.5 11.8224 22.3368 12.3144 22.0632 12.7296C21.8088 13.1184 21.456 13.4448 21.0528 13.6656C21.0792 13.8696 21.0936 14.0736 21.0936 14.2776C21.0936 15.3768 20.7144 16.4544 20.0544 17.3208H20.052C18.8352 18.9432 16.9632 19.9008 15.072 20.3832H15.0696C14.0616 20.628 13.0224 20.7528 11.9832 20.7528C10.4352 20.7528 8.8872 20.4744 7.4424 19.8936V19.8912H7.44C5.9424 19.2744 4.5144 18.2928 3.6408 16.8552C3.1704 16.0872 2.9112 15.1872 2.9112 14.2848C2.9112 14.0808 2.9256 13.8744 2.952 13.6728C2.5584 13.452 2.2176 13.1352 1.9632 12.7608C1.692 12.3576 1.5216 11.8848 1.5 11.3856V11.3784C1.5 10.6776 1.8048 10.0152 2.2776 9.52555C2.7504 9.03595 3.396 8.71675 4.0872 8.71675H4.116C4.188 8.71195 4.2624 8.70955 4.3344 8.70955C4.6824 8.70955 5.0304 8.76475 5.3616 8.89195L5.364 8.89435H5.3664C5.6496 9.01435 5.9304 9.15595 6.18 9.35515C6.2616 9.31195 6.3504 9.26395 6.4488 9.22795C7.9656 8.33035 9.7272 7.98235 11.4456 7.88395C11.46 7.03195 11.5656 6.14155 11.9808 5.36155C12.3264 4.71355 12.9264 4.20955 13.6416 4.03435L13.644 4.03195H13.6488C13.92 3.97915 14.196 3.95515 14.4672 3.95515C15.192 3.95515 15.9096 4.12795 16.5816 4.39435C16.8792 3.94555 17.304 3.59515 17.8008 3.40075L17.8056 3.39835L17.8104 3.39595C18.1032 3.30475 18.4104 3.25195 18.72 3.25195C19.0464 3.25195 19.3752 3.31195 19.6848 3.44875L19.6896 3.45115C20.1312 3.62155 20.5056 3.93595 20.772 4.32715C21.0384 4.72075 21.1944 5.19115 21.1944 5.67355C21.1944 5.76235 21.1896 5.85115 21.18 5.94235V5.94955C21.1272 6.57595 20.8104 7.12315 20.364 7.51435C19.9128 7.90795 19.3296 8.14555 18.7296 8.14555C18.6336 8.14555 18.5352 8.14075 18.4392 8.12635C17.844 8.08075 17.2896 7.79275 16.8816 7.36555C16.4736 6.93835 16.2096 6.36715 16.2096 5.75035C16.2096 5.72155 16.212 5.69035 16.2144 5.66155C15.6552 5.41195 15.0624 5.20555 14.4744 5.20795C14.388 5.20795 14.304 5.21275 14.2176 5.22235C13.776 5.26555 13.3656 5.54395 13.1664 5.94235V5.94475C12.864 6.53275 12.804 7.21915 12.7944 7.90075C14.4864 8.01115 16.188 8.41675 17.6784 9.27355H17.6808L17.7024 9.28555C17.7312 9.30235 17.784 9.33115 17.8296 9.35515C17.9328 9.27115 18.0408 9.18715 18.1632 9.11275C18.6168 8.81035 19.152 8.66155 19.6872 8.66155C19.9248 8.66155 20.1624 8.69275 20.3952 8.75035L20.4048 8.75275L20.4144 8.75515C20.9592 8.89435 21.4536 9.20875 21.8256 9.63115C22.1976 10.056 22.4472 10.5936 22.4952 11.1744ZM17.5152 5.63995C17.5152 5.66155 17.5152 5.68555 17.5176 5.70955V5.71435C17.5296 6.00715 17.6664 6.28075 17.8776 6.48475C18.0888 6.68635 18.3696 6.81115 18.6552 6.81355H18.6624C18.684 6.81595 18.7032 6.81595 18.7248 6.81595C19.0128 6.81595 19.2984 6.69115 19.5144 6.49195C19.7304 6.29035 19.872 6.01435 19.8816 5.71915V5.71195C19.884 5.69035 19.884 5.66875 19.884 5.64475C19.884 5.33995 19.7424 5.04955 19.5192 4.83355C19.296 4.61755 18.9984 4.48555 18.7032 4.48555C18.6072 4.48555 18.5136 4.49755 18.42 4.52635H18.4152C18.1728 4.58875 17.9448 4.73995 17.7792 4.93915C17.6136 5.14075 17.5152 5.38555 17.5152 5.63995ZM5.0304 10.1736C4.8048 10.068 4.5696 9.99355 4.3392 9.99355C4.3008 9.99355 4.2624 9.99595 4.2216 10.0008H4.212C3.8808 10.0104 3.5448 10.1544 3.2952 10.3872C3.0432 10.6176 2.8776 10.9296 2.8656 11.2752V11.28C2.8632 11.3088 2.8632 11.3352 2.8632 11.3616C2.8632 11.5728 2.928 11.7792 3.0384 11.9664C3.12 12.1056 3.228 12.2328 3.348 12.3432C3.732 11.4936 4.3392 10.7736 5.0304 10.1736V10.1736ZM19.764 14.3256C19.764 13.5696 19.4904 12.8088 19.0488 12.1968C18.168 10.9704 16.8 10.1712 15.3768 9.72475L15.3672 9.72235C15.0936 9.63835 14.8176 9.56395 14.5416 9.50155C13.7112 9.31195 12.8592 9.21835 12.0072 9.21835C10.8648 9.21835 9.72 9.38635 8.6256 9.72475C7.2048 10.176 5.832 10.9704 4.9536 12.2016C4.5072 12.816 4.2456 13.5792 4.2456 14.3376C4.2456 14.616 4.2816 14.8968 4.3536 15.168C4.5144 15.7776 4.8264 16.3224 5.232 16.7976C5.6376 17.2728 6.1344 17.6784 6.6576 18.0096C6.7728 18.0816 6.8904 18.1488 7.008 18.216C8.5272 19.0632 10.2744 19.4352 12.0096 19.4352C12.3024 19.4352 12.5976 19.4256 12.8904 19.404C14.6376 19.26 16.392 18.744 17.8128 17.6904C18.264 17.3568 18.6816 16.9536 19.0128 16.4928C19.344 16.032 19.5888 15.5184 19.6968 14.9616V14.9592C19.7424 14.7504 19.764 14.5392 19.764 14.3256ZM21.144 11.316C21.144 11.1312 21.1008 10.9488 21.0096 10.7784L21.0072 10.776V10.7736C20.8848 10.5192 20.6904 10.3296 20.4576 10.1976C20.2248 10.0656 19.9512 9.99835 19.6776 9.99835C19.4304 9.99835 19.1856 10.0536 18.9672 10.164C19.6608 10.7664 20.2704 11.4912 20.664 12.3432C20.7912 12.2328 20.8992 12.0984 20.9784 11.9472C21.084 11.7528 21.144 11.532 21.144 11.316Z" fill="currentColor"/>
+</svg>
+    </a>
+</div>
+                    <div id="english-version" class="tab-content active">
+                        <p>Last May, I wrote a three-part series that surveyed the entire open source landscape in China:</p><ul><li><a href="https://interconnected.blog/open-source-in-china-the-players/">Part I: the Players</a></li><li><a href="https://interconnected.blog/open-source-in-china-the-game/">Part II: the Game</a></li><li><a href="https://interconnected.blog/open-source-in-china-the-trends/">Part III: the Trends</a></li></ul><p>Since then, the landscape has changed significantly as “open source” continues to receive top-down attention from the central government. Recently, the Ministry of Industry and Information Technology (MIIT, China’s main regulator of its tech industry) released a new set of <a href="http://www.gov.cn/zhengce/2021-12/01/content_5655200.htm?ref=interconnected.blog">development planning guidance</a>. “Open source” is prominently featured; the term was used 27 times.</p><p>This guidance specifically called out the establishment of China’s first home-grown open-source foundation -- the OpenAtom Foundation -- as a major accomplishment (for more on the OpenAtom Foundation, see <a href="https://interconnected.blog/300-years-huawei-open-source-strategy/">my previous analysis</a>). Looking ahead, the guidance explicitly sets a target of building 2-3 open source communities with “global influence” by 2025.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://lh4.googleusercontent.com/bh0JH5pF9L4b4bQzJNAnPq5_eSIj6aR6_6ubWv-EmtQjs2noofSGM3nGMpjtCt1SG476srJONuiE1yd98vYkjyacKH3jiQgJMjDVy1eTVNYwKENYXkfE7Iu-kpscywcQeNct5sQL" class="kg-image" alt loading="lazy"><figcaption>Source: http://www.gov.cn/zhengce/2021-12/01/content_5655200.htm</figcaption></figure><p>The MIIT guidance is focused on advancing and modernizing China’s industrial technology infrastructure and supply chain. The infrastructure layer is where open source software tends to excel starting with Linux, the open source operating system that runs most of the world’s servers. China’s open source community has been organically growing since the early 2000s. The country now sports the world’s second largest developer community, with a burgeoning if not crowded open source ecosystem. Many projects have 5-figure GitHub stars, thousands of forks, and hundreds of contributors, but those are mostly vanity metrics. Only projects with strategic technical value have the potential to reach a global developer audience.</p><p>With the MIIT expressing both top-level approval and high expectation of open source, which “Made in China” open source projects have the best chance of emerging as both a “local champion” and a “global influencer” by 2025? I share my prediction of six leading candidates -- three Big Tech projects, three independent projects -- and why they could become global projects.</p><h2 id="big-tech-projects">Big Tech Projects</h2><p>The three Big Tech projects are Baidu’s Apollo (self-driving), Huawei’s OpenHarmony (operating system), and Alibaba’s OpenXuantie (RISC-V based semiconductor design).</p><p><a href="https://github.com/ApolloAuto/apollo?ref=interconnected.blog"><strong>Apollo</strong></a><strong>: </strong>First launched in 2017, Apollo has emerged as one of the leading self-driving open source projects. It’s at the heart of Baidu’s Apollo Go robotaxi service, which “<a href="https://www.prnewswire.com/news-releases/baidu-apollo-to-launch-fully-driverless-ride-hailing-services-in-beijing-demonstrating-a-new-commercialization-model-for-autonomous-driving-301279856.html?ref=interconnected.blog">beta launched</a>” in a neighborhood in Beijing. That neighborhood just happens to be one of the venues of the upcoming Winter Olympics. Even though this Winter Olympics is receiving lots of geopolitical pushback from Western countries -- the US, Canada, Australia, and the UK have all announced diplomatic boycotts of the competition -- it will still be a major product launch moment for China’s self-driving ambition in front of a global audience.</p><p>How well Apollo works during the Olympics will indicate whether Baidu’s goal of launching the Apollo Go <a href="https://www.cnbc.com/2021/11/18/chinas-baidu-wants-to-launch-robotaxi-service-in-100-cities-by-2030.html?ref=interconnected.blog">robotaxi service in 65 cities by 2025 </a>is realistic or not. But Baidu’s goal aside, it is likely that Apollo as an open source project with a permissive license (Apache 2.0) has already been copied, reused, and modified to run other self-driving vehicles made by other manufacturers. By 2025, Apollo may well emerge as the leading open source self-driving alternative to Tesla’s self-driving software stack, which is at the moment totally closed source and proprietary. At first glance, Apollo’s documentation and ReadMe on GitHub are all in English and look well-structured and well-written. This is a positive signal that the project team is investing in making Apollo accessible to non-Chinese developers.</p><p><strong>If Tesla’s system is the iOS of self-driving, Baidu’s Apollo may become self-driving’s Android.</strong></p><figure class="kg-card kg-image-card"><img src="https://lh3.googleusercontent.com/31z5mGGyW6ZtaYENZws5CgeK2XndTCUn_byHjfQgNs0oT5D3JDuguQ2vbUysCSFD7GXkjt1cncP4PRCG6REFQko7drSnscZUcwNKqZ633P632muD83U0_BVD5nI6W70kNj6m2CQx" class="kg-image" alt loading="lazy"></figure><p><strong><a href="https://gitee.com/openharmony?ref=interconnected.blog">Huawei’s OpenHarmony</a>: </strong>first started in 2012, Huawei’s development of OpenHarmony intensified in 2019 to reduce its reliance on the Android operating system due to US sanctions. The OpenHarmony project also became the “anchor project” of the OpenAtom Foundation, which Huawei is heavily involved in.</p><p>While OpenHarmony’s development was mostly a reaction to possible future US sanctions, there is a proactive, strategic element to OpenHarmony potentially becoming an alternative OS to both iOS and Android. For countries like Russia that are also concerned about US sanctions, OpenHarmony could be an appealing option.</p><p>Even though the MIIT guidance explicitly mentioned OpenHarmony (and no other project), the project is still relatively young and hosted on Gitee, China’s domestic alternative to GitHub with limited appeal to non-Chinese developers. From a strategic technical perspective, OpenHarmony has global influence potential, but the team has a long way to go to appeal to the global developer community.</p><figure class="kg-card kg-image-card"><img src="https://lh6.googleusercontent.com/ePkF-Gep1fzK3Q0trpDrttN19KFbpjnt4qgfa6Nsa--AVD0Z3BzF_DPBKLO15fowDqOHlFk33TDRhv20602kHiExs8dq5fH1TPVGewWVtqlnBR6mm8ft8OI_V4b10Ut8OcS61uzt" class="kg-image" alt loading="lazy"></figure><p><a href="https://github.com/T-head-Semi/openc910?ref=interconnected.blog"><strong>Alibaba’s OpenXuantie</strong></a><strong>: </strong>this project is the youngest of the three Big Tech projects, so it’s my “dark horse” pick. It was just open sourced in October, so Xuantie has hardly any community presence or traction, whether in Chinese or English.</p><p>Why do I think OpenXuantie has the promise to reach the kind of “global influence” that MIIT is targeting by 2025?</p><p>First, it is incubated within Alibaba, which has the strongest open source technical and community talent among all of China’s tech giants. Second, it leverages RISC-V, the open source semiconductor design architecture. (For more on RISC-V, <a href="https://interconnected.blog/tag/risc-v/">please see my previous writings.</a>) As far as I know, Alibaba still<a href="https://www.techspot.com/news/81177-china-alibaba-making-16-core-25-ghz-risc.html?ref=interconnected.blog"> sports the fastest RISC-V based processor</a>. Now it is taking a profound step forward to open source its semiconductor design development via OpenXuantie.</p><p>Given semiconductor’s obvious strategic importance to China, as well as countries like India, Pakistan, Japan, Korea, and many European countries, open source projects that can take RISC-V to the next level will surely gain global influence. Of course, the future of the semiconductor industry is anything but certain, with the US Federal Trade Commission <a href="https://www.ftc.gov/enforcement/cases-proceedings/2110015/nvidiaarm-matter?ref=interconnected.blog">challenging Nvidia’s acquisition of Arm</a> on antitrust grounds. But RISC-V will be a force no matter what happens to the Nvidia-Arm deal, and OpenXuantie may play a big role in RISC-V’s continuous rise.</p><figure class="kg-card kg-image-card"><img src="https://lh3.googleusercontent.com/TS4hKJnLuO5qS8VL5ZfXcFyFwnUuUVx5Vqa7bToa8ajUB7IheXCaWUNEp_1j1MXgFSbZhRh2NIHefiAOW0R7zUDIelIvjnraJ_9uZVQh86YmKNBgDLK7g98p5lSNZnhKT-3kOiYt" class="kg-image" alt loading="lazy"></figure><div class="kg-card kg-button-card kg-align-center"><a href="https://interconnected.blog/#/portal/signup" class="kg-btn kg-btn-accent">Subscribe to Interconnected Premium</a></div><h2 id="independent-projects">Independent Projects</h2><p>The three independent projects are TiDB / TiKV (distributed database), OpenResty (API gateway), and OceanBase (distributed database).</p><p><a href="https://github.com/pingcap/tidb?ref=interconnected.blog"><strong>TiDB</strong></a><strong> / </strong><a href="https://github.com/tikv/?ref=interconnected.blog"><strong>TiKV</strong></a><strong>: </strong>started in 2015, TiDB is one of the most active open source distributed databases that is <em>not</em> incubated by any tech giant. TiKV is the key-value storage layer of the database, which was donated to the <a href="https://www.cncf.io/blog/2018/08/28/cncf-to-host-tikv-in-the-sandbox/?ref=interconnected.blog">Cloud Native Computing Foundation in 2018</a> as a separate project. Thus, this layer technically belongs to the Foundation, not PingCAP, the startup that originally created both TiDB and TiKV in tandem.</p><p><em>Disclaimer: I worked for two years at PingCAP to launch its global expansion operation. I don’t have any knowledge of the company’s latest planning or roadmap. This analysis is purely based on my outside observation of these open source projects.</em></p><p>Because databases are a crucial layer of any infrastructure stack, TiDB / TiKV very much fits the MIIT’s strategic focus on China’s industrial technology infrastructure and supply chain. And because of the projects’ popularity among database engineers, many of whom are open source enthusiasts, the core technology has advanced quickly. In fact, TiDB / TiKV have been considered as <a href="https://www.bloomberg.com/news/articles/2019-06-24/china-s-biggest-startups-ditch-oracle-ibm-for-home-made-tech?ref=interconnected.blog">a good enough home-grown alternative</a> to the likes of Oracle and IBM since 2018. With users like Square and Shopee, you can argue that TiDB / TiKV already has some global influence.</p><figure class="kg-card kg-image-card"><img src="https://lh4.googleusercontent.com/CEk4ndEa-j0tNE-usnIvpHUg01uHe7WtnbZ1m1A_bySe-Z7mxeGidedGNKPrhBvOHMKQy9dpjs7C7MCdtc6Cz4p0X5NmIsr6YpR29LtPv_rf9_dmgU4Jjn1joRt51_kff3aHuPMT" class="kg-image" alt loading="lazy"></figure><p><a href="https://github.com/openresty/openresty?ref=interconnected.blog"><strong>OpenResty</strong></a><strong>: </strong>started in 2011, OpenResty is one of the oldest and most widely used open source projects that originated from China. This project is likely how many Western developers first came in contact with “Made in China” open source technology.</p><p>Similar to the database layer, the API gateway layer is also crucial to all flavors of infrastructure technology, especially ones that are cloud-native. In simple terms, an API gateway provides load balancing and routing of API calls and web traffic dynamically, so your system does not crash when too many requests come in, say on an online shopping holiday like Singles Day. It’s no surprise then that OpenResty was first created inside Yahoo China, then followed its creator to Taobao, then to Cloudflare. The project is now stewarded by its own foundation and commercialized by a startup, also called OpenResty.</p><p>Given its long history and wide adoption, including users like Target and Lyft, OpenResty also already has “global influence”. It will be interesting to see how big the project becomes by 2025.</p><figure class="kg-card kg-image-card"><img src="https://lh6.googleusercontent.com/Yg50BEOY8hK-GE7jvgnrVoL5vRERRvz9VBvOVtufW8He8OIu-q8b10hjiZtxOpU7CdQAtvhVHgpHovTaVAtwEi9mx8DJdxpjBCpMliT9pebkQ6cFNAGBaDGP61A7JHNiq3DzNINA" class="kg-image" alt loading="lazy"></figure><p><a href="https://github.com/oceanbase/oceanbase?ref=interconnected.blog"><strong>OceanBase</strong></a><strong>:</strong> it may be a bit of a stretch to call OceanBase an independent open source project, because it was neither independent nor open source until very recently. First incubated inside Ant Financial as the primary transactional database for AliPay, Taobao, then many other products in the vast Alibaba ecosystem, OceanBase was spun out in mid-2020 as an independent company. However, the company is still mostly owned by Ant. OceanBase’s open source history is even shorter than its independent corporate history; its core codebase was open sourced in mid-2021, only a few months before my writing this post.</p><p>However, OceanBase deserves a mention because it is literally the fastest database in the world, at least by the measurement of a well-known industry benchmark called <a href="http://tpc.org/?ref=interconnected.blog">TPC-C</a>. I won’t go into the technical details of what this benchmark measures. What’s important to note <a href="https://developers.slashdot.org/story/19/10/06/198238/oracle-outperformed-tpc-benchmarks-show-alibabas-oceanbase-performs-twice-as-well?ref=interconnected.blog">is that not only was OceanBase first place</a> based on the TPC-C benchmark measurement, it was twice as fast as the second place Oracle product.</p><p>Given its short open source history, it remains to be seen how much “global influence” OceanBase can accrue over the next four years. Its core technology is unquestionably top-notch. But technology alone is by no means sufficient for any open source project to reach global prominence.</p><figure class="kg-card kg-image-card"><img src="https://lh5.googleusercontent.com/WNrQER_PGpGcUbNA1RzrIt28sUITAfEppuJA8TdomHcY-ZdFKEglIl9SIG7SH5g4RSOjpfUpV9vyiAIl7h6QRDbr7sIqT7OU53WhK-6GDdAr3jheCJetjgjYmVaDySuQrRjrpO4t" class="kg-image" alt loading="lazy"></figure><p>Every one of these six projects is worthy of its own deep dive analysis; this overview post barely scratches the surface of their respective technology and strategic value. While we won’t know for four more years which open source projects will receive the MIIT’s “global influence” badge of honor, open source itself is clearly a force that the Chinese government has both recognized and (mostly) embraced. Thus, understanding how open source works is table stakes for anyone working in technology, foreign policy, and especially the intersection of both.</p><!--kg-card-begin: html--></div><div id="chinese-version" class="tab-content"><!--kg-card-end: html--><h2 id="%E4%B8%AD%E5%9B%BD%E7%9A%84%E5%BC%80%E6%BA%90%E4%B8%96%E7%95%8C%EF%BC%9A%E6%9C%AA%E6%9D%A5%E5%9B%9B%E5%B9%B4"><strong>中国的开源世界：未来四年</strong></h2><p>去年五月，我写了一组三篇系列文章，系统的介绍了中国的开源生态：</p><ul><li><a href="https://interconnected.blog/open-source-in-china-the-players/">第一篇：玩家</a></li><li><a href="https://interconnected.blog/open-source-in-china-the-game/">第二篇：游戏规则</a></li><li><a href="https://interconnected.blog/open-source-in-china-the-trends/">第三篇：未来趋势</a></li></ul><p>一年多过去后，随着 "开源" 继续得到中央政府自上而下的关注，整个生态也在变化。最近，工信部发布了<a href="http://www.gov.cn/zhengce/2021-12/01/content_5655200.htm?ref=interconnected.blog">一套新的发展规划</a>。在规划文件里，“开源”极为突出，此词共被提到了27次。</p><p>该规划特别指出中国第一个本土的开源基金会 —— 开放原子开源基金会 —— 的建立是一项重大成就（关于开放原子开源基金会，请读我对它<a href="https://interconnected.blog/300-years-huawei-open-source-strategy/">之前写的分析</a>）。展望未来，该规划明确设定了2025年要建立2-3个具有 "国际影响力" 的开源社区的目标。</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://lh5.googleusercontent.com/sQ_mIKyW33osKk0BSA1TqAOZ9nEu9htpYbW33JRRcLNUwnPVTPCOc3rIYdrTT9b_u-Z9GX7Y3KbHTDuYnyCzB00DL4UdxEiVY_Fbglc1XoCOp29XYSXoMva4EysDHY6kIEbOXXE5" class="kg-image" alt loading="lazy"><figcaption>来源: http://www.gov.cn/zhengce/2021-12/01/content_5655200.htm</figcaption></figure><p>工信部的政策重点是推进中国的“产业基础高级化、产业链现代化”。基础科技层是开源软件最擅长的地方，以Linux带头，它是运行世界上大多数服务器的开源操作系统。自21世纪初以来，中国的开源社区一直在自然增长。中国现在拥有世界上第二大的开发者社区，是一个蓬勃发展、甚至已经有些拥挤的开源生态。许多项目在GitHub上已有上万的star，数千个分叉，数百个贡献者。但这些大多是虚荣指标，只有具有战略技术价值的项目才有可能接触到全球的开发者受众。</p><p>随着工信部对开源表达了最高级别的认可和高度的期望，哪些 "中国制造" 的开源项目最有可能在2025年既成为 "本土佼佼者 "，又达到 "国际影响力"呢？在本文中我分享一下个人选的六个候选项目 —— 三个大厂孵化的，三个独立项目 —— 以及为什么它们可能成为有国际影响力的项目。</p><h2 id="%E5%A4%A7%E5%8E%82%E9%A1%B9%E7%9B%AE">大厂项目</h2><p>这三个大厂项目是百度的Apollo（无人驾驶），华为的OpenHarmony（操作系统）以及阿里的Open玄铁（基于RISC-V的半导体设计）。</p><p><a href="https://github.com/ApolloAuto/apollo?ref=interconnected.blog"><strong>百度的Apollo</strong></a><strong>：</strong>Apollo于2017年首次推出，已成为领先的无人驾驶开源项目之一。它是百度的Apollo Go无人驾驶出租车服务的核心，该服务在北京的一个小区已经初步<a href="https://www.prnewswire.com/news-releases/baidu-apollo-to-launch-fully-driverless-ride-hailing-services-in-beijing-demonstrating-a-new-commercialization-model-for-autonomous-driving-301279856.html?ref=interconnected.blog">上线</a>，而这个小区恰好是即将举行的冬奥会的场地之一。尽管本届冬奥会受到许多西方国家的抵制 —— 美国、加拿大、澳大利亚和英国都宣布对比赛进行外交抵制 —— 但它仍将是中国在全球观众面前展示无人驾驶科技产品的重要时刻。</p><p>Apollo在冬奥会期间的表现如何，将证明百度准备<a href="https://www.cnbc.com/2021/11/18/chinas-baidu-wants-to-launch-robotaxi-service-in-100-cities-by-2030.html?ref=interconnected.blog">在2025年前在65个城市</a>推出Apollo Go无人出租车服务的目标是否会现实。但撇开百度的目标不谈，Apollo作为一项用了开放许可（Apache 2.0）的开源项目，很可能已经被复制、修改和使用到其他厂商的无人车里了。到2025年时，Apollo很可能成为特斯拉自驾软件栈的替代方案。特斯拉的自驾游软件栈目前是完全专有和闭源的。乍一看，Apollo的文档和GitHub上的ReadMe都是英文的，看起来结构清晰，写得很好。这是一个好信号，表明项目团队正在努力让Apollo面向海外的开发者。</p><p><strong>如果特斯拉的系统是无人驾驶的iOS，那百度的Apollo很可能会成为无人驾驶的安卓。</strong></p><figure class="kg-card kg-image-card"><img src="https://lh6.googleusercontent.com/34IRM-GZ97FXTZ-QSUzm9EAMbeW2ktjBPgUqoLdBDAYpzTucuWrTdeO7QuYTcC25uv4B3uCEohROKFeMVOvRmpSvAaHRCtVwaVAfdSBDWofbUsEtf8adARhMeELCdrk0zSv-1aD3" class="kg-image" alt loading="lazy"></figure><p><strong><a href="https://gitee.com/openharmony?ref=interconnected.blog">华为的OpenHarmony</a>：</strong>于2012年启动的项目，由于美国的制裁，华为在2019年加强了对OpenHarmony的开发、投资，以减少对安卓操作系统的依赖。OpenHarmony项目也成为华为大力支持开放原子开源基金会而捐赠的 "标杆项目"。</p><p>虽然OpenHarmony的发展主要是对未来可能的美国制裁的反应，但OpenHarmony有可能成为iOS和安卓的替代操作系统，这其中有积极的战略因素。对于像俄罗斯这样同样担心美国制裁的国家，OpenHarmony可能是一个有吸引力的选择。</p><p>尽管工信部的规划文件点名提到了OpenHarmony（没有给任何其他项目这种待遇），但该项目仍然相对年轻，并且托管在Gitee上。Gitee是中国国内GitHub的替代品，对海外开发者的吸引力有限。从战略技术角度来看，OpenHarmony具有达到国际影响力的潜力，但该团队在吸引并打造一个全球开发者社区上还有很长的路要走。</p><figure class="kg-card kg-image-card"><img src="https://lh6.googleusercontent.com/gJ0QiKaj8ltSFwqCcmA6rH1oRjAciLe3esN35N75MOVYOqZyCFAmVoC669Gk5zb8SEATUzHFqXYeRAzgfD9Zybmnwv26a4KT2NQjY6Vby3Oy0ZSkHSijqoemftih6IgU2KsruGAf" class="kg-image" alt loading="lazy"></figure><p><strong><a href="https://github.com/T-head-Semi/openc910?ref=interconnected.blog">阿里的Open玄铁</a>：</strong>这个项目是我挑的三个大厂孵化项目中最年轻的一个，算是我的 "黑马"选择。它在今年10月份刚刚开源，目前几乎没有任何社区存在感或牵引力，无论是中文还是英文社群。</p><p>那为什么我还认为Open玄铁有希望在2025年达到工信部所期望的 "全球影响力"呢？</p><p>首先，它是阿里内部孵化的。阿里在中国所有的科技巨头中拥有最强大的开源技术和社区人才。其次，它利用了RISC-V这一开源的半导体设计架构（关于RISC-V的更多信息，<a href="https://interconnected.blog/tag/risc-v/">请参考我以前的文章</a>）。据我所知，目前行业里最快的基于RISC-V的<a href="https://www.techspot.com/news/81177-china-alibaba-making-16-core-25-ghz-risc.html?ref=interconnected.blog">处理器仍是阿里开发的</a>。现在以Open玄铁的方式进一步把其半导体设计开发开源出来，意义深远。</p><p>鉴于半导体对中国以及印度、巴基斯坦、日本、韩国和许多欧洲国家的明显战略重要性，能够将RISC-V提升到新水平的开源项目必将获得国际影响力。当然，半导体行业的未来并不确定，美国联邦贸易委员会正在<a href="https://www.ftc.gov/enforcement/cases-proceedings/2110015/nvidiaarm-matter?ref=interconnected.blog">以反垄断的理由挑战Nvidia对Arm的收购</a>。但是，无论Nvidia-Arm的交易最终有什么结果，RISC-V都将是一股强大的力量，而Open玄铁可能会在RISC-V的持续崛起中发挥重大作用。</p><figure class="kg-card kg-image-card"><img src="https://lh6.googleusercontent.com/9vOvdrIFS3V3ceaV6R7EBVw1uFhDDO8BXx0MG_Z7Zuk5GIq8cSVvlHAituf5gnpmiczJ-DLkf--gROM9mC67uNVWN_M7WZBUKg7o8kQaoXnqAfvTi1ecEJuhkKSrMmGIOHg7HqLa" class="kg-image" alt loading="lazy"></figure><h2 id="%E7%8B%AC%E7%AB%8B%E9%A1%B9%E7%9B%AE">独立项目</h2><p>这三个独立项目是TiDB / TiKV（分布式数据库）、OpenResty（API网关）和OceanBase（分布式数据库）。</p><p><strong><a href="https://github.com/pingcap/tidb?ref=interconnected.blog">TiDB</a> / <a href="https://github.com/tikv/?ref=interconnected.blog">TiKV</a>：TiDB</strong>始于2015年，是最活跃的开源分布式数据库之一，完全独立起家，而不是大厂孵化的成果。TiKV是数据库的存储层，在2018年作为一个独立项目<a href="https://www.cncf.io/blog/2018/08/28/cncf-to-host-tikv-in-the-sandbox/?ref=interconnected.blog">捐给了云原生计算基金会</a>。因此，这一层技术严格上说属于基金会，而不是最初打造TiDB和TiKV的创业公司PingCAP。</p><p><em>声明：我在PingCAP工作过约两年，启动其全球扩张业务。我对该公司的最新规划或路线图没有任何内部信息，此分析纯粹是基于我对此开源项目从外部的观察。</em></p><p>因为数据库是任何基础设施堆栈的关键层，TiDB/TiKV非常符合工信部对中国产业基础高级化、产业链现代化的政策目标。由于这些项目在数据库工程师中很受欢迎，其中许多人都是开源爱好者，因此核心技术进展很快。自2018年以来，就有报道提出TiDB / TiKV已经被认为是<a href="https://www.bloomberg.com/news/articles/2019-06-24/china-s-biggest-startups-ditch-oracle-ibm-for-home-made-tech?ref=interconnected.blog">足以替代甲骨文和IBM等公司的本土产品</a>。目前TiDB / TiKV已有Square和Shopee这样的用户，可以说已经具有一定的国际影响力了。</p><figure class="kg-card kg-image-card"><img src="https://lh6.googleusercontent.com/f5BGB99MEwFdDyq2p7TMl_6MHaFYr4DCvn7LO5RWMGffPTQamu3NlvGQFCzlry6bQJ8HZzDri8-t0IMuhzcIiM0gQvYfkFMmgWqBkb6lZylHc5_qDw5ovHapFZRRVOGVCqSzwAxB" class="kg-image" alt loading="lazy"></figure><p><strong><a href="https://github.com/openresty/openresty?ref=interconnected.blog">OpenResty</a>: </strong>始于2011年，该项目是源于中国最老和最被广泛使用的开源项目之一。这个项目可能是许多西方开发者第一次接触到 "中国制造" 的开源技术。</p><p>与数据库层类似，API网关层对于所有类型的基础设施科技，尤其是云原生技术，至关重要。简单地说，API网关提供负载平衡和API调用和网络流量的动态路由，帮助处理网络请求和流量洪峰，避免系统不会崩溃，用例如双十一这种网购节。因此，OpenResty首先在雅虎中国内部孵化，然后跟随其创建者去了淘宝，又去了Cloudflare，这都不奇怪。该项目现在由自己的基金会管理，并由一家也叫OpenResty的创业公司进行商业化。</p><p>鉴于其多年历史和广泛应用，包括Target和Lyft这种用户，OpenResty也已经在某种程度上具有 "国际影响力" 了。我们可以看看到2025年时这个项目变得有多大，这样的观察会很有意思。</p><figure class="kg-card kg-image-card"><img src="https://lh5.googleusercontent.com/K6-CvO5PtnVBeX8If4i-42I4BqpoO94vBn0uPNJqmGnviKgdih7yJ9lWnLnxe17pnthkA3Avjlr6yqtXe0VHOejCx1uykXSolQ93b-ry4hdjR3CrurgytcBW3klqV3mkZiqEBH4P" class="kg-image" alt loading="lazy"></figure><p><a href="https://github.com/oceanbase/oceanbase?ref=interconnected.blog"><strong>OceanBase</strong></a><strong>:</strong> 说OceanBase是一个独立的开源项目有点牵强，因为直到最近它既不独立也不开源。OceanBase最初是在蚂蚁金服内部孵化的，作为阿里庞大的生态系统中支付宝、淘宝和其他许多产品的主要交易数据库。2020年中期被剥离出来，成为一家独立公司，但大股东仍是蚂蚁。OceanBase的开源历史比它的独立公司历史还要短：核心代码库是在2021年中期开源的，离我写这篇文章只有短短几个月时间。</p><p>然而，OceanBase仍然值得一提，因为它实打实是世界上最快的数据库：至少根据业界著名的基准<a href="http://tpc.org/?ref=interconnected.blog">TPC-C</a>的测量跑分，它是最快的。我不在这里详细介绍这个基准测量的技术细节了，但值得记住的是，根据TPC-C测试，OceanBase<a href="https://developers.slashdot.org/story/19/10/06/198238/oracle-outperformed-tpc-benchmarks-show-alibabas-oceanbase-performs-twice-as-well?ref=interconnected.blog">不仅取得了第一名</a>，速度还是第二名Oracle产品的两倍。</p><p>鉴于其短暂的开源历史，OceanBase在未来四年内能积累多少 "国际影响力" 还有待观察。它的核心技术无疑是一流的，但是单靠技术去影响全球的开发者，对任何开源项目都是远远不够的。</p><figure class="kg-card kg-image-card"><img src="https://lh3.googleusercontent.com/_YsNbxcAwEbuglGIo7CGr1GqE0YvFN2liLRLaZ-xVeh3oTpoJBrwmO8g-7L3Dbt00lNHiDWii9Fj4RC-1_QRqnlp5IFO3-Y6aZOSWQw1kNyKBVBgbWECzJYkHik3O-ncOLCgjiiE" class="kg-image" alt loading="lazy"></figure><p>这六个项目中的每一个都值得深入分析，这篇综述文章仅仅触及了它们各自技术和战略价值的皮毛。虽然还要等四年才能知道哪些开源项目将获得工信部的 "国际影响力" 勋章，但开源显然是一股中国政府已经认识到并（大部分）认可的力量。因此，对于任何从事科技工作、外交政策工作，尤其是两者交叉点的工作的人士来说，了解开源项目如何运作和成长是必须的。</p><p><strong><em>如果您喜欢所读的内容，请用email</em><a href="https://interconnected.blog/#subscribe"><em>订阅加入“互联”</em></a><em>。要想读以前的文章，请查阅</em></strong><a href="https://interconnected.blog/archive/"><em><strong>《互联档案》</strong></em></a><strong><em>。每周一篇新文章送达您的邮箱。请在</em><a href="https://twitter.com/kevinsxu?ref=interconnected.blog"><em>Twitter</em></a><em>、</em><a href="https://www.linkedin.com/in/kevinsxu/?ref=interconnected.blog"><em>LinkedIn</em></a><em>、Clubhouse（@kevinsxu）上给个follow，和我交流互动！</em></strong></p>
+                    </div>
+                     <!-- social share icon -->
+                    <div class="custom-mobile-share">
+                        <div class="social-icon sidebar">
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="https://www.facebook.com/sharer/sharer.php?u=https://interconnected.blog/open-source-in-china-next-four-years/" target="_blank"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.2831 8.9908H14.6794V6.63C14.6794 5.7434 15.2696 5.5354 15.683 5.5354H18.2207V1.638L14.721 1.625C10.8392 1.625 9.95783 4.5318 9.95783 6.3934V8.9908H7.71143V13.0052H9.95783V24.3724H14.682V13.0078H17.8697L18.2831 8.9908Z" fill="currentColor"/>
+</svg>
+    </a>
+
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="https://twitter.com/share?text=Open%20Source%20in%20China%3A%20Next%20Four%20Years&url=https://interconnected.blog/open-source-in-china-next-four-years/" target="_blank"><svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.5028 2.3548C23.6012 2.7552 22.6324 3.024 21.616 3.1472C22.6548 2.5256 23.45 1.54 23.8252 0.3668C22.8536 0.9436 21.7756 1.3608 20.6332 1.5876C19.7176 0.6104 18.41 0 16.9652 0C14.1876 0 11.9364 2.2484 11.9364 5.026C11.9364 5.4208 11.9812 5.8044 12.0652 6.1712C7.8876 5.9612 4.1832 3.962 1.7052 0.9184C1.274 1.6604 1.0248 2.5256 1.0248 3.4468C1.0248 5.1912 1.9124 6.7284 3.2592 7.63C2.436 7.6048 1.6604 7.378 0.9828 7V7.0644C0.9828 9.5004 2.716 11.5304 5.0148 11.9924C4.5948 12.1072 4.1496 12.1688 3.6904 12.1688C3.3656 12.1688 3.052 12.138 2.7468 12.0792C3.3852 14.0756 5.2416 15.5288 7.4396 15.5708C5.7204 16.9176 3.556 17.7212 1.1984 17.7212C0.7924 17.7212 0.3948 17.6988 0 17.6512C2.226 19.0764 4.8664 19.908 7.7056 19.908C16.9512 19.908 22.008 12.25 22.008 5.6084C22.008 5.39 22.0024 5.1744 21.994 4.9588C22.9768 4.2476 23.8308 3.3628 24.5028 2.3548Z" fill="currentColor"/>
+</svg>
+    </a>
+
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url=Open%20Source%20in%20China%3A%20Next%20Four%20Years&url=https://interconnected.blog/open-source-in-china-next-four-years/">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.1151 1.87207H3.88505C2.82005 1.87207 1.95605 2.71507 1.95605 3.75607V26.2441C1.95605 27.2851 2.82005 28.1251 3.88505 28.1251H26.1151C27.1801 28.1251 28.0441 27.2851 28.0441 26.2441V3.75307C28.0411 2.71507 27.1771 1.87207 26.1151 1.87207ZM9.86405 23.8441H5.92505V11.9941H9.86405V23.8441V23.8441ZM7.89605 10.3771H7.86905C6.54605 10.3771 5.69405 9.46807 5.69405 8.32807C5.69405 7.16407 6.57605 6.27907 7.92005 6.27907C9.27005 6.27907 10.0981 7.16407 10.1221 8.32807C10.1221 9.46807 9.27005 10.3771 7.89605 10.3771ZM24.0721 23.8441H20.1301V17.5051C20.1301 15.9121 19.5631 14.8261 18.1381 14.8261C17.0461 14.8261 16.3981 15.5581 16.1131 16.2661C16.0111 16.5211 15.9871 16.8751 15.9871 17.2261V23.8501H12.0451C12.0451 23.8501 12.0961 13.1101 12.0451 11.9971H15.9871V13.6741C16.5091 12.8671 17.4481 11.7181 19.5361 11.7181C22.1281 11.7181 24.0721 13.4131 24.0721 17.0551V23.8441V23.8441Z" fill="currentColor"/>
+</svg>    </a>
+
+    <a onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="http://reddit.com/submit?url=https://interconnected.blog/open-source-in-china-next-four-years/&title=Open%20Source%20in%20China%3A%20Next%20Four%20Years" data-track-share="reddit" rel="noopener noreferrer" aria-label="Share via reddit">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.5144 12.7848C16.5696 12.924 16.5936 13.0656 16.5936 13.2096C16.5936 13.4952 16.4952 13.7736 16.3296 14.0016C16.1664 14.2248 15.9336 14.4 15.66 14.4768L15.6552 14.4792H15.6504C15.5232 14.5224 15.3912 14.544 15.2616 14.544C14.9568 14.544 14.6568 14.4336 14.4168 14.2464C14.1792 14.0592 13.9992 13.7904 13.9416 13.4736V13.4688C13.9248 13.3872 13.9152 13.3056 13.9152 13.224C13.9152 12.948 14.0088 12.684 14.1648 12.4656C14.3184 12.2472 14.5368 12.0744 14.7912 11.9856H14.796C14.94 11.9328 15.0936 11.9064 15.2424 11.9064C15.516 11.9064 15.7872 11.9904 16.0152 12.1416C16.2408 12.2904 16.4232 12.5112 16.5144 12.7824L16.5168 12.7872C16.5144 12.7824 16.5144 12.7848 16.5144 12.7848ZM15.6744 16.1688C15.5664 16.0992 15.4416 16.056 15.3096 16.056C15.204 16.056 15.0936 16.0872 14.9952 16.152C14.0664 16.7064 12.9768 17.0088 11.892 17.0088C11.0784 17.0088 10.272 16.8384 9.54 16.4784L9.5352 16.476L9.5304 16.4736C9.42 16.428 9.2952 16.332 9.156 16.2408C9.0864 16.1952 9.0144 16.1496 8.9328 16.1184C8.8536 16.0848 8.7648 16.0608 8.6688 16.0608C8.5896 16.0608 8.508 16.0776 8.4264 16.116L8.4144 16.1208C8.2872 16.1688 8.1864 16.2576 8.1216 16.3632C8.0544 16.4712 8.0208 16.5984 8.0208 16.7256C8.0208 16.8384 8.0472 16.9536 8.1024 17.0568C8.1552 17.1552 8.2368 17.2416 8.3424 17.2968C9.3888 18.0024 10.62 18.3216 11.8584 18.3216C12.9744 18.3216 14.0952 18.0624 15.0936 17.5944L15.0984 17.592L15.1032 17.5896C15.2352 17.5128 15.4104 17.4408 15.576 17.34C15.6576 17.2872 15.7368 17.2272 15.8064 17.1504C15.8736 17.0736 15.9288 16.9776 15.96 16.8624C15.972 16.812 15.9792 16.764 15.9792 16.716C15.9792 16.6224 15.9576 16.536 15.9192 16.4568C15.8712 16.3344 15.78 16.2384 15.6744 16.1688ZM8.328 14.472C8.3304 14.472 8.3328 14.472 8.3352 14.4744C8.4696 14.5224 8.6064 14.5464 8.7432 14.5464C9.084 14.5464 9.4128 14.4072 9.6648 14.1792C9.9144 13.9512 10.0848 13.6296 10.0848 13.2624V13.2312C10.0848 13.2144 10.0872 13.1976 10.0872 13.1784C10.0872 12.8136 9.9192 12.492 9.672 12.2616C9.4248 12.0336 9.0936 11.892 8.7528 11.892C8.6616 11.892 8.568 11.9016 8.4768 11.9232H8.4696C8.0184 12.0168 7.6224 12.3528 7.476 12.8136V12.816C7.4352 12.9432 7.4136 13.0728 7.4136 13.2024C7.4136 13.4856 7.5072 13.7592 7.668 13.9872C7.8264 14.2104 8.0544 14.3856 8.3256 14.4672L8.328 14.472ZM22.4952 11.1744C22.4976 11.2224 22.5 11.268 22.5 11.3136C22.5 11.8224 22.3368 12.3144 22.0632 12.7296C21.8088 13.1184 21.456 13.4448 21.0528 13.6656C21.0792 13.8696 21.0936 14.0736 21.0936 14.2776C21.0936 15.3768 20.7144 16.4544 20.0544 17.3208H20.052C18.8352 18.9432 16.9632 19.9008 15.072 20.3832H15.0696C14.0616 20.628 13.0224 20.7528 11.9832 20.7528C10.4352 20.7528 8.8872 20.4744 7.4424 19.8936V19.8912H7.44C5.9424 19.2744 4.5144 18.2928 3.6408 16.8552C3.1704 16.0872 2.9112 15.1872 2.9112 14.2848C2.9112 14.0808 2.9256 13.8744 2.952 13.6728C2.5584 13.452 2.2176 13.1352 1.9632 12.7608C1.692 12.3576 1.5216 11.8848 1.5 11.3856V11.3784C1.5 10.6776 1.8048 10.0152 2.2776 9.52555C2.7504 9.03595 3.396 8.71675 4.0872 8.71675H4.116C4.188 8.71195 4.2624 8.70955 4.3344 8.70955C4.6824 8.70955 5.0304 8.76475 5.3616 8.89195L5.364 8.89435H5.3664C5.6496 9.01435 5.9304 9.15595 6.18 9.35515C6.2616 9.31195 6.3504 9.26395 6.4488 9.22795C7.9656 8.33035 9.7272 7.98235 11.4456 7.88395C11.46 7.03195 11.5656 6.14155 11.9808 5.36155C12.3264 4.71355 12.9264 4.20955 13.6416 4.03435L13.644 4.03195H13.6488C13.92 3.97915 14.196 3.95515 14.4672 3.95515C15.192 3.95515 15.9096 4.12795 16.5816 4.39435C16.8792 3.94555 17.304 3.59515 17.8008 3.40075L17.8056 3.39835L17.8104 3.39595C18.1032 3.30475 18.4104 3.25195 18.72 3.25195C19.0464 3.25195 19.3752 3.31195 19.6848 3.44875L19.6896 3.45115C20.1312 3.62155 20.5056 3.93595 20.772 4.32715C21.0384 4.72075 21.1944 5.19115 21.1944 5.67355C21.1944 5.76235 21.1896 5.85115 21.18 5.94235V5.94955C21.1272 6.57595 20.8104 7.12315 20.364 7.51435C19.9128 7.90795 19.3296 8.14555 18.7296 8.14555C18.6336 8.14555 18.5352 8.14075 18.4392 8.12635C17.844 8.08075 17.2896 7.79275 16.8816 7.36555C16.4736 6.93835 16.2096 6.36715 16.2096 5.75035C16.2096 5.72155 16.212 5.69035 16.2144 5.66155C15.6552 5.41195 15.0624 5.20555 14.4744 5.20795C14.388 5.20795 14.304 5.21275 14.2176 5.22235C13.776 5.26555 13.3656 5.54395 13.1664 5.94235V5.94475C12.864 6.53275 12.804 7.21915 12.7944 7.90075C14.4864 8.01115 16.188 8.41675 17.6784 9.27355H17.6808L17.7024 9.28555C17.7312 9.30235 17.784 9.33115 17.8296 9.35515C17.9328 9.27115 18.0408 9.18715 18.1632 9.11275C18.6168 8.81035 19.152 8.66155 19.6872 8.66155C19.9248 8.66155 20.1624 8.69275 20.3952 8.75035L20.4048 8.75275L20.4144 8.75515C20.9592 8.89435 21.4536 9.20875 21.8256 9.63115C22.1976 10.056 22.4472 10.5936 22.4952 11.1744ZM17.5152 5.63995C17.5152 5.66155 17.5152 5.68555 17.5176 5.70955V5.71435C17.5296 6.00715 17.6664 6.28075 17.8776 6.48475C18.0888 6.68635 18.3696 6.81115 18.6552 6.81355H18.6624C18.684 6.81595 18.7032 6.81595 18.7248 6.81595C19.0128 6.81595 19.2984 6.69115 19.5144 6.49195C19.7304 6.29035 19.872 6.01435 19.8816 5.71915V5.71195C19.884 5.69035 19.884 5.66875 19.884 5.64475C19.884 5.33995 19.7424 5.04955 19.5192 4.83355C19.296 4.61755 18.9984 4.48555 18.7032 4.48555C18.6072 4.48555 18.5136 4.49755 18.42 4.52635H18.4152C18.1728 4.58875 17.9448 4.73995 17.7792 4.93915C17.6136 5.14075 17.5152 5.38555 17.5152 5.63995ZM5.0304 10.1736C4.8048 10.068 4.5696 9.99355 4.3392 9.99355C4.3008 9.99355 4.2624 9.99595 4.2216 10.0008H4.212C3.8808 10.0104 3.5448 10.1544 3.2952 10.3872C3.0432 10.6176 2.8776 10.9296 2.8656 11.2752V11.28C2.8632 11.3088 2.8632 11.3352 2.8632 11.3616C2.8632 11.5728 2.928 11.7792 3.0384 11.9664C3.12 12.1056 3.228 12.2328 3.348 12.3432C3.732 11.4936 4.3392 10.7736 5.0304 10.1736V10.1736ZM19.764 14.3256C19.764 13.5696 19.4904 12.8088 19.0488 12.1968C18.168 10.9704 16.8 10.1712 15.3768 9.72475L15.3672 9.72235C15.0936 9.63835 14.8176 9.56395 14.5416 9.50155C13.7112 9.31195 12.8592 9.21835 12.0072 9.21835C10.8648 9.21835 9.72 9.38635 8.6256 9.72475C7.2048 10.176 5.832 10.9704 4.9536 12.2016C4.5072 12.816 4.2456 13.5792 4.2456 14.3376C4.2456 14.616 4.2816 14.8968 4.3536 15.168C4.5144 15.7776 4.8264 16.3224 5.232 16.7976C5.6376 17.2728 6.1344 17.6784 6.6576 18.0096C6.7728 18.0816 6.8904 18.1488 7.008 18.216C8.5272 19.0632 10.2744 19.4352 12.0096 19.4352C12.3024 19.4352 12.5976 19.4256 12.8904 19.404C14.6376 19.26 16.392 18.744 17.8128 17.6904C18.264 17.3568 18.6816 16.9536 19.0128 16.4928C19.344 16.032 19.5888 15.5184 19.6968 14.9616V14.9592C19.7424 14.7504 19.764 14.5392 19.764 14.3256ZM21.144 11.316C21.144 11.1312 21.1008 10.9488 21.0096 10.7784L21.0072 10.776V10.7736C20.8848 10.5192 20.6904 10.3296 20.4576 10.1976C20.2248 10.0656 19.9512 9.99835 19.6776 9.99835C19.4304 9.99835 19.1856 10.0536 18.9672 10.164C19.6608 10.7664 20.2704 11.4912 20.664 12.3432C20.7912 12.2328 20.8992 12.0984 20.9784 11.9472C21.084 11.7528 21.144 11.532 21.144 11.316Z" fill="currentColor"/>
+</svg>
+    </a>
+</div>
+                    </div>
+                </div>
+            </section>
+
+                <section class="subscribe-form">
+    <h3 class="subscribe-form-title">Subscribe to Interconnected</h3>
+    <p class="subscribe-form-description">To get all the deep dive posts and other future premium content</p>
+    <form data-members-form="subscribe">
+        <div class="form-group">
+            <input class="subscribe-email" data-members-email placeholder="youremail@example.com" autocomplete="false" />
+            <button class="button primary" type="submit">
+                <span class="button-content">Subscribe</span>
+                <span class="button-loader"><svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+    <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z" />
+    <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+C22.32,8.481,24.301,9.057,26.013,10.047z">
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20"
+            dur="0.5s" repeatCount="indefinite" />
+    </path>
+</svg></span>
+            </button>
+        </div>
+        <div class="message-success">
+            <strong>Great!</strong> Check your inbox and click the link to confirm your subscription.
+        </div>
+        <div class="message-error">
+            Please enter a valid email address!
+        </div>
+    </form>
+</section>
+
+        </article>
+
+    </div>
+</main>
+
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+                <article class="read-next-card">
+                    <header class="read-next-card-header">
+                        <h3><span>More in</span> <a href="/tag/open-source/">Open Source</a></h3>
+                    </header>
+                    <div class="read-next-card-content">
+                        <ul>
+                            <li>
+                                <h4><a href="/dont-sleep-on-the-brics-ai-open-source-community/">Don’t Sleep on the BRICS AI Open Source Community</a></h4>
+                                <div class="read-next-card-meta">
+                                    <p><time datetime="2026-09-15">15 Sep 2026</time> –
+                                        6 min read</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><a href="/banning-open-source-ai-would-be-a-mistake/">Banning Open Source AI Would Be A Mistake</a></h4>
+                                <div class="read-next-card-meta">
+                                    <p><time datetime="2026-06-19">19 Jun 2026</time> –
+                                        4 min read</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><a href="/death-of-qwen-and-the-hundred-claws-war/">($) &quot;Death&quot; of Qwen and the “Hundred Claws War”</a></h4>
+                                <div class="read-next-card-meta">
+                                    <p><time datetime="2026-03-19">19 Mar 2026</time> –
+                                        6 min read</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer class="read-next-card-footer">
+                        <a href="/tag/open-source/">See all 67 posts
+                            →</a>
+                    </footer>
+                </article>
+
+                <article class="post-card post tag-meta no-image no-image">
+
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/2021-interconnected-wrap-up-readership-stats-and-breakdown/">
+
+            <header class="post-card-header">
+
+                    <span class="post-card-primary-tag">Topics: </span>
+                        <span class="post-card-primary-tag">Meta</span><span class="bull">&bull;</span>
+
+                <h2 class="post-card-title">2021 Interconnected Wrap-Up: Readership Stats and Breakdown</h2>
+            </header>
+
+            <section class="post-card-excerpt">
+                    <p>As we near the end of 2021, it’s time for a wrap-up post on Interconnected.
+
+We wrote a similar post last year in “Open Source, Open Stats, Open Development
+[https://interconnected.blog/open-source-open-stats-open-development/]”, where
+we provided a</p>
+            </section>
+
+        </a>
+
+        <footer class="post-card-meta">
+            <ul class="author-list">
+                <li class="author-list-item">
+            
+                    <div class="author-name-tooltip">
+                        Kevin Xu
+                    </div>
+            
+                    <a href="/author/kevin/" class="static-avatar">
+                        <img class="author-profile-image" src="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/size/w100/2020/02/Headshot_KevinXu.jpg" alt="Kevin Xu" />
+                    </a>
+                </li>
+            </ul>
+            <div class="post-card-byline-content">
+                <span><a href="/author/kevin/">Kevin Xu</a></span>
+                <span class="post-card-byline-date"><time datetime="2021-12-20">20 Dec 2021</time> </span>
+            </div>
+        </footer>
+
+    </div>
+
+</article>
+
+                <article class="post-card post tag-ipo tag-china tag-regulation no-image no-image">
+
+
+    <div class="post-card-content">
+
+        <a class="post-card-content-link" href="/let-the-great-delisting-begin/">
+
+            <header class="post-card-header">
+
+                    <span class="post-card-primary-tag">Topics: </span>
+                        <span class="post-card-primary-tag">IPO</span><span class="bull">&bull;</span>
+                        <span class="post-card-primary-tag">China</span><span class="bull">&bull;</span>
+                        <span class="post-card-primary-tag">Regulation</span><span class="bull">&bull;</span>
+
+                <h2 class="post-card-title">Let the “Great Delisting” Begin</h2>
+            </header>
+
+            <section class="post-card-excerpt">
+                    <p>Last week, the SEC dropped the final “regulatory shoe” by specifying the rules
+and procedures [https://www.sec.gov/news/press-release/2021-250] that will
+implement the accounting compliance requirements outlined in the Holding Foreign
+Companies Accountable Act (HFCAA) on foreign companies listed</p>
+            </section>
+
+        </a>
+
+        <footer class="post-card-meta">
+            <ul class="author-list">
+                <li class="author-list-item">
+            
+                    <div class="author-name-tooltip">
+                        Kevin Xu
+                    </div>
+            
+                    <a href="/author/kevin/" class="static-avatar">
+                        <img class="author-profile-image" src="https://storage.ghost.io/c/78/d2/78d26a90-7584-4fe6-8840-c19acdf54122/content/images/size/w100/2020/02/Headshot_KevinXu.jpg" alt="Kevin Xu" />
+                    </a>
+                </li>
+            </ul>
+            <div class="post-card-byline-content">
+                <span><a href="/author/kevin/">Kevin Xu</a></span>
+                <span class="post-card-byline-date"><time datetime="2021-12-05">5 Dec 2021</time> </span>
+            </div>
+        </footer>
+
+    </div>
+
+</article>
+        </div>
+    </div>
+</aside>
+
+
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://interconnected.blog">Interconnected</a> &copy; 2026</section>
+                <nav class="site-footer-nav">
+                    <a href="https://www.facebook.com/pg/Interconnected-103361817939971/" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://x.com/interconnect_ed" target="_blank" rel="noopener">Twitter</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://interconnected.blog/assets/built/casper.js?v=Ln2NVahiwoxpxca8"></script>
+
+    <script>
+        // Parse the URL parameter
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        // Give the parameter a variable name
+        var action = getParameterByName('action');
+
+        $(document).ready(function () {
+            if (action == 'subscribe') {
+                $('body').addClass("subscribe-success");
+            }
+
+            $('.subscribe-success-message .subscribe-close').click(function () {
+                $('.subscribe-success-message').addClass('close');
+            });
+
+            // Reset form on opening subscrion overlay
+            $('.subscribe-button').click(function() {
+                $('.subscribe-overlay form').removeClass();
+                $('.subscribe-email').val('');
+            });
+
+            $('.sidebar').StickySidebar({
+                // Settings
+                additionalMarginTop: 100
+            });
+
+            $('.post-full-content h3').each(function(){
+                var id = $(this).attr("id")
+                var link =`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>`
+                $(this).prepend(`<a class="share-link" href="#${id}">${link}</a>`)
+            });
+                
+
+        });
+    </script>
+
+    <script>
+    $(document).ready(function () {
+        // FitVids - start
+        var $postContent = $(".post-full-content");
+        $postContent.fitVids();
+        // FitVids - end
+
+        // Replace nav with title on scroll - start
+        Casper.stickyNavTitle({
+            navSelector: '.site-nav-main',
+            titleSelector: '.post-full-title',
+            activeClass: 'nav-post-title-active'
+        });
+        // Replace nav with title on scroll - end
+
+        // Hover on avatar
+        var hoverTimeout;
+        $('.author-list-item').hover(function () {
+            var $this = $(this);
+
+            clearTimeout(hoverTimeout);
+
+            $('.author-card').removeClass('hovered');
+            $(this).children('.author-card').addClass('hovered');
+
+        }, function () {
+            var $this = $(this);
+
+            hoverTimeout = setTimeout(function () {
+                $this.children('.author-card').removeClass('hovered');
+            }, 800);
+        });
+
+
+        // Tabs for post
+        var  $tabContent = $('.tab-content')
+        $('.post-tab-language a').click(function(e){
+            e.preventDefault()
+            $(this).addClass('active').siblings().removeClass('active')
+            var href = $(this).attr('href')
+                href = href.substring(1, href.length)
+            $tabContent.each(function(){
+                var $id = $(this).attr('id')
+                if(href === $id){
+                    $(this).addClass('active').siblings().removeClass('active')
+                }
+            })
+        });
+
+
+        $('#chinese-version').appendTo( $('.post-full-inner-content') );
+        
+    });
+</script>
+
+
+    
+
+</body>
+</html>

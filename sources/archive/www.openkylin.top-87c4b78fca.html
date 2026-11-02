@@ -1,0 +1,1241 @@
+
+
+
+<!DOCTYPE HTML>
+<html class="oxh met-web" >
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,minimal-ui">
+<meta name="format-detection" content="telephone=no">
+<title>COSCon'26 | Call for Topics: AI-Native Open Source Operating System Forum-openKylin 开放麒麟社区官网 | 开源聚力，共创未来</title>
+<meta name="description" content="As one of the most influential open-source events in the industry, China Open Source Conference COSC">
+<meta name="keywords" content="openKylin|Linux">
+<meta name="generator" content="7.5.0" data-variable="../|en|sq|metv7_cckylin|2|65|4183" data-user_name="">
+<link href="../favicon.ico?1664440390" rel="shortcut icon" type="image/x-icon">
+
+
+<link rel="stylesheet" type="text/css" href="../public/web/css/basic.css?1678414827">
+<link rel="stylesheet" type="text/css" href="../templates/metv7_cckylin/cache/metinfo.css?1793584491">
+<style>
+body{
+    background-color: !important;font-family: !important;}
+h1,h2,h3,h4,h5,h6{font-family: !important;}
+</style>
+<script>(function(){var t=navigator.userAgent;(t.indexOf("rv:11")>=0||t.indexOf("MSIE 10")>=0)&&document.write("<script src=\"../public/plugins/html5shiv.min.js\"><\/script>")})();</script>
+</head>
+<!--[if lte IE 9]>
+<div class="text-xs-center m-b-0 bg-blue-grey-100 alert">
+    <button type="button" class="close" aria-label="Close" data-dismiss="alert">
+        <span aria-hidden="true">×</span>
+    </button>
+    You are using a <strong> obsolete </ strong> browser. Please <a href=https://browsehappy.com/ target=_blank> upgrade your browser </a> to enhance your experience.</div>
+<![endif]-->
+<body >
+<script src="../public/js/jquery-3.7.1.min.js" type="text/javascript"></script>
+<script src="../public/js/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../public/css/ok_diy_white.css?t=20261014">
+<link href="" rel="stylesheet" type="text/css" id="theme-link" />
+<header class='met-head' m-id='met_head' m-type="head_nav">
+    <nav class="navbar navbar-default box-shadow-none met-nav">
+        <div class="container">
+            <div class="row">
+                <div class='met-nav-btn'>
+                                                                    <h3 hidden>openKylin 开放麒麟社区官网 | 开源聚力，共创未来</h3>
+                                        <div class="navbar-header pull-xs-left">
+                        <a href="../index-en.html" class="met-logo vertical-align block pull-xs-left" title="openKylin">
+                            <div class="vertical-align-middle">
+                                                                        <img src="../upload/202209/1664440631.png" alt="openKylin" class="mblogo" />
+                                    <img src="../upload/202209/1664440631.png" alt="openKylin" class="pclogo" />
+                                                                </div>
+                        </a>
+                    </div>               
+                    <!-- 原来的代码，通过切换获取nav，去掉
+                    <button type="button" class="navbar-toggler hamburger hamburger-close collapsed p-x-5 p-y-0 met-nav-toggler" data-target="#met-nav-collapse" data-toggle="collapse">
+                        <span class="sr-only"></span>
+                        <span class="hamburger-bar"></span>
+                    </button>
+                    原来的代码，通过切换获取nav，去掉 -->
+                    <!-- 重构之后代码 -->
+                    <button type="button" class="nav-cus-expend-button navbar-toggler hamburger hamburger-close collapsed p-x-5 p-y-0 met-nav-toggler">
+                        <span class="sr-only"></span>
+                        <span class="hamburger-bar"></span>
+                    </button>
+                    <!-- 重构之后代码 -->
+                        	
+					
+					
+					
+					<!--只在手机端显示 语言切换-->
+				<div id="mobile_nav_top">				
+				
+					    <div class="metlang m-l-15 pull-md-right">
+                                                                                                                <div class="met-langlist vertical-align" m-type="lang" m-id="lang">
+                            <div class="inline-block dropdown">
+                                                                                                                                                        <a href="https://www.openkylin.top/index-cn.html"       class="met-lang-other">
+                                                                                                                        <img src="../public/images/flag/china.gif"  width="20">
+                                        <!--                                        <span>中文(简体)</span>-->
+                                        </a>                                                                                                                                                                                                    </div>
+                        </div>
+                                            </div>
+					
+				</div>
+				<!--只在手机端显示 语言切换 结束-->						
+					
+                </div>
+
+
+	
+					
+                <div class="uk_top_r o-flex">
+
+<a href="##" class="uk_search" onClick="uksearch()"><img src="../upload/202111/1637309860865768.png"/></a>
+<!-- <a href="https://cla.openkylin.top/cla/sign/cla_index/openKylin-f46f289e01bc11edb8990242ac110005"  target="_blank" class="uk_code" alt="贡献者协议签署" title="贡献者协议签署"><img src="../public/images/openkylin/signcla.png"  alt="贡献者协议签署"/></a> -->
+<!-- <a href="https://gitee.com/openkylin"  target="_blank" class="uk_code" alt="项目代码贡献" title="项目代码贡献"><img src="../upload/202111/1637546241502561.png" alt="项目代码贡献"/></a> -->
+<a class="toggle uk_code" id="daytheme"></a>
+<script>
+const btn = document.querySelector(".toggle");
+const theme = document.querySelector("#theme-link");
+function getCookie(cookie_name){
+    var name = cookie_name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i].trim();
+        if (c.indexOf(name)==0) { return c.substring(name.length,c.length); }
+    }
+    return "";
+}  
+// document.cookie="okstyle=light";
+//存取cookie将当前皮肤cookie_value存到cookie
+function  setCookie(cookie_value){
+    var expires=new Date();                        
+    expires.setTime(expires.getTime()+24*60*60*365*1000);
+    var flag="okstyle="+cookie_value;
+    document.cookie=flag+";path=/;expires="+expires.toGMTString()+";domain= .openkylin.top";
+    // console.log("444");
+    }
+ function remove_stylecookie(){
+    document.cookie = "okstyle=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain= .openkylin.top";
+    }
+ function setdaytheme(){
+    $('#daytheme').empty();
+    $('#daytheme').append('<svg t="1678431493620" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1985" width="24" height="24"><path d="M519.539208 791.717679c-155.639756 0-282.253432-126.608559-282.253432-282.233989 0-155.627477 126.613676-282.240129 282.253432-282.240129 155.639756 0 282.253432 126.613676 282.253432 282.240129C801.792641 665.10912 675.178965 791.717679 519.539208 791.717679zM519.539208 280.58135c-126.222773 0-228.915643 102.679567-228.915643 228.90234s102.69287 228.895177 228.915643 228.895177c126.223796 0 228.915643-102.672404 228.915643-228.895177S645.763005 280.58135 519.539208 280.58135z" fill="#181818" p-id="1986"></path><path d="M373.274984 424.943248c-2.317789 0-4.662183-0.598634-6.797823-1.861394-6.329149-3.76372-8.4126-11.94096-4.662183-18.283412 27.606755-46.515407 78.341253-75.410504 132.395356-75.410504 7.369851 0 13.33368 5.963829 13.33368 13.334703s-5.963829 13.334703-13.33368 13.334703c-44.691875 0-86.636173 23.896246-109.450784 62.362326C382.260635 422.61318 377.832789 424.943248 373.274984 424.943248z" fill="#181818" p-id="1987"></path><path d="M353.651041 491.721141c-7.370875 0-13.334703-5.963829-13.334703-13.334703 0-12.43624 1.458211-19.259646 4.050246-30.263258 1.680269-7.175423 8.972349-11.576663 16.031115-9.93528 7.175423 1.692548 11.615549 8.867972 9.93528 16.030092-2.317789 9.870812-3.347235 14.624069-3.347235 24.169469C366.985744 485.757313 361.021915 491.721141 353.651041 491.721141z" fill="#181818" p-id="1988"></path><path d="M530.268574 958.712041c-14.728446 0-26.669406-11.954263-26.669406-26.669406l0-80.008218c0-14.740726 11.94096-26.669406 26.669406-26.669406s26.669406 11.927657 26.669406 26.669406l0 80.008218C556.939003 946.758802 544.99702 958.712041 530.268574 958.712041z" fill="#181818" p-id="1989"></path><path d="M530.268574 198.632943c-14.728446 0-26.669406-11.94096-26.669406-26.669406L503.599168 91.956342c0-14.728446 11.94096-26.669406 26.669406-26.669406s26.669406 11.94096 26.669406 26.669406l0 80.007195C556.939003 186.691983 544.99702 198.632943 530.268574 198.632943z" fill="#181818" p-id="1990"></path><path d="M221.658867 833.153394c-6.823406 0-13.646811-2.604314-18.856463-7.812943-10.417257-10.41828-10.417257-27.294646 0-37.712927l56.568367-56.567343c10.417257-10.41828 27.294646-10.41828 37.711903 0 10.417257 10.417257 10.417257 27.293623 0 37.712927l-56.568367 56.567343C235.306702 830.54908 228.482273 833.153394 221.658867 833.153394z" fill="#181818" p-id="1991"></path><path d="M759.105423 295.712979c-6.823406 0-13.646811-2.604314-18.85544-7.812943-10.41828-10.41828-10.41828-27.294646 0-37.711903l56.567343-56.568367c10.41828-10.417257 27.294646-10.417257 37.712927 0 10.417257 10.41828 10.417257 27.294646 0 37.711903l-56.567343 56.568367C772.753257 293.108664 765.929852 295.712979 759.105423 295.712979z" fill="#181818" p-id="1992"></path><path d="M278.227234 295.712979c-6.823406 0-13.646811-2.604314-18.85544-7.812943l-56.568367-56.568367c-10.417257-10.417257-10.417257-27.293623 0-37.711903 10.41828-10.417257 27.294646-10.417257 37.711903 0l56.568367 56.568367c10.417257 10.417257 10.417257 27.293623 0 37.711903C291.874045 293.108664 285.05064 295.712979 278.227234 295.712979z" fill="#181818" p-id="1993"></path><path d="M815.674812 833.178977c-6.824429 0-13.647835-2.604314-18.856463-7.812943l-56.567343-56.593949c-10.41828-10.419304-10.41828-27.29567 0-37.712927 10.417257-10.41828 27.293623-10.41828 37.712927 0l56.567343 56.593949c10.417257 10.41828 10.417257 27.294646 0 37.712927C829.322647 830.574662 822.498218 833.178977 815.674812 833.178977z" fill="#181818" p-id="1994"></path><path d="M171.967118 545.332153l-80.008218 0c-14.728446 0-26.669406-11.94096-26.669406-26.669406s11.94096-26.669406 26.669406-26.669406l80.008218 0c14.728446 0 26.669406 11.94096 26.669406 26.669406S186.694541 545.332153 171.967118 545.332153z" fill="#181818" p-id="1995"></path><path d="M932.039054 545.332153l-80.008218 0c-14.728446 0-26.669406-11.94096-26.669406-26.669406s11.94096-26.669406 26.669406-26.669406l80.008218 0c14.728446 0 26.669406 11.94096 26.669406 26.669406S946.7675 545.332153 932.039054 545.332153z" fill="#181818" p-id="1996"></path></svg>');   
+    }
+  function setnighttheme(){
+    $('#daytheme').empty();
+    $('#daytheme').append('<svg t="1678433887828" class="icon" viewBox="0 0 1064 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2693" width="22" height="22"><path d="M471.36768 34.57024c58.90048-7.45472 84.45952 57.63072 58.08128 96.17408a276.48 276.48 0 0 0 384.28672 384.28672c38.54336-26.37824 103.6288-0.8192 96.17408 58.08128C979.84512 810.06592 777.6256 993.28 532.48 993.28c-265.8304 0-481.28-215.4496-481.28-481.28C51.2 266.89536 234.41408 64.63488 471.36768 34.57024z m-69.38624 121.6512A379.0848 379.0848 0 0 0 153.6 512 378.88 378.88 0 0 0 532.48 890.88a379.0848 379.0848 0 0 0 355.81952-248.38144A378.88 378.88 0 0 1 401.98144 156.18048z" fill="#ffffff" p-id="2694"></path><path d="M781.02528 93.51168a19.2512 19.2512 0 0 1 35.38944 0l28.672 65.9456c7.7824 17.85856 22.07744 32.11264 39.97696 39.89504l65.9456 28.71296a19.2512 19.2512 0 0 1 0 35.38944l-65.9456 28.672c-17.89952 7.7824-32.1536 22.07744-39.936 39.936l-28.71296 65.9456a19.2512 19.2512 0 0 1-35.38944 0l-28.672-65.9456a77.16864 77.16864 0 0 0-39.97696-39.89504l-65.9456-28.71296a19.2512 19.2512 0 0 1 0-35.38944l65.9456-28.672c17.89952-7.7824 32.1536-22.07744 39.936-39.936l28.71296-65.9456z" fill="#ffffff" p-id="2695"></path></svg>');     
+}
+
+if(getCookie("okstyle")==""){
+    setCookie('light');
+}
+
+if (getCookie("okstyle")=='light') {
+    document.body.style.backgroundColor='#FFF';
+    theme.href = "../public/css/ok_diy_light.css";
+    setdaytheme();
+    
+} else {
+    document.body.style.backgroundColor='#181818';
+    // document.body.setAttribute("style","background:#181818!important;");
+    theme.href = "../public/css/ok_diy_dark.css";
+    setnighttheme();
+}
+
+btn.addEventListener("click", function() {
+console.log(getCookie("okstyle"));
+var getstylevalue=getCookie("okstyle");
+if (getstylevalue=='light') {
+    theme.href = "../public/css/ok_diy_dark.css";
+    setnighttheme();
+    remove_stylecookie();
+    setCookie('dark');
+    
+} else {
+    theme.href = "../public/css/ok_diy_light.css";
+    setdaytheme();
+    remove_stylecookie();
+    setCookie('light');
+}
+});
+
+</script>
+
+<div id="index_oklogin1" class="uk-top-login">
+    <div id="top_login1" class="uk-top-icon">
+        <a href="https://id.openkylin.top/login?userAction=login&redirectUrl=https://www.openkylin.top" alt="用户登录" title="用户登录">
+        <svg t="1678861401267" class="icon" viewBox="0 0 1252 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5145" width="22" height="22"><path d="M1164.136052 546.068492h-143.393656a199.609195 199.609195 0 0 1-70.816241-4.544965 36.927843 36.927843 0 0 1-16.305063-19.884224l-1.619144-8.52181a35.166669 35.166669 0 0 1 29.400245-37.495963c16.049409 0 32.070411 0 48.11982-0.284061h159.698719c41.955711 0 74.395401-5.681207 80.729946 31.246637a31.587509 31.587509 0 0 1-4.033657 20.168283c-13.095181 25.56543-44.767908 19.316103-81.780969 19.316103z m60.135572-199.126293a125.838727 125.838727 0 0 1-29.655899 1.136242H878.71223a100.670982 100.670982 0 0 1-33.405495-2.840604 36.586971 36.586971 0 0 1-18.463921-19.600163c-0.710151-2.556543-1.420302-5.397146-2.130453-8.237749a34.996233 34.996233 0 0 1 28.406033-39.200326 131.179061 131.179061 0 0 1 28.065161-0.568121h337.293238a35.393917 35.393917 0 0 1 5.823237 69.310721z m-618.228906 233.213533A437.736971 437.736971 0 0 1 874.905822 982.669222a41.330778 41.330778 0 0 1-82.633151 0 354.223234 354.223234 0 0 0-344.621994-353.371053h-20.395532A354.223234 354.223234 0 0 0 82.633151 982.669222a41.330778 41.330778 0 0 1-82.633151 0 437.736971 437.736971 0 0 1 267.755269-402.51349 314.710442 314.710442 0 1 1 338.287449 0zM434.015781 83.902332a231.622795 231.622795 0 0 0-6.760636 463.018341h20.395532a231.622795 231.622795 0 0 0-13.634896-463.018341zM1040.797056 682.985572a162.596134 162.596134 0 0 1 66.81099-4.829026h66.697365c40.535409 0 69.594781-3.976845 75.645267 31.246637a32.922592 32.922592 0 0 1-4.033657 20.452343c-12.157782 23.292947-37.80843 19.032042-72.435385 19.032043h-79.224426a158.647695 158.647695 0 0 1-50.534333-3.124664 35.59276 35.59276 0 0 1-18.151455-19.316103l-2.158859-8.521809A35.905226 35.905226 0 0 1 1040.797056 682.985572z" fill="#181818" p-id="5146"></path></svg>
+        </a>
+    </div>
+    <div id="top_login2" class="uk-top-icon" onMouseEnter="showuser()" onMouseLeave="closeuser()">
+            <div id="okpersonal">
+        <!--		<div id="s_username"></div>-->
+            </div>
+            <ul id="okpersonallist">
+                <li><a href="https://id.openkylin.top/personal-center">个人中心</a></li>
+                <li><a onClick="removecookie()">退出登录</a></li>
+            </ul>
+    </div>
+</div>
+
+<div id="index_oklogin2" class="uk-top-login">
+    <div id="top_login3" class="uk-top-icon">
+        <a href="https://id.openkylin.top/login?lang=en&userAction=login&redirectUrl=https://www.openkylin.top/index-en.html" alt="User Login" title="User Login">
+        <svg t="1678861401267" class="icon" viewBox="0 0 1252 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5145" width="22" height="22"><path d="M1164.136052 546.068492h-143.393656a199.609195 199.609195 0 0 1-70.816241-4.544965 36.927843 36.927843 0 0 1-16.305063-19.884224l-1.619144-8.52181a35.166669 35.166669 0 0 1 29.400245-37.495963c16.049409 0 32.070411 0 48.11982-0.284061h159.698719c41.955711 0 74.395401-5.681207 80.729946 31.246637a31.587509 31.587509 0 0 1-4.033657 20.168283c-13.095181 25.56543-44.767908 19.316103-81.780969 19.316103z m60.135572-199.126293a125.838727 125.838727 0 0 1-29.655899 1.136242H878.71223a100.670982 100.670982 0 0 1-33.405495-2.840604 36.586971 36.586971 0 0 1-18.463921-19.600163c-0.710151-2.556543-1.420302-5.397146-2.130453-8.237749a34.996233 34.996233 0 0 1 28.406033-39.200326 131.179061 131.179061 0 0 1 28.065161-0.568121h337.293238a35.393917 35.393917 0 0 1 5.823237 69.310721z m-618.228906 233.213533A437.736971 437.736971 0 0 1 874.905822 982.669222a41.330778 41.330778 0 0 1-82.633151 0 354.223234 354.223234 0 0 0-344.621994-353.371053h-20.395532A354.223234 354.223234 0 0 0 82.633151 982.669222a41.330778 41.330778 0 0 1-82.633151 0 437.736971 437.736971 0 0 1 267.755269-402.51349 314.710442 314.710442 0 1 1 338.287449 0zM434.015781 83.902332a231.622795 231.622795 0 0 0-6.760636 463.018341h20.395532a231.622795 231.622795 0 0 0-13.634896-463.018341zM1040.797056 682.985572a162.596134 162.596134 0 0 1 66.81099-4.829026h66.697365c40.535409 0 69.594781-3.976845 75.645267 31.246637a32.922592 32.922592 0 0 1-4.033657 20.452343c-12.157782 23.292947-37.80843 19.032042-72.435385 19.032043h-79.224426a158.647695 158.647695 0 0 1-50.534333-3.124664 35.59276 35.59276 0 0 1-18.151455-19.316103l-2.158859-8.521809A35.905226 35.905226 0 0 1 1040.797056 682.985572z" fill="#181818" p-id="5146"></path></svg>
+        </a>
+    </div>
+    <div id="top_login4" class="uk-top-icon" onMouseEnter="showuser()" onMouseLeave="closeuser()">
+            <div id="okpersonal_2">
+        <!--		<div id="s_username"></div>-->
+            </div>
+            <ul id="okpersonallist_2">
+                <li><a href="https://id.openkylin.top/personal-center">Personal Center</a></li>
+                <li><a onClick="removecookie()">Log out</a></li>
+            </ul>
+    </div>
+</div>
+
+
+<style>
+    #index_oklogin1, #index_oklogin2{display:none}
+</style>
+<script type="text/javascript">
+var url = window.location.href;
+var strs = "";
+if (url.indexOf('-en.html') != -1|| url.indexOf('lang=en') != -1)
+{
+    document.getElementById('index_oklogin2').style.display = 'block';
+    document.getElementById('index_oklogin1').style.display = 'none';
+}
+else{	
+    document.getElementById('index_oklogin1').style.display = 'block';
+    document.getElementById('index_oklogin2').style.display = 'none';
+}
+function uksearch(){						
+if (url.indexOf('-en.html') != -1 || url.indexOf('lang=en') != -1)
+{
+   window.location.href="../search/index-en.html";
+}
+else{	
+   window.location.href="../search/";
+}
+}
+</script>
+
+</div>
+
+
+<script type="text/javascript">	
+//js获取cookie
+function getCookie(cname){
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0; i<ca.length; i++) {
+      var c = ca[i].trim();
+      if (c.indexOf(name)==0) { return c.substring(name.length,c.length); }
+  }
+  return "";
+}
+var getusername=getCookie("username");
+
+var getuavatar=getCookie("avatar");	
+if (getusername!="")
+{
+    $('#top_login1').css('display','none'); 
+    $('#top_login2').css('display','block'); 
+    $('#okpersonal').empty();		
+    $('#okpersonal').append("<img alt='"+getusername+"' title='"+getusername+"' id='okpersonal_img' src='"+decodeURIComponent(getuavatar)+"'/>");	
+    $('#top_login3').css('display','none'); 
+    $('#top_login4').css('display','block'); 
+    $('#okpersonal_2').empty();		
+    $('#okpersonal_2').append("<img alt='"+getusername+"' title='"+getusername+"' id='okpersonal_img' src='"+decodeURIComponent(getuavatar)+"'/>");	
+
+}
+else 
+{                    
+    $('#top_login1').css('display','block'); 
+    $('#top_login2').css('display','none'); 
+    $('#top_login3').css('display','block'); 
+    $('#top_login4').css('display','none');
+    $('#okpersonal').empty();
+    $('#okpersonal_2').empty();
+}
+
+
+function removecookie(){
+document.cookie = "username=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain= .openkylin.top";
+document.cookie = "token=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain= .openkylin.top";
+document.cookie = "phone=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain= .openkylin.top";
+document.cookie = "kylinID=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain= .openkylin.top";
+document.cookie = "avatar=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain= .openkylin.top";
+document.cookie = "username=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain= .openkylin.top";
+$('#top_login1').css('display','block'); 
+$('#top_login2').css('display','none'); 
+$('#top_login3').css('display','block'); 
+$('#top_login4').css('display','none'); 
+}	
+function showuser(){
+$('#okpersonallist').css('display','block'); 	
+$('#okpersonallist_2').css('display','block'); 	
+}
+function closeuser(){	
+$('#okpersonallist').css('display','none');	
+$('#okpersonallist_2').css('display','none');	
+}	
+</script>  
+
+
+
+                <div class="collapse navbar-collapse navbar-collapse-toolbar pull-md-right p-0" id='met-head-user-collapse'>
+                                        </div>
+
+                <div class="collapse navbar-collapse navbar-collapse-toolbar pull-md-right p-0" id="met-nav-collapse">
+                    <ul class="nav navbar-nav navlist">
+                        <!-- 导航栏  去掉"首页"模块 -->
+                        <!-- <li class='nav-item'>
+                            <a href="../index-en.html" title="Home" class="nav-link
+                                                            ">Home</a>
+                        </li> -->
+                                                                            <li class="nav-item-cus-head nav-item dropdown m-l-10">
+                            <!-- 不显示下拉菜单 -->
+                            <!--                                 <a
+                                href="../downloads/os-en.html"
+                                title="Downloads"
+                                target='_self'                                class="nav-link dropdown-toggle "
+                                data-toggle="dropdown" data-hover="dropdown"
+                            >
+                             -->
+                            <a href="../downloads/os-en.html" target='_self' title="Downloads" class="nav-link dropdown-toggle ">
+                            <span style=''>Downloads</span><span class="fa fa-angle-down p-l-5"></span></a>
+                                <!--								   <div class="dropdown-menu dropdown-menu-right animate animate-reverse">-->
+                            <div class="dropdown-menu dropdown-menu-right animate-reverse">
+                            
+                            <!-- 不显示下拉的二级、三级菜单 -->
+                            <!--                                                                                                         <a href="../downloads/os-en.html" target='_self' title="ISO download" class='dropdown-item '><span style=''>ISO download</span></a>
+                                                                                                                                    <a href="../downloads/mirrors-en.html" target='_self' title="Mirrors" class='dropdown-item '><span style=''>Mirrors</span></a>
+                                                                                                                                    <a href="https://www.ukui.org/index-en.html" target='_blank' title="UKUI" class='dropdown-item '><span style=''>UKUI</span></a>
+                                                                 -->
+                            </div>
+                        </li>
+                                                                                                    <li class="nav-item-cus-head nav-item dropdown m-l-10">
+                            <!-- 不显示下拉菜单 -->
+                            <!--                                 <a
+                                href="../news/list-news-en.html"
+                                title="Highlights"
+                                target='_self'                                class="nav-link dropdown-toggle "
+                                data-toggle="dropdown" data-hover="dropdown"
+                            >
+                             -->
+                            <a href="../news/list-news-en.html" target='_self' title="Highlights" class="nav-link dropdown-toggle ">
+                            <span style=''>Highlights</span><span class="fa fa-angle-down p-l-5"></span></a>
+                                <!--								   <div class="dropdown-menu dropdown-menu-right animate animate-reverse">-->
+                            <div class="dropdown-menu dropdown-menu-right animate-reverse">
+                            
+                            <!-- 不显示下拉的二级、三级菜单 -->
+                            <!--                                                                                                         <div class="dropdown-submenu">
+                                    <a href="../news/list-news-en.html" target='_self' class="dropdown-item active"><span style=''>News</span></a>
+                                    <div class="dropdown-menu animate animate-reverse">
+                                                                                    <a href="../news/list-64-en.html" target='_self' class="dropdown-item " ><span style=''>Version News</span></a>
+                                                                                    <a href="../news/list-65-en.html" target='_self' class="dropdown-item active" ><span style=''>Industry News</span></a>
+                                                                            </div>
+                                </div>
+                                                                                                                                    <div class="dropdown-submenu">
+                                    <a href="../dynamic/activity-en.html" target='_self' class="dropdown-item "><span style=''>Community activities</span></a>
+                                    <div class="dropdown-menu animate animate-reverse">
+                                                                                    <a href="../dynamic/747-en.html" target='_self' class="dropdown-item " ><span style=''>kylin_cup_12nd</span></a>
+                                                                            </div>
+                                </div>
+                                                                                                                                    <a href="https://task.openkylin.top" target='_blank' title="Community internships" class='dropdown-item '><span style=''>Community internships</span></a>
+                                                                                                                                    <a href="../dynamic/higher_education_zone-en.html" target='_self' title="Higher Education Zone" class='dropdown-item '><span style=''>Higher Education Zone</span></a>
+                                                                                                                                    <a href="https://forum.openkylin.top/portal.php" target='_self' title="Forum" class='dropdown-item '><span style=''>Forum</span></a>
+                                                                 -->
+                            </div>
+                        </li>
+                                                                                                    <li class="nav-item-cus-head nav-item dropdown m-l-10">
+                            <!-- 不显示下拉菜单 -->
+                            <!--                                 <a
+                                href="https://course.openkylin.top/document"
+                                title="Learning"
+                                target='_blank'                                class="nav-link dropdown-toggle "
+                                data-toggle="dropdown" data-hover="dropdown"
+                            >
+                             -->
+                            <a href="https://course.openkylin.top/document" target='_blank' title="Learning" class="nav-link dropdown-toggle ">
+                            <span style=''>Learning</span><span class="fa fa-angle-down p-l-5"></span></a>
+                                <!--								   <div class="dropdown-menu dropdown-menu-right animate animate-reverse">-->
+                            <div class="dropdown-menu dropdown-menu-right animate-reverse">
+                            
+                            <!-- 不显示下拉的二级、三级菜单 -->
+                            <!--                                                                                                         <a href="https://course.openkylin.top/document" target='_blank' title="Course" class='dropdown-item '><span style=''>Course</span></a>
+                                                                                                                                    <a href="https://docs.openkylin.top/en/home" target='_blank' title="Docs" class='dropdown-item '><span style=''>Docs</span></a>
+                                                                 -->
+                            </div>
+                        </li>
+                                                                                                    <li class="nav-item-cus-head nav-item dropdown m-l-10">
+                            <!-- 不显示下拉菜单 -->
+                            <!--                                 <a
+                                href="../community/aboutus-en.html"
+                                title="Community"
+                                target='_self'                                class="nav-link dropdown-toggle "
+                                data-toggle="dropdown" data-hover="dropdown"
+                            >
+                             -->
+                            <a href="../community/aboutus-en.html" target='_self' title="Community" class="nav-link dropdown-toggle ">
+                            <span style=''>Community</span><span class="fa fa-angle-down p-l-5"></span></a>
+                                <!--								   <div class="dropdown-menu dropdown-menu-right animate animate-reverse">-->
+                            <div class="dropdown-menu dropdown-menu-right animate-reverse">
+                            
+                            <!-- 不显示下拉的二级、三级菜单 -->
+                            <!--                                                                                                         <a href="../community/aboutus-en.html" target='_self' title="About us" class='dropdown-item '><span style=''>About us</span></a>
+                                                                                                                                    <a href="https://mailweb.openkylin.top/postorius/lists/" target='_self' title="Mailweb" class='dropdown-item '><span style=''>Mailweb</span></a>
+                                                                                                                                    <a href="../community/720-en.html" target='_self' title="Points system" class='dropdown-item '><span style=''>Points system</span></a>
+                                                                                                                                    <a href="../community/contribution-en.html" target='_self' title="Contribution strategy" class='dropdown-item '><span style=''>Contribution strategy</span></a>
+                                                                                                                                    <a href="https://cla.openkylin.top/?language=en" target='_blank' title="CLA" class='dropdown-item '><span style=''>CLA</span></a>
+                                                                                                                                    <a href="../community/partner-en.html" target='_self' title="Join member" class='dropdown-item '><span style=''>Join member</span></a>
+                                                                                                                                    <a href="https://datastat.openkylin.top/index?lang=en" target='_blank' title="Datastat" class='dropdown-item '><span style=''>Datastat</span></a>
+                                                                                                                                    <div class="dropdown-submenu">
+                                    <a href="../community/875-en.html" target='_self' class="dropdown-item "><span style=''>OKUG</span></a>
+                                    <div class="dropdown-menu animate animate-reverse">
+                                                                                    <a href="../community/okug_intro-en.html" target='_self' class="dropdown-item " ><span style=''>okug_intro</span></a>
+                                                                                    <a href="../community/okug_detail-en.html" target='_self' class="dropdown-item " ><span style=''>okug_detail</span></a>
+                                                                            </div>
+                                </div>
+                                                                                                                                    <a href="../community/community-en.html" target='_self' title="Communication" class='dropdown-item '><span style=''>Communication</span></a>
+                                                                 -->
+                            </div>
+                        </li>
+                                                                                                    <li class="nav-item-cus-head nav-item dropdown m-l-10">
+                            <!-- 不显示下拉菜单 -->
+                            <!--                                 <a
+                                href="https://gitee.com/openkylin"
+                                title="Developers"
+                                target='_blank'                                class="nav-link dropdown-toggle "
+                                data-toggle="dropdown" data-hover="dropdown"
+                            >
+                             -->
+                            <a href="https://gitee.com/openkylin" target='_blank' title="Developers" class="nav-link dropdown-toggle ">
+                            <span style=''>Developers</span><span class="fa fa-angle-down p-l-5"></span></a>
+                                <!--								   <div class="dropdown-menu dropdown-menu-right animate animate-reverse">-->
+                            <div class="dropdown-menu dropdown-menu-right animate-reverse">
+                            
+                            <!-- 不显示下拉的二级、三级菜单 -->
+                            <!--                                                                                                         <a href="https://gitee.com/openkylin" target='_blank' title="Code repository" class='dropdown-item '><span style=''>Code repository</span></a>
+                                                                                                                                    <a href="https://sonarqube.openkylin.top" target='_blank' title="Sonarqube" class='dropdown-item '><span style=''>Sonarqube</span></a>
+                                                                                                                                    <a href="https://build.openkylin.top/" target='_blank' title="Build" class='dropdown-item '><span style=''>Build</span></a>
+                                                                                                                                    <a href="https://factory.openkylin.top/" target='_self' title="Factory" class='dropdown-item '><span style=''>Factory</span></a>
+                                                                                                                                    <a href="https://jenkins.openkylin.top/" target='_blank' title="Jenkins" class='dropdown-item '><span style=''>Jenkins</span></a>
+                                                                                                                                    <a href="https://weblate.openkylin.top/" target='_blank' title="Weblate" class='dropdown-item '><span style=''>Weblate</span></a>
+                                                                 -->
+                            </div>
+                        </li>
+                                                                                                    <li class="nav-item-cus-head nav-item dropdown m-l-10">
+                            <!-- 不显示下拉菜单 -->
+                            <!--                                 <a
+                                href="../support/adaptation-en.html"
+                                title="Supports"
+                                target='_self'                                class="nav-link dropdown-toggle "
+                                data-toggle="dropdown" data-hover="dropdown"
+                            >
+                             -->
+                            <a href="../support/adaptation-en.html" target='_self' title="Supports" class="nav-link dropdown-toggle ">
+                            <span style=''>Supports</span><span class="fa fa-angle-down p-l-5"></span></a>
+                                <!--								   <div class="dropdown-menu dropdown-menu-right animate animate-reverse">-->
+                            <div class="dropdown-menu dropdown-menu-right animate-reverse">
+                            
+                            <!-- 不显示下拉的二级、三级菜单 -->
+                            <!--                                                                                                         <a href="../support/adaptation-en.html" target='_self' title="Compatible adaptation" class='dropdown-item '><span style=''>Compatible adaptation</span></a>
+                                                                                                                                    <a href="../support/apply_user_group-en.html" target='_self' title="apply_user_group" class='dropdown-item '><span style=''>apply_user_group</span></a>
+                                                                                                                                    <a href="../support/876-en.html" target='_self' title="cookies" class='dropdown-item '><span style=''>cookies</span></a>
+                                                                                                                                    <a href="../patch/list-715-en.html" target='_self' title="Security vulnerabilities" class='dropdown-item '><span style=''>Security vulnerabilities</span></a>
+                                                                                                                                    <a href="../support/privacy_policy-en.html" target='_self' title="privacy_policy" class='dropdown-item '><span style=''>privacy_policy</span></a>
+                                                                                                                                    <a href="../support/disclaimer-en.html" target='_self' title="Disclaimer" class='dropdown-item '><span style=''>Disclaimer</span></a>
+                                                                 -->
+                            </div>
+                        </li>
+                                                                    </ul>
+						
+		
+						
+						
+						
+                    <div class="metlang m-l-15 pull-md-right">
+                                                                                                                <div class="met-langlist vertical-align" m-type="lang" m-id="lang">
+                            <div class="inline-block dropdown">
+                                                                                                                                                        <a href="https://www.openkylin.top/index-cn.html"       class="met-lang-other">
+                                                                                                                        <img src="../public/images/flag/china.gif" >
+                                        <!--    这里显示EN  -->                                  <span>中文(简体)</span>
+                                        </a>                                                                                                                                                                                                    </div>				
+									
+                        </div>
+                        			
+                    </div>
+		
+		
+                         
+		
+		
+		
+		
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <style>
+        .home-nav-expend-head {
+            height: auto;
+            position: absolute;
+            background: #F0F4FA;
+            padding-left: 15%;
+            width: 100%;
+            /* 下面某个元素设置为了101，所以需要再加一层 */
+            z-index: 105;
+        }
+        .home-nav-expend-title {
+            margin-right: 130px;
+            font-size: 28px;
+            margin-top: 35px;
+            font-weight: 500;
+        }
+        .home-nav-expend-data {
+            background: white;
+            flex: 1;
+            padding: 43px 60px;
+        }
+
+        .home-nav-expend-data-item {
+            width: 155px;
+        }
+        .expend-conten-item-title {
+            font-size: 18px;
+            margin-bottom: 24px;
+            font-weight: 550;
+        }
+        .expend-data-item {
+            display: flex;
+            flex-direction: column;
+        }
+        .expend-data-item > a, .expend-data-item > div > a {
+            color: #262626;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .expend-data-item > a:hover, .expend-data-item > div > a:hover {
+            color: #0C7BEB
+        }
+        @media screen and (max-width: 1300px) {
+            .home-nav-expend-head {
+                padding-left: 4%;
+            }
+            .home-nav-expend-title {
+                margin-right: 48px;
+            }
+        }
+        @media screen and (max-width: 1000px) {
+            .home-nav-expend-head {
+                padding-left: 2%;
+            }
+            .home-nav-expend-title {
+                margin-right: 48px;
+            }
+            .home-nav-expend-data-item {
+                width: 117px;
+            }
+        }
+    </style>
+    <div class="home-nav-expend-head o-flex">
+    
+    </div>
+</header>
+
+<!-- 移动端导航栏相关内容 -->
+<style>
+    .nav-mark {
+        position: fixed;
+        left: 0;
+        top: 0;
+        opacity: .5;
+        width: calc(100% - 550px);
+        height: 100%;
+        width: 100%;
+        background: #000;
+        display: none;
+        z-index: 119;
+    }
+    #nav-cus {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #F0F4FA;
+        width: 0;
+        overflow-y: auto;
+        z-index: 120;
+        padding: 30px 0 10px 0px;
+        height: 100%;
+        transition: width 0.2s ease-out;
+    }
+    .nav-cus-accordion {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 10px 10px 20px;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 13px;
+        transition: 0.4s;
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1.5;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .nav-cus-active,
+    .nav-cus-accordion:hover {
+        background-color: #f5f7fa;
+        
+    }
+
+    .nav-cus-panel {
+        box-sizing: border-box;
+        padding: 0 12px;
+        min-height: 0;
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        transition: height 0.2s ease-out;
+    }
+
+    /* 三级菜单：强制一行一项，避免 inline 挤在一起或竖排 */
+    .nav-cus-link {
+        display: block !important;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px 10px 8px 28px;
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1.5;
+    }
+</style>
+<div class="nav-mark"></div>
+<div id="nav-cus">
+</div>
+
+<script>
+window.__OK_NAV_DATA__ = {"nav_data_cn":[{"category":"下载","data":[{"title":"社区发行版","type":1,"data":[{"title":"openKylin 3.0 （x86）","link":"https://www.openkylin.top/downloads/index-cn.html#download","desc":"最新版本","isNew":true},{"title":"openKylin 2.0 SP2（x86）","link":"https://www.openkylin.top/downloads/index-cn.html#lts","desc":"稳定版本","highlight":true},{"title":"更多架构版本","link":"https://www.openkylin.top/downloads/index-cn.html#all-versions","desc":"更多架构系统镜像统一获取入口"}]},{"title":"衍生发行版","type":1,"data":[{"title":"衍生发行版","link":"https://www.openkylin.top/support/os_fork_intro.html","desc":"面向不同行业场景"}]},{"title":"镜像资源","type":1,"data":[{"title":"镜像站","link":"https://www.openkylin.top/downloads/mirrors-cn.html","desc":"全球多节点高速镜像源，加速系统镜像下载"},{"title":"应用镜像下载","link":"https://www.openkylin.top/support/docker_images.html","desc":"预装软件容器镜像、行业专用应用镜像集合"}]}],"quickLinks":[{"title":"openKylin 2.0 SP2（RISC-V）","link":"https://www.openkylin.top/downloads"},{"title":"openKylin 2.0 SP2（ARM）","link":"https://www.openkylin.top/downloads/download-smp.php?id=118"},{"title":"系统安装指南","link":"https://docs.openkylin.top/zh/1%E5%85%A5%E9%97%A8%E4%B8%8E%E5%8F%82%E4%B8%8E/1_3%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/01_openKylin%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/4_openKylin%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97"},{"title":"系统MD5校验码","link":"https://www.openkylin.top/md5.html"}]},{"category":"社区","data":[{"title":"关于社区","type":1,"data":[{"title":"社区介绍","link":"https://www.openkylin.top/community/aboutus-cn.html","desc":"了解openKylin开源社区","highlight":true},{"title":"社区架构","link":"https://www.openkylin.top/about","desc":"社区组织架构"},{"title":"数字看板","link":"https://datastat.openkylin.top/","desc":"贡献数据、活跃度与开发统计"},{"title":"社区案例集","link":"https://www.openkylin.top/community/community_caselist-cn.html","desc":"openKylin应用全景案例集"},{"title":"国际排名","link":"https://www.openkylin.top/international_ranking.html","desc":"全球开源项目榜单"},{"title":"行为守则","link":"https://www.openkylin.top/join/conduct-cn.html","desc":"社区成员交流、开发贡献统一行为规范"},{"title":"品牌指南","link":"https://www.openkylin.top/about/brand-cn.html","desc":"视觉物料规范与使用权限"}]},{"title":"社区交流","type":1,"data":[{"title":"社区论坛","link":"https://bbs.openkylin.top/","desc":"技术提问、经验分享、问题互助交流阵地"},{"title":"邮件列表","link":"https://mailweb.openkylin.top","desc":"开发者正式技术讨论、版本同步沟通渠道"},{"title":"社区交流","link":"https://www.openkylin.top/community/community-cn.html","desc":"汇聚用户与开发者多渠道社区交流阵地"}]},{"title":"社区组织","type":1,"data":[{"title":"SIG中心","link":"https://www.openkylin.top/sig/siglist-cn.html","desc":"专项兴趣小组介绍、加入途径"},{"title":"社区会员","link":"https://www.openkylin.top/community/partner-cn.html","desc":"社区会员权益、申请条件与会员专属服务"},{"title":"高校专区","link":"https://www.openkylin.top/dynamic/higher_education_zone-cn.html","desc":"高校开源人才培养、校园活动与合作通道"},{"title":"用户组","link":"https://www.openkylin.top/community/okug_intro.html","desc":"各地域/行业用户社群"}]},{"title":"贡献成长","type":1,"data":[{"title":"CLA签署","link":"https://cla.openkylin.top/","desc":"贡献代码前签署开源贡献许可协议入口"},{"title":"社区实习","link":"https://task.openkylin.top/","desc":"社区开源实习岗位、招募要求与成长路径"},{"title":"翻译平台","link":"https://weblate.openkylin.top/","desc":"文档、界面多语言翻译协作贡献平台"},{"title":"成长体系","link":"https://www.openkylin.top/community/pgs-cn.html","desc":"社区积分、等级、激励与贡献成长规则"}]}],"quickLinks":[{"title":"加入社区会员","link":"https://www.openkylin.top/community/partner-cn.html"},{"title":"创建/加入SIG组","link":"https://www.openkylin.top/sig/application-cn.html"},{"title":"社区贡献攻略地图","link":"https://www.openkylin.top/community/760-cn.html"},{"title":"社区积分商城","link":"https://id.openkylin.top/personal-center/point"},{"title":"技术全景案例集","link":"https://www.openkylin.top/community/community_caselist-cn.html"}]},{"category":"动态","data":[{"title":"社区资讯","type":1,"data":[{"title":"新闻动态","link":"https://www.openkylin.top/news","desc":"行业资讯 | 官方公告","highlight":true},{"title":"社区月刊","link":"https://www.openkylin.top/dynamic/activity-cn.html?type=8","desc":"社区进展 | 技术干货合集"},{"title":"活动日历","link":"https://www.openkylin.top/dynamic/schedules.html","desc":"线上线下活动排期"}]},{"title":"社区活动","type":1,"data":[{"title":"会员沙龙","link":"https://www.openkylin.top/dynamic/activity-cn.html?type=4","desc":"线上线下技术交流分享会"},{"title":"高校沙龙","link":"https://www.openkylin.top/dynamic/activity-cn.html?type=3","desc":"校园科普、技术分享"},{"title":"开发者大赛/活动","link":"https://www.openkylin.top/dynamic/activity-cn.html?type=2","desc":"技术挑战与创意开发赛事"},{"title":"版本共测","link":"https://www.openkylin.top/dynamic/activity-cn.html?type=5","desc":"体验并反馈新版本系统问题"},{"title":"用户组活动","link":"https://www.openkylin.top/community/okug_intro.html","desc":"用户组线下交流聚会信息"}]},{"title":"品牌赛事","type":1,"data":[{"title":"研究生大赛","link":"https://www.openkylin.top/dynamic/gsosc2.html","desc":"面向高校研究生的操作系统创新开发赛事","isNew":true},{"title":"麒麟杯大赛","link":"https://www.openkylin.top/dynamic/activity-cn.html","desc":"openKylin官方核心开源技术创新竞赛"},{"title":"文档征集活动","link":"https://www.openkylin.top/community/docs_collection.html","desc":"开源文档、教程稿件征集与奖励活动"},{"title":"开放原子大赛","link":"https://www.openkylin.top/community/openAtom_openKylin_2025.html","desc":"联合开放原子开源基金会联合赛事通道","isNew":true},{"title":"Godot X openKylin","link":"https://www.openkylin.top/community/festival2025.html","desc":"游戏引擎适配开发专项创意赛事"}]},{"title":"行业大会","type":1,"data":[{"title":"开发者大会","link":"https://www.openkylin.top/ssr/devcon2025","desc":"openKylin年度顶级开发者技术峰会"},{"title":"往届大会回顾","link":"https://www.openkylin.top/dynamic/activity-cn.html","desc":"历年大会详情"}]}],"quickLinks":[{"title":"近期活动日历","link":"https://www.openkylin.top/dynamic/schedules.html"},{"title":"热门赛事报名","link":"https://www.openkylin.top/dynamic/activity-cn.html"},{"title":"最新社区月刊","link":"https://www.openkylin.top/dynamic/activity-cn.html?type=8"},{"title":"大会直播/回放","link":"https://www.openkylin.top/ssr/devcon2025"}]},{"category":"学习","data":[{"title":"学习资源","type":1,"data":[{"title":"在线课程","link":"https://course.openkylin.top/","desc":"系统入门、开发实操系列免费视频教学课程","highlight":true},{"title":"文档中心","link":"https://docs.openkylin.top/","desc":"安装运维、开发适配全流程官方技术文档库"}]},{"title":"人才认证","type":1,"data":[{"title":"社区人才认证","link":"https://www.openkylin.top/community/talent_certification.html","desc":"openKylin技能等级考核、证书申领通道"}]}],"quickLinks":[{"title":"新手入门文档","link":"https://docs.openkylin.top/"},{"title":"精品课程合集","link":"https://course.openkylin.top/"},{"title":"人才认证入口","link":"https://www.openkylin.top/community/talent_certification.html"}]},{"category":"开发","data":[{"title":"开发规范","type":1,"data":[{"title":"开发/打包规范","link":"https://docs.openkylin.top/zh/1%E5%85%A5%E9%97%A8%E4%B8%8E%E5%8F%82%E4%B8%8E/1_5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E5%B9%B3%E5%8F%B0%E6%8C%87%E5%8D%97/%E5%BC%80%E5%8F%91%E8%80%85%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/openKylin%E6%89%93%E5%8C%85%E6%8C%87%E5%8D%97","desc":"源码开发、软件包打包统一标准","highlight":true}]},{"title":"开发平台","type":1,"data":[{"title":"软件包编译平台","link":"https://build.openkylin.top/","desc":"在线构建、编译各类openKylin软件包工具"},{"title":"发行构建平台","link":"https://factory.openkylin.top/","desc":"定制系统发行版、镜像一键构建服务平台"},{"title":"持续集成平台","link":"https://jenkins.openkylin.top/","desc":"代码自动构建、测试、交付CI流水线平台"}]},{"title":"代码资源","type":1,"data":[{"title":"代码托管平台","link":"https://gitee.com/openkylin","desc":"社区全量源码仓库，代码提交与协作托管入口"},{"title":"第三方开源组件库","link":"https://eps-server.openkylin.top/","desc":"系统集成第三方开源组件清单与源码资源"},{"title":"安全漏洞公告与反馈","link":"https://www.openkylin.top/support/patch-cn.html","desc":"安全风险公示、漏洞提交上报通道"}]}],"quickLinks":[{"title":"开发者工具合集","link":"https://docs.openkylin.top/"},{"title":"安全漏洞提交入口","link":"https://www.openkylin.top/support/patch-cn.html"},{"title":"快速提交Issue/PR","link":"https://gitee.com/openkylin"}]},{"category":"支持","data":[{"title":"技术支持","type":1,"data":[{"title":"兼容适配","link":"https://www.openkylin.top/support/","desc":"硬件、软件兼容列表与适配对接咨询通道","highlight":true},{"title":"常见问题","link":"https://docs.openkylin.top/zh/1%E5%85%A5%E9%97%A8%E4%B8%8E%E5%8F%82%E4%B8%8E/1_6%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/FAQ","desc":"系统安装、使用、开发高频问题汇总解答"}]},{"title":"协议与声明","type":1,"data":[{"title":"软件上架协议","link":"https://www.openkylin.top/support/disclaimer-cn.html","desc":"第三方应用上架应用商店规范与权责条款"},{"title":"贡献协议","link":"https://cla.openkylin.top/","desc":"代码、文档贡献CLA签署规范与权益说明"},{"title":"隐私政策声明","link":"https://www.openkylin.top/support/privacy_policy-cn.html","desc":"社区平台用户信息收集、使用保护规则"},{"title":"法律声明","link":"https://www.openkylin.top/support/legal-cn.html","desc":"开源版权、商标使用相关官方法律说明文件"}]}],"quickLinks":[{"title":"兼容适配申请","link":"https://www.openkylin.top/support/"},{"title":"常见问题FAQ","link":"https://docs.openkylin.top/zh/1%E5%85%A5%E9%97%A8%E4%B8%8E%E5%8F%82%E4%B8%8E/1_6%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/FAQ"}]}],"nav_data_en":[{"category":"Downloads","data":[{"title":"ISO Downloads","type":1,"data":[{"title":"openKylin 3.0  (x86)","link":"https://www.openkylin.top/downloads/os-en.html#download","desc":"news release","isNew":true},{"title":"openKylin 2.0 SP2 (x86)","link":"https://www.openkylin.top/downloads/os-en.html#lts","desc":"Latest stable release","highlight":true,"isNew":true},{"title":"More Architectures","link":"https://www.openkylin.top/downloads/os-en.html#all-versions","desc":"Unified entry for multi-arch images"}]},{"title":"Derivative Distribution","type":1,"data":[{"title":"Derivative Distribution","link":"https://www.openkylin.top/support/os_fork_intro.html","desc":"for different industry scenarios"}]},{"title":"Mirror Resources","type":1,"data":[{"title":"Mirror Sites","link":"https://www.openkylin.top/downloads/mirrors-en.html","desc":"Global high-speed mirrors for image downloads"},{"title":"App Images","link":"https://www.openkylin.top/support/docker_images.html","desc":"Container and industry application images"}]}],"quickLinks":[{"title":"openKylin 2.0 SP2 (RISC-V)","link":"https://www.openkylin.top/downloads/index-en.html"},{"title":"openKylin 2.0 SP2 (ARM)","link":"https://www.openkylin.top/downloads/index-en.html"},{"title":"Installation Guide","link":"https://docs.openkylin.top/en/home"},{"title":"MD5 Checksums","link":"https://www.openkylin.top/md5.html"}]},{"category":"Community","data":[{"title":"Overview","type":1,"data":[{"title":"About Us","link":"https://www.openkylin.top/community/aboutus-en.html","desc":"Learn about the openKylin community","highlight":true},{"title":"Structure","link":"https://www.openkylin.top/about/architecture-en.html","desc":"Community organization structure"},{"title":"Metrics","link":"https://datastat.openkylin.top/index?lang=en","desc":"Contribution and activity statistics"},{"title":"Trademark","link":"https://www.openkylin.top/about/brand-en.html","desc":"Brand guidelines and usage"},{"title":"Conduct","link":"https://www.openkylin.top/join/conduct-en.html","desc":"Community code of conduct"}]},{"title":"Exchange","type":1,"data":[{"title":"Community Forum","link":"https://bbs.openkylin.top/","desc":"Q&A, sharing and mutual help"},{"title":"Mailing List","link":"https://mailweb.openkylin.top","desc":"Developer discussion and release sync"},{"title":"Exchange","link":"https://www.openkylin.top/community/openkylin-en.html","desc":"Multi-channel community communication"}]},{"title":"Organization","type":1,"data":[{"title":"SIG Center","link":"https://www.openkylin.top/sig/siglist-en.html","desc":"Special interest groups and how to join"}]},{"title":"Contribute & Grow","type":1,"data":[{"title":"CLA","link":"https://cla.openkylin.top/?language=en","desc":"Sign CLA before contributing code"},{"title":"Internships","link":"https://task.openkylin.top/","desc":"Open-source internship opportunities"},{"title":"Translation","link":"https://weblate.openkylin.top/","desc":"Docs and UI localization platform"},{"title":"Growth","link":"https://www.openkylin.top/community/720-en.html","desc":"Points, levels and contribution growth"}]}],"quickLinks":[{"title":"Join as Member","link":"https://www.openkylin.top/community/aboutus-en.html"},{"title":"Create / Join SIG","link":"https://www.openkylin.top/sig/application-en.html"},{"title":"Contribution Guide","link":"https://www.openkylin.top/community/contribution-en.html"},{"title":"Points Mall","link":"https://id.openkylin.top/personal-center/point"}]},{"category":"Highlights","data":[{"title":"News","type":1,"data":[{"title":"News","link":"https://www.openkylin.top/news/list-news-en.html","desc":"Industry updates & official announcements","highlight":true},{"title":"Higher Education","link":"https://www.openkylin.top/dynamic/higher_education_zone-en.html","desc":"Campus programs and collaboration"}]},{"title":"Activity","type":1,"data":[{"title":"Member Salon","link":"https://www.openkylin.top/dynamic/activity-en.html?type=4","desc":"Online & offline tech sharing"},{"title":"University Salon","link":"https://www.openkylin.top/dynamic/activity-en.html?type=3","desc":"Campus tech talks and outreach"},{"title":"Devs","link":"https://www.openkylin.top/dynamic/activity-en.html?type=2","desc":"Developer challenges and events"},{"title":"Version Co-Testing","link":"https://www.openkylin.top/dynamic/activity-en.html?type=5","desc":"Try new releases and give feedback"},{"title":"User Group","link":"https://www.openkylin.top/community/okug_intro-en.html","desc":"Local user group meetups"}]},{"title":"Competition","type":1,"data":[{"title":"Kylin Competition","link":"https://www.openkylin.top/dynamic/activity-en.html","desc":"Official open-source innovation contest","isNew":true},{"title":"OpenAtom Competition","link":"https://www.openkylin.top/community/openAtom_openKylin_3rd.html","desc":"Joint competition with OpenAtom Foundation","isNew":true}]},{"title":"Exchange","type":1,"data":[{"title":"Community Forum","link":"https://bbs.openkylin.top/","desc":"Community discussion hub"},{"title":"Mailing List","link":"https://mailweb.openkylin.top","desc":"Mailing list for developers"}]}],"quickLinks":[{"title":"Activity Calendar","link":"https://www.openkylin.top/dynamic/activity-en.html"},{"title":"Hot Competitions","link":"https://www.openkylin.top/dynamic/activity-en.html"}]},{"category":"Learning","data":[{"title":"Learning Resources","type":1,"data":[{"title":"Course","link":"https://course.openkylin.top/","desc":"Free video courses for beginners and developers","highlight":true},{"title":"Docs","link":"https://docs.openkylin.top/en/home","desc":"Official docs for install, ops and development"}]}],"quickLinks":[{"title":"Getting Started Docs","link":"https://docs.openkylin.top/en/home"},{"title":"Featured Courses","link":"https://course.openkylin.top/"}]},{"category":"Developers","data":[{"title":"Rules","type":1,"data":[{"title":"Dev / Packaging Guide","link":"https://docs.openkylin.top/en/home","desc":"Standards for source development and packaging","highlight":true}]},{"title":"Platforms","type":1,"data":[{"title":"Build","link":"https://build.openkylin.top/","desc":"Online package build and compile tools"},{"title":"Factory","link":"https://factory.openkylin.top/","desc":"Custom distro and image build platform"},{"title":"Jenkins","link":"https://jenkins.openkylin.top/","desc":"CI pipeline for build, test and delivery"}]},{"title":"Code Resources","type":1,"data":[{"title":"Gitee","link":"https://gitee.com/openkylin","desc":"Community source repositories"},{"title":"Security Hole","link":"https://www.openkylin.top/support/patch-cn.html","desc":"Security advisories and vulnerability reports"}]}],"quickLinks":[{"title":"Developer Tools","link":"https://docs.openkylin.top/en/home"},{"title":"Security Report","link":"https://www.openkylin.top/support/patch-cn.html"},{"title":"Submit Issue / PR","link":"https://gitee.com/openkylin"}]},{"category":"Supports","data":[{"title":"Technical Support","type":1,"data":[{"title":"Adaptation","link":"https://www.openkylin.top/support/index-en.html","desc":"Hardware/software compatibility and consulting","highlight":true},{"title":"FAQ","link":"https://docs.openkylin.top/zh/1%E5%85%A5%E9%97%A8%E4%B8%8E%E5%8F%82%E4%B8%8E/1_6%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/FAQ","desc":"Common install, usage and development questions"}]},{"title":"Agreements & Declarations","type":1,"data":[{"title":"Disclaimer","link":"https://www.openkylin.top/support/disclaimer-en.html","desc":"App store listing terms and responsibilities"},{"title":"CLA","link":"https://cla.openkylin.top/?language=en","desc":"Contribution license agreement"},{"title":"Privacy Policy","link":"https://www.openkylin.top/support/privacy_policy-en.html","desc":"User data collection and protection rules"},{"title":"Legal","link":"https://www.openkylin.top/support/legal-en.html","desc":"Copyright and trademark legal notices"}]}],"quickLinks":[{"title":"Adaptation Request","link":"https://www.openkylin.top/support/index-en.html"},{"title":"FAQ","link":"https://docs.openkylin.top/zh/1%E5%85%A5%E9%97%A8%E4%B8%8E%E5%8F%82%E4%B8%8E/1_6%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/FAQ"}]}],"nav_data_zh":[]};
+window.__OK_NAV_TS__ = 1793610849;
+(function () {
+    var NAV_V1_NEW_ICON = 'https://www.openkylin.top/public/images/openkylin/%E5%9B%BE%E6%A0%87/Tab%E6%A0%8F/%E7%81%AB%E8%8A%B11.png';
+    var NAV_V1_QUICK_TITLE = { cn: '快捷链接', en: 'Quick Links', zh: '快捷連結' };
+    var NAV_API_URL = 'https://id.openkylin.top/prod-api/items/list/public?type=navMenu&pageSize=10';
+    // 顶栏栏目名（CMS）与接口 category 可能中英混用，统一别名匹配
+    var NAV_CATEGORY_ALIASES = [
+        ['下载', 'Downloads', '下載'],
+        ['社区', 'Community', '社區'],
+        ['动态', 'Highlights', '動態'],
+        ['学习', 'Learning', '學習'],
+        ['开发', 'Developers', '開發'],
+        ['支持', 'Supports', 'Support', '支援']
+    ];
+    var navLeaveTimer = null;
+
+    function getLang() {
+        if (typeof M !== 'undefined' && M.lang) return M.lang;
+        var url = window.location.href || '';
+        if (url.indexOf('-en.html') !== -1 || url.indexOf('lang=en') !== -1) return 'en';
+        if (url.indexOf('-zh.html') !== -1 || url.indexOf('lang=zh') !== -1) return 'zh';
+        return 'cn';
+    }
+
+    function getNavLangData() {
+        var data = window.__OK_NAV_DATA__ || {};
+        var lang = getLang();
+        if (lang === 'cn') return data.nav_data_cn || [];
+        if (lang === 'en') return data.nav_data_en || [];
+        return data.nav_data_zh || [];
+    }
+
+    function getQuickTitle() {
+        return NAV_V1_QUICK_TITLE[getLang()] || NAV_V1_QUICK_TITLE.cn;
+    }
+
+    function normalizeCategory(name) {
+        return String(name || '').replace(/\s+/g, ' ').trim();
+    }
+
+    function categoriesMatch(a, b) {
+        a = normalizeCategory(a);
+        b = normalizeCategory(b);
+        if (!a || !b) return false;
+        if (a === b) return true;
+        var al = a.toLowerCase();
+        var bl = b.toLowerCase();
+        if (al === bl) return true;
+        for (var i = 0; i < NAV_CATEGORY_ALIASES.length; i++) {
+            var aliases = NAV_CATEGORY_ALIASES[i];
+            var hitA = false;
+            var hitB = false;
+            for (var j = 0; j < aliases.length; j++) {
+                var alias = aliases[j];
+                var aliasLower = alias.toLowerCase();
+                if (a === alias || al === aliasLower) hitA = true;
+                if (b === alias || bl === aliasLower) hitB = true;
+            }
+            if (hitA && hitB) return true;
+        }
+        return false;
+    }
+
+    function findNavItemByCategory(category) {
+        var langData = getNavLangData();
+        var i;
+        for (i = 0; i < langData.length; i++) {
+            if (categoriesMatch(langData[i].category, category)) return langData[i];
+        }
+        // 当前语言数据 category 未翻时，用中文数据定位下标再取同语言项
+        var cn = (window.__OK_NAV_DATA__ || {}).nav_data_cn || [];
+        for (i = 0; i < cn.length; i++) {
+            if (categoriesMatch(cn[i].category, category) && langData[i]) return langData[i];
+        }
+        return null;
+    }
+
+    function getTopMenuTitle($li) {
+        var $a = $li.children('a').first();
+        // MetInfo 常把栏目名包在 <span> 里，优先用 title；不要 children().remove() 否则会删掉标题
+        var title = ($a.attr('title') || '').replace(/\s+/g, ' ').trim();
+        if (title) return title;
+        var $clone = $a.clone();
+        $clone.find('.fa, .icon, [class*="angle"]').remove();
+        return String($clone.text() || '').replace(/\s+/g, ' ').trim();
+    }
+
+    function renderMobileNav() {
+        var html = '';
+        getNavLangData().forEach(function (item) {
+            html += '<div><div class="nav-cus-accordion nav-cus-toggle">> ' + (item.category || '') + '</div><div class="nav-cus-panel">';
+            (item.data || []).forEach(function (group) {
+                html += '<div class="nav-cus-accordion nav-cus-toggle">> ' + (group.title || '') + '</div><div class="nav-cus-panel">';
+                (group.data || []).forEach(function (link) {
+                    if (!link || !link.title) return;
+                    html += '<a class="nav-cus-accordion nav-cus-link" href="' + (link.link || '#') + '">' + link.title + '</a>';
+                });
+                html += '</div>';
+            });
+            html += '</div></div>';
+        });
+        return html;
+    }
+
+    function renderLinkItem(link) {
+        if (!link || link.title === '') return '';
+        var newIcon = link.isNew ? '<img src="' + NAV_V1_NEW_ICON + '" alt="new" />' : '';
+        var descHtml = link.desc ? '<span class="nav-v1-item-desc">' + link.desc + '</span>' : '';
+        return '<a class="nav-v1-item" href="' + (link.link || '#') + '" target="_blank"><span class="nav-v1-item-title">' + link.title + newIcon + '</span>' + descHtml + '</a>';
+    }
+
+    function handleNavRenderHead(category) {
+        if (typeof jQuery === 'undefined') return;
+        var $ = jQuery;
+        var html = '';
+        if (!category) {
+            $('.home-nav-expend-head').html('');
+            $('.nav-item-cus-head').removeClass('nav-v1-active');
+            return;
+        }
+        var item = findNavItemByCategory(category);
+        if (item) {
+            var hasQuick = Array.isArray(item.quickLinks) && item.quickLinks.length > 0;
+            html += '<div class="nav-v1-panel"><div class="nav-v1-cols">';
+            (item.data || []).forEach(function (group) {
+                var dualClass = group.type === 2 ? ' nav-v1-items--dual' : '';
+                var wideClass = group.type === 2 ? ' nav-v1-col--wide' : '';
+                html += '<div class="nav-v1-col' + wideClass + '"><div class="nav-v1-col-title">' + (group.title || '') + '</div><div class="nav-v1-items' + dualClass + '">';
+                (group.data || []).forEach(function (link) {
+                    html += renderLinkItem(link);
+                });
+                html += '</div></div>';
+            });
+            html += '</div>';
+            if (hasQuick) {
+                html += '<div class="nav-v1-divider"></div><div class="nav-v1-quick"><div class="nav-v1-col-title">' + getQuickTitle() + '</div>';
+                item.quickLinks.forEach(function (q) {
+                    if (!q || !q.title) return;
+                    html += '<a class="nav-v1-quick-item" href="' + (q.link || '#') + '" target="_blank">' + q.title + '</a>';
+                });
+                html += '</div>';
+            }
+            html += '</div>';
+        }
+        $('.home-nav-expend-head').html(html);
+    }
+
+    function clearNavLeaveTimer() {
+        if (navLeaveTimer) {
+            clearTimeout(navLeaveTimer);
+            navLeaveTimer = null;
+        }
+    }
+
+    function scheduleNavClose() {
+        clearNavLeaveTimer();
+        navLeaveTimer = setTimeout(function () {
+            handleNavRenderHead();
+        }, 120);
+    }
+
+    function bindMobileToggle() {
+        if (typeof jQuery === 'undefined') return;
+        var $ = jQuery;
+        var acc = document.getElementsByClassName('nav-cus-toggle');
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].onclick = function () {
+                this.classList.toggle('active');
+                var panel = this.nextElementSibling;
+                if (!panel) return;
+                if (panel.style.height) {
+                    panel.style.height = null;
+                } else {
+                    panel.style.height = panel.scrollHeight + 'px';
+                    if (this.parentNode) this.parentNode.style.height = 'auto';
+                }
+            };
+        }
+        $('.nav-mark').off('click.okNav').on('click.okNav', function () {
+            $('.nav-mark').css('display', 'none');
+            $('#nav-cus').css('width', '0');
+        });
+        $('.nav-cus-expend-button').off('click.okNav').on('click.okNav', function () {
+            $('.nav-mark').css('display', 'block');
+            $('#nav-cus').css('width', '230px');
+        });
+    }
+
+    function bindDesktopHover() {
+        if (typeof jQuery === 'undefined') return;
+        var $ = jQuery;
+        // 必须卸掉旧版 metinfo.js 无命名空间的 hover，否则会覆盖新菜单
+        $('.nav-item-cus-head').off('mouseenter mouseleave mouseenter.okNav mouseleave.okNav')
+            .on('mouseenter.okNav', function () {
+                clearNavLeaveTimer();
+                $('.nav-item-cus-head').removeClass('nav-v1-active');
+                $(this).addClass('nav-v1-active');
+                handleNavRenderHead(getTopMenuTitle($(this)));
+            })
+            .on('mouseleave.okNav', function () {
+                scheduleNavClose();
+            });
+        $('.home-nav-expend-head').off('mouseenter mouseleave mouseenter.okNav mouseleave.okNav')
+            .on('mouseenter.okNav', function () { clearNavLeaveTimer(); })
+            .on('mouseleave.okNav', function () { scheduleNavClose(); });
+    }
+
+    function applyOkNav() {
+        if (typeof jQuery === 'undefined') return;
+        if (!window.__OK_NAV_DATA__) return;
+        jQuery('#nav-cus').html(renderMobileNav());
+        bindMobileToggle();
+        bindDesktopHover();
+    }
+
+    function loadNavFromApi() {
+        return fetch(NAV_API_URL + '&_=' + Date.now(), { credentials: 'omit', cache: 'no-store' })
+            .then(function (res) {
+                if (!res.ok) throw new Error('nav api http ' + res.status);
+                return res.json();
+            })
+            .then(function (payload) {
+                var list = (payload && payload.list) || [];
+                var record = null;
+                for (var i = 0; i < list.length; i++) {
+                    if (list[i].name === '官网导航') {
+                        record = list[i];
+                        break;
+                    }
+                }
+                if (!record) record = list[0];
+                if (!record || record.status === 0) throw new Error('nav api empty');
+                var extra = typeof record.extra === 'string' ? JSON.parse(record.extra) : record.extra;
+                if (!extra || !Array.isArray(extra.nav_data_cn)) throw new Error('nav api invalid');
+                window.__OK_NAV_DATA__ = {
+                    nav_data_cn: extra.nav_data_cn || [],
+                    nav_data_en: extra.nav_data_en || [],
+                    nav_data_zh: extra.nav_data_zh || []
+                };
+            });
+    }
+
+    function boot() {
+        var ready = window.__OK_NAV_DATA__
+            ? Promise.resolve()
+            : loadNavFromApi().catch(function () { /* 保持空数据，避免阻断其它脚本 */ });
+
+        ready.then(function () {
+            applyOkNav();
+            // 覆盖可能被缓存的旧版 metinfo.js 异步写入/绑定
+            setTimeout(applyOkNav, 800);
+            setTimeout(applyOkNav, 2000);
+        });
+    }
+
+    if (typeof jQuery !== 'undefined') {
+        jQuery(boot);
+    } else {
+        document.addEventListener('DOMContentLoaded', boot);
+    }
+})();
+</script>
+
+        <div class="met-banner carousel slide" id="exampleCarouselDefault" data-ride="carousel" m-id='banner'  m-type='banner'>
+    <ol class="carousel-indicators carousel-indicators-fall">
+                    <li data-slide-to="0" data-target="#exampleCarouselDefault" class="    active"></li>
+            </ol>
+            <a class="left carousel-control" href="#exampleCarouselDefault" role="button" data-slide="prev">
+      <span class="icon" aria-hidden="true"><</span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#exampleCarouselDefault" role="button" data-slide="next">
+      <span class="icon" aria-hidden="true">></span>
+      <span class="sr-only">Next</span>
+    </a>
+        <div class="carousel-inner     " role="listbox">
+                    <div class="carousel-item     active">
+                                        <img class="w-full mobile_img" src="../upload/201909/1569637365.jpg" srcset='../upload/201909/1569637365.jpg 767w,../upload/201909/1569637365.jpg' sizes="(max-width: 767px) 767px" alt="新闻" pch="0" adh="0" iph="0">
+                    <img class="w-full pc_img" src="../upload/201909/1569637447.png" srcset='../upload/201909/1569637447.png 767w,../upload/201909/1569637447.png' sizes="(max-width: 767px) 767px" alt="新闻" pch="0" adh="0" iph="0">
+                                                            <div class="met-banner-text pc-content" met-imgmask>
+                        <div class='container'>
+                            <div class='met-banner-text-con p-4'>
+                                <div>
+                                    <div>
+                                                                                                                    <h3 class="animation-slide-top animation-delay-300 font-weight-500" style="color:;font-size: px;">新闻</h3>
+                                                                                                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                        <div class="met-banner-text mobile-content" met-imgmask>
+                        <div class='container'>
+                            <div class='met-banner-text-con p-4 '>
+                                <div>
+                                    <div>
+                                                                                                                    <h3 class="animation-slide-top animation-delay-300 font-weight-500" style="color:;font-size: px;">新闻</h3>
+                                                                                                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+            </div>
+</div>
+                        <section class="met-crumbs hidden-sm-down" m-id='met_position' m-type='nocontent'>
+    <div class="container">
+        <div class="row">
+            <div class="border-bottom clearfix">
+                <ol class="breadcrumb m-b-0 subcolumn-crumbs breadcrumb-arrow">
+                    <li class='breadcrumb-item'>
+                        你的位置                    </li>
+                    <li class='breadcrumb-item'>
+                        <a href="../" title="Home" class='icon wb-home'>Home</a>
+                    </li>
+                                                                            <li class='breadcrumb-item'>
+                            <a href="../news/list-news-en.html" title="Highlights" class=''>Highlights</a>
+                        </li>
+                                                                                        <li class='breadcrumb-item'>
+                            <a href="../news/list-news-en.html" title="News" class=''>News</a>
+                        </li>
+                                                                                        <li class='breadcrumb-item'>
+                            <a href="../news/list-65-en.html" title="Industry News" class=''>Industry News</a>
+                        </li>
+                                                        </ol>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+<style type="text/css">
+	
+.met-banner,.met-crumbs{display:none}
+.comm_banner{background: url(../public/images/cckylin/cc_news_banner.png) bottom center no-repeat;}
+#ky_app1,#ky_app2{display:none}	
+</style>
+
+<div class="comm_banner">
+	 <div class="container" id="ky_app1">
+		<h1>NEWS</h1>
+		<h2>新闻</h2>
+		<div class="divp">
+		<p>了解openKylin最新资讯，关注社区和产品动态。</p>
+		</div>
+	</div>
+	
+	 <div class="container" id="ky_app2">
+<!--		<h1>NEWS</h1>-->
+		<h2>NEWS</h2>
+		<div class="divp">
+		<p>Learn about the latest news.</p>
+		</div>
+	</div>
+</div>	
+
+
+ 
+   <script type="text/javascript">
+$(document).ready(function () {
+GetRequest();
+	//获取url中"?"符后的字串
+	function GetRequest() {
+		var url = window.location.href;
+		var strs = "";
+		if (url.indexOf('-en') != -1)
+		{
+			document.getElementById('ky_app2').style.display = 'block';
+			document.getElementById('ky_app1').style.display = 'none';
+			
+		}
+		else{
+			document.getElementById('ky_app1').style.display = 'block';
+			document.getElementById('ky_app2').style.display = 'none';
+			
+		}
+		
+	}
+});
+  </script>
+	
+<main class="met-shownews animsition">
+    <div class="container cc_shownews">
+        <div class="row">
+        <div class="clearfix">
+            <div class="met-shownews-body" m-id="noset">
+                <div class="row">
+                    <section class="details-title">
+                        <h1 class='m-t-10 m-b-5'>COSCon'26 | Call for Topics: AI-Native Open Source Operating System Forum</h1>
+                        <div class="info font-weight-300">
+                            <span>2026-10-22 09:59:03</span>
+
+                            <span>
+                                <i class="icon wb-eye m-r-5" aria-hidden="true"></i>
+                                <script type='text/javascript' class='met_hits' data-hits='115' src="../hits/?lang=en&type=news&vid=4183&list=0"></script>                            </span>
+                        </div>
+                    </section>
+                    <section class="met-editor clearfix">
+                        <div data-wechat-body="true" class="rich_media_content js_underline_content
+                       defaultNoSetting" style=""><section style="width:100%;max-width:100%;margin:0;padding:0;background:#ffffff;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;PingFang SC&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif;line-height:1.6;letter-spacing:1px"><section style="margin:0 0 18px;text-align:center"><span></span></section><section style="margin:0;padding:0"><section style="margin:16px auto"><section style="width:40%;height:8px;background:linear-gradient(to right,#ff8703,transparent);margin-bottom:-3px;box-sizing:border-box"><span><br></span></section><section style="background:#eef8ff;padding:15px 10px;box-sizing:border-box"><p style="margin:0px;color:rgb(51,51,51);font-size:14px;line-height:1.6;letter-spacing:1px;text-align:justify"><span>As one of the most influential open-source events in the industry, the China Open Source Conference COSCon'26 will be held on November 14-15 at the Hangzhou Cloud Valley Center. With the theme “Next Generation of Open Source,” this conference directly addresses the technological paradigm shift brought by AI, gathering forces from multiple sides to explore the development paths for next-generation open-source technology, talent, community, and business.</span></p></section><section style="width:40%;height:8px;background:linear-gradient(to left,#6ee1f7,transparent);margin-left:auto;margin-top:-3px;box-sizing:border-box"><span><br></span></section></section><section style="text-align:center"><img class="rich_pages wxw-img" data-aistatus="1" data-imgfileid="100028566" data-ratio="0.3481818181818182" data-s="300,640" data-type="png" data-w="2200" type="block" referrerpolicy="no-referrer" src="https://id.openkylin.top/upload/2026/10/22/ee6d8e2e-975a-469b-8208-16bfbee27d7b.png" alt="openKylin" title="openKylin"></section><p style="margin:17px 0px;color:rgb(38,50,56);font-size:14px;line-height:1.6;text-align:justify"><span>By</span><strong style="font-weight:700"><span>the OpenAtom openKylin (abbreviated as “openKylin”) community</span></strong><span>produced, the</span><strong style="font-weight:700"><span>“AI-Native Open Source Operating System Forum”</span></strong><span>call for proposals has been launched. The forum focuses on the all-scenario innovation of open-source operating systems under the AI wave, soliciting topics from industry-wide technical experts, open-source contributors, university researchers, and developers, to jointly explore the path of technological innovation and industrial implementation of open-source operating systems in the AI wave.</span></p><section style="width:100%;max-width:100%;margin:0;padding:0;background:#ffffff;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;PingFang SC&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif;line-height:1.6;letter-spacing:1px"><section style="margin:0;padding:0"><section style="margin:26px auto 16px;display:flex;justify-content:center"><section style="display:flex;flex-direction:column" data-pm-slice="4 3 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;width:100%;max-width:100%;margin:0;padding:0;background:#ffffff;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif;line-height:1.6;letter-spacing:1px&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:0;padding:0&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:26px auto 16px;display:flex;justify-content:center&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null}]"><section style="display:flex;justify-content:flex-start;z-index:2"><section style="width:34px;height:13px;background:linear-gradient(to right,#ff8a06,#ffe88f);margin-bottom:-8px;transform:skew(-15deg)"><span><br></span></section></section><section style="background:linear-gradient(to right,#6ce0f7,#1a5ee3);margin:0 7px;transform:skew(-15deg)"><section style="padding:7px 25px;transform:skew(15deg);box-sizing:border-box"><p style="margin:0px;color:rgb(255,255,255);font-size:16px;line-height:1.6;font-weight:700;text-align:center"><strong style="font-weight:700"><span>Call for proposals themes for this forum</span></strong></p></section></section><section style="width:40%;height:12px;border-bottom:1px solid rgb(109,225,247);border-right:7px solid rgb(109,225,247);margin-left:auto;margin-top:-8px;box-sizing:border-box;transform:skewX(-15deg);text-align:center"><span><br></span></section></section></section></section></section><section style="margin:0;padding:0;box-sizing:border-box"><section data-role="list" style="margin:0px;padding:0px;box-sizing:border-box;text-align:justify"><ul style="list-style-type:disc" class="list-paddingleft-1"><li style="margin:0px;padding:0px;color:rgb(23,32,51);font-size:18px;line-height:1.6"><span style="color:rgb(51,51,51);font-size:14px;line-height:1.6;font-family:微软雅黑,Arial,sans-serif"><span>Core underlying technologies of AI-native operating systems</span></span></li><li style="margin:0px;padding:0px;color:rgb(23,32,51);font-size:18px;line-height:1.6"><span style="color:rgb(51,51,51);font-size:14px;line-height:1.6;font-family:微软雅黑,Arial,sans-serif"><span>Intelligent Implementation Practice of Open-Source Operating Systems</span></span></li><li style="margin:0px;padding:0px;color:rgb(23,32,51);font-size:18px;line-height:1.6"><span style="color:rgb(51,51,51);font-size:14px;line-height:1.6;font-family:微软雅黑,Arial,sans-serif"><span>Software-Hardware Collaboration and Full-Scenario Ecosystem Co-Construction</span></span></li><li style="margin:0px;padding:0px;color:rgb(23,32,51);font-size:18px;line-height:1.6"><span style="color:rgb(51,51,51);font-size:14px;line-height:1.6;font-family:微软雅黑,Arial,sans-serif"><span>Community Governance, Talent Development, and Industry Trend Reflections</span></span></li></ul></section></section><p style="margin:17px 0px;color:rgb(38,50,56);font-size:14px;line-height:1.6;text-align:justify"><strong style="font-weight:700"><span>From now until October 31</span></strong><span>, openKylin sincerely invites you to submit a topic sharing for this forum. Scan the QR code below, select in the 【Topic】 dropdown &nbsp;</span><strong style="font-weight:700"><span>“AI-Native Open-Source Operating System Forum”</span></strong><span>&nbsp; to submit your application.</span></p><section style="margin:18px 0px;text-align:center;padding:8px;border:1px solid rgb(215,230,251);background:rgb(255,255,255)"><img alt="descript" class="rich_pages wxw-img" data-aistatus="1" data-backh="560" data-backw="560" data-ratio="1" data-w="1024" style="display:block;margin:0px auto;max-width:100%;border-radius:4px;width:193px;height:193px" referrerpolicy="no-referrer" src="https://id.openkylin.top/upload/2026/10/22/ea993c46-56b3-42c3-bc53-bb9786599ea1.png" title="openKylin"></section><section style="width:100%;max-width:100%;margin:0;padding:0;background:#ffffff;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;PingFang SC&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif;line-height:1.6;letter-spacing:1px"><section style="margin:0;padding:0"><section style="margin:26px auto 16px;display:flex;justify-content:center"><section style="display:flex;flex-direction:column" data-pm-slice="4 3 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;width:100%;max-width:100%;margin:0;padding:0;background:#ffffff;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif;line-height:1.6;letter-spacing:1px&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:0;padding:0&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:26px auto 16px;display:flex;justify-content:center&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null}]"><section style="display:flex;justify-content:flex-start;z-index:2"><section style="width:34px;height:13px;background:linear-gradient(to right,#ff8a06,#ffe88f);margin-bottom:-8px;transform:skew(-15deg)"><span><br></span></section></section><section style="background:linear-gradient(to right,#6ce0f7,#1a5ee3);margin:0 7px;transform:skew(-15deg)"><section style="padding:7px 25px;transform:skew(15deg);box-sizing:border-box"><p style="margin:0px;color:rgb(255,255,255);font-size:16px;line-height:1.6;font-weight:700;text-align:center"><strong style="font-weight:700"><span>Important Schedule</span></strong></p></section></section><section style="width:40%;height:12px;border-bottom:1px solid #6de1f7;border-right:7px solid #6de1f7;margin-left:auto;margin-top:-8px;box-sizing:border-box;transform:skewX(-15deg)"><span><br></span></section></section></section></section></section><section style="margin:0;padding:0;box-sizing:border-box"><ul style="list-style-type:disc" class="list-paddingleft-1"><li style="font-weight:normal"><section data-role="list" style="margin:0px;padding:0px;box-sizing:border-box;text-align:justify"><span style="color:rgb(51,51,51);font-size:14px;line-height:1.6;font-family:微软雅黑,Arial,sans-serif"><span><span style="font-weight:normal">Call for topics deadline: October 31, 2026</span></span></span><span style="color:rgb(51,51,51);font-size:14px;line-height:1.6;font-family:微软雅黑,Arial,sans-serif"><span><br></span></span></section></li><li style="font-weight:normal"><section data-role="list" style="margin:0px;padding:0px;box-sizing:border-box;text-align:justify"><span style="color:rgb(51,51,51);font-size:14px;line-height:1.6;font-family:微软雅黑,Arial,sans-serif"><span><span style="font-weight:normal">Full agenda announced: November 6, 2026</span></span></span></section></li></ul></section><section style="width:100%;max-width:100%;margin:0;padding:0;background:#ffffff;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;PingFang SC&quot;,&quot;Microsoft YaHei&quot;,Arial,sans-serif;line-height:1.6;letter-spacing:1px"><section style="margin:0;padding:0"><section style="margin:26px auto 16px;display:flex;justify-content:center"><section style="display:flex;flex-direction:column" data-pm-slice="4 3 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;width:100%;max-width:100%;margin:0;padding:0;background:#ffffff;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif;line-height:1.6;letter-spacing:1px&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:0;padding:0&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:26px auto 16px;display:flex;justify-content:center&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null}]"><section style="display:flex;justify-content:flex-start;z-index:2"><section style="width:34px;height:13px;background:linear-gradient(to right,#ff8a06,#ffe88f);margin-bottom:-8px;transform:skew(-15deg)"><span><br></span></section></section><section style="background:linear-gradient(to right,#6ce0f7,#1a5ee3);margin:0 7px;transform:skew(-15deg)"><section style="padding:7px 25px;transform:skew(15deg);box-sizing:border-box"><p style="margin:0px;color:rgb(255,255,255);font-size:16px;line-height:1.6;font-weight:700;text-align:center"><strong style="font-weight:700"><span>Topic Review Process</span></strong></p></section></section><section style="width:40%;height:12px;border-bottom:1px solid #6de1f7;border-right:7px solid #6de1f7;margin-left:auto;margin-top:-8px;box-sizing:border-box;transform:skewX(-15deg)"><span><br></span></section></section></section></section></section><p style="margin:17px 0px;color:rgb(38,50,56);font-size:14px;line-height:1.6;text-align:justify"><span>The openKylin community will organize a review committee to evaluate all submitted topics, and the review results will be communicated before November 6. Selected topics will be presented live at the "AI Native Open Source Operating System Forum"; high-quality topics that are not selected will be included in the community's technical discussion pool for ongoing technical exchanges.</span></p><p style="margin:17px 0px;color:rgb(38,50,56);font-size:14px;line-height:1.6;text-align:justify"><span>We sincerely invite partners deeply engaged in the fields of foundational software, AI, and open source to actively submit topics, share technical practices and cutting-edge insights on the stage of COSCon'26, and join hands to build an open-source operating system ecosystem in the AI era.</span></p></section></section></div>                    </section>
+                                                                        <div class='met-page met-shownews-footer border-top1' >
+                        <ul class="pagination block blocks-2 p-t-20">
+                            <li class='page-item m-b-0 '>
+                                <a href='    ../news/4185-en.html' target=_self title="Starting from BIT, Journeying alongside Global Open Source | openKylin International Youth Classroom" class='page-link text-truncate'>
+                                    Previous                                    <span aria-hidden="true" class='hidden-xs-down'>:     Starting from BIT, Journeying alongside Global Open Source | openKylin International Youth Classroom</span>
+                                </a>
+                            </li>
+                            <li class='page-item m-b-0 '>
+                                <a href='    ../news/4181-en.html' title="Unlocking RISC-V Multi-Scenario Implementation | openKylin Debuts at the 2026 China RISC-V Summit" target=_self class='page-link pull-xs-right text-truncate'>
+                                    Next                                    <span aria-hidden="true" class='hidden-xs-down'>:     Unlocking RISC-V Multi-Scenario Implementation | openKylin Debuts at the 2026 China RISC-V Summit</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<!--			侧边栏推荐-->
+<!--
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="met-bar" m-id="news_bar" m-type="nocontent">
+                                                        <ul class="column list-icons">
+                                                                    <li>
+                                        <a href="../news/list-news-en.html" title="News" class="active" target='_self'><h3 class="font-weight-300">News</h3></a>
+                                    </li>
+                                                                            <li class="met-bar-son">
+                                                                                            <a href="../news/list-64-en.html" title="Version News" class='' target='_self'>Version News</a>
+                                                                                    </li>
+                                                                            <li class="met-bar-son">
+                                                                                            <a href="../news/list-65-en.html" title="Industry News" class='active' target='_self'>Industry News</a>
+                                                                                    </li>
+                                                                                                </ul>
+                                                                                <div class="sidebar-news-list recommend">
+                                <h3 class=' font-weight-300 m-0'>为您推荐</h3>
+                                <ul class="list-group list-group-bordered m-t-10 m-b-0">
+                                                                        <li class="list-group-item">
+                                        <a href="../news/4203-en.html" title="No more digging through settings pages! The three-level recognition behind openKylin 3.0 system control." target=_self>No more digging through settings pages! The three-level recognition behind openKylin 3.0 system control.</a>
+                                    </li>
+                                                                        <li class="list-group-item">
+                                        <a href="../news/4201-en.html" title="openKylin Visits Shandong University to Jointly Explore Open Source Contributions and Practices" target=_self>openKylin Visits Shandong University to Jointly Explore Open Source Contributions and Practices</a>
+                                    </li>
+                                                                        <li class="list-group-item">
+                                        <a href="../news/4199-en.html" title="openKylin debuts at the 2026 Kylin Software Education and Healthcare Innovation Application Conference" target=_self>openKylin debuts at the 2026 Kylin Software Education and Healthcare Innovation Application Conference</a>
+                                    </li>
+                                                                        <li class="list-group-item">
+                                        <a href="../news/4197-en.html" title="Embodied intelligence ecosystem expansion! openKylin successfully adapted to the SpacemiT K3 chip" target=_self>Embodied intelligence ecosystem expansion! openKylin successfully adapted to the SpacemiT K3 chip</a>
+                                    </li>
+                                                                        <li class="list-group-item">
+                                        <a href="../news/4196-en.html" title="openKylin University Salon | Successfully Held at Shenyang Beiruan Information Vocational and Technical College" target=_self>openKylin University Salon | Successfully Held at Shenyang Beiruan Information Vocational and Technical College</a>
+                                    </li>
+                                                                    </ul>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+-->
+            </div>
+        </div>
+    </div>
+</main>
+<!-- <script src="../public/css/oktheme.js" type="text/javascript"></script> -->
+<!--<footer class='met-foot-info border-top1' m-id='met_foot' m-type="foot">-->
+<footer class='met-foot-info border-top1'  m-type="foot">
+<!--
+    <div class="met-footnav text-xs-center p-b-20" m-id='noset' m-type='foot_nav'>
+    <div class="container">
+        <div class="row mob-masonry">
+                        <div class="col-lg-3 col-md-12 col-xs-12 info masonry-item font-size-20" m-id='met_contact' m-type="nocontent">
+                                    <p class='font-size-26'>服务热线</p>
+                                                    <p><a href="tel:100-000-0000" title="100-000-0000">100-000-0000</a></p>
+                                                    <a class="p-r-5" id="met-weixin" data-plugin="webuiPopover" data-trigger="hover" data-animation="pop" data-placement='top' data-width='155' data-padding='0' data-content="<div class='text-xs-center'>
+                    <img src='../upload/201807/1554199135.jpg' alt='openKylin 开放麒麟社区官网 | 开源聚力，共创未来' width='150' height='150' id='met-weixin-img'></div>
+                ">
+                    <i class="fa fa-weixin light-green-700"></i>
+                </a>
+                                                    <a
+                                    href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"
+                                rel="nofollow" target="_blank" class="p-r-5">
+                    <i class="fa fa-qq"></i>
+                </a>
+                                                    <a href="" rel="nofollow" target="_blank" class="p-r-5">
+                    <i class="fa fa-weibo red-600"></i>
+                </a>
+                                                                                                            </div>
+        </div>
+    </div>
+</div>
+                            <div class="copy p-y-10 border-top1">
+        <div class="container text-xs-center">
+                                                                                          
+                                                                                                                                        </div>
+        </div>
+    </div>
+</footer>
+<div class="met-menu-list text-xs-center     " m-id="noset" m-type="menu">
+    <div class="main">
+            </div>
+</div>
+-->
+
+
+ <!-- openKylin 底部内容 -->
+    <div class="met-index-about met-index-body text-xs-center cc_kylin_foot" m-id="cc_foot_all" m-type="nocontent">
+                                    
+         <!--底部信息--><style type="text/css">.met-nav .nav-item .nav-link { padding-left: 10px;  padding-right: 10px;}
+@media (max-width:1400px){
+    .met-nav .nav-item .nav-link { padding-left: 5px;  padding-right: 5px;}
+}
+@media (max-width:1100px){
+    .met-nav .nav-item .nav-link { padding-left: 0px;  padding-right:0px;font-size: 1rem;}
+}</style><link rel="stylesheet" href="https://www.openkylin.top/public/css/ok_common_footer.css?t=20250103"/><div id="cc_kylin5" class="container"><div class="cc_kylin5_1"><ul class="cc_foot0_ul list-paddingleft-2"><li><a href="https://www.openkylin.top/community/605-en.html" style="text-align:center;" title=""><img src="../upload/202204/1649064526937615.png"/ alt="openKylin" title="openKylin">About Us</a></li><li><a href="../about/architecture-en.html" style="text-align:center;" title=""><img src="../upload/202204/1649064526719687.png"/ alt="openKylin" title="openKylin">Community Structure</a></li><li><a href="../about/brand-en.html" style="text-align:center;" title=""><img src="../upload/202204/1649064526499108.png"/ alt="openKylin" title="openKylin">Trademarks</a></li></ul><ul class="cc_foot1_ul list-paddingleft-2"><li style="text-align:center;"><img src="../upload/202205/1651915846948462.png"/ alt="openKylin" title="openKylin"><p>openkylin.top@gmail.com</p></li><li><a href="#" target="_blank" style="text-align:center;" title=""><img src="https://www.openkylin.top/upload/202111/16361887633757301.png"/ alt="openKylin" title="openKylin"></a><p>Contact K</p></li><li><a href="https://t.me/+IDEy9K5I42U3ZmY1" target="_blank" style="text-align:center;" title=""><img src="../upload/202406/1719481014912413.png"/ alt="openKylin" title="openKylin"></a><p>Telegram</p></li><!--<li><a href="https://www.tiktok.com/@openkylinofficial?is_from_webapp=1&sender_device=pc" target="_blank" style="text-align:center;" title=""><img src="../upload/202406/1719481040498761.png"/ alt="openKylin" title="openKylin"></a><p>TikTok</p></li>--><li><a href="https://www.linkedin.com/company/openkylin/" target="_blank" style="text-align:center;" title=""><img src="../upload/202406/1719481065429106.png"/ alt="openKylin" title="openKylin"></a><p>Linkedin</p></li><li><a href="https://www.youtube.com/channel/UChS8VuKObyh_xAv3BXX1VlQ" target="_blank" style="text-align:center;" title=""><img src="../upload/202406/1719481089934883.png"/ alt="openKylin" title="openKylin"></a><p>YouTube</p></li><li><a href="https://twitter.com/openkylin" target="_blank" style="text-align:center;" title=""><img src="../upload/202406/1719481110849673.png"/ alt="openKylin" title="openKylin"></a><p>Twitter</p></li></ul></div></div><div id="cc_kylin6"><div class="cc_kylin5_2 container"><ul class="cc_foot2_ul list-paddingleft-2"><li>Copyright@openKylin 2026 ICP No. <a href="https://beian.miit.gov.cn/" target="_blank" title=""> 2020036654-21 Beijing</a> <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1281118711'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1281118711%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></li><li style="text-align:center;"><img src="../public/images/beian.png"/ alt="openKylin" title="openKylin"><span>No.11030102011760</span></li><li><a href="../about/legal-en.html" title="">Disclaimers</a>｜<a href="../join/conduct-en.html" title="">Code of Conduct</a></li></ul></div></div><!-- 底部悬浮条，用户是否选择接受cookies  _cookies_accepted--><div class="cookie-notice" id="cookie-notice"><div class="cookie-notice-content"><div class="cookie-notice-wrap"><div class="cookie-notice-left"><p style="text-align: left;">openKylin Community Values Your Privacy</p><p style="text-align: left;">We use cookies on this website, including third-party cookies, to ensure proper functionality and enhance your browsing experience. By clicking &quot;Accept All&quot;, you consent to these purposes; clicking &quot;Reject All&quot; will refuse non-essential cookies; or select &quot;Manage Cookies&quot; to accept or reject specific cookies.To learn more or modify your cookie preferences at any time, please review our <a href="https://www.openkylin.top/support/cookies-en.html" target="_blank" title="">《About Cookies》</a> 。</p></div><div class="cookie-notice-right"><button onclick="cookiesSet(&#39;acceptAll&#39;)">Accept All</button><button onclick="cookiesSet(&#39;denyAll&#39;)">Reject All</button><button onclick="cookiesSet(&#39;customCookie&#39;)">Manage Cookies</button></div><!-- 右上角关闭关闭 --><div class="cookie-notice-close" onclick="handleCookieSetClose()"><svg data-v-024fdd0b="" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M18.528 5.472c0.246 0.246 0.271 0.63 0.074 0.903l-0.074 0.087-5.54 5.538 0.006 0.006-0.989 0.989-0.006-0.006-5.538 5.54c-0.273 0.273-0.717 0.273-0.99 0-0.246-0.246-0.271-0.63-0.074-0.903l0.074-0.087 5.538-5.539-5.538-5.538-0.074-0.087c-0.197-0.274-0.172-0.657 0.074-0.903s0.63-0.271 0.903-0.074l0.087 0.074 5.538 5.539 5.539-5.539c0.273-0.273 0.717-0.273 0.99 0zM14.551 13.561l3.978 3.978 0.074 0.087c0.197 0.274 0.172 0.657-0.074 0.903s-0.63 0.271-0.903 0.074l-0.087-0.074-3.978-3.978c-0.273-0.273-0.273-0.717 0-0.99v0c0.273-0.273 0.717-0.273 0.99 0z"></path></svg></div></div></div></div><!-- 管理cookies的弹窗 --><div id="dialogOverlay" class="dialog-overlay"><div class="cookie-modal"><span class="close-btn" onclick="handleCookieSetClose(&#39;dialog&#39;)"><svg data-v-024fdd0b="" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M18.528 5.472c0.246 0.246 0.271 0.63 0.074 0.903l-0.074 0.087-5.54 5.538 0.006 0.006-0.989 0.989-0.006-0.006-5.538 5.54c-0.273 0.273-0.717 0.273-0.99 0-0.246-0.246-0.271-0.63-0.074-0.903l0.074-0.087 5.538-5.539-5.538-5.538-0.074-0.087c-0.197-0.274-0.172-0.657 0.074-0.903s0.63-0.271 0.903-0.074l0.087 0.074 5.538 5.539 5.539-5.539c0.273-0.273 0.717-0.273 0.99 0zM14.551 13.561l3.978 3.978 0.074 0.087c0.197 0.274 0.172 0.657-0.074 0.903s-0.63 0.271-0.903 0.074l-0.087-0.074-3.978-3.978c-0.273-0.273-0.273-0.717 0-0.99v0c0.273-0.273 0.717-0.273 0.99 0z"></path></svg></span><div class="cookie-modal-title">Manage Cookies</div><div class="cookie-modal-title-2"><div>Essential Cookies</div><div class="cookie-modal-title-2-tip">Always Active</div></div><p style="text-align: left;">These cookies are fundamental for the website&#39;s basic functionality and cannot be disabled within this system. They are primarily used to process your service requests, such as account login or form submissions. While you may reject these cookies in your browser settings, please note that doing so may result in certain website features becoming unavailable. Important: These cookies do not store any personally identifiable information.</p><div class="cookie-modal-title-2"><div>Analytical Cookies</div><div class="cookie-modal-title-2-tip"><div class="switch" id="switch"></div></div></div><p style="text-align: left;">We only use and process these non-essential cookies with your explicit consent. These cookies help us collect aggregated statistics - such as visitor counts and traffic sources - to optimize and improve our website.</p><div class="cookie-modal-button"><button class="save" onclick="cookiesSet(&#39;saveCustom&#39;)">Save &amp; Accept</button><button class="accept-all" onclick="cookiesSet(&#39;acceptAll&#39;)">Accept All</button></div></div></div><script>// 加载百度统计
+    const loadBaiduStatistics = () => {
+        var _hmt = _hmt || [];
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?5fe21a7131356aee67c5e0c1240383b1";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    }
+
+
+    // 检测是否已经接受过cookies，如果没有接受则显示对话框
+    const cookiesAccepted = document.cookie.includes('_cookies_accepted');
+    if (!cookiesAccepted) {
+        document.getElementById('cookie-notice').style.display = 'block';
+    }else {
+        document.getElementById('cookie-notice').style.display = 'none';
+        // 判断是否选择是all，如果是all则加载百度统计
+        if(document.cookie.includes('_cookies_accepted=all')) {
+            loadBaiduStatistics()
+        }
+    }
+
+    // 切换开关的状态
+    const switchElement = document.getElementById('switch');
+        switchElement.addEventListener('click', () => {
+        switchElement.classList.toggle('active');
+    });
+
+    const handleSaveCookie = (value) => {
+        // 设置_cookies_accepted 值为all，时间设置为半年，作用于为当前根域名
+        let expries = new Date();
+        expries.setTime(expries.getTime() + 1000 * 60 * 60 * 24 * 182);
+        let path = "/";
+        // 如果domain含有 www 则去掉, 作用域为当前根域名, 如 www.openkylin.top 设置为 .openkylin.top
+        let domain = window.location.hostname.includes('www') ? window.location.hostname.replace('www', '') : "." + window.location.hostname;
+
+        document.cookie = "_cookies_accepted=" + value + ";expires=" + expries.toUTCString() + ";path=" + path + ";domain=" + domain;
+
+        // 如果选择的是all则加载百度统计
+        if(value == 'all') {
+            loadBaiduStatistics()
+        }
+    }
+
+    const cookiesSet = (action) => {
+        if(!action) return ;
+
+        if(action == 'customCookie') {
+            document.getElementById('dialogOverlay').style.display = 'flex';
+            return 
+        }
+
+        if(action == 'acceptAll') {
+            handleSaveCookie('all')
+        }
+
+        if(action == 'denyAll') {
+            handleSaveCookie('essential')
+        }
+
+        if(action == "saveCustom") {
+            // 检测switch开关是否为打开，如果为打开则表示接收全部
+            const switchElement = document.getElementById('switch');
+            if(switchElement.className.includes('active')) {
+                handleSaveCookie('all')
+            }else {
+                handleSaveCookie('essential')
+            }
+        }
+
+        handleCookieSetClose()
+    }
+
+    // 点击遮罩层关闭对话框
+    document.getElementById('dialogOverlay').addEventListener('click', function(event) {
+        if (event.target === this) {
+            this.style.display = 'none';
+        }
+    });
+
+    const handleCookieSetClose = (range) => {
+
+        if(range == 'dialog') {
+            document.getElementById('dialogOverlay').style.display = 'none' 
+            return
+        }
+
+        document.getElementById('dialogOverlay').style.display = 'none' 
+        document.getElementById('cookie-notice').style.display = 'none'
+
+    }</script><!-- 侧边栏 --><div id="okservice-fixed" style="width: 70px !important;"><a href="https://www.openkylin.top/international_ranking.html" target="_blank" title="Ranking"><svg t="1728548265674" class="icon" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1472" width="26" height="26"><path d="M640 448.853333a42.666667 42.666667 0 0 1-23.893333-6.826666l-81.92-46.08-81.92 47.786666a49.493333 49.493333 0 0 1-27.306667 5.12 56.32 56.32 0 0 1-27.306667-11.946666 49.493333 49.493333 0 0 1-13.653333-23.893334 42.666667 42.666667 0 0 1 1.706667-29.013333l32.426666-75.093333-58.026666-56.32a49.493333 49.493333 0 0 1-13.653334-23.893334 49.493333 49.493333 0 0 1 3.413334-27.306666 54.613333 54.613333 0 0 1 17.066666-22.186667 49.493333 49.493333 0 0 1 27.306667-6.826667h59.733333l39.253334-75.093333a46.08 46.08 0 0 1 17.066666-18.773333 51.2 51.2 0 0 1 49.493334 0 61.44 61.44 0 0 1 17.066666 18.773333l37.546667 75.093333h61.44a54.613333 54.613333 0 0 1 27.306667 6.826667 54.613333 54.613333 0 0 1 17.066666 22.186667 37.546667 37.546667 0 0 1 1.706667 27.306666 46.08 46.08 0 0 1-11.946667 23.893334l-58.026666 56.32 30.72 75.093333a42.666667 42.666667 0 0 1 3.413333 29.013333 40.96 40.96 0 0 1-15.36 23.893334 44.373333 44.373333 0 0 1-25.6 11.946666z m-213.333333-51.2z m215.04 0z m-238.933334-174.08l63.146667 61.44a27.306667 27.306667 0 0 1 6.826667 29.013334l-34.133334 78.506666 83.626667-47.786666a34.133333 34.133333 0 0 1 25.6 0L631.466667 392.533333l-34.133334-78.506666a25.6 25.6 0 0 1 5.12-29.013334l63.146667-61.44h-66.56a22.186667 22.186667 0 0 1-22.186667-13.653333l-42.666666-81.92-40.96 81.92a27.306667 27.306667 0 0 1-22.186667 13.653333z m274.773334 0z m-285.013334 0z m281.6-6.826666z m-278.186666-1.706667zM184.32 503.466667h-5.12a51.2 51.2 0 0 1-25.6-11.946667 71.68 71.68 0 0 1-15.36-23.893333 42.666667 42.666667 0 0 1 3.413333-29.013334l32.426667-75.093333L114.346667 307.2a63.146667 63.146667 0 0 1-11.946667-23.893333 49.493333 49.493333 0 0 1 1.706667-27.306667 47.786667 47.786667 0 0 1 18.773333-22.186667 44.373333 44.373333 0 0 1 25.6-6.826666h61.44l37.546667-75.093334a37.546667 37.546667 0 0 1 17.066666-18.773333 47.786667 47.786667 0 0 1 25.6-6.826667 25.6 25.6 0 0 1 25.6 25.6 25.6 25.6 0 0 1-23.893333 25.6l-44.373333 87.04a22.186667 22.186667 0 0 1-22.186667 13.653334H158.72l63.146667 61.44a25.6 25.6 0 0 1 5.12 29.013333l-34.133334 78.506667 85.333334-47.786667a20.48 20.48 0 0 1 23.893333 0l25.6 13.653333a25.6 25.6 0 1 1-25.6 44.373334l-11.946667-6.826667-81.92 46.08a39.253333 39.253333 0 0 1-23.893333 6.826667z m-1.706667-51.2z m-34.133333-174.08z m1.706667-8.533334z m143.36-95.573333zM884.053333 503.466667a37.546667 37.546667 0 0 1-22.186666-6.826667l-81.92-46.08-13.653334 6.826667a25.6 25.6 0 0 1-34.133333-8.533334 25.6 25.6 0 0 1 10.24-35.84l23.893333-13.653333a23.893333 23.893333 0 0 1 25.6 0l83.626667 47.786667-34.133333-78.506667a27.306667 27.306667 0 0 1 6.826666-29.013333l63.146667-61.44h-66.56a27.306667 27.306667 0 0 1-23.893333-13.653334l-44.373334-87.04a25.6 25.6 0 0 1-22.186666-25.6 23.893333 23.893333 0 0 1 25.6-25.6 39.253333 39.253333 0 0 1 23.893333 6.826667 30.72 30.72 0 0 1 17.066667 18.773333l39.253333 75.093334H921.6a47.786667 47.786667 0 0 1 25.6 6.826666 44.373333 44.373333 0 0 1 17.066667 22.186667 49.493333 49.493333 0 0 1 3.413333 27.306667 49.493333 49.493333 0 0 1-13.653333 23.893333l-58.026667 56.32 32.426667 75.093333a42.666667 42.666667 0 0 1 1.706666 29.013334 49.493333 49.493333 0 0 1-13.653333 23.893333 56.32 56.32 0 0 1-27.306667 11.946667z m3.413334-51.2z m34.133333-174.08z m-3.413333-8.533334z m-141.653334-95.573333zM942.08 699.733333a30.72 30.72 0 0 1-17.066667-6.826666c-1.706667-1.706667-107.52-102.4-390.826666-102.4s-389.12 100.693333-389.12 102.4a27.306667 27.306667 0 0 1-27.306667 5.12 27.306667 27.306667 0 0 1-17.066667-23.893334v-109.226666a25.6 25.6 0 0 1 25.6-25.6 25.6 25.6 0 0 1 25.6 25.6v59.733333c58.026667-35.84 177.493333-85.333333 382.293334-85.333333s324.266667 49.493333 382.293333 85.333333v-59.733333a25.6 25.6 0 0 1 25.6-25.6 25.6 25.6 0 0 1 25.6 25.6v109.226666a25.6 25.6 0 0 1-15.36 23.893334z" fill="#333333" p-id="1473"></path><path d="M235.52 930.133333a29.013333 29.013333 0 0 1-17.066667-5.12 29.013333 29.013333 0 0 1-8.533333-20.48v-54.613333a27.306667 27.306667 0 0 0-8.533333-18.773333 22.186667 22.186667 0 0 0-20.48-8.533334H126.293333A25.6 25.6 0 0 1 102.4 800.426667a22.186667 22.186667 0 0 1 15.36-27.306667 114.346667 114.346667 0 0 0 54.613333-47.786667 25.6 25.6 0 0 1 35.84-8.533333 23.893333 23.893333 0 0 1 8.533334 34.133333 64.853333 64.853333 0 0 1-15.36 22.186667 76.8 76.8 0 0 1 35.84 20.48 80.213333 80.213333 0 0 1 23.893333 56.32v18.773333c39.253333-18.773333 100.693333-69.973333 110.933333-201.386666a23.893333 23.893333 0 0 1 27.306667-23.893334 27.306667 27.306667 0 0 1 23.893333 27.306667c-17.066667 228.693333-177.493333 257.706667-182.613333 259.413333zM834.56 930.133333h-5.12c-6.826667-1.706667-165.546667-30.72-182.613333-259.413333a25.6 25.6 0 0 1 51.2-3.413333c8.533333 131.413333 71.68 182.613333 110.933333 201.386666v-18.773333a78.506667 78.506667 0 0 1 22.186667-56.32 85.333333 85.333333 0 0 1 35.84-20.48l-15.36-22.186667a23.893333 23.893333 0 0 1 10.24-34.133333 23.893333 23.893333 0 0 1 34.133333 8.533333 117.76 117.76 0 0 0 56.32 47.786667 25.6 25.6 0 0 1 15.36 27.306667 25.6 25.6 0 0 1-25.6 22.186666H887.466667a29.013333 29.013333 0 0 0-27.306667 27.306667V904.533333a23.893333 23.893333 0 0 1-10.24 20.48 23.893333 23.893333 0 0 1-15.36 5.12z" fill="#333333" p-id="1474"></path></svg><p>Ranking</p></a><a href="https://cla.openkylin.top?language=en" target="_blank" title="Contributor License Agreement"><svg t="1678861212363" class="icon" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2372" width="26" height="26"><path d="M0 0h1024v1024H0z" fill="none" fill-opacity="0" p-id="2373"></path><path d="M621.653333 96a32 32 0 0 1 0 64H257.578667A97.578667 97.578667 0 0 0 160 257.578667v508.842666a97.578667 97.578667 0 0 0 97.578667 97.578667h507.264a97.578667 97.578667 0 0 0 97.578666-97.152l1.578667-356.928a32 32 0 0 1 64 0.277333l-1.578667 356.928a161.578667 161.578667 0 0 1-161.578666 160.874667H257.578667A161.578667 161.578667 0 0 1 96 766.421333V257.578667A161.578667 161.578667 0 0 1 257.578667 96H621.653333z" fill="none" p-id="2374"></path><path d="M753.258667 113.557333L455.552 409.6a64 64 0 0 0-18.88 45.376v53.845333a67.242667 67.242667 0 0 0 65.770667 67.242667l50.986666 1.109333a64 64 0 0 0 45.738667-17.813333L902.826667 267.946667a107.946667 107.946667 0 0 0 3.242666-152.490667l-1.450666-1.493333a107.029333 107.029333 0 0 0-151.338667-0.426667z m106.538666 46.144a43.946667 43.946667 0 0 1-1.322666 62.08L554.88 513.194667l-51.008-1.130667a3.242667 3.242667 0 0 1-3.178667-3.242667v-53.845333L798.378667 158.933333a43.029333 43.029333 0 0 1 58.112-2.346666l3.306666 3.114666z" fill="none" p-id="2375"></path><path d="M772.330667 154.858667l94.677333 95.274666-45.397333 45.098667-94.677334-95.253333z" fill="none" p-id="2376"></path></svg><p>CLA</p></a><a href="../community/partner-en.html" target="_blank" title="Joining the member"><svg t="1678863866945" class="icon" viewbox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3416" id="mx_n_1678863866946" width="26" height="26"><path d="M0 0h1024v1024H0V0z" fill="#181818" opacity=".01" p-id="3417"></path><path d="M68.266667 102.4a34.133333 34.133333 0 0 1 34.133333-34.133333h819.2a34.133333 34.133333 0 0 1 34.133333 34.133333v204.8a34.133333 34.133333 0 0 1-34.133333 34.133333H102.4a34.133333 34.133333 0 0 1-34.133333-34.133333V102.4z" fill="#181818" p-id="3418"></path><path d="M68.266667 716.8a34.133333 34.133333 0 0 1 34.133333-34.133333h204.8a34.133333 34.133333 0 0 1 34.133333 34.133333v204.8a34.133333 34.133333 0 0 1-34.133333 34.133333H102.4a34.133333 34.133333 0 0 1-34.133333-34.133333v-204.8zM375.466667 716.8a34.133333 34.133333 0 0 1 34.133333-34.133333h204.8a34.133333 34.133333 0 0 1 34.133333 34.133333v204.8a34.133333 34.133333 0 0 1-34.133333 34.133333h-204.8a34.133333 34.133333 0 0 1-34.133333-34.133333v-204.8zM682.666667 716.8a34.133333 34.133333 0 0 1 34.133333-34.133333h204.8a34.133333 34.133333 0 0 1 34.133333 34.133333v204.8a34.133333 34.133333 0 0 1-34.133333 34.133333h-204.8a34.133333 34.133333 0 0 1-34.133333-34.133333v-204.8zM68.266667 512a34.133333 34.133333 0 0 1 34.133333-34.133333h819.2a34.133333 34.133333 0 1 1 0 68.266666H102.4a34.133333 34.133333 0 0 1-34.133333-34.133333z" fill="#181818" p-id="3419"></path><path d="M477.866667 409.6a34.133333 34.133333 0 1 1 68.266666 0v204.8a34.133333 34.133333 0 1 1-68.266666 0v-204.8z" fill="#181818" p-id="3420"></path></svg><p>Member</p></a><a href="../sig/application-en.html" target="_blank" title="Join SIG"><svg t="1678935287251" class="icon" viewbox="0 0 1108 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4955" width="24" height="24"><path d="M0 326.310826c9.273221-12.319899 17.514234-25.638708 28.06939-36.759913C44.950981 271.68706 67.060205 264.045393 91.416977 261.148552A120.335441 120.335441 0 0 1 153.665762 269.705887c27.769717 11.653958 45.500382 32.847513 55.639325 60.750419 0.89902 2.480628 0.44951 5.47736 0.44951 8.241013q0 130.257954-0.149837 260.49926c0 6.110004 2.197604 9.189978 7.208806 11.953632q56.838018 31.182662 113.476255 62.764888c14.234477 7.924691 28.618791 15.632952 42.337165 24.356772 16.132408 10.272132 22.009332 27.203668 24.972767 44.851091 1.881282 11.021315 1.814688 22.458842 1.831336 33.729884 0.166485 62.964671-0.133188 125.94599 0.166485 188.927309 0.166485 32.780919-26.138163 57.304177-58.26979 58.136602-14.101289 0.366267-27.786366-0.599346-40.15621-8.324255-17.014779-10.704993-24.340124-27.28691-24.6065-46.166323-0.715886-53.807989-0.249728-107.632627-0.249728-161.490562v-9.106736c-28.985059-13.53524-57.653796-27.07048-86.45572-40.37264-48.09755-22.192466-96.394882-43.918773-144.342595-66.460858-20.777342-9.772676-35.7943-25.555465-43.186239-47.847823C1.664851 641.949957 0.799129 639.802299 0 637.637992z m345.789585 643.914482a26.637618 26.637618 0 0 0 0.466158-3.479539q0-107.765815-0.183133-215.498334c0-2.364089-2.613816-5.627197-4.878014-6.909132-14.467557-8.107825-29.234786-15.649601-43.768937-23.640886C252.391435 695.907783 207.507048 670.935016 162.322988 646.544946c-5.760385-3.113272-7.641667-6.143301-7.625019-12.486384 0.199782-94.014145 0-188.128181 0.233079-282.075731 0-8.873657-3.612727-15.666249-8.990196-22.109223-15.649601-18.729575-52.692539-19.978214-71.405466-8.224365-11.504121 7.208806-21.110313 17.164615-21.160258 31.998439q-0.33297 130.224657 0 260.449315c0 11.887037 4.994553 21.643065 16.648512 26.887346 5.194336 2.330792 10.471914 4.495098 15.616303 6.909133q49.096461 22.974946 98.226219 46.033134c45.999837 21.643065 91.966378 43.28613 138.082754 64.612873 5.860276 2.713707 7.924691 5.777034 7.891395 12.319899-0.283025 63.264344-0.166485 126.528688-0.166485 189.793032v9.656136zM559.389988 0c7.508479 1.664851 15.299982 2.563871 22.492139 5.14439 34.345879 12.269953 54.423984 36.160567 59.218756 72.870535 3.629376 27.669826-4.994553 51.410604-23.624238 70.68958-22.991594 23.724129-52.226381 31.632172-84.141577 23.640887-36.027379-8.956899-59.218756-33.297023-64.929195-69.440942-8.091177-51.610386 22.109223-90.684442 70.12353-101.156356 3.562781-0.78248 7.225454-1.182044 10.838181-1.664851z m28.30247 87.204904c0-17.231209-15.76614-34.146097-32.464598-33.297024-19.845026 1.015559-33.646642 14.98366-34.362528 34.312583-0.549401 14.500854 16.648512 34.279285 33.946315 33.297023 16.065814-0.865723 34.362528-13.951453 32.880811-34.312582zM1108.790869 480.925553c0 48.830084 0.199782 97.660169-0.099891 146.506902-0.11654 20.843936-9.539597 38.940869-26.304648 49.496025-23.774074 14.98366-49.812347 26.404539-75.16803 38.791032-18.529793 9.05679-37.509097 17.231209-56.288617 25.788544q-56.355212 25.672005-112.760369 51.22747c-4.911311 2.214252-5.860276 5.394118-5.843627 10.322077 0.166485 54.390687 0.399564 108.781374 0 163.155413-0.183134 22.958297-12.602923 45.067521-37.542394 51.277416-25.705302 6.393028-50.095371 4.428504-69.807209-15.583007a53.475019 53.475019 0 0 1-15.649601-38.291576c-0.11654-67.975873-0.349619-135.951745 0.133188-203.927618 0.133188-19.46211 4.045588-38.541304 16.814997-54.290797a50.77796 50.77796 0 0 1 14.134586-12.403141c47.697986-26.637618 95.329377-53.425074 143.660006-78.880647 12.569626-6.659405 17.214561-13.518591 17.064725-28.019445-0.832426-82.959533-0.166485-165.935715-0.632644-248.895248-0.083243-13.751671 6.25984-24.15699 13.31881-34.379176a95.196189 95.196189 0 0 1 63.064561-40.705611c42.420407-7.724909 81.31133 0.499455 111.694864 33.563399 7.60837 8.324256 12.919245 18.746224 18.829467 28.485603 1.415123 2.330792 1.415123 5.760385 1.431772 8.690523q-0.049946 73.969337-0.049946 148.071862zM779.150341 966.912254v-9.722731c0-63.264344 0.099891-126.528688-0.149837-189.793032 0-5.826979 1.781391-8.773766 6.959078-11.021314 10.704993-4.678232 21.110313-9.989107 31.732063-14.983661q75.451054-34.845335 150.952054-69.574129c21.643065-9.989107 43.28613-20.24459 65.145626-29.967321 15.54971-6.942429 21.643065-15.799437 21.643065-32.947405 0-84.041686-0.249728-168.149967 0.199782-252.125058 0.099891-17.947095-9.423058-28.785276-23.058189-36.909751-14.550799-8.673875-30.749801-9.05679-46.765668-4.611637-16.565269 4.578341-32.631083 19.528704-32.364707 42.620189 1.048856 91.566814 0.349619 183.133627 0.599346 274.583901 0 6.509568-2.031118 9.539597-7.8248 12.386493-15.616304 7.641667-30.833043 16.115759-46.116377 24.440015-43.435967 23.674183-86.755394 47.598095-130.357845 70.989253-5.410766 2.896841-7.475182 5.643845-7.458534 11.653958 0.216431 69.058026 0.133188 138.182646 0.149837 207.190726 0 2.414034 0.199782 4.844717 0.316322 7.591722z" fill="#181818" p-id="4956"></path><path d="M432.8613 502.785049v-10.721642c0-70.156828 0.266376-140.330304-0.149836-210.487131-0.133188-22.292357 10.538508-37.742176 27.370153-50.278505 18.729575-13.934804 40.355992-19.695189 63.147804-21.409986 15.649601-1.182044 31.399093-1.931227 47.081991-1.664851 27.40345 0.532752 53.791341 6.37638 75.850618 23.457753 17.947095 13.884859 30.483425 30.799746 30.117158 56.122132-1.015559 68.258897-0.349619 136.517795-0.349619 204.676801V502.785049h9.17333c40.772205 0 81.577707 0.33297 122.299966-0.216431 11.837092-0.149837 18.812818 5.760385 22.941649 14.983661a26.637618 26.637618 0 0 1-3.729267 28.5189c-5.810331 7.391939-12.702814 10.255483-22.658624 10.238834q-251.675549-0.599346-503.367747 0.133189c-19.095843 0-26.637618-16.765051-23.82402-31.09942 1.664851-8.507389 3.329702-17.381046 13.035785-20.877233a28.502252 28.502252 0 0 1 9.522948-1.664852c44.085259-0.016649 88.170517-0.016649 133.537711-0.016648z m189.793032-0.382916c0-69.474239 0-137.982864-0.149837-206.441543a24.290178 24.290178 0 0 0-3.479538-10.571805c-5.510657-10.305429-15.266685-15.499764-25.721951-18.862764-26.637618-8.557335-53.741395-7.541776-79.912855 0.799129-15.899329 5.094445-28.102687 13.884859-27.653178 38.291577 1.11545 62.381973 0.366267 124.863837 0.366267 187.195863v9.62284zM104.885623 53.275237c45.650219-2.630465 89.901962 39.307136 86.805339 91.000764-2.780301 45.766758-37.858715 83.458988-87.637765 83.492286-48.164144 0-87.154958-38.008552-87.304794-88.436894C16.648512 92.682264 56.238672 50.494936 104.885623 53.275237z m-0.382916 119.869283c19.978214 1.331881 33.629993-17.580828 33.679939-33.496805s-14.98366-33.846424-33.297023-33.297023c-19.845026 0.615995-33.979612 14.900418-34.445771 33.297023-0.516104 17.697368 15.649601 34.712147 33.996261 33.496805zM1004.671078 226.419757c-47.98101 1.398475-88.520136-39.556863-87.604468-89.202725 0.765832-41.354903 38.158388-88.570081 95.229486-84.358008 39.340433 2.91349 82.443429 39.357081 79.912856 91.150601-2.064415 42.720081-37.392557 83.359097-87.537874 82.410132z m1.148747-119.869283c-18.762873-2.697059-35.378087 17.264506-35.078413 33.297023 0.366267 18.812818 16.914888 33.147186 33.746532 33.297023 17.231209 0.166485 34.046206-14.717284 34.279286-33.646642 0.199782-16.981482-16.082462-32.947404-32.947405-32.947404zM537.746923 764.16668v137.300275c0 9.772676-3.329702 15.266685-12.802705 17.281155a72.271189 72.271189 0 0 1-24.423367 1.298584c-11.487473-1.664851-16.032517-8.324256-16.032516-19.978214V626.300356c0-12.802705 7.525127-20.377778 20.361129-20.211293A112.926854 112.926854 0 0 1 524.428114 607.670672c9.006845 1.664851 13.318809 7.508479 13.318809 16.648511v139.847497zM624.319183 763.300958v138.182645c0 9.822622-3.229811 15.616304-12.75276 17.247858a82.526672 82.526672 0 0 1-27.370153 0c-9.606191-1.664851-13.102379-7.308697-13.119027-16.964833V624.68545a17.930447 17.930447 0 0 1 18.629685-18.579738A120.385387 120.385387 0 0 1 611.000374 607.670672c9.073439 1.664851 13.318809 7.458533 13.318809 16.648511v138.981775z" fill="#181818" p-id="4957"></path><path d="M779.150341 966.912254h-16.315542c-0.11654-2.747004-0.316322-5.177687-0.316321-7.591721 0-69.074674 0-138.182646-0.149837-207.190727 0-6.093355 2.047767-8.84036 7.458533-11.653958 43.602452-23.391159 86.921879-47.31507 130.357846-70.989253 15.283334-8.324256 30.500073-16.798348 46.116377-24.440015 5.793682-2.846895 7.841449-5.876925 7.8248-12.386493-0.249728-91.566814 0.44951-183.133627-0.599346-274.583901-0.266376-23.091486 15.799437-38.041849 32.364706-42.620189 16.015868-4.445153 32.21487-4.062237 46.765669 4.611638 13.635131 8.124474 23.15808 18.962655 23.058189 36.90975-0.44951 84.041686-0.199782 168.149967-0.199783 252.125059 0 17.147967-6.176598 26.004975-21.643065 32.947404-21.826199 9.756028-43.435967 19.978214-65.145625 29.967321q-75.467703 34.778741-150.952055 69.57413c-10.62175 4.894662-21.02707 10.238835-31.732063 14.98366-5.177687 2.247549-6.992375 5.194336-6.959077 11.021315 0.249728 63.264344 0.149837 126.528688 0.149836 189.793031zM1005.819825 106.550474c16.864942 0 33.147186 15.965923 32.947405 33.013998-0.233079 18.929358-17.048076 33.813127-34.279286 33.580048-16.831645-0.166485-33.380266-14.500854-33.746532-33.297023-0.299673-16.032517 16.315541-35.994082 35.078413-33.297023z" fill="#181818" p-id="4958"></path></svg><p>SIG</p></a><a href="../search/?lang=en" target="_blank" title="Search whole site content"><svg t="1678862757670" class="icon" viewbox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1998" width="26" height="26"><path d="M747.746379 191.283957q-10.229089 0-17.900905-7.671816t-12.786361-17.900905-7.671816-20.969632-2.557272-17.900905l0-125.81779 2.045818 0q8.183271 0 16.877996 2.045818t20.458177 9.717634 28.641448 21.481086 42.450718 36.313265q27.618539 24.549813 43.473627 41.427809t24.549813 28.641448 10.740543 19.946723 2.045818 14.320724l0 16.366542-150.367603 0zM511.454432 768.204556q0 58.305805 23.526904 108.428339t64.443258 85.924345l-337.559925 0q-19.435268 0-42.450718-11.251997t-42.962172-29.664357-33.244538-42.450718-13.297815-49.61108l0-696.600936q0-21.481086 10.229089-45.00799t27.107085-42.450718 38.359082-31.710175 45.00799-12.786361l390.751186 0 0 127.863608q0 19.435268 6.137453 41.939263t19.435268 41.427809 33.755992 31.710175 48.076717 12.786361l149.344694 0 0 284.368664q-27.618539-16.366542-59.840168-25.061267t-67.000531-8.694725q-73.649438 0-133.489607 36.313265t-93.596161 96.664888l-221.971223 0q-26.59563 0-45.519444 18.923814t-18.923814 45.519444 18.923814 45.00799 45.519444 18.41236l189.23814 0zM322.216292 384.613733q-26.59563 0-45.519444 18.41236t-18.923814 45.00799 18.923814 45.519444 45.519444 18.923814l383.590824 0q26.59563 0 45.519444-18.923814t18.923814-45.519444-18.923814-45.00799-45.519444-18.41236l-383.590824 0zM1008.588139 957.442696q14.320724 17.389451 15.855087 29.152903t-9.717634 24.038358q-12.274906 14.320724-26.59563 13.297815t-28.641448-12.274906l-86.947253-83.878527q-27.618539 17.389451-59.840168 25.061267t-63.931804 5.114544-61.885986-15.855087-54.725624-38.870537q-27.618539-27.618539-41.939263-63.42035t-14.320724-72.626529 14.320724-72.115075 41.939263-63.931804q27.618539-27.618539 62.397441-41.939263t71.60362-14.320724 72.115075 14.320724 62.908895 41.939263q24.549813 25.572722 37.847628 56.259987t15.855087 62.908895-5.114544 63.931804-25.061267 59.328714zM767.181647 894.022346q25.572722 0 48.076717-10.229089t39.381991-27.107085 26.59563-39.893446 9.717634-49.61108q0-25.572722-9.717634-48.588171t-26.59563-40.4049-39.381991-27.107085-48.076717-9.717634q-26.59563 0-49.099625 9.717634t-39.381991 27.107085-26.59563 40.4049-9.717634 48.588171q0 26.59563 9.717634 49.61108t26.59563 39.893446 39.381991 27.107085 49.099625 10.229089z" p-id="1999" fill="#181818"></path></svg><p>Search</p></a></div> 
+          
+   
+    </div>
+
+    
+
+
+<input type="hidden" name="met_lazyloadbg" value="">
+<script src="../cache/lang_json_en.js?1793584529"></script>
+<script src="../public/web/js/basic.js?1638963240" data-js_url="../templates/metv7_cckylin/cache/metinfo.js?1793584491" id="met-page-js"></script>
+</body>
+</html>

@@ -1,0 +1,1113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- inj yui3-seed: --><script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/yui/3.6.0/yui/yui-min.js'></script><script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script><!-- Adobe Analytics --><script type='text/javascript' src='https://assets.adobedtm.com/4a848ae9611a/d0e96722185b/launch-d525bb0064d8.min.js'></script><script type='text/javascript' src=/assets/nr_browser_production.js></script>
+
+<!-- def.1 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>
+"Development Experience of International Open Source and Its Enlightenm" by Yuntao LONG, Xiaoming WANG et al.
+</title>
+
+
+<!-- FILE article_meta-tags.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc -->
+<meta itemprop="name" content="Development Experience of International Open Source and Its Enlightenment to Construction of Open Source Innovation System in China">
+<meta property="og:title" content="Development Experience of International Open Source and Its Enlightenment to Construction of Open Source Innovation System in China">
+<meta name="twitter:title" content="Development Experience of International Open Source and Its Enlightenment to Construction of Open Source Innovation System in China">
+<meta property="article:author" content="Yuntao LONG">
+<meta name="author" content="Yuntao LONG">
+<meta property="article:author" content="Xiaoming WANG">
+<meta name="author" content="Xiaoming WANG">
+<meta property="article:author" content="Rong GU">
+<meta name="author" content="Rong GU">
+<meta property="article:author" content="Yungang BAO">
+<meta name="author" content="Yungang BAO">
+<meta name="robots" content="noodp, noydir">
+<meta name="description" content="Open source has become an essential innovation model for global technological progress and the construction of an open source innovation system is an important path for China to achieve self-reliance and self-improvement in science and technology. As an indispensable part of the global software value chain and high-tech industry chain, China needs to improve its open source innovation ecosystem. The paper, based on a systematic review of the related development policies and successful experiences on the open source work in US and Europe, puts forward a series of policy suggestions to solve the practical problems faced by the construction of open source ecosystem and promote the construction of an open source innovation system in China.">
+<meta itemprop="description" content="Open source has become an essential innovation model for global technological progress and the construction of an open source innovation system is an important path for China to achieve self-reliance and self-improvement in science and technology. As an indispensable part of the global software value chain and high-tech industry chain, China needs to improve its open source innovation ecosystem. The paper, based on a systematic review of the related development policies and successful experiences on the open source work in US and Europe, puts forward a series of policy suggestions to solve the practical problems faced by the construction of open source ecosystem and promote the construction of an open source innovation system in China.">
+<meta name="twitter:description" content="Open source has become an essential innovation model for global technological progress and the construction of an open source innovation system is an important path for China to achieve self-reliance and self-improvement in science and technology. As an indispensable part of the global software value chain and high-tech industry chain, China needs to improve its open source innovation ecosystem. The paper, based on a systematic review of the related development policies and successful experiences on the open source work in US and Europe, puts forward a series of policy suggestions to solve the practical problems faced by the construction of open source ecosystem and promote the construction of an open source innovation system in China.">
+<meta property="og:description" content="Open source has become an essential innovation model for global technological progress and the construction of an open source innovation system is an important path for China to achieve self-reliance and self-improvement in science and technology. As an indispensable part of the global software value chain and high-tech industry chain, China needs to improve its open source innovation ecosystem. The paper, based on a systematic review of the related development policies and successful experiences on the open source work in US and Europe, puts forward a series of policy suggestions to solve the practical problems faced by the construction of open source ecosystem and promote the construction of an open source innovation system in China.">
+<meta name="keywords" content="open source foundation; open source governance; open source ecosystem; open source; innovation system">
+<link rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+<meta name="bepress_citation_journal_title" content="Bulletin of Chinese Academy of Sciences (Chinese Version)">
+<meta name="bepress_citation_firstpage" content="1497">
+<meta name="bepress_citation_lastpage" content="1505">
+<meta name="bepress_citation_author" content="LONG, Yuntao">
+<meta name="bepress_citation_author_institution" content="Institutes of Science and Development, Chinese Academy of Sciences, Beijing 100190, China
+School of Public Policy and Management, University of Chinese Academy of Sciences, Beijing 100049, China">
+<meta name="bepress_citation_author" content="WANG, Xiaoming">
+<meta name="bepress_citation_author_institution" content="Institutes of Science and Development, Chinese Academy of Sciences, Beijing 100190, China
+School of Public Policy and Management, University of Chinese Academy of Sciences, Beijing 100049, China">
+<meta name="bepress_citation_author" content="GU, Rong">
+<meta name="bepress_citation_author_institution" content="State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing 210023, China
+Department of Computer Science and Technology, Nanjing University, Nanjing 210023, China">
+<meta name="bepress_citation_author" content="BAO, Yungang">
+<meta name="bepress_citation_author_institution" content="Institute of Computing Technology, Chinese Academy of Sciences, Beijing 100190, China">
+<meta name="bepress_citation_title" content="Development Experience of International Open Source and Its Enlightenment to Construction of Open Source Innovation System in China">
+<meta name="bepress_citation_date" content="2021">
+<meta name="bepress_citation_volume" content="36">
+<meta name="bepress_citation_issue" content="12">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc (cont) -->
+<meta name="bepress_citation_pdf_url" content="https://bulletinofcas.researchcommons.org/cgi/viewcontent.cgi?article=1909&amp;context=journal">
+<meta name="bepress_citation_abstract_html_url" content="https://bulletinofcas.researchcommons.org/journal/vol36/iss12/15">
+<meta name="bepress_citation_publisher" content="Bulletin of Chinese Academy of Sciences">
+<meta name="bepress_citation_doi" content="10.16418/j.issn.1000-3045.20210909001">
+<meta name="bepress_citation_issn" content="1000-3045">
+<meta name="bepress_citation_online_date" content="2021/12/25">
+<meta name="viewport" content="width=device-width">
+<!-- Additional Twitter data -->
+<meta name="twitter:card" content="summary">
+<!-- Additional Open Graph data -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bulletinofcas.researchcommons.org/journal/vol36/iss12/15">
+<meta property="og:site_name" content="Bulletin of Chinese Academy of Sciences (Chinese Version)">
+
+
+
+
+<!-- FILE: article_meta-tags.inc (cont) -->
+<meta name="bepress_is_article_cover_page" content="1">
+
+
+<!-- sh.1 -->
+<link rel="stylesheet" href="/journal/ir-journal-style.css" type="text/css" media="screen">
+<link rel="alternate" type="application/rss+xml" title="Bulletin of Chinese Academy of Sciences Newsfeed" href="/journal/recent.rss">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<link type="text/css" rel="stylesheet" href="/assets/floatbox/floatbox.css">
+<script type="text/javascript" src="/assets/jsUtilities.js"></script>
+<script type="text/javascript" src="/assets/footnoteLinks.js"></script>
+<link rel="stylesheet" href="/ir-print.css" type="text/css" media="print">
+<!--[if IE]>
+<link rel="stylesheet" href="/ir-ie.css" type="text/css" media="screen">
+<![endif]-->
+<!-- end sh.1 -->
+
+
+
+
+<script type="text/javascript">var pageData = {"page":{"environment":"prod","productName":"bpdg","language":"en","name":"ir_journal:volume:issue:article","businessUnit":"els:rp:st"},"visitor":{}};</script>
+
+</head>
+<body >
+<!-- FILE /srv/sequoia/main/data/assets/site/ir_journal/header.pregen -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header_inherit.inc --><div id="journal">
+	
+    		<!-- FILE: /srv/sequoia/main/data/bulletinofcas.researchcommons.org/assets/header.pregen --><!-- FILE: /srv/sequoia/main/data/assets/site/mobile_nav.inc --><!--[if !IE]>-->
+<script src="/assets/scripts/dc-mobile/dc-responsive-nav.js"></script>
+
+<header id="mobile-nav" class="nav-down device-fixed-height" style="visibility: hidden;">
+  
+  
+  <nav class="nav-collapse">
+    <ul>
+      <li class="menu-item active device-fixed-width"><a href="https://bulletinofcas.researchcommons.org" title="Home" data-scroll >Home</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://bulletinofcas.researchcommons.org/do/search/advanced/" title="Search" data-scroll ><i class="icon-search"></i> Search</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://bulletinofcas.researchcommons.org/communities.html" title="Browse" data-scroll >Browse Collections</a></li>
+      <li class="menu-item device-fixed-width"><a href="/cgi/myaccount.cgi?context=" title="My Account" data-scroll >My Account</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://bulletinofcas.researchcommons.org/about.html" title="About" data-scroll >About</a></li>
+      <li class="menu-item device-fixed-width"><a href="https://network.bepress.com" title="Digital Commons Network" data-scroll ><img width="16" height="16" alt="DC Network" style="vertical-align:top;" src="/assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png"> Digital Commons Network™</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script src="/assets/scripts/dc-mobile/dc-mobile-nav.js"></script>
+<!--<![endif]-->
+<!-- FILE: /srv/sequoia/main/data/bulletinofcas.researchcommons.org/assets/header.pregen (cont) -->
+
+
+
+<div id="bulletinofcas">
+	<div id="container">
+		<a href="#main" class="skiplink" accesskey="2" >Skip to main content</a>
+
+					
+			<div id="header">
+				<a href="https://bulletinofcas.researchcommons.org" id="banner_link" title="Bulletin of Chinese Academy of Sciences (Chinese Version)" >
+					<img id="banner_image" alt="Bulletin of Chinese Academy of Sciences (Chinese Version)" width='980' height='107' src="/assets/md5images/750db5b0fcbc9e7c3d9a7355eaefdbfa.png">
+				</a>	
+				
+			</div>
+					
+			<div id="navigation">
+				<!-- FILE: /srv/sequoia/main/data/assets/site/ir_navigation.inc --><div id="tabs" role="navigation" aria-label="Main"><ul><li id="tabone"><a href="https://bulletinofcas.researchcommons.org" title="Home" ><span>Home</span></a></li><li id="tabtwo"><a href="https://bulletinofcas.researchcommons.org/journal/about.html" title="About" ><span>About</span></a></li><li id="tabthree"><a href="https://bulletinofcas.researchcommons.org/faq.html" title="FAQ" ><span>FAQ</span></a></li><li id="tabfour"><a href="https://bulletinofcas.researchcommons.org/cgi/myaccount.cgi?context=  " title="My Account" ><span>My Account</span></a></li></ul></div>
+
+
+<!-- FILE: /srv/sequoia/main/data/bulletinofcas.researchcommons.org/assets/header.pregen (cont) -->
+			</div>
+		
+
+		<div id="wrapper">
+			<div id="content">
+				<div id="main" class="text">
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header_inherit.inc (cont) -->
+    
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_breadcrumb.inc -->
+	<ul id="pager">
+		<li>&nbsp;</li>
+		 
+		<li>&nbsp;</li> 
+		
+	</ul>
+
+<div class="crumbs" role="navigation" aria-label="Breadcrumb">
+	<p>
+		
+
+		
+		
+		
+			<a href="https://bulletinofcas.researchcommons.org" class="ignore" >Home</a>
+		
+		
+		
+		
+		
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://bulletinofcas.researchcommons.org/journal" class="ignore" >JOURNAL</a>
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://bulletinofcas.researchcommons.org/journal/vol36" class="ignore" >Vol. 36 (2021)</a>
+		
+		
+		
+		
+		
+		
+		 <span aria-hidden="true">&gt;</span> 
+			<a href="https://bulletinofcas.researchcommons.org/journal/vol36/iss12" class="ignore" >Iss. 12</a>
+		
+		
+		
+		
+		
+	</p>
+</div>
+
+<div class="clear">&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header_inherit.inc (cont) -->
+
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/journal_title_inherit.inc -->
+<h1 class="inherit-title">
+	<a href="https://bulletinofcas.researchcommons.org/journal" title="Bulletin of Chinese Academy of Sciences (Chinese Version)" >
+			Bulletin of Chinese Academy of Sciences (Chinese Version)
+	</a>
+</h1>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header_inherit.inc (cont) -->
+
+
+
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/volume/issue/ir_journal_logo.inc -->
+
+
+
+
+
+ 
+
+
+
+
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header_inherit.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/header.pregen (cont) -->
+
+
+<script type="text/javascript" src="/assets/floatbox/floatbox.js"></script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_article_header.inc --><div id="sub">
+<div id="alpha"><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --><div id='title' class='element'>
+<h1><a href='https://bulletinofcas.researchcommons.org/cgi/viewcontent.cgi?article=1909&amp;context=journal'>Development Experience of International Open Source and Its Enlightenment to Construction of Open Source Innovation System in China</a></h1>
+</div>
+<div class='clear'></div>
+<div id='authors' class='element'>
+<h2 class='visually-hidden'>Authors</h2>
+<ul class="author"><li><a href='https://bulletinofcas.researchcommons.org/do/search/?q=%28author%3A%22Yuntao%20LONG%22%20AND%20-bp_author_id%3A%5B%2A%20TO%20%2A%5D%29%20OR%20bp_author_id%3A%28%22a00fd4f5-ee18-402b-a431-a73fa9401f62%22%29&start=0&context=22004258'><strong>Yuntao LONG</strong>, <em>Institutes of Science and Development, Chinese Academy of Sciences, Beijing 100190, China
+School of Public Policy and Management, University of Chinese Academy of Sciences, Beijing 100049, China</em></a><a rel="nofollow" href="https://network.bepress.com/api/follow/subscribe?user=ZGRmMzRkN2ZjODA2MWYwYQ%3D%3D&amp;institution=ZGNmYWYzODVjZWVlZmMwYTZlMzk1MzkwZDE1NjEzZDE%3D&amp;format=html" data-follow-set="user:ZGRmMzRkN2ZjODA2MWYwYQ== institution:ZGNmYWYzODVjZWVlZmMwYTZlMzk1MzkwZDE1NjEzZDE=" title="Follow Yuntao LONG" class="btn followable">Follow</a></li>
+<li><a href='https://bulletinofcas.researchcommons.org/do/search/?q=author%3A%22Xiaoming%20WANG%22&start=0&context=22004258'><strong>Xiaoming WANG</strong>, <em>Institutes of Science and Development, Chinese Academy of Sciences, Beijing 100190, China
+School of Public Policy and Management, University of Chinese Academy of Sciences, Beijing 100049, China</em></a></li>
+<li><a href='https://bulletinofcas.researchcommons.org/do/search/?q=author%3A%22Rong%20GU%22&start=0&context=22004258'><strong>Rong GU</strong>, <em>State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing 210023, China
+Department of Computer Science and Technology, Nanjing University, Nanjing 210023, China</em></a></li>
+<li><a href='https://bulletinofcas.researchcommons.org/do/search/?q=%28author%3A%22Yungang%20BAO%22%20AND%20-bp_author_id%3A%5B%2A%20TO%20%2A%5D%29%20OR%20bp_author_id%3A%28%22cf1df672-31e7-45de-9496-68fad70fdb6d%22%29&start=0&context=22004258'><strong>Yungang BAO</strong>, <em>Institute of Computing Technology, Chinese Academy of Sciences, Beijing 100190, China</em></a><a rel="nofollow" href="https://network.bepress.com/api/follow/subscribe?user=NGYyYTljZDEwZGUxZWI3Mw%3D%3D&amp;institution=ZGNmYWYzODVjZWVlZmMwYTZlMzk1MzkwZDE1NjEzZDE%3D&amp;format=html" data-follow-set="user:NGYyYTljZDEwZGUxZWI3Mw== institution:ZGNmYWYzODVjZWVlZmMwYTZlMzk1MzkwZDE1NjEzZDE=" title="Follow Yungang BAO" class="btn followable">Follow</a></li>
+</ul></div>
+<div class='clear'></div>
+<div id='keywords' class='element'>
+<h2 class='field-heading'>Keywords</h2>
+<p>open source foundation; open source governance; open source ecosystem; open source; innovation system</p>
+</div>
+<div class='clear'></div>
+<div id='abstract' class='element'>
+<h2 class='field-heading'>Abstract</h2>
+<p>Open source has become an essential innovation model for global technological progress and the construction of an open source innovation system is an important path for China to achieve self-reliance and self-improvement in science and technology. As an indispensable part of the global software value chain and high-tech industry chain, China needs to improve its open source innovation ecosystem. The paper, based on a systematic review of the related development policies and successful experiences on the open source work in US and Europe, puts forward a series of policy suggestions to solve the practical problems faced by the construction of open source ecosystem and promote the construction of an open source innovation system in China.</p>
+</div>
+<div class='clear'></div>
+<div id='fpage' class='element'>
+<h2 class='field-heading'>First page</h2>
+<p>1497</p>
+</div>
+<div class='clear'></div>
+<div id='lpage' class='element'>
+<h2 class='field-heading'>Last Page</h2>
+<p>1505</p>
+</div>
+<div class='clear'></div>
+<div id='language' class='element'>
+<h2 class='field-heading'>Language</h2>
+<p>Chinese</p>
+</div>
+<div class='clear'></div>
+<div id='publisher' class='element'>
+<h2 class='field-heading'>Publisher</h2>
+<p>Bulletin of Chinese Academy of Sciences</p>
+</div>
+<div class='clear'></div>
+<div id='distribution_license' class='element'>
+<h2 class='field-heading'>Creative Commons License</h2>
+<p><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Attribution-NonCommercial-No Derivative Works 4.0 International License" src="https://resources.bepress.com/assets/cc-by-nc-nd-4.0-88x31.png"></a><br>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-No Derivative Works 4.0 International License</a>.</p>
+</div>
+<div class='clear'></div>
+<div id='bcas_references' class='element'>
+<h2 class='field-heading'>References</h2>
+<p>1 中国科学院科技战略咨询研究院课题组. 数字科技——第四次工业革命的创新引擎. 北京:机械工业出版社, 2021. 2 红帽公司. 企业开源现状:红帽报告. (2021-03-30)[2021-08-25]. https://www.redhat.com/rhdc/managed-files/rhenterprise-open-source-report-f27565-202103-zh.pdf. 3 包云岗, 孙凝晖. 科技发展如何处理好开放与自主的关系. 中国科学院院刊, 2021, 36(5):552-556. 4 Muffatto M. Government policies towards open source software//Open Source:A Multidisciplinary Approach. London:Imperial College Press, 2006:133-161. 5 Lewis J. Government Open Source Policies. (2010-03-31)[2021-08-25]. https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/100416_Open_Source_Policies.pdf. 6 Robert W. Hahn, Government Policy Toward Open Source Software. Washington, DC:Brookings Institution Press, 2002. 7 Devenyi V, Giacomo D D, O'Donohoe C. Status of Open Source Software Policies in Europe 2020. (2020-11-30)[2021-08-25]. https://joinup.ec.europa.eu/sites/default/files/inlinefiles/OSOR_Status%20of%20OSS%20Policies%20in%20Europe_2020_0.pdf. 8 刘彬彬. 开源许可协议的法律问题研究. 兰州:兰州大学, 2020.</p>
+</div>
+<div class='clear'></div>
+<div id='recommended_citation' class='element'>
+<h2 class='field-heading'>Recommended Citation</h2>
+<!-- FILE: /srv/sequoia/main/data/journals/bulletinofcas.researchcommons.org/journal/assets/ir_citation.inc -->
+<p class="citation">
+    LONG, Yuntao; WANG, Xiaoming; GU, Rong; and BAO, Yungang
+        (2021)
+    "Development Experience of International Open Source and Its Enlightenment to Construction of Open Source Innovation System in China,"
+    <em>Bulletin of Chinese Academy of Sciences (Chinese Version)</em>: Vol. 36
+    :
+        Iss.
+        12
+    , Article 15.
+    <br>
+        DOI: <a href="https://doi.org/10.16418/j.issn.1000-3045.20210909001" >https://doi.org/10.16418/j.issn.1000-3045.20210909001</a>
+        <br>
+    Available at:
+        https://bulletinofcas.researchcommons.org/journal/vol36/iss12/15
+</p>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --></div>
+<div class='clear'></div>
+</div>
+    </div>
+    <div id='beta_7-3'>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_download_button.inc --><div class="aside download-button">
+      <a id="pdf" class="btn" href="https://bulletinofcas.researchcommons.org/cgi/viewcontent.cgi?article=1909&amp;context=journal" title="PDF (1.2&nbsp;MB) opens in new window" target="_blank" > 
+    	<i class="icon-download-alt" aria-hidden="true"></i>
+        Download
+      </a>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_embargo.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/journals/bulletinofcas.researchcommons.org/journal/assets/info_box_custom_upper.inc --><div class="aside">
+<a class="btn" target="_blank" href="/cdn-cgi/l/email-protection#bcdec9d0d0d9c8d5d2fcdfddcfd4cd92dddf92dfd283cfc9ded6d9dfc881eed9cdc9d9cfc8d5d2db998e8cdd998e8cdfd3ccc5998e8cd3da998e8cf8d9cad9d0d3ccd1d9d2c89cf9c4ccd9ced5d9d2dfd99cd3da9cf5d2c8d9ced2ddc8d5d3d2ddd09cf3ccd9d29cefd3c9cedfd99cddd2d89cf5c8cf9cf9d2d0d5dbd4c8d9d2d1d9d2c89cc8d39cffd3d2cfc8cec9dfc8d5d3d29cd3da9cf3ccd9d29cefd3c9cedfd99cf5d2d2d3caddc8d5d3d29cefc5cfc8d9d19cd5d29cffd4d5d2dd9addd1cc" title="Request a copy via email">
+<i class="icon-envelope"></i> Request a Copy</a>
+</div>
+<div class="aside">
+</div><!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_openurl.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_article_metrics.inc -->
+<div id="article-stats" class="aside hidden">
+    <p class="article-downloads-wrapper hidden"><span id="article-downloads"></span> DOWNLOADS</p>
+    <p class="article-stats-date hidden">Since December 25, 2021</p>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+// magic has trouble rendering macros embedded directly in the the plumx-widget tag
+// so we have to emit the macro value into some js and let js
+// render and append the plumx-widget tag at view time
+const widget = document.createElement('plumx-widget');
+widget.setAttribute('type', 'artifact');
+widget.setAttribute('identifier-type', 'repo_url');
+widget.setAttribute('identifier', 'https://bulletinofcas.researchcommons.org/journal/vol36/iss12/15');
+widget.setAttribute('display', 'badge');
+widget.setAttribute('theme', 'bigben');
+widget.setAttribute('config', '{"hideWhenEmpty":true}');
+document.querySelector('#article-stats').appendChild(widget);
+</script>
+</div>
+<script src="https://plumx.elsevier.com/widget/plumx-widget.js" defer></script>
+<!-- Article Download Counts -->
+<script type="text/javascript" src="/assets/scripts/article-downloads.pack.js"></script>
+<script type="text/javascript">
+    insertDownloads(26965402);
+</script>
+<!-- Add border to Plum badge & download counts when visible -->
+<script>
+// bind to event when PlumX widget loads
+widget.addEventListener('plumx:load', (event) => {
+  jQuery('#article-stats').removeClass('hidden');
+  jQuery('.article-stats-date').addClass('plum-border');
+});
+// bind to event when page loads
+jQuery(window).on('load',function(e){
+// if DC downloads are visible
+  if (jQuery('#article-downloads').text().length > 0) {
+// add border to aside
+  jQuery('#article-stats').removeClass('hidden');
+  }
+});
+</script>
+<!-- Adobe Analytics: Download Click Tracker -->
+<script>
+$(function() {
+  // Download button click event tracker for PDFs
+  $(".aside.download-button").on("click", "a#pdf", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+      link: {
+          location: 'aside download-button',
+          name: 'pdf'
+      }
+    });
+  });
+  // Download button click event tracker for native files
+  $(".aside.download-button").on("click", "a#native", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+        link: {
+            location: 'aside download-button',
+            name: 'native'
+        }
+     });
+  });
+});
+</script>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_disciplines.inc -->
+	<div id="beta-disciplines" class="aside">
+		<h3>Included in</h3>
+	<p>
+					<a href="https://network.bepress.com/hgg/discipline/142" title="Computer Sciences Commons" >Computer Sciences Commons</a>, 
+					<a href="https://network.bepress.com/hgg/discipline/1029" title="Science and Technology Policy Commons" >Science and Technology Policy Commons</a>
+	</p>
+	</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/bookmark_widget.inc -->
+<div id="share" class="aside">
+<h2>Share</h2>
+	<div class="a2a_kit a2a_kit_size_24 a2a_default_style">
+    	<a class="a2a_button_facebook"></a>
+    	<a class="a2a_button_linkedin"></a>
+		<a class="a2a_button_whatsapp"></a>
+		<a class="a2a_button_email"></a>
+    	<a class="a2a_dd"></a>
+    	<script async src="https://static.addtoany.com/menu/page.js"></script>
+	</div>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/zotero_coins.inc -->
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft_id=https%3A%2F%2Fbulletinofcas.researchcommons.org%2Fjournal%2Fvol36%2Fiss12%2F15&amp;rft.atitle=Development%20Experience%20of%20International%20Open%20Source%20and%20Its%20Enlightenment%20to%20Construction%20of%20Open%20Source%20Innovation%20System%20in%20China&amp;rft.aufirst=Yuntao&amp;rft.aulast=LONG&amp;rft.au=Xiaoming%20WANG&amp;rft.au=Rong%20GU&amp;rft.au=Yungang%20BAO&amp;rft.jtitle=Bulletin%20of%20Chinese%20Academy%20of%20Sciences%20%28Chinese%20Version%29&amp;rft.volume=36&amp;rft.issue=12&amp;rft.issn=1000-3045&amp;rft.spage=1497&amp;rft.epage=1505&amp;rft.date=2021-12-20&amp;rft_id=info:doi/10.16418%2Fj.issn.1000-3045.20210909001">COinS</span>
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_custom_lower.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) --></div>
+<div class='clear'>&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_article_custom_fields.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/article_info.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/volume/issue/article/index.html (cont) --> 
+
+<!-- FILE /srv/sequoia/main/data/assets/site/ir_journal/footer.pregen -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_inherit_7_8.inc -->					</div>
+
+	<div class="verticalalign">&nbsp;</div>
+	<div class="clear">&nbsp;</div>
+
+				</div>
+
+					<div id="sidebar">
+						<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc -->
+
+	<!-- FILE: /srv/sequoia/main/data/journals/bulletinofcas.researchcommons.org/journal/assets/ir_journal_sidebar_links_7_8.inc --><ul class="sb-custom-journal">
+	<li class="sb-home">
+		<a href="https://bulletinofcas.researchcommons.org/journal" title="Bulletin of Chinese Academy of Sciences (Chinese Version)" accesskey="1" >
+				Journal Home
+		</a>
+	</li>
+		<li class="sb-about">
+			<a href="https://bulletinofcas.researchcommons.org/journal/about.html" >
+				About This Journal
+			</a>
+		</li>
+		<li><a href="https://bulletinofcas.researchcommons.org/journal/peer_review.html" >For Referees</a></li>
+		<li class="sb-ethics">
+			<a href="https://bulletinofcas.researchcommons.org/journal/publication_ethics.html" >
+				Ethical Guidelines
+			</a>
+		</li>
+		<li class="sb-ed-board">
+			<a href="https://bulletinofcas.researchcommons.org/journal/editorialboard.html" >
+				Editorial Board
+			</a>
+		</li>
+		</li>
+		<li>
+			<a href="https://bulletinofcas.researchcommons.org/journal/contact.html" >
+				Contact Us
+			</a>
+		</li>
+			<li>
+			<a href="https://bulletinofcas.researchcommons.org/journal/forauthors.html" >
+				For Authors
+			</a>
+		</li>
+			<li>
+			<a href="https://bulletinofcas.researchcommons.org/journal/subscription.html" >
+				Subscription
+			</a>
+		</li>
+		<li>
+			<a href="http://www.bulletin.cas.cn" >
+				<abbr title="Bulletin of Chinese Academy of Sciences">BCAS</abbr> Chinese Website
+			</a>
+		</li>
+		<li>
+			<a href="https://jtp.oversea.cnki.net/Bilingual/navi/detail?pykm=KYYX" title="CNKI Journal Translation Project - Bulletin of Chinese Academy of Sciences" >
+				<abbr title="Bulletin of Chinese Academy of Sciences">BCAS</abbr> English Articles
+			</a>
+		</li>
+</ul>
+		<p><a class="btn" href="https://bulletinofcas.researchcommons.org/journal/all_issues.html" title="Browse Issues" >
+                    Browse Issues
+                </a></p><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+		<!-- FILE: /srv/sequoia/main/data/assets/site/urc_badge.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/journals/bulletinofcas.researchcommons.org/journal/assets/ir_journal_navcontainer_7_8.inc --><div id="navcontainer">
+	<ul id="navlist">
+			<li class="sb-submit">
+					<a href="https://www.manuscripts.com.cn/zgkxyyk" title="Submit Article to Bulletin of Chinese Academy of Sciences (Chinese Version)" >
+						Submit Article</a>
+			</li>
+			<li class="sb-popular">
+				<a href="https://bulletinofcas.researchcommons.org/journal/topdownloads.html" title="View the top downloaded papers" >
+						Most Popular Papers
+				</a>
+			</li>
+			<li class="sb-rss">
+				<a href="https://bulletinofcas.researchcommons.org/journal/announcements.html" title="Receive notifications of new content" >
+					Receive Email Notices or RSS
+				</a>
+			</li>
+	</ul>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_special_issue_7_8.inc -->
+<!-- FILE: /srv/sequoia/main/data/journals/bulletinofcas.researchcommons.org/journal/assets/ir_journal_navcontainer_7_8.inc (cont) -->
+</div><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_search_7_8.inc --><div class="sidebar-search">
+	<form method="post" action="https://bulletinofcas.researchcommons.org/cgi/redirect.cgi" id="browse">
+		<label for="url">
+			Select an issue:
+		</label>
+			<br>
+		<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_volume_issue_popup_7_8.inc --><div>
+	<span class="border">
+								<select name="url" id="url">
+							<option value="https://bulletinofcas.researchcommons.org/journal/all_issues.html">
+								All Issues
+							</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss10">
+											Vol. 41, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss9">
+											Vol. 41, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss8">
+											Vol. 41, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss7">
+											Vol. 41, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss6">
+											Vol. 41, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss5">
+											Vol. 41, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss4">
+											Vol. 41, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss3">
+											Vol. 41, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss2">
+											Vol. 41, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol41/iss1">
+											Vol. 41, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss12">
+											Vol. 40, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss11">
+											Vol. 40, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss10">
+											Vol. 40, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss9">
+											Vol. 40, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss8">
+											Vol. 40, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss7">
+											Vol. 40, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss6">
+											Vol. 40, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss5">
+											Vol. 40, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss4">
+											Vol. 40, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss3">
+											Vol. 40, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss2">
+											Vol. 40, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol40/iss1">
+											Vol. 40, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss12">
+											Vol. 39, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss11">
+											Vol. 39, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss10">
+											Vol. 39, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss9">
+											Vol. 39, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss8">
+											Vol. 39, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss7">
+											Vol. 39, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss6">
+											Vol. 39, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss5">
+											Vol. 39, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss4">
+											Vol. 39, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss3">
+											Vol. 39, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss2">
+											Vol. 39, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol39/iss1">
+											Vol. 39, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss12">
+											Vol. 38, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss11">
+											Vol. 38, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss10">
+											Vol. 38, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss9">
+											Vol. 38, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss8">
+											Vol. 38, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss7">
+											Vol. 38, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss6">
+											Vol. 38, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss5">
+											Vol. 38, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss4">
+											Vol. 38, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss3">
+											Vol. 38, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss2">
+											Vol. 38, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol38/iss1">
+											Vol. 38, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss12">
+											Vol. 37, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss11">
+											Vol. 37, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss10">
+											Vol. 37, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss9">
+											Vol. 37, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss8">
+											Vol. 37, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss7">
+											Vol. 37, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss6">
+											Vol. 37, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss5">
+											Vol. 37, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss4">
+											Vol. 37, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss3">
+											Vol. 37, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss2">
+											Vol. 37, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol37/iss1">
+											Vol. 37, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss12">
+											Vol. 36, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss11">
+											Vol. 36, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss10">
+											Vol. 36, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss9">
+											Vol. 36, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss8">
+											Vol. 36, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss7">
+											Vol. 36, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss6">
+											Vol. 36, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss5">
+											Vol. 36, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss4">
+											Vol. 36, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss3">
+											Vol. 36, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss2">
+											Vol. 36, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol36/iss1">
+											Vol. 36, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss12">
+											Vol. 35, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss11">
+											Vol. 35, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss10">
+											Vol. 35, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss9">
+											Vol. 35, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss8">
+											Vol. 35, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss7">
+											Vol. 35, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss6">
+											Vol. 35, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss5">
+											Vol. 35, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss4">
+											Vol. 35, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss3">
+											Vol. 35, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss2">
+											Vol. 35, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol35/iss1">
+											Vol. 35, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss12">
+											Vol. 34, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss11">
+											Vol. 34, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss10">
+											Vol. 34, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss9">
+											Vol. 34, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss8">
+											Vol. 34, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss7">
+											Vol. 34, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss6">
+											Vol. 34, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss5">
+											Vol. 34, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss4">
+											Vol. 34, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss3">
+											Vol. 34, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss2">
+											Vol. 34, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol34/iss1">
+											Vol. 34, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss12">
+											Vol. 33, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss11">
+											Vol. 33, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss10">
+											Vol. 33, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss9">
+											Vol. 33, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss8">
+											Vol. 33, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss7">
+											Vol. 33, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss6">
+											Vol. 33, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss5">
+											Vol. 33, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss4">
+											Vol. 33, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss3">
+											Vol. 33, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss2">
+											Vol. 33, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol33/iss1">
+											Vol. 33, 
+											Iss. 1
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss12">
+											Vol. 32, 
+											Iss. 12
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss11">
+											Vol. 32, 
+											Iss. 11
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss10">
+											Vol. 32, 
+											Iss. 10
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss9">
+											Vol. 32, 
+											Iss. 9
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss8">
+											Vol. 32, 
+											Iss. 8
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss7">
+											Vol. 32, 
+											Iss. 7
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss6">
+											Vol. 32, 
+											Iss. 6
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss5">
+											Vol. 32, 
+											Iss. 5
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss4">
+											Vol. 32, 
+											Iss. 4
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss3">
+											Vol. 32, 
+											Iss. 3
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss2">
+											Vol. 32, 
+											Iss. 2
+										</option>
+										<option value="https://bulletinofcas.researchcommons.org/journal/vol32/iss1">
+											Vol. 32, 
+											Iss. 1
+										</option>
+						</select>
+		<input type="submit" value="Browse" class="searchbutton" style="font-size:11px;">
+	</span>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_search_7_8.inc (cont) -->
+			<div style="clear:left;">&nbsp;</div>
+	</form>
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_search_7_8.inc --><h2>Search</h2>
+<form method='get' action='https://bulletinofcas.researchcommons.org/do/search/' id="sidebar-search">
+	<label for="search" accesskey="4">
+		Enter search terms:
+	</label>
+		<div>
+			<span class="border">
+				<input type="text" name='q' class="search" id="search">
+			</span> 
+			<input type="submit" value="Search" class="searchbutton" style="font-size:11px;">
+		</div>
+	<label for="context">
+		Select context to search:
+	</label> 
+		<div>
+			<span class="border">
+				<select name="fq" id="context">
+						<option value='virtual_ancestor_link:"https://bulletinofcas.researchcommons.org/journal"'>in this journal</option>
+					<option value='virtual_ancestor_link:"https://bulletinofcas.researchcommons.org"'>in this site</option>
+					<option value='virtual_ancestor_link:"http:/"'>across all sites</option>
+				</select>
+			</span>
+		</div>
+</form>
+<p class="advanced">
+		<a href="https://bulletinofcas.researchcommons.org/do/search/advanced/?fq=virtual_ancestor_link:%22https://bulletinofcas.researchcommons.org/journal%22" >
+			Advanced Search
+		</a>
+</p>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_search_7_8.inc (cont) -->
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_issn_7_8.inc -->
+	<div id="issn">
+		<p class="sb-issn">ISSN: 1000-3045</p>
+	</div>
+	<div class="clear">&nbsp;</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/journals/bulletinofcas.researchcommons.org/journal/assets/ir_journal_custom_lower_7_8.inc -->
+<div id="sb-custom-logos">
+ <p> Indexed in: </p>
+ <p><a href="https://network.bepress.com/explore/?q=Bulletin+of+Chinese+Academy+of+Sciences" target="_blank" ><img width='200' height='74' src="/assets/md5images/7c694b4a44f452dd3186f4cc3e60641c.png" alt=""></a></p>
+<p><a href="https://search.crossref.org/?from_ui=yes&q=Bulletin%20of%20Chinese%20Academy%20of%20Sciences" target="_blank" ><img width='200' height='68' src="/assets/md5images/baeede600cbe1db3597dd0247a200f4e.png" alt=""></a></p>
+ <p><a href="https://www.scopus.com/sourceid/21101097035?origin=resultslist" target="_blank" ><img width='200' height='64' src="/assets/md5images/0d551d5e9a24ac2c8634887a36af59e3.png" alt=""></a></p>
+ <p><a href="https://www.scimagojr.com/journalsearch.php?q=21101097035&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank" ><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21101097035" alt="SCImago Journal &amp; Country Rank"></a></p>
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_custom_sidebar_images.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc (cont) -->
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_custom_lowest_7_8.inc --><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/ir_journal_sidebar_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_inherit_7_8.inc (cont) -->
+							<div class="verticalalign">&nbsp;</div>
+					</div>
+
+			</div>
+
+			
+				<!-- FILE: /srv/sequoia/main/data/assets/site/ir_footer_content.inc --><div id="footer" role="contentinfo">
+	
+	
+	<!-- FILE: /srv/sequoia/main/data/assets/site/ir_bepress_logo.inc --><div id="bepress">
+
+<a href="https://www.elsevier.com/solutions/digital-commons" title="Elsevier - Digital Commons" >
+	<em>Elsevier - Digital Commons</em>
+</a>
+
+</div>
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_footer_content.inc (cont) -->
+	<p>
+		<a href="https://bulletinofcas.researchcommons.org" title="Home page" accesskey="1" >Home</a> | 
+		<a href="https://bulletinofcas.researchcommons.org/about.html" title="About" >About</a> | 
+		<a href="https://bulletinofcas.researchcommons.org/faq.html" title="FAQ" >FAQ</a> | 
+		<a href="/cgi/myaccount.cgi?context=" title="My Account Page" accesskey="3" >My Account</a> | 
+		<a href="https://bulletinofcas.researchcommons.org/accessibility.html" title="Accessibility Statement" accesskey="0" >Accessibility Statement</a>
+	</p>
+	<p>
+	
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/privacy-policy" title="Privacy Policy" >Privacy</a>
+	
+		<a class="secondary-link" href="https://www.elsevier.com/legal/elsevier-website-terms-and-conditions" title="Copyright Policy" >Copyright</a>	
+	</p> 
+	
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_inherit_7_8.inc (cont) -->
+					
+
+		</div>
+	</div>
+</div>
+
+<!-- FILE: /srv/sequoia/main/data/bulletinofcas.researchcommons.org/assets/ir_analytics.inc --><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145157401-68"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145157401-68');
+</script><!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer_inherit_7_8.inc (cont) -->
+
+<!-- FILE: /srv/sequoia/main/data/assets/site/ir_journal/footer.pregen (cont) -->
+
+<script type='text/javascript' src='/assets/scripts/bpbootstrap-20160726.pack.js'></script><script type='text/javascript'>BPBootstrap.init({appendCookie:''})</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a541fa5a0fe3d2b9',t:'MTc5MzYxMDMzMQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a541fa5a0fe3d2b9',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
