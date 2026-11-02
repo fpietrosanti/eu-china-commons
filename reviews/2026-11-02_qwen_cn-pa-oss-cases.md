@@ -22,3 +22,4 @@ Qwen returned 6 leads (4 URLs extracted). Claude verification:
 - Jinan Big Data Bureau 2024 final accounts PDF: "开源操作系统 Ubuntu/open 欧拉/龙蜥等" 28.26 yuan/set-month vs Windows 60.56 — **VERIFIED, A**
 - Hulunbuir contract PDF: Qwen quotes "华为欧拉"; our pdftotext found no text layer → OCR pending
 - Xuancheng trading-centre attachment: generic download endpoint, not checkable
+- Hulunbuir contract: OCR (tesseract chi_sim, 34 pages, server) finds only "银河麒麟", "统信/麒麟" — **the "华为欧拉" line quoted by Qwen was NOT found** → not counted; possible Qwen misquote (or OCR miss). Logged as a Qwen accuracy data point.

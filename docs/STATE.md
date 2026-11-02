@@ -28,7 +28,7 @@
 | Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 4 deployed** (e-gov clouds offering openEuler: Fujian province, Yancheng, Jinan — all A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases excluded, kept as context. **1 short** |
 | Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
-| Verified bridge opportunities | ≥ 3 | **2 verified** both sides (Eclipse–OpenAtom sister projects, latest 26 Mar 2026; EU–China High-Level Digital Dialogue channel), 2 partial (EPL-2.0 ZH translation, OpenChain–openEuler). See reviews/2026-11-02_chatgpt_bridges.md |
+| Verified bridge opportunities | ≥ 3 | **2 EU–CN verified** (Eclipse–OpenAtom sister projects; High-Level Digital Dialogue channel) **+ 1 shared standard** (OpenChain ISO 18974 adopted by openEuler — LF project, borderline) + 1 partial (EPL-2.0 ZH translation, EU source missing) |
 
 **Registry by level and evidence:**
 

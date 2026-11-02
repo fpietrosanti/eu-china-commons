@@ -15,3 +15,9 @@ Lesson: ChatGPT marked #5 "yes" for an off-topic project → every LLM "verified
 | 2 | Eclipse–OpenAtom joint Chinese translation of EPL-2.0 | eclipse.org/legal/epl-2.0 — no mention of the translation found | openatom.cn/journalism/detail/dwV4Ek3eszw1 — 2024 announcement "开放原子与Eclipse两基金会联合发布EPL-2.0许可证中译文", "双方认可" | **PARTIAL**: CN side A; EU-side Eclipse source still to find |
 
 **Bridge tally (gate A needs ≥3 verified both sides): 2 verified (#1 Eclipse–OpenAtom sister projects; #4 High-Level Digital Dialogue as channel), 2 partial (#2 EPL translation, #3 OpenChain).**
+
+## Follow-up (2 Nov)
+- (a) EU-side Eclipse page for the EPL-2.0 ZH translation: ChatGPT **not found** either (only OpenAtom's page) → stays partial.
+- (b) openEuler OpenChain: https://www.openeuler.org/en/news/20240607-openEuler%20Achieves%20OpenChain%20ISO%2018974%20Conformance/ — verified by Claude ("first open source community worldwide to achieve OpenChain ISO 18974 conformance"). With the OpenChain news page → **verified both organisations**; caveat: OpenChain is a Linux Foundation (global/US) project, so this is a *shared-standard* bridge, not EU-institutional.
+- (c) No further bridge with sources on both an EU and a Chinese organisation's site naming each other found by ChatGPT.
+**Tally: 2 EU–CN verified + 1 shared-standard verified (OpenChain) + 1 partial (EPL).** Whether OpenChain counts toward gate A is noted in STATE as a borderline.
