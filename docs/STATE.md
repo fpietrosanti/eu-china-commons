@@ -1,18 +1,14 @@
-# STATE — EU DC-EDIC × China digital commons
+# STATE — Observatory on European and Chinese Digital Commons
 
-Updated: 2026-10-29
+Updated: 2026-11-02 · Milestone: v0.1 public by **12 Nov 2026**
 
-## Scope (decided by Fabio)
-Open-source strategy and digital commons only. English only. Final outputs: proposition papers + conference talking points (EU side and CN side).
+## Where we are
+- Roadmap per mission: TODO.md (M1 paper, M2 site, M3 catalogue, M4 implicit collaboration, M5 priorities, M6 governance/funding, M7 open call, M8 brand/domain, M9 fundraising, Phase 0 sources/VPN)
+- Site v0.1 EN+ZH in site/ (preview: node tools/serve.js → :8090). Catalogue from site/data/catalogue.json (14 cases, bilingual)
+- Domain options: docs/DOMAIN-OPTIONS.md (recommendation: commons-bridge.eu + gongxiang.eu alias)
+- Analysis: docs/REVIEW-DRAFT.md; literature: docs/LITERATURE-AND-NOVELTY.md
+- Background research running: docs/LITERATURE-REVIEW.md + data/catalogue-verified.json (to merge into the site catalogue)
 
-## Done
-- Memo copied to docs/memo-2026-10-29.md
-- 40 sources fetched and hashed in sources/ + data/source_check.tsv. Unreachable from the laptop: S05, S16 (403), S19, S23, S31
-- DC-EDIC Implementation Strategy read in full (docs/S01-strategy.txt)
-- docs/REVIEW-DRAFT.md v0.1: analysis at 4 levels + scores + deliverables plan
-
-## Next
-- Joint review of REVIEW-DRAFT.md (see Part 5 questions)
-- Sources: all retrieved; direct re-fetch via the China VPN — see TODO.md
-- Draft the 4 proposition papers + 2 sets of talking points
-- Website: deferred until the content is approved
+## Blocking for 12 Nov (Fabio)
+- Choose and register the domain; public email; legal home of the observatory
+- Native-speaker review of the ZH text; publication repo (public GitHub?)

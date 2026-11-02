@@ -1,0 +1,1 @@
+{"version":"0.0.1","configurations":[{"name":"observatory-site","runtimeExecutable":"node","runtimeArgs":["tools/serve.js"],"port":8090}]}
