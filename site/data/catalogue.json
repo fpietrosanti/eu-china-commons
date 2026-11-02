@@ -3,102 +3,373 @@
   "version": "0.1",
   "entries": [
     {
-      "id": "EU-01", "side": "EU", "category": "pa-reuse", "status": "to-verify",
-      "title": {"en": "openDesk — Germany's sovereign workplace", "zh": "openDesk——德国主权办公平台"},
-      "summary": {"en": "An open-source office and collaboration suite for public administrations, stewarded by ZenDiS, the German federal centre for digital sovereignty. It integrates existing open components rather than building a new monolith, so other administrations can reuse the same reference stack.", "zh": "面向公共行政的开源办公与协作套件，由德国联邦数字主权中心 ZenDiS 负责维护。它整合现有开源组件，而非另起炉灶，使其他行政机构可复用同一参考技术栈。"},
-      "reuse": {"en": "Integrated reference stack reused across administrations; flagship input to the DC-EDIC Collaborative Workspace.", "zh": "跨机构复用的集成参考栈；为 DC-EDIC 协作办公旗舰项目提供基础。"},
-      "sources": ["https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"]
+      "id": "EU-01",
+      "side": "EU",
+      "category": "pa-reuse",
+      "status": "to-verify",
+      "title": {
+        "en": "openDesk — Germany's sovereign workplace",
+        "zh": "openDesk——德国主权办公平台"
+      },
+      "summary": {
+        "en": "An open-source office and collaboration suite for public administrations, stewarded by ZenDiS, the German federal centre for digital sovereignty. It integrates existing open components rather than building a new monolith, so other administrations can reuse the same reference stack.",
+        "zh": "面向公共行政的开源办公与协作套件，由德国联邦数字主权中心 ZenDiS 负责维护。它整合现有开源组件，而非另起炉灶，使其他行政机构可复用同一参考技术栈。"
+      },
+      "reuse": {
+        "en": "Integrated reference stack reused across administrations; flagship input to the DC-EDIC Collaborative Workspace.",
+        "zh": "跨机构复用的集成参考栈；为 DC-EDIC 协作办公旗舰项目提供基础。"
+      },
+      "sources": [
+        "https://www.opendesk.eu/en/about",
+        "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
+      ]
     },
     {
-      "id": "EU-02", "side": "EU", "category": "pa-reuse", "status": "to-verify",
-      "title": {"en": "La Suite numérique & Docs — France with Germany and the Netherlands", "zh": "La Suite numérique 与 Docs——法、德、荷协同"},
-      "summary": {"en": "The French interministerial digital directorate (DINUM) builds open collaboration tools for civil servants. Its collaborative editor Docs is built on the open BlockNote component, which the DC-EDIC names as a priority shared commons.", "zh": "法国跨部委数字局（DINUM）为公务员开发开源协作工具。其协同编辑器 Docs 基于开源组件 BlockNote 构建，该组件被 DC-EDIC 列为优先共享公地。"},
-      "reuse": {"en": "One component improved once, reused by several national suites.", "zh": "一个组件改进一次，多个国家套件共同复用。"},
-      "sources": ["https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"]
+      "id": "EU-02",
+      "side": "EU",
+      "category": "pa-reuse",
+      "status": "to-verify",
+      "title": {
+        "en": "La Suite numérique & Docs — France with Germany and the Netherlands",
+        "zh": "La Suite numérique 与 Docs——法、德、荷协同"
+      },
+      "summary": {
+        "en": "The French interministerial digital directorate (DINUM) builds open collaboration tools for civil servants. Its collaborative editor Docs is built on the open BlockNote component, which the DC-EDIC names as a priority shared commons.",
+        "zh": "法国跨部委数字局（DINUM）为公务员开发开源协作工具。其协同编辑器 Docs 基于开源组件 BlockNote 构建，该组件被 DC-EDIC 列为优先共享公地。"
+      },
+      "reuse": {
+        "en": "One component improved once, reused by several national suites.",
+        "zh": "一个组件改进一次，多个国家套件共同复用。"
+      },
+      "sources": [
+        "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
+      ]
     },
     {
-      "id": "EU-03", "side": "EU", "category": "pa-reuse", "status": "to-verify",
-      "title": {"en": "Matrix in government — Tchap (France), BwMessenger (Germany)", "zh": "政府中的 Matrix——法国 Tchap 与德国 BwMessenger"},
-      "summary": {"en": "Several European administrations run their own messaging on the open, federated Matrix protocol. Each runs independent servers, but they can interoperate — the model the DC-EDIC adopts for its Communication track.", "zh": "多个欧洲行政机构基于开放、联邦式的 Matrix 协议运行各自的即时通讯。各自独立部署服务器，又可互联互通——DC-EDIC 通讯赛道正采用这一模式。"},
-      "reuse": {"en": "Shared open protocol, separate sovereign deployments.", "zh": "共享开放协议，独立自主部署。"},
-      "sources": []
+      "id": "EU-03",
+      "side": "EU",
+      "category": "pa-reuse",
+      "status": "to-verify",
+      "title": {
+        "en": "Matrix in government — Tchap (France), BwMessenger (Germany)",
+        "zh": "政府中的 Matrix——法国 Tchap 与德国 BwMessenger"
+      },
+      "summary": {
+        "en": "Several European administrations run their own messaging on the open, federated Matrix protocol. Each runs independent servers, but they can interoperate — the model the DC-EDIC adopts for its Communication track.",
+        "zh": "多个欧洲行政机构基于开放、联邦式的 Matrix 协议运行各自的即时通讯。各自独立部署服务器，又可互联互通——DC-EDIC 通讯赛道正采用这一模式。"
+      },
+      "reuse": {
+        "en": "Shared open protocol, separate sovereign deployments.",
+        "zh": "共享开放协议，独立自主部署。"
+      },
+      "sources": [
+        "https://element.io/blog/bwmessenger-goes-live-for-bundeswehr/"
+      ]
     },
     {
-      "id": "EU-04", "side": "EU", "category": "pa-reuse", "status": "to-verify",
-      "title": {"en": "Developers Italia & publiccode.yml — reuse by law", "zh": "Developers Italia 与 publiccode.yml——依法复用"},
-      "summary": {"en": "Italian law (art. 69 of the Digital Administration Code) requires administrations to release software they commission for reuse by others. The national catalogue and the publiccode.yml metadata standard, born in Italy, are now referenced at European level.", "zh": "意大利法律（《数字行政法典》第69条）要求公共机构公开其委托开发的软件，供其他机构复用。国家软件目录及源自意大利的 publiccode.yml 元数据标准，现已在欧洲层面被引用。"},
-      "reuse": {"en": "Legal obligation + catalogue + machine-readable metadata.", "zh": "法律义务 + 软件目录 + 机器可读元数据。"},
-      "sources": ["https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"]
+      "id": "EU-04",
+      "side": "EU",
+      "category": "pa-reuse",
+      "status": "to-verify",
+      "title": {
+        "en": "Developers Italia & publiccode.yml — reuse by law",
+        "zh": "Developers Italia 与 publiccode.yml——依法复用"
+      },
+      "summary": {
+        "en": "Italian law (art. 69 of the Digital Administration Code) requires administrations to release software they commission for reuse by others. The national catalogue and the publiccode.yml metadata standard, born in Italy, are now referenced at European level.",
+        "zh": "意大利法律（《数字行政法典》第69条）要求公共机构公开其委托开发的软件，供其他机构复用。国家软件目录及源自意大利的 publiccode.yml 元数据标准，现已在欧洲层面被引用。"
+      },
+      "reuse": {
+        "en": "Legal obligation + catalogue + machine-readable metadata.",
+        "zh": "法律义务 + 软件目录 + 机器可读元数据。"
+      },
+      "sources": [
+        "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf",
+        "https://developers.italia.it/en/reuse/publication"
+      ]
     },
     {
-      "id": "EU-05", "side": "EU", "category": "pa-reuse", "status": "to-verify",
-      "title": {"en": "X-Road — Estonia's data exchange layer, shared across borders", "zh": "X-Road——爱沙尼亚的数据交换层，跨境共享"},
-      "summary": {"en": "The open-source data exchange layer behind Estonian e-government is jointly developed with Finland and others through a shared institute (NIIS), and reused by many countries worldwide.", "zh": "支撑爱沙尼亚电子政务的开源数据交换层，通过共同设立的机构（NIIS）与芬兰等国联合开发，并被全球多国复用。"},
-      "reuse": {"en": "Joint stewardship by states through a dedicated non-profit.", "zh": "多国通过专门的非营利机构共同维护。"},
-      "sources": []
+      "id": "EU-05",
+      "side": "EU",
+      "category": "pa-reuse",
+      "status": "verified",
+      "title": {
+        "en": "X-Road — Estonia's data exchange layer, shared across borders",
+        "zh": "X-Road——爱沙尼亚的数据交换层，跨境共享"
+      },
+      "summary": {
+        "en": "The open-source data exchange layer behind Estonian e-government is jointly developed with Finland and others through a shared institute (NIIS), and reused by many countries worldwide.",
+        "zh": "支撑爱沙尼亚电子政务的开源数据交换层，通过共同设立的机构（NIIS）与芬兰等国联合开发，并被全球多国复用。"
+      },
+      "reuse": {
+        "en": "Joint stewardship by states through a dedicated non-profit.",
+        "zh": "多国通过专门的非营利机构共同维护。"
+      },
+      "sources": [
+        "https://niis.org/news-archive?year=2019"
+      ]
     },
     {
-      "id": "EU-06", "side": "EU", "category": "funding", "status": "verified",
-      "title": {"en": "Sovereign Tech Agency & EU-STF Pilot", "zh": "主权技术局（Sovereign Tech Agency）与欧盟主权技术基金试点"},
-      "summary": {"en": "Germany's Sovereign Tech Agency funds the maintenance of open-source infrastructure the world depends on. It now operates the EU-STF Pilot inside the DC-EDIC: bounded work packages with trusted maintainers, selected through an open survey.", "zh": "德国主权技术局资助全球依赖的开源基础设施的维护工作，现于 DC-EDIC 框架内运营欧盟主权技术基金试点：经公开征集遴选，与可信维护者签订有限范围的工作包。"},
-      "reuse": {"en": "Funds maintenance of what already exists, not new products.", "zh": "资助既有软件的维护，而非新产品。"},
-      "sources": ["https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"]
+      "id": "EU-06",
+      "side": "EU",
+      "category": "funding",
+      "status": "verified",
+      "title": {
+        "en": "Sovereign Tech Agency & EU-STF Pilot",
+        "zh": "主权技术局（Sovereign Tech Agency）与欧盟主权技术基金试点"
+      },
+      "summary": {
+        "en": "Germany's Sovereign Tech Agency funds the maintenance of open-source infrastructure the world depends on. It now operates the EU-STF Pilot inside the DC-EDIC: bounded work packages with trusted maintainers, selected through an open survey.",
+        "zh": "德国主权技术局资助全球依赖的开源基础设施的维护工作，现于 DC-EDIC 框架内运营欧盟主权技术基金试点：经公开征集遴选，与可信维护者签订有限范围的工作包。"
+      },
+      "reuse": {
+        "en": "Funds maintenance of what already exists, not new products.",
+        "zh": "资助既有软件的维护，而非新产品。"
+      },
+      "sources": [
+        "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
+      ]
     },
     {
-      "id": "CN-01", "side": "CN", "category": "pa-reuse", "status": "to-verify",
-      "title": {"en": "openEuler — a community OS for public and critical infrastructure", "zh": "openEuler——面向公共与关键基础设施的社区操作系统"},
-      "summary": {"en": "A Linux distribution donated to the OpenAtom Foundation and developed by a multi-company community, widely reported as adopted in Chinese telecoms, finance and public-sector servers. Scale figures still need independent verification.", "zh": "捐赠给开放原子开源基金会、由多家企业共建社区开发的 Linux 发行版，据报道已在中国电信、金融及公共部门服务器中广泛部署。规模数据仍需独立核实。"},
-      "reuse": {"en": "One upstream, many commercial distributions built on it.", "zh": "一个上游，多个商业发行版基于其构建。"},
-      "sources": ["https://www.openeuler.org/en/community/organization/"]
+      "id": "CN-01",
+      "side": "CN",
+      "category": "pa-reuse",
+      "status": "to-verify",
+      "title": {
+        "en": "openEuler — a community OS for public and critical infrastructure",
+        "zh": "openEuler——面向公共与关键基础设施的社区操作系统"
+      },
+      "summary": {
+        "en": "A Linux distribution donated to the OpenAtom Foundation and developed by a multi-company community, widely reported as adopted in Chinese telecoms, finance and public-sector servers. Scale figures still need independent verification.",
+        "zh": "捐赠给开放原子开源基金会、由多家企业共建社区开发的 Linux 发行版，据报道已在中国电信、金融及公共部门服务器中广泛部署。规模数据仍需独立核实。"
+      },
+      "reuse": {
+        "en": "One upstream, many commercial distributions built on it.",
+        "zh": "一个上游，多个商业发行版基于其构建。"
+      },
+      "sources": [
+        "https://www.openeuler.org/en/community/organization/"
+      ]
     },
     {
-      "id": "CN-02", "side": "CN", "category": "pa-reuse", "status": "to-verify",
-      "title": {"en": "OpenHarmony in public infrastructure", "zh": "开源鸿蒙在公共基础设施中的应用"},
-      "summary": {"en": "Municipal programmes (Shenzhen, Chongqing) support OpenHarmony adoption in transport, industrial control and instrumentation. These are public incentives for reusing one shared open-source base across sectors; actual deployments are being verified.", "zh": "深圳、重庆等地的市级政策支持开源鸿蒙在交通、工业控制和仪器仪表等领域的应用，以公共激励推动跨行业复用同一开源底座。实际部署情况正在核实中。"},
-      "reuse": {"en": "Demand-side public incentives for a shared base.", "zh": "以需求侧公共激励推动共享底座。"},
-      "sources": ["https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html", "https://cq.gov.cn/ywdt/jrcq/202604/t20260415_15611230.html"]
+      "id": "CN-02",
+      "side": "CN",
+      "category": "pa-reuse",
+      "status": "to-verify",
+      "title": {
+        "en": "OpenHarmony in public infrastructure",
+        "zh": "开源鸿蒙在公共基础设施中的应用"
+      },
+      "summary": {
+        "en": "Municipal programmes (Shenzhen, Chongqing) support OpenHarmony adoption in transport, industrial control and instrumentation. These are public incentives for reusing one shared open-source base across sectors; actual deployments are being verified.",
+        "zh": "深圳、重庆等地的市级政策支持开源鸿蒙在交通、工业控制和仪器仪表等领域的应用，以公共激励推动跨行业复用同一开源底座。实际部署情况正在核实中。"
+      },
+      "reuse": {
+        "en": "Demand-side public incentives for a shared base.",
+        "zh": "以需求侧公共激励推动共享底座。"
+      },
+      "sources": [
+        "https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html",
+        "https://cq.gov.cn/ywdt/jrcq/202604/t20260415_15611230.html"
+      ]
     },
     {
-      "id": "CN-03", "side": "CN", "category": "governance", "status": "verified",
-      "title": {"en": "Mulan licences — public licence infrastructure recognised internationally", "zh": "木兰许可证——获国际认可的公共许可证基础设施"},
-      "summary": {"en": "China created its own bilingual open-source licences. Mulan PSL v2 was approved by the Open Source Initiative in 2020, showing that Chinese legal instruments can enter international open-source governance.", "zh": "中国制定了中英双语开源许可证。木兰宽松许可证第2版于2020年获开放源代码促进会（OSI）批准，表明中国的法律工具能够融入国际开源治理。"},
-      "reuse": {"en": "Shared legal infrastructure usable on both sides.", "zh": "双方均可使用的共享法律基础设施。"},
-      "sources": ["https://opensource.org/meeting-minutes/2020-02-14"]
+      "id": "CN-03",
+      "side": "CN",
+      "category": "governance",
+      "status": "verified",
+      "title": {
+        "en": "Mulan licences — public licence infrastructure recognised internationally",
+        "zh": "木兰许可证——获国际认可的公共许可证基础设施"
+      },
+      "summary": {
+        "en": "China created its own bilingual open-source licences. Mulan PSL v2 was approved by the Open Source Initiative in 2020, showing that Chinese legal instruments can enter international open-source governance.",
+        "zh": "中国制定了中英双语开源许可证。木兰宽松许可证第2版于2020年获开放源代码促进会（OSI）批准，表明中国的法律工具能够融入国际开源治理。"
+      },
+      "reuse": {
+        "en": "Shared legal infrastructure usable on both sides.",
+        "zh": "双方均可使用的共享法律基础设施。"
+      },
+      "sources": [
+        "https://opensource.org/meeting-minutes/2020-02-14"
+      ]
     },
     {
-      "id": "CN-04", "side": "CN", "category": "funding", "status": "verified",
-      "title": {"en": "Regional open-source funds — Hangzhou, Guangdong, Shenzhen, Jiangsu", "zh": "地方开源资金——杭州、广东、深圳、江苏"},
-      "summary": {"en": "Chinese provinces and cities fund project incubation (Hangzhou, up to RMB 1M), community operating costs (Guangdong, 30%, cap RMB 8M) and adoption (Shenzhen, up to 15%). Jiangsu announced a fund matrix of at least RMB 1bn. These are announced envelopes, not verified spending.", "zh": "中国多个省市资助项目孵化（杭州，最高100万元）、社区运营成本（广东，30%，上限800万元）及应用推广（深圳，最高15%）。江苏宣布规划不低于10亿元的基金矩阵。以上均为公布的资金规模，并非已核实的实际支出。"},
-      "reuse": {"en": "Strong on creation and adoption — the mirror image of Europe's maintenance focus.", "zh": "侧重创建与应用——恰与欧洲侧重维护形成互补。"},
-      "sources": ["https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml", "https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4694765.html", "https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html", "https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html"]
+      "id": "CN-04",
+      "side": "CN",
+      "category": "funding",
+      "status": "verified",
+      "title": {
+        "en": "Regional open-source funds — Hangzhou, Guangdong, Shenzhen, Jiangsu",
+        "zh": "地方开源资金——杭州、广东、深圳、江苏"
+      },
+      "summary": {
+        "en": "Chinese provinces and cities fund project incubation (Hangzhou, up to RMB 1M), community operating costs (Guangdong, 30%, cap RMB 8M) and adoption (Shenzhen, up to 15%). Jiangsu announced a fund matrix of at least RMB 1bn. These are announced envelopes, not verified spending.",
+        "zh": "中国多个省市资助项目孵化（杭州，最高100万元）、社区运营成本（广东，30%，上限800万元）及应用推广（深圳，最高15%）。江苏宣布规划不低于10亿元的基金矩阵。以上均为公布的资金规模，并非已核实的实际支出。"
+      },
+      "reuse": {
+        "en": "Strong on creation and adoption — the mirror image of Europe's maintenance focus.",
+        "zh": "侧重创建与应用——恰与欧洲侧重维护形成互补。"
+      },
+      "sources": [
+        "https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml",
+        "https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4694765.html",
+        "https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html",
+        "https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html"
+      ]
     },
     {
-      "id": "EUCN-01", "side": "EU-CN", "category": "implicit-collaboration", "status": "verified",
-      "title": {"en": "Eclipse Oniro ↔ OpenHarmony — 'sister projects'", "zh": "Eclipse Oniro ↔ 开源鸿蒙——“姊妹项目”"},
-      "summary": {"en": "Since 2021 the Eclipse Foundation (Brussels) and the OpenAtom Foundation (Beijing) have run two separately governed projects with coordinated technical development. They also agreed a Chinese translation of the Eclipse Public License 2.0 (2024) and renewed their exchange in March 2026.", "zh": "自2021年起，Eclipse 基金会（布鲁塞尔）与开放原子开源基金会（北京）运行两个独立治理、技术协同的项目，并于2024年共同确定 Eclipse 公共许可证2.0中文译本，2026年3月续开交流机制。"},
-      "reuse": {"en": "Separate governance, shared technology — the most concrete foundation-level precedent. It is also contested in the US (House Select Committee letter, June 2025).", "zh": "治理独立、技术共享——最具体的基金会层面先例；同时在美国引发争议（众议院特别委员会2025年6月来函）。"},
-      "sources": ["https://blogs.eclipse.org/post/mike-milinkovich/eclipse-and-openatom-pioneering-open-source-innovation", "https://www.openatom.org/journalism/detail/dwV4Ek3eszw1", "https://www.openatom.org/journalism/detail/14taw6BXk2Pb", "https://metrics.eclipse.org/wgs/oniro/"]
+      "id": "EUCN-01",
+      "side": "EU-CN",
+      "category": "implicit-collaboration",
+      "status": "verified",
+      "title": {
+        "en": "Eclipse Oniro ↔ OpenHarmony — 'sister projects'",
+        "zh": "Eclipse Oniro ↔ 开源鸿蒙——“姊妹项目”"
+      },
+      "summary": {
+        "en": "Since 2021 the Eclipse Foundation (Brussels) and the OpenAtom Foundation (Beijing) have run two separately governed projects with coordinated technical development. They also agreed a Chinese translation of the Eclipse Public License 2.0 (2024) and renewed their exchange in March 2026.",
+        "zh": "自2021年起，Eclipse 基金会（布鲁塞尔）与开放原子开源基金会（北京）运行两个独立治理、技术协同的项目，并于2024年共同确定 Eclipse 公共许可证2.0中文译本，2026年3月续开交流机制。"
+      },
+      "reuse": {
+        "en": "Separate governance, shared technology — the most concrete foundation-level precedent. It is also contested in the US (House Select Committee letter, June 2025).",
+        "zh": "治理独立、技术共享——最具体的基金会层面先例；同时在美国引发争议（众议院特别委员会2025年6月来函）。"
+      },
+      "sources": [
+        "https://blogs.eclipse.org/post/mike-milinkovich/eclipse-and-openatom-pioneering-open-source-innovation",
+        "https://www.openatom.org/journalism/detail/dwV4Ek3eszw1",
+        "https://www.openatom.org/journalism/detail/14taw6BXk2Pb",
+        "https://metrics.eclipse.org/wgs/oniro/"
+      ]
     },
     {
-      "id": "EUCN-02", "side": "EU-CN", "category": "implicit-collaboration", "status": "to-verify",
-      "title": {"en": "RISC-V International — an open standard with a Swiss home", "zh": "RISC-V 国际基金会——以瑞士为法律所在地的开放标准"},
-      "summary": {"en": "The open instruction-set standard moved its legal seat to Switzerland in 2020. European and Chinese members work on the same specifications, and Chinese open processors such as XiangShan implement them.", "zh": "这一开放指令集标准于2020年将法律注册地迁至瑞士。欧洲与中国成员共同参与同一规范的制定，香山等中国开源处理器即基于该规范实现。"},
-      "reuse": {"en": "A shared open standard; separate implementations.", "zh": "共享开放标准，各自独立实现。"},
-      "sources": ["https://english.scio.gov.cn/m/chinavoices/2026-03/27/content_118405912.html"]
+      "id": "EUCN-02",
+      "side": "EU-CN",
+      "category": "implicit-collaboration",
+      "status": "verified",
+      "title": {
+        "en": "RISC-V International — an open standard with a Swiss home",
+        "zh": "RISC-V 国际基金会——以瑞士为法律所在地的开放标准"
+      },
+      "summary": {
+        "en": "The open instruction-set standard moved its legal seat to Switzerland in 2020. European and Chinese members work on the same specifications, and Chinese open processors such as XiangShan implement them.",
+        "zh": "这一开放指令集标准于2020年将法律注册地迁至瑞士。欧洲与中国成员共同参与同一规范的制定，香山等中国开源处理器即基于该规范实现。"
+      },
+      "reuse": {
+        "en": "A shared open standard; separate implementations.",
+        "zh": "共享开放标准，各自独立实现。"
+      },
+      "sources": [
+        "https://riscv.org/about/faq/",
+        "https://english.scio.gov.cn/m/chinavoices/2026-03/27/content_118405912.html"
+      ]
     },
     {
-      "id": "EUCN-03", "side": "EU-CN", "category": "implicit-collaboration", "status": "to-verify",
-      "title": {"en": "Apache projects born in China, used in Europe", "zh": "源自中国、在欧洲使用的 Apache 项目"},
-      "summary": {"en": "Several data-infrastructure projects started by Chinese companies and universities (e.g. Apache DolphinScheduler, ShardingSphere, Doris, IoTDB) graduated under the Apache Software Foundation's vendor-neutral governance and have users in Europe. This is collaboration with no government in the loop.", "zh": "多个由中国企业和高校发起的数据基础设施项目（如 Apache DolphinScheduler、ShardingSphere、Doris、IoTDB）已在 Apache 软件基金会中立治理下毕业，并拥有欧洲用户——这是一种无需政府参与的协作。"},
-      "reuse": {"en": "Neutral foundation governance makes origin irrelevant to reuse.", "zh": "中立的基金会治理使项目来源不影响复用。"},
-      "sources": []
+      "id": "EUCN-03",
+      "side": "EU-CN",
+      "category": "implicit-collaboration",
+      "status": "to-verify",
+      "title": {
+        "en": "Apache projects born in China, used in Europe",
+        "zh": "源自中国、在欧洲使用的 Apache 项目"
+      },
+      "summary": {
+        "en": "Several data-infrastructure projects started by Chinese companies and universities (e.g. Apache DolphinScheduler, ShardingSphere, Doris, IoTDB) graduated under the Apache Software Foundation's vendor-neutral governance and have users in Europe. This is collaboration with no government in the loop.",
+        "zh": "多个由中国企业和高校发起的数据基础设施项目（如 Apache DolphinScheduler、ShardingSphere、Doris、IoTDB）已在 Apache 软件基金会中立治理下毕业，并拥有欧洲用户——这是一种无需政府参与的协作。"
+      },
+      "reuse": {
+        "en": "Neutral foundation governance makes origin irrelevant to reuse.",
+        "zh": "中立的基金会治理使项目来源不影响复用。"
+      },
+      "sources": [
+        "https://sdtimes.com/data/apache-shardingsphere-now-top-level-project/"
+      ]
     },
     {
-      "id": "EUCN-04", "side": "EU-CN", "category": "governance", "status": "verified",
-      "title": {"en": "Community bridges — KAIYUANSHE and the Open Source Initiative", "zh": "社区桥梁——开源社与开放源代码促进会"},
-      "summary": {"en": "KAIYUANSHE, a volunteer-run, vendor-neutral Chinese community founded in 2014, has been an OSI affiliate since 2016 and publishes an annual China Open Source Report — a natural counterpart to the DC-EDIC's State of Digital Commons.", "zh": "开源社成立于2014年，是由志愿者运营、厂商中立的中国开源社区，自2016年起为 OSI 附属成员，每年发布《中国开源年度报告》——与 DC-EDIC 的《数字公地现状》报告天然对应。"},
-      "reuse": {"en": "Two annual evidence reports that could review each other.", "zh": "两份年度证据报告，可相互评阅。"},
-      "sources": ["https://www.kaiyuanshe.cn/about", "https://kaiyuanshe.github.io/2025-China-Open-Source-Report/en/"]
+      "id": "EUCN-04",
+      "side": "EU-CN",
+      "category": "governance",
+      "status": "verified",
+      "title": {
+        "en": "Community bridges — KAIYUANSHE and the Open Source Initiative",
+        "zh": "社区桥梁——开源社与开放源代码促进会"
+      },
+      "summary": {
+        "en": "KAIYUANSHE, a volunteer-run, vendor-neutral Chinese community founded in 2014, has been an OSI affiliate since 2016 and publishes an annual China Open Source Report — a natural counterpart to the DC-EDIC's State of Digital Commons.",
+        "zh": "开源社成立于2014年，是由志愿者运营、厂商中立的中国开源社区，自2016年起为 OSI 附属成员，每年发布《中国开源年度报告》——与 DC-EDIC 的《数字公地现状》报告天然对应。"
+      },
+      "reuse": {
+        "en": "Two annual evidence reports that could review each other.",
+        "zh": "两份年度证据报告，可相互评阅。"
+      },
+      "sources": [
+        "https://www.kaiyuanshe.cn/about",
+        "https://kaiyuanshe.github.io/2025-China-Open-Source-Report/en/"
+      ]
+    },
+    {
+      "id": "CN-05",
+      "side": "CN",
+      "category": "pa-reuse",
+      "status": "verified",
+      "title": {
+        "en": "OpenHarmony Application Innovation Lab — Longgang District, Shenzhen",
+        "zh": "开源鸿蒙应用创新实验室——深圳市龙岗区"
+      },
+      "summary": {
+        "en": "A district government in Shenzhen set up a public lab to help local companies and public services build on OpenHarmony. Local government acts as convener of a shared open-source base.",
+        "zh": "深圳市龙岗区设立公共实验室，帮助本地企业和公共服务基于开源鸿蒙进行开发，由地方政府担当共享开源底座的召集者。"
+      },
+      "reuse": {
+        "en": "Local public node for a shared base: comparable to the DC-EDIC local nodes.",
+        "zh": "共享底座的地方公共节点，可与 DC-EDIC 的地方节点相类比。"
+      },
+      "sources": [
+        "https://www.lg.gov.cn/english/news/latestnews/content/post_12698243.html"
+      ]
+    },
+    {
+      "id": "CN-06",
+      "side": "CN",
+      "category": "governance",
+      "status": "verified",
+      "title": {
+        "en": "Gitee — a code-hosting platform endorsed by MIIT",
+        "zh": "Gitee——工业和信息化部支持的代码托管平台"
+      },
+      "summary": {
+        "en": "MIIT selected Gitee to become an independent national code-hosting platform, partly as a hedge against losing access to foreign forges. Europe is debating sovereign forges in the same way.",
+        "zh": "工业和信息化部选定 Gitee 建设独立的国家级代码托管平台，部分原因是为了防范无法访问境外平台的风险。欧洲也在以同样的思路讨论自主代码托管平台。"
+      },
+      "reuse": {
+        "en": "Same question on both sides: who hosts the commons?",
+        "zh": "双方面临同一问题：谁来托管公地？"
+      },
+      "sources": [
+        "https://22.merics.org/sites/default/files/2021-05/MERICS%20Primer%20Open%20Source%202021_0.pdf"
+      ]
+    },
+    {
+      "id": "EUCN-05",
+      "side": "EU-CN",
+      "category": "implicit-collaboration",
+      "status": "verified",
+      "title": {
+        "en": "\"Europe–China Open Source\" keynote, OSS Europe 2025",
+        "zh": "“中欧开源”主题演讲，2025年欧洲开源峰会"
+      },
+      "summary": {
+        "en": "At Open Source Summit Europe (Amsterdam, August 2025), OSS-Compass (Huawei) and Bitergia (Spain) jointly presented data on European and Chinese contributions and proposed a complementary path for cooperation. Industry already talks about this; policy does not yet.",
+        "zh": "2025年8月在阿姆斯特丹举行的欧洲开源峰会上，OSS-Compass（华为）与西班牙 Bitergia 公司联合发布中欧开源贡献数据，并提出互补合作路径。产业界已在讨论，政策层面尚未跟进。"
+      },
+      "reuse": {
+        "en": "A joint EU–CN evidence product, made by industry and community.",
+        "zh": "由产业界与社区共同完成的中欧联合证据成果。"
+      },
+      "sources": [
+        "https://compass.gitee.com/blog/2025/08/29/OSS-EU2025",
+        "https://osseu2025.sched.com/event/25VuY/europe-china-open-source-digital-sovereignty-sustained-collaboration-yehui-wang-huawei-daniel-izquierdo-cortazar-bitergia"
+      ]
     }
   ]
 }

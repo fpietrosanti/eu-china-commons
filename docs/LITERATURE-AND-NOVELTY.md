@@ -27,7 +27,9 @@ What follows is a hypothesis to confirm with a systematic search.
 ## 3. Consequences for the paper and website
 
 - **We must engage the security literature directly.** The House Select Committee letter of June 2025 targets the very precedent we use (Eclipse–OpenAtom). The paper needs a section answering it: audits, fork capability, separation of governance. Otherwise reviewers and policy-makers will dismiss the case study.
-- **Positioning statement (draft):** "The first independent assessment of China's open-source and digital-commons policies against the EU DC-EDIC Implementation Strategy, separating complementarity from risk."
+- **Positioning statement (revised after the systematic search, see LITERATURE-REVIEW.md):** "To our knowledge, the first instrument-level assessment of Chinese open-source and digital-commons policies against the EU DC-EDIC Implementation Strategy, scoring fit, feasibility and exposure separately." Do **not** claim to be the first on EU–China complementarity: the Huawei/OSS-Compass + Bitergia keynote (OSS Europe, Aug 2025) already proposed a complementary path, using contribution data rather than policy analysis. Cite it.
+- Read before publishing: OpenUK *AI Openness Report* (July 2026, China section), MERICS AI-stack report (July 2025).
+- A key finding to use: OFE 2023 reports that **China had no formal open-source reuse policy for public administrations**. Europe's reuse-by-law model is the piece China lacks, so reuse is a European contribution to the dialogue.
 - The OFE 2023 report is our natural "previous state of the art". Cite it and show what changed: new Chinese plans, plus the EU Open Source Strategy (June 2026) and the DC-EDIC.
 
 ## 4. To do before claiming novelty publicly
