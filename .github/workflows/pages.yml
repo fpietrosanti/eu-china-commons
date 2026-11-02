@@ -1,8 +1,8 @@
 name: Deploy site to GitHub Pages
 on:
-  push:
-    branches: [main]
-    paths: ["site/**", ".github/workflows/pages.yml"]
+  # push: enabled after the site is approved for publication (see docs/STATE.md)
+  #   branches: [main]
+  #   paths: ["site/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 permissions: {contents: read, pages: write, id-token: write}
 concurrency: {group: pages, cancel-in-progress: true}
