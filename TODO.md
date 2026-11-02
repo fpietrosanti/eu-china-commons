@@ -8,6 +8,11 @@
 - [ ] Systematic download of Chinese originals: full policy texts (Beijing S12, Shanghai S13, Zhejiang S14, MIIT S06), the Shanghai 2026 declaration text + signatories (S20)
 - [ ] National foundation registry (chinanpo.mca.gov.cn) for OpenAtom and Chance Foundation: date, credit code, governing body
 
+## Phase 0b — Literature and novelty
+- [x] First literature search (docs/LITERATURE-AND-NOVELTY.md, 2 Nov)
+- [ ] Systematic search (Scholar/SSRN/Scopus + think tanks) and full reading of key items
+- [ ] Section answering the House Select Committee letter (June 2025) on Eclipse–OpenAtom
+
 ## Phase 1 — Joint review (Fabio + Claude)
 - [ ] Review REVIEW-DRAFT.md: voice/authorship, scores in Part 3, P-3 SBOM exposure, F-2 public or internal
 - [ ] Decide whether COSCon (14–15 Nov 2026, Hangzhou) is the first target
