@@ -84,3 +84,12 @@ Goal: site and white paper in every official EU language, kept up to date **with
 - [x] GitHub Pages workflow ready (.github/workflows/pages.yml, site/CNAME)
 - [ ] GitHub repo and dedicated server account (Fabio) → push, Pages, move the jobs
 - [ ] Public email; native ZH reviewer; public vs private source archive; Chinese partner for WeChat
+
+## Methodology (docs/METHODOLOGY.md) — added 4 Nov 2026
+Research method and dissemination method are both deliverables, to be published as an annex to the white paper and on the site.
+- [x] Methodology v0.1: evidence levels A–D, 6-step cycle, multi-LLM cross-check (Western + Chinese, blind, two languages, kappa), audience map, 4 pillars (policy, governance, funding, operations), formats ladder
+- [ ] **Qwen + DeepSeek via subscription/free chat only (no API)**: Fabio opens the accounts and logs in in the browser; Claude drives low-volume sessions and archives them in reviews/
+- [ ] Pilot with 3 tasks: (1) search for the Shanghai declaration and the 15th Five-Year Plan passages; (2) completeness check of the registry and catalogue of Chinese initiatives; (3) review of the ZH text and the Chinese name
+- [ ] Set up protocols/, reviews/, data/llm-runs.tsv, docs/MODEL-CARDS-USED.md, decision log docs/REGISTRO.md
+- [ ] Kappa on the first scoring round (humans + models)
+- [ ] Message testing with real audiences, EU and CN
