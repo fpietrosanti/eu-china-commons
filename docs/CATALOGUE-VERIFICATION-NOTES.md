@@ -58,3 +58,6 @@ Goal: fifth verified Chinese public-sector case; raise registry evidence. Labels
 - DeepSeek: no qualifying case; explains that bodies deploy commercial distributions (Kylin, UOS) and pages name those, not upstream.
 - Qwen: 7 leads. **Verified: Fujian provincial e-government cloud lists openEuler-20.03 as default OS** (official PDF, 9 May 2025) → added as `cn-fujian-egov-cloud-openeuler`, evidence A. This is the 5th CN case and the first DEPLOYED-infrastructure case naming upstream openEuler.
 - Hulunbuir e-gov cloud contract (11 MB scanned PDF, no text layer): downloaded, OCR pending. Baiyun district (Guangzhou): HarmonyOS city plan, press-release level → plan. Tianjin openKylin 3.0: a release, not a deployment. Longhua (Shenzhen): unreachable → VPN queue.
+
+## Decision (Fabio, 2 Nov 2026): open source only
+Gate A counts only deployments of open-source software (openEuler, OpenHarmony, openKylin, etc.). HarmonyOS cases are marked `gate_a_counts: false` and kept as context. CN now: 2 deployed (Fujian openEuler default; Longgang OpenHarmony lab) + 3 plans. Next search targets: other provincial e-gov clouds offering openEuler (same IaaS-form pattern as Fujian), openEuler OSV list as bridge for Kylin/UOS deployments, OpenHarmony in government terminals (not HarmonyOS).

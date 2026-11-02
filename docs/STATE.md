@@ -19,12 +19,13 @@
 | 3 Nov | Site and white paper structure only after "enough information" (gate A); brand identity that resonates in China |
 | 4 Nov | Source archive: **all copies public** in the repo (Fabio), including third-party sources, with attribution and original link
 | 4 Nov | Research and dissemination methodology is itself a deliverable; Chinese LLMs (Qwen, DeepSeek) **through subscription chat only, no API** |
+| 2 Nov | **PA-reuse counts open source only**: HarmonyOS deployments are context, not reuse. The scarcity of documented open-source PA deployments in China is itself a finding |
 
 ## 3. Gate A — progress
 | Criterion | Target | Now |
 |---|---|---|
 | Registry initiatives | ≥ 60, ≥ 60% primary | **62, 41 primary (66%) ✓** |
-| Verified PA-reuse cases | ≥ 5 per side | **EU 8 ✓**, **CN 5 deployed/default + plans** (Fujian e-gov cloud openEuler default, A, 2 Nov; Yue Zhengyi, Sui Hao Ban on HarmonyOS; Longgang lab; plus plans). Pending Fabio: whether HarmonyOS counts |
+| Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 2 deployed** (Fujian e-gov cloud openEuler default, A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases (Yue Zhengyi, Sui Hao Ban, Guangzhou plan) excluded, kept as context. **Not met** |
 | Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
 | Verified bridge opportunities | ≥ 3 | **2 verified** both sides (Eclipse–OpenAtom sister projects, latest 26 Mar 2026; EU–China High-Level Digital Dialogue channel), 2 partial (EPL-2.0 ZH translation, OpenChain–openEuler). See reviews/2026-11-02_chatgpt_bridges.md |

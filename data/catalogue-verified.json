@@ -473,7 +473,9 @@
     ],
     "status": "verified",
     "evidence": "A",
-    "note": "Round 4. Counts as a deployment case by a named .gov.cn body. Open-source status of the stack is partial (inference)."
+    "note": "Round 4. Counts as a deployment case by a named .gov.cn body. Open-source status of the stack is partial (inference).",
+    "gate_a_counts": false,
+    "gate_a_reason": "HarmonyOS (proprietary Huawei stack): kept as context, not counted as open-source reuse (Fabio, 2 Nov 2026)"
   },
   {
     "id": "cn-suihaoban-harmonyos",
@@ -488,7 +490,9 @@
     ],
     "status": "verified",
     "evidence": "A",
-    "note": "Round 4."
+    "note": "Round 4.",
+    "gate_a_counts": false,
+    "gate_a_reason": "HarmonyOS (proprietary Huawei stack): kept as context, not counted as open-source reuse (Fabio, 2 Nov 2026)"
   },
   {
     "id": "cn-guangzhou-harmony-plan-2026",
@@ -503,7 +507,9 @@
     ],
     "status": "verified",
     "evidence": "A",
-    "note": "Round 4. Supporting but secondary: https://www.ithome.com/0/966/519.htm, https://m.mp.oeeee.com/a/BAAFRD0000202603211542935.html (not fetchable, HTTP 493), https://www.cs.com.cn/ssgs/01/2026/05/30/detail_2026053010015098.html"
+    "note": "Round 4. Supporting but secondary: https://www.ithome.com/0/966/519.htm, https://m.mp.oeeee.com/a/BAAFRD0000202603211542935.html (not fetchable, HTTP 493), https://www.cs.com.cn/ssgs/01/2026/05/30/detail_2026053010015098.html",
+    "gate_a_counts": false,
+    "gate_a_reason": "HarmonyOS (proprietary Huawei stack): kept as context, not counted as open-source reuse (Fabio, 2 Nov 2026)"
   },
   {
     "id": "cn-harmonyos-900-gov-apps",
@@ -519,7 +525,9 @@
     ],
     "status": "partly verified",
     "evidence": "C",
-    "note": "Round 4. Context only; does not count toward gate A."
+    "note": "Round 4. Context only; does not count toward gate A.",
+    "gate_a_counts": false,
+    "gate_a_reason": "HarmonyOS (proprietary Huawei stack): kept as context, not counted as open-source reuse (Fabio, 2 Nov 2026)"
   },
   {
     "id": "cn-fujian-egov-cloud-openeuler",
