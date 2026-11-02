@@ -575,5 +575,315 @@
     "evidence": "A",
     "gate_a_counts": true,
     "note": "Round 5b. Lead from Qwen, verified by Claude (pdftotext). Also a cost data point: open-source OS 28.26 vs Windows Server 60.56 yuan/set-month."
+  },
+  {
+    "id": "eu-eclipse-sdv",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "Eclipse SDV and S-CORE (software-defined vehicle)",
+    "summary": "Eclipse Foundation working group for open-source software-defined-vehicle software. Governed via a Steering Committee, Technical Committee, Functional Safety Committee and Marketing Committee. Eclipse S-CORE (Safe Open Vehicle Core) builds a modular open-source core stack for embedded high-performance ECUs.",
+    "since": "n/d",
+    "scale": "member count not stated on the official page",
+    "sources": [
+      "https://eclipsesdv.org/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Governance: Eclipse Foundation (Europe-based non-profit), industry-led. Licence not stated on the page (check per repo). Public funding: not documented. Chinese members: none named on the page (not verified either way)."
+  },
+  {
+    "id": "eu-eclipse-oniro",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "Eclipse Oniro (OpenHarmony-based, vendor-neutral)",
+    "summary": "Eclipse Foundation project run by a member Working Group under a charter; established through collaboration between the Eclipse Foundation and the OpenAtom Foundation; builds on and extends OpenHarmony.",
+    "since": "n/d",
+    "scale": "n/d",
+    "sources": [
+      "https://oniroproject.org/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Fact: an EU-hosted project built on a Chinese open-source base, co-established with OpenAtom (direct EU-CN bridge). Licence not stated on the page (EPL-2.0 linked in general Legal section). Huawei participation: not stated on the page."
+  },
+  {
+    "id": "eu-scs",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "Sovereign Cloud Stack (SCS)",
+    "summary": "European initiative: open community plus Forum SCS-Standards that co-develop standards and open-source software for IaaS and Kubernetes-as-a-Service. Certified offerings listed: IaaS providers (REGIO.cloud, CNDS, ScaleUp, Cloud&Heat), KaaS (Syself, ScaleUp, noris).",
+    "since": "n/d",
+    "scale": "4 certified IaaS providers and 3 KaaS offerings listed on the site (self-published)",
+    "sources": [
+      "https://sovereigncloudstack.org/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Affiliated with the Open Source Business Alliance (logo on page). Licence and funding not stated on the page. Chinese participants: not mentioned."
+  },
+  {
+    "id": "eu-ipcei-cis",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "IPCEI-CIS (Next Generation Cloud Infrastructure and Services)",
+    "summary": "Important Project of Common European Interest approved by the European Commission on 5 December 2023: up to EUR 1.2 billion public funding from 7 member states (FR, DE, HU, IT, NL, PL, ES), expected to unlock EUR 1.4 billion private investment; 19 companies; aim an interoperable, openly accessible European data-processing ecosystem.",
+    "since": "2023-12-05",
+    "scale": "EUR 1.2 bn public (cap) + EUR 1.4 bn private (expected)",
+    "sources": [
+      "https://competition-policy.ec.europa.eu/state-aid/ipcei/approved-ipceis/cloud_cs",
+      "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_23_6246/IP_23_6246_EN.pdf"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Governance: member states + Commission; Germany co-coordinates. The Commission page does not mention open-source licensing; the open-source reference infrastructure by end-2027 is reported by press only (C)."
+  },
+  {
+    "id": "eu-tractusx-catenax",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "Eclipse Tractus-X / Catena-X (automotive data space)",
+    "summary": "Open-source dataspace software (Eclipse Tractus-X) for the Catena-X Automotive Network, whose association is the governance body. Tractus-X is hosted with partners incl. BMW, Mercedes-Benz, Volkswagen, Fraunhofer ISST, IDSA; BMWE listed as partner.",
+    "since": "n/d",
+    "scale": "Catena-X claims over 1000 companies (self-reported); Tractus-X lists 8 community bases in 8 countries incl. China",
+    "sources": [
+      "https://eclipse-tractusx.github.io/",
+      "https://catena-x.net/en/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Fact: Tractus-X lists a China community base; Catena-X logo wall includes CATL and Huawei (roles not described). Membership figures are self-reported claims. Licence not stated on the pages visited. Funding: BMWE listed as partner, amount not documented."
+  },
+  {
+    "id": "eu-dare-riscv",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "DARE: Digital Autonomy with RISC-V in Europe (EuroHPC)",
+    "summary": "EuroHPC JU project coordinated by BSC: up to EUR 120 million from EuroHPC JU/Horizon Europe matched by participating states (about EUR 240 m total reported for SGA1); 38 partners from 13 countries; designs one general-purpose RISC-V processor and two accelerators plus a RISC-V HPC/AI software stack. Framework agreement running to 2030.",
+    "since": "2025-03-06",
+    "scale": "38 partners, 13 countries",
+    "sources": [
+      "https://eurohpc-ju.europa.eu/advancing-european-sovereignty-hpc-risc-v-2025-03-06_en",
+      "https://bsc.es/research-and-development/projects/dare-fpa-digital-autonomy-risc-v-europe"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "The EUR 240 m total is from secondary reporting (heise, Next Platform); the official page gives the EUR 120 m EU share. Open-source licence of outputs not stated. Chinese participants: none documented."
+  },
+  {
+    "id": "eu-openeurollm",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "OpenEuroLLM",
+    "summary": "EU-funded project to build open European LLMs, funded by the Digital Europe Programme (grant agreement 101195233). Partners are universities, companies and HPC centres.",
+    "since": "2025",
+    "scale": "n/d",
+    "sources": [
+      "https://openeurollm.eu/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Amount, coordinator and licence not stated on the site page visited. Chinese participants: none documented."
+  },
+  {
+    "id": "eu-eurollm",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "EuroLLM (open-weight multilingual model)",
+    "summary": "Open-weight model family covering 35 languages including the 24 official EU languages (and Chinese), Apache-2.0; developed by a consortium (IST Lisbon, Instituto de Telecomunicacoes, Edinburgh, Unbabel, Aveni, Paris-Saclay, Amsterdam, Naver Labs, Sorbonne, Artefact) with EU funding per the model card.",
+    "since": "n/d",
+    "scale": "EuroLLM-22B-Instruct-2512 model card",
+    "sources": [
+      "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Funding programme and amount not specified on the card. Chinese is only a supported language; no Chinese contributor documented."
+  },
+  {
+    "id": "eu-rise-riscv",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "RISE Project (RISC-V software ecosystem)",
+    "summary": "Linux Foundation project accelerating the RISC-V software stack (firmware, kernel, cloud, toolchains); TSC-led working groups propose projects to a Board.",
+    "since": "n/d",
+    "scale": "n/d",
+    "sources": [
+      "https://riseproject.dev/"
+    ],
+    "status": "verified",
+    "evidence": "B",
+    "note": "Evidence B: the official page does not name members or confirm Linux Foundation Europe, so the European link is not established; listed as a global stack Europe depends on. Members page not read."
+  },
+  {
+    "id": "eu-gaia-x",
+    "side": "EU",
+    "category": "industrial-stack",
+    "title": "Gaia-X (data and cloud federation)",
+    "summary": "Run by the Gaia-X European Association for Data and Cloud AISBL (Brussels), one member one vote; promotes open-source Digital Clearing Houses and a verification framework.",
+    "since": "n/d",
+    "scale": "member count not stated on the page",
+    "sources": [
+      "https://gaia-x.eu/"
+    ],
+    "status": "verified",
+    "evidence": "B",
+    "note": "Evidence B: only the homepage was read. Funding, licence and Chinese participation not addressed (not verified either way)."
+  },
+  {
+    "id": "cn-openeuler",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "openEuler (OpenAtom)",
+    "summary": "Server/cloud/embedded OS incubated by the OpenAtom Foundation, MulanPSL2; success stories grouped under finance, carrier, energy, logistics. Claims: cumulative installed base above 16 million by end-2025 (Nov 2025 summit projection); over 10 million at the 2024 summit; 6.31 million community users on 28 Feb 2026 (community bulletin).",
+    "since": "2019 (open-sourced); OpenAtom since 2021",
+    "scale": "claim: >16 m installs (2025 projection); 6.31 m users (self-reported)",
+    "sources": [
+      "https://www.openeuler.org/en/",
+      "https://www.openeuler.org/en/news/20260308-openEuler-Monthly-Bulletin-01-02/20260308-openEuler-Monthly-Bulletin-2026-01-02",
+      "https://www.huaweicentral.com/open-source-huawei-operating-system-to-exceed-16-million-installations/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Governance: foundation (OpenAtom), Huawei the dominant sponsor (not read on an official page here). Installed-base figures are community/Huawei claims, unverified; unclear whether cumulative installs or active. Overseas contributors: not stated on the page. Public funding: not documented."
+  },
+  {
+    "id": "cn-openharmony",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "OpenHarmony (OpenAtom) for industry",
+    "summary": "Open-source OS operated by the OpenAtom Foundation; GitHub mirror (816 repos, sampled ones Apache-2.0) with main development on GitCode. Press reports use in industrial, energy, transport and public-service systems; Eclipse Oniro builds on it.",
+    "since": "2020 (donated to OpenAtom)",
+    "scale": "press: >1.6 m community users, 44 SIGs (April 2025)",
+    "sources": [
+      "https://github.com/openharmony",
+      "https://www.opensourceforu.com/2026/01/openharmony-scales-from-codebase-to-national-infrastructure-platform/",
+      "https://www.huaweicentral.com/eclipse-and-openatom-will-jointly-develop-openharmony/amp/"
+    ],
+    "status": "verified",
+    "evidence": "B",
+    "note": "Mirror facts are A; adoption figures come from secondary press and are claims. EU participation: Eclipse Foundation via Oniro (fact, see eu-eclipse-oniro)."
+  },
+  {
+    "id": "cn-kuanghong",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "Kuanghong (mine-hong): OpenHarmony-based coal-mine OS",
+    "summary": "OpenHarmony-based OS for coal-mine equipment launched by Huawei with China Energy Investment (Guoneng), reported as the first deployment of the Harmony lineage on non-consumer industrial equipment.",
+    "since": "press (year to be checked)",
+    "scale": "number of mines not found",
+    "sources": [
+      "https://www.jiemian.com/article/6599316.html"
+    ],
+    "status": "verified",
+    "evidence": "C",
+    "note": "Single press source (jiemian.com); year and deployment counts not verified. Original Huawei/China Energy release to be found (VPN queue)."
+  },
+  {
+    "id": "cn-openanolis",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "OpenAnolis / Anolis OS",
+    "summary": "Linux distribution community founded by Alibaba Cloud with other members in 2020; Anolis OS under Mulan PSL v2 (packages keep own licences); Alibaba reports donation to OpenAtom; chairs/directors largely Alibaba staff; OpenChain ISO/IEC 5230 and 18974 conformance.",
+    "since": "2020",
+    "scale": "claim: >800,000 users (OpenChain page)",
+    "sources": [
+      "https://openchainproject.org/?p=10755",
+      "https://www.alibabacloud.com/blog/the-initiation-and-development-of-openanolis-open-source-community_599129"
+    ],
+    "status": "verified",
+    "evidence": "B",
+    "note": "Company-led under a foundation umbrella. User number is a community claim; Alibaba blog is self-published. Current OpenAtom status not verified."
+  },
+  {
+    "id": "cn-xiangshan",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "XiangShan RISC-V CPU (ICT-CAS / BOSC)",
+    "summary": "Open-source high-performance RISC-V processor in Chisel, Mulan PSL v2 (docs CC-BY-4.0); copyright ICT-CAS (2020-2026), BOSC (2021-2026), Peng Cheng Laboratory (2020-2022). Kunminghu generation under development (v2 recommended for downstream use).",
+    "since": "2019/2020",
+    "scale": "self-reported: within ~8% of Arm Neoverse N2 (press; unverified)",
+    "sources": [
+      "https://github.com/OpenXiangShan/XiangShan",
+      "https://www.theregister.com/2025/01/08/chinese_riscv_project_teases_2025/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Governance: research institute plus non-profit BOSC; public research funding presumed, not documented here. Performance claim unverified. Foreign contributors: not documented."
+  },
+  {
+    "id": "cn-paddlepaddle",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "PaddlePaddle deep-learning framework",
+    "summary": "Open-source deep learning framework, Apache-2.0, open-sourced 2016; latest release listed 3.3; about 24.1k GitHub stars.",
+    "since": "2016",
+    "scale": "24.1k stars, 6.0k forks (GitHub)",
+    "sources": [
+      "https://github.com/PaddlePaddle/Paddle"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Maintainer (Baidu) not stated on the repo page; company-governed per general knowledge, not confirmed here. README states use in manufacturing and agriculture (generic)."
+  },
+  {
+    "id": "cn-deepseek",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "DeepSeek open-weight LLMs (MIT)",
+    "summary": "DeepSeek-R1 code and weights are MIT-licensed per the Hugging Face model card; distilled variants inherit base-model licences (Qwen-2.5 Apache-2.0, Llama 3.1/3.3).",
+    "since": "2025-01",
+    "scale": "n/d",
+    "sources": [
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Company-governed; public funding not documented. Open weights, not open training data."
+  },
+  {
+    "id": "cn-qwen",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "Qwen open-weight LLMs (Alibaba)",
+    "summary": "Qwen3-235B-A22B published by the Qwen organization on Hugging Face under Apache-2.0.",
+    "since": "2025",
+    "scale": "n/d",
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Licence verified for this model only; other Qwen variants may differ (check per card). Company-governed."
+  },
+  {
+    "id": "cn-openatom",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "OpenAtom Foundation (open-source foundation)",
+    "summary": "Non-profit founded June 2020 in Beijing, self-described as China first open-source foundation; hosts OpenHarmony, openEuler, openKylin, IvorySQL; claims over 60 graduated/incubating projects and over 70 passing TOC review.",
+    "since": "2020-06",
+    "scale": "claim: >60 projects (self-reported)",
+    "sources": [
+      "https://www.openatom.org/"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "note": "Supervising ministry not stated on the page; public funding not documented here. Partnership with the Eclipse Foundation via Oniro."
+  },
+  {
+    "id": "cn-atomgit",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "AtomGit (OpenAtom code hosting)",
+    "summary": "OpenAtom collaboration platform for open-source communities; GitCode terms describe unified accounts with AtomGit; a next-generation AtomGit is reported live at the OpenAtom developer conference of 21 Nov 2025 with model/dataset hosting.",
+    "since": "2025-11 (reported)",
+    "scale": "n/d",
+    "sources": [
+      "https://openatom.cn/",
+      "https://docs.gitcode.com/en/docs/help/home/protocol/terms-of-service"
+    ],
+    "status": "verified",
+    "evidence": "C",
+    "note": "Relaunch date from a single Chinese secondary source. Gitee not checked. OpenHarmony GitHub mirror redirects contributors to GitCode."
   }
 ]

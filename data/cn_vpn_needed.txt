@@ -3,3 +3,5 @@ Shanghai gov / STCSM / Pudong Innovation Forum Sept 2026 coverage (shanghai.gov.
 https://www.gov.cn/ and ccgp.gov.cn	official basis for government OS replacement / openEuler, openKylin adoption (only secondary English blogs found)	procurement notices or policy document numbers naming domestic OS
 Sichuan/Chengdu, Fujian, Shandong provincial government sites	no open-source policy found in searches	any 开源 implementation plan or fund
 https://www.szlhq.gov.cn/bmxxgk/jjcjj/dtxx_124217/gzdt_124218/content/post_12808203.html
+https://www.jiemian.com/article/6599316.html
+https://www.openatom.org/
