@@ -1,0 +1,836 @@
+ <!DOCTYPE html> <html lang="en" > <head> <meta charset="utf-8"><script type="text/javascript" src="/WebResource.axd?d=DzHrpQl5URXarFHAtrmzFjGXL_AhGS1gMx4in87pxya95siBrZau4g2lZ0MvlEF2wEtRO9QG2RjxAD93iQjauV5ve61IG7QP9a9jj7J-2FHetjIT86ne8lX5xwvOWNwpuJh1UQqmF0fjdXPdIgkEq6BSPnrabthAKn_7TOYm1SMnO4AK0&amp;t=639227514920000000">
+
+</script> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="format-detection" content="telephone=no" /><title>
+	Austrian Armed Forces replacing Microsoft Office with LibreOffice
+</title> <link rel="shortcut icon" type="image/png" href="/assets/images/favicon/favicon.ico"> <link rel="apple-touch-icon" sizes="57x57"  href="/assets/images/favicon/apple-icon-57x57.png"> <link rel="apple-touch-icon" sizes="60x60"  href="/assets/images/favicon/apple-icon-60x60.png"> <link rel="apple-touch-icon" sizes="72x72"  href="/assets/images/favicon/apple-icon-72x72.png"> <link rel="apple-touch-icon" sizes="76x76"  href="/assets/images/favicon/apple-icon-76x76.png"> <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-icon-114x114.png"> <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-icon-120x120.png"> <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-icon-144x144.png"> <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-icon-152x152.png"> <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-icon-180x180.png"> <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/android-icon-192x192.png"> <link rel="icon" type="image/png" sizes="32x32"   href="/assets/images/favicon/favicon-32x32.png"> <link rel="icon" type="image/png" sizes="96x96"   href="/assets/images/favicon/favicon-96x96.png"> <link rel="icon" type="image/png" sizes="16x16"   href="/assets/images/favicon/favicon-16x16.png"> <link rel="manifest" href="/assets/images/favicon/manifest.json"> <meta name="msapplication-TileColor"  content="#1a1a1e"> <meta name="msapplication-TileImage" content="/assets/images/favicon/ms-icon-144x144.png"> <meta name="theme-color" content="#1a1a1e"> <link rel="preconnect" href="https://www.googletagmanager.com" /> <script src="https://play.vidyard.com/embed/v4.js?package=Janes" type="text/javascript"></script> <link rel="preload" href="/styles/core-redesign.css?v=6BDbGCJqP9WdeZZKNmNZuGDXoXHuIrPFieO6zYvRHsY1" as="style" onload="this.onload=null;this.rel='stylesheet'"> <noscript><link rel="stylesheet" href="/styles/core-redesign.css?v=6BDbGCJqP9WdeZZKNmNZuGDXoXHuIrPFieO6zYvRHsY1"></noscript> <style>
+        html { background-color: #1a1a1e; }
+        body:not(.dom-ready) { opacity: 0.0; }
+        body:not(.dom-ready) .mega-container { display: none; }
+        body:not(.dom-ready):not(.sfPageEditor) .nav-link { color: #f5f5f5; }
+        .nav-noscript-fallback, .footer-noscript-fallback { display: none; }
+    </style> <noscript> <style>
+        body:not(.dom-ready) .mega-container { display: block; }
+        .navbar-nav-holder { display: none; }
+        .nav-noscript-fallback .navbar-nav-holder { display: block; }
+        .nav-noscript-fallback { display: block !important; }
+        .sbx-upper-footer:not(.footer-noscript-fallback) { display: none; }
+        .footer-noscript-fallback { display: block !important; }
+        @media (max-width: 991px) {
+            .nav-noscript-fallback .dropdown-menu.megamenu { display: block; opacity: 1; height: auto; visibility: visible; position: static; }
+            .footer-noscript-fallback .footer-nav__children { display: flex !important; flex-direction: column; }
+        }
+      </style> </noscript> <script>
+    // for responsive vidyard (or html video) videos, we inject video intended for either desktop or mobile
+    function handleInjectVidyard(dice, snippet, snippetMob) {
+        const addRequiredAttributes = (htmlString) => {
+            // Check if it's a standard HTML5 video (contains <video> but not vidyard)
+            if (htmlString.includes('<video') && !htmlString.includes('vidyard')) {
+                // Create a temporary DOM element to parse the HTML
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = htmlString;
+                // Find the video element
+                const videoElement = tempDiv.querySelector('video');
+                if (videoElement) {
+                    // Add required attributes
+                    videoElement.setAttribute('autoplay', 'autoplay');
+                    videoElement.setAttribute('preload', 'auto');
+                    videoElement.setAttribute('muted', 'true');
+                    videoElement.setAttribute('playsInline', '');
+                    videoElement.setAttribute('loop', '');
+                    videoElement.removeAttribute('controls');
+                    // Return the modified HTML
+                    return tempDiv.innerHTML;
+                }
+            }
+            // Return original HTML if it's not a standard video or couldn't be modified
+            return htmlString;
+        };
+        // Process both snippets
+        const processedSnippet = addRequiredAttributes(snippet);
+        const processedSnippetMob = addRequiredAttributes(snippetMob);
+        // Injection logic
+        const injVidElement = document.querySelector(`[data-inject-vidyard="${dice}"]`);
+        if (injVidElement !== null) {
+            window.matchMedia('(max-width: 767px)').matches
+                ? injVidElement.insertAdjacentHTML('beforebegin', processedSnippetMob)
+                : injVidElement.insertAdjacentHTML('beforebegin', processedSnippet);
+        }
+    }
+</script> <script>
+    // Sbx helper for tracking custom Sitefinity Insight events - see wiki for usage details
+    function sbxTrackCustomInsightEvent(customPredicate, customObject) {
+        if (window.DataIntelligenceSubmitScript) {
+            window.DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                predicate: customPredicate,
+                object: customPredicate + ' - ' + customObject
+            });
+        } else {
+            // Wait for the SDK to load
+            if (window.addEventListener) {
+                window.addEventListener('decclientready', function () {
+                    window.DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                        predicate: customPredicate,
+                        object: customPredicate + ' - ' + customObject
+                    });
+                }, true);
+            }
+        }
+    }
+</script> <meta property="og:title" content="Austrian Armed Forces replacing Microsoft Office with LibreOffice" /><meta property="og:description" content="The Austrian Armed Forces (Bundesheer) said in late September that by the end of 2025 it will migrate 16,000 user workstations throughout all branches from Microsoft..." /><meta property="og:type" content="article" /><meta property="og:url" content="https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice" /><meta property="og:image" content="https://www.janes.com/images/default-source/news-images/bsp_94520-jdw-33378.jpeg?sfvrsn=3ca8b9e7_2" /><meta property="og:site_name" content="Default" /><style type="text/css" media="all">header .navbar-nav>.nav-item:nth-child(2) .dropdown-menu .megamenu__cards-grid>a:nth-child(6) {
+display:none;
+}
+
+header .navbar-nav>.nav-item:nth-child(2) .dropdown-menu .megamenu__cards-grid>a:nth-child(5) {
+display:inline-flex;
+}
+
+header .menu-personalised .navbar-nav>.nav-item:nth-child(2) .dropdown-menu .megamenu__cards-grid>a:nth-child(5) {
+display:none;
+}
+
+header .menu-personalised .navbar-nav>.nav-item:nth-child(2) .dropdown-menu .megamenu__cards-grid>a:nth-child(6) {
+display:inline-flex;
+}</style><script type="text/javascript">
+// Google Tag Manager
+window.tagManUatId = 'GTM-MGXSTQ5'; // UAT
+window.tagManAutId = 'GTM-KZ246K47'; // AUTH
+window.tagManProdId = 'GTM-KV7HNPB'; // Prod
+// Determine environment based on URL
+if (window.location.href.includes('janes.com')) {
+    window.tagManId = window.tagManProdId;
+} else if (window.location.href.includes('janescom-aut')) {
+    window.tagManId = window.tagManAutId;
+} else {
+    window.tagManId = window.tagManUatId;
+}
+function loadGTM(w, d, s, l, i) {
+	 w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+	 var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+	 j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+ 
+ }
+ loadGTM(window, document, 'script', 'dataLayer', window.tagManId);
+// End Google Tag Manager
+</script><script type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script><style type="text/css" media="all">.article-detail-body .table td{padding:15px 20px!important}</style><link rel="canonical" href="https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice" /><script type="application/json" id="sf-insight-metadata">
+	{"contentMetadata":"{\"Id\":\"00a82390-e5d6-447b-96fc-918f5050f17a\",\"ContentType\":\"NewsItem\",\"Title\":\"Austrian Armed Forces replacing Microsoft Office with LibreOffice\",\"CanonicalTitle\":\"Austrian Armed Forces replacing Microsoft Office with LibreOffice\",\"CanonicalUrl\":\"https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice\",\"DefaultLanguage\":\"en\",\"Author\":\"Georg Mader\",\"CreatedOn\":\"2025-10-31T17:05:33.34Z\",\"ModifiedOn\":\"2025-10-31T17:05:33.34Z\",\"SiteId\":\"05af38f0-c321-4bf5-a48c-ccff3d10fee1\",\"SiteName\":\"Default\",\"ModuleName\":\"News\",\"Hierarchies\":[{\"Id\":\"74b538a4-0b84-412d-9046-31a1c6877c4b\",\"Title\":\"Austria\",\"Parent\":{\"Id\":\"b7a0100e-f0d7-491c-8b70-8fdd262214c6\",\"Title\":\"Topics\"}},{\"Id\":\"5362760d-afa2-4075-a915-2e0dfff2efa1\",\"Title\":\"C4iSR\",\"Parent\":{\"Id\":\"e5cd6d69-1543-427b-ad62-688a99f5e7d4\",\"Title\":\"Categories\"}},{\"Id\":\"07569fe2-f44b-428f-a499-a3cd435edb9b\",\"Title\":\"C4ISR systems\",\"Parent\":{\"Id\":\"b7a0100e-f0d7-491c-8b70-8fdd262214c6\",\"Title\":\"Topics\"}},{\"Id\":\"d7158b54-1c0b-4255-929d-5345e5b030d9\",\"Title\":\"Computer systems\",\"Parent\":{\"Id\":\"07569fe2-f44b-428f-a499-a3cd435edb9b\",\"Title\":\"C4ISR systems\",\"Parent\":{\"Id\":\"b7a0100e-f0d7-491c-8b70-8fdd262214c6\",\"Title\":\"Topics\"}}},{\"Id\":\"4aac3e0f-6f36-40cd-ab29-f9a4b6ca8321\",\"Title\":\"Defence technology developments\",\"Parent\":{\"Id\":\"b7a0100e-f0d7-491c-8b70-8fdd262214c6\",\"Title\":\"Topics\"}}],\"SFDataProviderName\":\"OpenAccessDataProvider\",\"PageId\":\"24a8621b-acc9-4012-88c1-7d53b9069c3e\",\"PageTitle\":\"News Post\",\"PageCanonicalTitle\":\"News Post\",\"PageCanonicalUrl\":\"https://www.janes.com/defence-intelligence-insights/defence-news\"}","videosMetadata":"[]"}
+</script><script type="application/json" id="sf-insight-settings">
+	{"apiServerUrl":"https://nl-api.insight.sitefinity.com","apiKey":"5bf94ece-99e0-3c23-bc5f-898dc8fb6dab","applicationName":"Website","trackingCookieDomain":"","keepDecTrackingCookieOnTrackingConsentRejection":false,"slidingExpirationForTrackingCookie":false,"maxAgeForTrackingCookieInDays":365,"trackYouTubeVideos":true,"crossDomainTrackingEntries":["www.janes.com"],"strategy":"Persist|False","docsHrefTestExpressions":[".*\\/docs\\/.+\\.{1}.+((\\?|\\\u0026)sfvrsn=.+){1}$",".+((\\?|\\\u0026)sf_dm_key=.+){1}$"],"sessionLengthInMinutes":30,"trackVimeoVideos":true,"useSecureCookies":true}
+</script><script type="text/javascript" src="/WebResource.axd?d=HtQyXelCu6mzSPcVcvK_BkTnL2vEzS7KakGDHTYWEYXY7EjHLON4D6m6eIvyjyJ8AZVZgUEHfwgnpwywywNqgh_Qx8d5nv68y-Iec1PlM9jmBvW5XBLZZj2J1Wfxb5g-F3IOGsDqFio8UYAcJi-8T0ngwU0BBqBy4lAFVpi2xTeun7gCwmmv0jT87x6kRaaaoxJPlPZlQRL9wXle0lGYMUbTdyk1&amp;t=639227515140000000">
+
+</script><script src="https://cdn.insight.sitefinity.com/sdk/sitefinity-insight-client.min.3.1.35.js" crossorigin="" async="async">
+
+</script><meta property="twitter:title" content="Austrian Armed Forces replacing Microsoft Office with LibreOffice" /><meta property="twitter:description" content="The Austrian Armed Forces (Bundesheer) said in late September that by the end of 2025 it will migrate 16,000 user workstations throughout all branches from Microsoft..." /><meta property="twitter:image" content="https://www.janes.com/images/default-source/news-images/bsp_94520-jdw-33378.jpeg?sfvrsn=3ca8b9e7_2" /><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "mainEntityOfPage": {
+    "@type": "NewsArticle",
+    "@id": "https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice"
+  },
+  "headline": "Austrian Armed Forces replacing Microsoft Office with LibreOffice",
+  "description": "The Austrian Armed Forces (Bundesheer) said in late September that by the end of 2025 it will migrate 16,000 user workstations throughout all branches from Microsoft...",
+  "image": "",
+  "author": {
+    "@type": "Organization",
+    "name": "Janes",
+    "url": "https://www.janes.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Janes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.janes.com/assets/images/favicon/android-icon-192x192.png"
+    }
+  },
+  "datePublished": "2025-10-31",
+  "dateModified": "2025-10-31"
+}</script>
+<!-- be_ixf, sdk, gho-->
+<meta name="be:sdk" content="dotnet_sdk_1.4.34" />
+<meta name="be:timer" content="0ms" />
+<meta name="be:orig_url" content="https%3a%2f%2fwww.janes.com%2fdefence-intelligence-insights%2fdefence-news%2fc4isr%2faustrian-armed-forces-replacing-microsoft-office-with-libreoffice" />
+<meta name="be:capsule_url" content="https%3a%2f%2fixfd1-api.bc0a.com%2fapi%2fixf%2f1.0.0%2fget_capsule%2ff00000000336180%2f1151531085" />
+<meta name="be:norm_url" content="https%3a%2f%2fwww.janes.com%2fdefence-intelligence-insights%2fdefence-news%2fc4isr%2faustrian-armed-forces-replacing-microsoft-office-with-libreoffice" />
+<meta name="be:api_dt" content="py_2026; pm_10; pd_29; ph_06; pmh_29; p_epoch:1793280572698" />
+<meta name="be:mod_dt" content="py_2026; pm_10; pd_29; ph_06; pmh_29; p_epoch:1793280572698" />
+<meta name="be:messages" content="0" />
+<style>
+.be-ix-link-block .be-related-link-container {text-align: left;    align-items: baseline;}
+.be-ix-link-block .be-related-link-container .be-label {margin: 0;font-size:15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .32px;}
+.be-ix-link-block .be-related-link-container .be-list {display: inline-block;list-style: none;margin: 0;padding: 0;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item {display: inline-block;margin-right: 20px;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item:last-child {margin-right: 0;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item .be-related-link {    color: #d9d9d9 !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none !important;
+    transition: color .2s ease;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item .be-related-link:hover {        color: #f06c00 !important;}
+ 
+@media (max-width: 767px) {
+.be-ix-link-block .be-related-link-container .be-label {width: 100%;
+        padding-left: 28px;        padding-bottom: 6px;}
+.be-ix-link-block .be-related-link-container .be-list {display: block;width: 100%;
+        padding-left: 28px;
+        padding-bottom: 40px;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item {display: block; margin-right: 0; margin-top: 16px;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item .be-related-link{        font-family: "Martian Mono Condensed", monospace;
+        font-size: 14px;
+        letter-spacing: .02em;color: #FFFFFF !important;}}
+@media (min-width: 768px) {
+.be-ix-link-block .be-related-link-container {display: flex; justify-content: center;        padding-bottom: 55px;
+        margin-top: -40px;}
+.be-ix-link-block .be-related-link-container .be-label {display: inline-block;margin-right: 20px;}
+.be-ix-link-block .be-related-link-container .be-list {width: auto;}}
+</style>
+<meta name="description" content="The Austrian Armed Forces (Bundesheer) said in late September that by the end of 2025 it will migrate 16,000 user workstations throughout all branches from Microsoft..." /></head> <body class=""> <a href="#skipNav" class="visually-hidden-focusable">skip to main content</a>  
+
+<!-- begin Convert Experiences code-->
+<script type="text/javascript"> 
+var _conv_prevent_bodyhide = true;
+</script> 
+<script type="text/javascript" src="//cdn-4.convertexperiments.com/v1/js/10041633-100414713.js"></script><!-- end Convert Experiences code -->
+
+ <header id="main-header"> <div class="main-header-docker"> <nav id="navbarMega" class="navbar navbar--mega navbar-expand-lg navbar-dark"> <div class="container-fluid"> <svg class="mega-nav-left-clip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1309 2000"> <defs> <!-- Using a slightly larger "guard" (30) to avoid anti-aliasing bleed with a 26px stroke --> <mask id="strokeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1310" height="2000"> <!-- allow everything --> <rect x="0" y="0" width="1310" height="2000" fill="white"/> <!-- remove RIGHT vertical stroke --> <rect x="1280" y="0" width="30" height="2000" fill="black"/> <!-- remove TOP horizontal stroke (but keep the left edge by starting at x=26) --> <rect x="26" y="0" width="1284" height="30" fill="black"/> <!-- re-allow BOTTOM band so stroke can reach the right end along the bottom --> <rect x="0" y="1970" width="1310" height="30" fill="white"/> </mask> </defs> <!-- Base fill --> <path
+                        fill="#1a1b1f"
+                        fill-rule="evenodd"
+                        d="M63.6 381.8c-.5 267.9-.4 387.2.4 400.2.6 10.2 1.5 22.5 2.1 27.5.5 5 1.6 13.5 2.5 19 .8 5.5 2.4 15 3.5 21s3.4 16.4 5 23 4.6 17.6 6.6 24.5 5.6 18.1 8 25c2.5 6.9 7.2 19 10.5 27 3.4 8 10.3 22.6 15.3 32.5 5.1 9.9 12.3 23.2 16.2 29.5 3.8 6.3 10.2 16.5 14.3 22.5 4 6 10.7 15.5 14.9 21 4.1 5.5 12.2 15.6 18 22.5s17.8 19.8 26.6 28.7 188.8 178.1 400 375.9c211.2 197.9 387.4 362.6 391.5 366.2 4.1 3.5 13.1 10.1 20 14.7 6.9 4.5 17.7 11 24 14.3 6.3 3.4 17.6 8.9 25 12.2 7.4 3.4 20.9 9 30 12.5 9.1 3.4 21.5 7.9 27.5 9.8 6 2 17.1 5.4 24.5 7.6s21.4 6 31 8.5c9.6 2.4 24.7 6 33.5 8 8.8 1.9 27 5.5 40.5 7.9 13.5 2.5 31.3 5.5 39.7 6.8s15.4 2.2 15.7 1.9c.2-.3.4-439.6.2-976.3L1310.4 0H64.3z"
+                        opacity=".8"
+                      /> <!-- Stroke overlay --> <path
+                        mask="url(#strokeMask)"
+                        fill="none"
+                        stroke="#f06c00"
+                        stroke-width="26"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                        d="M63.6 381.8c-.5 267.9-.4 387.2.4 400.2.6 10.2 1.5 22.5 2.1 27.5.5 5 1.6 13.5 2.5 19 .8 5.5 2.4 15 3.5 21s3.4 16.4 5 23 4.6 17.6 6.6 24.5 5.6 18.1 8 25c2.5 6.9 7.2 19 10.5 27 3.4 8 10.3 22.6 15.3 32.5 5.1 9.9 12.3 23.2 16.2 29.5 3.8 6.3 10.2 16.5 14.3 22.5 4 6 10.7 15.5 14.9 21 4.1 5.5 12.2 15.6 18 22.5s17.8 19.8 26.6 28.7 188.8 178.1 400 375.9c211.2 197.9 387.4 362.6 391.5 366.2 4.1 3.5 13.1 10.1 20 14.7 6.9 4.5 17.7 11 24 14.3 6.3 3.4 17.6 8.9 25 12.2 7.4 3.4 20.9 9 30 12.5 9.1 3.4 21.5 7.9 27.5 9.8 6 2 17.1 5.4 24.5 7.6s21.4 6 31 8.5c9.6 2.4 24.7 6 33.5 8 8.8 1.9 27 5.5 40.5 7.9 13.5 2.5 31.3 5.5 39.7 6.8s15.4 2.2 15.7 1.9c.2-.3.4-439.6.2-976.3L1310.4 0H64.3z"
+                        opacity=".59"
+                      /> </svg> <a class="navbar-brand" href="/" title="Janes"> 
+
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="61.509" viewBox="0 0 210 61.509">
+              <g transform="translate(0 0.004)">
+                <g transform="translate(0 -0.004)">
+                  <g transform="translate(0 0)">
+                    <path d="M6.186,351.442l7.916,7.815a9.327,9.327,0,0,1,2.774,6.637v13.288a3.633,3.633,0,0,1-6.186,2.585l-7.963-7.861A9.172,9.172,0,0,1,0,367.381V354.027A3.634,3.634,0,0,1,6.186,351.442Z" transform="translate(0 -321.314)" fill="#f06c00"/>
+                    <path d="M263.8,60.467l9.029-8.8a12.332,12.332,0,0,0,3.727-8.833V3.636a3.633,3.633,0,0,0-6.168-2.6l-9.637,9.388a10.318,10.318,0,0,0-3.118,7.39V57.864A3.633,3.633,0,0,0,263.8,60.467Z" transform="translate(-236.254 0.004)" fill="#f06c00"/>
+                  </g>
+                  <g transform="translate(58.941 14.835)">
+                    <g transform="translate(24.48)">
+                      <path d="M1013.082,202.6l-1.812,3.982a6.438,6.438,0,0,1-5.86,3.771h0l14.768-31.562,14.768,31.562h0a6.439,6.439,0,0,1-5.86-3.771l-1.812-3.982Zm7.1-15.847-5.5,12.319h10.994Z" transform="translate(-1005.41 -178.79)" fill="#f06c00"/>
+                      <path d="M1479.32,179.57l23.218,22.921V183.5a3.856,3.856,0,0,1,3.856-3.856h0v31.7l-23.218-22.937v18.8a3.856,3.856,0,0,1-3.856,3.856h0Z" transform="translate(-1439.998 -179.505)" fill="#f06c00"/>
+                      <path d="M1970.2,181.09h17.6a3.528,3.528,0,0,1-3.528,3.528h-10.219v8.85h11.4V197h-11.4v11.8h10.219a3.528,3.528,0,0,1,3.528,3.528h-17.6Z" transform="translate(-1890.148 -180.899)" fill="#f06c00"/>
+                      <path d="M2321.556,186.024a4.224,4.224,0,0,1-4.635-.108,5.172,5.172,0,0,0-3.164-.927c-2.387,0-5.013,1.631-5.013,4.257,0,2.347,2.307,3.581,4.177,4.3l2.148.836c4.257,1.671,7.44,4.018,7.44,9.032a9.248,9.248,0,0,1-9.589,9.35,9.347,9.347,0,0,1-9.271-8.4h0a4.205,4.205,0,0,1,4.506,2.069,5.78,5.78,0,0,0,5.082,2.825,5.642,5.642,0,0,0,5.531-5.849c0-3.143-2.586-4.616-5.172-5.689l-2.069-.875c-3.422-1.472-6.526-3.422-6.526-7.6,0-4.854,4.3-7.759,8.833-7.759a8.556,8.556,0,0,1,7.721,4.534Z" transform="translate(-2195.931 -181.266)" fill="#f06c00"/>
+                    </g>
+                    <path d="M721.448,184.08v19.114a4.719,4.719,0,0,1-3.852,4.712,4.587,4.587,0,0,1-2.96-.5,2.406,2.406,0,0,0-2.449.139l-1.816,1.174a8.393,8.393,0,0,0,7.2,3.02,8.576,8.576,0,0,0,7.68-8.628V180.28A3.8,3.8,0,0,0,721.448,184.08Z" transform="translate(-710.37 -180.156)" fill="#f06c00"/>
+                  </g>
+                </g>
+              </g>
+            </svg>
+     </a> <div class="mobile-nav-icon-and-search-wrp d-flex d-lg-none"> <div class="sbx-navbar-search-mag sbx-navbar-search-mag--mobile p-3 pe-2"
+                             onclick="loadJqueryAndTriggerSearch();"> <svg class="my-auto" fill="#fff" width="25" height="23" viewBox="0 0 29 29"> <use href="#navMag"></use> </svg> </div> <button class="navbar-toggler navbar-toggler--js-enabled collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#main_nav"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"> <div class="mobile-nav-icon"> <span></span><span></span><span></span><span></span> </div> </button> <noscript> <button class="navbar-toggler navbar-toggler--noscript-close"
+                                type="button"> <div class="mobile-nav-icon"> <span></span><span></span><span></span><span></span> </div> </button> </noscript> </div> <div class="collapse navbar-collapse" id="main_nav"> <div class="navbar-search-accessories__cms-mobile"> 
+
+<div class="btn-container text-center w-100">
+            <a href="javascript:;" onclick="document.querySelector('.global-modal--contact').classList.add('active');" class="btn btn-primary">
+                Book a demo
+            </a>
+</div>
+     </div> 
+<script type="text/javascript" src="/WebResource.axd?d=wnB2OjhYopty-dCFa4b2kDACI2fQRj6GLkyP1L7o-uKsLgLDD8zvPKVwEAl0uTuMudLFYkkAXaVPaQoFUKlwH_nJb3-bejfPf8eHfj4XqL1dHxL3rEEftDTQ2f6KO673B3AP33Puf-xaA2hied7-YaSXLKUGAsmewhOpAni4myZ4pzKhFLCR4yt8aEDkXT-Guz4HCT1SWfTt0yd4dzUvU8ZYA3Y1&amp;t=639227515840000000">
+
+</script><script data-sf-pers-id="0b138d92-4048-4391-8dfb-6f2a9878da1a" data-sf-pers-raise-events="True" data-sf-pers-page-node-id="24a8621b-acc9-4012-88c1-7d53b9069c3e" data-sf-pers-page-data-id="4f1976e7-63dc-4086-935d-c74696233951" data-sf-pers-page-node-key="24A8621B-ACC9-4012-88C1-7D53B9069C3E/05af38f0-c321-4bf5-a48c-ccff3d10fee1/SitefinitySiteMap" data-sf-app-path="/" data-sf-loaded-scripts="['https://play.vidyard.com/embed/v4.js?package=Janes']"></script> <div class="nav-noscript-fallback ms-auto"> 
+ </div> <div class="navbar-search-accessories d-lg-flex align-items-center ms-auto pb-8 pb-lg-0"> <div class="navbar-search-accessories__cms"> 
+
+<!-- Login pill -->
+<a href="/customer-login" class="btn-nav-login">Login</a>
+
+<!-- Desktop search circle (hidden on mobile via CSS — mobile mag is in the toggler row) -->
+<div class="sbx-navbar-search-mag d-none d-lg-flex"
+     onclick="loadJqueryAndTriggerSearch();"
+     role="button"
+     aria-label="Search">
+    <svg width="18" height="18" viewBox="0 0 29 29" fill="#fff" aria-hidden="true">
+        <use href="#navMag"></use>
+    </svg>
+</div>
+
+<!-- Book a Demo panel -->
+<a href="javascript:;" onclick="document.querySelector('.global-modal--contact').classList.add('active');" class="btn-nav-demo">
+    Book a Demo
+    <span class="megamenu__arrow-btn" aria-hidden="true">
+        <svg stroke="#fff" width="18" height="18" viewBox="0 0 40 40"><use href="#arrowRight"></use></svg>
+    </span>
+</a>
+
+<!-- Mobile-only extra links (hidden on desktop via d-lg-none on their container,
+     or wrap in a div.d-lg-none if needed) -->
+<div class="d-lg-none">
+    <a href="/contact" class="d-block py-2" style="color:#fff;">Contact</a>
+    <a href="/customer-login" class="d-block py-2" style="color:#fff;">Customer Login</a>
+</div>
+     </div> </div> </div> </div> </nav> </div> </header> 
+
+<div class="relative">
+    <div class="sbx-main-search-field-wrp" role="search" style="opacity: 0; pointer-events: none;">
+        <div class="relative white-text-area">
+            <div class="sbx-close" onclick="Bod.classList.remove('search-active');" title="Close search"><svg fill="#1A1A1E"><use href="#cross"></use></svg></div>
+            <div class="sbx-main-search-field__input-holder w-100 mw-100">
+            <svg fill="#1A1A1E" width="45" height="45" viewBox="0 0 45 45"><use href="#navMagThin"></use></svg>
+            <input type="search" title="Search input" placeholder="Search" id="e1a74b49-10e0-44d9-a0f7-a608dfbc3e12" value="" aria-label="Search field" aria-autocomplete="both" aria-describedby='SearchInfo-1' />
+            <button type="button" class="sbx-main-search-field__submit" title="Search" id="31075fa0-73f0-4b2a-a9d7-935a8f258a3e" >
+                <svg fill="#F06C00"><use width="19" height="38" href="#arrowRight"></use></svg>
+            </button>
+            <button type="button" class="sbx-main-search-field__clear" title="Clear">
+                <svg fill="#F06C00"><use width="19" height="38" href="#cross"></use></svg>
+            </button>
+            <span id='SearchInfo-1' aria-hidden="true" hidden></span>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" data-sf-role="resultsUrl" value="/search" />
+    <input type="hidden" data-sf-role="indexCatalogue" value="site-search" />
+    <input type="hidden" data-sf-role="disableSuggestions" value='false' />
+    <input type="hidden" data-sf-role="minSuggestionLength" value="3" />
+    <input type="hidden" data-sf-role="suggestionFields" value="Title,Content" />
+    <input type="hidden" data-sf-role="language" value="en" />
+    <input type="hidden" data-sf-role="siteId" value="05af38f0-c321-4bf5-a48c-ccff3d10fee1" />
+    <input type="hidden" data-sf-role="suggestionsRoute" value="/restapi/search/suggestions" />
+    <input type="hidden" data-sf-role="searchTextBoxId" value='#e1a74b49-10e0-44d9-a0f7-a608dfbc3e12' />
+    <input type="hidden" data-sf-role="searchButtonId" value='#31075fa0-73f0-4b2a-a9d7-935a8f258a3e' />
+    <input type="hidden" data-sf-role="scoringSettings" value='cHJpb3JpdGlzZV9jb250ZW50X3R5cGU=' />
+    <input type="hidden" data-sf-role="searchInAllSitesInTheIndex" value='' />
+</div>
+<script>
+    function loadJqueryAndTriggerSearch() {
+        if (typeof SearchBoxFired === typeof undefined) {
+            (function (document, tag) { // load SearchBox which in turn loads jquery, only fired when search box is triggered by user
+                var scriptTag = document.createElement(tag), // create a script tag
+                firstScriptTag = document.getElementsByTagName(tag)[0]; // find the first script tag in the document
+                scriptTag.src = '/assets/scripts/SearchBox/SearchBox.js'; // set the source of the script to your script
+                firstScriptTag.parentNode.insertBefore(scriptTag, firstScriptTag); // append the script to the DOM
+            }(document, 'script'));
+        }
+        if (!Bod.classList.contains('search-active')) { // purposfully not toggle in order to avoid conflict with other things that use dim e.g. mega menu on large touch devices
+            Bod.classList.add('search-active');
+            const navDocker = document.querySelector('.main-header-docker');
+            if (navDocker) navDocker.classList.remove('nav-hidden');
+        }
+        else {
+            Bod.classList.remove('search-active');
+        }
+        closeMobNav();
+        setTimeout(function() {
+            const searchInput = document.querySelector('.sbx-main-search-field-wrp .sbx-main-search-field__input-holder input[type=search]');
+            if (typeof searchInput !== typeof undefined && Bod.classList.contains('search-active')) {
+                searchInput.focus();
+            }
+        }, 300); 
+    }
+</script>
+ <!-- /search --> <div id="skipNav"></div> <main id="main-content"> 
+ 
+
+<div class="container breadcrumb-container">
+    <nav aria-label="Full path to the current page">
+    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/" class="primary-on-hover">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/defence-intelligence-insights" class="primary-on-hover">Insights</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">News Post</li>
+    </ol>
+    </nav>
+</div>
+
+
+
+<header class="page-banner page-banner--detail bg-secondary cutout-corner cutout-corner--lg white-text-area">
+    <style>.breadcrumb-container { display: none!important; }</style>
+    <div class="container">
+        <div class="row g-0 justify-content-center">
+            <div class="col-lg-8 col-xxl-7 text-center">
+                <div class="pb_content__in content-block text-center py-5 py-lg-8 mt-0 mt-lg-6 mb-5 mb-lg-8">
+                    <div class="page-banner__date position-static mb-3 mt-lg-n7">
+                            <span>By Georg Mader</span>
+                                                    <span class="text-primary px-2">|</span>
+                                                    <time datetime="31 October 2025">31 October 2025</time>
+                    </div>
+                    <h1 class="mb-0 mt-5 mt-lg-8">Austrian Armed Forces replacing Microsoft Office with LibreOffice</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="article-detail-body article-detail-body--news content-block">
+    <div class="container position-relative">
+        <div class="plus-decoration plus-decoration--tl plus-decoration--cols-2 d-none d-xl-grid" aria-hidden="true" style="top: 250px; left: 0;">
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+        </div>
+        <div class="plus-decoration plus-decoration--tr plus-decoration--cols-2 d-none d-xl-grid" aria-hidden="true" style="top: 50%; right: 0;">
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+        </div>
+        <div class="plus-decoration plus-decoration--bl plus-decoration--cols-3 d-none d-xl-grid" aria-hidden="true" style="bottom: 300px; left: 0; transform: scaleY(-1);">
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+            <span class="plus-icon"></span>
+        </div>
+        <div class="super-pinch padded">
+            <div class="eyebrow-row eyebrow-row--with-line mb-0 gap-2 gap-lg-4 pe-2 pe-lg-0">
+                <span class="eyebrow text-cardgray">News</span>
+                <hr class="w-100 m-0 mt-n2 d-none d-lg-block" />
+                <div class="vertical-socials d-flex mb-4">
+                    <span class="pt-2 mt-1 pe-3 text-cardgray d-none d-md-inline">Share: </span>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice" target="_blank" title="Facebook" class="mb-3 me-2 me-lg-3"><svg width="26" height="24" fill="#1A1A1E"><use href="#facebook"></use></svg></a>
+                    <a href="https://twitter.com/intent/tweet?text=Austrian Armed Forces replacing Microsoft Office with LibreOffice&amp;url=https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice" target="_blank" title="𝕏, formerly Twitter" class="mb-3 me-2 me-lg-3"><svg width="26" height="24" fill="#1A1A1E"><use href="#twitterx"></use></svg></a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice&title=Austrian Armed Forces replacing Microsoft Office with LibreOffice&summary=The Austrian Armed Forces (Bundesheer) said in late September that by the end of 2025 it will migrate 16,000 user workstations throughout all branches from Microsoft...&source=LinkedIn" target="_blank" title="LinkedIn" class="mb-3 me-2 me-lg-3"><svg width="26" height="24" fill="#1A1A1E"><use href="#linkedIn"></use></svg></a>
+                    <a href="mailto:?subject=Austrian Armed Forces replacing Microsoft Office with LibreOffice&body=https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/austrian-armed-forces-replacing-microsoft-office-with-libreoffice" target="_blank" title="Email" class="mb-3"><svg width="22" height="20" stroke="#1A1A1E"><use href="#envelope"></use></svg></a>
+                </div>
+            </div>
+
+            <div><img class="invisible" style="display: none" src="/images/default-source/news-images/bsp_94520-jdw-33378.jpeg?sfvrsn=3ca8b9e7_2"></div><div class="w-100 position-relative"> <img src="/ResourcePackages/Janes/assets/dist/images/placeholder-16-9.jpg" class="invisible w-100"> <div style="background-image: url(&quot;https://www.janes.com/images/default-source/news-images/bsp_94520-jdw-33378.jpeg?sfvrsn=3ca8b9e7_2&quot;)" class="news-hero bg-center bg-cover position-absolute left-0 top-0 h-100 w-100"></div></div>
+<p class="text-body text-muted small">The welcome screen of open-source office software LibreOffice, which the Austrian Armed Forces announced in September 2025 it was introducing across its branches. (LibreOffice)</p>
+<p>The Austrian Armed Forces (Bundesheer) said in late September that by the end of 2025 it will migrate 16,000 user workstations throughout all branches from Microsoft Office to the LibreOffice open-source suite.</p>
+<p>The Bundesheer's Directorate 6, responsible for information technology (IT) and cyber, told <em>Janes</em> in October that while LibreOffice is cheaper than buying Microsoft licences, the primary reason for the move was not to save money but to strengthen digital sovereignty. According to Directorate 6's Michael Hillebrand, “the main aim was to maintain the independence of our own IT infrastructure and to ensure that sensitive data is only processed internally. Processing further in external cloud services was out of the question for the military, ensuring that the armed forces – an organisation that is there to function when everything else is failing – remain operational even in crisis situations and can fall back on software that is under our own control.<strong>”</strong></p>
+<p>Hillebrand added, “About five years ago, it became apparent that Microsoft was increasingly moving its Office 2016 Professional applications to the cloud, a growing problem because it creates a dependency on external providers and security-relevant data can no longer remain under one's own control. Since then, open source was often the subject of discussions because it was supposedly free. But again, this was not the main reason.”</p>
+
+            <div class="gated-content"></div>
+            <div class="pt-4 pb-6 list-item d-block border-top border-bottom border-2 text-center no-brackets-area">
+                <h2 class="mb-2 mx-auto" style="max-width: 775px;">Go beyond the headlines - with direct links to interconnected entities</h2>
+                <p class="m-auto mb-3" style="font-size: 22px; max-width: 550px;">Get full access to validated equipment, military capabilities, and market insights.</p>
+                <div>
+                            <a type="button" class="btn btn-primary mt-2" href="https://www.janes.com/subscribe">Subscribe to Janes</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    li.breadcrumb-item.active {
+        font-size: 0;
+    }
+</style>
+
+
+
+
+
+<script>
+    (function() {
+        // Initialize the global array if it doesn't exist
+        if (!window.articleDataCollection) {
+            window.articleDataCollection = [];
+        }
+        
+        // Add this instance's data to the collection
+        window.articleDataCollection.push({
+            id: 'db5d97e8b00445e88a1af2dd476435d8',
+            regions: null,
+            sectors: null,
+            datasets: null
+        });
+    })();
+</script>
+
+
+
+<script>
+    (function() {
+        var currentArticleId = 'db5d97e8b00445e88a1af2dd476435d8';
+        
+        document.addEventListener("DOMContentLoaded", () => {
+            try {
+                if (typeof sbxTrackCustomInsightEvent === 'function' && window.articleDataCollection) {
+                    
+                    // Find this instance's data
+                    var articleData = window.articleDataCollection.find(item => item.id === currentArticleId);
+                    
+                    if (!articleData) return;
+                    
+                    // Track Regions
+                    if (articleData.regions && articleData.regions.length > 0) {
+                        articleData.regions.forEach(region => {
+                            sbxTrackCustomInsightEvent('Viewed Article Region', region.title);
+                            console.log(`Sitefinity Insight - Viewed Article Region: ${region.title}`);
+                        });
+                    }
+                
+                    // Track Sectors
+                    if (articleData.sectors && articleData.sectors.length > 0) {
+                        articleData.sectors.forEach(sector => {
+                            sbxTrackCustomInsightEvent('Viewed Article Sector', sector.title);
+                            console.log(`Sitefinity Insight - Viewed Article Sector: ${sector.title}`);
+                        });
+                    }
+                
+                    // Track Datasets
+                    if (articleData.datasets && articleData.datasets.length > 0) {
+                        articleData.datasets.forEach(dataset => {
+                            sbxTrackCustomInsightEvent('Viewed Article Dataset', dataset.title);
+                            console.log(`Sitefinity Insight - Viewed Article Dataset: ${dataset.title}`);
+                        });
+                    }
+                
+                }
+            } catch (error) {
+                console.error('Sitefinity Insight tracking error:', error);
+            }
+        });
+    })();
+</script>
+
+
+<div id="MainContent_C040_Col00" class="sf_colsIn container" data-sf-element="ContainerLayout" data-placeholder-label="Container"><div id="MainContent_C058_Col00" class="sf_colsIn pt-4" data-sf-element="Blank" data-placeholder-label="Blank">
+<div class="content-block content-block-font-size content-block--widget" >
+    <div ><h2 class="text-lg-center">More news articles</h2></div>    
+</div>
+<div class="more-cards-glider-wrap mb-5 mb-lg-8">
+    <div class="more-cards-inner">
+        <div class="row g-4" data-more-cards-glider>
+                <div class="col-lg-4 col-md-6 more-cards-slide">
+                    <a href="https://www.janes.com/defence-intelligence-insights/defence-news/air/special-report-ukrainian-defence-manufacturers-showcase-uavs-to-uk" class="redesign-general-card d-flex flex-column h-100 bg-bordergray rounded-4 text-decoration-none text-body">
+                        <div class="cutout-corner">
+                            <img src="/images/default-source/news-images/bsp_125261-jdw-38963.tmb-listcrop.jpeg?Culture=en&amp;sfvrsn=767eb1fa_1" alt="Image of UAV operator during Ukraine Drone Demonstration Day at the Larkhill Garrison in October 2026." width="500" height="260" loading="lazy" class="redesign-general-card__img">
+                        </div>
+                        <div class="d-flex flex-column flex-grow-1 p-3 p-lg-4">
+                                <div class="mb-4">
+                                        <span class="redesign-general-card__tag">Air</span>
+                                </div>
+                                                            <p class="button-font text-uppercase small mb-2 mb-lg-3">02 November 2026</p>
+                            <h3 class="h4 flex-grow-1 mb-3">Special Report: Ukrainian defence manufacturers showcase UAVs to UK</h3>
+                            <span class="icon-link icon-link--sm-on-mob">Read Article</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 more-cards-slide">
+                    <a href="https://www.janes.com/defence-intelligence-insights/defence-news/industry/chess-dynamics-secures-sensor-contract-for-indonesian-frigates" class="redesign-general-card d-flex flex-column h-100 bg-bordergray rounded-4 text-decoration-none text-body">
+                        <div class="cutout-corner">
+                            <img src="/images/default-source/news-images/bsp_125280-jdw-38961.tmb-listcrop.jpeg?Culture=en&amp;sfvrsn=1992743e_1" alt="One of the Indonesian Navy&#39;s Bung Tomo-class frigate KRI 
+        
+        , which will be fitted with the SeaEagle." width="500" height="260" loading="lazy" class="redesign-general-card__img">
+                        </div>
+                        <div class="d-flex flex-column flex-grow-1 p-3 p-lg-4">
+                                <div class="mb-4">
+                                        <span class="redesign-general-card__tag">Industry</span>
+                                </div>
+                                                            <p class="button-font text-uppercase small mb-2 mb-lg-3">02 November 2026</p>
+                            <h3 class="h4 flex-grow-1 mb-3">Chess Dynamics secures sensor contract for Indonesian frigates</h3>
+                            <span class="icon-link icon-link--sm-on-mob">Read Article</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 more-cards-slide">
+                    <a href="https://www.janes.com/defence-intelligence-insights/defence-news/sea/vard-design-selected-as-basis-for-new-us-cable-repair-ship" class="redesign-general-card d-flex flex-column h-100 bg-bordergray rounded-4 text-decoration-none text-body">
+                        <div class="cutout-corner">
+                            <img src="/images/default-source/news-images/bsp_125269-jni-38959.tmb-listcrop.jpeg?Culture=en&amp;sfvrsn=56ac3a63_1" alt="The VARD 9 01 design - seen here in service with NCT Offshore - is the subject of a requirements feasibility study for the US Navy&#39;s T-ARC(X) cable repair ship programme." width="500" height="260" loading="lazy" class="redesign-general-card__img">
+                        </div>
+                        <div class="d-flex flex-column flex-grow-1 p-3 p-lg-4">
+                                <div class="mb-4">
+                                        <span class="redesign-general-card__tag">Sea</span>
+                                </div>
+                                                            <p class="button-font text-uppercase small mb-2 mb-lg-3">01 November 2026</p>
+                            <h3 class="h4 flex-grow-1 mb-3">VARD design selected as basis for new US cable repair ship</h3>
+                            <span class="icon-link icon-link--sm-on-mob">Read Article</span>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="more-cards-dots" role="tablist" aria-label="News"></div>
+</div>
+
+
+
+<div class="btn-container text-center w-100">
+            <a href="https://www.janes.com/defence-intelligence-insights/all-defence-news" class="btn btn-primary" title="View All News" >
+                View All News
+            </a>
+</div>
+
+
+
+
+</div>
+</div><div id="MainContent_C072_Col00" class="sf_colsIn pinch" data-sf-element="Pinch" data-placeholder-label="Pinched Container"><div id="MainContent_C060_Col00" class="sf_colsIn bg-bordergray py-7 no-brackets-area cutout-corner cutout-corner--lg cutout-corner--tl rounded-4 px-3 pe-lg-8" data-sf-element="Blank" data-placeholder-label="Blank"><div class="row" data-sf-element="Row">
+    <div id="MainContent_C062_Col00" class="sf_colsIn col-lg-5" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="content-block content-block-font-size content-block--widget" >
+    <div ><div class="ps-xxl-8"><h2 style="max-width: 308px">Never miss updated intel from Janes. </h2></div></div>    
+</div>
+    </div>
+    <div id="MainContent_C062_Col01" class="sf_colsIn col-lg-7" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<script>
+  hbspt.forms.create({
+    portalId: "7119805",
+    formId: "fa8c7471-368a-4d89-9e70-9a19b04f7dae",
+    region: "na1"
+  });
+</script>
+    </div>
+</div>
+
+</div>
+</div> 
+
+
+<div class="page-banner page-banner--inline sbx-super-container has-optimised-bg-img after-fade after-fade--radial white-text-area mb-4 mb-lg-6">
+        <div class="optimised-img has-absolute-real-img">
+            <video src="/videos/default-source/home2026/cta.mp4" autoplay muted loop playsinline
+                   disablepictureinpicture preload="auto" aria-hidden="true"></video>
+        </div>
+    <div class="container pb_content">
+        <div class="pb_content__in content-block text-center mx-auto">
+                <h2 class="h1">Move faster with human-validated intelligence.</h2>
+                            <p class="mx-auto body-medium">Get equipment and weapon intelligence that’s human-validated, connected, and ready for your mission workflow.</p>
+                            <div class="btn-container mt-0 mt-lg-2 mb-3">
+                    <a href="https://www.janes.com/defence-intelligence-products"
+                       onclick="" 
+                       class="btn btn-primary" 
+                       title="View Products">
+                        View Products
+                    </a>
+                </div>
+        </div>
+    </div>
+</div>
+ </main> <footer class="main-footer padding-top bg-secondary white-text-area"> <div class="sbx-upper-footer"> 
+<div id="Footer_TB43E653B001_Col00" class="sf_colsIn container" data-sf-element="ContainerLayout" data-placeholder-label="Container">
+<div class="be-ix-link-block"><div class="be-ix-link-block"><div class="be-related-link-container"><div class="be-label">Also of Interest</div><ul class="be-list"><li class="be-list-item"><a class="be-related-link" href="https://www.janes.com/defence-intelligence-datasets/military-capabilities">Global Military Capabilities Dataset</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.janes.com/defence-intelligence-datasets/geoeconomic-threat-influence">Geoeconomic Threat Intelligence</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.janes.com/company/leadership-values">Team Behind the Intelligence</a></li></ul> </div></div>
+
+<!-- be_ixf, bodystr, body_1 -->
+</div>
+<div class="row" data-sf-element="Row">
+    <div id="Footer_TB43E653B002_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="61.509" viewBox="0 0 210 61.509">
+              <g transform="translate(0 0.004)">
+                <g transform="translate(0 -0.004)">
+                  <g transform="translate(0 0)">
+                    <path d="M6.186,351.442l7.916,7.815a9.327,9.327,0,0,1,2.774,6.637v13.288a3.633,3.633,0,0,1-6.186,2.585l-7.963-7.861A9.172,9.172,0,0,1,0,367.381V354.027A3.634,3.634,0,0,1,6.186,351.442Z" transform="translate(0 -321.314)" fill="#f06c00"></path>
+                    <path d="M263.8,60.467l9.029-8.8a12.332,12.332,0,0,0,3.727-8.833V3.636a3.633,3.633,0,0,0-6.168-2.6l-9.637,9.388a10.318,10.318,0,0,0-3.118,7.39V57.864A3.633,3.633,0,0,0,263.8,60.467Z" transform="translate(-236.254 0.004)" fill="#f06c00"></path>
+                  </g>
+                  <g transform="translate(58.941 14.835)">
+                    <g transform="translate(24.48)">
+                      <path d="M1013.082,202.6l-1.812,3.982a6.438,6.438,0,0,1-5.86,3.771h0l14.768-31.562,14.768,31.562h0a6.439,6.439,0,0,1-5.86-3.771l-1.812-3.982Zm7.1-15.847-5.5,12.319h10.994Z" transform="translate(-1005.41 -178.79)" fill="#f06c00"></path>
+                      <path d="M1479.32,179.57l23.218,22.921V183.5a3.856,3.856,0,0,1,3.856-3.856h0v31.7l-23.218-22.937v18.8a3.856,3.856,0,0,1-3.856,3.856h0Z" transform="translate(-1439.998 -179.505)" fill="#f06c00"></path>
+                      <path d="M1970.2,181.09h17.6a3.528,3.528,0,0,1-3.528,3.528h-10.219v8.85h11.4V197h-11.4v11.8h10.219a3.528,3.528,0,0,1,3.528,3.528h-17.6Z" transform="translate(-1890.148 -180.899)" fill="#f06c00"></path>
+                      <path d="M2321.556,186.024a4.224,4.224,0,0,1-4.635-.108,5.172,5.172,0,0,0-3.164-.927c-2.387,0-5.013,1.631-5.013,4.257,0,2.347,2.307,3.581,4.177,4.3l2.148.836c4.257,1.671,7.44,4.018,7.44,9.032a9.248,9.248,0,0,1-9.589,9.35,9.347,9.347,0,0,1-9.271-8.4h0a4.205,4.205,0,0,1,4.506,2.069,5.78,5.78,0,0,0,5.082,2.825,5.642,5.642,0,0,0,5.531-5.849c0-3.143-2.586-4.616-5.172-5.689l-2.069-.875c-3.422-1.472-6.526-3.422-6.526-7.6,0-4.854,4.3-7.759,8.833-7.759a8.556,8.556,0,0,1,7.721,4.534Z" transform="translate(-2195.931 -181.266)" fill="#f06c00"></path>
+                    </g>
+                    <path d="M721.448,184.08v19.114a4.719,4.719,0,0,1-3.852,4.712,4.587,4.587,0,0,1-2.96-.5,2.406,2.406,0,0,0-2.449.139l-1.816,1.174a8.393,8.393,0,0,0,7.2,3.02,8.576,8.576,0,0,0,7.68-8.628V180.28A3.8,3.8,0,0,0,721.448,184.08Z" transform="translate(-710.37 -180.156)" fill="#f06c00"></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+    
+<div class="content-block content-block-font-size content-block--widget" >
+    <div ><h2 class="mb-lg-3 mb-1">Need Help?</h2></div>    
+</div>
+
+<div class="btn-container ">
+            <a href="/contact" class="btn btn-primary" title="Contact Janes" >
+                Contact Janes
+            </a>
+</div>
+
+
+
+
+    </div>
+    <div id="Footer_TB43E653B002_Col01" class="sf_colsIn col-lg-8" data-sf-element="Column 2" data-placeholder-label="Column 2"><script data-sf-pers-id="bd4e765e-7f35-4c46-bb42-381211a1b050" data-sf-pers-raise-events="True"></script>
+    </div>
+</div>
+
+</div> </div> <div class="sbx-upper-footer footer-noscript-fallback"> 
+ </div> <div class="sbx-lower-footer sbx-super-container mx-auto"> 
+<div id="LowerFooter_TB43E653B003_Col00" class="sf_colsIn border-top border-2 border-primary pt-4 pb-4 mt-2" data-sf-element="Blank" data-placeholder-label="Blank"><div id="LowerFooter_TB43E653B004_Col00" class="sf_colsIn container" data-sf-element="ContainerLayout" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="LowerFooter_TB43E653B005_Col00" class="sf_colsIn col-lg-7" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<ul>
+    <li>
+        <a href="/policies-info/privacy-policy" target="_self" class="primary-on-hover" title="Privacy Policy">Privacy Policy</a>
+    </li>
+    <li>
+        <a href="/policies-info/terms-of-use" target="_self" class="primary-on-hover" title="Terms of Use">Terms of Use</a>
+    </li>
+    <li>
+        <a href="/policies-info/accessibility-statement" target="_self" class="primary-on-hover" title="Accessibility statement">Accessibility statement</a>
+    </li>
+    <li>
+        <a href="/policies-info/slavery-statement" target="_self" class="primary-on-hover" title="Slavery Statement">Slavery Statement</a>
+    </li>
+
+</ul>
+
+
+
+
+
+<div class="content-block content-block-font-size content-block--widget" >
+    <div ><span class="d-none d-lg-inline">© Janes <span id="copyYear">2026</span> All Rights Reserved</span></div>    
+</div>
+    </div>
+    <div id="LowerFooter_TB43E653B005_Col01" class="sf_colsIn col-lg-5" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div class="content-block">
+  <div>
+<div class="follow-us-heading mb-1">Follow Us:</div>
+    <div class="footer-socials">
+      <div class="footer-socials__items d-flex justify-content-start">
+        <a href="https://www.facebook.com/JanesIntelligence/" target="_blank" title="Facebook">
+          <svg fill="#fff">
+            <use href="#facebook"></use>
+          </svg>
+        </a>
+        <a href="https://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=JanesIntel" target="_blank" title="&#x1D54F;, formerly Twitter">
+          <svg fill="#fff">
+            <use href="#twitterx"></use>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/company/ihs-jane's/" target="_blank" title="LinkedIn">
+          <svg fill="#fff">
+            <use href="#linkedIn"></use>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/janesintel/" target="_blank" title="Instagram">
+          <svg fill="#fff">
+            <use href="#instagram"></use>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UCEC1WX1I030Ss6oNk7ynsBA" target="_blank" title="YouTube">
+          <svg fill="#fff">
+            <use href="#youtube"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<div class="content-block content-block-font-size content-block--widget" >
+    <div ><span class="d-block d-lg-none mt-3">© Janes <span id="copyYear">2026</span> All Rights Reserved</span></div>    
+</div>
+    </div>
+</div>
+
+</div>
+</div> </div> </footer> 
+
+
+
+<!-- Google Tag Manager (noscript) --> 
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --> 
+
+ <div class="hidden-front-end"> 
+ </div> <div> <div class="global-modal global-modal--general global-modal--has-pale-j bg-bodygray relative slide-in-blurred-bottom" hidden> <div class="sbx-close" onclick="this.parentNode.classList.remove('active');" title="Close"> <svg fill="#F06C00"><use href="#cross"></use></svg> </div> <div class="global-modal__in"> <div class="padded container"> 
+<div class="row pt-3 pt-lg-0" data-sf-element="Row">
+    <div id="GlobalModalGeneral_TB43E653B039_Col00" class="sf_colsIn col-lg-6 pt-lg-5 pe-lg-6 order-2 order-lg-1" data-sf-element="Column 1" data-placeholder-label="Column 1"><div id="GlobalModalGeneral_TB43E653B040_Col00" class="sf_colsIn pe-xl-8 has-hr-uls" data-sf-element="Blank" data-placeholder-label="Blank">
+<div class="content-block content-block-font-size content-block--widget" >
+    <div ></div>    
+</div>
+</div>
+    </div>
+    <div id="GlobalModalGeneral_TB43E653B039_Col01" class="sf_colsIn col-lg-6 order-1 order-lg-2" data-sf-element="Column 2" data-placeholder-label="Column 2"><div id="GlobalModalGeneral_TB43E653B041_Col00" class="sf_colsIn p-3 p-sm-4 p-lg-3 p-xl-4" data-sf-element="MinorPaddingBlock" data-placeholder-label="Minor Padding Block">
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    portalId: "7119805",
+    formId: "0d938d4c-d4fc-49e3-bea9-8fe07d8a7f79",
+    region: "na1"
+  });
+</script>
+</div>
+    </div>
+</div>
+ </div> </div> </div> <div class="global-modal global-modal--contact global-modal--has-pale-j bg-bodygray relative slide-in-blurred-bottom" hidden> <div class="sbx-close" onclick="this.parentNode.classList.remove('active');" title="Close"> <svg fill="#F06C00"><use href="#cross"></use></svg> </div> <div class="global-modal__in"> <div class="padded container"> 
+<div class="row pt-3 pt-lg-0" data-sf-element="Row">
+    <div id="GlobalModal_TB43E653B006_Col00" class="sf_colsIn col-lg-6 pt-lg-5 pe-lg-6 order-2 order-lg-1" data-sf-element="Column 1" data-placeholder-label="Column 1"><div id="GlobalModal_TB43E653B007_Col00" class="sf_colsIn pe-xl-8" data-sf-element="Blank" data-placeholder-label="Blank"><script data-sf-pers-id="1b67bdd0-946d-4aac-9567-60ed80e9adaa" data-sf-pers-raise-events="True"></script>
+</div>
+    </div>
+    <div id="GlobalModal_TB43E653B006_Col01" class="sf_colsIn col-lg-6 order-1 order-lg-2" data-sf-element="Column 2" data-placeholder-label="Column 2"><div id="GlobalModal_TB43E653B008_Col00" class="sf_colsIn p-3 p-sm-4 p-lg-3 p-xl-4" data-sf-element="MinorPaddingBlock" data-placeholder-label="Minor Padding Block">
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    portalId: "7119805",
+    formId: "0d938d4c-d4fc-49e3-bea9-8fe07d8a7f79",
+    region: "na1"
+  });
+</script>
+</div>
+    </div>
+</div>
+ </div> </div> </div> <div class="global-modal global-modal--newsletter global-modal--has-pale-j bg-bodygray relative slide-in-blurred-bottom" hidden> <div class="sbx-close" onclick="this.parentNode.classList.remove('active');" title="Close"> <svg fill="#F06C00"><use href="#cross"></use></svg> </div> <div class="global-modal__in"> <div class="padded container"> 
+<div id="GlobalModalNewsletter_TB43E653B009_Col00" class="sf_colsIn super-pinch" data-sf-element="SuperPinch" data-placeholder-label="Super Pinched Container"><div id="GlobalModalNewsletter_TB43E653B010_Col00" class="sf_colsIn mt-4 mt-md-0" data-sf-element="Blank" data-placeholder-label="Blank">
+<script>
+  hbspt.forms.create({
+    portalId: "7119805",
+    formId: "1a7f245a-5877-408d-9fc2-8a5560c742f0",
+    region: "na1",
+    sfdcCampaignId: "7013z000001rntqAAA"
+  });
+</script>
+</div>
+</div> </div> </div> </div> <div class="global-modal global-modal--partners global-modal--has-pale-j bg-bodygray relative slide-in-blurred-bottom" hidden> <div class="sbx-close" onclick="this.parentNode.classList.remove('active');" title="Close"> <svg fill="#F06C00"><use href="#cross"></use></svg> </div> <div class="global-modal__in"> <div class="padded container"> 
+<div class="row pt-3 pt-lg-0" data-sf-element="Row">
+    <div id="GlobalModalPartners_TB43E653B011_Col00" class="sf_colsIn col-lg-6 col-xl-7 pe-xl-8 pt-lg-5" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="content-block content-block-font-size content-block--widget" >
+    <div ><h2>Contact Our Team to Explore the Value of Partnering with <span class="text-primary">Janes</span></h2><ul><li><strong>Immediate Time to Value:</strong>&nbsp;Validated data that’s AI-ready and can easily integrate into any platform.<strong></strong></li><li><strong>Structured Intelligence Datasets:</strong>&nbsp;Janes knowledge graph; equipment, sensors, and weapons; military capabilities; country and chemical, biological, radiological, and nuclear profiles; geoeconomic threat intelligence; defence budgets, programmes, and forecasts; and news, events, and analysis.<strong></strong></li><li><strong>Data Delivery Mechanisms:</strong>&nbsp;Janes Data-as-a Service delivered in multiple formats, including File GeoDB, Parquet, RDBMS, XML, and Label/Property Graph, with flexible delivery options. API delivery is also available.</li><li><strong>Analytical Value:</strong>&nbsp;Enables enriched cross-source fusion when combined with GEOINT, SIGINT, HUMINT, and OSINT, significantly enhancing operational outcomes.</li></ul></div>    
+</div>
+    </div>
+    <div id="GlobalModalPartners_TB43E653B011_Col01" class="sf_colsIn col-lg-6 col-xl-5 ps-xl-8" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    portalId: "7119805",
+    formId: "5c140917-8bae-4617-9f46-ed9390939f97",
+    region: "na1",
+    sfdcCampaignId: "7013z000001rntqAAA"
+  });
+</script>
+    </div>
+</div>
+ </div> </div> </div> <div id="msgReceivedTemplate" class="hidden-front-end"> 
+
+<div class="border rounded-3 p-4 p-lg-6 text-center" style="border-color: #b3aaa8!important;">
+  <div class="hs-form-tick-circle m-auto">
+    <svg fill="#F06C00"><use href="#tick"></use></svg>
+  </div>
+  <div class="h2 mt-4 mb-3">Message Received!</div>
+  <p class="body-medium m-auto" style="max-width: 520px;">Message received. Thank you for getting in touch, our team will reach out to you soon.</p>
+  <hr class="my-5">
+  <p class="body-medium m-auto" style="max-width: 420px;"><strong>In the meantime... check out our OSINT insights</strong></p>
+  <div class="btn-container text-center w-100">
+    <a href="/defence-intelligence-insights" class="btn btn-primary mt-4" title="View Insights">
+      View Insights
+    </a>
+  </div>
+</div>
+     </div> </div> <div class="container magic-container-control-element"></div>  <script src="/scripts/core.js?v=1XzlUfOAl6rEy1JhAmk90dDjP0Fa3weAYIKvs37ee6o1"></script> <script>
+        window.addEventListener('message', function (event) {
+            if (event.data && event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
+                var template = document.getElementById('msgReceivedTemplate');
+                if (!template) return;
+                document.querySelectorAll('.global-modal--newsletter .hbspt-form').forEach(function (el) {
+                    el.innerHTML = template.innerHTML;
+                });
+            }
+        });
+    </script> <script type="application/json" id="PersonalizationTracker">
+	{"IsPagePersonalizationTarget":false,"IsUrlPersonalizationTarget":false,"PageId":"24a8621b-acc9-4012-88c1-7d53b9069c3e"}
+</script><script type="text/javascript" src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPn8J1iYXMyKJEbV8Cb1eyISAP7grO0MP_kOzd9mrRZ-sAMeKUW0bjwYSCmCsykbhPiu9UvYgwZyBPbViygSE-NyUGq-6CyNycIau0ivhXjwqE4o6WSFt-RP-JeUDKdTjYEHV2NxJUtop9QCHuBx3So_cV1fQVtGcoRAFtbRlbc0wctwSEpfT1JgtF8NvmAaO9V3jpOc1&amp;t=639227515840000000">
+
+</script> <div class="body-after" onclick="dimClick();"></div> <div style="display: none;" class="d-none visually-hidden"> <svg id="building" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M48 48V464h96V352h96V464h96V48H48zM0 0H48 336h48V48 464v48H336 48 0V464 48 0zM88 88h80v80H88V88zm208 0v80H216V88h80zM88 216h80v80H88V216zm208 0v80H216V216h80z"/></svg> <svg id="logoSegment" xmlns="http://www.w3.org/2000/svg" width="379.323" height="578.949" viewBox="0 0 379.323 578.949"><path d="M58.23,360.316l74.506,73.56a87.793,87.793,0,0,1,26.108,62.471V621.422c0,30.357-36.612,45.664-58.222,24.335l-74.951-73.99A86.329,86.329,0,0,1,0,510.342V384.651C.008,354.294,36.62,338.987,58.23,360.316Z" transform="translate(0 -76.738)" fill="#a0a0a0"/><path d="M315.68,569.179l84.986-82.784a116.079,116.079,0,0,0,35.081-83.143V34.261c0-30.247-36.386-45.6-58.058-24.5L286.979,98.13a97.114,97.114,0,0,0-29.349,69.562V544.679C257.63,574.935,294.016,590.281,315.68,569.179Z" transform="translate(-56.426 0.004)" fill="#a0a0a0"/></svg> <svg id="envelope" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg> <svg id="briefcase" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M152 0H128V24 96H48 0v48V280 432v48H48 464h48V432 280 144 96H464 384V24 0H360 152zM464 256H320 192 48V144H152 360 464V256zM320 304H464V432H48V304H192v48H320V304zM336 96H176V48H336V96z"/></svg> <svg id="locationDot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 16.3 7.7 42 24.7 75.4c16.4 32.2 38.8 66.4 62.1 98.3c20.3 27.9 40.7 53.3 57.2 73.1c16.5-19.8 36.9-45.2 57.2-73.1c23.2-31.9 45.6-66.2 62.1-98.3C328.3 234 336 208.3 336 192zm48 0c0 83.1-105.6 219-160.2 283.6C204.8 498.1 192 512 192 512s-12.8-13.9-31.8-36.4C105.6 411 0 275.1 0 192C0 86 86 0 192 0S384 86 384 192zm-160 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-112 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z"/></svg> <svg id="minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 280H408L40 280H16l0-48 24 0 368 0 24 0v48z"/></svg> <svg id="chevRight" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M321.9 256l-17 17L113 465l-17 17L62.1 448l17-17 175-175L79 81l-17-17L96 30.1l17 17L305 239l17 17z"/></svg> <svg id="doubleChevRight" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 353 353" enable-background="new 0 0 353 353" xml:space="preserve"> <g> <g> <path d="M307.8,176.5c-2.8-2.1-4.6-3.1-6-4.5c-45.3-45.2-90.6-90.5-135.7-135.8c-3.1-3.1-5.8-7-7.6-10.9c-3-6.7-0.4-16,5-20.4 c6.6-5.6,14.8-6.7,21.8-2.7c2.9,1.6,5.6,3.6,7.9,6c50.7,50.6,101.4,101.3,152.1,152c10.7,10.7,10.7,22.2,0.1,32.8 C294.6,243.6,243.8,294.4,193,345.2c-8.3,8.2-17,10.3-25.2,6c-12-6.3-14.2-20.4-4.8-31.2c1-1.1,2.1-2.1,3.2-3.2 c45.1-45.1,90.3-90.3,135.4-135.4C303.1,179.9,304.8,178.8,307.8,176.5z"/> <path d="M148.9,175.4c-1.6-1.2-3.4-2.2-4.8-3.6C98.7,126.5,53.4,81.1,8,35.7c-4.3-4.3-7.7-9.3-8.2-15.6c-0.6-7.7,3.8-15.3,11-18.6 c8.4-3.9,15.8-1.5,22.6,4.1c0.9,0.7,1.7,1.6,2.5,2.4C86.4,58.7,137,109.2,187.5,159.8c8.1,8.1,10.5,16.1,6.6,24.1 c-1.5,3.1-3.6,6-6,8.5C137.1,243.6,85.9,294.7,34.8,345.8c-7.9,7.9-17.3,9.6-25.3,4.8c-11.3-6.7-12.9-20.4-3.8-30.9 c1-1.1,2.1-2.1,3.2-3.2c45.1-45.1,90.2-90.3,135.4-135.3c1.4-1.4,3.3-2.3,4.9-3.5C149.1,177,149,176.2,148.9,175.4z"/> </g> </g> </svg> <svg id="cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M345 137l17-17L328 86.1l-17 17-119 119L73 103l-17-17L22.1 120l17 17 119 119L39 375l-17 17L56 425.9l17-17 119-119L311 409l17 17L361.9 392l-17-17-119-119L345 137z"/></svg> <svg id="vimeo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 341.5 298.5" enable-background="new 0 0 341.5 298.5" xml:space="preserve"><g><g><path d="M14,99.9C9.4,93.9,4.9,88,0.2,81.7C6.5,75,12.6,68.1,19,61.5c17-17.3,34.9-33.6,55.8-46.1c8.4-5,17.3-9,26.8-11.4c13.5-3.3,25.8,2.2,33.4,14.7c7.3,12.2,11.1,25.6,13.8,39.3c3.6,18.4,6.2,37,10.2,55.3c4.8,21.6,9.8,43.3,18.5,63.8c1.3,3.1,3.1,6.1,5.2,8.9c2.9,3.8,6.6,4.5,10.2,1.5c5.3-4.6,10.7-9.4,15-15c12.2-15.8,22.3-32.9,30.8-50.9c4.3-9.1,6.1-18.7,4.1-28.9c-2.5-13.5-13.3-21.5-26.8-19.2c-5.1,0.8-9.9,3-14.8,4.7c-1.5,0.5-2.9,1.5-5.4,2.7c1.7-6.1,2.6-11.5,4.7-16.6c14.2-35.2,40.2-56,77.4-62.7c12.8-2.3,25.5-1.1,37.4,4.7c14.1,6.9,21.9,18.6,24.9,33.8c3.1,15.9,0.3,31.4-3.5,46.7c-7.2,28.8-19.8,55.3-35.8,80.1c-29.6,46-66.6,85.3-110.2,118.3c-6.7,5.1-13.7,10-22.1,11.9c-13.3,3.1-25-0.8-35.6-8.7c-14.8-11-23.2-26.2-28.7-43.4c-10.5-33.2-20.7-66.4-31.4-99.6c-5.5-17.2-11.5-34.2-17.7-51.2c-3.2-8.7-8.1-11.1-16.8-7.7c-7.3,2.8-14,7.1-20.9,10.8C16.3,98.2,15.3,99,14,99.9z"/></g></g></svg> <svg id="wechat" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.5 368" enable-background="new 0 0 451.5 368" xml:space="preserve"><g><g><path d="M48.2,292.7c5.4-16.7,10.3-32.1,15.3-47.6c-7.9-6.6-16.2-12.8-23.7-19.8C17.2,204,3.1,178.2,0.6,146.9c-3.3-40.8,11.3-74.6,41.2-102C67.9,20.9,99.2,8.1,134,3.4c40-5.4,78.1,0.7,113.5,20.1c35.2,19.3,61.1,46.8,71.6,86.7c0.2,0.8,0.3,1.6,0.5,2.9c-8.3,0-16.4-0.5-24.5,0.1c-49.5,3.3-87.7,25.8-111.6,69.4c-14.5,26.5-18.3,55.3-10.5,85.1c0.2,1,0.4,1.9,0.7,3.8c-5.1,0.3-10.1,1.2-14.9,0.6c-16.8-1.8-33.6-4.2-50.5-6.2c-2.9-0.3-6.3,0-8.9,1.3C82.7,275.4,66.1,283.8,48.2,292.7z M106.3,108.6c12.4,0,19.8-6.2,21.2-17.8c1.2-10.1-4.7-18.8-14.9-21c-7.8-1.7-15.6-0.7-21.7,4.4c-3.4,2.9-6.4,7.6-7.2,11.9C81.3,98.8,91.5,108.5,106.3,108.6z M218.4,108.6c8.1-0.1,15.2-2.3,18.6-10.5c3.4-8.3,3-16.3-3.1-23.3c-7.2-8.4-25-7.3-33.8,1.8c-7,7.3-7.1,17.1-0.2,24.5C205,106.3,211.3,108.4,218.4,108.6z"/><path d="M406.6,368c-13.2-7.1-25.3-13.4-37.1-20c-4.1-2.3-7.7-3.4-12.6-1.9c-28.8,8.7-57.9,8.6-86.6-0.1c-37.6-11.3-67.3-33.1-82.6-70.3c-15.4-37.3-9.8-72.7,15.4-104.1c22.5-28.1,52.9-42.9,88.4-48.4c25.5-4,50.4-1.8,74.2,7.2c32.5,12.3,59.7,31.8,74.9,64.3c15.2,32.4,12.5,64-6.9,93.9c-9.1,14.1-20.8,26-34.1,36.2c-4.1,3.1-4.7,5.9-3.1,10.5c3.1,8.8,5.7,17.7,8.5,26.6C405.4,363.5,405.8,365.1,406.6,368z M343.1,200.2c-0.1,8.6,7.1,16.6,15.3,16.7c10.9,0.2,19.8-6.9,20.1-16.1c0.3-8.9-8.4-15.9-19.9-16C351.1,184.7,343.2,192.5,343.1,200.2z M270.7,184.8c-8.1,0.1-15.5,7.8-15.4,16c0.1,8.2,7.7,16.2,15.4,16.1c11.5-0.1,20.1-7.4,19.9-16.7C290.4,191.3,281.9,184.7,270.7,184.8z"/></g></g></svg> <svg id="weibo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 418.5 340" enable-background="new 0 0 418.5 340" xml:space="preserve"><g><g><path d="M172.9,340.2c-41.3-1.4-76-9.2-108.5-25.3c-18.8-9.3-35.5-21.7-48.1-38.7C0.8,255.2-3,231.8,3,206.6c6.4-27,20.3-50,37.6-71.3c23-28.2,49.5-52.5,81.5-70.4c15.3-8.6,31.6-14.9,49.4-16c13-0.8,25.2,1.6,32.7,13.7c5.2,8.3,4.8,17.8,3.6,27.2c-0.7,5.4-2,10.8-3,16.2c-1.1,5.9,1,7.9,6.8,6c8-2.6,15.9-5.8,24-8.2c15.5-4.6,31.3-7.9,47.7-5.3c8.6,1.4,17,3.6,23.2,10.4c6.4,7.1,7.6,15.8,6.2,24.8c-1.1,6.9-3.2,13.6-4.7,20.4c-1.2,5.5,0.2,7.8,5.6,9.8c13.5,4.9,26.5,10.6,37.1,20.8c12.9,12.2,16.7,27.1,14.2,44.1c-3.2,21.5-14.6,38.6-29.8,53.5c-24.3,23.8-53.3,39.3-86.1,48.1C222.3,337.3,195.3,340.1,172.9,340.2z M179.4,148.1c-13.3,1.7-26.8,2.7-40,5.2c-31.4,6-59.2,19.1-80.3,43.8C34,226.5,36.8,264,67.5,288.8c20.8,16.8,45.2,24.4,71.4,26.6c32.9,2.8,64.8-1.7,95-15.3c22-9.9,40.8-23.8,52.6-45.5c6.2-11.3,9.4-23.7,7.4-36.6c-3.3-20.9-15.8-35.8-33.2-47C236,155.1,208.6,149,179.4,148.1z"/><path d="M308.5-0.1c44.9-0.2,88.1,30,103.8,72.3c8.8,23.7,8.7,47.5,1.9,71.5c-2.6,9.4-9.8,14.1-18.2,12.2c-8.6-1.9-13.4-9.4-12.2-18.9c1.3-10.5,3.9-21.1,3.4-31.6C386,81.2,374.8,61.6,355,47.4c-17.3-12.5-36.8-17.3-58.1-14.4c-2.5,0.3-5,0.3-7.5,0.4c-10.3,0.1-15.9-5.2-16.7-15.7c-0.5-6.6,5.9-13.8,14.1-15.1C294,1.4,301.3,0.8,308.5-0.1z"/><path d="M305.4,85.1c-1.8,0-3.7,0.1-5.5,0c-8-0.6-12.8-5.6-13-13.6c-0.2-6.1,5.3-12.1,12.1-13.1c28.8-4.5,54.4,12.1,61.8,40.3c2.5,9.6,1.5,19.2-0.9,28.6c-1.9,7.3-8.6,11.1-15.8,9.8c-6.8-1.3-11.1-7.3-10.5-14.8c0.3-3.8,1.2-7.6,1.3-11.4C335.1,96.6,321.7,82.8,305.4,85.1z"/><path d="M157.5,298.7c-21.6-0.4-40.6-5.2-54.4-22.5c-12-15-13.6-38.1-3.9-55c17-29.7,50.6-44.3,83.6-35.5c17.9,4.8,32.4,14.6,39.6,32.7c5.8,14.5,3.3,28.6-3.7,41.8C205.7,285.1,184,296.3,157.5,298.7z M135.4,273.5c10,0.3,17.4-4.6,22.7-12.3c6.4-9.3,3.8-20.2-5.6-26.6c-8.9-6.1-23.2-3.4-31.4,6.3c-5.2,6.1-8.1,13.4-4.5,21.1C120.2,269.6,126.8,273.5,135.4,273.5z M173.7,222c-5.6,0-10.3,4-10.2,8.7c0.1,3.9,3.8,7.1,8.2,7.1c5,0,9.6-4.2,9.7-8.8C181.5,224.8,178.5,222,173.7,222z"/></g></g></svg> <svg id="flickr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 366.5 367" enable-background="new 0 0 366.5 367" xml:space="preserve"><g><g><path d="M-0.2,183.4c0-47.2,0-94.3,0-141.5c0-20.1,10.8-35.1,29-40c4-1.1,8.2-1.6,12.3-1.6c94.8-0.1,189.6-0.1,284.5,0c24.4,0,41.2,16.8,41.3,41.1c0.1,94.8,0.1,189.6,0,284.5c0,24.7-16.8,41.4-41.5,41.4c-94.5,0-189,0-283.5,0c-25.6,0-42-16.6-42.1-42.4C-0.2,277.8-0.2,230.6-0.2,183.4z M170.3,183.4c-0.2-28.3-24-52.4-51.7-52.3c-28.9,0.1-53.1,24.4-52.7,52.9c0.3,27.9,24.6,51.6,52.6,51.4C146.7,235.3,170.5,211.4,170.3,183.4z M248.7,235.5c27.7,0.2,52.1-24.1,52.2-51.8c0-28.1-23.6-52.1-51.6-52.5c-28.4-0.4-52.4,23.4-52.9,52.2C195.9,211.1,220.2,235.3,248.7,235.5z"/></g></g></svg> <svg id="facebook" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M26.4458 22.3324L27.205 17.5086H22.5282V14.3731C22.5282 13.0541 23.1811 11.7652 25.269 11.7652H27.4252V7.65741C26.1695 7.45718 24.9007 7.34886 23.6291 7.33331C19.7798 7.33331 17.2668 9.64724 17.2668 13.8304V17.5086H13V22.3324H17.2668V34H22.5282V22.3324H26.4458Z" /></svg> <svg id="twitterx" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M27.6894 8.66666H31.6762L22.9662 18.8328L33.2129 32.6667H25.1898L18.9058 24.2765L11.7156 32.6667H7.72631L17.0426 21.7928L7.21289 8.66666H15.4397L21.1198 16.3356L27.6894 8.66666ZM26.2902 30.2297H28.4993L14.2393 10.9756H11.8686L26.2902 30.2297Z" /></svg> <svg id="linkedIn" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M12.9333 33.4222V16.2085H7.21683V33.4222H12.9339H12.9333ZM10.0763 13.8587C12.0693 13.8587 13.3101 12.5369 13.3101 10.885C13.2728 9.19544 12.0693 7.91052 10.1142 7.91052C8.15769 7.91052 6.87988 9.19544 6.87988 10.8848C6.87988 12.5367 8.12023 13.8585 10.0388 13.8585H10.0758L10.0763 13.8587ZM16.0975 33.4222H21.8135V23.8103C21.8135 23.2965 21.8508 22.7814 22.0018 22.4144C22.4149 21.3861 23.3554 20.3216 24.935 20.3216C27.0029 20.3216 27.8307 21.9 27.8307 24.2143V33.4222H33.5465V23.5524C33.5465 18.2653 30.7268 15.8049 26.9659 15.8049C23.8825 15.8049 22.5283 17.5298 21.7759 18.7047H21.8139V16.2091H16.0978C16.1724 17.8239 16.0973 33.4228 16.0973 33.4228L16.0975 33.4222Z" /></svg> <svg id="youtube" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M35.9926 16.7535C36.0645 14.7178 35.6095 12.6973 34.6698 10.8797C34.0323 10.1339 33.1475 9.6306 32.1696 9.4575C28.1249 9.09844 24.0634 8.95126 20.0027 9.01662C15.9568 8.94829 11.9099 9.09071 7.87947 9.44328C7.08262 9.5851 6.34518 9.9508 5.75717 10.4957C4.44891 11.6762 4.30355 13.6957 4.15818 15.4024C3.94727 18.4708 3.94727 21.5498 4.15818 24.6184C4.20024 25.5789 4.34641 26.5324 4.59427 27.4628C4.76953 28.181 5.12415 28.8456 5.62635 29.397C6.21835 29.9707 6.97296 30.3573 7.79225 30.5064C10.9261 30.8848 14.0839 31.0417 17.2408 30.9757C22.3285 31.0468 26.7912 30.9757 32.0679 30.5775C32.9073 30.4375 33.6831 30.0505 34.2919 29.4681C34.6989 29.0698 35.0029 28.5822 35.1786 28.0459C35.6984 26.4852 35.9538 24.8518 35.9345 23.2104C35.9926 22.4139 35.9926 17.6068 35.9926 16.7535ZM16.7175 24.0637V15.2602L25.323 19.6833C22.91 20.9917 19.7265 22.4708 16.7175 24.0637Z" /></svg> <svg id="instagram" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M15.7718 20.6666C15.7718 18.2121 17.7605 16.2218 20.2142 16.2218C22.668 16.2218 24.6578 18.2121 24.6578 20.6666C24.6578 23.1212 22.668 25.1114 20.2142 25.1114C17.7605 25.1114 15.7718 23.1212 15.7718 20.6666ZM13.3697 20.6666C13.3697 24.448 16.434 27.5132 20.2142 27.5132C23.9945 27.5132 27.0588 24.448 27.0588 20.6666C27.0588 16.8853 23.9945 13.8201 20.2142 13.8201C16.434 13.8201 13.3697 16.8853 13.3697 20.6666ZM25.7302 13.5487C25.7301 13.8651 25.8238 14.1745 25.9994 14.4377C26.1751 14.7009 26.4248 14.9061 26.717 15.0273C27.0093 15.1485 27.3309 15.1803 27.6412 15.1187C27.9515 15.0571 28.2365 14.9048 28.4603 14.6811C28.6841 14.4575 28.8366 14.1724 28.8984 13.8621C28.9603 13.5517 28.9287 13.23 28.8078 12.9376C28.6868 12.6452 28.4819 12.3952 28.2189 12.2193C27.956 12.0434 27.6467 11.9494 27.3304 11.9493H27.3297C26.9057 11.9495 26.4991 12.1181 26.1991 12.4179C25.8992 12.7178 25.7306 13.1245 25.7302 13.5487ZM14.8291 31.5197C13.5296 31.4605 12.8232 31.2439 12.3538 31.061C11.7315 30.8186 11.2874 30.53 10.8206 30.0637C10.3537 29.5973 10.0648 29.1536 9.82354 28.5311C9.64056 28.0617 9.42409 27.355 9.36501 26.055C9.30039 24.6496 9.28749 24.2274 9.28749 20.6668C9.28749 17.1061 9.30145 16.6851 9.36501 15.2785C9.42419 13.9785 9.64226 13.2732 9.82354 12.8024C10.0658 12.1799 10.3544 11.7358 10.8206 11.2688C11.2868 10.8018 11.7304 10.5127 12.3538 10.2714C12.823 10.0884 13.5296 9.87187 14.8291 9.81278C16.2342 9.74814 16.6562 9.73523 20.2142 9.73523C23.7723 9.73523 24.1948 9.74921 25.601 9.81278C26.9005 9.87198 27.6057 10.0901 28.0763 10.2714C28.6986 10.5127 29.1427 10.8024 29.6095 11.2688C30.0764 11.7351 30.3643 12.1799 30.6066 12.8024C30.7895 13.2718 31.006 13.9785 31.0651 15.2785C31.1297 16.6851 31.1426 17.1061 31.1426 20.6668C31.1426 24.2274 31.1297 24.6484 31.0651 26.055C31.0059 27.355 30.7884 28.0615 30.6066 28.5311C30.3643 29.1536 30.0757 29.5977 29.6095 30.0637C29.1433 30.5296 28.6986 30.8186 28.0763 31.061C27.6071 31.244 26.9005 31.4606 25.601 31.5197C24.1959 31.5843 23.7739 31.5972 20.2142 31.5972C16.6546 31.5972 16.2337 31.5843 14.8291 31.5197ZM14.7188 7.41406C13.2998 7.4787 12.3301 7.70377 11.4833 8.03337C10.6064 8.37374 9.86396 8.83038 9.12209 9.57129C8.38023 10.3122 7.92489 11.056 7.58462 11.9332C7.25511 12.7808 7.03011 13.7502 6.96549 15.1696C6.8998 16.5912 6.88477 17.0457 6.88477 20.6666C6.88477 24.2876 6.8998 24.7421 6.96549 26.1637C7.03011 27.5832 7.25511 28.5525 7.58462 29.4001C7.92489 30.2768 8.38033 31.0214 9.12209 31.762C9.86385 32.5026 10.6064 32.9586 11.4833 33.2999C12.3317 33.6295 13.2998 33.8546 14.7188 33.9192C16.1408 33.9839 16.5944 34 20.2142 34C23.8341 34 24.2885 33.9849 25.7097 33.9192C27.1288 33.8546 28.0978 33.6295 28.9452 33.2999C29.8216 32.9586 30.5645 32.5029 31.3064 31.762C32.0483 31.0211 32.5026 30.2768 32.8439 29.4001C33.1734 28.5525 33.3995 27.5831 33.463 26.1637C33.5276 24.741 33.5427 24.2876 33.5427 20.6666C33.5427 17.0457 33.5276 16.5912 33.463 15.1696C33.3984 13.7501 33.1734 12.7802 32.8439 11.9332C32.5026 11.0565 32.0471 10.3134 31.3064 9.57129C30.5657 8.82921 29.8216 8.37374 28.9462 8.03337C28.0978 7.70377 27.1287 7.47763 25.7108 7.41406C24.2896 7.34942 23.8352 7.33331 20.2153 7.33331C16.5955 7.33331 16.1408 7.34835 14.7188 7.41406Z" /></svg> <svg id="arrowRight" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M3.46191 20H34.3319" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M18.8984 4.56543L34.3334 20.0004L18.8984 35.4354" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="plus" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_7158_2849)"><path d="M0 20H40" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M20 0V40" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g><defs><clipPath id="clip0_7158_2849"><rect width="40" height="40" /></clipPath></defs></svg> <svg id="plusThick" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_7956_142)"><path d="M0 9H18" stroke="#F06C00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 -3V21" stroke="#F06C00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_7956_142"><rect width="18" height="18" fill="white"/></clipPath></defs></svg> <svg id="navMag" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M34.9999 35L27.7666 27.7667" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M18.3333 31.6667C25.6971 31.6667 31.6667 25.6971 31.6667 18.3333C31.6667 10.9695 25.6971 5 18.3333 5C10.9695 5 5 10.9695 5 18.3333C5 25.6971 10.9695 31.6667 18.3333 31.6667Z" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="navMagThin" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M34.9999 35L27.7666 27.7667" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M18.3333 31.6667C25.6971 31.6667 31.6667 25.6971 31.6667 18.3333C31.6667 10.9695 25.6971 5 18.3333 5C10.9695 5 5 10.9695 5 18.3333C5 25.6971 10.9695 31.6667 18.3333 31.6667Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="play" viewBox="0 0 18 21" xmlns="http://www.w3.org/2000/svg"><path d="M17.5732 10.1459L3.8147e-06 20.2918V-5.53652e-06L17.5732 10.1459Z" /></svg> <svg id="tick" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25 1L8.5 17L1 9.72727" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> <svg id="analysis" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M8.33301 35V25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M20 35V5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M31.667 35V15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="webinar" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M24.7223 18.7333C24.886 18.8281 25.0219 18.9642 25.1164 19.128C25.2108 19.2918 25.2606 19.4776 25.2606 19.6667C25.2606 19.8558 25.2108 20.0416 25.1164 20.2054C25.0219 20.3692 24.886 20.5053 24.7223 20.6L17.9473 24.52C17.7837 24.6147 17.598 24.6645 17.409 24.6645C17.22 24.6645 17.0343 24.6147 16.8707 24.52C16.7071 24.4254 16.5713 24.2892 16.4771 24.1254C16.3828 23.9615 16.3335 23.7757 16.334 23.5867V15.7467C16.3337 15.5579 16.383 15.3724 16.4772 15.2087C16.5713 15.0451 16.7069 14.9091 16.8703 14.8145C17.0336 14.7199 17.219 14.67 17.4078 14.6698C17.5966 14.6696 17.7821 14.7191 17.9457 14.8133L24.7223 18.7333Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M33 8H6.33333C4.49238 8 3 9.49238 3 11.3333V28C3 29.8409 4.49238 31.3333 6.33333 31.3333H33C34.8409 31.3333 36.3333 29.8409 36.3333 28V11.3333C36.3333 9.49238 34.8409 8 33 8Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="podcast" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M20 31.6667V36.6667" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M31.6663 16.6667V20C31.6663 23.0942 30.4372 26.0617 28.2493 28.2496C26.0613 30.4375 23.0939 31.6667 19.9997 31.6667C16.9055 31.6667 13.938 30.4375 11.7501 28.2496C9.56217 26.0617 8.33301 23.0942 8.33301 20V16.6667" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M25 8.33331C25 5.57189 22.7614 3.33331 20 3.33331C17.2386 3.33331 15 5.57189 15 8.33331V20C15 22.7614 17.2386 25 20 25C22.7614 25 25 22.7614 25 20V8.33331Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="alert" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M36.217 30L22.8837 6.6667C22.593 6.1537 22.1714 5.72701 21.6619 5.43014C21.1524 5.13328 20.5734 4.97687 19.9837 4.97687C19.3941 4.97687 18.815 5.13328 18.3055 5.43014C17.796 5.72701 17.3744 6.1537 17.0837 6.6667L3.75037 30C3.45651 30.509 3.30242 31.0865 3.30372 31.6742C3.30502 32.2619 3.46167 32.8388 3.75778 33.3464C4.0539 33.854 4.47895 34.2743 4.98986 34.5647C5.50078 34.8551 6.07938 35.0053 6.66704 35H33.3337C33.9185 34.9994 34.4929 34.845 34.9992 34.5522C35.5054 34.2594 35.9257 33.8385 36.2179 33.3319C36.51 32.8253 36.6638 32.2507 36.6636 31.6658C36.6635 31.081 36.5095 30.5065 36.217 30Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M20 15V21.6667" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M20 28.3333H20.0167" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="clipboard" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M15.2086 4.02777H24.7919C24.7919 4.02777 26.3891 4.02777 26.3891 5.62499V8.81944C26.3891 8.81944 26.3891 10.4167 24.7919 10.4167H15.2086C15.2086 10.4167 13.6113 10.4167 13.6113 8.81944V5.62499C13.6113 5.62499 13.6113 4.02777 15.2086 4.02777Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M26.3893 7.22223H29.5838C30.431 7.22223 31.2435 7.55879 31.8426 8.15786C32.4417 8.75693 32.7782 9.56945 32.7782 10.4167V32.7778C32.7782 33.625 32.4417 34.4375 31.8426 35.0366C31.2435 35.6357 30.431 35.9722 29.5838 35.9722H10.4171C9.56988 35.9722 8.75736 35.6357 8.15829 35.0366C7.55921 34.4375 7.22266 33.625 7.22266 32.7778V10.4167C7.22266 9.56945 7.55921 8.75693 8.15829 8.15786C8.75736 7.55879 9.56988 7.22223 10.4171 7.22223H13.6115" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M13.75 18.4028H26.3889" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M13.75 26.3889H26.3889" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M13.6113 18.4028H13.6233" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M13.6113 26.3889H13.6233" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="tank" viewBox="0 0 40 27" xmlns="http://www.w3.org/2000/svg"><path d="M2.74683 9.89423H29.3563C29.6996 9.89423 30.043 10.0096 30.3005 10.2692L37.8255 16.9327C38.1116 17.1923 38.3119 17.5385 38.3405 17.9423C38.455 19.8461 38.5408 25.5865 34.9643 25.5865H6.38059C6.38059 25.5865 1.43066 25.5865 1.43066 21.5192V17.25L38.2833 17.3654" stroke-width="1.5" stroke-miterlimit="10" fill="none"/><path d="M9.81445 9.37501V1.81732C9.81445 1.6154 9.98613 1.44232 10.1864 1.44232H21.1735C21.1735 1.44232 21.4597 1.52886 21.5169 1.64424L25.5798 9.40386" stroke-width="1.5" stroke-miterlimit="10" fill="none"/><path d="M22.7754 4.2981H40" stroke-width="1.5" stroke-miterlimit="10" fill="none"/></svg> <svg id="contact" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M26.3891 29.5833C26.3891 27.8889 25.716 26.2639 24.5178 25.0657C23.3197 23.8676 21.6947 23.1945 20.0002 23.1945C18.3058 23.1945 16.6807 23.8676 15.4826 25.0657C14.2844 26.2639 13.6113 27.8889 13.6113 29.5833" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M15.208 18.4028C15.208 19.6736 15.7128 20.8924 16.6115 21.791C17.5101 22.6896 18.7288 23.1944 19.9997 23.1944C21.2705 23.1944 22.4893 22.6896 23.3879 21.791C24.2865 20.8924 24.7913 19.6736 24.7913 18.4028C24.7913 17.1319 24.2865 15.9131 23.3879 15.0145C22.4893 14.1159 21.2705 13.6111 19.9997 13.6111C18.7288 13.6111 17.5101 14.1159 16.6115 15.0145C15.7128 15.9131 15.208 17.1319 15.208 18.4028Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M8.81944 7.22223H31.1806C31.1806 7.22223 34.375 7.22223 34.375 10.4167V32.7778C34.375 32.7778 34.375 35.9722 31.1806 35.9722H8.81944C8.81944 35.9722 5.625 35.9722 5.625 32.7778V10.4167C5.625 10.4167 5.625 7.22223 8.81944 7.22223Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M13.6113 4.02777V7.22222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M26.3887 4.02777V7.22222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="globe" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M4.02734 20C4.02734 24.2361 5.71013 28.2987 8.7055 31.2941C11.7009 34.2894 15.7635 35.9722 19.9996 35.9722C24.2357 35.9722 28.2983 34.2894 31.2936 31.2941C34.289 28.2987 35.9718 24.2361 35.9718 20C35.9718 15.7639 34.289 11.7013 31.2936 8.70593C28.2983 5.71055 24.2357 4.02777 19.9996 4.02777C15.7635 4.02777 11.7009 5.71055 8.7055 8.70593C5.71013 11.7013 4.02734 15.7639 4.02734 20Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M20.0002 4.02777C15.8989 8.33413 13.6113 14.0531 13.6113 20C13.6113 25.9469 15.8989 31.6659 20.0002 35.9722C24.1015 31.6659 26.3891 25.9469 26.3891 20C26.3891 14.0531 24.1015 8.33413 20.0002 4.02777Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M4.02734 20H35.9718" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <svg id="lineChart" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M5.625 5.625V34.375H34.375" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M31.1803 15.2083L23.1942 23.1944L16.8053 16.8055L12.0137 21.5972" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg> <!-- Invisible SVG defining the clip path --> <svg width="0" height="0" style="position: absolute;"> <defs> <!-- 'userSpaceOnUse' ensures it uses the exact pixel values from your design --> <clipPath id="card-clip" clipPathUnits="userSpaceOnUse"> <path d="M8 0.5L465 0.5C469.14 0.5 472.5 3.86 472.5 8L472.5 232.07C472.5 234.13 471.65 236.1 470.16 237.52L434.31 271.45C432.92 272.77 431.07 273.5 429.16 273.5L8 273.5C3.86 273.5 0.5 270.14 0.5 266L0.5 8C0.5 3.86 3.86 0.5 8 0.5Z" /> </clipPath> </defs> </svg> </div> </body> </html>

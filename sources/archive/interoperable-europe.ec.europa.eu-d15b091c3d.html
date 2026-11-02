@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="t-ventuno">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>
+</noscript><link rel="canonical" href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence" />
+<meta property="og:site_name" content="Interoperable Europe Portal" />
+<meta property="og:type" content="Custom page" />
+<meta property="og:url" content="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence" />
+<meta property="og:title" content="Open Source Software Country Intelligence" />
+<meta property="og:image" content="https://interoperable-europe.ec.europa.eu/themes/ventuno/assets/images/og-image.png" />
+<meta property="og:image:secure_url" content="https://interoperable-europe.ec.europa.eu/themes/ventuno/assets/images/og-image.png" />
+<meta property="og:image:type" content="image/svg+xml" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/ventuno/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence" />
+<script type="text/javascript">window.MSInputMethodContext && document.documentMode && document.write("\u003Clink rel=\u0022stylesheet\u0022 href=\u0022https:\/\/interoperable-europe.ec.europa.eu\/themes\/contrib\/oe_bootstrap_theme\/assets\/css\/bootstrap-ie11.css\u0022\u003E\u003Cscript src=\u0022https:\/\/cdn.jsdelivr.net\/combine\/npm\/ie11-custom-properties@4,npm\/element-qsa-scope@1\u0022\u003E\u003C\/script\u003E\u003Cscript crossorigin=\u0022anonymous\u0022 src=\u0022https:\/\/cdnjs.cloudflare.com\/polyfill\/v3\/polyfill.min.js?version=3.111.0\u0026features=Array.prototype.find%2CArray.prototype.includes%2CNumber.parseFloat%2CNumber.parseInt%2Cdefault\u0022\u003E\u003C\/script\u003E");</script>
+
+    <title>Open Source Software Country Intelligence | Interoperable Europe Portal</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_KzxlE2tA_dqbEWzPO_FMDod6wMl-JGaj9eP1-StMgXY.css?delta=0&amp;language=en&amp;theme=ventuno&amp;include=eJx1ketuBCEIRl9I10cyOLIOrYpBbDtvX_cSZ9umf4znAIZ8BlRF8fjVuGP0V8oTu0tYUSCbN6Y6mu8Isu0uCY9mA8SEpoFAEmh7d1FGg3w5zWXUNkKmvmM0jXNeLfNuM9X3bh5PemjkYShvXFpGRfePN50UPymih4yijiqp6bwRZF8wEvj7s-6vuuiOZc4fXbG4AB2N8hCnO0m0c2k9nmIetusxp5L5wKqj8qN_gSDETUYJS9324zqhL4UqUE-8Ms9IX1DKWbwn-pNmvrW-DGQ4eOjCgnVYy8naCh-UQInrWbxVF82GAPIL7SPgZRsktEqa8UU9P3IZhZDx3Pqe6DcRt-B7" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_XdhzMiRh7zSo3asrtNl5TtS85VCcJKtNbfqQoFypnYY.css?delta=1&amp;language=en&amp;theme=ventuno&amp;include=eJx1ketuBCEIRl9I10cyOLIOrYpBbDtvX_cSZ9umf4znAIZ8BlRF8fjVuGP0V8oTu0tYUSCbN6Y6mu8Isu0uCY9mA8SEpoFAEmh7d1FGg3w5zWXUNkKmvmM0jXNeLfNuM9X3bh5PemjkYShvXFpGRfePN50UPymih4yijiqp6bwRZF8wEvj7s-6vuuiOZc4fXbG4AB2N8hCnO0m0c2k9nmIetusxp5L5wKqj8qN_gSDETUYJS9324zqhL4UqUE-8Ms9IX1DKWbwn-pNmvrW-DGQ4eOjCgnVYy8naCh-UQInrWbxVF82GAPIL7SPgZRsktEqa8UU9P3IZhZDx3Pqe6DcRt-B7" />
+
+    <script src="https://webtools.europa.eu/load.js" defer></script>
+
+        <link rel="icon" type="image/png" sizes="16x16" href="/themes/ventuno/assets/images/favicon/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/themes/ventuno/assets/images/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/themes/ventuno/assets/images/favicon/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/themes/ventuno/assets/images/favicon/android-chrome-192x192.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/themes/ventuno/assets/images/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/themes/ventuno/assets/images/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/themes/ventuno/assets/images/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/themes/ventuno/assets/images/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/themes/ventuno/assets/images/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/themes/ventuno/assets/images/favicon/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/ventuno/assets/images/favicon/apple-touch-icon-180x180.png" />
+<meta name="msapplication-wide310x150logo" content="/themes/ventuno/assets/images/favicon/mstile-310x150.png" />
+<meta name="msapplication-square150x150logo" content="/themes/ventuno/assets/images/favicon/mstile-150x150.png" />
+<meta name="msapplication-square310x310logo" content="/themes/ventuno/assets/images/favicon/mstile-310x310.png" />
+<meta name="msapplication-square70x70logo" content="/themes/ventuno/assets/images/favicon/mstile-70x70.png" />
+<meta name="msapplication-TileImage" content="/themes/ventuno/assets/images/favicon/mstile-144x144.png" />
+
+  </head>
+  <body class="user-anonymous">
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <script type="application/json">{"utility":"globan","theme":"dark","logo":true,"link":true,"mode":false}</script>
+
+      <div data-off-canvas-main-canvas>
+    <div data-joinup-group-context="723202" class="layout-container">
+  
+<div class="bcl-header bcl-header--ec">
+  <div role="complementary" class="w-100 shadow-sm navbar navbar-expand-lg navbar-light py-0" aria-label="Site branding">
+    <div class="container">
+      <div class="d-flex w-100 justify-content-between align-items-end">
+        <a class="navbar-brand py-0" href="https://ec.europa.eu/info/index_en" aria-label="Visit European Commission website">
+          <img src="/themes/ventuno/assets/images/logo-ec/logo-ec-en.svg" alt="European Commission logo" width="100" height="25" loading="eager" fetchpriority="high" />
+        </a>
+              </div>
+    </div>
+  </div>
+</div>
+
+    
+  
+  
+    <header class="joinup-navbar navbar navbar-expand navbar--sticky" aria-label="Main header">
+    <div class="container">
+      <div class="d-flex">
+                <a class="navbar-brand" href="/" title="Interoperable Europe Portal">
+          <img class="navbar-brand-image" src="/themes/ventuno/assets/images/logo-interoperable-europe.svg" alt="Interoperable Europe logo" />
+        </a>
+              </div>
+      <nav id="main-navbar" aria-label="Main navigation">
+        <ul class="navbar-nav" id="main-navbar-list">
+                        <li class="nav-item d-none d-xl-inline-block dropdown">
+                          <a href="/interoperable-europe" aria-expanded="false" id="navbar-item-1" role="button" class="nav-link nav-link--underline dropdown-toggle">Policy</a>
+          <ul class="dropdown-menu dropdown-menu--sub" aria-labelledby="navbar-item-1">
+                  <li>
+            <a href="/interoperable-europe/latest-news" class="dropdown-item">News</a>
+          </li>
+                  <li>
+            <a href="/interoperable-europe/events" class="dropdown-item">Events</a>
+          </li>
+                  <li>
+            <a href="/interoperable-europe/interoperable-europe-act" class="dropdown-item">Interoperable Europe Act</a>
+          </li>
+                  <li>
+            <a href="/collection/ai-public-sector" class="dropdown-item">AI in the public sector</a>
+          </li>
+                  <li>
+            <a href="/collection/digital-ready-policymaking" class="dropdown-item">Digital-ready policymaking</a>
+          </li>
+                  <li>
+            <a href="/interoperable-europe/faqs" class="dropdown-item">FAQs</a>
+          </li>
+              </ul>
+      </li>
+            <li class="nav-item d-none d-xl-inline-block dropdown">
+                          <a href="/interoperable_solutions" aria-expanded="false" id="navbar-item-2" role="button" class="nav-link nav-link--underline dropdown-toggle">Solutions</a>
+          <ul class="dropdown-menu dropdown-menu--sub" aria-labelledby="navbar-item-2">
+                  <li>
+            <a href="/interoperable-europe-solutions" class="dropdown-item">Interoperable Europe Solutions</a>
+          </li>
+                  <li>
+            <a href="/interoperability-solutions-catalogue" class="dropdown-item">Interoperability Catalogue</a>
+          </li>
+                  <li>
+            <a href="/eu-oss-catalogue" class="dropdown-item">Open-source Catalogue</a>
+          </li>
+                  <li>
+            <a href="/collection/guidelines-sharing-interoperability-solutions" class="dropdown-item">Guidelines on Sharing Interoperability Solutions</a>
+          </li>
+                  <li>
+            <a href="/collection/eupl" class="dropdown-item">European Public Licence (EUPL)</a>
+          </li>
+              </ul>
+      </li>
+            <li class="nav-item d-none d-xl-inline-block dropdown">
+                          <a href="/interoperable-europe-support-centre" aria-expanded="false" id="navbar-item-3" role="button" class="nav-link nav-link--underline dropdown-toggle">Support Centre</a>
+          <ul class="dropdown-menu dropdown-menu--sub" aria-labelledby="navbar-item-3">
+                  <li>
+            <a href="/collection/portal-support" class="dropdown-item">Portal support</a>
+          </li>
+                  <li>
+            <a href="/collection/semic-support-centre" class="dropdown-item">Semantics (SEMIC)</a>
+          </li>
+                  <li>
+            <a href="/collection/open-source-observatory-osor" class="dropdown-item">Open source (OSOR)</a>
+          </li>
+                  <li>
+            <a href="/collection/iopeu-monitoring/european-interoperability-framework-detail" class="dropdown-item">European Interoperability Framework (EIF)</a>
+          </li>
+                  <li>
+            <a href="/collection/iopeu-monitoring" class="dropdown-item">Monitoring</a>
+          </li>
+                  <li>
+            <a href="/collection/public-sector-tech-watch" class="dropdown-item">Public Sector Tech Watch</a>
+          </li>
+                  <li>
+            <a href="/collection/eugovtech" class="dropdown-item">GovTech</a>
+          </li>
+                  <li>
+            <a href="/collection/interoperability-architecture-solutions" class="dropdown-item">Architecture and test tools</a>
+          </li>
+                  <li>
+            <a href="/collection/interoperability-regulatory-sandboxes" class="dropdown-item">Regulatory sandboxes</a>
+          </li>
+                  <li>
+            <a href="/discussions" class="dropdown-item">Forum</a>
+          </li>
+              </ul>
+      </li>
+            <li class="nav-item d-none d-xl-inline-block dropdown">
+                          <a href="/governance" aria-expanded="false" id="navbar-item-4" role="button" class="nav-link nav-link--underline dropdown-toggle">Governance</a>
+          <ul class="dropdown-menu dropdown-menu--sub" aria-labelledby="navbar-item-4">
+                  <li>
+            <a href="/collection/governance-board" class="dropdown-item">Board</a>
+          </li>
+                  <li>
+            <a href="/collection/community" class="dropdown-item">Community</a>
+          </li>
+                  <li>
+            <a href="/national-competent-authorities" class="dropdown-item">National competent authorities</a>
+          </li>
+                  <li>
+            <a href="/collection/assessments" class="dropdown-item">Assessments</a>
+          </li>
+                  <li>
+            <a href="/eu-digital-funding-opportunities" class="dropdown-item">Funding opportunities</a>
+          </li>
+                  <li>
+            <a href="/eu-digital-regulations" class="dropdown-item">EU digital regulations</a>
+          </li>
+              </ul>
+      </li>
+            <li class="nav-item d-none d-xl-inline-block dropdown">
+                          <a href="/collection/interoperable-europe-academy/welcome" aria-expanded="false" id="navbar-item-5" role="button" class="nav-link nav-link--underline dropdown-toggle">Academy</a>
+          <ul class="dropdown-menu dropdown-menu--sub" aria-labelledby="navbar-item-5">
+                  <li>
+            <a href="/collection/interoperable-europe-academy/learning-paths" class="dropdown-item">Learning paths</a>
+          </li>
+                  <li>
+            <a href="/collection/interoperable-europe-academy/courses" class="dropdown-item">Courses</a>
+          </li>
+                  <li>
+            <a href="/collection/interoperable-europe-academy/policy-briefs" class="dropdown-item">Policy briefs</a>
+          </li>
+                  <li>
+            <a href="/collection/interoperable-europe-academy/curriculum" class="dropdown-item">Curriculum</a>
+          </li>
+                  <li>
+            <a href="/collection/interoperable-europe-academy/event/interoperable-europe-seasonal-school-2026" class="dropdown-item">Seasonal school 2026</a>
+          </li>
+              </ul>
+      </li>
+            <li class="nav-item d-none d-xl-inline-block">
+                <a href="/collection/semic-conference" class="nav-link nav-link--underline">SEMIC 2026</a>
+      </li>
+
+                    <li class="nav-item d-inline-block">
+                  <a href="/eulogin" class="nav-link nav-link--underline sign-in-link" data-destination>Sign in</a>
+              </li>
+                        <li class="nav-item d-none d-xl-inline-block">
+                  <button
+            id="get-started"
+            class="btn btn-light get-started__trigger"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            type="button"
+            data-bs-auto-close="outside"
+          >
+            Get started
+          </button>
+          <div
+            class="dropdown-menu get-started__menu pt-2 pb-3 px-3"
+            aria-labelledby="get-started"
+            data-popper-placement="right"
+          >
+            <p class="mb-1"><a href="/eulogin" class="get-started__cta fw-bold" tabindex="0" data-destination>
+  Create an account
+  <svg class="bi icon--s ms-2">
+    <use xlink:href="/themes/ventuno/assets/icons/icons.svg#arrow-right"></use>
+  </svg>
+</a>
+</p>
+            <p class="get-started__description mb-0 fs-sm">As a signed-in user you can create content, become a member of a community, receive notifications on your favourite solutions and topics, and access all other features available on the platform.</p>
+          </div>
+              </li>
+            <li class="nav-item dropdown mmenu-nav d-xl-none order-1">
+      <button id="navbar-toggler" class="nav-link mmenu-nav__toggle" type="button" aria-label="Toggle menu">
+        <span class="visually-hidden">Toggle menu</span>
+        <svg class="bi icon--s">
+          <use xlink:href="/themes/ventuno/assets/icons/icons.svg#justify"></use>
+        </svg>
+      </button>
+      <div class="mmenu-nav__menu p-0 d-none" aria-labelledby="navbar-toggler">
+            <ul>
+          <li>
+        <a href="/">Home</a>
+              </li>
+          <li>
+        <a href="/interoperable-europe" data-drupal-link-system-path="node/723208">Policy</a>
+                      <ul>
+          <li>
+        <a href="/interoperable-europe/latest-news" data-drupal-link-system-path="node/704825">News</a>
+              </li>
+          <li>
+        <a href="/interoperable-europe/events" data-drupal-link-system-path="node/704828">Events</a>
+              </li>
+          <li>
+        <a href="/interoperable-europe/interoperable-europe-act" data-drupal-link-system-path="node/704810">Interoperable Europe Act</a>
+              </li>
+          <li>
+        <a href="/collection/ai-public-sector" data-drupal-link-system-path="node/732729">AI in the public sector</a>
+              </li>
+          <li>
+        <a href="/collection/digital-ready-policymaking" data-drupal-link-system-path="node/723280">Digital-ready policymaking</a>
+              </li>
+          <li>
+        <a href="/interoperable-europe/faqs" data-drupal-link-system-path="node/705810">FAQs</a>
+              </li>
+      </ul>
+
+              </li>
+          <li>
+        <a href="/interoperable_solutions" data-drupal-link-system-path="node/707332">Solutions</a>
+                      <ul>
+          <li>
+        <a href="/interoperable-europe-solutions" data-drupal-link-system-path="node/730988">Interoperable Europe Solutions</a>
+              </li>
+          <li>
+        <a href="/interoperability-solutions-catalogue" data-drupal-link-system-path="node/707671">Interoperability Catalogue</a>
+              </li>
+          <li>
+        <a href="/eu-oss-catalogue" data-drupal-link-system-path="node/723282">Open-source Catalogue</a>
+              </li>
+          <li>
+        <a href="/collection/guidelines-sharing-interoperability-solutions" data-drupal-link-system-path="node/734044">Guidelines on Sharing Interoperability Solutions</a>
+              </li>
+          <li>
+        <a href="/collection/eupl" data-drupal-link-system-path="node/723254">European Public Licence (EUPL)</a>
+              </li>
+      </ul>
+
+              </li>
+          <li>
+        <a href="/interoperable-europe-support-centre" data-drupal-link-system-path="node/734530">Support Centre</a>
+                      <ul>
+          <li>
+        <a href="/collection/portal-support" data-drupal-link-system-path="node/723169">Portal support</a>
+              </li>
+          <li>
+        <a href="/collection/semic-support-centre" data-drupal-link-system-path="node/723171">Semantics (SEMIC)</a>
+              </li>
+          <li>
+        <a href="/collection/open-source-observatory-osor" data-drupal-link-system-path="node/723202">Open source (OSOR)</a>
+              </li>
+          <li>
+        <a href="/collection/iopeu-monitoring/european-interoperability-framework-detail" data-drupal-link-system-path="node/701935">European Interoperability Framework (EIF)</a>
+              </li>
+          <li>
+        <a href="/collection/iopeu-monitoring" data-drupal-link-system-path="node/723255">Monitoring</a>
+              </li>
+          <li>
+        <a href="/collection/public-sector-tech-watch" data-drupal-link-system-path="node/723199">Public Sector Tech Watch</a>
+              </li>
+          <li>
+        <a href="/collection/eugovtech" data-drupal-link-system-path="node/723209">GovTech</a>
+              </li>
+          <li>
+        <a href="/collection/interoperability-architecture-solutions" data-drupal-link-system-path="node/723242">Architecture and test tools</a>
+              </li>
+          <li>
+        <a href="/collection/interoperability-regulatory-sandboxes" data-drupal-link-system-path="node/726680">Regulatory sandboxes</a>
+              </li>
+          <li>
+        <a href="/discussions" data-drupal-link-system-path="discussions">Forum</a>
+              </li>
+      </ul>
+
+              </li>
+          <li>
+        <a href="/governance" data-drupal-link-system-path="node/726450">Governance</a>
+                      <ul>
+          <li>
+        <a href="/collection/governance-board" data-drupal-link-system-path="node/723291">Board</a>
+              </li>
+          <li>
+        <a href="/collection/community" data-drupal-link-system-path="node/730669">Community</a>
+              </li>
+          <li>
+        <a href="/national-competent-authorities" data-drupal-link-system-path="node/726499">National competent authorities</a>
+              </li>
+          <li>
+        <a href="/collection/assessments" data-drupal-link-system-path="node/723215">Assessments</a>
+              </li>
+          <li>
+        <a href="/eu-digital-funding-opportunities" data-drupal-link-system-path="node/707954">Funding opportunities</a>
+              </li>
+          <li>
+        <a href="/eu-digital-regulations" data-drupal-link-system-path="node/734343">EU digital regulations</a>
+              </li>
+      </ul>
+
+              </li>
+          <li>
+        <a href="/collection/interoperable-europe-academy/welcome" data-drupal-link-system-path="node/722966">Academy</a>
+                      <ul>
+          <li>
+        <a href="/collection/interoperable-europe-academy/learning-paths" data-drupal-link-system-path="node/722968">Learning paths</a>
+              </li>
+          <li>
+        <a href="/collection/interoperable-europe-academy/courses" data-drupal-link-system-path="node/707518">Courses</a>
+              </li>
+          <li>
+        <a href="/collection/interoperable-europe-academy/policy-briefs" data-drupal-link-system-path="node/729263">Policy briefs</a>
+              </li>
+          <li>
+        <a href="/collection/interoperable-europe-academy/curriculum" data-drupal-link-system-path="node/722965">Curriculum</a>
+              </li>
+          <li>
+        <a href="/collection/interoperable-europe-academy/event/interoperable-europe-seasonal-school-2026" data-drupal-link-system-path="node/734145">Seasonal school 2026</a>
+              </li>
+      </ul>
+
+              </li>
+          <li>
+        <a href="/collection/semic-conference" data-drupal-link-system-path="node/730634">SEMIC 2026</a>
+              </li>
+          <li>
+        <a href="/eulogin" data-destination>Sign in</a>
+              </li>
+          <li>
+        <a href="/collection/portal-support" hreflang="en">About us</a>
+              </li>
+      </ul>
+
+      </div>
+    </li>
+                    <li class="nav-item d-inline-block order-1">
+                            <a href="/modal/anonymous/bookmarks?destination=/user/bookmarks" title="Bookmarks" class="use-ajax nav-link nav-link--underline" data-dialog-type="modal" data-dialog-options="{&quot;width&quot;:&quot;auto&quot;,&quot;height&quot;:&quot;auto&quot;}"><svg
+   class="bi icon--s"
+><use xlink:href="/themes/ventuno/assets/icons/icons.svg#bookmark"/></svg></a>
+              </li>
+                <li class="order-2 dropdown-search nav-item dropdown">
+      <button
+        id="search-box-dropdown"
+        class="dropdown-toggle nav-link"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        type="button"
+        data-bs-auto-close="outside"
+        aria-label="Toggle search box"
+      >
+        <span class="visually-hidden">Toggle search box</span>
+                  <svg class="bi icon--s">
+            <use xlink:href="/themes/ventuno/assets/icons/icons.svg#search"></use>
+          </svg>
+              </button>
+      <div id="dropdown-menu--search"
+        class="dropdown-menu p-0"
+        aria-labelledby="search-box-dropdown"
+        data-popper-placement="right"
+      >
+        <div class="navbar-search p-2">
+          <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit="" data-bef-auto-submit-delay="500" data-bef-auto-submit-minimum-length="3" data-bef-auto-submit-full-form="" novalidate="novalidate" data-drupal-selector="views-exposed-form-search-page-1" action="/search" method="get" id="views-exposed-form-search-page-1" accept-charset="UTF-8">
+  
+<span class="search-badge" data-joinup-description="Open Source Observatory (OSOR)"><span class="search-badge__text">Open Source Observatory (OSOR)</span><span class="icon--close" aria-hidden="true"></span></span>
+  <label for="search-box" class="h4 visually-hidden form-label">Search</label>
+<div class="input-group js-form-item form-item js-form-type-search-api-autocomplete form-item-keys js-form-item-keys form-no-label mb-3">
+      
+<input placeholder="Start typing to search…" data-drupal-selector="edit-keys" data-search-api-autocomplete-search="search" class="form-autocomplete search-bar__input form-control" data-autocomplete-path="/search_api_autocomplete/search?display=page_1&amp;&amp;filter=keys" type="text" id="search-box" name="keys" value="" size="30" maxlength="128" />
+
+          <button type="submit" class="btn btn-search" aria-label="Trigger search sitewide"></button>
+</div>
+  
+<input class="search_bar_badge form-control" data-joinup-description="Open Source Observatory (OSOR)" data-drupal-selector="edit-filters" type="hidden" name="f[]" value="group:723202" />
+<div class="js-hide form-actions js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions">
+<input data-bef-auto-submit-click="" class="js-hide visually-hidden button js-form-submit form-submit btn-primary btn" data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Search site-wide" />
+</div>
+
+
+</form>
+
+        </div>
+      </div>
+    </li>
+  
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+                  <div class="bg-light">
+        <div class="region-breadcrumb container">
+            <div id="block-ventuno-breadcrumbs" class="block block-system block-system-breadcrumb-block">  <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb">
+                                                                <li class="breadcrumb-item d-none d-md-block">
+                      <a href="/">
+                            <span class="text-decoration-underline">
+                Home
+              </span>
+            </a>
+            <svg class="bi icon--xs ms-1 d-none d-md-inline-block">
+              <use xlink:href="/themes/ventuno/assets/icons/icons.svg#chevron-right"></use>
+            </svg>
+                  </li>
+                                              <li class="breadcrumb-item">
+                      <a href="/collection/open-source-observatory-osor">
+                              <span class="d-md-none" aria-hidden="true">
+                  <svg class="bi icon--xs me-1">
+                    <use xlink:href="/themes/ventuno/assets/icons/icons.svg#chevron-left"></use>
+                  </svg>
+                </span>
+                            <span class="text-decoration-underline">
+                Open Source Observatory (OSOR)
+              </span>
+            </a>
+            <svg class="bi icon--xs ms-1 d-none d-md-inline-block">
+              <use xlink:href="/themes/ventuno/assets/icons/icons.svg#chevron-right"></use>
+            </svg>
+                  </li>
+                                                                                  <li class="breadcrumb-item d-none d-md-block active" aria-current="page">
+                      Open Source Software Country Intelligence
+                  </li>
+          </ol>
+  </nav>
+</div>
+
+
+        </div>
+      </div>
+      
+            <div class="region-header" role="complementary" aria-label="Header region">
+        <div class="region-header__inner">
+            <div id="block-ventuno-groupheader" class="block block-joinup-group block-group-header-block">
+
+<div class="group-banner bg-light pb-2" role="region" aria-label="Collection header">
+  <div class="container py-0 pb-md-2 d-flex flex-column flex-lg-row">
+    <div class="w-100 d-flex flex-column flex-lg-row flex-wrap">
+      <div class="group-banner__title my-2 my-lg-0 text-center text-lg-start d-flex align-items-center justify-content-center justify-content-lg-start">
+        
+                  <a class="h1 fw-bold mb-0" href="/collection/open-source-observatory-osor">
+            
+<span>Open Source Observatory (OSOR)</span>
+
+          </a>
+                
+      </div>
+              <div class="group-banner__actions order-1 order-lg-0 d-flex flex-wrap justify-content-center align-items-start my-3 my-lg-0">
+          <div id="join_group_form_ajax_wrapper"><form class="join-group-form" data-drupal-selector="join-group-form" novalidate="novalidate" action="/collection/open-source-observatory-osor/open-source-software-country-intelligence" method="post" id="join-group-form" accept-charset="UTF-8">
+  <a href="/collection/open-source-observatory-osor/authenticate-to-join" class="use-ajax btn btn-brand" data-dialog-type="modal" data-dialog-options="{&quot;width&quot;:&quot;auto&quot;}" data-drupal-selector="edit-authenticate" id="edit-authenticate">Join this collection</a>
+<input class="visually-hidden button js-form-submit form-submit btn-primary btn" data-drupal-selector="edit-rebuild" formnovalidate="formnovalidate" type="submit" id="edit-rebuild" name="join_group_form_base_rebuild" value="Rebuild" />
+  
+<input autocomplete="off" data-drupal-selector="form-tn-3i-ch9lm57cvtaazkiru-7h5deqycudq0sv7svqg" type="hidden" name="form_build_id" value="form-Tn_3I-cH9lm57cvtaazkiRU-7H5dEQYCUdq0Sv7SVqg" class="form-control" />
+  
+<input data-drupal-selector="edit-join-group-form" type="hidden" name="form_id" value="join_group_form" class="form-control" />
+
+</form>
+</div>
+        </div>
+                </div>
+  </div>
+</div>
+</div>
+<div id="block-ventuno-navigation" class="block block-joinup-group block-group-menu-blocknavigation">
+
+
+
+  
+    
+            <div data-joinup-block-id="ventuno_navigation" class="menu--og--navigation bg-light">
+      <div class="container">
+      <nav aria-label="Secondary navigation">
+    
+    <ul class="nav nav--level-0">
+                      <li class="nav-item">
+          <a class="nav-link" title="About OSOR" href="/collection/open-source-observatory-osor">About OSOR</a>
+          
+                  </li>
+                      <li class="nav-item">
+          <a class="nav-link" title="News &amp; Events" href="/collection/open-source-observatory-osor/news-events">News &amp; Events</a>
+          
+                  </li>
+                      <li class="nav-item">
+          <a class="nav-link" title="Knowledge Centre" href="/collection/open-source-observatory-osor/knowledge-centre">Knowledge Centre</a>
+          
+                  </li>
+                      <li class="nav-item">
+          <a class="nav-link" title="Open Source Focus Areas" href="/collection/open-source-observatory-osor/open-source-focus-areas">Open Source Focus Areas</a>
+          
+                  </li>
+                      <li class="nav-item">
+          <a class="nav-link" title="OSOR Events" href="/collection/open-source-observatory-osor/osor-events">OSOR Events</a>
+          
+                  </li>
+                      <li class="nav-item">
+          <a class="nav-link" title="Learning Hub" href="/collection/open-source-observatory-osor/learning-hub">Learning Hub</a>
+          
+                  </li>
+          </ul>
+
+    
+          </nav>
+      </div>
+      </div>
+    
+  
+
+</div>
+
+
+        </div>
+      </div>
+      
+  <div class="content container">
+                  <div class="region-featured" role="complementary" aria-label="Featured region">
+            
+
+        </div>
+          
+                    <div data-sitewide-alert aria-live="polite" id="block-ventuno-site-wide-alerts" class="block block-sitewide-alert-block"><div data-joinup-block-id="ventuno_site_wide_alerts"></div>
+</div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+
+          
+                  <div class="region-content-top float-lg-end position-relative d-flex col-gap-2 my-3 ms-lg-3" role="complementary" aria-label="Content top region">
+            <div id="block-ventuno-bookmark" class="block block-joinup-flag block-joinup-flag-block">
+
+<a href="/modal/anonymous/bookmark?destination=/collection/open-source-observatory-osor/open-source-software-country-intelligence" data-dialog-type="modal" data-dialog-options="{&quot;width&quot;:&quot;auto&quot;,&quot;height&quot;:&quot;auto&quot;}" title="Add this page to bookmarks" class="use-ajax flag flag-bookmark btn btn-blue">
+  <svg
+   class="bi icon--s"
+><use xlink:href="/themes/ventuno/assets/icons/icons.svg#bookmark"/></svg>
+  Bookmark
+</a>
+</div>
+<div id="block-ventuno-like" class="zi-2 block block-joinup-flag block-joinup-flag-block">
+  
+<a class="flag flag-like use-ajax btn btn-secondary" href="/modal/anonymous/like?destination=/collection/open-source-observatory-osor/open-source-software-country-intelligence" data-dialog-type="modal" data-dialog-options="{&quot;width&quot;:&quot;auto&quot;,&quot;height&quot;:&quot;auto&quot;}">
+  <svg class="bi icon--fluid mb-1">
+    <use xlink:href="/themes/ventuno/assets/icons/icons.svg#hand-thumbs-up"></use>
+  </svg>
+  Like (2)
+</a>
+</div>
+<div id="block-ventuno-webtools-etrans" class="block-oe-webtools-etrans--ventuno block block-oe-webtools-etrans"><script type="application/json">{"service":"etrans","languages":{"exclude":["en"]},"renderAs":{"button":true,"icon":false,"link":false},"domain":"gen","delay":0,"include":"h1.page-title__title,#block-ventuno-content","exclude":".action-link"}</script>
+</div>
+
+
+        </div>
+          
+    <div class="mb-5">
+      <main id="main-content" aria-label="Main content region">
+                  <div class="layout-content">
+              <div id="block-ventuno-pagetitle" class="block block-core block-page-title-block">
+
+
+
+
+  <div class="page-title page__title-wrapper">
+    <h1 class="page-title__title mt-4">
+      <span>
+        
+<span>Open Source Software Country Intelligence</span>
+
+                  <a class="permalink" href="https://interoperable-europe.ec.europa.eu/node/702261" title="Permalink">
+            <svg
+   class="bi icon--m"
+><use xlink:href="/themes/ventuno/assets/icons/icons.svg#link-45deg"/></svg>
+          </a>
+              </span>
+    </h1>
+
+    <div class="page-title__details">
+          </div>
+  </div>
+
+</div>
+<div id="block-ventuno-content" class="block block-system block-system-main-block"><article class="node custom-page custom-page--full">
+      <div class="clearfix">
+          <div class="paragraph--simple-paragraph paragraph">
+            <p>OSOR’s open source software country intelligence provides insights into open source policies, legal frameworks, actors and initiatives across EU Member States and countries beyond the EU. On this page, you will find:</p><ul><li><strong>Country intelligence reports and factsheets:</strong> Country reports provide an overview of relevant policy and legal frameworks, key actors and selected open source initiatives. Factsheets visually summarise the reports. The reports are informed by desk research and, where possible, input from national experts and contact points.</li><li><strong>Progress and trends reports:</strong> OSOR also publishes regular analytical reports that draw on country intelligence to identify broader developments in open source policy, governance, legal frameworks, reuse and public-sector adoption. These reports highlight progress, common challenges and emerging trends.</li></ul><p>If you are interested in following our activities in this domain more closely or providing us with feedback, please do not hesitate to email us at&nbsp;<a href="mailto:EU-OSOR@ec.europa.eu">EU-OSOR@ec.europa.eu</a>.&nbsp;</p><table><caption><strong>Country Intelligence Reports and Factsheets</strong></caption><thead><tr><th>Country</th><th>Report</th><th><strong>Factsheet*</strong></th><th>Last Update</th></tr></thead><tbody><tr><td><a id="Argentina">Albania</a></td><td><a href="/sites/default/files/inline-files/albania-osor-country-report.pdf" data-entity-type="file" data-entity-uuid="374dd1e0-a1e8-43be-b836-9797c2542a44" title="albania-osor-country-report.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/albania-osor-factsheet-2025.pdf">Download factsheet (PDF)</a></td><td>November 2025</td></tr><tr><td><a id="Argentina">Argentina</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_AR.pdf" data-entity-type="file" data-entity-uuid="d66a4a7e-f8ba-401c-8df7-d9d37939e8b2" title="OSS Country Intelligence Report_AR.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet%20AR.pdf" data-entity-type="file" data-entity-uuid="17212783-fadb-4feb-b3c6-3f586b911da0" title="OSS Country Intelligence Factsheet AR.pdf">Download factsheet (PDF)</a></td><td>July 2021</td></tr><tr><td><a id="Australia">Australia</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20AU_1.pdf" data-entity-type="file" data-entity-uuid="a040bc60-e086-4ae9-93d8-c4ced36b8573" title="OSS Country Intelligence Report AU_1.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet%20AU_0.pdf" data-entity-type="file" data-entity-uuid="9de9a3b4-aa5b-4655-9528-d6e37a6ed4dd" title="OSS Country Intelligence Factsheet AU_0.pdf">Download factsheet (PDF)</a></td><td>September 2021</td></tr><tr><td><a id="Austria">Austria</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Austria%202025.pdf" data-entity-type="file" data-entity-uuid="ac962a2c-088a-4c11-86d7-d609fe21ad9c" title="OSS Country Intelligence Report Austria 2025.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Austria%202025%20-%20OSOR%20factsheet%20%281%29.pdf" data-entity-type="file" data-entity-uuid="a5d8a046-9f29-4485-b4c5-4508996400c1" title="Austria 2025 - OSOR factsheet (1).pdf">Download factsheet (PDF)</a></td><td>April 2025</td></tr><tr><td><a id="Belgium">Belgium</a></td><td><a href="/sites/default/files/inline-files/belgium-osor-country-report-2026.v5.docx.pdf" data-entity-type="file" data-entity-uuid="dc63e1c6-6445-4fe8-9ee9-cf7a400e6a51" title="belgium-osor-country-report-2026.v5.docx.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/belgium-osor-factsheet-2026.pdf">Download factsheet (PDF)</a></td><td>April 2026</td></tr><tr><td><a id="Belgium">Bolivia</a></td><td><a href="https://joinup.ec.europa.eu/sites/default/files/document/2024-03/OSS%20Country%20Intelligence%20Report%20BOL.pdf">Download report (PDF)</a></td><td><a href="https://joinup.ec.europa.eu/sites/default/files/document/2024-03/OSS%20Country%20Intelligence%20Factsheet%20BOL.pdf">Download factsheet (PDF)</a></td><td>November 2023</td></tr><tr><td><a id="Belgium">Bosnia and Herzegovina</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-report-bosnia-and-herzegovina-2025.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-factsheet-bosnia-and-herzegovina.pdf">Download factsheet (PDF)</a></td><td>September 2025</td></tr><tr><td><a id="Brazil">Brazil</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_BR_1.pdf" data-entity-type="file" data-entity-uuid="aa995742-31c6-4933-a72e-a71474eb3088" title="OSS Country Intelligence Report_BR_1.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_BR.pdf" data-entity-type="file" data-entity-uuid="96379781-45c4-49bd-baaa-a4ddc679d0a4" title="OSS Country Intelligence Factsheet_BR.pdf">Download factsheet (PDF)</a></td><td>September 2021</td></tr><tr><td><a id="Bulgaria">Bulgaria</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/bulgaria-2026-osor-country-report.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-factsheet-bulgaria.pdf">Download factsheet (PDF)</a></td><td>June 2026</td></tr><tr><td><a id="Canada">Canada</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_Canada.pdf" data-entity-type="file" data-entity-uuid="c3f5b552-1d8f-4837-b4fc-56cbf7921741" title="OSS Country Intelligence Report_Canada.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_Canada.pdf" data-entity-type="file" data-entity-uuid="686b3103-e8e7-49cc-ba98-326c1336d6b9" title="OSS Country Intelligence Factsheet_Canada.pdf">Download factsheet (PDF)</a></td><td>November 2021</td></tr><tr><td><a id="Belgium">China</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20China.pdf" data-entity-type="file" data-entity-uuid="0b479815-355c-4fcd-90ab-0164814ebfa5" title="OSS Country Intelligence Report China.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Factsheet%20China.pdf" data-entity-type="file" data-entity-uuid="758d898e-238a-47d3-b1b6-3e2e4a4e7c20" title="Factsheet China.pdf">Download factsheet (PDF)</a></td><td>November 2023</td></tr><tr><td><a id="Croatia">Croatia</a></td><td><a href="/sites/default/files/inline-files/Croatia%202025%20-%20Country%20Intelligence%20Report_1.pdf" data-entity-type="file" data-entity-uuid="4199bb91-a121-4307-9adb-897babe8333c" title="Croatia 2025 - Country Intelligence Report_1.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSOR%20Croatia%20factsheet_1.pdf" data-entity-type="file" data-entity-uuid="86d492c4-c25f-4a1c-ac4f-6267d9b72d5d" title="OSOR Croatia factsheet_1.pdf">Download factsheet (PDF)</a></td><td>May 2025</td></tr><tr><td><a id="Cyprus">Cyprus</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Cyprus%202024.pdf" data-entity-type="file" data-entity-uuid="bcef0dc7-b1ad-4f97-aea9-bdc95f62f389" title="OSS Country Intelligence Report Cyprus 2024.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Cyprus%20OSOR%20factsheet%202024%20%281%29.pdf" data-entity-type="file" data-entity-uuid="d450c756-7632-4be6-afe1-383c0ed743a0" title="Cyprus OSOR factsheet 2024 (1).pdf">Download factsheet (PDF)</a></td><td>October 2024</td></tr><tr><td><a id="Czechia">Czechia</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/2026_osor-country-report_czechia.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/czechia-2026-osor-factsheet-1.pdf">Download factsheet (PDF)</a></td><td>March 2026</td></tr><tr><td><a id="Denmark">Denmark</a></td><td><a href="/sites/default/files/inline-files/Denmark%202024%20-%20Country%20Intelligence%20Report.pdf" data-entity-type="file" data-entity-uuid="8798b13a-3466-4639-905a-3c87e5bcc8cd" title="Denmark 2024 - Country Intelligence Report.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Denmark%20Factsheet.pdf" data-entity-type="file" data-entity-uuid="1e4ee2d9-fee6-4ccd-af24-3a5c65d779f3" title="Denmark Factsheet.pdf">Download factsheet (PDF)</a></td><td>December 2024</td></tr><tr><td><a id="Estonia">Estonia</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Estonia%202025_0.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Estonia%20OSOR%20factsheet%202025.pdf" data-entity-type="file" data-entity-uuid="fa9fa0be-dbba-4e13-af08-04bfffc8aa07" title="Estonia OSOR factsheet 2025.pdf">Download factsheet (PDF)</a></td><td>March 2025</td></tr><tr><td><a id="Finland">Finland</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Finland%202025_0.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/Finland%20OSOR%20factsheet%202025-4_2.pdf">Download factsheet (PDF)</a></td><td>April 2025</td></tr><tr><td><a id="France">France</a></td><td><a href="/sites/default/files/inline-files/2026-france-osor-country-report_0.pdf" data-entity-type="file" data-entity-uuid="7dbcfa70-deb6-49fc-bceb-03a24d2ff3dc" title="2026-france-osor-country-report_0.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/2026-osor-factsheet-france_0.pdf" data-entity-type="file" data-entity-uuid="a1fd589e-3f63-4175-be8c-32f87f1da476" title="2026-osor-factsheet-france_0.pdf">Download factsheet (PDF)</a></td><td>May 2026</td></tr><tr><td><a id="Germany">Germany</a></td><td><a href="/sites/default/files/inline-files/germany-2026-osor-country-report.pdf" data-entity-type="file" data-entity-uuid="81d8f826-fd6e-403f-9d8c-6e7863036567" title="germany-2026-osor-country-report.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/osor-2026-factsheet-germany.pdf" data-entity-type="file" data-entity-uuid="1e32576c-b60d-4f4f-a5dd-cde23397b485" title="osor-2026-factsheet-germany.pdf">Download factsheet (PDF)</a></td><td>July 2026</td></tr><tr><td><a id="Greece">Greece</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Greece%202025.pdf" data-entity-type="file" data-entity-uuid="e1b7ee12-eac0-4380-929c-5ff94c541319" title="OSS Country Intelligence Report Greece 2025.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Greece%20OSOR%20factsheet%202025.pdf" data-entity-type="file" data-entity-uuid="ba60f435-f78a-4366-8df6-5fca410d16e1" title="Greece OSOR factsheet 2025.pdf">Download factsheet (PDF)</a></td><td>February 2025</td></tr><tr><td><a id="Hungary">Hungary</a></td><td><a href="/sites/default/files/inline-files/FINAL%20-%20Hungary%202024%20Country%20Report_0.pdf" data-entity-type="file" data-entity-uuid="a883d248-7956-409f-8bb2-3c7319653710" title="FINAL - Hungary 2024 Country Report_0.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/FINAL%20-%20Hungary%202024%20-%20Factsheet_1.pdf" data-entity-type="file" data-entity-uuid="97f21415-2dc1-446c-9398-70866d8f6ab6" title="FINAL - Hungary 2024 - Factsheet_1.pdf">Download factsheet (PDF)</a></td><td>November 2024</td></tr><tr><td><a id="Iceland">Iceland</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_IS.pdf" data-entity-type="file" data-entity-uuid="e4263f37-0d61-4489-a822-7dc789d35165" title="OSS Country Intelligence Report_IS.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_IS.pdf" data-entity-type="file" data-entity-uuid="44cd1193-aebc-4df9-9cd9-be16dc1fda6d" title="OSS Country Intelligence Factsheet_IS.pdf">Download factsheet (PDF)</a></td><td>July 2021</td></tr><tr><td><a id="India">India</a></td><td><a href="/sites/default/files/inline-files/OSOR_Country%20report_India.pdf" data-entity-type="file" data-entity-uuid="02481f28-a418-441a-9189-081062a0a41a" title="OSOR_Country report_India.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSOR_Country%20factsheet_India.pdf" data-entity-type="file" data-entity-uuid="947b27d5-5a74-4eb4-b6e9-6f72c3645a8b" title="OSOR_Country factsheet_India.pdf">Download factsheet (PDF)</a></td><td>May 2021</td></tr><tr><td><a id="Ireland">Ireland</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Ireland%202024_0.pdf" data-entity-type="file" data-entity-uuid="a3c25581-71a2-47b9-a5b1-00a2d70606ef" title="OSS Country Intelligence Report Ireland 2024_0.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Ireland%202024%20-%20Factsheet_0.pdf" data-entity-type="file" data-entity-uuid="c9dc2ec9-bcce-4862-9392-bdf174bafc10" title="Ireland 2024 - Factsheet_0.pdf">Download factsheet (PDF)</a></td><td>September 2024</td></tr><tr><td><a id="Italy">Italy</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/italy-2025-country-intelligence-report.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-italy-factsheet.pdf">Download factsheet (PDF)</a></td><td>May 2025</td></tr><tr><td><a id="Belgium">Japan</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Japan.pdf" data-entity-type="file" data-entity-uuid="4944a035-a2a1-49d2-8e86-3177ef9332ee" title="OSS Country Intelligence Report Japan.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Factsheet%20Japan.pdf" data-entity-type="file" data-entity-uuid="cc4d0718-c828-4990-9d04-b9a44c574b46" title="Factsheet Japan.pdf">Download factsheet (PDF)</a></td><td>July 2023</td></tr><tr><td><a id="Belgium">Kosovo</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/kosovo-2025-osor-country-report.docx_0_0.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/kosovo-2025-osor-factsheet_0.pdf">Download factsheet (PDF)</a></td><td>November 2025&nbsp;</td></tr><tr><td><a id="Latvia">Latvia</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-intelligence-report-latvia-2025.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-factsheet-latvia-2025.pdf">Download factsheet (PDF)</a></td><td>September 2025</td></tr><tr><td><a id="Liechtenstein">Liechtenstein</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20LI.pdf" data-entity-type="file" data-entity-uuid="c1d747a6-e3bf-4b78-95c2-38f74d5499ea" title="OSS Country Intelligence Report LI.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet%20LI.pdf" data-entity-type="file" data-entity-uuid="004e1e65-6abb-4883-bd53-99aeab8ed18b" title="OSS Country Intelligence Factsheet LI.pdf">Download factsheet (PDF)</a></td><td>February 2021</td></tr><tr><td><a id="Lithuania">Lithuania</a></td><td><a href="/sites/default/files/inline-files/T3_OSS%20Country%20Intelligence%20Report%20Lithuania%202025_0.pdf" data-entity-type="file" data-entity-uuid="f980caf0-c3ce-4af3-b3e9-b8520c04c97f" title="T3_OSS Country Intelligence Report Lithuania 2025_0.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSOR%20Lithuania%20factsheet_0.pdf" data-entity-type="file" data-entity-uuid="c20d4f34-fa86-4898-a7ca-049e24318b1f" title="OSOR Lithuania factsheet_0.pdf">Download factsheet (PDF)</a></td><td>May 2025</td></tr><tr><td><a id="Luxembourg">Luxembourg</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-report-lu-2025.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-factsheet-lu-2025_0.pdf">Download factsheet (PDF)</a></td><td>July 2025</td></tr><tr><td><a id="Malta">Malta</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_MT.pdf" data-entity-type="file" data-entity-uuid="88021a77-539b-415a-8c2b-b1ad3615c545" title="OSS Country Intelligence Report_MT.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_MT.pdf" data-entity-type="file" data-entity-uuid="115c98c9-3cdc-4891-ad2a-15181b4ed138" title="OSS Country Intelligence Factsheet_MT.pdf">Download factsheet (PDF)</a></td><td>March 2020</td></tr><tr><td><a id="Belgium">Mexico</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Mexico.pdf" data-entity-type="file" data-entity-uuid="119c9722-202f-4636-aeea-72c51ed20300" title="OSS Country Intelligence Report Mexico.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Factsheet%20Mexico.pdf" data-entity-type="file" data-entity-uuid="85839a47-e7a1-418f-a511-8b1480817d00" title="Factsheet Mexico.pdf">Download factsheet (PDF)</a></td><td>November 2023</td></tr><tr><td><a id="Montenegro">Montenegro</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_MO.pdf" data-entity-type="file" data-entity-uuid="1d5609cb-bf70-4c29-b70c-e257261e586e" title="OSS Country Intelligence Report_MO.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_MO.pdf" data-entity-type="file" data-entity-uuid="0c2a88c1-211e-4585-9a7f-166e24e60fbe" title="OSS Country Intelligence Factsheet_MO.pdf">Download factsheet (PDF)</a></td><td>April 2021</td></tr><tr><td><a id="Netherlands">Netherlands</a></td><td><a href="/sites/default/files/inline-files/2026-netherlands-osor-country-report.pdf" data-entity-type="file" data-entity-uuid="2dacb6e5-462c-4a46-9804-ff4edfb80865" title="2026-netherlands-osor-country-report.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/osor-factsheet-netherlands.pdf" data-entity-type="file" data-entity-uuid="6caca551-349b-4416-ad3f-65e82092740d" title="osor-factsheet-netherlands.pdf">Download factsheet (PDF)</a></td><td>June 2026</td></tr><tr><td><a id="Belgium">Nigeria</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Nigeria.pdf" data-entity-type="file" data-entity-uuid="6ba8efa4-5a57-4dd2-b43e-ff2923006ab4" title="OSS Country Intelligence Report Nigeria.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Factsheet%20Nigeria.pdf" data-entity-type="file" data-entity-uuid="0355c6e2-6520-4103-a7a9-c5bc3087222d" title="Factsheet Nigeria.pdf">Download factsheet (PDF)</a></td><td>January 2024</td></tr><tr><td><a id="North Macedonia">North Macedonia</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-report-north-macedonia-2025.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-factsheet-north-macedonia-2025.pdf">Download factsheet (PDF)</a></td><td>November 2025</td></tr><tr><td><a id="Norway">Norway</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_NO_0.pdf" data-entity-type="file" data-entity-uuid="22bb2120-9efa-467a-ba3b-2fda6a36020c" title="OSS Country Intelligence Report_NO_0.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_NO_0.pdf" data-entity-type="file" data-entity-uuid="7ed475a4-ade3-4176-8441-376447aec1fc" title="OSS Country Intelligence Factsheet_NO_0.pdf">Download factsheet (PDF)</a></td><td>February 2021</td></tr><tr><td><a id="Belgium">Philippines</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Phillipines.pdf" data-entity-type="file" data-entity-uuid="2788e7b8-5b53-4566-baa1-a1ce4ba0952a" title="OSS Country Intelligence Report Phillipines.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Factsheet%20Philippines_0.pdf" data-entity-type="file" data-entity-uuid="26494f22-8cdd-4c73-96dc-3c90654a6ef3" title="Factsheet Philippines_0.pdf">Download factsheet (PDF)</a></td><td>December 2023</td></tr><tr><td><a id="Poland">Poland</a></td><td><a href="/sites/default/files/inline-files/osor-2026-poland-country-report.pdf" data-entity-type="file" data-entity-uuid="aa337607-5406-4bfe-adb5-f973075320a4" title="osor-2026-poland-country-report.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/osor-2026-factsheet-poland.pdf" data-entity-type="file" data-entity-uuid="85faa5aa-e290-4fcb-95bf-78600d137a99" title="osor-2026-factsheet-poland.pdf">Download factsheet (PDF)</a></td><td>July 2026</td></tr><tr><td><a id="Portugal">Portugal</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/portugal-2025-country-intelligence-report.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-portugal-factsheet.pdf">Download factsheet (PDF)</a></td><td>July 2025</td></tr><tr><td><a id="Romania">Romania</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-report-romania-2025_0.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-factsheet-romania-2025.pdf">Download factsheet (PDF)</a></td><td>October 2025</td></tr><tr><td><a id="Belgium">Serbia</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-report-serbia-2025.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-country-factsheet-serbia-2025_1.pdf">Download factsheet (PDF)</a></td><td>October 2025</td></tr><tr><td><a id="Belgium">Singapore</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Singapore%202023.pdf" data-entity-type="file" data-entity-uuid="dc7209ff-1308-413a-9704-01ada8fa4d11" title="OSS Country Intelligence Report Singapore 2023.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Factsheet%20Singapore.pdf" data-entity-type="file" data-entity-uuid="97d046ce-61b1-435a-9c04-82b8fd87739b" title="Factsheet Singapore.pdf">Download factsheet (PDF)</a></td><td>February 2024</td></tr><tr><td><a id="Slovakia">Slovakia</a></td><td><a href="/sites/default/files/inline-files/Open%20Source%20Software%20Country%20Intelligence%20Report%20-%20Slovakia.pdf" data-entity-type="file" data-entity-uuid="e68487c4-96e5-4cf4-8a16-950efd21b0c7" title="Open Source Software Country Intelligence Report - Slovakia.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/Slovakia%20Factsheet%20v2.pdf" data-entity-type="file" data-entity-uuid="619f4d44-a8ca-40d1-9098-40a27a3b4f06" title="Slovakia Factsheet v2.pdf">Download factsheet (PDF)</a></td><td>February 2024</td></tr><tr><td><a id="Slovenia">Slovenia</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-slovenia-country-report-2025_0.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-slovenia-factsheet-2025.pdf">Download factsheet (PDF)</a></td><td>August 2025</td></tr><tr><td><a id="South Africa">South Africa</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_South%20Africa.pdf" data-entity-type="file" data-entity-uuid="ddce84ab-0389-4ecd-b22e-fedcfbb929f7" title="OSS Country Intelligence Report_South Africa.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_South%20Africa.pdf" data-entity-type="file" data-entity-uuid="91d3baf1-878c-4aa1-9671-3ac8016754c8" title="OSS Country Intelligence Factsheet_South Africa.pdf">Download factsheet (PDF)</a></td><td>November 2021</td></tr><tr><td><a id="South Korea">South Korea</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20report_KR.pdf" data-entity-type="file" data-entity-uuid="db617c7b-f840-481a-bf7f-10683e458fa8" title="OSS Country Intelligence report_KR.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20intelligence%20factsheet_KR.pdf" data-entity-type="file" data-entity-uuid="f760456b-2150-4ed0-9c71-a91566b019fb" title="OSS Country intelligence factsheet_KR.pdf">Download factsheet (PDF)</a></td><td>October 2021</td></tr><tr><td><a id="Spain">Spain</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_ES_2.pdf" data-entity-type="file" data-entity-uuid="77b1d744-7942-4e8c-b73c-f5ccb9a6ad45" title="OSS Country Intelligence Report_ES_2.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/osor-spain-factsheet.pdf" data-entity-type="file" data-entity-uuid="904a963e-5981-4346-b9be-129593016b98" title="osor-spain-factsheet.pdf">Download factsheet (PDF)</a></td><td>May 2025</td></tr><tr><td><a id="Sweden">Sweden</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/2026-sweden-osor-country-report.v2.docx.pdf">Download report (PDF)</a></td><td><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/osor-factsheet-sweden.pdf">Download factsheet (PDF)</a></td><td>April 2026</td></tr><tr><td><a id="Switzerland">Switzerland</a></td><td><a href="/sites/default/files/inline-files/switzerland-2026-osor-country-report.pdf" data-entity-type="file" data-entity-uuid="6c88d083-137a-45dc-acb0-2856d2da844f" title="switzerland-2026-osor-country-report.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/switzerland-2026-osor-factsheet_0.pdf" data-entity-type="file" data-entity-uuid="d3a825e8-91b5-4574-884f-831617d36d2c" title="switzerland-2026-osor-factsheet.pdf">Download factsheet (PDF)</a></td><td>August 2026</td></tr><tr><td><a id="Turkey">Turkey</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_TR_Update.pdf" data-entity-type="file" data-entity-uuid="f526633d-a2d0-4a1f-82f8-4c442c95caf5" title="OSS Country Intelligence Report_TR_Update.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_TR_Update.pdf" data-entity-type="file" data-entity-uuid="33735025-f62a-418f-a365-7573d1b20fbb" title="OSS Country Intelligence Factsheet_TR_Update.pdf">Download factsheet (PDF)</a></td><td>November 2021</td></tr><tr><td><a id="Ukraine">Ukraine</a></td><td><a href="/sites/default/files/inline-files/ukraine-2026-osor-country-report_1_0.pdf" data-entity-type="file" data-entity-uuid="512c5051-dc47-4b5e-a0dc-40f33e01d3df" title="ukraine-2026-osor-country-report_1.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/ukraine-2026-osor-factsheet.pdf" data-entity-type="file" data-entity-uuid="6c603456-6f30-4242-b74d-da3ce0a1f462" title="ukraine-2026-osor-factsheet.pdf">Download factsheet (PDF)</a></td><td>October 2026</td></tr><tr><td><a id="United Kingdom">United Kingdom</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_UK.pdf" data-entity-type="file" data-entity-uuid="5d77a01c-602d-49c4-a600-017bb8010de9" title="OSS Country Intelligence Report_UK.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_UK_0.pdf" data-entity-type="file" data-entity-uuid="ae8b15d4-baae-4c93-af8f-565c3aee1bb6" title="OSS Country Intelligence Factsheet_UK_0.pdf">Download factsheet (PDF)</a></td><td>July 2020</td></tr><tr><td><a id="United States of America">United States of America</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report_USA.pdf" data-entity-type="file" data-entity-uuid="8e8e468a-88a0-477e-a09a-c542ce9ff52a" title="OSS Country Intelligence Report_USA.pdf">Download report (PDF)</a></td><td><a href="/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet_USA.pdf" data-entity-type="file" data-entity-uuid="98aadca4-57bb-419e-bb19-4c9a0df77415" title="OSS Country Intelligence Factsheet_USA.pdf">Download factsheet (PDF)</a></td><td>October 2021</td></tr></tbody></table><p><em>*For Edge users, please download the file to ensure correct display.</em></p><h2><strong>Papers on Progress and Trends in the national open source policies and legal frameworks</strong></h2><ul><li><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2026-01/paper-on-progress-and-trends-2025.pdf">Click here to read the 2025 version</a></li><li><a href="https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/SC32_D04.03_Paper%20on%20progress%20and%20trends%20in%20the%20national%20open%20source%20policies%20and%20legal%20frameworks.pdf">Click here to read the 2024 version</a></li></ul>
+
+      </div>
+
+
+    </div>
+    <div class="d-flex flex-wrap align-items-end flex-row justify-content-end my-3">
+      
+  <a class="action-link btn btn-link px-3" href="/contact?category=report&amp;uri=/collection/open-source-observatory-osor/open-source-software-country-intelligence&amp;destination=collection/open-source-observatory-osor/open-source-software-country-intelligence">Report abusive content</a>
+
+      
+    </div>
+  </article>
+</div>
+
+
+          </div>
+              </main>
+    </div>
+  </div>
+
+      
+<footer role="contentinfo" class="page__footer">
+  <div class="container text-light">
+    <div class="row py-4 py-lg-5">
+      <!--Interoperable Europe logo-->
+      <div class="col-md-12 col-lg-3 column-logo">
+        <p class="joinup-logo"><a href="/" class="joinup-logo-white mb-3"><span class="visually-hidden">Interoperable Europe</span></a></p>
+        <p class="joinup-version"><a href="https://gitlab.dhs.tech.ec.europa.eu/ec-europa/digit-joinup-reference/-/releases/2.17.0" aria-label="Interoperable Europe Portal version number: 2.17.0">2.17.0</a></p>
+      </div>
+      <h2 class="visually-hidden">Useful links</h2>
+
+        <div id="block-aboutus" class="block block-system block-system-menu-blockfooter-about-us col-md-3 col-lg-2 about-us-menu">
+  
+      <h3>About us</h3>
+    
+      
+              <ul data-joinup-block-id="aboutus" class="list-unstyled">
+                  <li class="nav-link">
+          <a href="/collection/portal-support" data-drupal-link-system-path="node/723169">Interoperable Europe Portal</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/collection/eupl/solution/licensing-assistant/find-and-compare-software-licenses" data-drupal-link-system-path="node/701805">Licensing Assistant</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/collection/iopeu-monitoring/eif-solutions-finder" data-drupal-link-system-path="node/705372">EIF Solutions Finder</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/interoperable-europe" data-drupal-link-system-path="node/723208">Interoperable Europe</a>
+                  </li>
+          </ul>
+  
+
+
+  </div>
+<div id="block-helpandsupport" class="block block-system block-system-menu-blockfooter-help-and-support col-md-3 col-lg-2 help-and-support-menu">
+  
+      <h3>Help and support</h3>
+    
+      
+              <ul data-joinup-block-id="helpandsupport" class="list-unstyled">
+                  <li class="nav-link">
+          <a href="" data-drupal-tour-link class="js-tour-start-button">Take a tour</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/collection/portal-support/portals-user-reference-guide" data-drupal-link-system-path="node/726351">User Reference Guide</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/collection/portal-support/faq" data-drupal-link-system-path="node/701545">Frequently Asked Questions (FAQ)</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/collection/portal-support/how-articles" data-drupal-link-system-path="node/701543">How-To Articles</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/contact?destination=/collection/open-source-observatory-osor/open-source-software-country-intelligence" data-drupal-link-system-path="contact">Contact Portal Support</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/contribution-rules" data-drupal-link-system-path="node/726334">Contribution rules</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/joinup/legal-notice" data-drupal-link-system-path="legal/document/legal_notice">Legal notice</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/collection/portal-support/specific-privacy-statement" data-drupal-link-system-path="node/704896">Privacy statement</a>
+                  </li>
+              <li class="nav-link">
+          <a href="/accessibility-statement-en" data-drupal-link-system-path="node/707335">Accessibility statement</a>
+                  </li>
+          </ul>
+  
+
+
+  </div>
+<div id="block-europeancommission" class="block block-system block-system-menu-blockfooter-european-commission col-md-3 col-lg-3 european-commission-menu">
+  
+      <h3>European Commission</h3>
+    
+      
+              <ul data-joinup-block-id="europeancommission" class="list-unstyled">
+                  <li class="nav-link">
+          <a href="https://commission.europa.eu/about-european-commissions-web-presence_en">About the Commission&#039;s new web presence</a>
+                  </li>
+              <li class="nav-link">
+          <a href="https://ec.europa.eu/info/resources-partners_en">Resources for partners</a>
+                  </li>
+              <li class="nav-link">
+          <a href="https://ec.europa.eu/info/cookies_en">Cookies</a>
+                  </li>
+              <li class="nav-link">
+          <a href="https://commission.europa.eu/about-european-commission/contact_en">Contact European Commission</a>
+                  </li>
+              <li class="nav-link">
+          <a href="https://ec.europa.eu/info/europa-analytics_en">Europa Analytics</a>
+                  </li>
+          </ul>
+  
+
+
+  </div>
+
+
+      <div class="col-md-3 col-lg-2 column-follow-us">
+        <div id="block-followus" class="block block-system block-system-menu-blockfooter-follow-us follow-us-menu">
+  
+      <h3>Follow us</h3>
+    
+      
+              <ul data-joinup-block-id="followus" class="list-unstyled">
+                  <li class="nav-link">
+          <a href="http://ec.europa.eu/newsroom/informatics/subscription-quick-generic-form-fullpage.cfm?service_id=1115">Newsletter subscription</a>
+                  </li>
+              <li class="nav-link">
+          <a href="https://ec.europa.eu/newsroom/informatics/newsletter-archives/view/service/1115">Newsletter archive</a>
+                  </li>
+              <li class="nav-link">
+          <a href="https://x.com/InteroperableEU">Twitter / X</a>
+                  </li>
+              <li class="nav-link">
+          <a href="https://www.linkedin.com/groups/12907049/">LinkedIn</a>
+                  </li>
+          </ul>
+  
+
+
+  </div>
+
+        
+        
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+  
+</div>
+
+  </div>
+
+    <script type="application/json">{"utility":"piwik","siteID":"4fe2fb42-9cab-4644-8394-c75ca7ffc767","sitePath":["interoperable-europe.ec.europa.eu"],"siteSection":"http:\/\/data.europa.eu\/w21\/0a36ace2-03a2-4d39-bf5c-97abf25f4ce5","instance":"ec"}</script>
+<script type="application/json">{"utility":"cck","url":"https:\/\/ec.europa.eu\/info\/cookies_{lang}"}</script>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/702261","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxtkWFWxCAMhC8Ey5F4oWRbNBAMQd3bS7tKV90_fZ0vA51OAqqiePys3DD6a6Ihm4Ou7FsPOakJzy0rFhQgs7CgS2WwAnR5eesot8uVJZsXTqVX3xBk2dwq3KsNEFc0jD4wa1OB6nXDjC4s9Aw3vdHh_8CgzNRclF7Hh360bRlEiSGimAoC6zi8TdtJLr3UHii1DaOpTDQt491SKq_N3KN6qMnvDSycK6GOFM-5aUnxI0X0QCg6Whh1NV4SkM8YE_jjWvcfXY6_M-3WFLML0NAod3H7w7xj0V74jqcQhLhIz2GiPQaXIdpEsVdKCyjaFO01feJ5G45Wy-m8jqIfpvvCzuGxq99qbK6UhwMEN-46ZcbSreXV2gLvaQVNXM7hPp1qGALIH2nvFU9aYUWrSQkf0PcqJ1EIhGfqe6ffym9IFcVFbJrKkedY8hcjtik-","theme":"ventuno","theme_token":null},"ajaxTrustedUrl":{"\/search":true,"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/collection\/open-source-observatory-osor\/open-source-software-country-intelligence?ajax_form=1":true},"tourShepherdConfig":{"defaultStepOptions":{"classes":"drupal-tour","cancelIcon":{"enabled":true,"label":"Close"},"modalOverlayOpeningPadding":3,"scrollTo":{"behavior":"smooth","block":"center"},"popperOptions":{"modifiers":[{"name":"offset","options":{"offset":[-10,20]}},{"name":"arrow","options":{"padding":12}},{"name":"focusAfterRender","enabled":false}]}},"useModalOverlay":true},"_tour_internal":[{"id":"collection_content","selector":".collection__collection-settings article.tile","type":"text","counter":"1 of 5","attachTo":{"element":".collection__collection-settings article.tile","on":"left-start"},"classes":"tip-type-text tip-collection-content","body":"\u003Cp class=\u0022tour-tip-body\u0022\u003EThe content area displays items that have been created or shared within a collection. This is the default view when entering a collection.\u003C\/p\u003E\n","title":"Collection content"},{"id":"solution_content","selector":".solution__solution-settings article.tile","type":"text","counter":"2 of 5","attachTo":{"element":".solution__solution-settings article.tile","on":"left-start"},"classes":"tip-type-text tip-solution-content","body":"\u003Cp class=\u0022tour-tip-body\u0022\u003EThe content area displays items that have been created or shared within a solution. This is the default view when entering a solution.\u003C\/p\u003E\n","title":"Solution content"},{"id":"filters","selector":".tabs--content-type .nav-tabs a","type":"text","counter":"3 of 5","attachTo":{"element":".tabs--content-type .nav-tabs a","on":"bottom-start"},"classes":"tip-type-text tip-filters","body":"\u003Cp class=\u0022tour-tip-body\u0022\u003EBy clicking on these icons, you can view specific content types in the content area.\u003C\/p\u003E\n","title":"Filter"},{"id":"join","selector":".join-group-form input.button","type":"text","counter":"4 of 5","attachTo":{"element":".join-group-form input.button","on":"right-start"},"classes":"tip-type-text tip-join","body":"\u003Cp class=\u0022tour-tip-body\u0022\u003EBy joining a collection you become a member, with the ability to create content for it.\u003C\/p\u003E\n","title":"Join"},{"id":"search","selector":".dropdown-search","type":"text","counter":"5 of 5","attachTo":{"element":".dropdown-search","on":"left-start"},"classes":"tip-type-text tip-search","body":"\u003Cp class=\u0022tour-tip-body\u0022\u003ESearch through the entire Interoperable Europe Portal platform and its supported content items.\u003C\/p\u003E\n","title":"Search","cancelText":"End tour"}],"theme":"ventuno","bcl_icon_path":"\/themes\/ventuno\/assets\/icons\/icons.svg","sitewideAlert":{"refreshInterval":0,"automaticRefresh":false,"showCount":false,"serverSideRender":false},"better_exposed_filters":{"autosubmit_exclude_textfield":true},"search_api_autocomplete":{"search":{"auto_submit":true}},"ajax":{"edit-rebuild":{"callback":"::rebuild","event":"mousedown","keypress":true,"prevent":"click","url":"\/collection\/open-source-observatory-osor\/open-source-software-country-intelligence?ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"join_group_form_base_rebuild","_triggering_element_value":"Rebuild"}}},"user":{"uid":0,"permissionsHash":"fcda6802f90a3acf73e834d037bde37cb4a78741cd2477d5db411626e96587b1"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_IgQeki6iGCczggXpNxuR1V42mhW-0iAIco2xtvQ2bzE.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=ventuno&amp;include=eJx1kG1uwyAMhi8UypGQCQ5x52BmTNrdfqTV0lXafoD0fhg_IqIZasB7lYYpLMRDNg_dJLQeN7Ip_l3JWFCBp1kUPZXhFeDL9bOjfl0W0W26CpVeQ0PQefVZpVcXIWWcBMMNo4lw80l7HYM_2rUN1FggoU7P0QCVwkE0y1YZDf0__tTI8EYJAzCqDaqBb9LVH9e0Y7FexB91KUO0y7WdbuqVaQZDR8ktdMfXwAP9VCvllccxR2UHfrSR09tjG5bunGTnCuyUwUjKKzzSU41ChNeuCgpZoa6no9gGbqMdnUFkfFv0_Ikod7fI3H9HYUWuqD5hMyoPAsdUPr4BauvEeQ"></script>
+<script src="/modules/contrib/tour/js/tour.js?v=11.3.19"></script>
+<script src="/sites/default/files/js/js_XZi7n5OAS1quz1rQTmkXm_eakUZnvhX92JHoUqNqh-0.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=ventuno&amp;include=eJx1kG1uwyAMhi8UypGQCQ5x52BmTNrdfqTV0lXafoD0fhg_IqIZasB7lYYpLMRDNg_dJLQeN7Ip_l3JWFCBp1kUPZXhFeDL9bOjfl0W0W26CpVeQ0PQefVZpVcXIWWcBMMNo4lw80l7HYM_2rUN1FggoU7P0QCVwkE0y1YZDf0__tTI8EYJAzCqDaqBb9LVH9e0Y7FexB91KUO0y7WdbuqVaQZDR8ktdMfXwAP9VCvllccxR2UHfrSR09tjG5bunGTnCuyUwUjKKzzSU41ChNeuCgpZoa6no9gGbqMdnUFkfFv0_Ikod7fI3H9HYUWuqD5hMyoPAsdUPr4BauvEeQ"></script>
+
+  </body>
+</html>

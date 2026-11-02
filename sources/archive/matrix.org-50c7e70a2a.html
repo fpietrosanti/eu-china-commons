@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="matrix.org" />
+    
+    <meta property="og:url" content="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/" />
+    
+    
+    
+    
+    <meta property="og:title" content="What will it take to build an open source Europe and how the Digital Commons EDIC can help" />
+    
+    
+    
+    <meta property="og:description" content="Matrix, the open protocol for secure decentralised communications" />
+    <meta name="description" content="Matrix, the open protocol for secure decentralised communications" />
+    
+    <meta property="og:image" content="https://matrix.org/blog/img/matrix-logo.png" />
+    
+    <title>Matrix.org - What will it take to build an open source Europe and how the Digital Commons EDIC can help</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="stylesheet" href="https://matrix.org/style.css?h=cb1fdde6084bde662e18" />
+    <script async src="https://matrix.org/js/components.js?h=e7083f9769ddafff0176"></script>
+    <script defer data-domain="matrix.org" src="https://plausible.io/js/script.tagged-events.js"></script>
+
+
+    
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "What will it take to build an open source Europe and how the Digital Commons EDIC can help",
+    "datePublished": "2026-10-14T14:00+00:00",
+    
+    
+    "image": [
+        "https://matrix.org/blog/img/matrix-logo.png"
+    ],
+    
+    "author": [
+    
+    {
+        "@type": "Person",
+        "name": "Amandine Le Pape",
+        "url": "https://matrix.org/authors/amandine-le-pape"
+    }
+    
+    ]
+}
+</script>
+</head>
+
+<body>
+    
+    <header class="site-header">
+    <a href="/" class="brand">
+        <img src="/images/matrix-logo-white.svg" alt="Matrix logo">
+    </a>
+    <input id="site-header-dropdown-checkbox" type="checkbox" class="dropdown-checkbox" aria-hidden="true">
+    <label for="site-header-dropdown-checkbox" class="dropdown-button">&#xe602;</label>
+    <label for="site-header-dropdown-checkbox" class="page-overlay"></label>
+    <nav>
+        
+        
+            
+                <a href="https:&#x2F;&#x2F;spec.matrix.org" class="
+                    ">
+                    Spec
+                </a>
+            
+        
+        
+        
+        
+        
+        <div class="section-wrap">
+            <input id="foundation-submenu-checkbox" type="checkbox" class="submenu-checkbox" aria-hidden="true"
+                >
+            <label for="foundation-submenu-checkbox" class="submenu-title">
+            <a href="/foundation">
+                Foundation</a> <div class="arrow">
+                </div></label>
+
+            <div class="section-submenu-wrap">
+                <div class="section-submenu">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;foundation&#x2F;about&#x2F;">About Matrix</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;foundation&#x2F;members&#x2F;">Members</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;foundation&#x2F;governing-board&#x2F;">Governing Board</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;foundation&#x2F;working-groups&#x2F;">Working Groups</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;foundation&#x2F;reports&#x2F;">Reports</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+            
+                <div class="section-wrap">
+                    <input
+                        id="blog-submenu-checkbox"
+                        type="checkbox"
+                        class="submenu-checkbox"
+                        aria-hidden="true"
+                        checked
+                    >
+                    <label for="blog-submenu-checkbox" class="submenu-title">
+                        <a href="&#x2F;blog&#x2F;">
+                            Blog
+                        </a>
+                        <div class="arrow"></div>
+                    </label>
+                    <div class="section-submenu-wrap">
+                        <div class="section-submenu">
+                            
+                                <a href="&#x2F;blog&#x2F;archive&#x2F;">Archive</a>
+                            
+                                <a href="&#x2F;category&#x2F;this-week-in-matrix&#x2F;">TWIM</a>
+                            
+                                <a href="&#x2F;author&#x2F;">Authors</a>
+                            
+                                <a href="&#x2F;category&#x2F;">Categories</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+        
+        
+        
+            
+                <a href="&#x2F;docs&#x2F;" class="
+                    ">
+                    Docs
+                </a>
+            
+        
+        
+        
+        
+        
+        <div class="section-wrap">
+            <input id="ecosystem-submenu-checkbox" type="checkbox" class="submenu-checkbox" aria-hidden="true"
+                >
+            <label for="ecosystem-submenu-checkbox" class="submenu-title">
+            <a href="/ecosystem">
+                Ecosystem</a> <div class="arrow">
+                </div></label>
+
+            <div class="section-submenu-wrap">
+                <div class="section-submenu">
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;ecosystem&#x2F;clients&#x2F;">Clients</a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;ecosystem&#x2F;bridges&#x2F;">Bridges</a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;ecosystem&#x2F;hosting&#x2F;">Hosting</a>
+                    
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;ecosystem&#x2F;servers&#x2F;">Servers</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;ecosystem&#x2F;integrations&#x2F;">Integrations</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;ecosystem&#x2F;sdks&#x2F;">SDKs</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;ecosystem&#x2F;distributions&#x2F;">Distributions</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="section-wrap">
+            <input id="homeserver-submenu-checkbox" type="checkbox" class="submenu-checkbox" aria-hidden="true"
+                >
+            <label for="homeserver-submenu-checkbox" class="submenu-title">
+            <a href="/homeserver">
+                Homeserver</a> <div class="arrow">
+                </div></label>
+
+            <div class="section-submenu-wrap">
+                <div class="section-submenu">
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;homeserver&#x2F;about&#x2F;">The Matrix.org Homeserver</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;homeserver&#x2F;official&#x2F;">Matrix.org (Official Account)</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;homeserver&#x2F;pricing&#x2F;">Matrix.org Homeserver Pricing</a>
+                    
+                    
+                    
+                    
+                    <a href="&#x2F;homeserver&#x2F;room-directory&#x2F;">Matrix.org Room Directory</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+            
+                <a href="&#x2F;support" class="
+                    ">
+                    Support us
+                </a>
+            
+        
+        
+        
+            
+                <a href="&#x2F;try-matrix&#x2F;" class="primary
+                    ">
+                    Try Matrix
+                </a>
+            
+        
+        
+    </nav>
+</header>
+
+    
+
+<div id="information-banner">
+    <p>📺 Missed a talk at The Matrix Conference? <a href="https://conference.matrix.org/watch/">Watch the recordings now →</a></p>
+
+</div>
+
+
+    <main>
+        
+<article class="content post with-sidebar">
+    <header>
+        <h1>What will it take to build an open source Europe and how the Digital Commons EDIC can help</h1>
+        <span>
+            2026-10-14
+            
+            —
+            
+                <a href="/category/advocacy">Advocacy</a>, 
+                <a href="/category/eu">EU</a>
+            
+            —
+            
+                <a href="/author/amandine-le-pape">Amandine Le Pape</a>
+            
+        </span>
+        
+    </header>
+    <div class="post-main">
+        <div class="post-content">
+            <p>A few years ago, it would have been unthinkable that Governments could have dedicated open source and digital commons strategies championed by ministers. But that has changed profoundly: in June, the European Commission unveiled a European Tech Sovereignty Package, which identified some <a href="https://ec.europa.eu/commission/presscorner/api/files/attachment/882568/Factsheet%20Tech%20Sovereignty.pdf">€264 billion</a> spent annually on proprietary, non-European products and services as a strategic risk. The Matrix Foundation has been a driving force in this change. Last week, I was in Paris representing Matrix at <a href="https://docs.numerique.gouv.fr/docs/f810ea27-d9f2-4e27-89bc-7e2a6af08614/">an event hosted by the General Directorate for Enterprises</a> to discuss the vital role open source plays in Europe’s digital policy agenda. The event was opened by the French Minister Delegate for AI and Digital affairs Anne Le Henanff and the German State Secretary at the Federal Ministry for Digital Transformation and Government Modernisation (BMDS) Markus Richter. At the same time <a href="https://matrix.org/foundation/about/#the-staff-of-the-foundation">our Developer Relations lead, Andy Piper</a>, was in <a href="https://conference.opensource.lu/">Luxembourg</a> speaking on a panel with a new European body that grew out of the Tech Sovereignty Package: the <a href="https://digital-commons-edic.eu/">Digital Commons European Digital Infrastructure Consortium</a> (DC-EDIC).</p>
+<figure style="height:100%;">
+    <img src="&#x2F;blog&#x2F;img&#x2F;DC-EDIC.jpg" alt="French Minister Delegate Anne Le Henanff and German State Secretary Markus Richter are delivering their opening remarks on a stage in front of German, French, and European flags. There is a projection surface behind them with details about their person." />
+    <figcaption><p>The French and German ministers opened the DGE open source event.</p>
+</figcaption>
+</figure>
+<p>The DC-EDIC was created in December last year with the mission to “develop, maintain, and scale digital commons for Europe”. The finalisation of an <a href="https://digital-commons-edic.eu/news/2026-07-01-advisory-board-call-for-experts/">open call for expert advisors</a> completed the set-up of a first-of-its-kind governmental body that aims to strengthen European digital sovereignty by building, financing, and deploying open source infrastructure solutions. The DC-EDIC is an exciting opportunity for the whole of Europe to catalyse the use of digital commons and ensure the commons are sustainable.</p>
+<p>With 12 years under our belt spent building and maintaining Matrix as an open standard, taking it to the point where it serves as the backbone of communications for <a href="https://element.io/en/matrix-in-europe">millions of European civil servants</a>, we have built a strong understanding of the gaps in the market and ecosystem that hold back the sustainable use of digital commons. Here are our recommendations for how the DC-EDIC can maximise the impact of its <a href="https://digital-commons-edic.eu/about/">five goals</a>.</p>
+<span id="continue-reading"></span><h2 id="1-build-a-european-community"><a class="zola-anchor" href="#1-build-a-european-community" aria-label="Anchor link for: 1-build-a-european-community">🔗</a>1. Build a European community</h2>
+<p>The EDIC plans to build a thriving, trusted ecosystem of open source actors, collaborating with existing open source communities and ultimately “connect[ing] deployment experience with development priorities”. That covers sharing knowledge, promoting success stories, and favouring collaboration over duplication.</p>
+<p>Whilst open source communities are used to such collaborations, the intergovernmental status of the EDIC means it could go well beyond community management and take inspiration from intergovernmental bodies in other sectors. The World Health Organization (WHO), for example, makes it easier for UN procurement agencies to make choices aligned with its quality, safety and efficacy recommendations by maintaining a list of ‘<a href="https://www.who.int/tools/health-products-regulation-and-prequalification-learning-catalogue/prequalification">pre-qualified</a>’ medical products, as well as setting international norms and standards (such as on which medicines are ‘<a href="https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists">essential’</a> to a functioning health system). WHO also coordinates relevant actors for health emergencies, such as <a href="https://www.who.int/initiatives/international-pathogen-surveillance-network">disease outbreaks</a>; and provides <a href="https://apps.who.int/gb/gov/">forums</a> where governments and other stakeholders can seek consensus solutions for shared challenges.</p>
+<p>Now replace “health” with “digital sovereignty” in the paragraph above and see how, beyond ensuring that the EU Member States collaborate and share experiences, the DC-EDIC could become a place of:</p>
+<ol>
+<li>
+<p><strong>Guidance and trust</strong>, for example by providing the tools to make appropriate choices (think pre-qualification).</p>
+</li>
+<li>
+<p><strong>Standard setting</strong>, by promoting best practices including the convergence towards open standards (think essential medicines).</p>
+</li>
+<li>
+<p><strong>Coordination</strong>, in particular around problem solving and funding (think outbreak response and governance forums).</p>
+</li>
+</ol>
+<p>Here is how the EDIC could take on these roles.</p>
+<h3 id="1-1-build-a-trusted-ecosystem"><a class="zola-anchor" href="#1-1-build-a-trusted-ecosystem" aria-label="Anchor link for: 1-1-build-a-trusted-ecosystem">🔗</a>1.1 Build a trusted ecosystem</h3>
+<p>Just as WHO provides guidance on ‘essential’ medical products, the DC-EDIC could host an index of projects and vendors that shows how each project relates to its forks and successors, and celebrates those who contribute back. We actually worked with <a href="https://www.getgrist.com/">Grist</a> to put together a proof of concept of such an index which can be found <a href="https://docs.getgrist.com/qXyWFrZetxxB/Trusted-Vendor-Authority/p/8">here</a> and we called Trusted Vendor Authority (TVA).</p>
+<h3 id="1-2-support-the-independent-governance-of-digital-commons"><a class="zola-anchor" href="#1-2-support-the-independent-governance-of-digital-commons" aria-label="Anchor link for: 1-2-support-the-independent-governance-of-digital-commons">🔗</a>1.2 Support the independent governance of digital commons</h3>
+<p>True digital sovereignty benefits from an independently governed commons. There are different models for doing this, but non-profit foundations such as the <a href="https://www.python.org/psf-landing/">Python Software Foundation</a> and <a href="/">The Matrix.org Foundation</a> could provide a helpful starting point. These organisations provide administrative and governance support for their projects and protocol. The EDIC could:</p>
+<ul>
+<li>
+<p>Provide guidance to Member States’ procurement on integrating governance funding into their framework, or advise law makers on the importance of the same</p>
+</li>
+<li>
+<p>Create or support the creation of a home for essential but small open source projects that lack this kind of foundational oversight</p>
+</li>
+<li>
+<p>Provide guidance on best practice in open source governance</p>
+</li>
+<li>
+<p>Financially support the governance of projects which are key to Europe’s digital resilience</p>
+</li>
+</ul>
+<p>However, few users realise that this independence needs sustainable funding to last.</p>
+<h3 id="1-3-train-decision-makers-and-buyers-in-open-source-procurement"><a class="zola-anchor" href="#1-3-train-decision-makers-and-buyers-in-open-source-procurement" aria-label="Anchor link for: 1-3-train-decision-makers-and-buyers-in-open-source-procurement">🔗</a>1.3 Train decision makers and buyers in open source procurement</h3>
+<p>Procurement is one of the biggest hurdles the ecosystem faces: decision makers need to understand why open source matters, how to buy it, and why the best way to keep open source free is to financially support the upstream developers. The EDIC could become the reference source of guidance for different types of buyers, covering what open source brings to sovereignty, privacy and cost savings (backed by the evidence described below), and matching solutions with buyers’ needs.</p>
+<h3 id="1-4-identify-challenges-that-all-member-states-share"><a class="zola-anchor" href="#1-4-identify-challenges-that-all-member-states-share" aria-label="Anchor link for: 1-4-identify-challenges-that-all-member-states-share">🔗</a>1.4 Identify challenges that all Member States share</h3>
+<p>All Member States need to solve the same issues, which makes the DC-EDIC the obvious place to find joint solutions and fund them together (see pooled funding below).</p>
+<h2 id="2-open-access-to-funding"><a class="zola-anchor" href="#2-open-access-to-funding" aria-label="Anchor link for: 2-open-access-to-funding">🔗</a>2. Open access to funding</h2>
+<p>The institutions who can most benefit from switching their technology stack to free and open source software – governments, health insurers, civil society organizations – are often resource-constrained and might struggle with operational, cost, and expertise hurdles. The DC-EDIC can help in four ways:</p>
+<h3 id="2-1-fund-and-guide-migration-to-open-source"><a class="zola-anchor" href="#2-1-fund-and-guide-migration-to-open-source" aria-label="Anchor link for: 2-1-fund-and-guide-migration-to-open-source">🔗</a>2.1 Fund and guide migration to open source</h3>
+<p>The EDIC should provide operational guidance to organisations switching to open source and, through the <a href="https://digital-commons-edic.eu/projects/">European Sovereign Tech Fund (EU-STF)</a>, provide financial support or even seconded experts to help them migrate. The EU-STF is one of the first two projects tackled by the DC-EDIC and was kicked-off in June as a pilot.</p>
+<h3 id="2-2-fund-usability-security-and-compliance-so-digital-commons-can-scale"><a class="zola-anchor" href="#2-2-fund-usability-security-and-compliance-so-digital-commons-can-scale" aria-label="Anchor link for: 2-2-fund-usability-security-and-compliance-so-digital-commons-can-scale">🔗</a>2.2 Fund usability, security and compliance so digital commons can scale</h3>
+<p>Open source projects that fail to displace their vendor-locked equivalents usually stumble on the same hurdles: their usability cannot compete, or they cannot shoulder security and compliance requirements (CRA, accessibility, audits…). Promotion and ecosystem management matter too, but a user-friendly commons can grow organically without them, as VideoLAN’s VLC shows. Usability, security and compliance work could be funded by existing programmes, but it also fits squarely within the EU-STF and the DC-EDIC mission. On security, the EDIC could even play the role WHO’s pathogen surveillance network plays for outbreaks, coordinating how Member States spot and respond to vulnerabilities in the commons they share.</p>
+<h3 id="2-3-support-the-development-of-full-stack-solutions"><a class="zola-anchor" href="#2-3-support-the-development-of-full-stack-solutions" aria-label="Anchor link for: 2-3-support-the-development-of-full-stack-solutions">🔗</a>2.3 Support the development of full stack solutions</h3>
+<p>For most end-users, technology that works ‘out of the box’ lowers barriers to entry. France’s <a href="https://lasuite.numerique.gouv.fr/">LaSuite</a>, Germany’s <a href="https://www.opendesk.eu/en/product">OpenDesk</a> and the Netherlands’ MijnBureau, replacements for Microsoft 365 that use Matrix clients as their communications components, are good examples. The recent Horizon Europe calls on the creation of an Open Internet Stack will also help; the EDIC could use the European Sovereign Tech Fund to support the creation of similar projects.</p>
+<h3 id="2-4-pool-funding-across-member-states"><a class="zola-anchor" href="#2-4-pool-funding-across-member-states" aria-label="Anchor link for: 2-4-pool-funding-across-member-states">🔗</a>2.4 Pool funding across Member States</h3>
+<p>A true common is used across most of the Member States, which share similar needs, and may all want to fund its support or development. But no open source project can align the procurement processes of a dozen public administrations, in practice, it is lucky if funding from even one gets through. By acting as a crowdfunding platform for governments, the DC-EDIC could pool these resources.</p>
+<h2 id="3-sustain-the-components-everyone-depends-on"><a class="zola-anchor" href="#3-sustain-the-components-everyone-depends-on" aria-label="Anchor link for: 3-sustain-the-components-everyone-depends-on">🔗</a>3. Sustain the components everyone depends on</h2>
+<p>Open source infrastructure is, as the EDIC recognises, chronically underfunded. Just as WHO’s essential medicines list tells health systems what they cannot do without, the EDIC could list the digital commons Europe depends on and make sure they are funded. Beyond the governance support described above, it could tackle two additional challenges.</p>
+<h3 id="3-1-fund-guardianship"><a class="zola-anchor" href="#3-1-fund-guardianship" aria-label="Anchor link for: 3-1-fund-guardianship">🔗</a>3.1 Fund guardianship</h3>
+<p>Matrix is a good example to understand why this matters. It carries the communications of civil servants across Europe: in Germany, <a href="https://bundesmessenger.de/de/">BundesMessenger</a> and <a href="https://www.opendesk.eu/">openDesk</a> serve the public administration; in France, <a href="https://tchap.numerique.gouv.fr/">Tchap</a> has been mandatory for all civil servants since August 2025; Swedish agencies are <a href="https://www.esamverka.se/aktuellt/nyheter/nyheter/2026-05-22-federation-i-praktiken---nu-kopplas-myndigheters-chattar-ihop.html?ref=element.io">leveraging the interoperability of Matrix-based apps</a>; Belgium uses <a href="https://resiliencemedia.co/a-beam-of-light-for-eu-sovereignty-as-belgium-rolls-out-matrix-based-messaging-app-for-government/">BEAM</a>, Luxembourg (<a href="https://www.luxchat.lu/">LuxChat</a>), Poland (<a href="https://www.wojsko-polskie.pl/woc/articles/aktualnosci-w/nowy-komunikator-wojskowy/">Merkury 2.0</a>), and Austria’s healthcare system and Switzerland’s postal service rely on it too. All of them chose Matrix because, as an open standard, it breaks vendor lock-in. Yet only one government agency, France’s Directorate for Digital Affairs (DINUM), has joined The Matrix.org Foundation as a member to support the core specification all these national governments rely on, and only since October 2025. The DC-EDIC could close this funding gap by supporting the organisations that independently maintain specifications and protocols, promote them and keep their ecosystems diverse and alive: the backbone of any digital common.</p>
+<h3 id="3-2-help-digital-commons-become-financially-self-sufficient"><a class="zola-anchor" href="#3-2-help-digital-commons-become-financially-self-sufficient" aria-label="Anchor link for: 3-2-help-digital-commons-become-financially-self-sufficient">🔗</a>3.2 Help digital commons become financially self-sufficient</h3>
+<p>Most open source funding goes to new technology, yet maintaining what we already rely on matters at least as much. Funding maintenance work via grants can carry its own pitfalls: critical commons become dependent on the next round of applications to continue their work. The better goal is self-sufficiency: helping commons gather resources from their own users to fund maintenance and reduce their “bus factor” (the risk that a project stalls if a few key people leave). The EU-STF can target exactly that, for example by getting commons to set up a recurring revenue stream such as Foundation membership, alongside educating the industry on how to support the commons it uses.</p>
+<p>True digital sovereignty requires interoperability and independent standards. Those standards must be sustainably financed for both proper maintenance and continued independence.</p>
+<h2 id="4-bring-deployment-evidence-to-policymakers"><a class="zola-anchor" href="#4-bring-deployment-evidence-to-policymakers" aria-label="Anchor link for: 4-bring-deployment-evidence-to-policymakers">🔗</a>4. Bring deployment evidence to policymakers</h2>
+<p>The EDIC will support policymakers seeking to implement new regulation, or transition their operations to open source solutions. It can do this in four ways:</p>
+<h3 id="4-1-gather-deployment-data-across-member-states"><a class="zola-anchor" href="#4-1-gather-deployment-data-across-member-states" aria-label="Anchor link for: 4-1-gather-deployment-data-across-member-states">🔗</a>4.1 Gather deployment data across Member States</h3>
+<p>The DC-EDIC makes it easy for all the participating Member States to compare notes on which tools and technologies they use. Much as WHO’s Global Health Observatory turns national data into shared evidence, this data is gold dust for policymakers who need to see the reality on the ground.</p>
+<h3 id="4-2-commission-studies-on-the-real-cost-of-proprietary-software"><a class="zola-anchor" href="#4-2-commission-studies-on-the-real-cost-of-proprietary-software" aria-label="Anchor link for: 4-2-commission-studies-on-the-real-cost-of-proprietary-software">🔗</a>4.2 Commission studies on the real cost of proprietary software</h3>
+<p>Proprietary software is expensive, but exact figures on what EU governments spend are hard to come by. One indicative data point: the German federal government reportedly spent <a href="https://www.heise.de/en/background/Microsoft-Dependency-Federal-Government-Pays-near-500-Million-Euros-in-One-Year-11171050.html">€481.4 million on Microsoft services in 2025</a>. Evidence gathering that can identify more data points, offer a comparative analysis of long-term cost differences between using e.g. Microsoft Office vs OpenDesk (or other interchangeable tech stacks), and teasing out potential savings could help organisations make the decision to migrate or not. A calculator of migration costs and savings over time would be a useful tool for CFOs and policymakers.</p>
+<h3 id="4-3-publish-policy-briefs-on-privacy-and-security"><a class="zola-anchor" href="#4-3-publish-policy-briefs-on-privacy-and-security" aria-label="Anchor link for: 4-3-publish-policy-briefs-on-privacy-and-security">🔗</a>4.3 Publish policy briefs on privacy and security</h3>
+<p>Governments and regulated industries have a duty of care to safeguard the privacy and security of the data that they handle. Proprietary software solutions have not always held up their end of the bargain in meeting this duty. For example, in March 2024, the European Data Protection Supervisor found that the European Commission’s use of Microsoft 365 <a href="https://www.edps.europa.eu/system/files/2024-03/EDPS-2024-05-European-Commission_s-use-of-M365-infringes-data-protection-rules-for-EU-institutions-and-bodies_EN.pdf">infringes the EU Data protection law.</a> In early 2026, France <a href="https://www.politico.eu/article/france-ban-officials-us-video-tools-zoom-teams-visio/">banned</a> its civil servants from using Zoom, Google Meet, Microsoft Teams and other US based platforms, in the name of data sovereignty (as mentioned above, the use of Matrix-powered Tchap was already mandated). Plenty of data exists on privacy and security, but it is rarely accessible to non-experts. Short, clear policy briefs showing which solutions can guarantee security, compared with common proprietary alternatives, would offer both guidance and reassurance.</p>
+<h3 id="4-4-create-a-one-stop-clearing-house-for-essential-information"><a class="zola-anchor" href="#4-4-create-a-one-stop-clearing-house-for-essential-information" aria-label="Anchor link for: 4-4-create-a-one-stop-clearing-house-for-essential-information">🔗</a>4.4 Create a one-stop clearing house for essential information</h3>
+<p>This would bring together the trusted index of projects and vendors described above, information that helps bridge different solutions, and normative templates and other guidance documents (on migration, for example).</p>
+<h2 id="5-run-concrete-projects"><a class="zola-anchor" href="#5-run-concrete-projects" aria-label="Anchor link for: 5-run-concrete-projects">🔗</a>5. Run concrete projects</h2>
+<p>The DC-EDIC plans to run 100-Day Challenges that produce working open source software. This is exciting and needed. We suggest that in addition to software development projects, the EDIC runs concrete, time-bound projects to address some of the contextual pieces needed, as mentioned above: pricing studies, policy briefs, the trusted index of projects and vendors, and the list of essential digital commons that should get maintenance support. New software matters, but where the EDIC can play a pivotal role is the context around that software: governance, expertise, and guidance for adoption.</p>
+<h2 id="why-the-dc-edic-should-act-as-a-beacon-not-a-software-producer"><a class="zola-anchor" href="#why-the-dc-edic-should-act-as-a-beacon-not-a-software-producer" aria-label="Anchor link for: why-the-dc-edic-should-act-as-a-beacon-not-a-software-producer">🔗</a>Why the DC-EDIC should act as a beacon, not a software producer</h2>
+<p>The DC-EDIC's unique value-add is in governance, not in software production. It has the power to convene the organisations with shared needs, and distil them for the benefit of the open source community.</p>
+<p>Europe already has plenty of talented open source builders, what the EDIC can uniquely do is act like a reference point, taking on the unglamorous work that keeps everyone’s lights on. WHO does not manufacture medicines; but it provides guidance on which ones are essential, and where they can be sourced from trusted manufacturers. The DC-EDIC can do the same for digital commons: help Europe choose with confidence, set the standards worth converging on, coordinate when problems are shared, and fund the components we all depend on.</p>
+<p>Matrix’s journey from a small open standard to the backbone of government communications across Europe shows both how far digital commons can go and how fragile they remain when nobody funds their guardians. The DC-EDIC is the best chance yet to change that, and The Matrix.org Foundation is looking forward to helping.</p>
+<p>In the meantime, <a href="https://conference.matrix.org">The Matrix Conference</a> next week (20-23 October 2026) will be a great demonstration of how far the project has come: all stakeholders in the ecosystem will be gathered in Malmö, Sweden, to show off their work, share knowledge and collaborate. The conference features no less than <a href="https://conference.matrix.org/schedule/">two full days focused on the public sector Matrix ecosystem</a>. NATO, the UN, the European Commission, as well as representatives of the majority of the countries running Matrix, which were mentioned above, will make it on stage to share more about their deployments. The Matrix Conference is the main event for the Matrix ecosystem and we are looking forward to seeing both new and old friends there! <a href="https://conference.matrix.org/register/">A few tickets are still available</a> but hurry before they run out!</p>
+
+            <div class="callout">
+                <div class="left-col">
+                    <h2>The Foundation needs you</h2>
+                </div>
+                <div class="right-col">
+                    <p>
+                        The Matrix.org Foundation is a non-profit and only relies
+                        on donations to operate. Its core mission is to maintain
+                        the Matrix Specification, but it does much more than that.
+                    </p>
+                    <p>
+                        It maintains the matrix.org homeserver and hosts several
+                        bridges for free. It fights for our collective rights to
+                        digital privacy and dignity.
+                    </p>
+                    <a class="call-to-action plausible-event-name=BlogPostCtaSupportUs" href="/support">Support us</a>
+                </div>
+            </div>
+        </div>
+        
+        <aside>
+            <h3>Post Contents</h3>
+
+            <ul style="list-style: none; padding-left: 0px;">
+                
+                <li>
+                    <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#1-build-a-european-community">1. Build a European community</a>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#1-1-build-a-trusted-ecosystem">1.1 Build a trusted ecosystem</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#1-2-support-the-independent-governance-of-digital-commons">1.2 Support the independent governance of digital commons</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#1-3-train-decision-makers-and-buyers-in-open-source-procurement">1.3 Train decision makers and buyers in open source procurement</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#1-4-identify-challenges-that-all-member-states-share">1.4 Identify challenges that all Member States share</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#2-open-access-to-funding">2. Open access to funding</a>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#2-1-fund-and-guide-migration-to-open-source">2.1 Fund and guide migration to open source</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#2-2-fund-usability-security-and-compliance-so-digital-commons-can-scale">2.2 Fund usability, security and compliance so digital commons can scale</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#2-3-support-the-development-of-full-stack-solutions">2.3 Support the development of full stack solutions</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#2-4-pool-funding-across-member-states">2.4 Pool funding across Member States</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#3-sustain-the-components-everyone-depends-on">3. Sustain the components everyone depends on</a>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#3-1-fund-guardianship">3.1 Fund guardianship</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#3-2-help-digital-commons-become-financially-self-sufficient">3.2 Help digital commons become financially self-sufficient</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#4-bring-deployment-evidence-to-policymakers">4. Bring deployment evidence to policymakers</a>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#4-1-gather-deployment-data-across-member-states">4.1 Gather deployment data across Member States</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#4-2-commission-studies-on-the-real-cost-of-proprietary-software">4.2 Commission studies on the real cost of proprietary software</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#4-3-publish-policy-briefs-on-privacy-and-security">4.3 Publish policy briefs on privacy and security</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#4-4-create-a-one-stop-clearing-house-for-essential-information">4.4 Create a one-stop clearing house for essential information</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#5-run-concrete-projects">5. Run concrete projects</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://matrix.org/blog/2026/10/14/build-open-source-europe-how-dc-edic-help/#why-the-dc-edic-should-act-as-a-beacon-not-a-software-producer">Why the DC-EDIC should act as a beacon, not a software producer</a>
+                    
+                </li>
+                
+            </ul>
+        </aside>
+        
+    </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="internal-links">
+        
+        <a href="&#x2F;support" >Donate</a>
+        
+        <a href="https:&#x2F;&#x2F;shop.matrix.org" >Shop</a>
+        
+        <a href="&#x2F;branding" >Branding</a>
+        
+        <a href="&#x2F;security-disclosure-policy" >Security Disclosure Policy</a>
+        
+        <a href="&#x2F;security-hall-of-fame" >Security Hall of Fame</a>
+        
+        <a href="&#x2F;legal&#x2F;code-of-conduct" >Code of Conduct</a>
+        
+        <a href="&#x2F;legal" >Legal</a>
+        
+        <a href="&#x2F;legal&#x2F;law-enforcement-guidelines" >Law Enforcement Guidelines</a>
+        
+        <a href="&#x2F;contact" >Contact</a>
+        
+        <a href="https:&#x2F;&#x2F;status.matrix.org" >Matrix.org Status</a>
+        
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;matrix-org&#x2F;matrix.org&#x2F;" >Site Source</a>
+        
+        <a href="&#x2F;jobs" >Jobs</a>
+        
+    </div>
+    <div class="external-links">
+        
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;matrix-org" target="_blank"  aria-label="Matrix on GitHub"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span></a>
+        
+        <a href="https:&#x2F;&#x2F;gitlab.matrix.org&#x2F;" target="_blank"  aria-label="Matrix on GitLab"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="m23.955 13.587-1.342-4.135-2.664-8.189a.456.456 0 0 0-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587a.925.925 0 0 0 .331 1.023L12 23.054l11.625-8.443a.923.923 0 0 0 .33-1.024"/></svg></span></a>
+        
+        <a href="https:&#x2F;&#x2F;mastodon.matrix.org&#x2F;@matrix" target="_blank" rel="me" aria-label="Matrix on Mastodon"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="M23.349 5.314C22.997 2.735 20.713.703 18.007.309 17.55.242 15.82 0 11.811 0h-.03C7.772 0 6.912.242 6.455.309 3.824.691 1.421 2.518.837 5.127.557 6.412.527 7.836.579 9.143c.074 1.874.089 3.745.262 5.611.119 1.241.328 2.471.624 3.681.554 2.236 2.797 4.097 4.996 4.856 2.356.792 4.884.923 7.309.38.267-.061.531-.132.792-.213.588-.184 1.279-.391 1.787-.753a.06.06 0 0 0 .023-.043v-1.809a.054.054 0 0 0-.067-.051 20.576 20.576 0 0 1-4.743.545c-2.749 0-3.488-1.283-3.7-1.818a5.544 5.544 0 0 1-.322-1.433.054.054 0 0 1 .02-.044.056.056 0 0 1 .047-.01c1.529.363 3.094.546 4.665.546.379 0 .755 0 1.133-.01 1.581-.044 3.247-.123 4.802-.422.039-.008.078-.014.111-.024 2.453-.464 4.788-1.919 5.025-5.604.009-.145.031-1.519.031-1.67.001-.511.167-3.629-.025-5.545v.001Zm-3.775 9.194h-2.58V8.29c0-1.309-.554-1.976-1.681-1.976-1.24 0-1.86.79-1.86 2.349v3.404h-2.564V8.663c0-1.559-.622-2.349-1.861-2.349-1.121 0-1.681.667-1.682 1.976v6.218H4.769V8.101c0-1.309.34-2.349 1.019-3.119.7-.769 1.619-1.164 2.76-1.164 1.32 0 2.318.5 2.983 1.498l.642 1.06.642-1.06c.665-.998 1.663-1.498 2.981-1.498 1.139 0 2.059.395 2.761 1.164.68.77 1.019 1.81 1.019 3.119l-.002 6.407Z"/></svg></span></a>
+        
+        <a href="https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;matrix.org" target="_blank"  aria-label="Matrix on BlueSky"><span aria-hidden="true"><!-- This icon originated from https://commons.wikimedia.org/wiki/File:Bluesky_Logo.svg -->
+<svg viewBox="0 0 27 24" width="27px" height="24px" xmlns="http://www.w3.org/2000/svg"><path d="m5.8526 1.6155c3.0955 2.3461 6.425 7.103 7.6475 9.6558 1.2225-2.5526 4.5519-7.3098 7.6475-9.6558 2.2335-1.6928 5.8524-3.0027 5.8524 1.1653 0 0.8324-0.47273 6.9926-0.74999 7.9926-0.96376 3.477-4.4756 4.3638-7.5995 3.827 5.4605 0.93823 6.8496 4.046 3.8497 7.1537-5.6974 5.9022-8.1889-1.4809-8.8276-3.3727-0.11703-0.34682-0.17179-0.50906-0.1726-0.3711-8.1e-4 -0.13797-0.05557 0.02428-0.1726 0.3711-0.63841 1.8918-3.1298 9.2752-8.8276 3.3727-3-3.1078-1.6109-6.2157 3.8497-7.1537-3.124 0.53674-6.6359-0.35008-7.5995-3.827-0.27727-1.0002-0.74999-7.1603-0.74999-7.9926 0-4.1679 3.619-2.8581 5.8524-1.1653z" fill="currentColor"/></svg>
+</span></a>
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;matrix-org&#x2F;" target="_blank"  aria-label="Matrix on LinkedIn"><span aria-hidden="true"><!-- This icon originated from https://fontawesome.com/icons/linkedin -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 640 640">
+<path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z" fill="currentColor" /></svg>
+</span></a>
+        
+        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCVFkW-chclhuyYRbmmfwt6w" target="_blank"  aria-label="Matrix on YouTube"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.206a3.009 3.009 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.005 3.005 0 0 0 .527 6.206a31.127 31.127 0 0 0-.522 5.805c-.006 1.94.169 3.876.522 5.783a3.009 3.009 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.013 3.013 0 0 0 2.088-2.088c.346-1.908.513-3.844.5-5.783a31.292 31.292 0 0 0-.5-5.805ZM9.609 15.602V8.409l6.264 3.602-6.264 3.591Z"/></svg></span></a>
+        
+        <a href="&#x2F;atom.xml" target="_blank"  aria-label="Matrix Atom Feed"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor"><path d="M0 1.5C0 .677.677 0 1.5 0 13.926 0 24 10.074 24 22.5c0 .823-.677 1.5-1.5 1.5s-1.5-.677-1.5-1.5C21 11.73 12.27 3 1.5 3 .677 3 0 2.323 0 1.5ZM0 9c0-.823.677-1.5 1.5-1.5 8.285 0 15 6.716 15 15 0 .823-.677 1.5-1.5 1.5s-1.5-.677-1.5-1.5c0-6.583-5.417-12-12-12C.677 10.5 0 9.823 0 9Zm3.75 15a3.768 3.768 0 0 0 3.75-3.75 3.768 3.768 0 0 0-3.75-3.75A3.768 3.768 0 0 0 0 20.25 3.768 3.768 0 0 0 3.75 24Z" /></svg></span></a>
+        
+    </div>
+    <div class="subfooter-links">
+        
+        <a href="&#x2F;legal&#x2F;copyright-notice" >Copyright Notice</a>
+        
+    </div>
+</footer>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5420eddbf98034a',t:'MTc5MzYxMTE3MQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5420eddbf98034a',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
