@@ -28,7 +28,7 @@ The observatory follows two linked methodologies:
 | Synthesiser and verifier | Claude (Anthropic) | Plans research, reads primary sources, synthesises, checks other models' claims against archived sources | Accept its own unsourced claims |
 | Chinese-index searcher | Qwen (Alibaba Cloud) with web search; Kimi (Moonshot) as alternative | Searches Chinese web indexes (.gov.cn, WeChat, Baidu) and returns candidate sources | Count as evidence by itself |
 | Counter-reviewer (CN) | DeepSeek; Qwen without search | Reviews completeness and framing from a Chinese-language perspective; flags missing initiatives, wrong terms, misreadings | Act as a neutral fact-checker (it follows domestic content rules) |
-| Counter-reviewer (West) | A second Western model (e.g. Claude in a separate session, blind to the first answer) | Independent second reading of high-stakes claims | — |
+| Counter-reviewer (West) | ChatGPT (Plus plan, web chat) | Independent second reading of high-stakes claims | — |
 | Native reviewers | Human Chinese and European experts (volunteers or partners) | Validate translation, terminology, cultural fit and interpretation of Chinese policy texts | — |
 | Domain reviewers | Academics, practitioners | Review the rubric, scores and white paper | — |
 | Translator | Local CPU model (EuroLLM-9B / Opus-MT) | Translates approved EN text into EU languages | Translate unapproved drafts |
@@ -177,7 +177,7 @@ Every format links one level deeper.
 - [ ] Message testing with real audiences
 
 ## Annex — Using Chinese models without an API (decided 4 Nov 2026)
-- **Access:** only the consumer web chats, **Qwen Chat** (chat.qwen.ai) and **DeepSeek** (chat.deepseek.com). Both offer a web-search option that reaches Chinese indexes. Fabio logs in himself in the browser.
+- **Access:** only the consumer web chats, **Qwen Chat** (chat.qwen.ai) and **DeepSeek** (chat.deepseek.com) on free plans, plus **ChatGPT** (Plus plan) as the Western counter-reviewer. Both offer a web-search option that reaches Chinese indexes. Fabio logs in himself in the browser.
 - **Operation:** low-volume, human-paced sessions. Claude drives the logged-in browser (Claude in Chrome or the in-app browser), pastes a protocol prompt, and saves question and answer to `reviews/<model>-<date>-<task>.md`. No bulk automation, no scraping, and the terms of service of each service are respected. If a service forbids automated use, Fabio pastes the prompts himself and Claude only prepares and archives them.
 - **Reproducibility under this constraint:** the API parameters (version, temperature) are not available. Each run therefore records:
   - the model name shown in the interface

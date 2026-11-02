@@ -48,7 +48,7 @@
 | GitHub repo | Push, Pages, publication |
 | Dedicated server account | Move jobs: archive, weekly monitoring, token ledger, CPU translation |
 | China VPN | 8 resources in docs/CN-VPN-QUEUE.md (Shanghai declaration, 15th Five-Year Plan, Chongqing…) |
-| Qwen + DeepSeek accounts (chat) | 3-task pilot of Chinese cross-checking |
+| ~~Qwen + DeepSeek + ChatGPT accounts~~ ✓ logged in on Chrome (4 Nov) | Cross-validation starts at gate A |
 | Register eu-china-commons.eu | EU registrant |
 | Public email; native ZH reviewer; Chinese partner for WeChat | Contacts, ZH quality, Chinese channels |
 

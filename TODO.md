@@ -99,3 +99,11 @@ Research method and dissemination method are both deliverables, to be published 
 - [ ] Only official organisational channels (no private personal data) — GDPR
 - [ ] Invitation text EN + ZH (after gate B, when the site is published)
 - [ ] First wave of ~30 invitations, **each send approved by Fabio**; track responses in a private repo (not the public one)
+
+## Cross-validation with external LLMs (ChatGPT, DeepSeek, Qwen) — added 4 Nov 2026
+Fabio is logged in on Chrome to all three. ChatGPT Plus (€20/month), DeepSeek and Qwen on free plans: **stay within the free plans** for DeepSeek and Qwen.
+- **Trigger:** start ONLY once gate A is met (Claude-side research at a good quality level). Not before.
+- [ ] Protocols in protocols/ (prompts EN + ZH, identical across the three models, blind)
+- [ ] Rounds spread over time: at most a few sessions per day per service, staying within the free-plan limits
+- [ ] Tasks: (1) Chinese-index searches (Shanghai declaration, 15th Five-Year Plan, missing initiatives); (2) completeness check of registry + catalogue; (3) review of the analyses (REVIEW-DRAFT, MULTILEVEL) and scores; (4) ZH text and Chinese name
+- [ ] Every run archived in reviews/ + data/llm-runs.tsv; disagreements → decision log
