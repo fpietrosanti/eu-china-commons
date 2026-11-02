@@ -93,3 +93,9 @@ Research method and dissemination method are both deliverables, to be published 
 - [ ] Set up protocols/, reviews/, data/llm-runs.tsv, docs/MODEL-CARDS-USED.md, decision log docs/REGISTRO.md
 - [ ] Kappa on the first scoring round (humans + models)
 - [ ] Message testing with real audiences, EU and CN
+
+## Stakeholder map and invitations — added 4 Nov 2026
+- [ ] Stakeholder map EU + CN (data/stakeholders.json, docs/STAKEHOLDERS.md), in progress: EU institutions, 27 member states, regions, China central, provinces, foundations/communities, companies, academia, diplomacy
+- [ ] Only official organisational channels (no private personal data) — GDPR
+- [ ] Invitation text EN + ZH (after gate B, when the site is published)
+- [ ] First wave of ~30 invitations, **each send approved by Fabio**; track responses in a private repo (not the public one)
