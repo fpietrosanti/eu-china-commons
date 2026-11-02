@@ -543,5 +543,37 @@
     "status": "verified",
     "evidence": "A",
     "note": "Round 5. Lead from Qwen (reviews/2026-11-02_qwen_cn-pa-oss-cases.md), verified by Claude by downloading the PDF and reading the text (line: openEuler-20.03（64 位）(默认)). First documented case of a named Chinese government platform defaulting to UPSTREAM openEuler."
+  },
+  {
+    "id": "cn-yancheng-egov-cloud-openeuler",
+    "side": "CN",
+    "category": "pa-reuse",
+    "title": "Yancheng (Jiangsu) e-government cloud offers openEuler to municipal projects",
+    "summary": "Correction notice (3) of the Yancheng municipal social-governance command platform phase II procurement, published by the Yancheng Finance Bureau on 4 Mar 2026: OS and DB for domestic adaptation are requested from the data department and provided by the Yancheng e-government cloud; OS options are HuaweiCloudEulerOS, Ubuntu, openEuler. Fact: openEuler is an offered OS of a municipal government cloud used by a named project.",
+    "since": "by Mar 2026",
+    "scale": "municipal government cloud",
+    "sources": [
+      "https://czj.yancheng.gov.cn/art/2026/3/4/art_20148_25314.html"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "gate_a_counts": true,
+    "note": "Round 5b. Lead from Qwen, verified by Claude (page text read)."
+  },
+  {
+    "id": "cn-jinan-egov-cloud-openeuler",
+    "side": "CN",
+    "category": "pa-reuse",
+    "title": "Jinan e-government cloud price list includes open-source OS (Ubuntu / openEuler / Anolis)",
+    "summary": "Jinan Big Data Bureau 2024 departmental final accounts (PDF on jndsj.jinan.gov.cn, Jan 2026 upload): the e-government cloud service price list has a line \"开源操作系统 Ubuntu/open 欧拉/龙蜥等, 套*月, 64位\" at 28.26 yuan per set-month, next to Windows Server at 60.56. Fact: the municipal government cloud bills open-source OS (incl. openEuler) as a standard service, at under half the Windows price.",
+    "since": "2024 (accounts year)",
+    "scale": "municipal government cloud",
+    "sources": [
+      "https://jndsj.jinan.gov.cn/cms_files/complat3/48720/attach/20261/4fb4517a1db8410d90a79f53248d7e1a.pdf"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "gate_a_counts": true,
+    "note": "Round 5b. Lead from Qwen, verified by Claude (pdftotext). Also a cost data point: open-source OS 28.26 vs Windows Server 60.56 yuan/set-month."
   }
 ]

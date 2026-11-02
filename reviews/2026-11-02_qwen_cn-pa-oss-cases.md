@@ -15,3 +15,10 @@ Unverified LLM output — leads to check (URLs as given by Qwen):
 
 Code-sharing platform: none national equivalent to code.europa.eu (agrees with DeepSeek). Mentions MIIT selecting Gitee (2020) as independent code hosting; local public-data/API open platforms; internal GitLab-type platforms on e-gov extranet, not public; Beijing/Shanghai open-source plans support hosting platforms.
 Synthesis claim: server side (e-gov cloud) openEuler penetration documented by procurement; terminal side OpenHarmony mostly labs/demos.
+
+## Follow-up: other government clouds listing openEuler / OpenHarmony / openKylin (same chat)
+Qwen returned 6 leads (4 URLs extracted). Claude verification:
+- Yancheng e-gov cloud (czj.yancheng.gov.cn, 4 Mar 2026): "操作系统选项有HuaweiCloudEulerOS、Ubuntu、openEuler" — **VERIFIED, A**
+- Jinan Big Data Bureau 2024 final accounts PDF: "开源操作系统 Ubuntu/open 欧拉/龙蜥等" 28.26 yuan/set-month vs Windows 60.56 — **VERIFIED, A**
+- Hulunbuir contract PDF: Qwen quotes "华为欧拉"; our pdftotext found no text layer → OCR pending
+- Xuancheng trading-centre attachment: generic download endpoint, not checkable
