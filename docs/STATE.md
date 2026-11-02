@@ -20,6 +20,7 @@
 | 4 Nov | Source archive: **all copies public** in the repo (Fabio), including third-party sources, with attribution and original link
 | 4 Nov | Research and dissemination methodology is itself a deliverable; Chinese LLMs (Qwen, DeepSeek) **through subscription chat only, no API** |
 | 2 Nov | **PA-reuse counts open source only**: HarmonyOS deployments are context, not reuse. The scarcity of documented open-source PA deployments in China is itself a finding |
+| 2 Nov | **Scope widened**: besides PA reuse, track the building of **open-source stacks for each side's own industry** (OS, cloud, automotive/IoT, chips/RISC-V, AI open-weight models, dev platforms). New catalogue category `industrial-stack` |
 
 ## 3. Gate A — progress
 | Criterion | Target | Now |

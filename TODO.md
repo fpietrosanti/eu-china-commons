@@ -23,6 +23,7 @@ The v0.1 site already online locally stays **frozen as a placeholder**. It is no
 - [ ] Original texts of the key Chinese documents fetched (Section B of docs/CN-VPN-QUEUE.md)
 - [ ] Systematic literature review including academic databases and CNKI
 - [ ] At least 3 "bridge opportunities" checked with sources on both sides
+- [ ] ≥ 8 verified industrial open-source stack cases per side (added 2 Nov)
 
 ---
 
@@ -107,3 +108,11 @@ Fabio is logged in on Chrome to all three. ChatGPT Plus (€20/month), DeepSeek 
 - [ ] Rounds spread over time: at most a few sessions per day per service, staying within the free-plan limits
 - [ ] Tasks: (1) Chinese-index searches (Shanghai declaration, 15th Five-Year Plan, missing initiatives); (2) completeness check of registry + catalogue; (3) review of the analyses (REVIEW-DRAFT, MULTILEVEL) and scores; (4) ZH text and Chinese name
 - [ ] Every run archived in reviews/ + data/llm-runs.tsv; disagreements → decision log
+
+## Industrial open-source stacks — added 2 Nov 2026 (Fabio)
+PA reuse is not the only goal: also map how each side builds open-source stacks for its own industry.
+- [ ] Catalogue category `industrial-stack`, ≥ 8 verified cases per side (OS/cloud, automotive/IoT, RISC-V, AI open-weight, dev platforms, data spaces)
+- [ ] For each: governance (foundation, company, state), funding, industrial adoption figures, licence, openness to the other side's contributors
+- [ ] Complementarity matrix EU ↔ CN by layer (where stacks overlap, compete, or could interoperate)
+- [ ] Add to gate A: ≥ 8 verified industrial-stack cases per side
+- [ ] Targeted LLM questions (Qwen/DeepSeek for CN industrial adoption data; ChatGPT for EU)
