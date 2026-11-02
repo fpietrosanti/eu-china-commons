@@ -52,3 +52,9 @@ Goal: fifth verified Chinese public-sector case; raise registry evidence. Labels
 - **Access:** all .gov.cn pages fetched directly; nothing added to cn_vpn_needed.txt. EUR-Lex (CELEX 32024R0903, 32024R2847) returns empty to this host, so EU-07 stays secondary and EU-09's application dates stay secondary.
 - **Registry upgrades to primary (14):** EU-02, EU-03, EU-04 (Commission strategy page), EU-08 (NLnet), EU-09, EU-13 (Commission), EUN-FR-01 (La Suite), EUN-DE-01 (DRV release), EUN-DE-04 (state press releases, seen via search summary), EUN-NL-02, EUN-DK-01, EUN-ES-01, EUN-PL-01 (OSOR = Commission), CNP-GD. Added 6: CNP-GZ-01, CNP-GD-02, CNP-GZ-02, EUN-DE-05, EUN-DE-06, EUN-DK-02. Registry: 62, 41 primary (66%).
 - Danish correction: the ministry pilot (19 Jun 2025, Collabora in F2 for a group of staff) is a pilot, not a full exit from Microsoft.
+
+## Round 5 (2 Nov 2026) — leads from Chinese LLMs, verified by Claude
+- Asked DeepSeek and Qwen (free web chat, ZH prompt) for Chinese PA deployments; archived in reviews/.
+- DeepSeek: no qualifying case; explains that bodies deploy commercial distributions (Kylin, UOS) and pages name those, not upstream.
+- Qwen: 7 leads. **Verified: Fujian provincial e-government cloud lists openEuler-20.03 as default OS** (official PDF, 9 May 2025) → added as `cn-fujian-egov-cloud-openeuler`, evidence A. This is the 5th CN case and the first DEPLOYED-infrastructure case naming upstream openEuler.
+- Hulunbuir e-gov cloud contract (11 MB scanned PDF, no text layer): downloaded, OCR pending. Baiyun district (Guangzhou): HarmonyOS city plan, press-release level → plan. Tianjin openKylin 3.0: a release, not a deployment. Longhua (Shenzhen): unreachable → VPN queue.

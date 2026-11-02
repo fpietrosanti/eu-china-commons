@@ -1,1 +1,3 @@
 date	model_shown	service	search	task	prompt_file	output_file	notes
+2026-11-02	DeepSeek (web, free)	chat.deepseek.com	on	CN PA OSS deployments + code-sharing platform	inline ZH	reviews/2026-11-02_deepseek_cn-pa-oss-cases.md	no case found; Kylin/UOS hypothesis
+2026-11-02	Qwen (web, free)	chat.qwen.ai	auto	CN PA OSS deployments + code-sharing platform	inline ZH	reviews/2026-11-02_qwen_cn-pa-oss-cases.md	7 leads, 2 new openEuler e-gov cloud leads
