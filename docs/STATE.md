@@ -23,11 +23,11 @@
 ## 3. Gate A — progress
 | Criterion | Target | Now |
 |---|---|---|
-| Registry initiatives | ≥ 60, ≥ 60% primary | **62**, 41 primary (66%) ✓ |
-| Verified PA-reuse cases | ≥ 5 per side | **EU 8 ✓**, CN 4 plans + 2 HarmonyOS deployments (Guangdong Yue Zhengyi, Guangzhou Sui Hao Ban; open-source link inferred) |
+| Registry initiatives | ≥ 60, ≥ 60% primary | **62, 41 primary (66%) ✓** |
+| Verified PA-reuse cases | ≥ 5 per side | **EU 8 ✓**, **CN 5 deployed/default + plans** (Fujian e-gov cloud openEuler default, A, 2 Nov; Yue Zhengyi, Sui Hao Ban on HarmonyOS; Longgang lab; plus plans). Pending Fabio: whether HarmonyOS counts |
 | Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
-| Verified bridge opportunities | ≥ 3 | 12 proposed, 0 verified on both sides |
+| Verified bridge opportunities | ≥ 3 | **2 verified** both sides (Eclipse–OpenAtom sister projects, latest 26 Mar 2026; EU–China High-Level Digital Dialogue channel), 2 partial (EPL-2.0 ZH translation, OpenChain–openEuler). See reviews/2026-11-02_chatgpt_bridges.md |
 
 **Registry by level and evidence:**
 
@@ -81,3 +81,9 @@
 - House Select Committee letter (Jun 2025) on Eclipse–OpenAtom: we must answer it in the white paper.
 - Novelty: don't claim to be "first on complementarity" (Huawei/Bitergia keynote, Aug 2025).
 - Chinese figures are announced envelopes, not proven spending.
+
+## 9. Iterative LLM research (started 2 Nov, Fabio: "don't wait for the big review")
+Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every run in reviews/ + data/llm-runs.tsv; every lead re-verified by Claude before use.
+- Run 1 (2 Nov): DeepSeek + Qwen on Chinese PA deployments → Fujian e-gov cloud openEuler default (verified, A). ChatGPT on bridges → 2 verified, 2 partial, 1 rejected (off-topic Horizon project marked "yes" by ChatGPT).
+- Lessons: DeepSeek free loses "Search" on follow-ups; LLM "verified" flags are unreliable; Chinese LLMs are better than Western ones at finding .gov.cn documents.
+- Next questions: EU-side source for EPL-2.0 translation; OCR of the Hulunbuir e-gov cloud contract; openEuler OSV list as bridge evidence for Kylin/UOS; third bridge (e.g. OW2/OpenInfra with Chinese members, OpenHarmony–Oniro compatibility).

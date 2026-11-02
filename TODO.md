@@ -102,7 +102,7 @@ Research method and dissemination method are both deliverables, to be published 
 
 ## Cross-validation with external LLMs (ChatGPT, DeepSeek, Qwen) — added 4 Nov 2026
 Fabio is logged in on Chrome to all three. ChatGPT Plus (€20/month), DeepSeek and Qwen on free plans: **stay within the free plans** for DeepSeek and Qwen.
-- **Trigger:** start ONLY once gate A is met (Claude-side research at a good quality level). Not before.
+- **Trigger:** the full blind cross-validation round starts at gate A. **Since 2 Nov (Fabio): targeted, iterative questions to all three are allowed now**, logged in reviews/ and llm-runs.tsv, leads always re-verified by Claude.
 - [ ] Protocols in protocols/ (prompts EN + ZH, identical across the three models, blind)
 - [ ] Rounds spread over time: at most a few sessions per day per service, staying within the free-plan limits
 - [ ] Tasks: (1) Chinese-index searches (Shanghai declaration, 15th Five-Year Plan, missing initiatives); (2) completeness check of registry + catalogue; (3) review of the analyses (REVIEW-DRAFT, MULTILEVEL) and scores; (4) ZH text and Chinese name
