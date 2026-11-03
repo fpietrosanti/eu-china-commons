@@ -94,3 +94,11 @@ Each line of research is a **branch** that stays open over time. An entry record
 
 ## Chapter closures
 - **Funding (R12–R15) → docs/FUNDING-CHAPTER.md v1.0, 3 Nov 2026.**
+
+## Round 3 Nov 2026 (evening) — free-tier harvest, Qwen + DeepSeek (Fabio: "keep them working until the free tier ends")
+- **R12:** first Chinese award-stage records (D, verification blocked): Shenzhen 2024 batch 2 重大开源项目 拟资助 4 projects **¥8.32M** (gxj.sz.gov.cn ⊘ TLS); Hangzhou Xihu AI-open-source-community compute voucher to 通义云启 **¥26.85M** (WeChat relay only); Guangdong 2026 OpenHarmony adaptation centre ¥10M to 科学城（广州）数字科技集团 (relay mziit.com fetched, B pending table check). ✖ Wuhan East Lake; ✖ Shanghai AI open-source award list not public; ✖ Shenzhen 2025–26 results not yet published. New instrument type to model: **OSS-community compute vouchers** (R13).
+- **R11:** ✖ OpenAtom 2024–25 financials still unpublished; 2026 new platinum/gold donors listed (D).
+- **R09:** Gitee GVP 466+, AtomGit G-Star 1,111 joined / 577 graduated (C, self-reported).
+- **R10:** COSCon 2016 slogan conflict (DeepSeek "天下开源是一家、社区携手迸火花" vs Qwen "源力觉醒") → both D; 2017 Shanghai SJTU 18–19 Nov; annual report URLs 2022–25 collected.
+- **R04:** ✖ OpenHarmony water terminals (Qwen withdrew its lead); Fengxian tender verified on PDF but openEuler only in antivirus compatibility → context; Pingli: compatibility clause → context. Lesson added: compatibility ≠ adoption.
+- **R16:** Qwen search stalls → "Salta" after ~60 s forces an answer. Neither free tier hit a limit in 10 prompts; harvest continues in the daily task.

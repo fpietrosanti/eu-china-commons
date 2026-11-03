@@ -11,3 +11,12 @@ date	model_shown	service	search	task	prompt_file	output_file	notes
 2026-11-02	DeepSeek (web, free)	chat.deepseek.com	on	CN-side sources Catena-X cooperation	inline ZH	reviews/2026-11-02_deepseek_caam-catenax-cn-side.md	2 CAAM pages verified A; 3rd bridge
 2026-11-03	DeepSeek (web, free)	chat.deepseek.com	on	OpenAtom annual reports + Gitee/AtomGit figures	inline ZH	reviews/2026-11-03_deepseek_openatom-platforms.md	claims D pending verification; no financial figures found
 2026-11-03	Qwen (web, free)	chat.qwen.ai	on	COSCon themes 2016-2025	inline ZH	reviews/2026-11-03_qwen_coscon-themes.md	2018 theme verified A; 2016-17 D
+2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	CN award notices OSS funds (R12)	inline	reviews/2026-11-03_deepseek_award-notices.md	2 chats; leads Xihu ¥26.85M, Guangdong ¥10M OpenHarmony centre
+2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	OpenAtom 2024-25 finances + new donors (R11)	inline	reviews/2026-11-03_deepseek_award-notices.md	no financials public; 2026 new donors listed
+2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	Gitee GVP + AtomGit G-Star (R09)	inline	reviews/2026-11-03_deepseek_award-notices.md	partial lists, platform counts C
+2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	COSCon 2016-17 + KAIYUANSHE reports (R10)	inline	reviews/2026-11-03_deepseek_award-notices.md	2016 slogan conflicts with Qwen
+2026-11-03	Qwen (Automatico)	chat.qwen.ai free	yes	OpenHarmony water terminals (R04)	inline	reviews/2026-11-03_qwen_round7.md	negative; withdraws round-6 lead
+2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	Shenzhen award notices (R12)	inline	reviews/2026-11-03_deepseek_award-notices.md	2024 batch 2: 4 projects ¥8.32M; unverified (TLS block)
+2026-11-03	Qwen (Automatico)	chat.qwen.ai free	yes	Fengxian openEuler (R04)	inline	reviews/2026-11-03_qwen_round7.md	quote verified but context only (antivirus compat)
+2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	Hangzhou OSS compute vouchers (R12)	inline	reviews/2026-11-03_deepseek_award-notices.md	only Xihu ¥26.85M; rules not public
+2026-11-03	Qwen (Automatico)	chat.qwen.ai free	yes	Pingli open-source OS (R04)	inline	reviews/2026-11-03_qwen_round7.md	compatibility clause only = context
