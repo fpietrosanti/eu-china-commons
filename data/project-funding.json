@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "openharmony",
+    "name": "OpenHarmony",
+    "side": "CN",
+    "origin": "CN",
+    "host": "OpenAtom Foundation (MIIT-supervised); code donated by Huawei",
+    "host_type": "foundation (state-supervised)",
+    "licence": "Apache-2.0 (most), GPL-2.0 kernel",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Huawei and Huawei-ecosystem firms (SiChuan Kaihong/深开鸿, HiHope/润和, ChinaSoft) employ most committers",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "foundation_budget": {
+        "claim": "OpenAtom spent ¥25.83M on OpenHarmony in 2023 (28% of charitable spending), incl. ¥6.49M paid to Huawei Cloud",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "Adoption subsidies: Shenzhen 15% of upgrade investment (+5% RISC-V, cap ¥10M); Wuhan East Lake 50% of R&D (cap ¥30M); native-app awards; OpenAtom received ¥20.7M government subsidy in 2023 (granting body unverified)",
+        "label": "fact",
+        "evidence": "A-v"
+      },
+      "corporate_sponsorship": {
+        "claim": "Huawei Device + Huawei Technologies donated ¥27.85M to OpenAtom in 2023 (37% of donations); 深开鸿 ¥3.5M earmarked 2021",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "commercial_model": {
+        "claim": "HarmonyOS NEXT (proprietary) built on top; device certification; commercial distributions by Kaihong, HiHope",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "no individual-donation channel",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "corporate (Huawei) via OpenAtom + local adoption subsidies",
+    "top_funder": "Huawei",
+    "top_funder_share": "~37% of OpenAtom donations (2023); higher for code",
+    "funder_nationality": "CN",
+    "public_money": true,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://www.openatom.org/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://gitee.com/openharmony",
+        "accessed": "2026-11-03"
+      }
+    ],
+    "note": "OpenAtom figures reused from docs/CN-FOUNDATIONS.md (OpenAtom 2021-23 work reports, OCR); local subsidies from data/funding/cn.json"
+  },
+  {
+    "id": "openeuler",
+    "name": "openEuler",
+    "side": "CN",
+    "origin": "CN",
+    "host": "OpenAtom Foundation (since 2021); originated at Huawei (EulerOS)",
+    "host_type": "foundation (state-supervised)",
+    "licence": "MulanPSL-2.0 (+upstream licences)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Huawei is the largest contributor; Kylinsoft, UnionTech, iSoft, China Telecom/Mobile clouds contribute",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "foundation_budget": {
+        "claim": "OpenAtom spent ¥8.65M on openEuler in 2023; ~¥1.48M paid to The Linux Foundation in 2022",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "Xinchuang (信创) procurement drives the commercial distributions; local adoption subsidies name openEuler",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "Earmarked donations 2022: 麒麟信安 ¥3.0M, 润和 ¥1.0M",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "commercial_model": {
+        "claim": "Subscription OS vendors: Kylin Advanced Server, UOS, Huawei EulerOS / Huawei Cloud EulerOS",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "corporate (Huawei) employer-developers + OpenAtom",
+    "top_funder": "Huawei",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://www.openeuler.org/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.openatom.org/",
+        "accessed": "2026-11-03"
+      }
+    ],
+    "note": "OpenAtom figures reused from docs/CN-FOUNDATIONS.md (OpenAtom 2021-23 work reports, OCR); local subsidies from data/funding/cn.json"
+  },
+  {
+    "id": "openanolis",
+    "name": "OpenAnolis / Anolis OS",
+    "side": "CN",
+    "origin": "CN",
+    "host": "OpenAnolis community led by Alibaba Cloud (OpenAtom-listed)",
+    "host_type": "company-led community",
+    "licence": "MulanPSL-2.0 / GPL",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Alibaba Cloud engineers dominate; Inspur, Hygon, Zhaoxin, China Telecom sit on the council",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "foundation_budget": {
+        "claim": "no separate budget published",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "public_grants": {
+        "claim": "Xinchuang CentOS-replacement market (indirect)",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "council membership of hardware/cloud firms",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "Alibaba Cloud Linux; cloud service",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "corporate (Alibaba Cloud)",
+    "top_funder": "Alibaba",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "C",
+    "sources": [
+      {
+        "url": "https://openanolis.cn/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "opencloudos",
+    "name": "OpenCloudOS",
+    "side": "CN",
+    "origin": "CN",
+    "host": "OpenCloudOS community led by Tencent",
+    "host_type": "company-led community",
+    "licence": "GPL / MulanPSL-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Tencent Cloud engineers dominate",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "foundation_budget": {
+        "claim": "none published",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "public_grants": {
+        "claim": "Xinchuang market (indirect)",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "member companies",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "TencentOS Server; cloud",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "corporate (Tencent)",
+    "top_funder": "Tencent",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "C",
+    "sources": [
+      {
+        "url": "https://www.opencloudos.org/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "paddlepaddle",
+    "name": "PaddlePaddle",
+    "side": "CN",
+    "origin": "CN",
+    "host": "Baidu (company project)",
+    "host_type": "company",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Baidu employees are the core team",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "Baidu-led National Engineering Laboratory for Deep Learning Technology (NDRC, 2017)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "Baidu AI Cloud / ERNIE ecosystem; hardware partners",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "corporate (Baidu)",
+    "top_funder": "Baidu",
+    "top_funder_share": "~all core",
+    "funder_nationality": "CN",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/PaddlePaddle/Paddle",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.paddlepaddle.org.cn/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "mindspore",
+    "name": "MindSpore",
+    "side": "CN",
+    "origin": "CN",
+    "host": "Huawei (company project)",
+    "host_type": "company",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Huawei employees dominate Gitee contributors",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "none published",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "public_grants": {
+        "claim": "Peng Cheng Laboratory (state lab) co-develops models on MindSpore/Ascend",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "pull for Ascend AI chips and Huawei Cloud ModelArts",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "corporate (Huawei), hardware-driven",
+    "top_funder": "Huawei",
+    "top_funder_share": "~all core",
+    "funder_nationality": "CN",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://gitee.com/mindspore/mindspore",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "qwen",
+    "name": "Qwen (open-weight LLMs)",
+    "side": "CN",
+    "origin": "CN",
+    "host": "Alibaba Cloud (Tongyi Lab)",
+    "host_type": "company",
+    "licence": "Apache-2.0 (most sizes); Qwen licence for some",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Alibaba team only",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "Model Studio API and Alibaba Cloud compute; open weights as funnel",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "corporate (Alibaba)",
+    "top_funder": "Alibaba",
+    "top_funder_share": "100%",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/QwenLM/Qwen3",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://huggingface.co/Qwen",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek (open-weight LLMs)",
+    "side": "CN",
+    "origin": "CN",
+    "host": "DeepSeek (Hangzhou), owned by High-Flyer quant fund",
+    "host_type": "company",
+    "licence": "MIT (code and V3/R1 weights)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "in-house team only",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "none documented",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "low-price API; financed by High-Flyer fund profits",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "corporate (High-Flyer)",
+    "top_funder": "High-Flyer",
+    "top_funder_share": "100%",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://huggingface.co/deepseek-ai",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "apache-doris",
+    "name": "Apache Doris",
+    "side": "CN",
+    "origin": "CN-origin",
+    "host": "Apache Software Foundation (donated by Baidu)",
+    "host_type": "foundation (US)",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "VeloDB/SelectDB (founded by Doris PMC members) and Baidu employ top contributors (OpenDigger activity_details)",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "ASF budget covers infrastructure only, no developer funding",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "ASF sponsors are global, not project-specific",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "commercial_model": {
+        "claim": "VeloDB cloud/enterprise (VC-funded)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "employer-developers (VeloDB)",
+    "top_funder": "VeloDB/SelectDB",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://oss.x-lab.info/open_digger/github/apache/doris/activity_details.json",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.velodb.io/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "apache-echarts",
+    "name": "Apache ECharts",
+    "side": "CN",
+    "origin": "CN-origin",
+    "host": "ASF (donated by Baidu)",
+    "host_type": "foundation (US)",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Baidu employees historically core; now a small mixed team",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "foundation_budget": {
+        "claim": "ASF infrastructure only",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "Baidu historically",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "none direct",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "donations": {
+        "claim": "no Open Collective account found (slug \"echarts\")",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "employer-developers (Baidu, declining)",
+    "top_funder": "Baidu",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "C",
+    "sources": [
+      {
+        "url": "https://github.com/apache/echarts",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "apache-dubbo",
+    "name": "Apache Dubbo",
+    "side": "CN",
+    "origin": "CN-origin",
+    "host": "ASF (donated by Alibaba)",
+    "host_type": "foundation (US)",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Alibaba employees dominate",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "ASF infrastructure only",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "Alibaba Cloud MSE (managed microservices)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "corporate (Alibaba)",
+    "top_funder": "Alibaba",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/apache/dubbo",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "apache-rocketmq",
+    "name": "Apache RocketMQ",
+    "side": "CN",
+    "origin": "CN-origin",
+    "host": "ASF (donated by Alibaba)",
+    "host_type": "foundation (US)",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Alibaba employees dominate",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "ASF infrastructure only",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "Alibaba Cloud ApsaraMQ for RocketMQ",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "corporate (Alibaba)",
+    "top_funder": "Alibaba",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/apache/rocketmq",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "apache-apisix",
+    "name": "Apache APISIX",
+    "side": "CN",
+    "origin": "CN-origin",
+    "host": "ASF (donated by API7.ai, Shenzhen)",
+    "host_type": "foundation (US)",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "API7.ai employs most committers",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "ASF infrastructure only",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "API7 Enterprise / cloud (open core, VC-funded)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "no Open Collective account found",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "employer-developers (API7.ai)",
+    "top_funder": "API7.ai",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/apache/apisix",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://api7.ai/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "tidb",
+    "name": "TiDB",
+    "side": "CN",
+    "origin": "CN",
+    "host": "PingCAP (company); TiKV donated to CNCF",
+    "host_type": "company",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "PingCAP employees dominate",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "TiKV under CNCF (graduated): infrastructure only",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "TiDB Cloud + enterprise subscriptions; VC-funded",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "corporate (PingCAP, VC)",
+    "top_funder": "PingCAP",
+    "top_funder_share": "~all core",
+    "funder_nationality": "CN (+ foreign investors)",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/pingcap/tidb",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.pingcap.com/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "side": "CN",
+    "origin": "CN-origin",
+    "host": "LangGenius Inc. (company)",
+    "host_type": "company",
+    "licence": "Dify Open Source License (Apache-2.0 + extra conditions; not OSI)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "LangGenius team is core; large community",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "Dify Cloud + enterprise licence (source-available / open core)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "corporate (LangGenius, VC)",
+    "top_funder": "LangGenius",
+    "top_funder_share": "~all core",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/langgenius/dify/blob/main/LICENSE",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "xiangshan",
+    "name": "XiangShan (RISC-V CPU)",
+    "side": "CN",
+    "origin": "CN",
+    "host": "Institute of Computing Technology, CAS + Beijing Institute of Open Source Chip (BOSC)",
+    "host_type": "state research body",
+    "licence": "MulanPSL-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "ICT-CAS researchers and BOSC engineers",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "BOSC funded by Beijing municipality + member firms (Alibaba, Tencent, ZTE, others)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "CAS strategic priority programme + Beijing government",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "BOSC member companies",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "IP licensing to chip firms via BOSC",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "public (CAS + Beijing) with corporate members",
+    "top_funder": "CAS / Beijing municipality",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CN",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://github.com/OpenXiangShan/XiangShan",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.bosc.ac.cn/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "ant-design",
+    "name": "Ant Design",
+    "side": "CN",
+    "origin": "CN",
+    "host": "Ant Group (company)",
+    "host_type": "company",
+    "licence": "MIT",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Ant Group front-end team is core",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "none",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "internal use (Alipay etc.); no direct revenue",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "Open Collective: US$18,412 received all-time; yearly budget ~US$3,846 (GraphQL API, 3 Nov 2026)",
+        "label": "fact",
+        "evidence": "A"
+      }
+    },
+    "dominant_channel": "corporate (Ant Group)",
+    "top_funder": "Ant Group",
+    "top_funder_share": "~all core; donations marginal",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://opencollective.com/ant-design",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "kubesphere",
+    "name": "KubeSphere",
+    "side": "CN",
+    "origin": "CN",
+    "host": "QingCloud (company)",
+    "host_type": "company",
+    "licence": "Apache-2.0 (community edition terms changed 2025)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "QingCloud employees are core",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "none found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "KubeSphere Enterprise (open core); 2025 retreat from open community edition",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "donations": {
+        "claim": "Open Collective: US$0 received (GraphQL API, 3 Nov 2026)",
+        "label": "fact",
+        "evidence": "A"
+      }
+    },
+    "dominant_channel": "corporate (QingCloud)",
+    "top_funder": "QingCloud",
+    "top_funder_share": "~all",
+    "funder_nationality": "CN",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://opencollective.com/kubesphere",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://github.com/kubesphere/kubesphere",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "eclipse-sdv-tractus-x",
+    "name": "Eclipse SDV / Tractus-X (Catena-X)",
+    "side": "EU",
+    "origin": "EU",
+    "host": "Eclipse Foundation AISBL (Brussels)",
+    "host_type": "foundation (EU)",
+    "licence": "Apache-2.0 / EPL-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "automotive members (Bosch, BMW, Mercedes-Benz, SAP, T-Systems) assign developers",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "working-group membership fees fund programme staff",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "Catena-X seeded by German BMWK consortium funding (2021-24)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "working-group membership dues",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "members sell services/products on dataspace components",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "employer-developers across automakers + working-group fees",
+    "top_funder": "Bosch / SAP / BMW (multi)",
+    "top_funder_share": "dispersed",
+    "funder_nationality": "DE",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://eclipse-tractusx.github.io/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://catena-x.net/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "sovereign-cloud-stack",
+    "name": "Sovereign Cloud Stack",
+    "side": "EU",
+    "origin": "EU",
+    "host": "OSBA (Open Source Business Alliance, DE); now Forum SCS",
+    "host_type": "association (DE)",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "core team employed by OSBA under the federal grant, plus provider firms (plusserver, Wavecon, others)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "BMWK grant to OSBA, roughly €15M over 2021-24 (amount to verify)",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "public_grants": {
+        "claim": "German federal (BMWK)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "OSBA membership; post-grant forum financed by providers",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "cloud providers operate SCS-compliant clouds",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "public grant (German BMWK)",
+    "top_funder": "German federal government",
+    "top_funder_share": "majority during 2021-24",
+    "funder_nationality": "DE",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://scs.community/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://osb-alliance.de/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "nextcloud",
+    "name": "Nextcloud",
+    "side": "EU",
+    "origin": "EU",
+    "host": "Nextcloud GmbH (Stuttgart)",
+    "host_type": "company",
+    "licence": "AGPL-3.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Nextcloud GmbH employees dominate commits",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "component of openDesk, procured via ZenDiS (openDesk budget ~€10M in 2025, all components)",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "enterprise support subscriptions (no feature-gated open core)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "not significant",
+        "label": "inference",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "commercial subscriptions (Nextcloud GmbH)",
+    "top_funder": "Nextcloud GmbH",
+    "top_funder_share": "~all core",
+    "funder_nationality": "DE",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://nextcloud.com/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.opendesk.eu/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "libreoffice-tdf",
+    "name": "LibreOffice / The Document Foundation (+ Collabora Online)",
+    "side": "EU",
+    "origin": "EU",
+    "host": "The Document Foundation (Stiftung, Berlin); Collabora Productivity (UK)",
+    "host_type": "foundation (DE) + companies",
+    "licence": "MPL-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Collabora, allotropia and TDF in-house staff employ most core developers",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "TDF income €2,175,997 in 2025",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "openDesk (Collabora Online); occasional NGI grants",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "TDF advisory-board fees (small)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "Collabora Online subscriptions; allotropia LTS builds",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "individual donations are TDF's largest income line",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "individual donations (TDF) + employer-developers (Collabora)",
+    "top_funder": "individual donors / Collabora",
+    "top_funder_share": "unknown",
+    "funder_nationality": "DE / UK",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://blog.documentfoundation.org/blog/2026/07/13/financials-and-budget-tdf-annual-report-2025/",
+        "accessed": "2026-11-03"
+      }
+    ],
+    "note": "amounts cross-referenced with data/funding/eu.json"
+  },
+  {
+    "id": "open-xchange",
+    "name": "Open-Xchange (OX App Suite, Dovecot, PowerDNS)",
+    "side": "EU",
+    "origin": "EU",
+    "host": "Open-Xchange AG (DE), private-equity owned",
+    "host_type": "company",
+    "licence": "GPL / AGPL / MPL",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "in-house",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "openDesk component",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "licences/subscriptions to ISPs and telcos",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "commercial (ISP licences)",
+    "top_funder": "Open-Xchange AG",
+    "top_funder_share": "~all",
+    "funder_nationality": "DE (PE owners)",
+    "public_money": true,
+    "evidence": "C",
+    "sources": [
+      {
+        "url": "https://www.open-xchange.com/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "openeurollm",
+    "name": "OpenEuroLLM / EuroLLM",
+    "side": "EU",
+    "origin": "EU",
+    "host": "Consortium of 20+ EU organisations; EuroLLM: Unbabel, IST Lisbon, Edinburgh and others",
+    "host_type": "research consortium",
+    "licence": "open models (Apache-2.0)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "university and lab researchers",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "Digital Europe / STEP: €20.6M committed envelope (2025); EuroHPC compute; EuroLLM via Horizon Europe (UTTER) + EuroHPC",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "corporate_sponsorship": {
+        "claim": "in-kind industrial partners",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "public grant (EU)",
+    "top_funder": "European Commission",
+    "top_funder_share": "~100%",
+    "funder_nationality": "EU",
+    "public_money": true,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://digital-strategy.ec.europa.eu/de/news/pioneering-ai-project-awarded-opening-large-language-models-european-languages",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://openeurollm.eu/",
+        "accessed": "2026-11-03"
+      }
+    ],
+    "note": "amounts cross-referenced with data/funding/eu.json"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral open-weight models",
+    "side": "EU",
+    "origin": "EU",
+    "host": "Mistral AI SAS (Paris)",
+    "host_type": "company",
+    "licence": "Apache-2.0 (some models); Mistral Research Licence for others",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "in-house",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "no open-source-specific public grant found",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "API, enterprise licences; VC/strategic equity (incl. ASML-led 2025 round)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "commercial + VC",
+    "top_funder": "Mistral AI (investors incl. ASML)",
+    "top_funder_share": "100%",
+    "funder_nationality": "FR (investors NL/US)",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://mistral.ai/news/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "videolan",
+    "name": "VLC / VideoLAN",
+    "side": "EU",
+    "origin": "EU",
+    "host": "VideoLAN (French non-profit association); VideoLabs SAS",
+    "host_type": "association (FR)",
+    "licence": "GPL-2.0 / LGPL-2.1",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "VideoLabs (Paris) employs core developers on consulting contracts; many volunteers",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "small association; refuses ads/bundling",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "occasional (EU-FOSSA 2 bug bounty, 2019)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "small",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "commercial_model": {
+        "claim": "VideoLabs consulting and ports",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "donations accepted; amounts not published",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "employer-developers (VideoLabs consulting) + volunteers",
+    "top_funder": "VideoLabs",
+    "top_funder_share": "unknown",
+    "funder_nationality": "FR",
+    "public_money": true,
+    "evidence": "C",
+    "sources": [
+      {
+        "url": "https://www.videolan.org/videolan/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://videolabs.io/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "matrix",
+    "name": "Matrix / Element",
+    "side": "EU",
+    "origin": "EU",
+    "host": "Matrix.org Foundation (UK CIC) + Element (New Vector Ltd, UK)",
+    "host_type": "foundation (UK) + company",
+    "licence": "Apache-2.0 spec; Synapse AGPL-3.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "Element employs most core developers",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "Foundation funded by organisational memberships and donations; has publicly reported shortfalls",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "public_grants": {
+        "claim": "NGI grants for clients; government customers (BwMessenger, Tchap)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "foundation memberships",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "Element Server Suite subscriptions, largely to governments",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "small",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "commercial (Element government contracts)",
+    "top_funder": "Element",
+    "top_funder_share": "high",
+    "funder_nationality": "UK",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://matrix.org/foundation/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://element.io/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "kde",
+    "name": "KDE",
+    "side": "EU",
+    "origin": "EU",
+    "host": "KDE e.V. (Berlin)",
+    "host_type": "association (DE)",
+    "licence": "GPL / LGPL",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "dispersed: Valve, KDAB, hardware vendors (Tuxedo, Slimbook), volunteers",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "foundation_budget": {
+        "claim": "patron fees €67,378 in 2024; individual donations are the largest e.V. line",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "Sovereign Tech Fund: €1,285,200",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "corporate_sponsorship": {
+        "claim": "patrons incl. Google, Canonical, SUSE, The Qt Company",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "commercial_model": {
+        "claim": "hardware vendors ship Plasma (Steam Deck)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "individual donations (fundraisers) largest e.V. income",
+        "label": "fact",
+        "evidence": "A"
+      }
+    },
+    "dominant_channel": "individual donations + STF grant + dispersed employers",
+    "top_funder": "Sovereign Tech Fund (single largest identified)",
+    "top_funder_share": "unknown",
+    "funder_nationality": "DE / global",
+    "public_money": true,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://ev.kde.org/reports/ev-2024/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.sovereign.tech/tech/kde",
+        "accessed": "2026-11-03"
+      }
+    ],
+    "note": "amounts cross-referenced with data/funding/eu.json"
+  },
+  {
+    "id": "qt",
+    "name": "Qt",
+    "side": "EU",
+    "origin": "EU",
+    "host": "The Qt Company (Helsinki, listed)",
+    "host_type": "company",
+    "licence": "LGPL-3.0 / GPL + commercial (dual)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "The Qt Company employs the majority; KDAB contributes",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "KDE Free Qt Foundation guarantees the licence, no budget",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "public_grants": {
+        "claim": "none relevant",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "dual licensing (commercial licences, embedded/automotive)",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "commercial dual licensing",
+    "top_funder": "The Qt Company",
+    "top_funder_share": "~majority",
+    "funder_nationality": "FI",
+    "public_money": false,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://www.qt.io/investors",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://kde.org/community/whatiskde/kdefreeqtfoundation/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "opensuse",
+    "name": "SUSE / openSUSE",
+    "side": "EU",
+    "origin": "EU",
+    "host": "SUSE S.A. (Luxembourg; EQT-owned); openSUSE Project",
+    "host_type": "company",
+    "licence": "GPL and others",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "SUSE employees are core; community contributors",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "no openSUSE foundation exists (repeatedly proposed)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "none relevant",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "corporate_sponsorship": {
+        "claim": "SUSE covers infrastructure",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "SLES enterprise subscriptions",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "donations": {
+        "claim": "negligible",
+        "label": "inference",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "commercial subscriptions (SUSE)",
+    "top_funder": "SUSE (owner EQT, Sweden)",
+    "top_funder_share": "~all",
+    "funder_nationality": "LU / DE (owner SE)",
+    "public_money": false,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://www.suse.com/",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://en.opensuse.org/Portal:Foundation",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "curl",
+    "name": "curl",
+    "side": "EU",
+    "origin": "EU",
+    "host": "Daniel Stenberg (SE), employed by wolfSSL",
+    "host_type": "individual + employer",
+    "licence": "curl licence (MIT-style)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "lead maintainer employed by wolfSSL to work on curl (commercial support)",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "Sovereign Tech Fund: €195,000",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "corporate_sponsorship": {
+        "claim": "corporate sponsors via Open Collective / GitHub Sponsors",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "commercial_model": {
+        "claim": "commercial support contracts (wolfSSL)",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "donations": {
+        "claim": "Open Collective: US$498,859 received all-time; yearly budget ~US$91,404 (GraphQL API, 3 Nov 2026)",
+        "label": "fact",
+        "evidence": "A"
+      }
+    },
+    "dominant_channel": "employer (wolfSSL support) + donations + STF",
+    "top_funder": "wolfSSL / Open Collective donors",
+    "top_funder_share": "unknown",
+    "funder_nationality": "SE / US",
+    "public_money": true,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://opencollective.com/curl",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.sovereign.tech/tech/curl",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "gnupg",
+    "name": "GnuPG",
+    "side": "EU",
+    "origin": "EU",
+    "host": "g10 Code GmbH (Düsseldorf)",
+    "host_type": "company",
+    "licence": "GPL-3.0 / LGPL",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "g10 Code employs the maintainers",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "foundation_budget": {
+        "claim": "n/a",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "German BSI contracts (Gpg4win / VS-Desktop approved for restricted classified use); Sovereign Tech Fund investment (amount not extracted)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "corporate_sponsorship": {
+        "claim": "one-off corporate donations (2015)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "GnuPG VS-Desktop licences to German administration; g10 Code announced it no longer needs donations (2022)",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "individual donations via gnupg.org",
+        "label": "fact",
+        "evidence": "B"
+      }
+    },
+    "dominant_channel": "German public-sector licences (VS-Desktop)",
+    "top_funder": "German administration",
+    "top_funder_share": "high",
+    "funder_nationality": "DE",
+    "public_money": true,
+    "evidence": "B",
+    "sources": [
+      {
+        "url": "https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.sovereign.tech/tech/gnupg",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "openssl",
+    "name": "OpenSSL",
+    "side": "EU",
+    "origin": "EU",
+    "host": "OpenSSL Foundation (US) + OpenSSL Corporation (CH)",
+    "host_type": "foundation + company",
+    "licence": "Apache-2.0",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "OpenSSL Corporation (Switzerland) staff plus engineers from large vendors",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "OpenSSL Foundation: sponsorships + donations",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "public_grants": {
+        "claim": "Sovereign Tech Fund: €405,888 (OpenSSL Foundation); EU-FOSSA audit (2016); earlier US Core Infrastructure Initiative",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "corporate_sponsorship": {
+        "claim": "corporate sponsors",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "support contracts via OpenSSL Corporation",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "donations": {
+        "claim": "GitHub Sponsors (small)",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "support contracts + sponsors (mixed)",
+    "top_funder": "OpenSSL Corporation customers",
+    "top_funder_share": "unknown",
+    "funder_nationality": "CH / US / DE",
+    "public_money": true,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://www.sovereign.tech/tech/openssl-foundation",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://openssl-corporation.org/",
+        "accessed": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "dare-openhw",
+    "name": "RISC-V: DARE / OpenHW (CORE-V)",
+    "side": "EU",
+    "origin": "EU",
+    "host": "DARE: EuroHPC JU consortium (coord. BSC); OpenHW Foundation under Eclipse Foundation",
+    "host_type": "joint undertaking + foundation",
+    "licence": "Solderpad-2.0 (hardware)",
+    "funding_channels": {
+      "employer_developers": {
+        "claim": "OpenHW members (Thales, NXP, Infineon, Silicon Labs and others) assign engineers; DARE: BSC + partners",
+        "label": "inference",
+        "evidence": "B"
+      },
+      "foundation_budget": {
+        "claim": "OpenHW membership dues (not published)",
+        "label": "fact",
+        "evidence": "C"
+      },
+      "public_grants": {
+        "claim": "DARE SGA1: €120M committed envelope (EuroHPC, 2025); Chips JU RISC-V calls",
+        "label": "fact",
+        "evidence": "A"
+      },
+      "corporate_sponsorship": {
+        "claim": "OpenHW member companies",
+        "label": "fact",
+        "evidence": "B"
+      },
+      "commercial_model": {
+        "claim": "chips/IP products by members",
+        "label": "inference",
+        "evidence": "C"
+      },
+      "donations": {
+        "claim": "none",
+        "label": "fact",
+        "evidence": "C"
+      }
+    },
+    "dominant_channel": "public grant (EuroHPC) + member employer-developers",
+    "top_funder": "EuroHPC JU / EU",
+    "top_funder_share": "majority (DARE)",
+    "funder_nationality": "EU",
+    "public_money": true,
+    "evidence": "A",
+    "sources": [
+      {
+        "url": "https://eurohpc-ju.europa.eu/advancing-european-sovereignty-hpc-risc-v-2025-03-06_en",
+        "accessed": "2026-11-03"
+      },
+      {
+        "url": "https://www.openhwfoundation.org/",
+        "accessed": "2026-11-03"
+      }
+    ],
+    "note": "amounts cross-referenced with data/funding/eu.json"
+  }
+]

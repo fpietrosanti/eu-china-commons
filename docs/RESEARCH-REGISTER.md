@@ -24,7 +24,7 @@ Each line of research is a **branch** that stays open over time. An entry record
 | R12 | Public funding for open source (amounts) | 3 Nov | 3 Nov | ◐ | EU 2 / 1, CN 1 / 2 | data/funding/, FUNDING-COMPARISON.md |
 | R13 | Funding modalities (qualitative) | 3 Nov | 3 Nov | ◐ | 2 / 1 | docs/FUNDING-MODALITIES.md |
 | R14 | Private corporate funding (philanthropy) | 3 Nov | 3 Nov | ◐ | – | data/funding/ (private-*), FUNDING-COMPARISON.md §1a |
-| R15 | Funding of major projects | 3 Nov | running | – | – | docs/PROJECT-FUNDING.md, data/project-funding.json |
+| R15 | Funding of major projects | 3 Nov | 3 Nov | ◐ | – | docs/PROJECT-FUNDING.md, data/project-funding.json |
 | R16 | Multi-LLM iterative research (cross-cutting) | 2 Nov | 3 Nov | ◐ | – | reviews/, data/llm-runs.tsv |
 
 ---
@@ -84,3 +84,13 @@ Each line of research is a **branch** that stays open over time. An entry record
 - **Operational lessons:** strip query strings before reading output; keep waits ≤ 40 s; ask for compact lists (output read in ~1k-character slices).
 
 *(R01–R03, R06, R07, R13, R15: see their output files; entries to be expanded at the next round of each branch.)*
+
+## R15 — Funding of major projects
+- **Round 1 (3 Nov):** 34 projects (18 CN-origin, 16 EU). Method: project/foundation reports, Open Collective, STF and CORDIS records, OpenDigger (Doris only).
+- **Worked:** STF per-project grants, Open Collective totals, commercial models.
+- **Inconclusive:** employer shares of top contributors mostly inferred (B/C); SCS federal grant (~€15M), GnuPG STF amount, Matrix.org accounts to confirm.
+- **Incident:** an agent ran a stale scratch script that overwrote data/initiatives.json and data/new_source_urls.txt; both restored from git, verified identical to HEAD. Lesson: agents must not run scripts found in the scratchpad.
+- **Re-run recipe:** OpenDigger developer/affiliation endpoints per repo; Open Collective API; STF "Technologies" page; foundation annual reports.
+
+## Chapter closures
+- **Funding (R12–R15) → docs/FUNDING-CHAPTER.md v1.0, 3 Nov 2026.**
