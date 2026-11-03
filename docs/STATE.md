@@ -71,7 +71,7 @@
 | Brand / domain | docs/DOMAIN-OPTIONS.md |
 | Site v0.1 (frozen) | site/ (preview: node tools/serve.js, port 8090) |
 
-## 7. Next steps (in order, within budget)
+## 7. Next steps (in order, within budget) — see also RESEARCH-DEPTH.md priorities
 1. Fifth CN case (Guangdong/Guangzhou OpenHarmony, provincial 政务 apps) + archive the round-3 sources.
 2. Raise registry evidence to primary: official sources for the "secondary" EU-national records (low cost).
 3. Academic databases (Scholar/SSRN/Scopus) → PRISMA-style literature review.
@@ -107,3 +107,6 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 - Data: data/funding/{eu,cn}.json (24 EU + 21 CN records, OSS-specific only; generic innovation/tax schemes in excluded.json), coverage.json (58 jurisdictions), ECB rates; tables docs/FUNDING-COMPARISON.md (tools/build_funding.js), qualitative docs/FUNDING-MODALITIES.md.
 - Key: EU summable 2023 €11.5M, 2024 €36M, 2025 €19M (DE+FR only). CN: **no summable figure** — only per-project caps (top: Wuhan ¥30M, Shanghai ¥20M, Shenzhen ¥10M) and envelopes; no central OSS budget line found.
 - Next: CN award notices (拟资助名单) to get disbursed amounts; German figures against Bundeshaushalt; light-search states → national budgets; quote sovereignty phrases both sides; public email for the contribute notice.
+
+## 13. Research depth (3 Nov, Fabio)
+docs/RESEARCH-DEPTH.md: 0–4 scale per area × {EU centre, EU member states, CN centre, CN provinces}. Centres mostly 2–3, peripheries 1–2, nothing at 4. Update the matrix at every research step; priorities listed there feed the daily task.
