@@ -924,7 +924,7 @@
     "side": "EU-CN",
     "category": "bridge",
     "title": "Catena-X ↔ CAAM/VDA: China–Europe automotive trusted data space",
-    "summary": "Both sides name each other. CAAM (2025-04-24): CAAM, VDA and Catena-X signed a strategic cooperation agreement at Auto Shanghai. Catena-X: tripartite LoI with CAICT and Sungent (Suzhou, 2025-07-17); China–Europe pilot with 25 Chinese companies (IAA 2025); cross-border data ecosystem with CAAM and VDA China, Zhonglian/众链数智 as operating partner (2026-07-22); CAAM (2026-08-03) reports the ecosystem signing, first use case battery passport. Inference: Catena-X architecture is implemented in the open-source Eclipse Tractus-X; the bridge is on data-space standards and interoperability, open-source code reuse by Chinese side not documented.",
+    "summary": "Both sides name each other. CAAM (2025-04-24): CAAM, VDA and Catena-X signed a strategic cooperation agreement at Auto Shanghai. Catena-X: tripartite LoI with CAICT and Sungent (Suzhou, 2025-07-17); China–Europe pilot with 25 Chinese companies (IAA 2025); cross-border data ecosystem with CAAM and VDA China, Zhonglian/众链数智 as operating partner (2026-07-22); CAAM (2026-08-03) reports the ecosystem signing, first use case battery passport. Inference: Catena-X architecture is implemented in the open-source Eclipse Tractus-X; the bridge is on data-space standards and interoperability, open-source code reuse by Chinese side not documented. Government source: Jiangsu Data Bureau (reprinting Suzhou Data Bureau, 2026-05-08) reports the launch of the Catena-X Automotive Network China Digital Clearing House by Sungent, Catena-X, CAICT, Cofinity-X and GIZ.",
     "since": "2025-04-24",
     "scale": "industry associations; 25 Chinese companies in the pilot",
     "sources": [
@@ -932,7 +932,8 @@
       "http://www.caam.org.cn/data/chn/8/cate_81/chn/1/cate_1/con_5237259.html",
       "https://catena-x.net/news/catena-x-expands-global-collaboration-tripartite-letter-of-intent-signed-in-suzhou/",
       "https://catena-x.net/news/catena-x-showcases-breakthrough-china-pilot-with-25-companies-unveiled-at-iaa/",
-      "https://catena-x.net/news/catena-x-launches-worlds-first-cross-border-automotive-industry-data-ecosystem-between-china-and-europe/"
+      "https://catena-x.net/news/catena-x-launches-worlds-first-cross-border-automotive-industry-data-ecosystem-between-china-and-europe/",
+      "http://jszwb.jiangsu.gov.cn/art/2026/5/8/art_19420_11766938.html"
     ],
     "status": "verified",
     "evidence": "A",
@@ -954,5 +955,22 @@
     "evidence": "A",
     "gate_a_counts": true,
     "note": "Round 6, lead from DeepSeek. Licence not confirmed."
+  },
+  {
+    "id": "cn-shenzhen-openharmony-industrial-subsidy",
+    "side": "CN",
+    "category": "industrial-stack",
+    "title": "Shenzhen subsidises industrial adoption of OpenHarmony and OpenHarmony-adapted RISC-V chips",
+    "summary": "Shenzhen Municipal Government General Office, measures to support equipment renewal and technical upgrading of industrial firms (Gazette 2026 no. 9, total 1408), item 5 \"support firms using OpenHarmony/RISC-V\": upgrade projects of 5 million yuan or more that adopt the OpenHarmony OS get up to 15% of approved investment, plus 5% for devices using RISC-V chips adapted to OpenHarmony in control/drive components; cap 10 million yuan per project; responsible unit Shenzhen MIIT bureau. Fact: first documented public funding instrument for a Chinese open-source industrial stack in our catalogue. Commitment (budget line), not disbursement.",
+    "since": "2026",
+    "scale": "municipal (Shenzhen); per-project cap 10M yuan",
+    "sources": [
+      "https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html",
+      "https://web.archive.org/web/20261020120659/https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html"
+    ],
+    "status": "verified",
+    "evidence": "A",
+    "gate_a_counts": true,
+    "note": "3 Nov: original blocked from EU IPs; read from the Wayback Machine copy of 20 Oct 2026 (archived). Corrects the earlier negative finding \"no documented public funding for CN stacks\"."
   }
 ]

@@ -1,6 +1,6 @@
 # STATE — Europe–China Digital Commons Observatory (中欧数字公地观察站)
 
-**Updated: 4 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
+**Updated: 3 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
 
 ## 1. Where we are, in one paragraph
 **Phase A (research) is in progress. Gate A is not met yet.**
@@ -27,10 +27,10 @@
 |---|---|---|
 | Registry initiatives | ≥ 60, ≥ 60% primary | **62, 41 primary (66%) ✓** |
 | Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 5 ✓** (e-gov clouds offering openEuler: Fujian province, Yancheng, Jinan; Shijiazhuang market-supervision platform specified on openEuler 22.03 LTS — all A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases excluded, kept as context |
-| Key Chinese originals | Section B of the VPN queue fetched | 8 in the queue, VPN not yet available |
+| Key Chinese originals | Section B of the VPN queue fetched | VPN-free routes started 3 Nov: Wayback + local residential IP recovered Shenzhen gazette and Jiangsu Data Bureau page; 4 still blocked (Chongqing ×2, Longgang, Longhua) |
 | Systematic literature review | Including academic databases + CNKI | Web + think tanks done; academic databases and CNKI missing |
 | Verified bridge opportunities | ≥ 3 | **3 EU–CN verified ✓** (Eclipse–OpenAtom sister projects; High-Level Digital Dialogue channel; **Catena-X ↔ CAAM/VDA China–Europe automotive trusted data space**, both sides A, 2 Nov) **+ 1 shared standard** (OpenChain ISO 18974 adopted by openEuler — LF project, borderline) + 1 partial (EPL-2.0 ZH translation, EU source missing) |
-| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 11 ✓** (7 A, 2 C; + EasyXMen automotive, CETC, 2 Nov). Gaps: CN cloud/data-space layers (leads: OpenCloudOS, OpenAnolis, SecretFlow); no documented public funding for CN stacks; adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
+| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 11 ✓** (7 A, 2 C; + EasyXMen automotive, CETC, 2 Nov). Gaps: CN cloud/data-space layers (leads: OpenCloudOS, OpenAnolis, SecretFlow); first documented CN public funding: Shenzhen subsidy for OpenHarmony/RISC-V industrial adoption (A, 3 Nov); adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
 
 **Registry by level and evidence:**
 
@@ -92,3 +92,7 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 - Run 2 (2 Nov): ChatGPT on Catena-X/China → 3 Catena-X pages verified; DeepSeek on the Chinese side → 2 CAAM pages verified → **third bridge (Catena-X ↔ CAAM)**. Qwen on e-gov OSS → **Shijiazhuang openEuler (5th CN case)**, Changde context, 4 leads queued. DeepSeek on CN industrial stacks → EasyXMen (CETC) verified; still no documented public funding.
 - Gate A remaining: Chinese originals via VPN, academic databases + CNKI.
 - Next questions: unchecked Qwen leads (Fengxian, Pingli, OpenHarmony water terminals); Huawei role in Catena-X; EU-side source for EPL-2.0 translation; OCR of the Hulunbuir e-gov cloud contract; openEuler OSV list as bridge evidence for Kylin/UOS; third bridge (e.g. OW2/OpenInfra with Chinese members, OpenHarmony–Oniro compatibility).
+
+## 10. Daily progress (Fabio, 3 Nov: "every day you must move forward")
+- Scheduled task `eu-china-commons-daily` (09:00 every day, Claude desktop app) resumes from this file, does 1–3 VPN-free items, runs targeted LLM questions, updates STATE, commits and pushes, and reports in Italian.
+- The VPN is no longer a blocker: try local residential IP → server → Wayback/archive.today → reprints → Qwen/DeepSeek quotation (A-v) before marking an item "VPN only".
