@@ -81,3 +81,12 @@ Research note, 2026-11-03. Evidence levels per METHODOLOGY.md §4. Self-reported
 - Fetch KAIYUANSHE reports for 2022–2025.
 - Verify CCF ODC.
 - Check the Ministry of Civil Affairs 年检 records.
+
+### Update 3 Nov 2026 — OpenAtom statutory annual work reports (OCR)
+Source: OpenAtom 2022 and 2023 年度工作报告 (annual-inspection filings to the Ministry of Civil Affairs, from the foundation's disclosure page; scanned PDFs, OCR with tesseract chi_sim, text in sources/ocr/). Evidence **A** (official filing; OCR, figures to be re-read on the image before publication).
+| Year | Donation income (yuan) | of which domestic | foreign donations |
+|---|---|---|---|
+| 2022 | 63,690,000 | 63,690,000 | 0 |
+| 2023 | 75,502,000 | 75,502,000 | 0 |
+- 2023 board items include a 20.3M-yuan budget adjustment for the foundation's funding-service centre and 3.689M yuan (Sep–Dec) for OpenHarmony CI/CD infrastructure.
+- **Fact:** OpenAtom's donation income is 100% domestic in both years. **Inference:** this contrasts with the Xinhua "¥600M+ since 2020" figure (C): the two filed years total ~¥139M, so the cumulative claim needs the 2020–2021 and 2024–2025 filings to be checked.
