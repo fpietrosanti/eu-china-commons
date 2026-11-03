@@ -58,6 +58,12 @@ Each research question goes through six steps. Every step leaves a file in the r
 5. **Adjudication.** The human editor resolves disagreements and records the decision, rationale and evidence level in `docs/REGISTRO.md` (decision log). Unresolved points stay visible as *open questions*.
 6. **Publish and update.** The output is published with a version number and date. A weekly monitoring job watches for new or changed policies and sources; any change reopens the affected records (step 3 onward). The public changelog lists every material change.
 
+### 3.2 Research register and update branches (added 3 Nov 2026)
+- **Every line of research is logged, including the inconclusive and negative ones**, in `docs/RESEARCH-REGISTER.md`: question, rounds, method, sources and routes tried, what worked, what did not (blocked sites, rejected LLM claims, "nothing found"), depth reached, and a **re-run recipe**.
+- Each line is a **branch** kept open over time: an update is a new dated round under the same ID, appended, never overwritten. Data files keep the previous state in git history, so any figure can be traced to the round that produced it.
+- Negative results are findings ("no central Chinese open-source budget line found", "no government code-sharing platform") and are reported with the search that produced them, so readers can judge how strong the absence is.
+- The register, the depth matrix (`docs/RESEARCH-DEPTH.md`) and STATE are updated in the same commit as the research.
+
 ## 4. Evidence levels and labels
 
 | Level | Meaning | Can appear as a fact in publications? |

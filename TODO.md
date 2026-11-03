@@ -123,3 +123,6 @@ PA reuse is not the only goal: also map how each side builds open-source stacks 
 - [ ] Every public representation carries the notice "open-source research, correctable" + contribute links
 - [ ] **TODO contacts:** public email (replace placeholder in tools/build_funding.js) + GitHub issue label `funding-data` and an issue template
 - [ ] Site page for the comparison (after gate B)
+
+## Funding chapter — conclusion (Fabio, 3 Nov)
+- [ ] Close the funding research as a chapter (docs/FUNDING-CHAPTER.md): public money, private corporate money, modalities, project-level funding → conclusions labelled fact/inference/proposal, limits from RESEARCH-DEPTH, implications for EU–China cooperation. Draft as soon as R15 (project funding) is in; later rounds update it as a new version.
