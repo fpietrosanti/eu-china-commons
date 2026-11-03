@@ -9,3 +9,5 @@ date	model_shown	service	search	task	prompt_file	output_file	notes
 2026-11-02	DeepSeek (web, free)	chat.deepseek.com	on	CN industrial stacks cloud/auto/data-space + funding	inline ZH	reviews/2026-11-02_deepseek_cn-industrial-stacks.md	EasyXMen verified A; no gov funding found
 2026-11-02	Qwen (web, free)	chat.qwen.ai	on	more CN e-gov clouds/systems on OSS OS	inline ZH	reviews/2026-11-02_qwen_cn-egov-oss-round6.md	Shijiazhuang verified A (5th CN case); Changde context
 2026-11-02	DeepSeek (web, free)	chat.deepseek.com	on	CN-side sources Catena-X cooperation	inline ZH	reviews/2026-11-02_deepseek_caam-catenax-cn-side.md	2 CAAM pages verified A; 3rd bridge
+2026-11-03	DeepSeek (web, free)	chat.deepseek.com	on	OpenAtom annual reports + Gitee/AtomGit figures	inline ZH	reviews/2026-11-03_deepseek_openatom-platforms.md	claims D pending verification; no financial figures found
+2026-11-03	Qwen (web, free)	chat.qwen.ai	on	COSCon themes 2016-2025	inline ZH	reviews/2026-11-03_qwen_coscon-themes.md	2018 theme verified A; 2016-17 D

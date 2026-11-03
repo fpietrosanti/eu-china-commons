@@ -96,3 +96,9 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 ## 10. Daily progress (Fabio, 3 Nov: "every day you must move forward")
 - Scheduled task `eu-china-commons-daily` (09:00 every day, Claude desktop app) resumes from this file, does 1–3 VPN-free items, runs targeted LLM questions, updates STATE, commits and pushes, and reports in Italian.
 - The VPN is no longer a blocker: try local residential IP → server → Wayback/archive.today → reprints → Qwen/DeepSeek quotation (A-v) before marking an item "VPN only".
+
+## 11. Chinese ecosystem mapping (3 Nov, Fabio's questions)
+- **Projects and platforms** → docs/CN-OSS-LANDSCAPE.md: 28 ranked projects (OpenRank, stars, downloads), Gitee vs AtomGit vs GitHub. Key: OpenHarmony #1 world OpenRank 2025, Huawei #2 company; Qwen 20% of >1B model downloads; Gitee top = Java enterprise scaffolds invisible to GitHub-based rankings; 79% of contributions to China-led projects are domestic.
+- **COSCon themes 2016–2025** → docs/COSCON-THEMES.md: trend community/education/hardware → AI ("Open Intelligence" 2025); 2018 "Bridging East and West".
+- **Foundations** → docs/CN-FOUNDATIONS.md: OpenAtom (MIIT-supervised, ¥600M+ raised since 2020 per Xinhua, C), KAIYUANSHE (2021 income ¥604k, C), COPU, CCF ODC (lead only).
+- Open: OCR of OpenAtom 2020–2023 work reports (running on server /tmp/oa); KAIYUANSHE reports 2022–2025; Gitee GVP and AtomGit G-Star full lists; read the 2025 China Open Source Annual Report directly (now via press relay, B).
