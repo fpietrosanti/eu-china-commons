@@ -1,0 +1,27 @@
+name: Funding data correction or addition
+description: Correct or add a public open-source funding figure (EU, member states, China central or provincial)
+title: "Funding data: "
+labels: ["funding-data"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks! Our funding tables are open-source research from public sources. Please give a source for every figure. 欢迎用中文提交。"
+  - type: input
+    id: jurisdiction
+    attributes: { label: "Jurisdiction / funder", placeholder: "e.g. Germany – Sovereign Tech Agency; 广东省 – 工信厅" }
+    validations: { required: true }
+  - type: input
+    id: amount
+    attributes: { label: "Amount, currency, year or period", placeholder: "e.g. 17,000,000 EUR, 2024 budget" }
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type of figure"
+      options: ["disbursed", "budgeted (annual)", "multi-year envelope", "cap per project", "not sure"]
+  - type: input
+    id: source
+    attributes: { label: "Source (link, document, page)" }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: "What is wrong or missing?" }

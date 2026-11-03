@@ -117,3 +117,9 @@ PA reuse is not the only goal: also map how each side builds open-source stacks 
 - [ ] Complementarity matrix EU ↔ CN by layer (where stacks overlap, compete, or could interoperate)
 - [ ] Add to gate A: ≥ 8 verified industrial-stack cases per side
 - [ ] Targeted LLM questions (Qwen/DeepSeek for CN industrial adoption data; ChatGPT for EU)
+
+## Public funding comparison — added 3 Nov 2026 (Fabio)
+- [ ] data/funding/{eu,cn}.json per SCHEMA.md; EUR at ECB annual rates; tables via tools/build_funding.js → docs/FUNDING-COMPARISON.md + site/data/funding.json
+- [ ] Every public representation carries the notice "open-source research, correctable" + contribute links
+- [ ] **TODO contacts:** public email (replace placeholder in tools/build_funding.js) + GitHub issue label `funding-data` and an issue template
+- [ ] Site page for the comparison (after gate B)
