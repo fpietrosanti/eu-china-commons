@@ -27,9 +27,9 @@
 |---|---|---|---|---|
 | adoption-subsidy | 0 | 0 | 5 | 0 |
 | direct-spending | 6 | 19.0 M | 0 | 0 |
-| donation | 0 | 0 | 3 | 0 |
+| donation | 0 | 0 | 5 | 0 |
 | equity-or-loan | 0 | 0 | 2 | 0 |
-| grant | 18 | 47.5 M | 11 | 0 |
+| grant | 18 | 47.5 M | 12 | 0 |
 
 Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting strategic national open-source technologies are in scope; when only a rate or a cap is published they are listed but not summed.
 
@@ -63,7 +63,7 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 | EU | member-state | Germany | 66.5 M | – | 1 | 9 |
 | EU | member-state | France | 40 k | – | – | 2 |
 | EU | member-state | EU (FR, DE, IT, NL jointly) | 0 | 2.8 M | – | 1 |
-| CN | cn-central | China | 0 | – | – | 3 |
+| CN | cn-central | China | 0 | – | – | 6 |
 | CN | cn-province | Guangdong | 0 | – | 1 | 1 |
 | CN | cn-province | Jiangsu | 0 | 126.9 M | – | 2 |
 | CN | cn-province | Shanghai | 0 | – | 3 | 3 |
@@ -76,9 +76,12 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 
 | Jurisdiction | Funder · instrument | Year/period | Original | EUR | Type | OSS share | Ev. | Source |
 |---|---|---|---|---|---|---|---|---|
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2020 | 16.0 M CNY | 2.0 M | disbursed | exclusive | A | [link](https://openatom.cn/information/work) |
 | China | OpenAtom Open Source Foundation (开放原子开源基金会) · Cumulative funds raised (press) | 2020-2026 | 600.0 M CNY | 76.2 M | unknown | exclusive | C | [link](https://www.news.cn/info/20260625/a9b84c78ac8946c6a7e37bbae91513af/c.html) |
-| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2022 | 63.7 M CNY | 9.0 M | disbursed | exclusive | A | [link](docs/CN-FOUNDATIONS.md) |
-| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2023 | 75.5 M CNY | 9.9 M | disbursed | exclusive | A | [link](docs/CN-FOUNDATIONS.md) |
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2021 | 68.5 M CNY | 9.0 M | disbursed | exclusive | A | [link](https://openatom.cn/information/work) |
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2022 | 63.7 M CNY | 9.0 M | disbursed | exclusive | A | [link](https://openatom.cn/information/work) |
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2023 | 75.5 M CNY | 9.9 M | disbursed | exclusive | A | [link](https://openatom.cn/information/work) |
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Government subsidy (政府补助收入) to OpenAtom; 20.2M restricted to 开源项目生态培育平台 | 2023 | 20.7 M CNY | 2.7 M | disbursed | exclusive | A | [link](https://openatom.cn/information/work) |
 | Guangdong | Guangdong Dept. of Science and Technology (广东省科学技术厅) · AI/robotics measures: open-source community/centre operating-cost support | 2026 | 8.0 M CNY | 985 k* | cap-per-project | exclusive | A | [link](https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4694765.html) |
 | Jiangsu | Jiangsu Province / Suzhou, OpenAtom Zijin zone (开放原子紫金) · OPC fund matrix (planned) | 2026 | 1000.0 M CNY | 123.2 M* | committed-envelope | unclear | A-v | [link](https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html) |
 | Jiangsu | Jiangsu Province / Suzhou, OpenAtom Zijin zone · AI micro-seed fund | 2026 | 30.0 M CNY | 3.7 M* | committed-envelope | unclear | A-v | [link](https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html) |

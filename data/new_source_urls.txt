@@ -144,11 +144,13 @@ https://oniroproject.org/
 https://openatom.cn/
 https://openatom.cn/information/work
 https://openatom.cn/journalism/detail/dwV4Ek3eszw1
+https://openatom.cn/projects
 https://openchainproject.org/?p=10755
 https://openchainproject.org/news/2024/06/06/openeuler-adoption-iso-18974
 https://openeurollm.eu/
 https://openfuture.eu/blog/public-letter-calls-for-eu-investment-in-open-source-sustainability-through-an-eu-sovereign-tech-fund/
 https://openfuture.eu/note/digital-commons-edic-announces-leadership-and-initial-projects/
+https://opensource.org/license/mulanpsl-2-0
 https://opensource.org/meeting-minutes/2020-02-14
 https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=48875862F65D66457449A1964058C8B1
 https://oss.x-lab.info/open_digger/github/{owner}/{repo}/openrank.json
@@ -160,7 +162,11 @@ https://shanghaiopen.org.cn/organization/
 https://siecledigital.fr/2026/01/28/letat-dit-stop-a-teams-et-zoom-bienvenue-a-visio/
 https://sjj.sjz.gov.cn/attachments/1/202406/03/16.%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E5%B8%82%E5%9C%BA%E6%99%BA%E6%85%A7%E7%9B%91%E7%AE%A1%E5%B9%B3%E5%8F%B0II%E6%9C%9F%E9%A1%B9%E7%9B%AE%E9%9C%80%E6%B1%82%E6%96%B9%E6%A1%8820240603104842734.pdf
 https://sovereigncloudstack.org/
+https://spdx.org/licenses/licenses.json
 https://techpolicy.press/how-the-eus-tech-sovereignty-package-finally-puts-open-source-to-the-test
+https://test.file.oafimg.cn/public_infomation/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A2020%E5%B9%B4%E5%BA%A6%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A.pdf
+https://test.file.oafimg.cn/public_infomation/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A2021%E5%B9%B4%E5%BA%A6%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A.pdf
+https://test.file.oafimg.cn/public_infomation/2022%E5%B9%B4%E5%BA%A6%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A.pdf
 https://vergabeblog.de/2026-04-21/zendis-strategische-neuausrichtung-mit-fokus-auf-open-source/
 https://web.archive.org/web/20261020120659/https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html
 https://www.163.com/dy/article/L0J5CCN50511B8LM.html
