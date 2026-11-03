@@ -35,3 +35,14 @@ One JSON array per side: `data/funding/eu.json`, `data/funding/cn.json`. One rec
 - Never sum `cap-per-project` or `unknown` amounts. Never sum envelopes with annual budgets.
 - Distinguish fact (disbursed/budgeted, sourced) from commitment (envelope, announcement).
 - Absence of data ≠ zero: record jurisdictions searched with no result in `data/funding/coverage.json`.
+
+## Qualitative fields (added 3 Nov, Fabio: "not only how much, but how")
+Optional but expected whenever the source says it; feed docs/FUNDING-MODALITIES.md.
+| field | meaning |
+|---|---|
+| selection | how beneficiaries are chosen: open-call, competitive-review, 揭榜挂帅 (open challenge), designated/direct-award, automatic (tax rule), membership/donor |
+| conditions | eligibility and strings attached: domestic company, local registration, use of a named national stack, licence (OSI / Mulan / EUPL), upstream contribution, security review, matching funds |
+| sovereignty_frame | the stated rationale, quoted: e.g. 自主可控, 安全可靠, 信创, 国产替代; "digital sovereignty", "strategic autonomy", "resilience", "public money public code" |
+| intermediary | who manages the money: ministry, agency (Sovereign Tech Agency, NLnet), foundation (OpenAtom), SOE, local bureau, EDIC |
+| openness_to_foreign | can non-domestic contributors/firms benefit? yes / no / unclear, with quote |
+| outputs_required | code released? maintenance? adoption targets? |

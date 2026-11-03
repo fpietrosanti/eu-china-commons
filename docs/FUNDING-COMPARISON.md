@@ -18,6 +18,13 @@
 
 *Inference warning: the totals reflect what is documented, which is much more for the EU (published budgets) than for China (caps and envelopes dominate).* 
 
+## 1b. By instrument type
+
+| Instrument | EU records | EU summable (EUR) | CN records | CN summable (EUR) |
+|---|---|---|---|---|
+
+Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting strategic national open-source technologies are in scope; when only a rate or a cap is published they are listed but not summed.
+
 ## 2. By jurisdiction
 
 | Side | Level | Jurisdiction | Summable, all years (EUR) | Envelopes, annualised (EUR/yr) | Per-project caps (count) | Records |
