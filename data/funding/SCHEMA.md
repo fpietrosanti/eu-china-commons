@@ -46,3 +46,9 @@ Optional but expected whenever the source says it; feed docs/FUNDING-MODALITIES.
 | intermediary | who manages the money: ministry, agency (Sovereign Tech Agency, NLnet), foundation (OpenAtom), SOE, local bureau, EDIC |
 | openness_to_foreign | can non-domestic contributors/firms benefit? yes / no / unclear, with quote |
 | outputs_required | code released? maintenance? adoption targets? |
+
+## Inclusion rule — OPEN-SOURCE-SPECIFIC ONLY (Fabio, 3 Nov; overrides earlier guidance)
+- A record enters eu.json / cn.json **only if the instrument is specific to open source**: the text names open source (开源 / open source / logiciel libre / FOSS) or a named open-source stack (openEuler, OpenHarmony, RISC-V open ISA, Linux distributions, OpenAtom projects; NGI, Sovereign Tech Agency, openDesk…) as the object or as a condition.
+- **Excluded**: generic innovation, R&D, digitalisation or "Industry 4.0/5.0" grants and tax credits that could equally fund proprietary software, foreign cloud or closed technology (e.g. Transizione 4.0/5.0, CIR, Forschungszulage, WBSO, generic 信创 or 数字化转型 subsidies that do not require an open-source base). Do not record them as funding.
+- Mixed programmes (e.g. Horizon Europe) count only for the **open-source-specific call or project** (e.g. OpenEuroLLM), never the whole programme.
+- Excluded candidates are logged in `data/funding/excluded.json` ({jurisdiction, instrument, reason, source}) so readers can see what we left out and why.
