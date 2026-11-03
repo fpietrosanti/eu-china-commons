@@ -52,3 +52,11 @@ Optional but expected whenever the source says it; feed docs/FUNDING-MODALITIES.
 - **Excluded**: generic innovation, R&D, digitalisation or "Industry 4.0/5.0" grants and tax credits that could equally fund proprietary software, foreign cloud or closed technology (e.g. Transizione 4.0/5.0, CIR, Forschungszulage, WBSO, generic 信创 or 数字化转型 subsidies that do not require an open-source base). Do not record them as funding.
 - Mixed programmes (e.g. Horizon Europe) count only for the **open-source-specific call or project** (e.g. OpenEuroLLM), never the whole programme.
 - Excluded candidates are logged in `data/funding/excluded.json` ({jurisdiction, instrument, reason, source}) so readers can see what we left out and why.
+
+## Private corporate philanthropy (added 3 Nov, Fabio)
+Measured on both sides, **separately from public money**.
+- `level`: "private-foundation" (a non-profit receiving corporate money: Eclipse, OW2, TDF, KDE e.V., FSFE, OpenAtom, KAIYUANSHE…) or "private-company" (direct corporate funding programme, e.g. a company OSS fund).
+- `instrument_type`: "donation" or "membership-fees" (corporate membership dues) or "sponsorship".
+- `funder`: the foundation (as recipient-channel) with donors named in `note` where the report itemises them; `jurisdiction`: country of registration (e.g. Belgium for Eclipse Foundation AISBL, Germany for TDF/KDE e.V.).
+- Use income from **annual reports / statutory filings** (A) for the fiscal year; corporate share = donations + membership + sponsorship from companies (exclude grants from public bodies, which go in the public tables, and individual donations, noted separately).
+- `summable` refers to the *private* total: true when the figure is the filed annual corporate income of that year.

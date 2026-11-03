@@ -2,7 +2,7 @@
   {
     "side": "CN",
     "currency": "CNY",
-    "level": "cn-central",
+    "level": "private-foundation",
     "jurisdiction": "China",
     "funder": "OpenAtom Open Source Foundation (开放原子开源基金会)",
     "instrument": "Donation income (statutory annual work report)",
@@ -11,7 +11,7 @@
     "amount_type": "disbursed",
     "oss_share": "exclusive",
     "oss_amount_known": true,
-    "summable": false,
+    "summable": true,
     "evidence": "A",
     "selection": "membership/donor",
     "conditions": "donor-designated projects; MIIT-supervised public foundation",
@@ -26,12 +26,12 @@
       "https://openatom.cn/information/work",
       "sources/ocr/openatom-2020-work-report.ocr.txt"
     ],
-    "note": "2020 年度工作报告 捐赠收入 16,000,000 (Huawei 6.0M, 杭州趣链 3.0M named); total income 17,531,494.85; expenditure 3,386,033.76; net assets 44,145,461.09. Corporate donations, NOT government money: summable:false. OCR, re-read on image."
+    "note": "2020 年度工作报告 捐赠收入 16,000,000 (Huawei 6.0M, 杭州趣链 3.0M named); total income 17,531,494.85; expenditure 3,386,033.76; net assets 44,145,461.09. Corporate donations, NOT government money: summable:false. OCR, re-read on image. [3 Nov: reclassified private-foundation, summable in the PRIVATE total only — filed annual donation income.]"
   },
   {
     "side": "CN",
     "currency": "CNY",
-    "level": "cn-central",
+    "level": "private-foundation",
     "jurisdiction": "China",
     "funder": "OpenAtom Open Source Foundation (开放原子开源基金会)",
     "instrument": "Donation income (statutory annual work report)",
@@ -40,7 +40,7 @@
     "amount_type": "disbursed",
     "oss_share": "exclusive",
     "oss_amount_known": true,
-    "summable": false,
+    "summable": true,
     "evidence": "A",
     "selection": "membership/donor",
     "conditions": "donor-designated projects; MIIT-supervised public foundation",
@@ -55,12 +55,12 @@
       "https://openatom.cn/information/work",
       "sources/ocr/openatom-2021-work-report.ocr.txt"
     ],
-    "note": "2021 年度工作报告 捐赠收入 68,450,000 (53.10M unrestricted + 15.35M restricted, OpenHarmony earmarks incl. JD 1.0M, 深开鸿 3.5M); expenditure 31,296,042.86; net assets 83,314,683.15. Corporate donations: summable:false. OCR."
+    "note": "2021 年度工作报告 捐赠收入 68,450,000 (53.10M unrestricted + 15.35M restricted, OpenHarmony earmarks incl. JD 1.0M, 深开鸿 3.5M); expenditure 31,296,042.86; net assets 83,314,683.15. Corporate donations: summable:false. OCR. [3 Nov: reclassified private-foundation, summable in the PRIVATE total only — filed annual donation income.]"
   },
   {
     "side": "CN",
     "currency": "CNY",
-    "level": "cn-central",
+    "level": "private-foundation",
     "jurisdiction": "China",
     "funder": "OpenAtom Open Source Foundation (开放原子开源基金会)",
     "instrument": "Donation income (statutory annual work report)",
@@ -69,7 +69,7 @@
     "amount_type": "disbursed",
     "oss_share": "exclusive",
     "oss_amount_known": true,
-    "summable": false,
+    "summable": true,
     "evidence": "A",
     "selection": "membership/donor",
     "conditions": "donor-designated projects; MIIT-supervised public foundation",
@@ -84,12 +84,12 @@
       "https://openatom.cn/information/work",
       "sources/ocr/openatom-2022-work-report.ocr.txt"
     ],
-    "note": "2022 年度工作报告 捐赠收入 63,690,000, 100% domestic; expenditure 38,793,773.53 (admin 9.69%); 5 projects 17.37M (OpenHarmony 9.40M); ~1.48M paid to The Linux Foundation (openEuler). Corporate donations, NOT government money: summable:false. OCR."
+    "note": "2022 年度工作报告 捐赠收入 63,690,000, 100% domestic; expenditure 38,793,773.53 (admin 9.69%); 5 projects 17.37M (OpenHarmony 9.40M); ~1.48M paid to The Linux Foundation (openEuler). Corporate donations, NOT government money: summable:false. OCR. [3 Nov: reclassified private-foundation, summable in the PRIVATE total only — filed annual donation income.]"
   },
   {
     "side": "CN",
     "currency": "CNY",
-    "level": "cn-central",
+    "level": "private-foundation",
     "jurisdiction": "China",
     "funder": "OpenAtom Open Source Foundation (开放原子开源基金会)",
     "instrument": "Donation income (statutory annual work report)",
@@ -98,7 +98,7 @@
     "amount_type": "disbursed",
     "oss_share": "exclusive",
     "oss_amount_known": true,
-    "summable": false,
+    "summable": true,
     "evidence": "A",
     "selection": "membership/donor",
     "conditions": "donor-designated projects; MIIT-supervised public foundation",
@@ -113,7 +113,7 @@
       "https://openatom.cn/information/work",
       "sources/ocr/openatom-2023-work-report.ocr.txt"
     ],
-    "note": "2023 年度工作报告 捐赠收入 75,502,000, 100% domestic (Huawei Device 15.772M, Huawei Tech 12.08M, ChinaSoft 8.1M named); expenditure 97,508,167.59 (admin 3.95%); OpenHarmony 25.83M incl. 6.4854M Huawei Cloud fees. Donations, not government money: summable:false. OCR."
+    "note": "2023 年度工作报告 捐赠收入 75,502,000, 100% domestic (Huawei Device 15.772M, Huawei Tech 12.08M, ChinaSoft 8.1M named); expenditure 97,508,167.59 (admin 3.95%); OpenHarmony 25.83M incl. 6.4854M Huawei Cloud fees. Donations, not government money: summable:false. OCR. [3 Nov: reclassified private-foundation, summable in the PRIVATE total only — filed annual donation income.]"
   },
   {
     "side": "CN",
