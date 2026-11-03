@@ -56,6 +56,22 @@ for (const y of ys) {
 }
 md += `\n*Inference warning: the totals reflect what is documented, which is much more for the EU (published budgets) than for China (caps and envelopes dominate).* \n\n`;
 
+// 1b. By instrument type: how money reaches beneficiaries (grants, adoption subsidies, tax credits…)
+const it = {};
+for (const r of rows) {
+  const k = `${r.instrument_type || 'unclassified'}|${r.side}`;
+  (it[k] = it[k] || { t: r.instrument_type || 'unclassified', side: r.side, n: 0, eur: 0 });
+  it[k].n++;
+  if (r.summable && r.eur != null) it[k].eur += r.eur;
+}
+const types = [...new Set(Object.values(it).map((v) => v.t))].sort();
+md += `## 1b. By instrument type\n\n| Instrument | EU records | EU summable (EUR) | CN records | CN summable (EUR) |\n|---|---|---|---|---|\n`;
+for (const t of types) {
+  const e = it[`${t}|EU`] || { n: 0, eur: 0 }, c = it[`${t}|CN`] || { n: 0, eur: 0 };
+  md += `| ${t} | ${e.n} | ${fmt(e.eur)} | ${c.n} | ${fmt(c.eur)} |\n`;
+}
+md += `\nGrants (*fondo perduto*), adoption subsidies and tax credits for firms adopting strategic national open-source technologies are in scope; when only a rate or a cap is published they are listed but not summed.\n\n`;
+
 // 2. By jurisdiction
 const by = {};
 for (const r of rows) {

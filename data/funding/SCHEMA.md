@@ -15,6 +15,8 @@ One JSON array per side: `data/funding/eu.json`, `data/funding/cn.json`. One rec
 | period | string | e.g. "2021-2027" when the amount is a multi-year envelope |
 | amount | number | in original currency, as stated |
 | currency | "EUR" \| "CNY" \| other ISO code | |
+| instrument_type | "direct-spending" | "grant" | "adoption-subsidy" | "tax-credit" | "tax-deduction" | "procurement" | "equity-or-loan" | "donation" | how the money reaches the beneficiary. grant = non-repayable (fondo perduto) to develop OSS; adoption-subsidy = non-repayable to firms/bodies that ADOPT (national) open-source tech (e.g. Shenzhen OpenHarmony 15%); tax-credit/tax-deduction = tax expenditure for adopting or developing OSS (amount = forgone revenue if published, else the rate in note and amount_type cap-per-project/unknown) |
+| beneficiary | "oss-projects" | "companies-adopting" | "companies-developing" | "public-bodies" | "foundations" | "mixed" | |
 | amount_type | "disbursed" \| "budgeted" \| "committed-envelope" \| "cap-per-project" \| "unknown" | disbursed = actually paid/awarded; budgeted = in an adopted budget for that year; committed-envelope = announced multi-year total; cap-per-project = only a ceiling, NOT summable |
 | oss_share | "exclusive" \| "partial" \| "unclear" | exclusive = whole amount is for open source; partial = programme where OSS is one part (amount then is the OSS part if known, else the total, flagged) |
 | oss_amount_known | boolean | true if `amount` is the OSS-specific part |
@@ -29,6 +31,7 @@ One JSON array per side: `data/funding/eu.json`, `data/funding/cn.json`. One rec
 - Envelopes are annualised (amount / number of years) **only** in a separate column, never mixed with annual figures.
 
 ## Rules
+- **Adoption incentives count** (Fabio, 3 Nov): non-repayable grants and tax credits for companies that adopt strategic national open-source technologies (openEuler, OpenHarmony, RISC-V, national OS; EU equivalents) are in scope. Record the rate (e.g. "15% of investment, cap 10M") in note; sum only when a total budget or forgone revenue is published.
 - Never sum `cap-per-project` or `unknown` amounts. Never sum envelopes with annual budgets.
 - Distinguish fact (disbursed/budgeted, sourced) from commitment (envelope, announcement).
 - Absence of data ≠ zero: record jurisdictions searched with no result in `data/funding/coverage.json`.
