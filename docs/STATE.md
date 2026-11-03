@@ -110,3 +110,4 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 
 ## 13. Research depth (3 Nov, Fabio)
 docs/RESEARCH-DEPTH.md: 0–4 scale per area × {EU centre, EU member states, CN centre, CN provinces}. Centres mostly 2–3, peripheries 1–2, nothing at 4. Update the matrix at every research step; priorities listed there feed the daily task.
+- 3 Nov: private corporate money added (separate table). EU: FSFE+KDE filed corporate €0.08–0.17M/yr (summable); Eclipse total revenue €9.4M (2022) → €15.4M (2025), not split from grants, strategic members incl. IBM, Oracle, Microsoft, Google, Huawei, SAP. CN: OpenAtom donations ~€9–10M/yr, 100% domestic, Huawei 37%. Next: Eclipse Belgian NBB accounts, NLnet private share, OW2, LF Europe, company FOSS funds, EU Transparency Register.

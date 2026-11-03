@@ -16,6 +16,7 @@ https://blog.csdn.net/kaiyuanshe/article/details/126203868
 https://blog.csdn.net/kaiyuanshe/article/details/133956372
 https://blog.csdn.net/kaiyuanshe/article/details/134086306
 https://blog.csdn.net/kaiyuanshe/article/details/144151303
+https://blog.documentfoundation.org/blog/2026/07/13/financials-and-budget-tdf-annual-report-2025/
 https://blogs.eclipse.org/post/ignacio-ahedo/frameworks-hardware-and-community-oniro%E2%80%99s-2026-mid-year-update
 https://blogs.eclipse.org/post/mike-milinkovich/eclipse-and-openatom-pioneering-open-source-innovation
 https://bmds.bund.de/en/themen/digitale-souveraenitaet/digitale-souveraenitaet-in-der-oeffentlichen-verwaltung/souveraener-arbeitsplatz
@@ -70,10 +71,20 @@ https://eu.china-mission.gov.cn/chn/zzjws/202309/t20230918_11144831.htm
 https://eur-lex.europa.eu/EN/legal-content/summary/interoperable-europe-act.html
 https://eur-lex.europa.eu/eli/dec_impl/2025/2170/oj/eng
 https://eurohpc-ju.europa.eu/advancing-european-sovereignty-hpc-risc-v-2025-03-06_en
+https://ev.kde.org/reports/ev-2020/
+https://ev.kde.org/reports/ev-2021/
+https://ev.kde.org/reports/ev-2022/
+https://ev.kde.org/reports/ev-2023/
+https://ev.kde.org/reports/ev-2024/
 https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202164/content.html
 https://file.oafimg.cn/official/f21cc9b297cb34dc2e3120946c2fa32d.pdf
 https://forum.ospo-alliance.org/t/new-country-level-reports-on-public-sector-floss-in-spain-italy/191
 https://fosdem.org/2026/schedule/event/from-policy-to-practice-open-source-in-gov
+https://fsfe.org/about/funds/2020.en.html
+https://fsfe.org/about/funds/2021.en.html
+https://fsfe.org/about/funds/2022.en.html
+https://fsfe.org/about/funds/2023.en.html
+https://fsfe.org/about/funds/2024.en.html
 https://fsfe.org/news/podcast/transcript/2024/episode-26.html
 https://gaia-x.eu/
 https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4694765.html
@@ -140,6 +151,7 @@ https://news.sina.cn/sx/2026-08-12/detail-inimzivx4114695.d.html
 https://newsroom.eclipse.org/news/announcements/eclipse-foundation-and-openatom-foundation-forge-strategic-initiative-focused
 https://next.ink/188938/non-la-dinum-na-pas-prevu-dinjecter-120-millions-deuros-dans-la-suite-numerique/
 https://niis.org/news-archive?year=2019
+https://nlnet.nl/foundation/annuals/2024-ANBI-form.pdf
 https://oniroproject.org/
 https://openatom.cn/
 https://openatom.cn/information/work
@@ -186,6 +198,11 @@ https://www.deutsche-rentenversicherung.de/Bund/DE/Presse/Pressemitteilungen/pre
 https://www.deutsche-rentenversicherung.de/Bund/DE/Presse/Pressemitteilungen/pressemitteilungen_aktuell/2026/2026-07-21-ckki-zendis-opendesk
 https://www.developmentaid.org/grants/view/1252123/innovative-and-connected-public-administrations
 https://www.digmin.dk/digitalisering/nyheder/nyhedsarkiv/2025/jun/digitaliseringsministeriet-saetter-gang-i-pilotprojekt-om-digital-suveraenitet
+https://www.eclipse.org/org/foundation/reports/2021_annual_report.php
+https://www.eclipse.org/org/foundation/reports/2022_annual_report.php
+https://www.eclipse.org/org/foundation/reports/2023_annual_report.php
+https://www.eclipse.org/org/foundation/reports/2025_annual_report.php
+https://www.eclipse.org/org/foundation/reports/annual_report.php
 https://www.fundingprogrammesportal.gov.cy/en/call/ngi-zero-commons-fund-13th-open-call-reclaim-the-public-nature-of-the-internet-en-2026/
 https://www.gov.cn/zhengce/zhengceku/2021-12/01/5655205/files/a44b507d67c74591ad4f5e55b98c4518.pdf
 https://www.gz.gov.cn/zt/gzzzlsqj/zcyzt/gxzc/content/post_10968068.html
@@ -228,6 +245,7 @@ https://www.openeuler.org/zh/news/openEuler/20240612-24/20240612-24
 https://www.opensourceforu.com/2026/01/openharmony-scales-from-codebase-to-national-infrastructure-platform/
 https://www.osborneclarke.com/insights/new-eu-open-source-strategy-europes-path-digital-sovereignty-through-open-technologies
 https://www.pingwest.com/a/309504
+https://www.punto-informatico.it/libreoffice-tdf-supera-2-milioni-euro-entrate-2025/
 https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/241125_cds_open-source-strategie
 https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2025/cds/251006_cds_ox
 https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2025/cds/251204_cds_open-source

@@ -25,10 +25,11 @@
 
 | Year | EU | China | CN/EU |
 |---|---|---|---|
-| 2020 | not documented | 2.0 M | n/a |
-| 2021 | not documented | 9.0 M | n/a |
-| 2022 | not documented | 9.0 M | n/a |
-| 2023 | not documented | 9.9 M | n/a |
+| 2020 | 77 k | 2.0 M | 26.56 |
+| 2021 | 137 k | 9.0 M | 65.73 |
+| 2022 | 149 k | 9.0 M | 60.42 |
+| 2023 | 173 k | 9.9 M | 56.92 |
+| 2024 | 168 k | not documented | n/a |
 
 *Never added to public money. China: OpenAtom filed donation income; EU: European foundations' corporate income (membership, donations, sponsorship). Donor nationality matters: see the records' notes.*
 
@@ -38,9 +39,11 @@
 |---|---|---|---|---|
 | adoption-subsidy | 0 | 0 | 5 | 0 |
 | direct-spending | 6 | 19.0 M | 0 | 0 |
-| donation | 0 | 0 | 5 | 29.9 M |
+| donation | 2 | 0 | 5 | 29.9 M |
 | equity-or-loan | 0 | 0 | 2 | 0 |
 | grant | 18 | 47.5 M | 12 | 0 |
+| membership-fees | 11 | 323 k | 0 | 0 |
+| sponsorship | 5 | 380 k | 0 | 0 |
 
 Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting strategic national open-source technologies are in scope; when only a rate or a cap is published they are listed but not summed.
 
@@ -71,6 +74,8 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 | Side | Level | Jurisdiction | Summable, all years (EUR) | Envelopes, annualised (EUR/yr) | Per-project caps (count) | Records |
 |---|---|---|---|---|---|---|
 | CN | private-foundation | China | 29.9 M | – | – | 4 |
+| EU | private-foundation | Germany | 703 k | – | – | 12 |
+| EU | private-foundation | Belgium | 0 | – | – | 6 |
 | EU | eu-institution | EU | 0 | 128.6 M | – | 12 |
 | EU | member-state | Germany | 66.5 M | – | 1 | 9 |
 | EU | member-state | France | 40 k | – | – | 2 |
@@ -112,6 +117,24 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 | Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: award for donating projects to key open-source foundations | 2025 | 1.0 M CNY | 123 k | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
 | Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: Wuhan excellent open-source software projects | 2025 | 300 k CNY | 37 k | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
 | Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: OpenHarmony device/app adaptation certification | 2025 | 500 k CNY | 62 k | cap-per-project | exclusive | C | [link](https://m.c114.com.cn/w241-1285598.html) |
+| Belgium | Eclipse Foundation AISBL (group revenue) · Total group revenue (membership + working-group fees + EU research grants + services) | 2020 | 6.7 M USD | n/a | disbursed | exclusive | A | [link](https://www.eclipse.org/org/foundation/reports/2021_annual_report.php) |
+| Belgium | Eclipse Foundation AISBL (group revenue) · Total group revenue (membership + working-group fees + EU research grants + services) | 2021 | 7.6 M USD | n/a | disbursed | exclusive | A | [link](https://www.eclipse.org/org/foundation/reports/2022_annual_report.php) |
+| Belgium | Eclipse Foundation AISBL (group revenue) · Total group revenue (membership + working-group fees + EU research grants + services) | 2022 | 9.4 M EUR | 9.4 M | disbursed | exclusive | A | [link](https://www.eclipse.org/org/foundation/reports/2023_annual_report.php) |
+| Belgium | Eclipse Foundation AISBL (group revenue) · Total group revenue (membership + working-group fees + EU research grants + services) | 2023 | 11.3 M EUR | 11.3 M | disbursed | exclusive | A | [link](https://www.eclipse.org/org/foundation/reports/2025_annual_report.php) |
+| Belgium | Eclipse Foundation AISBL (group revenue) · Total group revenue (membership + working-group fees + EU research grants + services) | 2024 | 13.5 M EUR | 13.5 M | disbursed | exclusive | A | [link](https://www.eclipse.org/org/foundation/reports/2025_annual_report.php) |
+| Belgium | Eclipse Foundation AISBL (group revenue) · Total group revenue (membership + working-group fees + EU research grants + services) | 2025 | 15.4 M EUR | 15.4 M | disbursed | exclusive | A | [link](https://www.eclipse.org/org/foundation/reports/annual_report.php) |
+| Germany | Free Software Foundation Europe e.V. (FSFE) · Sponsoring income line, annual income & expenses report | 2020 | 33 k EUR | 33 k | disbursed ✓ | exclusive | A | [link](https://fsfe.org/about/funds/2020.en.html) |
+| Germany | KDE e.V. · Patrons / corporate supporting members income, annual report | 2020 | 44 k EUR | 44 k | disbursed ✓ | exclusive | A | [link](https://ev.kde.org/reports/ev-2020/) |
+| Germany | Free Software Foundation Europe e.V. (FSFE) · Sponsoring income line, annual income & expenses report | 2021 | 72 k EUR | 72 k | disbursed ✓ | exclusive | A | [link](https://fsfe.org/about/funds/2021.en.html) |
+| Germany | KDE e.V. · Patrons / corporate supporting members income, annual report | 2021 | 65 k EUR | 65 k | disbursed ✓ | exclusive | A | [link](https://ev.kde.org/reports/ev-2021/) |
+| Germany | Free Software Foundation Europe e.V. (FSFE) · Sponsoring income line, annual income & expenses report | 2022 | 82 k EUR | 82 k | disbursed ✓ | exclusive | A | [link](https://fsfe.org/about/funds/2022.en.html) |
+| Germany | KDE e.V. · Patrons / corporate supporting members income, annual report | 2022 | 67 k EUR | 67 k | disbursed ✓ | exclusive | A | [link](https://ev.kde.org/reports/ev-2022/) |
+| Germany | Free Software Foundation Europe e.V. (FSFE) · Sponsoring income line, annual income & expenses report | 2023 | 93 k EUR | 93 k | disbursed ✓ | exclusive | A | [link](https://fsfe.org/about/funds/2023.en.html) |
+| Germany | KDE e.V. · Patrons / corporate supporting members income, annual report | 2023 | 80 k EUR | 80 k | disbursed ✓ | exclusive | A | [link](https://ev.kde.org/reports/ev-2023/) |
+| Germany | Free Software Foundation Europe e.V. (FSFE) · Sponsoring income line, annual income & expenses report | 2024 | 101 k EUR | 101 k | disbursed ✓ | exclusive | A | [link](https://fsfe.org/about/funds/2024.en.html) |
+| Germany | KDE e.V. · Patrons / corporate supporting members income, annual report | 2024 | 67 k EUR | 67 k | disbursed ✓ | exclusive | A | [link](https://ev.kde.org/reports/ev-2024/) |
+| Germany | The Document Foundation (Stiftung) · Total income (mainly individual donations) | 2024 | 1.4 M EUR | 1.4 M | disbursed | exclusive | C | [link](https://www.punto-informatico.it/libreoffice-tdf-supera-2-milioni-euro-entrate-2025/) |
+| Germany | The Document Foundation (Stiftung) · Total income (donations 1,976,825; sales/sponsorship/other 168,975 incl. App Store 118,942) | 2025 | 2.2 M EUR | 2.2 M | disbursed | exclusive | B | [link](https://blog.documentfoundation.org/blog/2026/07/13/financials-and-budget-tdf-annual-report-2025/) |
 | EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 PET (cascade grants to FOSS projects) | 2018-11-01 to 2022-10-31 | 7.0 M EUR | 7.0 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/825310) |
 | EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 Discovery (cascade grants to FOSS projects) | 2018-11-01 to 2022-10-31 | 7.0 M EUR | 7.0 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/825322) |
 | EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 Entrust (cascade grants to FOSS projects) | 2022-08-01 to 2026-01-31 | 12.5 M EUR | 12.5 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/101069594) |
@@ -180,20 +203,28 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 | EU | Cyprus | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Czechia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Denmark | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Direct EU company FOSS funds (SAP, Siemens, Bosch, Mercedes, SUSE) | none found | No published amounts found in light search (private corporate pass, 2026-11-03). |
+| EU | Eclipse Foundation AISBL | found | Group revenue 2020-2025 (A); no split corporate vs EU research grants; summable=false (private corporate pass, 2026-11-03). |
 | EU | Estonia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | EU | found | NGI0 (CORDIS), OpenEuroLLM, DARE, Chips JU RISC-V, DC-EDIC. Not found: OSOR/EC OSPO/EU-FOSSA annual budgets. IPCEI-CIS public share not researched. |
 | EU | Finland | none found | DC-EDIC participation announced, no figure. No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | France | found | BlueHats prizes, La Suite cumulative; no DINUM OSS budget line found.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | FSFE | found | Sponsoring line 2020-2024 (A); 2025 report not yet published (private corporate pass, 2026-11-03). |
 | EU | Germany | found | STF 2023-25, ZenDiS 2024, openDesk, Prototype Fund.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
 | EU | Greece | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Hungary | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Ireland | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Italy | found | Only DC-EDIC joint share; no PNRR OSS-specific allocation found.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | KDE e.V. | found | Patrons/corporate line 2020-2024 (A) (private corporate pass, 2026-11-03). |
 | EU | Latvia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Linux Foundation Europe | none found | No separate financials; consolidated in LF (US) 990 (private corporate pass, 2026-11-03). |
 | EU | Lithuania | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Luxembourg | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Malta | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Netherlands | found | Only DC-EDIC joint share; undated NOIV ~EUR 4m (Computable) not recorded; BZK OSPO budget not found.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | NLnet Foundation | not quantified | ANBI forms exist (2023/2024) but private vs NGI split not extracted; NGI is public (private corporate pass, 2026-11-03). |
+| EU | OpenForum Europe / APELL / OSB Alliance / CNLL | not searched | Budget limit; EU Transparency Register is the next source (private corporate pass, 2026-11-03). |
+| EU | OW2 | none found | No published income figures found (private corporate pass, 2026-11-03). |
 | EU | Poland | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Portugal | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Romania | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
@@ -201,6 +232,7 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 | EU | Slovenia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 | EU | Spain | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
 | EU | Sweden | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | The Document Foundation | partial | Totals 2024-2025 only; corporate share not itemised; 2020-23 PDFs not parsed (private corporate pass, 2026-11-03). |
 
 ---
 > **Open-source research, not official statistics.** These figures are collected from publicly available sources (budgets, programme pages, official filings, press) by the Europe–China Digital Commons Observatory. They are incomplete, may contain errors, and compare instruments that are not always equivalent. Absence of a jurisdiction means *we found nothing*, not that it spends nothing.

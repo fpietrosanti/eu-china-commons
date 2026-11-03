@@ -404,5 +404,68 @@
     "searched": true,
     "result": "none found",
     "note": "No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "Eclipse Foundation AISBL",
+    "searched": true,
+    "result": "found",
+    "note": "Group revenue 2020-2025 (A); no split corporate vs EU research grants; summable=false (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "FSFE",
+    "searched": true,
+    "result": "found",
+    "note": "Sponsoring line 2020-2024 (A); 2025 report not yet published (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "KDE e.V.",
+    "searched": true,
+    "result": "found",
+    "note": "Patrons/corporate line 2020-2024 (A) (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "The Document Foundation",
+    "searched": true,
+    "result": "partial",
+    "note": "Totals 2024-2025 only; corporate share not itemised; 2020-23 PDFs not parsed (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "NLnet Foundation",
+    "searched": true,
+    "result": "not quantified",
+    "note": "ANBI forms exist (2023/2024) but private vs NGI split not extracted; NGI is public (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "OW2",
+    "searched": true,
+    "result": "none found",
+    "note": "No published income figures found (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "Linux Foundation Europe",
+    "searched": true,
+    "result": "none found",
+    "note": "No separate financials; consolidated in LF (US) 990 (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "OpenForum Europe / APELL / OSB Alliance / CNLL",
+    "searched": true,
+    "result": "not searched",
+    "note": "Budget limit; EU Transparency Register is the next source (private corporate pass, 2026-11-03)."
+  },
+  {
+    "side": "EU",
+    "jurisdiction": "Direct EU company FOSS funds (SAP, Siemens, Bosch, Mercedes, SUSE)",
+    "searched": true,
+    "result": "none found",
+    "note": "No published amounts found in light search (private corporate pass, 2026-11-03)."
   }
 ]
