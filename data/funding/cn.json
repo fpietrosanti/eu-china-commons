@@ -699,5 +699,34 @@
     "intermediary": "zone administration (东湖高新区)",
     "openness_to_foreign": "unclear (not stated in source read)",
     "outputs_required": "commercial sales, certification, or donation of code to key open-source foundations"
+  },
+  {
+    "side": "CN",
+    "currency": "CNY",
+    "oss_amount_known": false,
+    "summable": false,
+    "id": "cn-wuhan-excellent-oss-2024",
+    "level": "cn-city",
+    "jurisdiction": "Wuhan",
+    "province": "Hubei",
+    "funder": "Wuhan Municipal Bureau of Economy and Information Technology (武汉市经信局)",
+    "instrument": "2024年武汉市优秀开源软件项目和开源社区 (award list, 武推新工〔2024〕02号)",
+    "instrument_type": "grant",
+    "beneficiary": "projects-and-communities",
+    "year": 2024,
+    "amount": null,
+    "amount_type": "unknown",
+    "oss_share": "exclusive",
+    "evidence": "A",
+    "sources": [
+      "https://jxj.wuhan.gov.cn/xwzx_9/tztg/202502/t20250213_2532333.html"
+    ],
+    "note": "Award notice 13 Feb 2025: 10 projects (deepin, Jupiter/Douyu, RustSBI and open EDA/HUST, LuoJiaNET and kunpengsecl/WHU, Uotan Toolbox, 凹语言, OpenHIS, NextDenovo) + 1 community (deepin). Amount not in notice; press reports ¥300k per project (C, not used). First Chinese award-stage list verified on the original (archived).",
+    "selection": "recommendation by universities and district bureaus + expert review",
+    "conditions": "Wuhan-based applicants; evaluation rules 武汉市优秀开源软件项目和开源社区评价办法（试行）",
+    "sovereignty_frame": "unclear (not stated in source read)",
+    "intermediary": "municipal bureau",
+    "openness_to_foreign": "local applicants only",
+    "outputs_required": "existing open-source project/community (prize-style, ex post)"
   }
 ]

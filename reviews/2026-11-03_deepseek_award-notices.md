@@ -38,3 +38,7 @@ Result: no award lists found (✖ for "lists"); leads:
 - Only disbursement found: 通义云启（杭州）信息技术有限公司 ¥26.85M first tranche (Xihu notice, WeChat relay). Other Xihu voucher notices = generic city vouchers (excluded).
 - City policy: "每年安排一定额度的智能券和算力券，支持人工智能开源社区面向开发者提供免费算力"; ¥250M/yr city compute vouchers are generic (excluded).
 - Modality note: an OSS-specific **compute-voucher** instrument paid to a community operator owned by Alibaba Cloud (ModelScope operator) — new instrument type for R13.
+
+## Q8 Provincial/city OSS award lists (Jiangsu, Zhejiang, Beijing, Wuhan, Chengdu) (R12)
+- **Wuhan — VERIFIED A** (fetched locally and from server, archived sources/archive/jxj.wuhan.gov.cn-wuhan2024oss.html): 2024年武汉市优秀开源软件项目和开源社区名单公示, 13 Feb 2025, basis 武推新工〔2024〕02号; 10 projects + deepin community. Amount not in notice (press: ¥300k/project, C). → data/funding/cn.json `cn-wuhan-excellent-oss-2024`.
+- Jiangsu: only "开放原子开源专区建设项目" line in 2025 制造强省 fund performance table, no amounts. Zhejiang: Hangzhou "AI开源政策包" described, no list. Beijing: Beijing E-Town 信创 support list (统信 + 9; not OSS-specific → excluded); city "重点共享开源项目奖励" guide ¥2M infrastructure / ¥1M community (cap). Chengdu: ✖.

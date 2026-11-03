@@ -6,3 +6,16 @@ https://www.szlhq.gov.cn/bmxxgk/jjcjj/dtxx_124217/gzdt_124218/content/post_12808
 https://www.jiemian.com/article/6599316.html
 https://www.openatom.org/
 https://gxj.sz.gov.cn/gkmlpt/content/11/11814/post_11814233.html	Shenzhen 2024 重大开源项目 拟资助公示 ¥8.32M (R12)
+https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/content/post_11265251.html	Shenzhen 2024 重大开源项目 application guide (R12)	full text, support rates/caps, eligibility (local registration, OpenHarmony/openEuler)
+gxj.sz.gov.cn 2025–2026 资金公示 pages	Shenzhen 2025–26 重大开源项目 award results not found (R12)	拟资助项目公示 + attachment 公示表 (firm, project, amount)
+hzxh.gov.cn (西湖区经信局) — 关于下达人工智能开源社区算力券资金的公示 (Aug 2026)	only WeChat relay found; ¥26.85M to 通义云启 (R12)	official page, amount, legal basis, tranche schedule
+hangzhou.gov.cn / jxj.hangzhou.gov.cn — 杭州市算力券支持人工智能开源社区实施细则	rules not public outside China (R12/R13)	doc number, eligibility, rate, cap, annual budget
+gdii.gd.gov.cn — 2026年省级制造业当家重点任务保障专项资金（新一代信息技术和产业发展）项目计划	only relay mziit.com/news/16299.html; OpenHarmony adaptation centre ¥10M (R12)	original notice + attachment table, all OSS-related lines
+sheitc.sh.gov.cn — 人工智能开源奖励项目支持计划 (2025)	full beneficiary list not public (R12)	all beneficiaries and amounts
+https://www.openatom.org/ disclosure/审计 section	2024–2025 annual work reports and audits not found (R11)	donation income, gov subsidy, spending per project, donors
+https://chinanpo.mca.gov.cn/ and https://cszg.mca.gov.cn/ (慈善中国)	JS-only from outside; OpenAtom annual reports 2024–25 (R11)	filed annual reports, credit code, governing body
+http://www.ccgp-shaanxi.gov.cn/ — 平利县档案馆安全体系建设项目 (May 2025)	Qwen lead, context only, URL imprecise (R04)	exact URL + spec clause (openEuler compatibility)
+https://www.fengxian.gov.cn/ — Fengxian 2026-082 正版化软件采购 result notice	who won, which OS delivered (R04)	award notice (中标公告) and delivered OS
+kaiyuanshe.cn (COSCon 2016, 2017 pages, Wayback-less)	2016 slogan conflict DeepSeek vs Qwen (R10)	official slogan, city, dates, track list
+https://atomgit.com/g-star/rank	G-Star full list by year (R09)	project list, graduation year, owner organisation
+https://gitee.com/gvp/all	GVP full list (R09)	project, owner org, stars, licence

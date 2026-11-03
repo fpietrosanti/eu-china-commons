@@ -41,7 +41,7 @@
 | direct-spending | 6 | 19.0 M | 0 | 0 |
 | donation | 2 | 0 | 5 | 29.9 M |
 | equity-or-loan | 0 | 0 | 2 | 0 |
-| grant | 18 | 47.5 M | 12 | 0 |
+| grant | 18 | 47.5 M | 13 | 0 |
 | membership-fees | 11 | 323 k | 0 | 0 |
 | sponsorship | 5 | 380 k | 0 | 0 |
 
@@ -88,6 +88,7 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 | CN | cn-city | Dongguan | 0 | – | 1 | 1 |
 | CN | cn-city | Hangzhou | 0 | – | 3 | 3 |
 | CN | cn-city | Wuhan (East Lake High-tech Zone) | 0 | – | 5 | 5 |
+| CN | cn-city | Wuhan | 0 | – | – | 1 |
 
 ## 3. All records
 
@@ -112,6 +113,7 @@ Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting 
 | Shenzhen (Guangdong) | Shenzhen MIIT Bureau (深圳市工业和信息化局) · 软件产业高质量发展项目: 重大开源项目 商业发行版软件推广 | 2024 | 10.0 M CNY | 1.3 M | cap-per-project | exclusive | C | [link](https://news.pedaily.cn/20240508/85397.shtml) |
 | Shenzhen (Guangdong) | Shenzhen MIIT Bureau (深圳市工业和信息化局) · 重大开源项目: 终端操作系统芯片模组采购 (OpenHarmony devices) | 2024-2026 | n/a CNY | 0 | unknown | exclusive | C | [link](https://news.pedaily.cn/20240508/85397.shtml) |
 | Shenzhen (Guangdong) | Shenzhen Municipal Government / Shenzhen MIIT Bureau (深圳市工业和信息化局) · Industrial equipment renewal measures, item 5 OpenHarmony/RISC-V (深府办规〔2026〕1号) | 2026 | 10.0 M CNY | 1.2 M* | cap-per-project | partial | A | [link](https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html) |
+| Wuhan (Hubei) | Wuhan Municipal Bureau of Economy and Information Technology (武汉市经信局) · 2024年武汉市优秀开源软件项目和开源社区 (award list, 武推新工〔2024〕02号) | 2024 | n/a CNY | 0 | unknown | exclusive | A | [link](https://jxj.wuhan.gov.cn/xwzx_9/tztg/202502/t20250213_2532333.html) |
 | Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 加快促进软件和信息技术服务业创新发展的若干措施: major open-source native apps | 2025 | 30.0 M CNY | 3.7 M | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
 | Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: commercial distributions of major open-source projects | 2025 | 5.0 M CNY | 616 k | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
 | Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: award for donating projects to key open-source foundations | 2025 | 1.0 M CNY | 123 k | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |

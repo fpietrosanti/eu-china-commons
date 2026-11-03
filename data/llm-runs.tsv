@@ -20,3 +20,4 @@ date	model_shown	service	search	task	prompt_file	output_file	notes
 2026-11-03	Qwen (Automatico)	chat.qwen.ai free	yes	Fengxian openEuler (R04)	inline	reviews/2026-11-03_qwen_round7.md	quote verified but context only (antivirus compat)
 2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	Hangzhou OSS compute vouchers (R12)	inline	reviews/2026-11-03_deepseek_award-notices.md	only Xihu ¥26.85M; rules not public
 2026-11-03	Qwen (Automatico)	chat.qwen.ai free	yes	Pingli open-source OS (R04)	inline	reviews/2026-11-03_qwen_round7.md	compatibility clause only = context
+2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	Provincial OSS award lists (R12)	inline	reviews/2026-11-03_deepseek_award-notices.md	Wuhan list verified A; others none

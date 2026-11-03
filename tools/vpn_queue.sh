@@ -26,4 +26,9 @@ echo "- National register of social organisations (chinanpo.mca.gov.cn): OpenAto
 echo "- Disbursements and beneficiaries of the Hangzhou, Guangdong, Shenzhen and Jiangsu Zijin funds (public award lists 公示)"
 echo "- Public-administration reuse cases on provincial portals (政务, 信创, government open-source code repositories)"
 echo "- Baidu/WeChat searches for 数字公地 (digital commons) and 中欧开源 (EU–China open source), not indexed outside China"
+echo
+echo "## D. Local copy of every Chinese source (run with VPN active)"
+echo
+N=$(grep -rhoE "https?://[^ )\"<>|]+" data docs reviews 2>/dev/null | grep -E "\.cn(/|$)|gitee\.com|atomgit\.com|openatom\.org|kaiyuanshe|mp\.weixin\.qq\.com|gitcode|csdn\.net|oschina" | sort -u | wc -l)
+echo "Run tools/vpn_fetch.sh with the VPN active: it copies every URL in B plus all $N distinct Chinese URLs cited in data/, docs/ and reviews/ (gov.cn, Gitee, AtomGit, OpenAtom, WeChat, CSDN), with linked attachments (公示表, PDF, XLS), into sources/archive-vpn/ with SHA-256 in index.tsv. Then commit sources/archive-vpn/."
 } > docs/CN-VPN-QUEUE.md
