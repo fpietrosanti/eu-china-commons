@@ -102,3 +102,8 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 - **COSCon themes 2016–2025** → docs/COSCON-THEMES.md: trend community/education/hardware → AI ("Open Intelligence" 2025); 2018 "Bridging East and West".
 - **Foundations** → docs/CN-FOUNDATIONS.md: OpenAtom (MIIT-supervised, ¥600M+ raised since 2020 per Xinhua, C), KAIYUANSHE (2021 income ¥604k, C), COPU, CCF ODC (lead only).
 - OpenAtom filed donation income: 2022 ¥63.69M, 2023 ¥75.50M, 0 foreign (OCR of statutory reports, A). Open: 2020–21 and 2024–25 filings; KAIYUANSHE reports 2022–2025; Gitee GVP and AtomGit G-Star full lists; read the 2025 China Open Source Annual Report directly (now via press relay, B).
+
+## 12. Public funding comparison (3 Nov, Fabio)
+- Data: data/funding/{eu,cn}.json (24 EU + 21 CN records, OSS-specific only; generic innovation/tax schemes in excluded.json), coverage.json (58 jurisdictions), ECB rates; tables docs/FUNDING-COMPARISON.md (tools/build_funding.js), qualitative docs/FUNDING-MODALITIES.md.
+- Key: EU summable 2023 €11.5M, 2024 €36M, 2025 €19M (DE+FR only). CN: **no summable figure** — only per-project caps (top: Wuhan ¥30M, Shanghai ¥20M, Shenzhen ¥10M) and envelopes; no central OSS budget line found.
+- Next: CN award notices (拟资助名单) to get disbursed amounts; German figures against Bundeshaushalt; light-search states → national budgets; quote sovereignty phrases both sides; public email for the contribute notice.

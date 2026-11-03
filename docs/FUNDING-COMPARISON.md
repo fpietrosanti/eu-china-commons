@@ -15,6 +15,9 @@
 
 | Year | EU (institutions + member states) | China (central + provinces) | CN/EU |
 |---|---|---|---|
+| 2023 | 11.5 M | not documented | n/a |
+| 2024 | 36.0 M | not documented | n/a |
+| 2025 | 19.0 M | not documented | n/a |
 
 *Inference warning: the totals reflect what is documented, which is much more for the EU (published budgets) than for China (caps and envelopes dominate).* 
 
@@ -22,20 +25,167 @@
 
 | Instrument | EU records | EU summable (EUR) | CN records | CN summable (EUR) |
 |---|---|---|---|---|
+| adoption-subsidy | 0 | 0 | 5 | 0 |
+| direct-spending | 6 | 19.0 M | 0 | 0 |
+| donation | 0 | 0 | 3 | 0 |
+| equity-or-loan | 0 | 0 | 2 | 0 |
+| grant | 18 | 47.5 M | 11 | 0 |
 
 Grants (*fondo perduto*), adoption subsidies and tax credits for firms adopting strategic national open-source technologies are in scope; when only a rate or a cap is published they are listed but not summed.
+
+## 1c. Largest per-project caps (not summable)
+
+| Jurisdiction | Instrument | Year | Cap (original) | Cap (EUR) | Ev. |
+|---|---|---|---|---|---|
+| Wuhan (East Lake High-tech Zone) (Hubei) | 加快促进软件和信息技术服务业创新发展的若干措施: major open-source native apps | 2025 | 30.0 M CNY | 3.7 M | B |
+| Shanghai | Special funds for key open-source tools | 2026 | 20.0 M CNY | 2.5 M | B |
+| Shenzhen (Guangdong) | 软件产业高质量发展项目: 重大开源项目 商业发行版软件推广 | 2024 | 10.0 M CNY | 1.3 M | C |
+| Shenzhen (Guangdong) | Industrial equipment renewal measures, item 5 OpenHarmony/RISC-V (深府办规〔2026〕1号) | 2026 | 10.0 M CNY | 1.2 M | A |
+| Guangdong | AI/robotics measures: open-source community/centre operating-cost support | 2026 | 8.0 M CNY | 985 k | A |
+| Shanghai | Direct awards to excellent open-source projects | 2026 | 5.0 M CNY | 616 k | B |
+| Wuhan (East Lake High-tech Zone) (Hubei) | 若干措施: commercial distributions of major open-source projects | 2025 | 5.0 M CNY | 616 k | B |
+| Hangzhou (Zhejiang) | 杭政办函〔2026〕9号: open-source platform grants | 2026 | 2.0 M CNY | 246 k | A |
+| Germany | Prototype Fund (FOSS, 4-year extension from Nov 2024) | 2024 | 158 k EUR | 158 k | B |
+| Hangzhou (Zhejiang) | 杭政办函〔2026〕9号: open-source incubation projects | 2026 | 1.0 M CNY | 123 k | A |
+| Shanghai | One-off award for projects graduating from foundations | 2026 | 1.0 M CNY | 123 k | B |
+| Wuhan (East Lake High-tech Zone) (Hubei) | 若干措施: award for donating projects to key open-source foundations | 2025 | 1.0 M CNY | 123 k | B |
+| Hangzhou (Zhejiang) | 杭政办函〔2026〕9号: excellent open-source projects/products | 2026 | 500 k CNY | 62 k | A |
+| Wuhan (East Lake High-tech Zone) (Hubei) | 若干措施: OpenHarmony device/app adaptation certification | 2025 | 500 k CNY | 62 k | C |
+| Wuhan (East Lake High-tech Zone) (Hubei) | 若干措施: Wuhan excellent open-source software projects | 2025 | 300 k CNY | 37 k | B |
+
+*A cap is a ceiling per project, not money spent; actual awards are in award notices (拟资助名单), not yet collected.*
 
 ## 2. By jurisdiction
 
 | Side | Level | Jurisdiction | Summable, all years (EUR) | Envelopes, annualised (EUR/yr) | Per-project caps (count) | Records |
 |---|---|---|---|---|---|---|
+| EU | eu-institution | EU | 0 | 128.6 M | – | 12 |
+| EU | member-state | Germany | 66.5 M | – | 1 | 9 |
+| EU | member-state | France | 40 k | – | – | 2 |
+| EU | member-state | EU (FR, DE, IT, NL jointly) | 0 | 2.8 M | – | 1 |
+| CN | cn-central | China | 0 | – | – | 3 |
+| CN | cn-province | Guangdong | 0 | – | 1 | 1 |
+| CN | cn-province | Jiangsu | 0 | 126.9 M | – | 2 |
+| CN | cn-province | Shanghai | 0 | – | 3 | 3 |
+| CN | cn-city | Shenzhen | 0 | – | 2 | 3 |
+| CN | cn-city | Dongguan | 0 | – | 1 | 1 |
+| CN | cn-city | Hangzhou | 0 | – | 3 | 3 |
+| CN | cn-city | Wuhan (East Lake High-tech Zone) | 0 | – | 5 | 5 |
 
 ## 3. All records
 
 | Jurisdiction | Funder · instrument | Year/period | Original | EUR | Type | OSS share | Ev. | Source |
 |---|---|---|---|---|---|---|---|---|
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Cumulative funds raised (press) | 2020-2026 | 600.0 M CNY | 76.2 M | unknown | exclusive | C | [link](https://www.news.cn/info/20260625/a9b84c78ac8946c6a7e37bbae91513af/c.html) |
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2022 | 63.7 M CNY | 9.0 M | disbursed | exclusive | A | [link](docs/CN-FOUNDATIONS.md) |
+| China | OpenAtom Open Source Foundation (开放原子开源基金会) · Donation income (statutory annual work report) | 2023 | 75.5 M CNY | 9.9 M | disbursed | exclusive | A | [link](docs/CN-FOUNDATIONS.md) |
+| Guangdong | Guangdong Dept. of Science and Technology (广东省科学技术厅) · AI/robotics measures: open-source community/centre operating-cost support | 2026 | 8.0 M CNY | 985 k* | cap-per-project | exclusive | A | [link](https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4694765.html) |
+| Jiangsu | Jiangsu Province / Suzhou, OpenAtom Zijin zone (开放原子紫金) · OPC fund matrix (planned) | 2026 | 1000.0 M CNY | 123.2 M* | committed-envelope | unclear | A-v | [link](https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html) |
+| Jiangsu | Jiangsu Province / Suzhou, OpenAtom Zijin zone · AI micro-seed fund | 2026 | 30.0 M CNY | 3.7 M* | committed-envelope | unclear | A-v | [link](https://www.jiangsu.gov.cn/art/2026/8/29/art_60095_11822208.html) |
+| Shanghai | Shanghai Municipal Government (上海市人民政府), 上海市加强开源体系建设实施方案 · Special funds for key open-source tools | 2026-2027 | 20.0 M CNY | 2.5 M* | cap-per-project | exclusive | B | [link](https://www.cls.cn/detail/2240200) |
+| Shanghai | Shanghai Municipal Government (上海市人民政府), 上海市加强开源体系建设实施方案 · Direct awards to excellent open-source projects | 2026-2027 | 5.0 M CNY | 616 k* | cap-per-project | exclusive | B | [link](https://www.cls.cn/detail/2240200) |
+| Shanghai | Shanghai Municipal Government (上海市人民政府), 上海市加强开源体系建设实施方案 · One-off award for projects graduating from foundations | 2026-2027 | 1.0 M CNY | 123 k* | cap-per-project | exclusive | B | [link](https://www.ithome.com/0/907/836.htm) |
+| Dongguan (Guangdong) | Dongguan Municipal Government (东莞市) · HarmonyOS/OpenHarmony native application award | 2025 | 50 k CNY | 6 k | cap-per-project | partial | C | [link](https://im.dg.gov.cn/attachment/0/402/402058/4516149.pdf) |
+| Hangzhou (Zhejiang) | Hangzhou Municipal Government (杭州市人民政府) · 杭政办函〔2026〕9号: open-source incubation projects | 2026-2028 | 1.0 M CNY | 123 k* | cap-per-project | exclusive | A | [link](https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml) |
+| Hangzhou (Zhejiang) | Hangzhou Municipal Government (杭州市人民政府) · 杭政办函〔2026〕9号: excellent open-source projects/products | 2026-2028 | 500 k CNY | 62 k* | cap-per-project | exclusive | A | [link](https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml) |
+| Hangzhou (Zhejiang) | Hangzhou Municipal Government (杭州市人民政府) · 杭政办函〔2026〕9号: open-source platform grants | 2026-2028 | 2.0 M CNY | 246 k* | cap-per-project | exclusive | A | [link](https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml) |
+| Shenzhen (Guangdong) | Shenzhen MIIT Bureau (深圳市工业和信息化局) · 软件产业高质量发展项目: 重大开源项目 商业发行版软件推广 | 2024 | 10.0 M CNY | 1.3 M | cap-per-project | exclusive | C | [link](https://news.pedaily.cn/20240508/85397.shtml) |
+| Shenzhen (Guangdong) | Shenzhen MIIT Bureau (深圳市工业和信息化局) · 重大开源项目: 终端操作系统芯片模组采购 (OpenHarmony devices) | 2024-2026 | n/a CNY | 0 | unknown | exclusive | C | [link](https://news.pedaily.cn/20240508/85397.shtml) |
+| Shenzhen (Guangdong) | Shenzhen Municipal Government / Shenzhen MIIT Bureau (深圳市工业和信息化局) · Industrial equipment renewal measures, item 5 OpenHarmony/RISC-V (深府办规〔2026〕1号) | 2026 | 10.0 M CNY | 1.2 M* | cap-per-project | partial | A | [link](https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html) |
+| Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 加快促进软件和信息技术服务业创新发展的若干措施: major open-source native apps | 2025 | 30.0 M CNY | 3.7 M | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
+| Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: commercial distributions of major open-source projects | 2025 | 5.0 M CNY | 616 k | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
+| Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: award for donating projects to key open-source foundations | 2025 | 1.0 M CNY | 123 k | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
+| Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: Wuhan excellent open-source software projects | 2025 | 300 k CNY | 37 k | cap-per-project | exclusive | B | [link](https://www.yicai.com/news/102513678.html) |
+| Wuhan (East Lake High-tech Zone) (Hubei) | Wuhan East Lake High-tech Development Zone (东湖高新区) · 若干措施: OpenHarmony device/app adaptation certification | 2025 | 500 k CNY | 62 k | cap-per-project | exclusive | C | [link](https://m.c114.com.cn/w241-1285598.html) |
+| EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 PET (cascade grants to FOSS projects) | 2018-11-01 to 2022-10-31 | 7.0 M EUR | 7.0 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/825310) |
+| EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 Discovery (cascade grants to FOSS projects) | 2018-11-01 to 2022-10-31 | 7.0 M EUR | 7.0 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/825322) |
+| EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 Entrust (cascade grants to FOSS projects) | 2022-08-01 to 2026-01-31 | 12.5 M EUR | 12.5 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/101069594) |
+| EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 Core (cascade grants to FOSS projects) | 2023-01-01 to 2026-12-31 | 11.5 M EUR | 11.5 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/101092990) |
+| EU | European Commission (DG CNECT), Horizon grant to NLnet-led consortium · Next Generation Internet - NGI0 Commons Fund (cascade grants to FOSS projects) | 2024-01-01 to 2027-06-30 | 27.5 M EUR | 27.5 M | committed-envelope | exclusive | A | [link](https://cordis.europa.eu/project/id/101135429) |
+| EU | European Commission · Next Generation Internet - reported cut in Horizon Europe WP 2025 | 2024 | 27.0 M EUR | 27.0 M | unknown | exclusive | C | [link](https://fsfe.org/news/podcast/transcript/2024/episode-26.html) |
+| EU | Chips Joint Undertaking · Call 2024 focus topic: open-source RISC-V reference hardware platform for SDV | 2024 | 20.0 M EUR | 20.0 M | budgeted | exclusive | B | [link](https://www.chips-ju.europa.eu/Closed-Calls) |
+| EU | European Commission, Digital Europe Programme · OpenEuroLLM (open-source multilingual LLMs, STEP Seal) | 2025-02 to 2028-01 | 20.6 M EUR | 20.6 M | committed-envelope | exclusive | A | [link](https://digital-strategy.ec.europa.eu/de/news/pioneering-ai-project-awarded-opening-large-language-models-european-languages) |
+| EU | EuroHPC Joint Undertaking (Horizon Europe) · DARE SGA1 - Digital Autonomy with RISC-V in Europe | 2025-2027 | 120.0 M EUR | 120.0 M | committed-envelope | partial | A | [link](https://eurohpc-ju.europa.eu/advancing-european-sovereignty-hpc-risc-v-2025-03-06_en) |
+| EU | Chips Joint Undertaking · Call 2025: RISC-V Automotive Hardware Platform (phase 2) | 2025 | 40.0 M EUR | 40.0 M | budgeted | partial | B | [link](https://www.chips-ju.europa.eu/Closed-Calls) |
+| EU | European Commission (Digital Europe, EDIC support) · Digital Commons EDIC - EU contribution (application estimate) | 2025 | 2.5 M EUR | 2.5 M | committed-envelope | exclusive | B | [link](https://www.nldigitalgovernment.nl/?p=4457) |
+| EU | Proposed EU Sovereign Tech Fund (feasibility study / civil-society letter) · EU-STF proposal for MFF 2028-2034 | 2028-2034 | 350.0 M EUR | 350.0 M | unknown | exclusive | B | [link](https://openfuture.eu/blog/public-letter-calls-for-eu-investment-in-open-source-sustainability-through-an-eu-sovereign-tech-fund/) |
+| EU (FR, DE, IT, NL jointly) | DC-EDIC founding member states · Digital Commons EDIC - member-state contributions (application estimate) | 2025 | 2.8 M EUR | 2.8 M | committed-envelope | exclusive | B | [link](https://www.nldigitalgovernment.nl/?p=4457) |
+| France | DINUM · La Suite numérique (open-source collaborative suite) - cumulative cost | 2021-2025 | 40.0 M EUR | 40.0 M | disbursed | exclusive | C | [link](https://next.ink/188938/non-la-dinum-na-pas-prevu-dinjecter-120-millions-deuros-dans-la-suite-numerique/) |
+| France | DINUM - Mission logiciels libres (with NLnet) · Prix BlueHats for maintainers | 2024 | 40 k EUR | 40 k | disbursed ✓ | exclusive | B | [link](https://linuxfr.org/news/la-mission-logiciels-libres-dinum-propose-4-prix-bluehats-de-10000-pour-soutenir-des-mainteneurs.epub) |
+| Germany | BMBF · Prototype Fund - cumulative grants rounds 1-16 | 2016-2025 | 15.5 M EUR | 15.5 M | disbursed | exclusive | C | [link](https://chemnitzer.linux-tage.de/2024/media/programm/folien/183.pdf) |
+| Germany | Sovereign Tech Agency · Sovereign Tech Fund - cumulative investments | 2022-2025 | 33.6 M EUR | 33.6 M | disbursed | exclusive | C | [link](https://www.sovereign.tech/press) |
+| Germany | BMWK via SPRIND / Sovereign Tech Fund · Sovereign Tech Fund (Bundeshaushalt) | 2023 | 11.5 M EUR | 11.5 M | budgeted ✓ | exclusive | B | [link](https://netzpolitik.org/2024/open-source-bundestag-staerkt-sovereign-tech-fund/) |
+| Germany | Federal Government (BMI) via ZenDiS · openDesk development - cumulative prior years | 2023-2024 | 35.0 M EUR | 35.0 M | disbursed | exclusive | C | [link](https://cybernews.com/de/tech/private-opendesk-lizenzen/) |
+| Germany | BMWK via SPRIND / Sovereign Tech Agency · Sovereign Tech Fund (Bundeshaushalt) | 2024 | 17.0 M EUR | 17.0 M | budgeted ✓ | exclusive | B | [link](https://netzpolitik.org/2024/open-source-bundestag-staerkt-sovereign-tech-fund/) |
+| Germany | BMI - Zentrum für Digitale Souveränität (ZenDiS GmbH) · ZenDiS budget (openCoDE, openDesk) | 2024 | 19.0 M EUR | 19.0 M | budgeted ✓ | exclusive | B | [link](https://netzpolitik.org/2024/zentrum-fuer-digitale-souveraenitaet-knappe-ressourcen-fuer-open-source/) |
+| Germany | BMBF (Federal Ministry of Education and Research) · Prototype Fund (FOSS, 4-year extension from Nov 2024) | 2024-2028 | 158 k EUR | 158 k | cap-per-project | exclusive | B | [link](https://netzpolitik.org/2024/millionen-foerderung-fuer-open-source-prototype-fund-startet-in-die-naechste-runde/) |
+| Germany | BMWK / Sovereign Tech Agency · Sovereign Tech Fund (Bundeshaushalt 2025) | 2025 | 19.0 M EUR | 19.0 M | budgeted ✓ | exclusive | B | [link](https://netzpolitik.org/2024/open-source-bundestag-staerkt-sovereign-tech-fund/) |
+| Germany | Federal Government (BMI) via ZenDiS · openDesk further development | 2025 | 10.0 M EUR | 10.0 M | budgeted | exclusive | C | [link](https://cybernews.com/de/tech/private-opendesk-lizenzen/) |
 
 ✓ = counted in totals. * = latest available ECB rate used.
+
+## 4. Coverage: jurisdictions searched
+
+| Side | Jurisdiction | Result | Note |
+|---|---|---|---|
+| CN | Anhui | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Beijing | policy-without-amount | 北京市开源生态体系建设实施方案(2026—2028): 开源首方案 support as share of procurement, ratio/cap not stated; only E-Town 信创 matching cap recorded. |
+| CN | China (central) | no-oss-specific-line | MIIT 揭榜挂帅 2026 first batch (24 topics, none open-source), 超长期特别国债 + 开源鸿蒙, MIIT/MOST special funds: no OSS-specific public amount found. National tax: only general software-enterprise regime (公告2020年第45号); no OSS-adoption tax rule found. VAT 即征即退 for software not checked (lead). |
+| CN | Chongqing | policy-without-amount | OpenHarmony 1+3+N plan (2026), 50k developers by 2030; no amount. |
+| CN | Fujian | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Gansu | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Guangdong (Guangzhou) | no-result | Guangzhou/Tianhe: no OSS money found (Tianhe 2025 software measures = talent subsidies). |
+| CN | Guangxi | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Guizhou | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Hainan | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Hebei | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Heilongjiang | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Henan | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Hunan | policy-without-amount | 湖南开源鸿蒙专项实施方案 (Oct 2026): 100 demo scenarios by 2028; no amount found. |
+| CN | Inner Mongolia | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Jiangsu (Nanjing) | amount-not-extracted | Nanjing 2025 special-fund guide (third batch) has 鸿蒙适配补助 (investment ≥1M), cap not extracted: https://gxj.nanjing.gov.cn/njsjjhxxhwyh/202510/P020251031508449945696.pdf |
+| CN | Jiangxi | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Jilin | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Liaoning | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Ningxia | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Qinghai | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Shaanxi | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Shandong | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Shanxi | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Sichuan | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Tianjin | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Tibet | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Xinjiang | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Yunnan | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| CN | Zhejiang (province level) | no-result | Generic web search (开源鸿蒙/开源 项目 资助 最高 万元) found no OSS funding policy; provincial portals not searched exhaustively (budget-limited). Absence is not zero. |
+| EU | Austria | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Belgium | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Bulgaria | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Croatia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Cyprus | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Czechia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Denmark | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Estonia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | EU | found | NGI0 (CORDIS), OpenEuroLLM, DARE, Chips JU RISC-V, DC-EDIC. Not found: OSOR/EC OSPO/EU-FOSSA annual budgets. IPCEI-CIS public share not researched. |
+| EU | Finland | none found | DC-EDIC participation announced, no figure. No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | France | found | BlueHats prizes, La Suite cumulative; no DINUM OSS budget line found.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | Germany | found | STF 2023-25, ZenDiS 2024, openDesk, Prototype Fund.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | Greece | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Hungary | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Ireland | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Italy | found | Only DC-EDIC joint share; no PNRR OSS-specific allocation found.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | Latvia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Lithuania | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Luxembourg | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Malta | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Netherlands | found | Only DC-EDIC joint share; undated NOIV ~EUR 4m (Computable) not recorded; BZK OSPO budget not found.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | Poland | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Portugal | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Romania | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Slovakia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Slovenia | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
+| EU | Spain | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive.0/CIR/Forschungszulage/WBSO): OSS-specific treatment not verified in this pass. |
+| EU | Sweden | none found | No dedicated public OSS funding found in a light web search (2026-11-03); national budgets not read; not exhaustive. |
 
 ---
 > **Open-source research, not official statistics.** These figures are collected from publicly available sources (budgets, programme pages, official filings, press) by the Europe–China Digital Commons Observatory. They are incomplete, may contain errors, and compare instruments that are not always equivalent. Absence of a jurisdiction means *we found nothing*, not that it spends nothing.

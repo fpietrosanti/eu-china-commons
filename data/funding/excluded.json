@@ -1,0 +1,52 @@
+[
+  {
+    "jurisdiction": "EU",
+    "instrument": "DIGITAL-2024-BESTUSE-06 capacity building for Interoperable Europe Act (EUR 1m)",
+    "reason": "Generic interoperability support; open source not the object or a condition",
+    "source": "https://www.developmentaid.org/grants/view/1252123/innovative-and-connected-public-administrations"
+  },
+  {
+    "jurisdiction": "Italy",
+    "instrument": "Transizione 4.0/5.0 tax credits",
+    "reason": "Generic R&D/innovation tax incentive; can fund proprietary or foreign tech; excluded per SCHEMA inclusion rule (OSS-specific treatment not searched)",
+    "source": "data/funding/SCHEMA.md#inclusion-rule"
+  },
+  {
+    "jurisdiction": "France",
+    "instrument": "Crédit d’Impôt Recherche / Innovation (CIR/CII)",
+    "reason": "Generic R&D/innovation tax incentive; can fund proprietary or foreign tech; excluded per SCHEMA inclusion rule (OSS-specific treatment not searched)",
+    "source": "data/funding/SCHEMA.md#inclusion-rule"
+  },
+  {
+    "jurisdiction": "Germany",
+    "instrument": "Forschungszulage",
+    "reason": "Generic R&D/innovation tax incentive; can fund proprietary or foreign tech; excluded per SCHEMA inclusion rule (OSS-specific treatment not searched)",
+    "source": "data/funding/SCHEMA.md#inclusion-rule"
+  },
+  {
+    "jurisdiction": "Netherlands",
+    "instrument": "WBSO R&D tax credit",
+    "reason": "Generic R&D/innovation tax incentive; can fund proprietary or foreign tech; excluded per SCHEMA inclusion rule (OSS-specific treatment not searched)",
+    "source": "data/funding/SCHEMA.md#inclusion-rule"
+  },
+  {
+    "jurisdiction": "Spain",
+    "instrument": "Deducción por I+D+i",
+    "reason": "Generic R&D/innovation tax incentive; can fund proprietary or foreign tech; excluded per SCHEMA inclusion rule (OSS-specific treatment not searched)",
+    "source": "data/funding/SCHEMA.md#inclusion-rule"
+  },
+  {
+    "side": "CN",
+    "jurisdiction": "China",
+    "instrument": "公告2020年第45号: CIT incentives for key software and IC-design enterprises",
+    "reason": "General software/IC-design enterprise CIT regime (公告2020年第45号); does not name 开源 or an open-source stack — could fund proprietary software.",
+    "source": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202164/content.html"
+  },
+  {
+    "side": "CN",
+    "jurisdiction": "Beijing (Economic-Technological Development Area)",
+    "instrument": "关于建设国家开源开放信创产业高地的若干措施: matching for national/municipal major tasks",
+    "reason": "信创 matching (最高1:1配套, 3000万元/项目/年) for national/municipal major tasks; open-source base not a condition despite 开源开放 in the title.",
+    "source": "https://kfqgw.beijing.gov.cn/zwgkkfq/2024zcwj/202510/W020251023555057368953.docx"
+  }
+]

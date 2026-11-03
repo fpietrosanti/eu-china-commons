@@ -52,7 +52,7 @@ const ys = [...new Set(rows.filter((r) => r.summable).map((r) => r.year))].sort(
 md += `## 1. Annual totals (summable records only, EUR)\n\n| Year | EU (institutions + member states) | China (central + provinces) | CN/EU |\n|---|---|---|---|\n`;
 for (const y of ys) {
   const e = sum[`${y}|EU`] || 0, c = sum[`${y}|CN`] || 0;
-  md += `| ${y} | ${fmt(e)} | ${fmt(c)} | ${e ? (c / e).toFixed(2) : 'n/a'} |\n`;
+  md += `| ${y} | ${e ? fmt(e) : 'not documented'} | ${c ? fmt(c) : 'not documented'} | ${e && c ? (c / e).toFixed(2) : 'n/a'} |\n`;
 }
 md += `\n*Inference warning: the totals reflect what is documented, which is much more for the EU (published budgets) than for China (caps and envelopes dominate).* \n\n`;
 
@@ -71,6 +71,14 @@ for (const t of types) {
   md += `| ${t} | ${e.n} | ${fmt(e.eur)} | ${c.n} | ${fmt(c.eur)} |\n`;
 }
 md += `\nGrants (*fondo perduto*), adoption subsidies and tax credits for firms adopting strategic national open-source technologies are in scope; when only a rate or a cap is published they are listed but not summed.\n\n`;
+
+// 1c. Per-project caps: China funds mostly through ceilings, so compare the ceilings themselves
+const caps = rows.filter((r) => r.amount_type === 'cap-per-project' && r.eur != null).sort((a, b) => b.eur - a.eur);
+if (caps.length) {
+  md += `## 1c. Largest per-project caps (not summable)\n\n| Jurisdiction | Instrument | Year | Cap (original) | Cap (EUR) | Ev. |\n|---|---|---|---|---|---|\n`;
+  for (const r of caps.slice(0, 15)) md += `| ${r.jurisdiction}${r.province ? ` (${r.province})` : ''} | ${r.instrument} | ${r.year} | ${fmtOrig(r)} | ${fmt(r.eur)} | ${r.evidence} |\n`;
+  md += `\n*A cap is a ceiling per project, not money spent; actual awards are in award notices (拟资助名单), not yet collected.*\n\n`;
+}
 
 // 2. By jurisdiction
 const by = {};
