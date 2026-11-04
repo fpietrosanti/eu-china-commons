@@ -70,3 +70,23 @@ Also seen, unread: Linux Foundation Europe, *Open Is Sovereign* (names PaddlePad
 **Could undermine novelty if they contain more than their snippets show:** OpenUK *AI Openness Report* (July 2026; China section plus a UK/European frame) and the SESEC 2023 webinar. Both unread.
 
 **Honest gaps:** no academic-database access; peer-reviewed literature thinly sampled (one hit); Chinese-language and CNKI literature not searched; no direct site searches of Carnegie, CSET, Chatham House; Jamestown Part II mostly unread beyond its first 100k characters.
+
+## 5. Academic databases — PRISMA-style log
+
+### Round 1 — OpenAlex, 4 Nov 2026 (R02)
+- **Identification:** OpenAlex API, works published since 1 Jan 2019, 9 queries. Q1 "open source" China Europe policy (77); Q2 "digital commons" China (73); Q3 openEuler/OpenHarmony/openKylin (137); Q4 "open source" "digital sovereignty" (152); Q5 "open source" China government industrial policy (21); Q6 开源 政策 (1260, failed: no tokenisation); Q7 title "open source" China (108); Q8 Gitee/OpenAtom (70); Q9 title "open source" "public sector" Europe (1). The top 12 per query by citations are in data/lit/openalex_2026-11-04.md.
+- **Screening:** 108 titles screened. About 100 were excluded as off-topic (OSINT, open data, medical AI, ecology, and Gitee as a mere code host).
+- **Included (7):**
+
+| Work | Relevance | Why |
+|---|---|---|
+| Hu et al. (?), *openEuler: Advancing a Hardware and Software Application Ecosystem*, IEEE Software 2022, doi 10.1109/ms.2021.3132138 | 3 | Peer-reviewed self-description of openEuler governance and ecosystem (authors to check) |
+| *Software Engineering for OpenHarmony: A Research Roadmap*, ACM Computing Surveys 2025, doi 10.1145/3720538 | 3 | Research agenda; shows OpenHarmony as an academic object |
+| *Open or closing doors? The influence of 'digital sovereignty' in the EU's Cybersecurity Strategy on cybersecurity of open-source software*, CLSR 2024, doi 10.1016/j.clsr.2024.1060… | 4 | EU sovereignty framing applied to OSS: the EU half of our comparison |
+| OECD, *Digital public goods: Enablers of digital sovereignty*, Development Co-operation Report 2021, doi 10.1787/c023cb2e-en | 3 | Digital-commons/DPG framing outside both blocs |
+| *Public-private funding models in OSS development: scikit-learn*, arXiv 2404.06484 | 3 | Funding chapter: a European project-level case |
+| *Open to open-source AI? AI model choice in public sector agencies*, GIQ 2026, doi 10.1016/j.giq.2026.102133 | 3 | PA adoption of open-weight models (could include Qwen/DeepSeek) |
+| *The European Public Sector Open Source Opportunity*, 2023, doi 10.70828/dfnp4537 | 3 | EU PA reuse; publisher to identify (likely OpenForum Europe) |
+
+- **Result (inference):** none of the indexed peer-reviewed or grey works compares EU and Chinese open-source **policy**, which strengthens the novelty verdict in §4 (one database only). Chinese-language academic coverage still needs CNKI or Wanfang (VPN or a library).
+- **Next rounds:** Semantic Scholar API (same queries), SSRN, Google Scholar by hand (Chrome), journal sweeps (*China Quarterly*, *Research Policy*, *Telecommunications Policy*, *Internet Policy Review*), and CNKI via VPN.

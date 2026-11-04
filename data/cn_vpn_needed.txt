@@ -2,11 +2,7 @@ https://www.gov.cn/ (15th FYP Outline full text, 2 parts; news.cn page gives onl
 Shanghai gov / STCSM / Pudong Innovation Forum Sept 2026 coverage (shanghai.gov.cn)	开源创新国际合作宣言 not found in any search; may not exist under this title	full text, signatory list, issuing body, follow-up mechanism
 https://www.gov.cn/ and ccgp.gov.cn	official basis for government OS replacement / openEuler, openKylin adoption (only secondary English blogs found)	procurement notices or policy document numbers naming domestic OS
 Sichuan/Chengdu, Fujian, Shandong provincial government sites	no open-source policy found in searches	any 开源 implementation plan or fund
-https://www.szlhq.gov.cn/bmxxgk/jjcjj/dtxx_124217/gzdt_124218/content/post_12808203.html
-https://www.jiemian.com/article/6599316.html
 https://www.openatom.org/
-https://gxj.sz.gov.cn/gkmlpt/content/11/11814/post_11814233.html	Shenzhen 2024 重大开源项目 拟资助公示 ¥8.32M (R12)
-https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/content/post_11265251.html	Shenzhen 2024 重大开源项目 application guide (R12)	full text, support rates/caps, eligibility (local registration, OpenHarmony/openEuler)
 gxj.sz.gov.cn 2025–2026 资金公示 pages	Shenzhen 2025–26 重大开源项目 award results not found (R12)	拟资助项目公示 + attachment 公示表 (firm, project, amount)
 hzxh.gov.cn (西湖区经信局) — 关于下达人工智能开源社区算力券资金的公示 (Aug 2026)	only WeChat relay found; ¥26.85M to 通义云启 (R12)	official page, amount, legal basis, tranche schedule
 hangzhou.gov.cn / jxj.hangzhou.gov.cn — 杭州市算力券支持人工智能开源社区实施细则	rules not public outside China (R12/R13)	doc number, eligibility, rate, cap, annual budget

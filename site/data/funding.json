@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T19:19:22.340Z",
+  "generated": "2026-11-04T08:15:10.385Z",
   "notice": {
     "en": "Open-source research from public sources; incomplete and correctable. Contribute via GitHub issues or email.",
     "issues": "https://github.com/fpietrosanti/eu-china-commons/issues/new?labels=funding-data&title=Funding%20data%3A%20",
@@ -570,12 +570,14 @@
       "amount": 10000000,
       "amount_type": "cap-per-project",
       "oss_share": "exclusive",
-      "evidence": "C",
+      "evidence": "A",
       "sources": [
+        "https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/content/post_11265251.html",
+        "https://gxj.sz.gov.cn/attachment/1/1441/1441739/11265251.zip",
         "https://news.pedaily.cn/20240508/85397.shtml",
         "https://www.ithome.com/0/765/114.htm"
       ],
-      "note": "Reported: 项目资助标准：年度销售额的30%，最高1000万元; 受专项资金年度预算总额控制. Guide original not fetched; programme continues in 2026 (第一批) guide.",
+      "note": "Guide 2024 (A): 30% of audited sales (actual receipts) of the commercial distribution and services in the prior year, within the annual budget; sales ≥5M yuan; distro must be certified by the upstream community; government-funded projects excluded. Press reports a 10M cap (C; cap line not in the guide text extracted). Guide definition (A): 重大开源项目 = project donated to OpenAtom by a Shenzhen company or subsidiary; terminal OS needs >300M devices; server OS needs the donor in the Linux kernel changeset top list for every kernel release of the past year; others need city-government approval (in practice OpenHarmony and openEuler, both Huawei-donated: inference).",
       "selection": "open-call (annual guide), competitive-review, 受专项资金年度预算总额控制",
       "conditions": "Shenzhen software firm selling commercial distribution of a major open-source project; rate on audited sales",
       "sovereignty_frame": "unclear (not stated in source read)",
@@ -605,11 +607,13 @@
       "amount": null,
       "amount_type": "unknown",
       "oss_share": "exclusive",
-      "evidence": "C",
+      "evidence": "A",
       "sources": [
+        "https://gxj.sz.gov.cn/xxgk/xxgkml/qt/tzgg/content/post_11265251.html",
+        "https://gxj.sz.gov.cn/attachment/1/1441/1441739/11265251.zip",
         "https://news.pedaily.cn/20240508/85397.shtml"
       ],
-      "note": "Reported per-unit rates: 轻量设备10元/台、小型设备40元/台、标准设备150元/台，资助实施3年. No total budget published.",
+      "note": "Guide 2024 (A): per-device baseline 10 yuan (128KB–1MB RAM), 40 yuan (1–128MB), 150 yuan (≥128MB); paid at 50%/40%/30% of baseline in years 1–3; phones and tablets excluded; device must be certified by the OS community; module purchases ≥1M yuan at baseline. No total budget published. Guide definition (A): 重大开源项目 = project donated to OpenAtom by a Shenzhen company or subsidiary; terminal OS needs >300M devices; server OS needs the donor in the Linux kernel changeset top list for every kernel release of the past year; others need city-government approval (in practice OpenHarmony and openEuler, both Huawei-donated: inference).",
       "selection": "open-call, automatic per-unit",
       "conditions": "terminal makers buying open-source-OS (OpenHarmony) chip modules",
       "sovereignty_frame": "unclear (not stated in source read)",
@@ -620,6 +624,40 @@
       "rate": 7.7875,
       "approxRate": false,
       "annualEur": 0
+    },
+    {
+      "side": "CN",
+      "currency": "CNY",
+      "oss_amount_known": true,
+      "summable": false,
+      "id": "cn-shenzhen-major-oss-award-2024b",
+      "level": "cn-city",
+      "jurisdiction": "Shenzhen",
+      "province": "Guangdong",
+      "funder": "Shenzhen MIIT Bureau (深圳市工业和信息化局)",
+      "instrument": "2024年软件产业高质量发展扶持计划（第二批）重大开源项目 拟资助项目公示 (25 Nov 2024)",
+      "instrument_type": "adoption-subsidy",
+      "beneficiary": "companies-adopting",
+      "year": 2024,
+      "amount": 8320000,
+      "amount_type": "proposed-award",
+      "oss_share": "exclusive",
+      "evidence": "A",
+      "sources": [
+        "https://gxj.sz.gov.cn/gkmlpt/content/11/11814/post_11814233.html",
+        "https://gxj.sz.gov.cn/attachment/1/1513/1513212/11814233.xls"
+      ],
+      "note": "Award notice + 公示表 (A, archived 4 Nov 2026 from a European residential IP, no VPN): 4 firms, 832万元 total: 深圳鸿元智通 Zhihongmeta OS v1.0 distribution 151万 (commercial-distro line); 证通电子 OpenHarmony finance/e-government IoT terminals 279万, 黑蜂智造 smart visual ear-cleaning device 245万, 前海联大 cloud speaker 157万 (chip-module line). Proposed award; final payment per 资金下达文件. Not summable: one batch only, batch 1 not found. Finding (inference): the money rewards OpenHarmony device shipments and a downstream distro, not upstream development. The .xls also contains an unrelated second sheet (首版次软件 audit summary, 27 firms) — out of scope.",
+      "selection": "open-call, audit by third-party accountant, 公示 7 working days",
+      "conditions": "see cn-shenzhen-major-oss-commercial-distro-2024 and cn-shenzhen-major-oss-chip-module-2024",
+      "sovereignty_frame": "unclear (not stated in source read)",
+      "intermediary": "local bureau (深圳市工业和信息化局)",
+      "openness_to_foreign": "Shenzhen-registered firms only",
+      "outputs_required": "commercial sales / certified device shipments; no code release required",
+      "eur": 1068378.812199037,
+      "rate": 7.7875,
+      "approxRate": false,
+      "annualEur": 1068378.812199037
     },
     {
       "side": "CN",
