@@ -1,6 +1,6 @@
 # STATE — Europe–China Digital Commons Observatory (中欧数字公地观察站)
 
-**Updated: 4 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
+**Updated: 5 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
 
 ## 1. Where we are, in one paragraph
 **Phase A (research) is in progress. Gate A is not met yet.**
@@ -26,11 +26,11 @@
 | Criterion | Target | Now |
 |---|---|---|
 | Registry initiatives | ≥ 60, ≥ 60% primary | **62, 41 primary (66%) ✓** |
-| Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 5 ✓** (e-gov clouds offering openEuler: Fujian province, Yancheng, Jinan; Shijiazhuang market-supervision platform specified on openEuler 22.03 LTS — all A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases excluded, kept as context |
+| Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 5 ✓** (e-gov clouds offering openEuler: Fujian province, Yancheng, Jinan; Shijiazhuang market-supervision platform specified on openEuler 22.03 LTS — all A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases excluded, kept as context. **+1 candidate (B, not counted): Shenfu zone (Liaoning) e-gov cloud on Anolis OS 8.9, 50 servers (5 Nov)**, first CN PA case outside openEuler; needs a gov/ccgp source |
 | Key Chinese originals | Section B of the VPN queue fetched | VPN-free routes: Wayback + residential IP recovered Shenzhen gazette, Jiangsu Data Bureau, **Shenzhen 2024 OSS award + guide, Longhua (4 Nov)**; still blocked: Chongqing ×2, Longgang; 17 lines left in data/cn_vpn_needed.txt; no-VPN probe 164/284 reachable |
-| Systematic literature review | Including academic databases + CNKI | Web + think tanks done; **OpenAlex round 1 (4 Nov): 7 included, 0 comparative EU–CN**; Scholar/SSRN/Semantic Scholar and CNKI missing |
+| Systematic literature review | Including academic databases + CNKI | Web + think tanks done; **OpenAlex round 1 (4 Nov): 7 included; Semantic Scholar round 2 (5 Nov): 2/8 queries (rate-limited), 4 included; 0 comparative EU–CN**; Scholar/SSRN, 6 S2 queries and CNKI missing |
 | Verified bridge opportunities | ≥ 3 | **3 EU–CN verified ✓** (Eclipse–OpenAtom sister projects; High-Level Digital Dialogue channel; **Catena-X ↔ CAAM/VDA China–Europe automotive trusted data space**, both sides A, 2 Nov) **+ 1 shared standard** (OpenChain ISO 18974 adopted by openEuler — LF project, borderline) + 1 partial (EPL-2.0 ZH translation, EU source missing) |
-| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 11 ✓** (7 A, 2 C; + EasyXMen automotive, CETC, 2 Nov). Gaps: CN cloud/data-space layers (leads: OpenCloudOS, OpenAnolis, SecretFlow); first documented CN public funding: Shenzhen subsidy for OpenHarmony/RISC-V industrial adoption (A, 3 Nov); adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
+| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 11 ✓** (7 A, 2 C; + EasyXMen automotive, CETC, 2 Nov). Gaps: CN cloud/data-space layers (OpenAnolis: first gov deployment found, B, 5 Nov; OpenCloudOS: no named gov user; SecretFlow open); first documented CN public funding: Shenzhen subsidy for OpenHarmony/RISC-V industrial adoption (A, 3 Nov); adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
 
 **Registry by level and evidence:**
 
@@ -72,8 +72,8 @@
 | Site v0.1 (frozen) | site/ (preview: node tools/serve.js, port 8090) |
 
 ## 7. Next steps (in order, within budget) — see also RESEARCH-DEPTH.md priorities
-1. Shenzhen 2024 batch 1 and 2025–26 重大开源项目 公示 on gxj.sz.gov.cn (reachable from the laptop) → first multi-year CN award series; Guangdong ¥10M original via gdii.gd.gov.cn from the server.
-1b. Literature round 2: Semantic Scholar API + SSRN with the same queries.
+1. Shenzhen 2024 batch 1 and 2025–26 重大开源项目 公示 on gxj.sz.gov.cn (laptop route worked 4 Nov, down 5 Nov; retry) → first multi-year CN award series; Guangdong ¥10M original via gdii.gd.gov.cn from the server.
+1b. Literature: re-run `node tools/s2_query.js S1 S2 S3 S4 S6 S8` at European night (keyless 429); then SSRN. Shenfu: find the ccgp/Liaoning procurement record to raise it B→A.
 1c. Next Qwen/DeepSeek free-tier round on the open gaps (OpenCloudOS/OpenAnolis PA adoption; Shenzhen 2025–26 公示 URLs).
 1d. Fifth CN case (Guangdong/Guangzhou OpenHarmony, provincial 政务 apps) + archive the round-3 sources.
 2. Raise registry evidence to primary: official sources for the "secondary" EU-national records (low cost).
@@ -97,6 +97,8 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 - Next questions: unchecked Qwen leads (Fengxian, Pingli, OpenHarmony water terminals); Huawei role in Catena-X; EU-side source for EPL-2.0 translation; OCR of the Hulunbuir e-gov cloud contract; openEuler OSV list as bridge evidence for Kylin/UOS; third bridge (e.g. OW2/OpenInfra with Chinese members, OpenHarmony–Oniro compatibility).
 
 - **Daily run 4 Nov (no LLM round, budget kept small):** (1) no-VPN reachability probe saved (data/cn_reachability_noVPN_2026-11-03.tsv); (2) **Shenzhen 2024 重大开源项目 award ¥8.32M verified on the original with the 4 beneficiaries (A)** + guide rates (A): money rewards OpenHarmony device shipments and a downstream distro, not upstream code; (3) OpenAlex literature round 1 (PRISMA log in LITERATURE-REVIEW §5). Register: R02, R08, R12 rounds.
+
+- **Daily run 5 Nov:** (1) gxj.sz.gov.cn down from laptop and server; Wayback CDX (129 pages 2024–26) has no Shenzhen OSS award notice → ⊘/✖; (2) DeepSeek → **Shenfu e-gov XC cloud on Anolis OS 8.9 verified on the original (B)**; 政采云 = company, context; no OpenCloudOS gov user; (3) Qwen → fabricated placeholder URLs after "Salta", rejected (new rule); (4) Semantic Scholar 2/8 queries, 4 included (tools/s2_query.js). Register round 5 Nov.
 
 ## 10. Daily progress (Fabio, 3 Nov: "every day you must move forward")
 - Scheduled task `eu-china-commons-daily` (09:00 every day, Claude desktop app) resumes from this file, does 1–3 VPN-free items, runs targeted LLM questions, updates STATE, commits and pushes, and reports in Italian.

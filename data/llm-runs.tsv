@@ -21,3 +21,5 @@ date	model_shown	service	search	task	prompt_file	output_file	notes
 2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	Hangzhou OSS compute vouchers (R12)	inline	reviews/2026-11-03_deepseek_award-notices.md	only Xihu ¥26.85M; rules not public
 2026-11-03	Qwen (Automatico)	chat.qwen.ai free	yes	Pingli open-source OS (R04)	inline	reviews/2026-11-03_qwen_round7.md	compatibility clause only = context
 2026-11-03	DeepSeek (default)	chat.deepseek.com free	yes	Provincial OSS award lists (R12)	inline	reviews/2026-11-03_deepseek_award-notices.md	Wuhan list verified A; others none
+2026-11-05	DeepSeek (DeepThink+Search)	chat.deepseek.com free	yes	OpenCloudOS/OpenAnolis government deployments (R04/R06)	inline	reviews/2026-11-05_deepseek_opencloudos-anolis-pa.md	Shenfu e-gov cloud Anolis OS verified B; 政采云 = company, context; no OpenCloudOS gov user
+2026-11-05	Qwen (Automatico)	chat.qwen.ai free	yes (Salta)	Shenzhen 重大开源项目 2024 b1 + 2025-26 公示 (R12)	inline	reviews/2026-11-05_qwen_shenzhen-awards.md	rejected: self-declared example URLs, wrong ID format

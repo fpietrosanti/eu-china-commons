@@ -972,5 +972,21 @@
     "evidence": "A",
     "gate_a_counts": true,
     "note": "3 Nov: original blocked from EU IPs; read from the Wayback Machine copy of 20 Oct 2026 (archived). Corrects the earlier negative finding \"no documented public funding for CN stacks\"."
+  },
+  {
+    "id": "cn-shenfu-egov-xc-cloud-anolis",
+    "side": "CN",
+    "category": "pa-reuse",
+    "title": "Shenfu Reform and Innovation Demonstration Zone (Liaoning) e-government XC cloud runs Anolis OS 8.9",
+    "summary": "Case study published by the OpenAnolis community (Aliyun developer community, 22 Nov 2024): phase I of the Shenfu demonstration zone XC government cloud uses 50 Loongson servers, all running Anolis OS 8.9 (community edition, open source), with a Loongson national-crypto cloud platform on top; it hosts party-and-government XC and other applications. Fact (as reported by vendor/community): a named government-zone e-government cloud deployed on an open-source OS. Won the OpenAnolis 2024 mid-year best user case award.",
+    "since": "2024",
+    "scale": "zone-level e-government cloud, phase I 50 servers",
+    "sources": [
+      "https://developer.aliyun.com/article/1640275"
+    ],
+    "status": "verified",
+    "evidence": "B",
+    "gate_a_counts": false,
+    "note": "Daily run 5 Nov 2026. Lead from DeepSeek, verified by Claude on the original page (archived). Evidence B: vendor/community self-report, no government procurement notice found yet; counts toward gate A only once a gov.cn or ccgp source confirms it. First CN PA case on the Anolis (Alibaba-origin) stack rather than openEuler."
   }
 ]

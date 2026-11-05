@@ -90,3 +90,18 @@ Also seen, unread: Linux Foundation Europe, *Open Is Sovereign* (names PaddlePad
 
 - **Result (inference):** none of the indexed peer-reviewed or grey works compares EU and Chinese open-source **policy**, which strengthens the novelty verdict in §4 (one database only). Chinese-language academic coverage still needs CNKI or Wanfang (VPN or a library).
 - **Next rounds:** Semantic Scholar API (same queries), SSRN, Google Scholar by hand (Chrome), journal sweeps (*China Quarterly*, *Research Policy*, *Telecommunications Policy*, *Internet Policy Review*), and CNKI via VPN.
+
+### Round 2 — Semantic Scholar, 5 Nov 2026 (R02) — partial
+- **Identification:** Semantic Scholar Graph API (no key), works since 2019, 8 relevance-ranked queries, top 15 each (tools/s2_query.js; raw output in data/lit/s2_2026-11-05.md). **Only 2 of 8 queries returned** (S5 "China open source industrial policy government": 13,633; S7 "Gitee OpenAtom open source foundation China": 273). S1–S4, S6 and S8 were refused (HTTP 429) from the laptop and again from the Paris server, even with 15–75 s backoff: the keyless pool is shared and saturated.
+- **Screening:** 30 titles screened. Excluded: ML model releases (FireRedASR, VITA, YuLan…), open government data, generic industrial policy (Made in China 2025, semiconductors), life-cycle databases.
+- **Included (4):**
+
+| Work | Relevance | Why |
+|---|---|---|
+| *Open source digital sovereignty: the case for a Canadian national Linux distribution*, Digital Policy, Regulation and Governance 2026, doi 10.1108/dprg-06-2026-0347 | 3 | Sovereignty-through-OSS argument from a third country; a natural comparator for openEuler/openKylin as "national distributions" |
+| *Open-Source AI Made in the EU: Why it is a Good Idea*, Minds and Machines 2025, doi 10.1007/s11023-025-09728-x | 3 | EU open-weight AI rationale: the EU half of the AI layer comparison |
+| *Open-Source Innovation for Latecomer Catch-up: A Conceptual Framework*, Journal of Economic Surveys 2026, doi 10.1111/joes.70122 | 3 | Catch-up framing that fits the Chinese state-led OSS strategy (to read) |
+| *Open Source Congress 2024: Shaping the Future of Collaboration in AI, Security, and Digital Public Goods*, 2024, doi 10.70828/mton6557 | 2 | Grey literature (same DOI prefix as the 2023 European public-sector report, likely LF Research); digital public goods framing |
+
+- **Result (inference):** still 0 works comparing EU and Chinese open-source policy (cumulative: 2 databases, 11 included). The novelty verdict holds, with the caveat that 6 Semantic Scholar queries are pending.
+- **Re-run:** `node tools/s2_query.js S1 S2 S3 S4 S6 S8` at a quiet hour (European night) or with a free API key (request form on semanticscholar.org, institutional email needed, so Fabio decides).

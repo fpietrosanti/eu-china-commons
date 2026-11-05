@@ -1,0 +1,9 @@
+Source: https://developer.aliyun.com/article/1640275
+Title: "双龙"联合！助力辽宁沈抚示范区打造安全可靠的政务云平台 | 龙蜥案例 (OpenAnolis community, 2024-11-22)
+Captured: 2026-11-05 from the rendered page in Chrome (the article body is loaded by JavaScript, so the static HTML copy next to this file does not contain it).
+Attribution: © the original authors / OpenAnolis community; excerpt kept for verification only.
+
+Excerpt (relevant passage, verbatim):
+沈抚示范区 XC 云主要包括基础设施层和云服务层。其中基础设施层，主要由龙芯服务器构成，一期规模 50 台，均部署龙蜥操作系统，为 XC 云平台实现服务器虚拟化、存储虚拟化、网络虚拟化等提供支撑……
+方案由龙芯服务器+龙蜥操作系统 Anolis OS 8.9+龙芯国密云平台为主干构成。
+该案例获得 2024 年龙蜥社区年中"最佳用户案例"奖。
