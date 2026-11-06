@@ -1,6 +1,6 @@
 # STATE — Europe–China Digital Commons Observatory (中欧数字公地观察站)
 
-**Updated: 5 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
+**Updated: 6 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
 
 ## 1. Where we are, in one paragraph
 **Phase A (research) is in progress. Gate A is not met yet.**
@@ -72,9 +72,9 @@
 | Site v0.1 (frozen) | site/ (preview: node tools/serve.js, port 8090) |
 
 ## 7. Next steps (in order, within budget) — see also RESEARCH-DEPTH.md priorities
-1. Shenzhen 2024 batch 1 and 2025–26 重大开源项目 公示 on gxj.sz.gov.cn (laptop route worked 4 Nov, down 5 Nov; retry) → first multi-year CN award series; Guangdong ¥10M original via gdii.gd.gov.cn from the server.
-1b. Literature: re-run `node tools/s2_query.js S1 S2 S3 S4 S6 S8` at European night (keyless 429); then SSRN. Shenfu: find the ccgp/Liaoning procurement record to raise it B→A.
-1c. Next Qwen/DeepSeek free-tier round on the open gaps (OpenCloudOS/OpenAnolis PA adoption; Shenzhen 2025–26 公示 URLs).
+1. Shenzhen 2024 batch 1 and 2025–26 重大开源项目 公示 on gxj.sz.gov.cn (down 5–6 Nov from both routes; retry; Qwen no-retrieval also says 未找到, D) → would make a multi-year CN award series. ~~Guangdong ¥10M original~~ ✓ verified A (6 Nov) + 2 new OSS lines.
+1b. Literature: re-run `node tools/s2_query.js S1 S2 S3 S6 S8` at European night (keyless 429; S4 done 6 Nov); then SSRN. Shenfu: ccgp when un-throttled; 辽宁公共资源交易 portal for the 2025-12-30 result-notice original (amount now A-v).
+1c. Next Qwen/DeepSeek free-tier round on the open gaps (OpenCloudOS gov user; OpenAtom 2024–25 financials; fifth CN deployed case — Guangdong adaptation centre is plan-level context).
 1d. Fifth CN case (Guangdong/Guangzhou OpenHarmony, provincial 政务 apps) + archive the round-3 sources.
 2. Raise registry evidence to primary: official sources for the "secondary" EU-national records (low cost).
 3. Academic databases (Scholar/SSRN/Scopus) → PRISMA-style literature review.
@@ -100,6 +100,8 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 
 - **Daily run 5 Nov:** (1) gxj.sz.gov.cn down from laptop and server; Wayback CDX (129 pages 2024–26) has no Shenzhen OSS award notice → ⊘/✖; (2) DeepSeek → **Shenfu e-gov XC cloud on Anolis OS 8.9 verified on the original (B)**; 政采云 = company, context; no OpenCloudOS gov user; (3) Qwen → fabricated placeholder URLs after "Salta", rejected (new rule); (4) Semantic Scholar 2/8 queries, 4 included (tools/s2_query.js). Register round 5 Nov.
 
+- **Daily run 6 Nov:** (1) **Guangdong 2026 allocated plan verified A on the original** (gdii.gd.gov.cn answered the laptop; tzgg list crawled pages 1–40; notice 2026-02-14 + .wps amounts table archived): 开源鸿蒙适配中心 ¥10M (补改投) to 科学城(广州)数字科技集团 **+ 2 further OSS lines** (广州智算开源融合赋能中心 ¥8M to 广州数据集团; AI测试验证开源生态中心 ¥3.39M to 广州掌动智能) → cn.json +3 A summable records; **first CN summable year figure (2026 ≈ €2.6M)**; negative: the 2025 edition (电子信息 direction) has no OSS line → 2026 novelty. (2) Shenfu B→A attempt: ccgp throttles both routes; DeepSeek ×2 → **no official notice; the e-gov cloud is a China Unicom operator-model lease**; 2025-12-30 result notice: **¥6.495M/yr to Unicom Fushun (A-v), spec requires full 国产化 of OS/DB but names no brand** (zhaobiao.cn extract archived via real browser, B). Shenfu stays B. Finding: CN XC procurement specs are brand-neutral — the OS name only appears in vendor/community case studies. (3) Semantic Scholar round 3: 1/6 queries (S4), 4 more included, cumulative 15, still 0 EU–CN comparative. (4) Qwen on Shenzhen batches: Salta → no-retrieval 未找到 (D, converges with our Wayback negative). Register round 6 Nov.
+
 ## 10. Daily progress (Fabio, 3 Nov: "every day you must move forward")
 - Scheduled task `eu-china-commons-daily` (09:00 every day, Claude desktop app) resumes from this file, does 1–3 VPN-free items, runs targeted LLM questions, updates STATE, commits and pushes, and reports in Italian.
 - The VPN is no longer a blocker: try local residential IP → server → Wayback/archive.today → reprints → Qwen/DeepSeek quotation (A-v) before marking an item "VPN only".
@@ -112,8 +114,8 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 
 ## 12. Public funding comparison (3 Nov, Fabio)
 - Data: data/funding/{eu,cn}.json (24 EU + 21 CN records, OSS-specific only; generic innovation/tax schemes in excluded.json), coverage.json (58 jurisdictions), ECB rates; tables docs/FUNDING-COMPARISON.md (tools/build_funding.js), qualitative docs/FUNDING-MODALITIES.md.
-- Key: EU summable 2023 €11.5M, 2024 €36M, 2025 €19M (DE+FR only). CN: **no summable figure** — only per-project caps (top: Wuhan ¥30M, Shanghai ¥20M, Shenzhen ¥10M) and envelopes; no central OSS budget line found.
-- Next: CN award notices (拟资助名单) to get disbursed amounts; German figures against Bundeshaushalt; light-search states → national budgets; quote sovereignty phrases both sides; public email for the contribute notice.
+- Key: EU summable 2023 €11.5M, 2024 €36M, 2025 €19M (DE+FR only). CN: **first summable figure 2026 ≈ €2.6M** (Guangdong allocated plan, 6 Nov; plus Shenzhen 2024 batch 2 ¥8.32M) — otherwise per-project caps (top: Wuhan ¥30M, Shanghai ¥20M, Shenzhen ¥10M) and envelopes; no central OSS budget line found.
+- Next: more CN award notices (拟资助名单) for disbursed amounts (Shenzhen batches, Wuhan amounts); German figures against Bundeshaushalt; light-search states → national budgets; quote sovereignty phrases both sides; public email for the contribute notice.
 
 ## 13. Research depth (3 Nov, Fabio)
 docs/RESEARCH-DEPTH.md: 0–4 scale per area × {EU centre, EU member states, CN centre, CN provinces}. Centres mostly 2–3, peripheries 1–2, nothing at 4. Update the matrix at every research step; priorities listed there feed the daily task.

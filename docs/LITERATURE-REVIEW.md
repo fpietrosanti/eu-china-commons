@@ -105,3 +105,18 @@ Also seen, unread: Linux Foundation Europe, *Open Is Sovereign* (names PaddlePad
 
 - **Result (inference):** still 0 works comparing EU and Chinese open-source policy (cumulative: 2 databases, 11 included). The novelty verdict holds, with the caveat that 6 Semantic Scholar queries are pending.
 - **Re-run:** `node tools/s2_query.js S1 S2 S3 S4 S6 S8` at a quiet hour (European night) or with a free API key (request form on semanticscholar.org, institutional email needed, so Fabio decides).
+
+### Round 3 — Semantic Scholar, 6 Nov 2026 (R02) — partial
+- **Identification:** re-run of the 6 pending queries (tools/s2_query.js S1 S2 S3 S4 S6 S8; raw output in data/lit/s2_2026-11-06.md), ~09:30 CET. **Only S4 "open source software digital sovereignty" returned (4,019 hits, top 15 read); the other 5 were again refused (HTTP 429)** despite 15–75 s backoff.
+- **Screening:** 15 titles screened. Excluded: indigenous/civil-society sovereignty, logistics, metaOS, supply-chain security theory (kept as context), commercial-OSS market reports.
+- **Included (4, new):**
+
+| Work | Relevance | Why |
+|---|---|---|
+| *Digital Sovereignty and Open-Source Software — A Discussion Paper*, I4CS 2024, doi 10.1007/978-3-031-60433-1_22 | 3 | Direct conceptual treatment of our central pairing |
+| *2026 State of Open Source in Europe: Navigating AI and Digital Sovereignty Through Open Governance*, 2026, doi 10.70828/olta8310 | 3 | Grey literature (LF Research prefix); EU-side state of play, same year as our white paper |
+| *A Toolkit for Measuring the Impacts of Public Funding on Open Source Software Development*, arXiv 2411.06027 | 3 | Methodology for the funding chapter's additionality metric |
+| *Public Sector Open Source Software Projects — How is development organized?*, arXiv 2304.06093 | 3 | PA-reuse chapter: how government OSS projects are actually run |
+- Already included earlier and re-confirmed by this query: CLSR 2024 "Open or closing doors?"; scikit-learn funding case (arXiv 2404.06484); Canadian national Linux distribution (dprg-06-2026-0347).
+- **Result (inference):** cumulative 3 rounds, 2 databases, **15 included, still 0 works comparing EU and Chinese open-source policy**. The novelty verdict holds; 5 S2 queries still pending.
+- **Re-run:** same command at a quieter hour; or the free S2 API key (Fabio, institutional email); then SSRN and Google Scholar by hand.

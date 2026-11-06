@@ -982,11 +982,13 @@
     "since": "2024",
     "scale": "zone-level e-government cloud, phase I 50 servers",
     "sources": [
-      "https://developer.aliyun.com/article/1640275"
+      "https://developer.aliyun.com/article/1640275",
+      "https://liaoning.zhaobiao.cn/succeed_v_59481b38cd46ae230b00414b476997da.html",
+      "https://vip.chinabidding.cc/markinfo/rMvvIFXWAtOLUjWd7JE..A.html"
     ],
     "status": "verified",
     "evidence": "B",
     "gate_a_counts": false,
-    "note": "Daily run 5 Nov 2026. Lead from DeepSeek, verified by Claude on the original page (archived). Evidence B: vendor/community self-report, no government procurement notice found yet; counts toward gate A only once a gov.cn or ccgp source confirms it. First CN PA case on the Anolis (Alibaba-origin) stack rather than openEuler."
+    "note": "Daily run 5 Nov 2026: lead from DeepSeek, verified on the original (archived); B (community self-report). Daily run 6 Nov 2026: government-side trail documented — ccgp has no notice (searched, rate-limited routes + DeepSeek negative); the 政务云一期 purchaser is China Unicom Liaoning (operator model, third-party tender platforms); 《沈抚示范区信创云平台及配套设施建设项目中标公示》 2025-12-30 (zhaobiao.cn extract archived, B): cloud-lease package to Unicom Fushun ¥6,495,000/yr for 3 years (amount A-v via chinabidding), spec requires 全面国产化替代 of OS/DB/compute but names no CPU or OS brand. Evidence stays B: Anolis 8.9 named only by the OpenAnolis case; gate_a_counts stays false. Finding: CN XC procurement specs are brand-neutral while the concrete OS choice surfaces only in vendor/community case studies."
   }
 ]
