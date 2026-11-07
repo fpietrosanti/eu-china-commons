@@ -120,3 +120,25 @@ Also seen, unread: Linux Foundation Europe, *Open Is Sovereign* (names PaddlePad
 - Already included earlier and re-confirmed by this query: CLSR 2024 "Open or closing doors?"; scikit-learn funding case (arXiv 2404.06484); Canadian national Linux distribution (dprg-06-2026-0347).
 - **Result (inference):** cumulative 3 rounds, 2 databases, **15 included, still 0 works comparing EU and Chinese open-source policy**. The novelty verdict holds; 5 S2 queries still pending.
 - **Re-run:** same command at a quieter hour; or the free S2 API key (Fabio, institutional email); then SSRN and Google Scholar by hand.
+
+### Round 4 — arXiv API, 7 Nov 2026 (R02) — new database
+- **Identification:** arXiv API (export.arxiv.org, keyless, no throttling), 6 field-restricted queries on abstracts (tools/arxiv_query.js; raw output in data/lit/arxiv_2026-11-07.md), sorted by relevance, 2019+, top 15 each. Hits: A1 China policy 9; A2 Europe policy/sovereignty 5; A3 openEuler/OpenHarmony/openKylin/Gitee/OpenAtom 21; A4 "digital commons" 15; A5 geopolitics/export control/sanctions 26; A6 public sector/administration/municipal 41.
+- **Screening:** 83 records screened by title (+2 abstracts read). Excluded: LLM censorship/language papers, urban economics, robotics, physics tools, OpenHarmony static-analysis/testing tools (kept as one representative), CentOS-like OS fault injection (reliability, not policy), OSINT/geopolitical-risk ML.
+- **Included (10, new):**
+
+| Work | Relevance | Why |
+|---|---|---|
+| *Software Engineering for OpenHarmony: A Research Roadmap*, arXiv 2311.01311 | 3 | Only academic overview of the OpenHarmony ecosystem; CN industrial-stack chapter |
+| *The Impact of Sanctions on GitHub Developers and Activities*, arXiv 2404.05489 | 3 | Empirical evidence on platform access under sanctions; bears on Gitee/AtomGit vs GitHub and the "openness under geopolitics" argument |
+| *Open Source Software in the Public Sector: 25 years and still in its infancy*, arXiv 2308.04766 | 3 | EU PA-reuse baseline review |
+| *Soft-lockins in Public Sector Acquisitions of OSS-solutions: a municipal e-service platform*, arXiv 2409.01118 | 3 | Procurement mechanics — compare with our CN finding that XC specs are brand-neutral |
+| *Public Sector Open Source Program Offices — Archetypes*, arXiv 2603.04891 | 3 | EU public-sector OSPO typology (2026), maps onto the DC-EDIC governance question |
+| *Advancing Digital Government: Integrating OSS Enablement Indicators in Maturity Indexes*, arXiv 2510.04603 | 3 | Indicator design for the observatory's own scoreboard |
+| *The Geography of Open Source Software: Evidence from GitHub*, arXiv 2107.03200 | 2 | Country-level OSS activity incl. China and EU; GitHub-only bias noted |
+| *Generative AI and the Future of the Digital Commons: Five Open Questions*, arXiv 2508.06470 | 2 | Digital-commons framing for open-weight models |
+| *Sustaining Open Data as a Digital Common — CPR design principles*, arXiv 2208.01694 | 2 | Ostrom-style governance lens, usable for data-space comparison (Catena-X ↔ CAAM) |
+| *OpenPerf: benchmarking the sustainable development of the open-source ecosystem*, arXiv 2311.15212 | 2 | Chinese-authored ecosystem metrics (X-lab / OpenRank lineage) used in our CN-OSS-LANDSCAPE |
+- Already included: arXiv 2606.15999 (U.S. containment and China's open AI ecosystem), 2304.06093 (public-sector OSS projects).
+- **Result (inference):** cumulative 4 rounds, 3 databases, **25 included, still 0 works that compare EU and Chinese open-source *policy***. The closest are geopolitics (2606.15999, 2404.05489) and single-side public-sector studies. Novelty verdict holds.
+- **Negative (✖):** arXiv has no Chinese-language policy literature; A1/A2 show that "open source + policy" is barely an arXiv topic (14 hits in total) → policy literature must come from SSRN, journals and CNKI.
+- **Re-run:** `node tools/arxiv_query.js` (edit the `qs` array); add `cat:cs.CY` restriction for policy-only queries.

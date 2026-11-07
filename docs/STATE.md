@@ -1,6 +1,6 @@
 # STATE — Europe–China Digital Commons Observatory (中欧数字公地观察站)
 
-**Updated: 6 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
+**Updated: 7 Nov 2026** · Roadmap and gates: [../TODO.md](../TODO.md) · Method: [METHODOLOGY.md](METHODOLOGY.md)
 
 ## 1. Where we are, in one paragraph
 **Phase A (research) is in progress. Gate A is not met yet.**
@@ -28,9 +28,9 @@
 | Registry initiatives | ≥ 60, ≥ 60% primary | **62, 41 primary (66%) ✓** |
 | Verified PA-reuse cases | ≥ 5 per side, **open source only** (Fabio, 2 Nov) | **EU 8 ✓**. **CN 5 ✓** (e-gov clouds offering openEuler: Fujian province, Yancheng, Jinan; Shijiazhuang market-supervision platform specified on openEuler 22.03 LTS — all A; Longgang OpenHarmony lab, pilot) + 3 plans (Wuhan, Shenzhen, Chongqing). HarmonyOS cases excluded, kept as context. **+1 candidate (B, not counted): Shenfu zone (Liaoning) e-gov cloud on Anolis OS 8.9, 50 servers (5 Nov)**, first CN PA case outside openEuler; needs a gov/ccgp source |
 | Key Chinese originals | Section B of the VPN queue fetched | VPN-free routes: Wayback + residential IP recovered Shenzhen gazette, Jiangsu Data Bureau, **Shenzhen 2024 OSS award + guide, Longhua (4 Nov)**; still blocked: Chongqing ×2, Longgang; 17 lines left in data/cn_vpn_needed.txt; no-VPN probe 164/284 reachable |
-| Systematic literature review | Including academic databases + CNKI | Web + think tanks done; **OpenAlex round 1 (4 Nov): 7 included; Semantic Scholar round 2 (5 Nov): 2/8 queries (rate-limited), 4 included; 0 comparative EU–CN**; Scholar/SSRN, 6 S2 queries and CNKI missing |
+| Systematic literature review | Including academic databases + CNKI | Web + think tanks done; **OpenAlex round 1 (4 Nov): 7 included; Semantic Scholar rounds 2–3 (5–6 Nov): 3/8 queries (rate-limited); arXiv round 4 (7 Nov): 10 included; cumulative 25 included, 0 comparative EU–CN**; Scholar/SSRN, 5 S2 queries and CNKI missing |
 | Verified bridge opportunities | ≥ 3 | **3 EU–CN verified ✓** (Eclipse–OpenAtom sister projects; High-Level Digital Dialogue channel; **Catena-X ↔ CAAM/VDA China–Europe automotive trusted data space**, both sides A, 2 Nov) **+ 1 shared standard** (OpenChain ISO 18974 adopted by openEuler — LF project, borderline) + 1 partial (EPL-2.0 ZH translation, EU source missing) |
-| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 11 ✓** (7 A, 2 C; + EasyXMen automotive, CETC, 2 Nov). Gaps: CN cloud/data-space layers (OpenAnolis: first gov deployment found, B, 5 Nov; OpenCloudOS: no named gov user; SecretFlow open); first documented CN public funding: Shenzhen subsidy for OpenHarmony/RISC-V industrial adoption (A, 3 Nov); adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
+| Industrial open-source stacks | ≥ 8 per side | **EU 10 ✓** (8 A), **CN 11 ✓** (7 A, 2 C; + EasyXMen automotive, CETC, 2 Nov). Gaps: CN cloud/data-space layers (OpenAnolis: first gov deployment found, B, 5 Nov; OpenCloudOS: no named gov user; SecretFlow: no verified gov deployment, 7 Nov — gov texts name the technology class, not the project); first documented CN public funding: Shenzhen subsidy for OpenHarmony/RISC-V industrial adoption (A, 3 Nov); adoption figures are claims. See docs/INDUSTRIAL-STACKS.md |
 
 **Registry by level and evidence:**
 
@@ -73,8 +73,8 @@
 
 ## 7. Next steps (in order, within budget) — see also RESEARCH-DEPTH.md priorities
 1. Shenzhen 2024 batch 1 and 2025–26 重大开源项目 公示 on gxj.sz.gov.cn (down 5–6 Nov from both routes; retry; Qwen no-retrieval also says 未找到, D) → would make a multi-year CN award series. ~~Guangdong ¥10M original~~ ✓ verified A (6 Nov) + 2 new OSS lines.
-1b. Literature: re-run `node tools/s2_query.js S1 S2 S3 S6 S8` at European night (keyless 429; S4 done 6 Nov); then SSRN. Shenfu: ccgp when un-throttled; 辽宁公共资源交易 portal for the 2025-12-30 result-notice original (amount now A-v).
-1c. Next Qwen/DeepSeek free-tier round on the open gaps (OpenCloudOS gov user; OpenAtom 2024–25 financials; fifth CN deployed case — Guangdong adaptation centre is plan-level context).
+1b. Literature: S2 S1 S2 S3 S6 S8 still pending (keyless 429 again 7 Nov — ask Fabio for a free S2 API key); arXiv done 7 Nov; then SSRN. Shenfu: ccgp when un-throttled; 辽宁公共资源交易 portal for the 2025-12-30 result-notice original (amount now A-v).
+1c. Next Qwen/DeepSeek free-tier round on the open gaps (OpenAnolis gov cases via DeepSeek — Qwen failed 7 Nov; OpenAtom 2024–25 financials; SecretFlow case page network API). SecretFlow gov ✖ (7 Nov).
 1d. Fifth CN case (Guangdong/Guangzhou OpenHarmony, provincial 政务 apps) + archive the round-3 sources.
 2. Raise registry evidence to primary: official sources for the "secondary" EU-national records (low cost).
 3. Academic databases (Scholar/SSRN/Scopus) → PRISMA-style literature review.
@@ -101,6 +101,8 @@ Targeted questions to ChatGPT (Plus), DeepSeek and Qwen (free) via Chrome; every
 - **Daily run 5 Nov:** (1) gxj.sz.gov.cn down from laptop and server; Wayback CDX (129 pages 2024–26) has no Shenzhen OSS award notice → ⊘/✖; (2) DeepSeek → **Shenfu e-gov XC cloud on Anolis OS 8.9 verified on the original (B)**; 政采云 = company, context; no OpenCloudOS gov user; (3) Qwen → fabricated placeholder URLs after "Salta", rejected (new rule); (4) Semantic Scholar 2/8 queries, 4 included (tools/s2_query.js). Register round 5 Nov.
 
 - **Daily run 6 Nov:** (1) **Guangdong 2026 allocated plan verified A on the original** (gdii.gd.gov.cn answered the laptop; tzgg list crawled pages 1–40; notice 2026-02-14 + .wps amounts table archived): 开源鸿蒙适配中心 ¥10M (补改投) to 科学城(广州)数字科技集团 **+ 2 further OSS lines** (广州智算开源融合赋能中心 ¥8M to 广州数据集团; AI测试验证开源生态中心 ¥3.39M to 广州掌动智能) → cn.json +3 A summable records; **first CN summable year figure (2026 ≈ €2.6M)**; negative: the 2025 edition (电子信息 direction) has no OSS line → 2026 novelty. (2) Shenfu B→A attempt: ccgp throttles both routes; DeepSeek ×2 → **no official notice; the e-gov cloud is a China Unicom operator-model lease**; 2025-12-30 result notice: **¥6.495M/yr to Unicom Fushun (A-v), spec requires full 国产化 of OS/DB but names no brand** (zhaobiao.cn extract archived via real browser, B). Shenfu stays B. Finding: CN XC procurement specs are brand-neutral — the OS name only appears in vendor/community case studies. (3) Semantic Scholar round 3: 1/6 queries (S4), 4 more included, cumulative 15, still 0 EU–CN comparative. (4) Qwen on Shenzhen batches: Salta → no-retrieval 未找到 (D, converges with our Wayback negative). Register round 6 Nov.
+
+- **Daily run 7 Nov:** (1) gxj.sz.gov.cn 000 from both routes, 3rd day (⊘); (2) DeepSeek → **SecretFlow: no named government deployment** (✖); verified Hangzhou 密态计算中心 (B, Ant tech, open source not stated) and Wuhan SecretFlow community station (A) as context, both archived; (3) Qwen on OpenAnolis gov cases → Salta → placeholder URL "示例失效" → rejected; rule: abandon stalled URL-seeking Qwen queries instead of Salta; (4) **arXiv added as third literature database** (tools/arxiv_query.js): 10 included, cumulative 25, 0 EU–CN comparative; S2 still 429. Morning: ZH copy-edit of catalogue and landing by Qwen + DeepSeek applied (60/64). Register round 7 Nov.
 
 ## 10. Daily progress (Fabio, 3 Nov: "every day you must move forward")
 - Scheduled task `eu-china-commons-daily` (09:00 every day, Claude desktop app) resumes from this file, does 1–3 VPN-free items, runs targeted LLM questions, updates STATE, commits and pushes, and reports in Italian.
