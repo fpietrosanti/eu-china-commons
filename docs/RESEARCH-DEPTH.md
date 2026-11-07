@@ -2,7 +2,7 @@
 
 *3 Nov 2026. Shows how deep each research area has gone, for the EU centre (institutions), the EU periphery (27 member states), the Chinese centre (central government and national bodies) and the Chinese periphery (31 provincial-level jurisdictions and their cities). Updated at every research step; the public version carries the same "open-source research, correctable" notice as the funding tables.*
 
-> Open-source research from public sources; incomplete and correctable. Contribute: GitHub issues or the observatory e-mail (TODO).
+> Open-source research from public sources; incomplete and correctable. Contribute: GitHub issues or contact@eu-china-commons.eu.
 
 ## Scale
 | Level | Meaning |

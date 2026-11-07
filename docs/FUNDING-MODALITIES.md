@@ -2,7 +2,7 @@
 
 *Draft frame, 3 Nov 2026. Filled from data/funding/{eu,cn}.json (qualitative fields) and the catalogue. Claims labelled fact / commitment / inference / proposal.*
 
-> Open-source research from public sources; incomplete and correctable. Contribute: GitHub issues (label `funding-data`) or the observatory e-mail (TODO).
+> Open-source research from public sources; incomplete and correctable. Contribute: GitHub issues (label `funding-data`) or contact@eu-china-commons.eu.
 
 ## 1. Questions
 1. **Who decides and who manages the money?** (ministry, agency, foundation, SOE, local bureau, EDIC)

@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-06T08:20:34.440Z",
+  "generated": "2026-11-07T07:26:41.821Z",
   "notice": {
     "en": "Open-source research from public sources; incomplete and correctable. Contribute via GitHub issues or email.",
     "issues": "https://github.com/fpietrosanti/eu-china-commons/issues/new?labels=funding-data&title=Funding%20data%3A%20",
-    "email": "TODO-public-email@eu-china-commons.eu"
+    "email": "contact@eu-china-commons.eu"
   },
   "fx": {
     "source": "ECB SDW series EXR/A.CNY.EUR.SP00.A (annual average, CNY per 1 EUR)",

@@ -12,7 +12,7 @@ const coverage = rd('data/funding/coverage.json', []);
 
 const REPO = 'https://github.com/fpietrosanti/eu-china-commons';
 const ISSUES = `${REPO}/issues/new?labels=funding-data&title=Funding%20data%3A%20`;
-const EMAIL = 'TODO-public-email@eu-china-commons.eu'; // TODO: replace when the public mailbox exists
+const EMAIL = 'contact@eu-china-commons.eu';
 
 const lastRate = () => { const y = Object.keys(fx.rates).sort().pop(); return fx.rates[y]; };
 function toEur(r) {

@@ -25,7 +25,7 @@ Draft of 3 Nov 2026, for Fabio's decision. The aim is to keep research, publishi
 |---|---|---|
 | Weekly | Monitoring of new policies, news and code releases (EU, China central, EU member states, Chinese provinces); new sources archived on GitHub | EN + ZH notes |
 | Weekly | 2–3 social posts per language | EN, ZH |
-| Monthly | Catalogue update (cases added or verified); short "Commons Bridge Brief" newsletter | EN + ZH |
+| Monthly | Catalogue update (cases added or verified); short "Observatory Brief" newsletter | EN + ZH |
 | Bi-monthly | Analysis note (2–4 pages) on one theme or one pair of comparable initiatives | EN + ZH |
 | Quarterly | Working paper or proposition paper; public changelog | EN (+ ZH summary) |
 | Yearly | "State of Europe–China Digital Commons" report, released alongside the DC-EDIC *State of Digital Commons* and KAIYUANSHE's *China Open Source Report* | EN + ZH |

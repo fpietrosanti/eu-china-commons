@@ -10,7 +10,7 @@ const SITE = path.join(root, 'site');
 const BASE = 'https://eu-china-commons.eu';
 const REPO = 'https://github.com/fpietrosanti/eu-china-commons';
 const ISSUES = REPO + '/issues';
-const EMAIL = 'TODO-public-email@eu-china-commons.eu'; // TODO: public mailbox (same as build_funding.js)
+const EMAIL = 'contact@eu-china-commons.eu';
 const NAME = { en: 'Europe–China Digital Commons Observatory', zh: '中欧数字公地观察站' };
 const TODAY = new Date().toISOString().slice(0, 10);
 const rd = (p, d) => { try { return JSON.parse(fs.readFileSync(path.join(root, p), 'utf8')); } catch { return d; } };
@@ -132,7 +132,7 @@ ${ld}
 <main class="wrap doc">
 ${crumbs.length ? `<p class="crumbs">${crumbs.map(([n, u]) => `<a href="${up}${u}">${esc(n)}</a>`).join(' › ')}</p>` : ''}
 ${body}
-<aside class="notice"><p>${T.note} ${T.draft} <a href="${ISSUES}/new?labels=data" rel="noopener">GitHub issues</a> · ${esc(EMAIL)}</p></aside>
+<aside class="notice"><p>${T.note} ${T.draft} <a href="${ISSUES}/new?labels=data" rel="noopener">GitHub issues</a> · <a href="mailto:${esc(EMAIL)}">${esc(EMAIL)}</a></p></aside>
 </main>
 <footer><div class="wrap">${esc(NAME.en)} · ${esc(NAME.zh)} · <a href="${REPO}" rel="noopener">source &amp; data (GitHub)</a> · CC BY 4.0 · updated ${TODAY}</div></footer>
 </body>

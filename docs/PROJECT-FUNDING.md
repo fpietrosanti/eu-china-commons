@@ -2,7 +2,7 @@
 
 *3 Nov 2026. 34 projects (18 Chinese or Chinese-origin, 16 European). Data: `data/project-funding.json`. Every channel claim is labelled fact or inference, with an evidence level (docs/METHODOLOGY.md §4).*
 
-> Open-source research from public sources; incomplete and correctable. Contribute: GitHub issues (label `funding-data`) or the observatory e-mail (TODO).
+> Open-source research from public sources; incomplete and correctable. Contribute: GitHub issues (label `funding-data`) or contact@eu-china-commons.eu.
 
 ## Method
 - Channels per project: (a) employer-paid developers, (b) foundation budget, (c) public grants, (d) corporate sponsorship/membership, (e) commercial model, (f) individual donations.

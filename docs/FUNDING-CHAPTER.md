@@ -2,7 +2,7 @@
 
 *Version 1.0, 3 November 2026. Closes research branches R12–R15 (docs/RESEARCH-REGISTER.md) for this round. Later rounds produce new versions of this chapter; changes are listed at the end.*
 
-> **Open-source research from public sources, not official statistics.** Incomplete and correctable. Absence of data means *we found nothing*, not that nothing exists. Contribute: GitHub issues (label `funding-data`) or the observatory e-mail (TODO).
+> **Open-source research from public sources, not official statistics.** Incomplete and correctable. Absence of data means *we found nothing*, not that nothing exists. Contribute: GitHub issues (label `funding-data`) or contact@eu-china-commons.eu.
 
 Labels: **[F]** fact (sourced, evidence A/B) · **[C]** commitment (announced, not shown as spent) · **[I]** inference · **[P]** proposal.
 
