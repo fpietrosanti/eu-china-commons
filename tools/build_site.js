@@ -97,7 +97,7 @@ function page({ lang = 'en', rel, title, desc, body, jsonld = [], crumbs = [], t
   const bc = crumbs.length ? { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map(([n, u], k) => ({ '@type': 'ListItem', position: k + 1, name: n, item: BASE + '/' + u })) } : null;
   const ld = [...jsonld, bc].filter(Boolean).map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n');
   const T = lang === 'zh'
-    ? { home: '首页', res: '研究', cat: '目录', proj: '项目资金', data: '数据', contrib: '参与改进', draft: '中文为草稿，待母语审校。', note: '开源研究，基于公开来源，并非官方统计；内容不完整，欢迎指正。' }
+    ? { home: '首页', res: '研究', cat: '目录', proj: '项目资金', data: '数据', contrib: '参与改进', draft: '', note: '开源研究，基于公开来源，并非官方统计；内容不完整，欢迎指正。' }
     : { home: 'Home', res: 'Research', cat: 'Catalogue', proj: 'Project funding', data: 'Data', contrib: 'Contribute', draft: '', note: 'Open-source research from public sources, not official statistics. Incomplete and correctable.' };
   const pre = lang === 'zh' ? up + 'zh/' : up;
   return `<!doctype html>
