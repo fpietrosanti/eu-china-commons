@@ -13,11 +13,11 @@
       },
       "summary": {
         "en": "An open-source office and collaboration suite for public administrations, stewarded by ZenDiS, the German federal centre for digital sovereignty. It integrates existing open components rather than building a new monolith, so other administrations can reuse the same reference stack.",
-        "zh": "面向公共行政的开源办公与协作套件，由德国联邦数字主权中心 ZenDiS 负责维护。它整合现有开源组件，而非另起炉灶，使其他行政机构可复用同一参考技术栈。"
+        "zh": "面向公共行政领域的开源办公与协作套件，由德国联邦数字主权中心 ZenDiS 负责维护。它整合现有开源组件，而非另起炉灶，便于其他行政机构复用同一参考技术栈。"
       },
       "reuse": {
         "en": "Integrated reference stack reused across administrations; flagship input to the DC-EDIC Collaborative Workspace.",
-        "zh": "跨机构复用的集成参考栈；为 DC-EDIC 协作办公旗舰项目提供基础。"
+        "zh": "提供跨机构复用的集成参考栈，为 DC-EDIC 协作办公旗舰项目奠定基础。"
       },
       "sources": [
         "https://www.opendesk.eu/en/about",
@@ -39,7 +39,7 @@
       },
       "reuse": {
         "en": "One component improved once, reused by several national suites.",
-        "zh": "一个组件改进一次，多个国家套件共同复用。"
+        "zh": "一处改进，多国套件共同复用。"
       },
       "sources": [
         "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
@@ -56,11 +56,11 @@
       },
       "summary": {
         "en": "Several European administrations run their own messaging on the open, federated Matrix protocol. Each runs independent servers, but they can interoperate — the model the DC-EDIC adopts for its Communication track.",
-        "zh": "多个欧洲行政机构基于开放、联邦式的 Matrix 协议运行各自的即时通讯。各自独立部署服务器，又可互联互通——DC-EDIC 通讯赛道正采用这一模式。"
+        "zh": "多个欧洲行政机构基于开放、联邦式的 Matrix 协议运行各自的即时通讯系统。各自独立部署服务器，又可互联互通——DC-EDIC 通讯赛道正采用这一模式。"
       },
       "reuse": {
         "en": "Shared open protocol, separate sovereign deployments.",
-        "zh": "共享开放协议，独立自主部署。"
+        "zh": "共享开放协议，实现独立部署。"
       },
       "sources": [
         "https://element.io/blog/bwmessenger-goes-live-for-bundeswehr/"
@@ -77,11 +77,11 @@
       },
       "summary": {
         "en": "Italian law (art. 69 of the Digital Administration Code) requires administrations to release software they commission for reuse by others. The national catalogue and the publiccode.yml metadata standard, born in Italy, are now referenced at European level.",
-        "zh": "意大利法律（《数字行政法典》第69条）要求公共机构公开其委托开发的软件，供其他机构复用。国家软件目录及源自意大利的 publiccode.yml 元数据标准，现已在欧洲层面被引用。"
+        "zh": "意大利《数字行政法典》第69条规定，公共机构须公开其委托开发的软件，供其他机构复用。国家软件目录及源自意大利的 publiccode.yml 元数据标准，现已在欧洲层面被引用。"
       },
       "reuse": {
         "en": "Legal obligation + catalogue + machine-readable metadata.",
-        "zh": "法律义务 + 软件目录 + 机器可读元数据。"
+        "zh": "法律义务、软件目录与机器可读元数据相结合。"
       },
       "sources": [
         "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf",
@@ -99,7 +99,7 @@
       },
       "summary": {
         "en": "The open-source data exchange layer behind Estonian e-government is jointly developed with Finland and others through a shared institute (NIIS), and reused by many countries worldwide.",
-        "zh": "支撑爱沙尼亚电子政务的开源数据交换层，通过共同设立的机构（NIIS）与芬兰等国联合开发，并被全球多国复用。"
+        "zh": "支撑爱沙尼亚电子政务的开源数据交换层，由共同设立的机构（NIIS）与芬兰等国联合开发，并被全球多国复用。"
       },
       "reuse": {
         "en": "Joint stewardship by states through a dedicated non-profit.",
@@ -120,11 +120,11 @@
       },
       "summary": {
         "en": "Germany's Sovereign Tech Agency funds the maintenance of open-source infrastructure the world depends on. It now operates the EU-STF Pilot inside the DC-EDIC: bounded work packages with trusted maintainers, selected through an open survey.",
-        "zh": "德国主权技术局资助全球依赖的开源基础设施的维护工作，现于 DC-EDIC 框架内运营欧盟主权技术基金试点：经公开征集遴选，与可信维护者签订有限范围的工作包。"
+        "zh": "德国主权技术局资助全球依赖的开源基础设施的维护工作，现于 DC-EDIC 框架内运营欧盟主权技术基金试点：经公开征集遴选，与可信维护者签订范围明确的工作合同。"
       },
       "reuse": {
         "en": "Funds maintenance of what already exists, not new products.",
-        "zh": "资助既有软件的维护，而非新产品。"
+        "zh": "侧重于资助既有软件的维护，而非开发新产品。"
       },
       "sources": [
         "https://digital-commons-edic.eu/news/2026-10-27-assembly-decisions/implementation-strategy-2026-2027.pdf"
@@ -145,7 +145,7 @@
       },
       "reuse": {
         "en": "One upstream, many commercial distributions built on it.",
-        "zh": "一个上游，多个商业发行版基于其构建。"
+        "zh": "一个上游社区，支撑多个商业发行版的构建。"
       },
       "sources": [
         "https://www.openeuler.org/en/community/organization/"
@@ -166,7 +166,7 @@
       },
       "reuse": {
         "en": "Demand-side public incentives for a shared base.",
-        "zh": "以需求侧公共激励推动共享底座。"
+        "zh": "以需求侧的公共激励推动共享底座建设。"
       },
       "sources": [
         "https://www.sz.gov.cn/zfgb/2026/gb1408/content/post_12722449.html",
@@ -188,7 +188,7 @@
       },
       "reuse": {
         "en": "Shared legal infrastructure usable on both sides.",
-        "zh": "双方均可使用的共享法律基础设施。"
+        "zh": "可供各方共同使用的共享法律基础设施。"
       },
       "sources": [
         "https://opensource.org/meeting-minutes/2020-02-14"
@@ -205,11 +205,11 @@
       },
       "summary": {
         "en": "Chinese provinces and cities fund project incubation (Hangzhou, up to RMB 1M), community operating costs (Guangdong, 30%, cap RMB 8M) and adoption (Shenzhen, up to 15%). Jiangsu announced a fund matrix of at least RMB 1bn. These are announced envelopes, not verified spending.",
-        "zh": "中国多个省市资助项目孵化（杭州，最高100万元）、社区运营成本（广东，30%，上限800万元）及应用推广（深圳，最高15%）。江苏宣布规划不低于10亿元的基金矩阵。以上均为公布的资金规模，并非已核实的实际支出。"
+        "zh": "中国多个省市资助项目孵化（杭州，最高100万元）、社区运营成本补贴（广东，补贴30%，上限800万元）及应用推广（深圳，最高15%）。江苏宣布规划不低于10亿元的基金矩阵。以上均为公布的资金规模，而非已核实的实际支出。"
       },
       "reuse": {
         "en": "Strong on creation and adoption — the mirror image of Europe's maintenance focus.",
-        "zh": "侧重创建与应用——恰与欧洲侧重维护形成互补。"
+        "zh": "侧重于创建与应用，恰与欧洲侧重于维护形成互补。"
       },
       "sources": [
         "https://zfgb.hangzhou.gov.cn/10/104220263/t101220263044/530342.shtml",
@@ -229,11 +229,11 @@
       },
       "summary": {
         "en": "Since 2021 the Eclipse Foundation (Brussels) and the OpenAtom Foundation (Beijing) have run two separately governed projects with coordinated technical development. They also agreed a Chinese translation of the Eclipse Public License 2.0 (2024) and renewed their exchange in March 2026.",
-        "zh": "自2021年起，Eclipse 基金会（布鲁塞尔）与开放原子开源基金会（北京）运行两个独立治理、技术协同的项目，并于2024年共同确定 Eclipse 公共许可证2.0中文译本，2026年3月续开交流机制。"
+        "zh": "自2021年起，Eclipse 基金会（布鲁塞尔）与开放原子开源基金会（北京）共同推进两个治理独立、技术协同的项目，并于2024年共同确定 Eclipse 公共许可证2.0中文译本，并于2026年3月延续交流机制。"
       },
       "reuse": {
         "en": "Separate governance, shared technology — the most concrete foundation-level precedent. It is also contested in the US (House Select Committee letter, June 2025).",
-        "zh": "治理独立、技术共享——最具体的基金会层面先例；同时在美国引发争议（众议院特别委员会2025年6月来函）。"
+        "zh": "治理独立、技术共享——最具体的基金会层面先例；该合作也在美国引发一定争议（美国众议院特别委员会曾于2025年6月致函关注）。"
       },
       "sources": [
         "https://blogs.eclipse.org/post/mike-milinkovich/eclipse-and-openatom-pioneering-open-source-innovation",
@@ -253,7 +253,7 @@
       },
       "summary": {
         "en": "The open instruction-set standard moved its legal seat to Switzerland in 2020. European and Chinese members work on the same specifications, and Chinese open processors such as XiangShan implement them.",
-        "zh": "这一开放指令集标准于2020年将法律注册地迁至瑞士。欧洲与中国成员共同参与同一规范的制定，香山等中国开源处理器即基于该规范实现。"
+        "zh": "该开放指令集标准的运营机构于2020年将法律注册地迁至瑞士。欧洲与中国成员共同参与同一规范的制定，香山等中国开源处理器即基于该规范实现。"
       },
       "reuse": {
         "en": "A shared open standard; separate implementations.",
@@ -275,7 +275,7 @@
       },
       "summary": {
         "en": "Several data-infrastructure projects started by Chinese companies and universities (e.g. Apache DolphinScheduler, ShardingSphere, Doris, IoTDB) graduated under the Apache Software Foundation's vendor-neutral governance and have users in Europe. This is collaboration with no government in the loop.",
-        "zh": "多个由中国企业和高校发起的数据基础设施项目（如 Apache DolphinScheduler、ShardingSphere、Doris、IoTDB）已在 Apache 软件基金会中立治理下毕业，并拥有欧洲用户——这是一种无需政府参与的协作。"
+        "zh": "多个由中国企业和高校发起的数据基础设施项目（如 Apache DolphinScheduler、ShardingSphere、Doris、IoTDB）已在 Apache 软件基金会的中立治理下成功毕业，并拥有欧洲用户——这体现了一种无需政府直接参与的跨国协作模式。"
       },
       "reuse": {
         "en": "Neutral foundation governance makes origin irrelevant to reuse.",
