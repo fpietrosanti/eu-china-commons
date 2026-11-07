@@ -126,3 +126,8 @@ PA reuse is not the only goal: also map how each side builds open-source stacks 
 
 ## Funding chapter — conclusion (Fabio, 3 Nov)
 - [x] (v1.0, 3 Nov) Close the funding research as a chapter (docs/FUNDING-CHAPTER.md): public money, private corporate money, modalities, project-level funding → conclusions labelled fact/inference/proposal, limits from RESEARCH-DEPTH, implications for EU–China cooperation. Draft as soon as R15 (project funding) is in; later rounds update it as a new version.
+
+## Site build (7 Nov 2026) — produced, NOT published
+- [x] tools/build_site.js: 139 static pages (14 research chapters, 65 catalogue entries EN, 17 ZH, 34 project-funding pages, data pages), canonical + hreflang en/zh-CN/x-default, JSON-LD (ResearchProject, Report, Dataset, Article, BreadcrumbList), OpenGraph, sitemap.xml with xhtml alternates, robots.txt (EU/US + AI + Baidu/Sogou/360/Shenma/Bytespider/Petal), llms.txt + llms-full.txt, CSV/JSON datasets CC BY 4.0, Baidu meta (no-transform, applicable-device). No external resources.
+- [ ] Before publishing: brand name (header still "Observatory on European and Chinese Digital Commons" vs NAME constant), public e-mail, native review of ZH (pages carry "草稿，待母语审校"), decide hosting for China (Gitee Pages closed 2024; AtomGit Pages reportedly suspended — check; options: HK/Singapore object storage, mirror), Baidu/Bing webmaster verification files, OG image.
+- [ ] ZH SEO/GEO: full Chinese versions of the funding chapter and key findings; republish on WeChat/Zhihu/CSDN (sources Chinese LLMs cite).

@@ -1,0 +1,43 @@
+# Europe–China Digital Commons Observatory (中欧数字公地观察站)
+
+> Independent, open-source research observatory comparing how Europe and China treat open source as public infrastructure: policy at every level, public and private funding, public-sector reuse, industrial stacks and EU–China bridges. Every figure carries a source and an evidence level (A primary, A-v primary via relay, B reliable secondary, C reported, D unverified). Not official statistics; incomplete and correctable.
+
+Data licence: CC BY 4.0. Source and data: https://github.com/fpietrosanti/eu-china-commons. Corrections: https://github.com/fpietrosanti/eu-china-commons/issues.
+
+## Key findings (funding chapter v1.0)
+- [F] Documented EU public open-source money that can be summed: €11.5M (2023), €36M (2024), €19M (2025) — Germany and France only. On top, multi-year EU envelopes [C]: DARE up to €120M, NGI Zero ≈€65.5M (2018–27), OpenEuroLLM €20.6M, Chips JU RISC-V €60M.
+- [F] No Chinese public open-source amount could be summed: China publishes per-project caps and rates, not budgets or disbursements (largest caps: Wuhan East Lake ¥30M, Shanghai ¥20M, Shenzhen ¥10M). [F] No central-government open-source budget line was found.
+- [F] OpenAtom, China's national open-source foundation, filed ¥270M of income 2020–23 (≈€9–10M/yr in donations), 100% domestic, Huawei 37% (2023), plus ¥20.7M of government subsidy in 2023. [I] The widely cited "¥600M+ since 2020" (Xinhua) is not supported by the filings.
+- [F] European private corporate money is fragmented and small where it can be isolated (FSFE + KDE ≈€0.1–0.2M/yr); Eclipse Foundation (Belgium) has €9.4–15.4M revenue (2022–25) but does not separate member fees from public grants. [I] With Eclipse as an upper bound, European foundation money is of the same order as OpenAtom.
+- [F]/[I] China pays for adoption; Europe pays for creation and maintenance. Chinese instruments are local adoption subsidies (Shenzhen 15% of investment + 5% for OpenHarmony-adapted RISC-V), prize-style grants paid after deployment, per-device rates. European instruments are competitive grants for new strategic tech (RISC-V, LLMs), small grants via intermediaries (NLnet), and — uniquely in Germany — a standing maintenance fund (Sovereign Tech Fund: curl €195k, OpenSSL €406k, KDE €1.29M).
+- [F] Chinese money is tied to named national stacks (OpenHarmony, openEuler, RISC-V, OpenAtom-hosted projects) and local registration; European money is stack-neutral and conditioned on open licences and co-funding. [I] In practice Chinese instruments exclude foreign firms; European ones do not exclude anyone by nationality.
+- [F] Who decides: in China local industry bureaus and development zones (the centre acts through OpenAtom, under MIIT supervision); in Europe the Commission's programmes and a few national agencies. The EU periphery (member states) is mostly absent: 23 of 27 show no dedicated money in our search [I: light search, not conclusive].
+- [F]/[I] Chinese flagships depend on one company each (Huawei for OpenHarmony/openEuler; Alibaba, Baidu, Tencent, Ant, PingCAP, High-Flyer…), with the top funder close to 100%; Chinese-origin projects at Apache keep the founding company as payer. European projects have more diverse, multinational funders and are paid mostly by subscriptions or dual licensing (Nextcloud, Qt, SUSE, Element), with grants and donations for maintenance (curl, GnuPG, KDE, OpenSSL).
+- [F] Individual donations are almost absent in China (Ant Design ≈US$18k all-time on Open Collective; KubeSphere 0) versus e.g. curl ≈US$91k/yr.
+- [F] Governments as paying customers of open-source vendors are a European channel (BSI VS-Desktop for GnuPG, BwMessenger/Tchap for Element, openDesk); the closest Chinese equivalent is 信创 procurement of commercial openEuler distributions, which buys the proprietary product layer, not the commons. [F] Part of OpenAtom's project money flows back to the main donor (¥6.49M of ¥25.8M OpenHarmony spending to Huawei Cloud, 2023).
+- [F] The transparency gap is the largest asymmetry found: European budgets and grants are published per project; Chinese support is visible as rules and ceilings, and award notices are scattered across local portals. [I] Any headline "China spends X vs Europe Y" is today unfounded in both directions.
+
+## Research
+- [How Europe and China fund open source — chapter with conclusions](https://eu-china-commons.eu/research/funding/): Labels: F fact (sourced, evidence A/B) · C commitment (announced, not shown as spent) · I inference · P proposal.
+- [Funding for open source: EU vs China, comparison tables in EUR](https://eu-china-commons.eu/research/funding-data/): Grants (fondo perduto), adoption subsidies and tax credits for firms adopting strategic national open-source technologies are in scope; when only a rate or
+- [How each side funds open source for sovereignty: modalities compared](https://eu-china-commons.eu/research/funding-modalities/): 1. Who decides and who manages the money? (ministry, agency, foundation, SOE, local bureau, EDIC)
+- [How 34 major open-source projects are funded (EU and China)](https://eu-china-commons.eu/research/project-funding/): 1. FACT (A). The two Chinese state-flagship projects (OpenHarmony, openEuler) are financed through one channel stack: an anchor company (Huawei) that write
+- [The Chinese open-source landscape: projects and code platforms](https://eu-china-commons.eu/research/china-open-source-landscape/): Research note, 3 Nov 2026. Scope: (1) the most influential and most used open-source projects that originate in China, (2) how Chinese developers use their
+- [Chinese open-source foundations and OpenAtom finances](https://eu-china-commons.eu/research/chinese-foundations/): Research note, 2026-11-03. Evidence levels per METHODOLOGY.md §4. Self-reported figures are C unless they come from an official filing.
+- [COSCon (China Open Source Conference) themes by year](https://eu-china-commons.eu/research/coscon-themes/): Research note, 2026-11-03. Evidence levels per METHODOLOGY.md §4. KAIYUANSHE's blog posts and annual reports are self-published primary texts. They count a
+- [Industrial open-source stacks in Europe and China](https://eu-china-commons.eu/research/industrial-stacks/): Scope decision of 2 Nov 2026: besides public-administration reuse, the observatory tracks how each side builds open-source stacks for its own industry. Rec
+- [Open-source policy at EU, national, Chinese central and provincial level](https://eu-china-commons.eu/research/multilevel-policy/): Draft v0.1, 2 November 2026. Data: ../data/initiatives.json(../data/initiatives.json) (50 records). Source URLs: ../data/new_source_urls.txt(../data/new_so
+- [Stakeholder map: institutions and organisations](https://eu-china-commons.eu/research/stakeholders/): Source of truth: ../data/stakeholders.json(../data/stakeholders.json) (133 entries; 111 in the first draft, 22 added on 2 Nov 2026). Built from the audienc
+- [Literature review](https://eu-china-commons.eu/research/literature/): Relevance: 1 = peripheral, 5 = must cite / closest competitor.
+- [Methodology: sources, evidence levels, verification](https://eu-china-commons.eu/research/methodology/): The observatory follows two linked methodologies:
+- [Research register: every line of research, including negative results](https://eu-china-commons.eu/research/research-register/): Each line of research is a branch that stays open over time. An entry records what was asked, how, what worked, what did not work, and how to re-run it. La
+- [Research depth by area: centre vs periphery](https://eu-china-commons.eu/research/research-depth/): Coverage = jurisdictions with at least one sourced record / total (27 member states; 31 Chinese provincial-level units).
+
+## Catalogue and data
+- [Catalogue of 65 verified cases](https://eu-china-commons.eu/catalogue/)
+- [Funding of 34 major open-source projects](https://eu-china-commons.eu/projects/)
+- [Open data (CSV/JSON)](https://eu-china-commons.eu/data/)
+- [中文首页](https://eu-china-commons.eu/zh/)
+
+## Optional
+- [Full text of the main chapters](https://eu-china-commons.eu/llms-full.txt)
