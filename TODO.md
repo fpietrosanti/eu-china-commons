@@ -156,5 +156,5 @@ PA reuse is not the only goal: also map how each side builds open-source stacks 
 - [x] eu-china-commons.eu added as secondary domain to the glslatina.it Google Workspace (admin fabio.pietrosanti@glslatina.it); verified (TXT), Gmail active; DNS MX `1 smtp.google.com`, SPF `v=spf1 include:_spf.google.com ~all` (set via Internet.bs API).
 - [x] fabio.pietrosanti@eu-china-commons.eu = alias of fabio.pietrosanti@glslatina.it (no extra licence).
 - [x] Group contact@eu-china-commons.eu ("EU-China Commons contact"): owner/only member Fabio, external senders allowed, join by invitation only.
-- [ ] Optional: DKIM for eu-china-commons.eu (Admin → Gmail → Authenticate email) + DMARC TXT; test inbound from an external address.
+- [x] DKIM (2048-bit, selector google, TXT split in two strings) active: Gmail "Authenticating email with DKIM"; DMARC `p=quarantine; rua=mailto:contact@eu-china-commons.eu`. [ ] Test inbound + outbound from an external address.
 - [x] LinkedIn page https://www.linkedin.com/company/eu-china-commons/ (EN default + zh_CN), linked from site contacts and JSON-LD.
