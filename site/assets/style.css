@@ -80,3 +80,6 @@ dl.facts dd{margin:0}
 ol.sources li{word-break:break-all;font-size:.88rem}
 .notice{margin:32px 0 0;padding:12px 14px;border:1px dashed var(--line);border-radius:8px;font-size:.85rem;color:var(--muted)}
 @media (max-width:640px){dl.facts{grid-template-columns:1fr}}
+.wechat-qr{margin:1rem 0 0;display:inline-block;text-align:center}
+.wechat-qr img{width:160px;height:160px;display:block;background:#fff;padding:6px;border-radius:6px}
+.wechat-qr figcaption{font-size:.85rem;margin-top:.3rem}
