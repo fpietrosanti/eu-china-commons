@@ -132,4 +132,7 @@ PA reuse is not the only goal: also map how each side builds open-source stacks 
 - [ ] Before publishing: brand name (header still "Observatory on European and Chinese Digital Commons" vs NAME constant), public e-mail, native review of ZH (pages carry "草稿，待母语审校"), decide hosting for China (Gitee Pages closed 2024; AtomGit Pages reportedly suspended — check; options: HK/Singapore object storage, mirror), Baidu/Bing webmaster verification files, OG image.
 - [ ] ZH SEO/GEO: full Chinese versions of the funding chapter and key findings; republish on WeChat/Zhihu/CSDN (sources Chinese LLMs cite).
 - [x] ZH copy-edit via Qwen + DeepSeek (7 Nov): 60/64 suggestions applied, draft notice removed (reviews/2026-11-07_zh-copyedit.md)
-- [ ] **REMIND FABIO:** register eu-china-commons.eu, then DNS → GitHub Pages (A 185.199.108-111.153, CNAME www → fpietrosanti.github.io); create mailbox contact@eu-china-commons.eu; then enable Pages and run the "Deploy site" workflow
+- [x] 2026-11-08: eu-china-commons.eu registered (Internet.bs, Fabio as natural person, expires 2029-11-08); DNS A×4 + CNAME www set on TopDNS; GitHub Pages enabled (workflow mode, cname set), Deploy site run 42454834894 OK
+- [ ] Enforce HTTPS once GitHub issues the certificate (after .eu delegation propagates)
+- [ ] Mailbox contact@eu-china-commons.eu: Fabio creates it, then add MX records via ~/domains.py dns-add
+- [ ] Test reachability from mainland China (17ce.com / boce.com) and log result in docs/HOSTING-CN.md
