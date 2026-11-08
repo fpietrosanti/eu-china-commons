@@ -1,0 +1,63 @@
+ref	result	final_host	title	contact
+eu-eclipsecon	ok-renamed	www.eclipsecon.org	OCX | Open Community Experience, Brussels (EclipseCon rebranded)	-
+fr-gendarmerie	ok	www.gendarmerie.interieur.gouv.fr	Accueil - Gendarmerie nationale	https://www.gendarmerie.interieur.gouv.fr/contact/trouver-ma-gendarmerie
+es-asolif	dead	www.asolif.com	domain for sale (PremiumDomains.com)	-
+lu-snt	ok-moved	www.uni.lu	SnT (moved to https://www.uni.lu/snt-en/)	-
+uk-nhs-digital	ok	www.england.nhs.uk	NHS England	https://www.england.nhs.uk/contact-us/
+uk-turing	ok	www.turing.ac.uk	Home | The Alan Turing Institute	https://www.turing.ac.uk/contact-us
+se-ri	ok	www.ri.se	Svensk forskning för hållbar tillväxt | RISE	https://www.ri.se/sv/kontakta-oss-0
+pl-warszawa	ok	um.warszawa.pl	Strona Główna - Miasto Warszawa	-
+ro-dnsc	interactive-challenge	www.dnsc.ro	Cloudflare challenge did not clear	-
+ee-tallinn	interactive-challenge	www.tallinn.ee	Cloudflare challenge did not clear	-
+lv-rtu	interactive-challenge	www.rtu.lv	Cloudflare challenge did not clear	-
+lt-eimin	ok	eimin.lrv.lt	Lietuvos Respublikos ekonomikos ir inovacijų ministerija	https://eimin.lrv.lt/lt/struktura-ir-kontaktai/
+lt-ivpk	ok-renamed	vssa.lrv.lt	IVPK now Valstybės skaitmeninių sprendimų agentūra (VSSA)	https://vssa.lrv.lt/lt/struktura-ir-kontaktine-informacija/struktura/
+lt-nksc	interactive-challenge	www.nksc.lt	Cloudflare challenge did not clear	-
+lt-vilnius	interactive-challenge	vilnius.lt	Cloudflare challenge did not clear	-
+pt-lisboa	ok	www.lisboa.pt	Câmara Municipal de Lisboa	https://servicos.lisboa.pt/contactos-e-atendimento/canais-de-comunicacao
+gr-athens	ok	www.cityofathens.gr	Δήμος Αθηναίων	https://www.cityofathens.gr/contact/
+cy-ucy	ok	www.ucy.ac.cy	University of Cyprus – UCY	https://www.ucy.ac.cy/about/contact-us/university-a-z/
+cy-ci-ucy	ok	www.ucy.ac.cy	University of Cyprus (Confucius Institute page not checked)	https://www.ucy.ac.cy/about/contact-us/university-a-z/
+cy-cyens	ok	cyens.org.cy	CYENS Centre of Excellence	https://cyens.org.cy/about/contact-us/
+mt-mdia	ok	mdia.gov.mt	Malta Digital Innovation Authority	https://mdia.gov.mt/about/contact-us/
+eu-ceps	ok	www.ceps.eu	CEPS	https://www.ceps.eu/contact/
+nl-clingendael	ok	www.clingendael.org	Clingendael	https://www.clingendael.org/contact
+nl-clingendael-china	url-404	www.clingendael.org	/research-programmes/china-centre returns Page not found; find the correct China Centre URL	https://www.clingendael.org/contact
+eu-euractiv	ok-redirect	www.rapporteur.com	euractiv.com now redirects to Rapporteur ("News & EU policy from Europe") — check rebrand	https://www.rapporteur.com/contact-us/
+eu-techzine	interactive-challenge	www.techzine.eu	Cloudflare challenge did not clear	-
+uk-wikimediauk	ok	wikimedia.org.uk	Home - Wikimedia UK	-
+es-une	ok	www.une.org	UNE - Asociación Española de Normalización	https://www.une.org/contacto
+eu-cn-summit	skipped	www.consilium.europa.eu	navigation bounced (site permission); verify later	-
+geant-cernet	ok	geant.org	GÉANT homepage	https://geant.org/contact
+de-goethe-china	ok	www.goethe.de	Goethe-Institut Peking (EN URL redirects to /ins/cn/de/)	-
+dk-icdk	ok	icdk.um.dk	Udenrigsministeriet (Innovation Centre Denmark portal)	-
+cy-ccci	ok	ccci.org.cy	CCCI | Cyprus Chamber of Commerce and Industry (challenge cleared after delay)	-
+ee-eas	site-down	www.eas.ee	Cloudflare 521 web server is down (EAS merged into EIS/Business Estonia? check)	-
+hu-hipa	ok	hipa.hu	HIPA	-
+ro-academia	ok	acad.ro	Academia Română	https://acad.ro/institutia/contact_externe.html
+no-innovation-norway-china	ok	www.innovasjonnorge.no	Innovation Norway	-
+no-nordic-centre-fudan	interactive-challenge	www.nordiccentre.org	Cloudflare "Attention Required" block	-
+gb-chatham-house-asia	ok	www.chathamhouse.org	Chatham House	https://www.chathamhouse.org/about-us/contact-us
+gb-royal-society-china	ok	royalsociety.org	Royal Society	https://royalsociety.org/about-us/contact-us/carlton-house-terrace-london/
+city-berlin-beijing	ok	www.berlin.de	Official Website of the City of Berlin	-
+be-biccs	ok	www.researchportal.be	BICCS listed on Research Portal (status ended per earlier note; cookie banner not accepted)	-
+cn-ccid-consulting	geo-block	www.ccidconsulting.com	403 Forbidden from Italy (move to VPN queue)	-
+cn-chinatelecom	blank	www.chinatelecom.com.cn	page loaded empty title (likely geo/JS block)	-
+cm-itaic	geo-block	www.itaic.org.cn	"The access is blocked." (move to VPN queue)	-
+cm-csdn	interactive-challenge	www.csdn.net	请进行安全验证 Security Verification (needs Fabio)	-
+co-oceanbase	ok-redirect	en.oceanbase.com	OceanBase (redirects to international site)	-
+co-deepseek	ok-redirect	chat.deepseek.com	DeepSeek (homepage redirects to chat)	-
+co-kingdee	ok	www.kingdee.com	Kingdee (global site)	-
+cn-pudong	ok	www.pudong.gov.cn	上海浦东	-
+cn-js-gov	ok	www.jiangsu.gov.cn	江苏省人民政府	-
+cn-nj	ok	www.nanjing.gov.cn	中共南京市委 南京市人民政府	-
+cn-hubei-gov	ok	www.hubei.gov.cn	湖北省人民政府门户网站	-
+cn-cd-hightech	ok	www.cdht.gov.cn	成都高新区管理委员会	-
+ac-bupt	ok	www.bupt.edu.cn	北京邮电大学	-
+ac-lzu	ok	www.lzu.edu.cn	兰州大学	-
+cn-nmg-gxt	geo-block	gxt.nmg.gov.cn	拒绝执行 | 云防护 (WAF refuses foreign access; VPN)	-
+cn-ah-jxt	blank	jx.ah.gov.cn	empty page (likely geo/JS block; VPN)	-
+cn-ha-gxt	geo-block	gxt.henan.gov.cn	403 Forbidden (VPN)	-
+cn-gs-gxt	ok	gxt.gansu.gov.cn	甘肃省工业和信息化厅	-
+cpaffc	geo-block	www.cpaffc.org.cn	"The access is blocked." (VPN)	-
+csc	ok	www.csc.edu.cn	国家留学网 (China Scholarship Council)	-
