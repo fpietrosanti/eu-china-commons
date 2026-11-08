@@ -90,6 +90,7 @@ const CHAPTERS = [
 
 // ---------- page shell ----------
 // ---------- brand: logo, payoff, mission (used in share previews) ----------
+const OGV = '2'; // bump to force social apps to re-fetch the preview image
 const BRAND = {
   pay: { en: 'Caring for the global digital commons, together', zh: '共同守护全球数字公地' },
   mission: {
@@ -98,12 +99,12 @@ const BRAND = {
   },
 };
 function shareMeta(lang, up) {
-  const img = BASE + '/assets/og-' + (lang === 'zh' ? 'zh' : 'en') + '.png';
-  return `<meta property="og:image" content="${img}">
+  const img = BASE + '/assets/og-' + (lang === 'zh' ? 'zh' : 'en') + '.png?v=' + OGV;
+  return `<meta property="og:image" content="${img}"><meta property="og:image:secure_url" content="${img}"><meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="${esc(NAME[lang] + ' — ' + BRAND.pay[lang])}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${img}">
-<meta itemprop="image" content="${BASE}/assets/logo-512.png">
+<meta itemprop="image" content="${BASE}/assets/logo-512.png?v=${OGV}">
 <link rel="icon" href="${up}assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${up}assets/apple-touch-icon.png">`;
 }
