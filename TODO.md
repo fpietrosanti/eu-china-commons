@@ -158,3 +158,8 @@ PA reuse is not the only goal: also map how each side builds open-source stacks 
 - [x] Group contact@eu-china-commons.eu ("EU-China Commons contact"): owner/only member Fabio, external senders allowed, join by invitation only.
 - [x] DKIM (2048-bit, selector google, TXT split in two strings) active: Gmail "Authenticating email with DKIM"; DMARC `p=quarantine; rua=mailto:contact@eu-china-commons.eu`. [ ] Test inbound + outbound from an external address.
 - [x] LinkedIn page https://www.linkedin.com/company/eu-china-commons/ (EN default + zh_CN), linked from site contacts and JSON-LD.
+
+## VPN acquisition attempts (2026-11-08)
+- Desktop origin (residential IT IP, tools/desktop_fetch.js): 9/61 VPN-queue URLs acquired; most *.gov.cn time out from foreign IPs.
+- Chrome + Transocks plugin exiting via China Mobile AS9808 (myip.dk check OK): gov.cn loads, but HTTP-only provincial sites stop on Chrome's "connection not secure" interstitial, which the browser extension cannot operate; plugin also unstable. Not usable as-is.
+- [ ] Find another route for the 73 open VPN URLs: e.g. a CN-located cloud VM or a VPN at OS level (so curl/vpn_fetch.sh can run with --vpn-on), or Chrome with HTTPS-first disabled by Fabio during a session.
