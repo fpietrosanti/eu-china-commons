@@ -89,6 +89,28 @@ const CHAPTERS = [
 ];
 
 // ---------- page shell ----------
+// ---------- brand: logo, payoff, mission (used in share previews) ----------
+const BRAND = {
+  pay: { en: 'Caring for the global digital commons, together', zh: '共同守护全球数字公地' },
+  mission: {
+    en: 'An independent observatory mapping how Europe and China fund, govern and reuse open source, to find non-competitive cooperation on the upstream both depend on.',
+    zh: '独立观察站：梳理欧洲与中国如何资助、治理和复用开源软件，在双方共同依赖的全球上游中寻找非竞争性合作。',
+  },
+};
+function shareMeta(lang, up) {
+  const img = BASE + '/assets/og-' + (lang === 'zh' ? 'zh' : 'en') + '.png';
+  return `<meta property="og:image" content="${img}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(NAME[lang] + ' — ' + BRAND.pay[lang])}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${img}">
+<meta itemprop="image" content="${BASE}/assets/logo-512.png">
+<link rel="icon" href="${up}assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="${up}assets/apple-touch-icon.png">`;
+}
+// WeChat (no JS-SDK) uses the first sizeable <img> in <body> as share thumbnail: put the square logo first.
+const wxImg = (up) => `<div style="display:none" aria-hidden="true"><img src="${up}assets/logo-512.png" width="512" height="512" alt=""></div>`;
+const brandLink = (href, lang, up) => `<a class="brand" href="${href}"><img src="${up}assets/logo.svg" width="42" height="28" alt="">${esc(NAME[lang])}</a>`;
+
 function page({ lang = 'en', rel, title, desc, body, jsonld = [], crumbs = [], type = 'website', alternate }) {
   const url = BASE + '/' + rel.replace(/index\.html$/, '');
   const depth = rel.split('/').length - 1; const up = '../'.repeat(depth);
@@ -118,14 +140,15 @@ ${other}
 <meta property="og:url" content="${url}">
 <meta property="og:site_name" content="${esc(NAME[lang])}">
 <meta property="og:locale" content="${lang === 'zh' ? 'zh_CN' : 'en_GB'}">
-<meta name="twitter:card" content="summary">
+${shareMeta(lang, up)}
 <link rel="stylesheet" href="${up}assets/style.css">
 <link rel="alternate" type="text/plain" title="LLM summary" href="${BASE}/llms.txt">
 ${ld}
 </head>
 <body>
+${wxImg(up)}
 <header class="top"><div class="wrap">
-  <a class="brand" href="${pre}">${esc(NAME[lang])}</a>
+  ${brandLink(pre, lang, up)}
   <nav><a href="${pre}research/">${T.res}</a><a href="${pre}catalogue/">${T.cat}</a>${lang === 'en' ? `<a href="${up}projects/">${T.proj}</a>` : ''}<a href="${pre}data/">${T.data}</a><a href="${ISSUES}" rel="noopener">${T.contrib}</a></nav>
   <a class="lang" href="${up}${alternate || (lang === 'en' ? 'zh/' : '')}" hreflang="${lang === 'en' ? 'zh-CN' : 'en'}">${lang === 'en' ? '中文' : 'English'}</a>
 </div></header>
@@ -254,13 +277,18 @@ function patchLanding(rel, lang, other) {
 <meta name="renderer" content="webkit">
 <meta property="og:type" content="website"><meta property="og:url" content="${BASE}/${lang === 'zh' ? 'zh/' : ''}">
 <meta property="og:site_name" content="${NAME[lang]}"><meta property="og:locale" content="${lang === 'zh' ? 'zh_CN' : 'en_GB'}">
-<meta name="twitter:card" content="summary">
+<meta property="og:title" content="${esc(NAME[lang] + ' — ' + BRAND.pay[lang])}">
+<meta property="og:description" content="${esc(BRAND.mission[lang])}">
+${shareMeta(lang, lang === 'zh' ? '../' : '')}
 <link rel="alternate" type="text/plain" title="LLM summary" href="${BASE}/llms.txt">
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': [ORG, { '@type': 'WebSite', name: NAME[lang], alternateName: NAME[lang === 'zh' ? 'en' : 'zh'], url: BASE + '/', inLanguage: [lang === 'zh' ? 'zh-CN' : 'en'] }] })}</script>
 <!--/seo-->`;
   h = h.replace(/<!--seo-->[\s\S]*?<!--\/seo-->\n?/, '').replace(/<link rel="alternate" hreflang="[^"]+" href="[^"]+">\n?/, '');
   h = h.replace('</head>', head + '\n</head>');
-  const p = lang === 'zh' ? '' : '';
+  const up = lang === 'zh' ? '../' : '';
+  h = h.replace(/<!--wx-->[\s\S]*?<!--\/wx-->\n?/, '').replace('<body>', '<body>\n<!--wx-->' + wxImg(up) + '<!--/wx-->');
+  h = h.replace(/<a class="brand" href="([^"]*)">(?:<img[^>]*>)?/, (m, hr) => '<a class="brand" href="' + hr + '"><img src="' + up + 'assets/logo.svg" width="42" height="28" alt="">');
+  h = h.replace(/<!--pay-->[\s\S]*?<!--\/pay-->\n?/, '').replace(/(<div class="hero">[\s\S]*?<\/h1>)/, '$1\n  <!--pay--><p class="payoff">' + BRAND.pay[lang] + '</p><!--/pay-->');
   const links = lang === 'zh'
     ? `<!--seo-links--><section id="explore"><h2>浏览</h2><ul class="clean"><li><a href="research/">研究章节</a></li><li><a href="catalogue/">开源成功实践目录（${bi.length} 条）</a></li><li><a href="data/">开放数据下载</a></li></ul></section><!--/seo-links-->`
     : `<!--seo-links--><section id="explore"><h2>Explore the research</h2><ul class="clean">${research.slice(0, 6).map((r) => `<li><a href="research/${r.s}/">${esc(r.title)}</a></li>`).join('')}<li><a href="research/">All research</a> · <a href="catalogue/">Catalogue (${cat.length} verified cases)</a> · <a href="projects/">Funding of ${plist.length} projects</a> · <a href="data/">Open data</a></li></ul></section><!--/seo-links-->`;

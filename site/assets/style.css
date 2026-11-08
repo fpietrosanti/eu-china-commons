@@ -83,3 +83,6 @@ ol.sources li{word-break:break-all;font-size:.88rem}
 .wechat-qr{margin:1rem 0 0;display:inline-block;text-align:center}
 .wechat-qr img{width:160px;height:160px;display:block;background:#fff;padding:6px;border-radius:6px}
 .wechat-qr figcaption{font-size:.85rem;margin-top:.3rem}
+.brand{display:inline-flex;align-items:center;gap:8px}
+.brand img{width:42px;height:28px;flex:none}
+.hero .payoff{font-size:1.3rem;font-weight:600;color:var(--bridge);margin:0 0 12px}

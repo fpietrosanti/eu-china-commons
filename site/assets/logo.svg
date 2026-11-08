@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" role="img" aria-label="Europe–China Digital Commons Observatory">
+  <title>Europe–China Digital Commons Observatory</title>
+  <defs>
+    <clipPath id="l"><circle cx="44" cy="40" r="30"/></clipPath>
+  </defs>
+  <!-- shared commons: the lens where the two circles overlap -->
+  <circle cx="76" cy="40" r="30" clip-path="url(#l)" fill="#6b4fa3"/>
+  <circle cx="44" cy="40" r="30" fill="none" stroke="#1f4fa3" stroke-width="7"/>
+  <circle cx="76" cy="40" r="30" fill="none" stroke="#b8322a" stroke-width="7"/>
+  <path d="M55.24 12.18A30 30 0 0 1 64.07 17.71" fill="none" stroke="#1f4fa3" stroke-width="7"/>
+  <!-- a small network inside the shared space -->
+  <g fill="#fff"><circle cx="60" cy="27" r="3.2"/><circle cx="60" cy="53" r="3.2"/><circle cx="60" cy="40" r="4"/></g>
+  <path d="M60 27V53" stroke="#fff" stroke-width="2"/>
+</svg>
