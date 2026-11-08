@@ -1,0 +1,1779 @@
+[
+  {
+    "key": "gov.cn/ (15th fyp outline full text, 2 parts; news.cn page gives only chapter headings)",
+    "target": "https://www.gov.cn/ (15th FYP Outline full text, 2 parts; news.cn page gives only chapter headings)",
+    "url": "https://www.gov.cn/",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "determine whether any 开源 passage exists (tech self-reliance and Digital China parts)",
+    "needed": "search full text for 开源/开源生态/开源社区 with chapter and paragraph",
+    "then": "Archive the original, extract: search full text for 开源/开源生态/开源社区 with chapter and paragraph; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "shanghai gov / stcsm / pudong innovation forum sept 2026 coverage (shanghai.gov.cn)",
+    "target": "Shanghai gov / STCSM / Pudong Innovation Forum Sept 2026 coverage (shanghai.gov.cn)",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "开源创新国际合作宣言 not found in any search; may not exist under this title",
+    "needed": "full text, signatory list, issuing body, follow-up mechanism",
+    "then": "Archive the original, extract: full text, signatory list, issuing body, follow-up mechanism; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gov.cn/ and ccgp.gov.cn",
+    "target": "https://www.gov.cn/ and ccgp.gov.cn",
+    "url": "https://www.gov.cn/",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "official basis for government OS replacement / openEuler, openKylin adoption (only secondary English blogs found)",
+    "needed": "procurement notices or policy document numbers naming domestic OS",
+    "then": "Archive the original, extract: procurement notices or policy document numbers naming domestic OS; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "sichuan/chengdu, fujian, shandong provincial government sites",
+    "target": "Sichuan/Chengdu, Fujian, Shandong provincial government sites",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "no open-source policy found in searches",
+    "needed": "any 开源 implementation plan or fund",
+    "then": "Archive the original, extract: any 开源 implementation plan or fund; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "openatom.org",
+    "target": "https://www.openatom.org/",
+    "url": "https://www.openatom.org/",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "",
+    "needed": null,
+    "then": "Archive the original, extract: the facts listed in the research register; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxj.sz.gov.cn 2025–2026 资金公示 pages",
+    "target": "gxj.sz.gov.cn 2025–2026 资金公示 pages",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "Shenzhen 2025–26 重大开源项目 award results not found (R12)",
+    "needed": "拟资助项目公示 + attachment 公示表 (firm, project, amount)",
+    "then": "Archive the original, extract: 拟资助项目公示 + attachment 公示表 (firm, project, amount); check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "hzxh.gov.cn (西湖区经信局) — 关于下达人工智能开源社区算力券资金的公示 (aug 2026)",
+    "target": "hzxh.gov.cn (西湖区经信局) — 关于下达人工智能开源社区算力券资金的公示 (Aug 2026)",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "only WeChat relay found; ¥26.85M to 通义云启 (R12)",
+    "needed": "official page, amount, legal basis, tranche schedule",
+    "then": "Archive the original, extract: official page, amount, legal basis, tranche schedule; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "hangzhou.gov.cn / jxj.hangzhou.gov.cn — 杭州市算力券支持人工智能开源社区实施细则",
+    "target": "hangzhou.gov.cn / jxj.hangzhou.gov.cn — 杭州市算力券支持人工智能开源社区实施细则",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "rules not public outside China (R12/R13)",
+    "needed": "doc number, eligibility, rate, cap, annual budget",
+    "then": "Archive the original, extract: doc number, eligibility, rate, cap, annual budget; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gdii.gd.gov.cn — 2026年省级制造业当家重点任务保障专项资金（新一代信息技术和产业发展）项目计划",
+    "target": "gdii.gd.gov.cn — 2026年省级制造业当家重点任务保障专项资金（新一代信息技术和产业发展）项目计划",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "only relay mziit.com/news/16299.html; OpenHarmony adaptation centre ¥10M (R12)",
+    "needed": "original notice + attachment table, all OSS-related lines",
+    "then": "Archive the original, extract: original notice + attachment table, all OSS-related lines; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "sheitc.sh.gov.cn — 人工智能开源奖励项目支持计划 (2025)",
+    "target": "sheitc.sh.gov.cn — 人工智能开源奖励项目支持计划 (2025)",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "full beneficiary list not public (R12)",
+    "needed": "all beneficiaries and amounts",
+    "then": "Archive the original, extract: all beneficiaries and amounts; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "openatom.org/ disclosure/审计 section",
+    "target": "https://www.openatom.org/ disclosure/审计 section",
+    "url": "https://www.openatom.org/",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "2024–2025 annual work reports and audits not found (R11)",
+    "needed": "donation income, gov subsidy, spending per project, donors",
+    "then": "Archive the original, extract: donation income, gov subsidy, spending per project, donors; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "chinanpo.mca.gov.cn/ and https://cszg.mca.gov.cn/ (慈善中国)",
+    "target": "https://chinanpo.mca.gov.cn/ and https://cszg.mca.gov.cn/ (慈善中国)",
+    "url": "https://chinanpo.mca.gov.cn/",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "JS-only from outside; OpenAtom annual reports 2024–25 (R11)",
+    "needed": "filed annual reports, credit code, governing body",
+    "then": "Archive the original, extract: filed annual reports, credit code, governing body; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "ccgp-shaanxi.gov.cn/ — 平利县档案馆安全体系建设项目 (may 2025)",
+    "target": "http://www.ccgp-shaanxi.gov.cn/ — 平利县档案馆安全体系建设项目 (May 2025)",
+    "url": "http://www.ccgp-shaanxi.gov.cn/",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "Qwen lead, context only, URL imprecise (R04)",
+    "needed": "exact URL + spec clause (openEuler compatibility)",
+    "then": "Archive the original, extract: exact URL + spec clause (openEuler compatibility); check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "fengxian.gov.cn/ — fengxian 2026-082 正版化软件采购 result notice",
+    "target": "https://www.fengxian.gov.cn/ — Fengxian 2026-082 正版化软件采购 result notice",
+    "url": "https://www.fengxian.gov.cn/",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "who won, which OS delivered (R04)",
+    "needed": "award notice (中标公告) and delivered OS",
+    "then": "Archive the original, extract: award notice (中标公告) and delivered OS; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kaiyuanshe.cn (coscon 2016, 2017 pages, wayback-less)",
+    "target": "kaiyuanshe.cn (COSCon 2016, 2017 pages, Wayback-less)",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "2016 slogan conflict DeepSeek vs Qwen (R10)",
+    "needed": "official slogan, city, dates, track list",
+    "then": "Archive the original, extract: official slogan, city, dates, track list; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "atomgit.com/g-star/rank",
+    "target": "https://atomgit.com/g-star/rank",
+    "url": "https://atomgit.com/g-star/rank",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "G-Star full list by year (R09)",
+    "needed": "project list, graduation year, owner organisation",
+    "then": "Archive the original, extract: project list, graduation year, owner organisation; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gitee.com/gvp/all",
+    "target": "https://gitee.com/gvp/all",
+    "url": "https://gitee.com/gvp/all",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "GVP full list (R09)",
+    "needed": "project, owner org, stars, licence",
+    "then": "Archive the original, extract: project, owner org, stars, licence; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "ccgp-hebei.gov.cn/bidwinanncfiles/57ec772e-6579-4f42-90ea-341772e99c8d.pdf",
+    "target": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/57ec772e-6579-4f42-90ea-341772e99c8d.pdf",
+    "url": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/57ec772e-6579-4f42-90ea-341772e99c8d.pdf",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "Hebei ccgp award annex, Shijiazhuang platform specifying Anolis OS 8.8 ANCK (R04/R06, DeepSeek 8 Nov; 403 GeoBL from EU laptop+server)",
+    "needed": "purchaser, project, year, OS line verbatim",
+    "then": "Archive the original, extract: purchaser, project, year, OS line verbatim; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "ccgp-hebei.gov.cn/bidwinanncfiles/d373a21b-9bc2-194d-e343-77f143d7e887.pdf",
+    "target": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/d373a21b-9bc2-194d-e343-77f143d7e887.pdf",
+    "url": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/d373a21b-9bc2-194d-e343-77f143d7e887.pdf",
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "Hebei ccgp second annex cited by DeepSeek (R04/R06, 8 Nov; GeoBL)",
+    "needed": "purchaser, OS line",
+    "then": "Archive the original, extract: purchaser, OS line; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "tc28.org.cn",
+    "target": "https://www.tc28.org.cn",
+    "url": "https://www.tc28.org.cn",
+    "origin": "directory",
+    "ref": "cn-tc28",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): National Information Technology Standardization TC (SAC/TC28) (全国信息技术标准化技术委员会); directory entry cn-tc28",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-tc28: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "ccidgroup.com",
+    "target": "https://www.ccidgroup.com",
+    "url": "https://www.ccidgroup.com",
+    "origin": "directory",
+    "ref": "cn-ccid",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): CCID Group (CCID Think Tank) (赛迪研究院 / 中国电子信息产业发展研究院); directory entry cn-ccid",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-ccid: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "cstc.org.cn",
+    "target": "https://www.cstc.org.cn",
+    "url": "https://www.cstc.org.cn",
+    "origin": "directory",
+    "ref": "cn-cstc",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): China Software Testing Center (CSTC) (中国软件评测中心); directory entry cn-cstc",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-cstc: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "chinaunicom.com.cn",
+    "target": "https://www.chinaunicom.com.cn",
+    "url": "https://www.chinaunicom.com.cn",
+    "origin": "directory",
+    "ref": "cn-chinaunicom",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): China Unicom (中国联通); directory entry cn-chinaunicom",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-chinaunicom: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "sgcc.com.cn",
+    "target": "https://www.sgcc.com.cn",
+    "url": "https://www.sgcc.com.cn",
+    "origin": "directory",
+    "ref": "cn-stategrid",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): State Grid Corporation of China (国家电网); directory entry cn-stategrid",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-stategrid: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "zgclab.edu.cn",
+    "target": "https://www.zgclab.edu.cn",
+    "url": "https://www.zgclab.edu.cn",
+    "origin": "directory",
+    "ref": "cn-zgclab",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Zhongguancun Laboratory (中关村实验室); directory entry cn-zgclab",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-zgclab: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "china-cic.org.cn",
+    "target": "https://www.china-cic.org.cn",
+    "url": "https://www.china-cic.org.cn",
+    "origin": "directory",
+    "ref": "cm-cic",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): China Institute of Communications (中国通信学会); directory entry cm-cic",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cm-cic: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "cnrv.org.cn",
+    "target": "https://www.cnrv.org.cn",
+    "url": "https://www.cnrv.org.cn",
+    "origin": "directory",
+    "ref": "cm-cnrv",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): China Open Instruction Ecosystem (RISC-V) Alliance (CNRV) (中国开放指令生态（RISC-V）联盟); directory entry cm-cnrv",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cm-cnrv: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "license.coscl.org.cn",
+    "target": "https://license.coscl.org.cn",
+    "url": "https://license.coscl.org.cn",
+    "origin": "directory",
+    "ref": "cm-coscl",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Mulan licence / COSCL (China Open Source Cloud League) (中国开源云联盟 / 木兰开源许可证); directory entry cm-coscl",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cm-coscl: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "openi.pcl.ac.cn",
+    "target": "https://openi.pcl.ac.cn",
+    "url": "https://openi.pcl.ac.cn",
+    "origin": "directory",
+    "ref": "cm-openi",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): OpenI Qizhi AI platform (启智社区 OpenI); directory entry cm-openi",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cm-openi: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "segmentfault.com",
+    "target": "https://segmentfault.com",
+    "url": "https://segmentfault.com",
+    "origin": "directory",
+    "ref": "cm-segmentfault",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): SegmentFault (思否 SegmentFault); directory entry cm-segmentfault",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cm-segmentfault: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "zhipuai.cn",
+    "target": "https://www.zhipuai.cn",
+    "url": "https://www.zhipuai.cn",
+    "origin": "directory",
+    "ref": "co-zhipu",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Zhipu AI (Z.ai) (智谱AI); directory entry co-zhipu",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry co-zhipu: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "chinauos.com",
+    "target": "https://www.chinauos.com",
+    "url": "https://www.chinauos.com",
+    "origin": "directory",
+    "ref": "co-uniontech",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): UnionTech Software (UOS) (统信软件); directory entry co-uniontech",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry co-uniontech: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "hoperun.com",
+    "target": "https://www.hoperun.com",
+    "url": "https://www.hoperun.com",
+    "origin": "directory",
+    "ref": "co-hoperun",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Hoperun Software (润和软件); directory entry co-hoperun",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry co-hoperun: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "zgc.beijing.gov.cn",
+    "target": "https://zgc.beijing.gov.cn",
+    "url": "https://zgc.beijing.gov.cn",
+    "origin": "directory",
+    "ref": "cn-zgc",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Zhongguancun Science Park Management Committee (中关村科技园区管理委员会); directory entry cn-zgc",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-zgc: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxj.sz.gov.cn",
+    "target": "https://gxj.sz.gov.cn",
+    "url": "https://gxj.sz.gov.cn",
+    "origin": "directory",
+    "ref": "cn-sz-gxj",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Shenzhen Bureau of Industry and Information Technology (深圳市工业和信息化局); directory entry cn-sz-gxj",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-sz-gxj: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "lg.gov.cn",
+    "target": "https://www.lg.gov.cn",
+    "url": "https://www.lg.gov.cn",
+    "origin": "directory",
+    "ref": "cn-longgang",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Longgang District Government (Shenzhen) (深圳市龙岗区人民政府); directory entry cn-longgang",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-longgang: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "szlhq.gov.cn",
+    "target": "https://www.szlhq.gov.cn",
+    "url": "https://www.szlhq.gov.cn",
+    "origin": "directory",
+    "ref": "cn-longhua",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Longhua District Government (Shenzhen) (深圳市龙华区人民政府); directory entry cn-longhua",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-longhua: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "szft.gov.cn",
+    "target": "https://www.szft.gov.cn",
+    "url": "https://www.szft.gov.cn",
+    "origin": "directory",
+    "ref": "cn-futian",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Futian District Government (Shenzhen) (深圳市福田区人民政府); directory entry cn-futian",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-futian: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "szns.gov.cn",
+    "target": "https://www.szns.gov.cn",
+    "url": "https://www.szns.gov.cn",
+    "origin": "directory",
+    "ref": "cn-nanshan",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Nanshan District Government (Shenzhen) (深圳市南山区人民政府); directory entry cn-nanshan",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-nanshan: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "dg.gov.cn",
+    "target": "https://www.dg.gov.cn",
+    "url": "https://www.dg.gov.cn",
+    "origin": "directory",
+    "ref": "cn-dg",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Dongguan Municipal People's Government (东莞市人民政府); directory entry cn-dg",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-dg: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "zj.gov.cn",
+    "target": "https://www.zj.gov.cn",
+    "url": "https://www.zj.gov.cn",
+    "origin": "directory",
+    "ref": "cn-zj-gov",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Zhejiang Provincial People's Government (浙江省人民政府); directory entry cn-zj-gov",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-zj-gov: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kjt.zj.gov.cn",
+    "target": "https://kjt.zj.gov.cn",
+    "url": "https://kjt.zj.gov.cn",
+    "origin": "directory",
+    "ref": "cn-zj-kjt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Zhejiang Department of Science and Technology (浙江省科学技术厅); directory entry cn-zj-kjt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-zj-kjt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "jxj.hangzhou.gov.cn",
+    "target": "https://jxj.hangzhou.gov.cn",
+    "url": "https://jxj.hangzhou.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hz-jxj",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Hangzhou Municipal Bureau of Economy and Information Technology (杭州市经济和信息化局); directory entry cn-hz-jxj",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hz-jxj: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "hzxh.gov.cn",
+    "target": "https://www.hzxh.gov.cn",
+    "url": "https://www.hzxh.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hz-xihu",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Xihu District Government (Hangzhou) (杭州市西湖区人民政府); directory entry cn-hz-xihu",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hz-xihu: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "yuhang.gov.cn",
+    "target": "https://www.yuhang.gov.cn",
+    "url": "https://www.yuhang.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hz-yuhang",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Yuhang District Government (Hangzhou) (杭州市余杭区人民政府); directory entry cn-hz-yuhang",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hz-yuhang: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "hzfstc.gov.cn",
+    "target": "https://www.hzfstc.gov.cn",
+    "url": "https://www.hzfstc.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hz-future",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Hangzhou Future Sci-Tech City (杭州未来科技城); directory entry cn-hz-future",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hz-future: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "ningbo.gov.cn",
+    "target": "https://www.ningbo.gov.cn",
+    "url": "https://www.ningbo.gov.cn",
+    "origin": "directory",
+    "ref": "cn-nb",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Ningbo Municipal People's Government (宁波市人民政府); directory entry cn-nb",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-nb: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kjt.jiangsu.gov.cn",
+    "target": "https://kjt.jiangsu.gov.cn",
+    "url": "https://kjt.jiangsu.gov.cn",
+    "origin": "directory",
+    "ref": "cn-js-kjt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Jiangsu Department of Science and Technology (江苏省科学技术厅); directory entry cn-js-kjt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-js-kjt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.hunan.gov.cn",
+    "target": "https://gxt.hunan.gov.cn",
+    "url": "https://gxt.hunan.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hunan-zzb",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Hunan Manufacturing Powerhouse Leading Group Office (湖南省制造强省建设领导小组办公室); directory entry cn-hunan-zzb",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hunan-zzb: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "changsha.gov.cn",
+    "target": "https://www.changsha.gov.cn",
+    "url": "https://www.changsha.gov.cn",
+    "origin": "directory",
+    "ref": "cn-cs",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Changsha Municipal People's Government (长沙市人民政府); directory entry cn-cs",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-cs: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "zhuzhou.gov.cn",
+    "target": "https://www.zhuzhou.gov.cn",
+    "url": "https://www.zhuzhou.gov.cn",
+    "origin": "directory",
+    "ref": "cn-zhuzhou",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Zhuzhou Municipal People's Government (株洲市人民政府); directory entry cn-zhuzhou",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-zhuzhou: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "jxt.sc.gov.cn",
+    "target": "https://jxt.sc.gov.cn",
+    "url": "https://jxt.sc.gov.cn",
+    "origin": "directory",
+    "ref": "cn-sc-jxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Sichuan Department of Economy and Information Technology (四川省经济和信息化厅); directory entry cn-sc-jxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-sc-jxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "sc.gov.cn",
+    "target": "https://www.sc.gov.cn",
+    "url": "https://www.sc.gov.cn",
+    "origin": "directory",
+    "ref": "cn-sc-gov",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Sichuan Provincial People's Government (四川省人民政府); directory entry cn-sc-gov",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-sc-gov: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "cd.gov.cn",
+    "target": "https://www.cd.gov.cn",
+    "url": "https://www.cd.gov.cn",
+    "origin": "directory",
+    "ref": "cn-cd",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Chengdu Municipal People's Government (成都市人民政府); directory entry cn-cd",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-cd: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "cq.gov.cn",
+    "target": "https://www.cq.gov.cn",
+    "url": "https://www.cq.gov.cn",
+    "origin": "directory",
+    "ref": "cn-cq-gov",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Chongqing Municipal People's Government (重庆市人民政府); directory entry cn-cq-gov",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-cq-gov: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "liangjiang.gov.cn",
+    "target": "https://www.liangjiang.gov.cn",
+    "url": "https://www.liangjiang.gov.cn",
+    "origin": "directory",
+    "ref": "cn-cq-liangjiang",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Chongqing Liangjiang New Area (重庆两江新区); directory entry cn-cq-liangjiang",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-cq-liangjiang: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxj.tj.gov.cn",
+    "target": "https://gxj.tj.gov.cn",
+    "url": "https://gxj.tj.gov.cn",
+    "origin": "directory",
+    "ref": "cn-tj-gxj",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Tianjin Bureau of Industry and Information Technology (天津市工业和信息化局); directory entry cn-tj-gxj",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-tj-gxj: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.hebei.gov.cn",
+    "target": "https://gxt.hebei.gov.cn",
+    "url": "https://gxt.hebei.gov.cn",
+    "origin": "directory",
+    "ref": "cn-he-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Hebei Department of Industry and Information Technology (河北省工业和信息化厅); directory entry cn-he-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-he-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.shanxi.gov.cn",
+    "target": "https://gxt.shanxi.gov.cn",
+    "url": "https://gxt.shanxi.gov.cn",
+    "origin": "directory",
+    "ref": "cn-sx-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Shanxi Department of Industry and Information Technology (山西省工业和信息化厅); directory entry cn-sx-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-sx-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "dl.gov.cn",
+    "target": "https://www.dl.gov.cn",
+    "url": "https://www.dl.gov.cn",
+    "origin": "directory",
+    "ref": "cn-dl",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Dalian Municipal People's Government (大连市人民政府); directory entry cn-dl",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-dl: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "hefei.gov.cn",
+    "target": "https://www.hefei.gov.cn",
+    "url": "https://www.hefei.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hf",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Hefei Municipal People's Government (合肥市人民政府); directory entry cn-hf",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hf: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "xm.gov.cn",
+    "target": "https://www.xm.gov.cn",
+    "url": "https://www.xm.gov.cn",
+    "origin": "directory",
+    "ref": "cn-xm",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Xiamen Municipal People's Government (厦门市人民政府); directory entry cn-xm",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-xm: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.jiangxi.gov.cn",
+    "target": "https://gxt.jiangxi.gov.cn",
+    "url": "https://gxt.jiangxi.gov.cn",
+    "origin": "directory",
+    "ref": "cn-jx-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Jiangxi Department of Industry and Information Technology (江西省工业和信息化厅); directory entry cn-jx-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-jx-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.shandong.gov.cn",
+    "target": "https://gxt.shandong.gov.cn",
+    "url": "https://gxt.shandong.gov.cn",
+    "origin": "directory",
+    "ref": "cn-sd-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Shandong Department of Industry and Information Technology (山东省工业和信息化厅); directory entry cn-sd-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-sd-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "qingdao.gov.cn",
+    "target": "https://www.qingdao.gov.cn",
+    "url": "https://www.qingdao.gov.cn",
+    "origin": "directory",
+    "ref": "cn-qd",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Qingdao Municipal People's Government (青岛市人民政府); directory entry cn-qd",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-qd: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.gxzf.gov.cn",
+    "target": "https://gxt.gxzf.gov.cn",
+    "url": "https://gxt.gxzf.gov.cn",
+    "origin": "directory",
+    "ref": "cn-gx-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Guangxi Department of Industry and Information Technology (广西壮族自治区工业和信息化厅); directory entry cn-gx-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-gx-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "nanning.gov.cn",
+    "target": "https://www.nanning.gov.cn",
+    "url": "https://www.nanning.gov.cn",
+    "origin": "directory",
+    "ref": "cn-nn",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Nanning Municipal People's Government (南宁市人民政府); directory entry cn-nn",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-nn: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "iitb.hainan.gov.cn",
+    "target": "https://iitb.hainan.gov.cn",
+    "url": "https://iitb.hainan.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hi-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Hainan Department of Industry and Information Technology (海南省工业和信息化厅); directory entry cn-hi-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hi-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.guizhou.gov.cn",
+    "target": "https://gxt.guizhou.gov.cn",
+    "url": "https://gxt.guizhou.gov.cn",
+    "origin": "directory",
+    "ref": "cn-gz-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Guizhou Department of Industry and Information Technology (贵州省工业和信息化厅); directory entry cn-gz-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-gz-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "guiyang.gov.cn",
+    "target": "https://www.guiyang.gov.cn",
+    "url": "https://www.guiyang.gov.cn",
+    "origin": "directory",
+    "ref": "cn-guiyang",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Guiyang Municipal People's Government (贵阳市人民政府); directory entry cn-guiyang",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-guiyang: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "km.gov.cn",
+    "target": "https://www.km.gov.cn",
+    "url": "https://www.km.gov.cn",
+    "origin": "directory",
+    "ref": "cn-km",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Kunming Municipal People's Government (昆明市人民政府); directory entry cn-km",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-km: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "jxt.xizang.gov.cn",
+    "target": "https://jxt.xizang.gov.cn",
+    "url": "https://jxt.xizang.gov.cn",
+    "origin": "directory",
+    "ref": "cn-xz-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Tibet Department of Industry and Information Technology (西藏自治区经济和信息化厅); directory entry cn-xz-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-xz-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.shaanxi.gov.cn",
+    "target": "https://gxt.shaanxi.gov.cn",
+    "url": "https://gxt.shaanxi.gov.cn",
+    "origin": "directory",
+    "ref": "cn-sn-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Shaanxi Department of Industry and Information Technology (陕西省工业和信息化厅); directory entry cn-sn-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-sn-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gxt.qinghai.gov.cn",
+    "target": "https://gxt.qinghai.gov.cn",
+    "url": "https://gxt.qinghai.gov.cn",
+    "origin": "directory",
+    "ref": "cn-qh-gxt",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Qinghai Department of Industry and Information Technology (青海省工业和信息化厅); directory entry cn-qh-gxt",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-qh-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "scu.edu.cn",
+    "target": "https://www.scu.edu.cn",
+    "url": "https://www.scu.edu.cn",
+    "origin": "directory",
+    "ref": "ac-scu",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Sichuan University (四川大学); directory entry ac-scu",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry ac-scu: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "dlut.edu.cn",
+    "target": "https://www.dlut.edu.cn",
+    "url": "https://www.dlut.edu.cn",
+    "origin": "directory",
+    "ref": "ac-dlut",
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "unreachable from outside CN 2026-11-08 (curl 000): Dalian University of Technology (大连理工大学); directory entry ac-dlut",
+    "needed": "local copy of homepage, about/policy pages, open-source plans, annual reports, white papers",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry ac-dlut: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "zhejiang open-source system implementation opinion (7 depts, jul 2026) — jxt.zj.gov.cn / zj.gov.cn",
+    "target": "Zhejiang open-source system implementation opinion (7 depts, Jul 2026) — jxt.zj.gov.cn / zj.gov.cn",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "only NBD relay seen; no original",
+    "needed": "original text, document number, issuing departments, fund clauses",
+    "then": "Archive the original, extract: original text, document number, issuing departments, fund clauses; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "beijing 开源生态体系建设实施方案（2026—2028年）, jxj.beijing.gov.cn, 24 dec 2025",
+    "target": "Beijing 开源生态体系建设实施方案（2026—2028年）, jxj.beijing.gov.cn, 24 Dec 2025",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "relay (Xinhua/cs.com.cn, ITHome) only",
+    "needed": "original text, measures, funding clauses",
+    "then": "Archive the original, extract: original text, measures, funding clauses; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "shanghai 加强开源体系建设实施方案 (dec 2025) chinese original, shanghai.gov.cn",
+    "target": "Shanghai 加强开源体系建设实施方案 (Dec 2025) Chinese original, shanghai.gov.cn",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "English summary only",
+    "needed": "full Chinese text with fund clauses and responsible units",
+    "then": "Archive the original, extract: full Chinese text with fund clauses and responsible units; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "hunan 开源鸿蒙专项实施方案 湘制造强省办〔2026〕7号, gxt.hunan.gov.cn",
+    "target": "Hunan 开源鸿蒙专项实施方案 湘制造强省办〔2026〕7号, gxt.hunan.gov.cn",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "relay only (IT之家, QQ)",
+    "needed": "original text and annexes",
+    "then": "Archive the original, extract: original text and annexes; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "guangdong 服务业扩能提质方案 (19 jun 2026) gd.gov.cn",
+    "target": "Guangdong 服务业扩能提质方案 (19 Jun 2026) gd.gov.cn",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "relay only",
+    "needed": "open-source clause text",
+    "then": "Archive the original, extract: open-source clause text; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "wuhan east lake high-tech zone open-source application pilot rules, wehdz.gov.cn",
+    "target": "Wuhan East Lake High-tech Zone open-source application pilot rules, wehdz.gov.cn",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "Yicai relay only",
+    "needed": "rule text, cap, eligibility",
+    "then": "Archive the original, extract: rule text, cap, eligibility; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "beijing yizhuang kfqgw.beijing.gov.cn open-source pioneer enterprises list (jul 2025)",
+    "target": "Beijing Yizhuang kfqgw.beijing.gov.cn open-source pioneer enterprises list (Jul 2025)",
+    "url": null,
+    "origin": "research",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "WeChat relay only",
+    "needed": "list and criteria",
+    "then": "Archive the original, extract: list and criteria; check against the relay copies; upgrade evidence to A; log the round.",
+    "updates": [
+      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
+      "docs/RESEARCH-REGISTER.md (new round)",
+      "docs/STATE.md",
+      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
+      "sources/archive-vpn/"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "service.most.gov.cn",
+    "target": "https://service.most.gov.cn/",
+    "url": "https://service.most.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: MOST public-service platform: key R&D programme project approval notices (立项公示) - project titles, lead units, budgets; filter for 开源/软件",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "most.gov.cn/tztg",
+    "target": "https://www.most.gov.cn/tztg/",
+    "url": "https://www.most.gov.cn/tztg/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: MOST notices: 国家重点研发计划 重点专项 立项公示 lists (software / OS / chip / AI special programmes)",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "isisn.nsfc.gov.cn/egrantindex/funcindex/prjsearch-list",
+    "target": "https://isisn.nsfc.gov.cn/egrantindex/funcindex/prjsearch-list",
+    "url": "https://isisn.nsfc.gov.cn/egrantindex/funcindex/prjsearch-list",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: NSFC project database (grant no., title, amount, institution) - query 开源 / 操作系统 / 软件; captcha-gated",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "miit.gov.cn/jgsj/kjs",
+    "target": "https://www.miit.gov.cn/jgsj/kjs/",
+    "url": "https://www.miit.gov.cn/jgsj/kjs/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: MIIT S&T dept: 产业基础再造 / 工业软件 / 开源 project lists and 开源 pilot notices",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "cas.cn",
+    "target": "https://www.cas.cn/",
+    "url": "https://www.cas.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: CAS strategic priority programme (A/B/C class) project lists incl. RISC-V / OS / XiangShan",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "nstrs.cn",
+    "target": "https://www.nstrs.cn/",
+    "url": "https://www.nstrs.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: National S&T report service: final reports of funded projects (software outcomes)",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kw.beijing.gov.cn",
+    "target": "https://kw.beijing.gov.cn/",
+    "url": "https://kw.beijing.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Beijing S&T Commission: open-source related project funding notices / 开源 lists",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "stcsm.sh.gov.cn",
+    "target": "https://stcsm.sh.gov.cn/",
+    "url": "https://stcsm.sh.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Shanghai S&T Commission: 开源 / software project approval notices",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gdstc.gd.gov.cn",
+    "target": "https://gdstc.gd.gov.cn/",
+    "url": "https://gdstc.gd.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Guangdong S&T Dept: key-area R&D programme lists (software / OS / chips)",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kjt.hubei.gov.cn",
+    "target": "https://kjt.hubei.gov.cn/",
+    "url": "https://kjt.hubei.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Hubei S&T Dept: 开源 / OS project lists",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kjt.sc.gov.cn",
+    "target": "https://kjt.sc.gov.cn/",
+    "url": "https://kjt.sc.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Sichuan S&T Dept: software / OS project lists",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "stic.sz.gov.cn",
+    "target": "https://stic.sz.gov.cn/",
+    "url": "https://stic.sz.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Shenzhen S&T Innovation Commission: 开源 project funding lists (e.g. OpenHarmony / RISC-V)",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kjj.hangzhou.gov.cn",
+    "target": "https://kjj.hangzhou.gov.cn/",
+    "url": "https://kjj.hangzhou.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Hangzhou S&T Bureau: 开源 incubation / excellent-project funding lists",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kjj.wuhan.gov.cn",
+    "target": "https://kjj.wuhan.gov.cn/",
+    "url": "https://kjj.wuhan.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Wuhan S&T Bureau: 开源 project lists (East Lake zone rules)",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "kjj.cq.gov.cn",
+    "target": "https://kjj.cq.gov.cn/",
+    "url": "https://kjj.cq.gov.cn/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: Chongqing S&T Bureau: OS / software project lists",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  },
+  {
+    "key": "gov.cn/zhengce",
+    "target": "https://www.gov.cn/zhengce/",
+    "url": "https://www.gov.cn/zhengce/",
+    "origin": "registry",
+    "ref": null,
+    "blocker": "vpn (unreachable outside mainland China)",
+    "reason": "registry: State Council / ministry open-source policy texts that name funded projects",
+    "needed": null,
+    "then": "Export the list of funded projects (name, grant id, amount, years, repo link); import it with a new harvester in tools/registry/ or a reviewed manual JSON; evidence A.",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md (stats --write)",
+      "tools/registry/ (new harvester + README)"
+    ],
+    "status": "open",
+    "done": null
+  }
+]

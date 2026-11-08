@@ -1,0 +1,1569 @@
+[
+  {
+    "target": "https://prototypefund.de/projects/",
+    "url": "https://prototypefund.de/projects/",
+    "origin": "registry",
+    "blocker": "bot wall (Bunny Shield JS challenge)",
+    "reason": "Prototype Fund project list not harvestable; only 182 projects found via READMEs",
+    "then": "Export the full project list (round, project, repo, amount); import as a reviewed JSON or new harvester tools/registry/prototypefund.js; evidence A",
+    "updates": [
+      "data/registry/projects.json",
+      "docs/REGISTRY.md",
+      "tools/registry/README.md"
+    ],
+    "key": "prototypefund.de/projects",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "https://kd.nsfc.cn/",
+    "url": "https://kd.nsfc.cn/",
+    "origin": "registry",
+    "blocker": "CAPTCHA + often unreachable outside CN",
+    "reason": "NSFC funded-project search (grant ids for README-declared NSFC records; 5/8 spot-check accuracy)",
+    "then": "Look up each README-declared NSFC grant id; confirm title/PI institution/amount; fix or downgrade records",
+    "updates": [
+      "data/registry/projects.json (evidence, amount)",
+      "docs/REGISTRY.md"
+    ],
+    "key": "kd.nsfc.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "https://gitee.com/api/v5/search/repositories",
+    "url": "https://gitee.com/api/v5/search/repositories",
+    "origin": "registry",
+    "blocker": "API token (search needs a token)",
+    "reason": "Gitee repos declaring public funding cannot be searched anonymously",
+    "then": "Fabio creates a Gitee token and stores it in ~/.config/gitee.env on the server; extend gh_funding to Gitee",
+    "updates": [
+      "tools/registry/gh_funding.js",
+      "data/registry/projects.json"
+    ],
+    "key": "gitee.com/api/v5/search/repositories",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "https://atomgit.com/",
+    "url": "https://atomgit.com/",
+    "origin": "registry",
+    "blocker": "API token",
+    "reason": "AtomGit search needs a private token; also G-Star project rankings",
+    "then": "Fabio creates an AtomGit token in ~/.config/atomgit.env; harvest G-Star and funded projects",
+    "updates": [
+      "data/registry/projects.json",
+      "data/directory/cn-orgs.json"
+    ],
+    "key": "atomgit.com",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "https://github.com/settings/tokens",
+    "url": "https://github.com/settings/tokens",
+    "origin": "registry",
+    "blocker": "API token for gh_funding on the server",
+    "reason": "weekly server run skips README funding search without GH_TOKEN",
+    "then": "Fabio creates a fine-grained read-only token (public repos) and stores GH_TOKEN in ~/.config/gh_token.env as user euchina",
+    "updates": [
+      "server weekly run (tools/registry/weekly.sh)"
+    ],
+    "key": "github.com/settings/tokens",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4693148",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4693148",
+    "origin": "literature",
+    "blocker": "bot wall (Cloudflare)",
+    "reason": "Hoffmann, Nagle, Zhou \"The Value of Open Source Software\" not read",
+    "then": "Download the PDF, archive, read, upgrade EU-004 to evidence A",
+    "updates": [
+      "data/lit/industrial-policy.json (EU-004)",
+      "docs/INDUSTRIAL-POLICY.md",
+      "sources/archive/"
+    ],
+    "key": "papers.ssrn.com/sol3/papers.cfm?abstract_id=4693148",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "https://www.cnki.net/",
+    "url": "https://www.cnki.net/",
+    "origin": "literature",
+    "blocker": "login / institutional access + CAPTCHA",
+    "reason": "Chinese empirical papers on open source and productivity/industrial policy (none found so far)",
+    "then": "Search 开源 产业政策 / 开源 经济影响 / 开源 生产率; record top papers with abstracts",
+    "updates": [
+      "data/lit/industrial-policy.json",
+      "docs/INDUSTRIAL-POLICY.md (China section, gaps)"
+    ],
+    "key": "cnki.net",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "https://foerderportal.bund.de/foekat/",
+    "url": "https://foerderportal.bund.de/foekat/",
+    "origin": "registry",
+    "blocker": "CAPTCHA on bulk export",
+    "reason": "German BMBF/BMWK Förderkatalog (federal grants to open-source projects)",
+    "then": "Export grants matching Open Source / quelloffen; import with amounts",
+    "updates": [
+      "data/registry/projects.json",
+      "tools/registry/ (new harvester)",
+      "docs/REGISTRY.md"
+    ],
+    "key": "foerderportal.bund.de/foekat",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "EclipseCon Europe — https://www.eclipsecon.org",
+    "url": "https://www.eclipsecon.org",
+    "origin": "directory",
+    "ref": "eu-eclipsecon",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry eu-eclipsecon: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "eclipsecon.org",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Gendarmerie nationale (GendBuntu) — https://www.gendarmerie.interieur.gouv.fr",
+    "url": "https://www.gendarmerie.interieur.gouv.fr",
+    "origin": "directory",
+    "ref": "fr-gendarmerie",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry fr-gendarmerie: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "gendarmerie.interieur.gouv.fr",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Asociación de Empresas de Software Libre (ASOLIF) — https://www.asolif.com",
+    "url": "https://www.asolif.com",
+    "origin": "directory",
+    "ref": "es-asolif",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry es-asolif: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "asolif.com",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "University of Luxembourg SnT — https://wwwen.uni.lu/snt",
+    "url": "https://wwwen.uni.lu/snt",
+    "origin": "directory",
+    "ref": "lu-snt",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 202 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry lu-snt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "wwwen.uni.lu/snt",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "NHS England Digital (open source) — https://www.england.nhs.uk",
+    "url": "https://www.england.nhs.uk",
+    "origin": "directory",
+    "ref": "uk-nhs-digital",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 202 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry uk-nhs-digital: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "england.nhs.uk",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "The Alan Turing Institute (research software) — https://www.turing.ac.uk",
+    "url": "https://www.turing.ac.uk",
+    "origin": "directory",
+    "ref": "uk-turing",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry uk-turing: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "turing.ac.uk",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "RISE Research Institutes of Sweden — https://www.ri.se",
+    "url": "https://www.ri.se",
+    "origin": "directory",
+    "ref": "se-ri",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry se-ri: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "ri.se",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "City of Warsaw — https://um.warszawa.pl",
+    "url": "https://um.warszawa.pl",
+    "origin": "directory",
+    "ref": "pl-warszawa",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 202 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry pl-warszawa: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "um.warszawa.pl",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Romanian National Cyber Security Directorate — https://dnsc.ro",
+    "url": "https://dnsc.ro",
+    "origin": "directory",
+    "ref": "ro-dnsc",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry ro-dnsc: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "dnsc.ro",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "City of Tallinn — https://www.tallinn.ee",
+    "url": "https://www.tallinn.ee",
+    "origin": "directory",
+    "ref": "ee-tallinn",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry ee-tallinn: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "tallinn.ee",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Riga Technical University — https://www.rtu.lv",
+    "url": "https://www.rtu.lv",
+    "origin": "directory",
+    "ref": "lv-rtu",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry lv-rtu: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "rtu.lv",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Ministry of Economy and Innovation — https://eimin.lrv.lt",
+    "url": "https://eimin.lrv.lt",
+    "origin": "directory",
+    "ref": "lt-eimin",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry lt-eimin: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "eimin.lrv.lt",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Information Society Development Committee — https://ivpk.lrv.lt",
+    "url": "https://ivpk.lrv.lt",
+    "origin": "directory",
+    "ref": "lt-ivpk",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry lt-ivpk: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "ivpk.lrv.lt",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "National Cyber Security Centre Lithuania — https://www.nksc.lt",
+    "url": "https://www.nksc.lt",
+    "origin": "directory",
+    "ref": "lt-nksc",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry lt-nksc: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "nksc.lt",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "City of Vilnius — https://vilnius.lt",
+    "url": "https://vilnius.lt",
+    "origin": "directory",
+    "ref": "lt-vilnius",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry lt-vilnius: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "vilnius.lt",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Lisbon City Council — https://www.lisboa.pt",
+    "url": "https://www.lisboa.pt",
+    "origin": "directory",
+    "ref": "pt-lisboa",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry pt-lisboa: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "lisboa.pt",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "City of Athens — https://www.cityofathens.gr",
+    "url": "https://www.cityofathens.gr",
+    "origin": "directory",
+    "ref": "gr-athens",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry gr-athens: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "cityofathens.gr",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "University of Cyprus — https://www.ucy.ac.cy",
+    "url": "https://www.ucy.ac.cy",
+    "origin": "directory",
+    "ref": "cy-ucy",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry cy-ucy: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "ucy.ac.cy",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "CYENS Centre of Excellence — https://www.cyens.org.cy",
+    "url": "https://www.cyens.org.cy",
+    "origin": "directory",
+    "ref": "cy-cyens",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 520 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry cy-cyens: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "cyens.org.cy",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Malta Digital Innovation Authority — https://mdia.gov.mt",
+    "url": "https://mdia.gov.mt",
+    "origin": "directory",
+    "ref": "mt-mdia",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry mt-mdia: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "mdia.gov.mt",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "CEPS (Centre for European Policy Studies) — https://www.ceps.eu",
+    "url": "https://www.ceps.eu",
+    "origin": "directory",
+    "ref": "eu-ceps",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry eu-ceps: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "ceps.eu",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Clingendael — https://www.clingendael.org",
+    "url": "https://www.clingendael.org",
+    "origin": "directory",
+    "ref": "nl-clingendael",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry nl-clingendael: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "clingendael.org",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Euractiv (Tech) — https://www.euractiv.com",
+    "url": "https://www.euractiv.com",
+    "origin": "directory",
+    "ref": "eu-euractiv",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry eu-euractiv: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "euractiv.com",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Techzine Europe — https://www.techzine.eu",
+    "url": "https://www.techzine.eu",
+    "origin": "directory",
+    "ref": "eu-techzine",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry eu-techzine: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "techzine.eu",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Wikimedia UK — https://wikimedia.org.uk",
+    "url": "https://wikimedia.org.uk",
+    "origin": "directory",
+    "ref": "uk-wikimediauk",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 202 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry uk-wikimediauk: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "wikimedia.org.uk",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "UNE — https://www.une.org",
+    "url": "https://www.une.org",
+    "origin": "directory",
+    "ref": "es-une",
+    "side": "EU",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/eu-orgs.json (entry es-une: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "une.org",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "CCID Consulting — https://www.ccidconsulting.com",
+    "url": "https://www.ccidconsulting.com",
+    "origin": "directory",
+    "ref": "cn-ccid-consulting",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-ccid-consulting: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "ccidconsulting.com",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "China Telecom — https://www.chinatelecom.com.cn",
+    "url": "https://www.chinatelecom.com.cn",
+    "origin": "directory",
+    "ref": "cn-chinatelecom",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-chinatelecom: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "chinatelecom.com.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Information Technology Application Innovation Working Committee (xinchuang) — https://www.itaic.org.cn",
+    "url": "https://www.itaic.org.cn",
+    "origin": "directory",
+    "ref": "cm-itaic",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 418 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cm-itaic: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "itaic.org.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "CSDN — https://www.csdn.net",
+    "url": "https://www.csdn.net",
+    "origin": "directory",
+    "ref": "cm-csdn",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 521 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cm-csdn: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "csdn.net",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "OceanBase (Ant Group) — https://www.oceanbase.com",
+    "url": "https://www.oceanbase.com",
+    "origin": "directory",
+    "ref": "co-oceanbase",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 429 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry co-oceanbase: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "oceanbase.com",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "DeepSeek — https://www.deepseek.com",
+    "url": "https://www.deepseek.com",
+    "origin": "directory",
+    "ref": "co-deepseek",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry co-deepseek: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "deepseek.com",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Kingdee — https://www.kingdee.com",
+    "url": "https://www.kingdee.com",
+    "origin": "directory",
+    "ref": "co-kingdee",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry co-kingdee: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "kingdee.com",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Pudong New Area Government (Shanghai) — https://www.pudong.gov.cn",
+    "url": "https://www.pudong.gov.cn",
+    "origin": "directory",
+    "ref": "cn-pudong",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-pudong: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "pudong.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Jiangsu Provincial People's Government — https://www.jiangsu.gov.cn",
+    "url": "https://www.jiangsu.gov.cn",
+    "origin": "directory",
+    "ref": "cn-js-gov",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-js-gov: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "jiangsu.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Nanjing Municipal People's Government — https://www.nanjing.gov.cn",
+    "url": "https://www.nanjing.gov.cn",
+    "origin": "directory",
+    "ref": "cn-nj",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-nj: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "nanjing.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Hubei Provincial People's Government — https://www.hubei.gov.cn",
+    "url": "https://www.hubei.gov.cn",
+    "origin": "directory",
+    "ref": "cn-hubei-gov",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-hubei-gov: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "hubei.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Chengdu High-tech Zone — https://www.cdht.gov.cn",
+    "url": "https://www.cdht.gov.cn",
+    "origin": "directory",
+    "ref": "cn-cd-hightech",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-cd-hightech: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "cdht.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Inner Mongolia Department of Industry and Information Technology — https://gxt.nmg.gov.cn",
+    "url": "https://gxt.nmg.gov.cn",
+    "origin": "directory",
+    "ref": "cn-nmg-gxt",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-nmg-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "gxt.nmg.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Anhui Department of Economy and Information Technology — https://jx.ah.gov.cn",
+    "url": "https://jx.ah.gov.cn",
+    "origin": "directory",
+    "ref": "cn-ah-jxt",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-ah-jxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "jx.ah.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Henan Department of Industry and Information Technology — https://gxt.henan.gov.cn",
+    "url": "https://gxt.henan.gov.cn",
+    "origin": "directory",
+    "ref": "cn-ha-gxt",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-ha-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "gxt.henan.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Gansu Department of Industry and Information Technology — https://gxt.gansu.gov.cn",
+    "url": "https://gxt.gansu.gov.cn",
+    "origin": "directory",
+    "ref": "cn-gs-gxt",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry cn-gs-gxt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "gxt.gansu.gov.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Beijing University of Posts and Telecommunications — https://www.bupt.edu.cn",
+    "url": "https://www.bupt.edu.cn",
+    "origin": "directory",
+    "ref": "ac-bupt",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry ac-bupt: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "bupt.edu.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Lanzhou University — https://www.lzu.edu.cn",
+    "url": "https://www.lzu.edu.cn",
+    "origin": "directory",
+    "ref": "ac-lzu",
+    "side": "CN",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access; identity and role not verified",
+    "then": "Open the site, confirm identity and open-source role, find the official contact page, save a local copy (homepage + about/policy pages + any open-source plan, report or white paper).",
+    "updates": [
+      "data/directory/cn-orgs.json (entry ac-lzu: verified, web_http, evidence, contact_channel, role_relevance, projects, publications)",
+      "sources/archive-vpn/ (local copy + SHA-256 in index.tsv)"
+    ],
+    "key": "lzu.edu.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "EU-China Summit — https://www.consilium.europa.eu/en/policies/china/",
+    "url": "https://www.consilium.europa.eu/en/policies/china/",
+    "origin": "cooperation",
+    "ref": "eu-cn-summit",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry eu-cn-summit: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "consilium.europa.eu/en/policies/china",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "GEANT and CERNET research-network cooperation — https://geant.org",
+    "url": "https://geant.org",
+    "origin": "cooperation",
+    "ref": "geant-cernet",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry geant-cernet: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "geant.org",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Chinese People's Association for Friendship with Foreign Countries (CPAFFC) — https://www.cpaffc.org.cn",
+    "url": "https://www.cpaffc.org.cn",
+    "origin": "cooperation",
+    "ref": "cpaffc",
+    "blocker": "bot wall / CAPTCHA (HTTP 418 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry cpaffc: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "cpaffc.org.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "China Scholarship Council — https://www.csc.edu.cn",
+    "url": "https://www.csc.edu.cn",
+    "origin": "cooperation",
+    "ref": "csc",
+    "blocker": "bot wall / CAPTCHA (HTTP 412 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry csc: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "csc.edu.cn",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Goethe-Institut China — https://www.goethe.de/ins/cn/en/index.html",
+    "url": "https://www.goethe.de/ins/cn/en/index.html",
+    "origin": "cooperation",
+    "ref": "de-goethe-china",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry de-goethe-china: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "goethe.de/ins/cn/en/index.html",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Clingendael China Centre — https://www.clingendael.org/research-programmes/china-centre",
+    "url": "https://www.clingendael.org/research-programmes/china-centre",
+    "origin": "cooperation",
+    "ref": "nl-clingendael-china",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry nl-clingendael-china: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "clingendael.org/research-programmes/china-centre",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Innovation Centre Denmark - Shanghai and Beijing — https://icdk.um.dk",
+    "url": "https://icdk.um.dk",
+    "origin": "cooperation",
+    "ref": "dk-icdk",
+    "blocker": "bot wall / CAPTCHA (HTTP 520 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry dk-icdk: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "icdk.um.dk",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Brussels Institute of Contemporary China Studies (BICCS) at VUB — https://researchportal.be/en/organisation/brussels-institute-contemporary-china-studies",
+    "url": "https://researchportal.be/en/organisation/brussels-institute-contemporary-china-studies",
+    "origin": "cooperation",
+    "ref": "be-biccs",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry be-biccs: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "researchportal.be/en/organisation/brussels-institute-contemporary-china-studies",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Cyprus Chamber of Commerce and Industry (CCCI) — https://www.ccci.org.cy",
+    "url": "https://www.ccci.org.cy",
+    "origin": "cooperation",
+    "ref": "cy-ccci",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry cy-ccci: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "ccci.org.cy",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Confucius Institute at University of Cyprus — https://www.ucy.ac.cy/en/",
+    "url": "https://www.ucy.ac.cy/en/",
+    "origin": "cooperation",
+    "ref": "cy-ci-ucy",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry cy-ci-ucy: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "ucy.ac.cy/en",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Enterprise Estonia (EAS) - China — https://www.eas.ee/en/",
+    "url": "https://www.eas.ee/en/",
+    "origin": "cooperation",
+    "ref": "ee-eas",
+    "blocker": "bot wall / CAPTCHA (HTTP 521 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry ee-eas: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "eas.ee/en",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "HIPA Hungarian Investment Promotion Agency - China — https://hipa.hu/en",
+    "url": "https://hipa.hu/en",
+    "origin": "cooperation",
+    "ref": "hu-hipa",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry hu-hipa: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "hipa.hu/en",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Romanian Academy - China cooperation — https://acad.ro",
+    "url": "https://acad.ro",
+    "origin": "cooperation",
+    "ref": "ro-academia",
+    "blocker": "bot wall / CAPTCHA (HTTP 429 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry ro-academia: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "acad.ro",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Innovation Norway China — https://www.innovasjonnorge.no/en/start-page/",
+    "url": "https://www.innovasjonnorge.no/en/start-page/",
+    "origin": "cooperation",
+    "ref": "no-innovation-norway-china",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry no-innovation-norway-china: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "innovasjonnorge.no/en/start-page",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Nordic Centre at Fudan University — https://www.nordiccentre.org",
+    "url": "https://www.nordiccentre.org",
+    "origin": "cooperation",
+    "ref": "no-nordic-centre-fudan",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry no-nordic-centre-fudan: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "nordiccentre.org",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Chatham House - Asia-Pacific programme — https://www.chathamhouse.org",
+    "url": "https://www.chathamhouse.org",
+    "origin": "cooperation",
+    "ref": "gb-chatham-house-asia",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry gb-chatham-house-asia: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "chathamhouse.org",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Royal Society - China partnerships — https://royalsociety.org",
+    "url": "https://royalsociety.org",
+    "origin": "cooperation",
+    "ref": "gb-royal-society-china",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry gb-royal-society-china: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "royalsociety.org",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Berlin - Beijing partnership — https://www.berlin.de/en/",
+    "url": "https://www.berlin.de/en/",
+    "origin": "cooperation",
+    "ref": "city-berlin-beijing",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "site refuses scripted access",
+    "then": "Confirm the body exists and is active, record mission, status, official contact page; save a local copy.",
+    "updates": [
+      "data/cooperation/eu-cn.json (entry city-berlin-beijing: website_http, status, evidence, contact_channel, description)",
+      "docs/EU-CN-COOPERATION-MAP.md",
+      "sources/archive*/"
+    ],
+    "key": "berlin.de/en",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "The Value of Open Source Software — https://papers.ssrn.com/abstract=4693148",
+    "url": "https://papers.ssrn.com/abstract=4693148",
+    "origin": "literature",
+    "ref": "EU-004",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence B)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-004: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "papers.ssrn.com/abstract=4693148",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "From Common Worries to Digital Commons: How Europe Can Stop Renting Clouds and Build Its Own — https://www.clingendael.org/publication/common-worries-digital-commons-how-europe-can-stop-renting-clouds-and-build-its-own",
+    "url": "https://www.clingendael.org/publication/common-worries-digital-commons-how-europe-can-stop-renting-clouds-and-build-its-own",
+    "origin": "literature",
+    "ref": "EU-018",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence B)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-018: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "clingendael.org/publication/common-worries-digital-commons-how-europe-can-stop-renting-clouds-and-build-its-own",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "European Software and Cyber Dependencies (PE 778.576) — https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778576/ECTI_STU%282025%29778576_EN.pdf",
+    "url": "https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778576/ECTI_STU%282025%29778576_EN.pdf",
+    "origin": "literature",
+    "ref": "EU-041",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence B)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-041: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "europarl.europa.eu/regdata/etudes/stud/2025/778576/ecti_stu%282025%29778576_en.pdf",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "REPORT on European technological sovereignty and digital infrastructure (A10-0107/2025) — https://www.europarl.europa.eu/doceo/document/A-10-2025-0107_EN.html",
+    "url": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0107_EN.html",
+    "origin": "literature",
+    "ref": "EU-042",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-042: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "europarl.europa.eu/doceo/document/a-10-2025-0107_en.html",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Towards European open digital ecosystems — https://cfg.eu/towards-european-open-digital-ecosystems",
+    "url": "https://cfg.eu/towards-european-open-digital-ecosystems",
+    "origin": "literature",
+    "ref": "EU-055",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-055: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "cfg.eu/towards-european-open-digital-ecosystems",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "The EU Cloud and AI Development Act in depth — https://www.insideglobaltech.com/2026/06/11/the-eu-cloud-and-ai-development-act-in-depth/",
+    "url": "https://www.insideglobaltech.com/2026/06/11/the-eu-cloud-and-ai-development-act-in-depth/",
+    "origin": "literature",
+    "ref": "EU-073",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-073: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "insideglobaltech.com/2026/06/11/the-eu-cloud-and-ai-development-act-in-depth",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Blancato (2023), Policy & Internet: EU data sovereignty industrial policy and Gaia-X — https://discovery.ucl.ac.uk/id/eprint/10177061/1/Policy   Internet - 2023 - Blancato.pdf",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10177061/1/Policy   Internet - 2023 - Blancato.pdf",
+    "origin": "literature",
+    "ref": "EU-088",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-088: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "discovery.ucl.ac.uk/id/eprint/10177061/1/policy   internet - 2023 - blancato.pdf",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "EU open source digital sovereignty strategy — https://www.globsecusfoundation.org/publications/eu-open-source-digital-sovereignty-strategy/",
+    "url": "https://www.globsecusfoundation.org/publications/eu-open-source-digital-sovereignty-strategy/",
+    "origin": "literature",
+    "ref": "EU-093",
+    "blocker": "bot wall / CAPTCHA (HTTP 466 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-093: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "globsecusfoundation.org/publications/eu-open-source-digital-sovereignty-strategy",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Open Models, Soft Power, and the Spectrum of U.S.-China Artificial Intelligence Competition — https://www.rand.org/pubs/perspectives/PEA4686-1.html",
+    "url": "https://www.rand.org/pubs/perspectives/PEA4686-1.html",
+    "origin": "literature",
+    "ref": "CN-006",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence B)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-006: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "rand.org/pubs/perspectives/pea4686-1.html",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Open-Source Technology and PRC National Strategy: Part I — https://jamestown.org/open-source-technology-and-prc-national-strategy-part-i",
+    "url": "https://jamestown.org/open-source-technology-and-prc-national-strategy-part-i",
+    "origin": "literature",
+    "ref": "CN-010",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence B)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-010: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "jamestown.org/open-source-technology-and-prc-national-strategy-part-i",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Open-Source Technology and PRC National Strategy: Part II — https://jamestown.org/program/open-source-technology-and-prc-national-strategy-part-ii/",
+    "url": "https://jamestown.org/program/open-source-technology-and-prc-national-strategy-part-ii/",
+    "origin": "literature",
+    "ref": "CN-011",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence B)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-011: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "jamestown.org/program/open-source-technology-and-prc-national-strategy-part-ii",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Examining China's Grand Strategy for RISC-V — https://jamestown.org/program/examining-chinas-grand-strategy-for-risc-v/",
+    "url": "https://jamestown.org/program/examining-chinas-grand-strategy-for-risc-v/",
+    "origin": "literature",
+    "ref": "CN-012",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-012: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "jamestown.org/program/examining-chinas-grand-strategy-for-risc-v",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "What to Know About Chinese AI Models — https://www.csis.org/analysis/what-know-about-chinese-ai-models",
+    "url": "https://www.csis.org/analysis/what-know-about-chinese-ai-models",
+    "origin": "literature",
+    "ref": "CN-021",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-021: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "csis.org/analysis/what-know-about-chinese-ai-models",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Open Source Software Maturity Assessment White Paper (2022) — https://talk.gitee.com/report/open-source-software-maturity-assessment-white-paper-2022.pdf",
+    "url": "https://talk.gitee.com/report/open-source-software-maturity-assessment-white-paper-2022.pdf",
+    "origin": "literature",
+    "ref": "CN-043",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-043: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "talk.gitee.com/report/open-source-software-maturity-assessment-white-paper-2022.pdf",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Shanghai to double down on open-source projects amid push for AI, chip self-sufficiency — https://www.scmp.com/tech/tech-war/article/3337828/shanghai-double-down-open-source-projects-amid-push-ai-chip-self-sufficiency",
+    "url": "https://www.scmp.com/tech/tech-war/article/3337828/shanghai-double-down-open-source-projects-amid-push-ai-chip-self-sufficiency",
+    "origin": "literature",
+    "ref": "CN-050",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-050: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "scmp.com/tech/tech-war/article/3337828/shanghai-double-down-open-source-projects-amid-push-ai-chip-self-sufficiency",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Export Restrictions, Membership Organizations and Huawei — https://consortiuminfo.org/china/guest-post-export-restrictions-membership-organizations-and-huawei/",
+    "url": "https://consortiuminfo.org/china/guest-post-export-restrictions-membership-organizations-and-huawei/",
+    "origin": "literature",
+    "ref": "CN-063",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-063: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "consortiuminfo.org/china/guest-post-export-restrictions-membership-organizations-and-huawei",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "China questions safety of open-source code amid sanctions and tech war — https://www.scmp.com/tech/tech-war/article/3182835/china-questions-safety-open-source-code-amid-sanctions-and-tech",
+    "url": "https://www.scmp.com/tech/tech-war/article/3182835/china-questions-safety-open-source-code-amid-sanctions-and-tech",
+    "origin": "literature",
+    "ref": "CN-064",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-064: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "scmp.com/tech/tech-war/article/3182835/china-questions-safety-open-source-code-amid-sanctions-and-tech",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "China to publish policy to boost RISC-V chip use nationwide — https://theprint.in/tech/exclusive-china-to-publish-policy-to-boost-risc-v-chip-use-nationwide-sources/2530352",
+    "url": "https://theprint.in/tech/exclusive-china-to-publish-policy-to-boost-risc-v-chip-use-nationwide-sources/2530352",
+    "origin": "literature",
+    "ref": "CN-068",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-068: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "theprint.in/tech/exclusive-china-to-publish-policy-to-boost-risc-v-chip-use-nationwide-sources/2530352",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "China bets on open-source chips as US export controls mount — https://www.scmp.com/tech/big-tech/article/3178109/tech-war-china-bets-open-source-risc-v-chip-design-minimise-potential",
+    "url": "https://www.scmp.com/tech/big-tech/article/3178109/tech-war-china-bets-open-source-risc-v-chip-design-minimise-potential",
+    "origin": "literature",
+    "ref": "CN-070",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item CN-070: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "scmp.com/tech/big-tech/article/3178109/tech-war-china-bets-open-source-risc-v-chip-design-minimise-potential",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "State of Open: The UK in 2021 (OpenUK) — https://computing.co.uk/news/4028309/open-source-software-worth-gbp43bn-uk-economy-report",
+    "url": "https://computing.co.uk/news/4028309/open-source-software-worth-gbp43bn-uk-economy-report",
+    "origin": "literature",
+    "ref": "MS-043",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item MS-043: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "computing.co.uk/news/4028309/open-source-software-worth-gbp43bn-uk-economy-report",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "OpenUK works with UKRI on open source guidance for public sector — https://www.computerweekly.com/news/366633932/OpenUK-works-with-UKRI-on-open-source-guidance-for-public-sector",
+    "url": "https://www.computerweekly.com/news/366633932/OpenUK-works-with-UKRI-on-open-source-guidance-for-public-sector",
+    "origin": "literature",
+    "ref": "MS-046",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item MS-046: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "computerweekly.com/news/366633932/openuk-works-with-ukri-on-open-source-guidance-for-public-sector",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Digital sovereignty: from invisible dependencies to strategic choices — https://www.ri.se/sv/bloggpost/digital-suveranitet-fran-osynliga-beroenden-till-strategiska-val",
+    "url": "https://www.ri.se/sv/bloggpost/digital-suveranitet-fran-osynliga-beroenden-till-strategiska-val",
+    "origin": "literature",
+    "ref": "MS-056",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item MS-056: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "ri.se/sv/bloggpost/digital-suveranitet-fran-osynliga-beroenden-till-strategiska-val",
+    "status": "open",
+    "done": null
+  },
+  {
+    "target": "Profitability of Open-Source Software Product Development — https://pubsonline.informs.org/doi/full/10.1287/isre.2025.1821",
+    "url": "https://pubsonline.informs.org/doi/full/10.1287/isre.2025.1821",
+    "origin": "literature",
+    "ref": "EU-123",
+    "blocker": "bot wall / CAPTCHA (HTTP 403 to scripted access)",
+    "reason": "full text not read (evidence C)",
+    "then": "Download the full document, archive it with SHA-256, read it, correct summary/key_findings and upgrade evidence to A.",
+    "updates": [
+      "data/lit/industrial-policy.json (item EU-123: url_http, evidence, summary, key_findings)",
+      "docs/INDUSTRIAL-POLICY.md (exec summary if findings change)",
+      "sources/archive/"
+    ],
+    "key": "pubsonline.informs.org/doi/full/10.1287/isre.2025.1821",
+    "status": "open",
+    "done": null
+  }
+]
