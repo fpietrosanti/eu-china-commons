@@ -32814,8 +32814,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-grandest/scdd/pub/funathon2023_sujet2",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -32852,8 +32852,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-grandest/scdd/pub/opm2020",
     "website": "",
     "licence": "eupl-1.2",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -32890,8 +32890,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/adresses-mairies-epci",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -32928,8 +32928,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/autorite-environnementale",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -32966,8 +32966,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/bilan.eco.insee",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33004,8 +33004,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/carrieres",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33042,8 +33042,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/collectr",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33080,8 +33080,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/crte",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33118,8 +33118,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/data.captages",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33158,8 +33158,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/data.siclop",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33196,8 +33196,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/datalibaba",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33236,8 +33236,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/diagnostic-regional-etiages",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33274,8 +33274,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/enr_reseaux_teo",
     "website": "",
     "licence": "etalab-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33314,8 +33314,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/icpe.georisques.api",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33352,8 +33352,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/mapfactory",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33390,8 +33390,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/nitrates",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33428,8 +33428,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/nitrates.pdl",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33466,8 +33466,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/propre.artificialisation",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33504,8 +33504,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/propre.datareg",
     "website": "",
     "licence": "etalab-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33544,8 +33544,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/propre.ecln",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33582,8 +33582,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/shiny.dsfr",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33620,8 +33620,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/suivi-avis-ae",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33658,8 +33658,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/dreal-pdl/csd/zonages.habitat.r",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33698,8 +33698,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/ecolab/liriae/pdf.js",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33736,8 +33736,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/geomatique/descartes/d-editmap",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33774,8 +33774,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/geomatique/descartes/d-inkmap",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33814,8 +33814,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/geomatique/descartes/d-map",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33852,8 +33852,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/geomatique/descartes/demo/app-angular-cdn",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33890,8 +33890,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/geomatique/descartes/demo/d-demomap",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33930,8 +33930,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/geomatique/descartes/webservices/d-wsmap",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -33968,8 +33968,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/gitlab-share/trivy",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34006,8 +34006,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/guide-d-ouverture-des-algorithmes-et-codes-sources-du-mtect",
     "website": "",
     "licence": "other",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34044,8 +34044,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/gitlab-project-doctor",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34084,8 +34084,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/api-event-calculs",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34124,8 +34124,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/api-event-donneesentrees",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34164,8 +34164,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/api-event-enrichissement",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34204,8 +34204,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/api-event-indicateurs",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34244,8 +34244,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/api-expositiondonneesentrees",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34284,8 +34284,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/api-referentiel",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34324,8 +34324,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/api-rest-calculs",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34362,8 +34362,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/calculs",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34400,8 +34400,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/common",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34438,8 +34438,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/common-dto",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34476,8 +34476,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/core",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34514,8 +34514,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/docs",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34552,8 +34552,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34590,8 +34590,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/superset",
     "website": "",
     "licence": "apache-2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34628,8 +34628,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/mkdocs-dsfr",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34666,8 +34666,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/mkdocs-dsfr-exemple",
     "website": "",
     "licence": "mit",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34706,8 +34706,8 @@
     "repo_url": "https://gitlab-forge.din.developpement-durable.gouv.fr/share/dis-public/gpa/public-molecule-ressources-testing",
     "website": "",
     "licence": "agpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -34744,8 +34744,8 @@
     "repo_url": "https://gitlab.in2p3.fr/kaliveda-dev/kaliveda",
     "website": "",
     "licence": "gpl-3.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://code.gouv.fr/data/repositories.json",
@@ -87986,7 +87986,7 @@
     "repo_url": "https://github.com/italia/design-wordpress-theme",
     "website": "",
     "licence": "AGPL-3.0-only",
-    "status": "archived",
+    "status": "active",
     "repo_http": 200,
     "sources": [
       {
@@ -88968,7 +88968,7 @@
     "repo_url": "https://github.com/dxc-technology/DXC-Industrialized-AI-Starter.git",
     "website": "",
     "licence": "Apache-2.0",
-    "status": "archived",
+    "status": "active",
     "repo_http": 200,
     "sources": [
       {
@@ -92715,7 +92715,7 @@
     "repo_url": "https://github.com/alex-sandri/inpa-ios",
     "website": "",
     "licence": "MIT",
-    "status": "archived",
+    "status": "active",
     "repo_http": 200,
     "sources": [
       {
@@ -93043,7 +93043,7 @@
     "repo_url": "https://github.com/pagopa/io-app-design-system",
     "website": "",
     "licence": "MIT",
-    "status": "archived",
+    "status": "active",
     "repo_http": 200,
     "sources": [
       {
@@ -97920,7 +97920,7 @@
     "repo_url": "https://github.com/teamdigitale/daf-nteract",
     "website": "",
     "licence": "BSD-3-Clause",
-    "status": "archived",
+    "status": "active",
     "repo_http": 200,
     "sources": [
       {
@@ -269132,8 +269132,8 @@
     "repo_url": "https://git.happydomain.org",
     "website": "https://happydomain.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/happyDomain",
@@ -284579,8 +284579,8 @@
     "repo_url": "https://gitlab.com/opentrainticketing/deckplan-editor",
     "website": "https://gitlab.com/opentrainticketing/deckplan-editor",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/NeTEx-deckplan",
@@ -284655,8 +284655,8 @@
     "repo_url": "https://gitlab.com/pi-lar/neuropil",
     "website": "https://www.neuropil.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Neuropil",
@@ -284695,8 +284695,8 @@
     "repo_url": "https://gitlab.com/pi-lar/neuropil",
     "website": "https://www.neuropil.org/",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Neuropil-DHT",
@@ -286631,8 +286631,8 @@
     "repo_url": "https://gitlab.com/lineact-valo/notsundial",
     "website": "https://gitlab.com/lineact-valo/notsundial",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/NotSundial",
@@ -288716,8 +288716,8 @@
     "repo_url": "https://gitlab.com/openagps",
     "website": "https://openagps.net",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/OpenAGPS",
@@ -288866,8 +288866,8 @@
     "repo_url": "https://gitlab.com/blinkcar",
     "website": "",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/OpenCarLink",
@@ -290237,8 +290237,8 @@
     "repo_url": "https://gitlab.com/openpgp-ca/openpgp-ca",
     "website": "https://openpgp-ca.org/",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/OpenPGP-CA",
@@ -290393,8 +290393,8 @@
     "repo_url": "https://gitlab.com/openpgp-ca/openpgp-ca",
     "website": "https://openpgp-ca.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/OpenPGPCA-HSM",
@@ -291344,8 +291344,8 @@
     "repo_url": "https://gitlab.com/sortix/os-test",
     "website": "https://sortix.org/os-test",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/os-test",
@@ -292739,8 +292739,8 @@
     "repo_url": "https://gitlab.com/panoramax",
     "website": "https://panoramax.fr",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Panoramax",
@@ -292775,8 +292775,8 @@
     "repo_url": "https://gitlab.com/panoramax",
     "website": "https://panoramax.fr",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Panoramax-video",
@@ -293037,8 +293037,8 @@
     "repo_url": "https://gitlab.com/yukidama/patchouli",
     "website": "https://patchouli.readthedocs.io",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Patchouli",
@@ -293343,8 +293343,8 @@
     "repo_url": "https://gitlab.com/peerdb/search",
     "website": "https://gitlab.com/peerdb/search",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/PeerDB",
@@ -295095,8 +295095,8 @@
     "repo_url": "https://gitlab.com/postmarketOS",
     "website": "https://postmarketos.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/pmOS-23-24",
@@ -295133,8 +295133,8 @@
     "repo_url": "https://gitlab.com/postmarketOS",
     "website": "https://postmarketos.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/pmOS-25-26",
@@ -295481,8 +295481,8 @@
     "repo_url": "https://gitlab.com/postmarketOS",
     "website": "https://postmarketos.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/postmarketOS",
@@ -300748,8 +300748,8 @@
     "repo_url": "https://gitlab.com/sane-project/frontend/sanescan",
     "website": "https://gitlab.com/sane-project/frontend/sanescan",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/SANE-OCR",
@@ -301858,8 +301858,8 @@
     "repo_url": "https://gitlab.com/searxr",
     "website": "https://blog.searxr.me",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/SearXR",
@@ -302011,8 +302011,8 @@
     "repo_url": "https://gitlab.com/0cpm/subliminal",
     "website": "https://gitlab.com/0cpm/subliminal",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/SecureDataChannel",
@@ -302699,8 +302699,8 @@
     "repo_url": "https://gitlab.com/sequoia-pgp/sequoia",
     "website": "https://sequoia-pgp.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Sequoia-commandline",
@@ -302737,8 +302737,8 @@
     "repo_url": "https://gitlab.com/sequoia-pgp/sequoia-keystore",
     "website": "https://sequoia-pgp.org/",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Sequoia-Keystore",
@@ -302853,8 +302853,8 @@
     "repo_url": "https://gitlab.com/sequoia-pgp/sequoia-chameleon-gnupg",
     "website": "https://sequoia-pgp.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/SequoiaChameleon",
@@ -306643,8 +306643,8 @@
     "repo_url": "https://gitlab.com/spritely",
     "website": "https://spritelyproject.org/",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/Spritely",
@@ -316066,8 +316066,8 @@
     "repo_url": "https://gitlab.com/ojack/wobble-web",
     "website": "https://wwwobble.org",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://nlnet.nl/project/WobbleWeb",
@@ -434926,7 +434926,7 @@
     "website": "",
     "licence": "LGPL-3.0 / GPL + commercial (dual)",
     "status": "active",
-    "repo_http": 0,
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://www.qt.io/investors",
@@ -436023,7 +436023,7 @@
     "website": "https://ffmpeg.org",
     "licence": "",
     "status": "active",
-    "repo_http": 0,
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://www.sovereign.tech/tech/ffmpeg",
@@ -438703,7 +438703,7 @@
     "website": "https://sequoia-pgp.org/",
     "licence": "",
     "status": "active",
-    "repo_http": 0,
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://www.sovereign.tech/tech/sequoia-2026",
@@ -438786,8 +438786,8 @@
     "repo_url": "https://gitlab.com/sequoia-pgp/sequoia-git",
     "website": "https://sequoia-pgp.org/",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://www.sovereign.tech/tech/sequoia-pgp-2023",
@@ -447087,8 +447087,8 @@
     "repo_url": "https://gitlab.com/uit-sfb/METApipe-cPouta-cloud-setup",
     "website": "",
     "licence": "mit-license",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/1053807",
@@ -447441,8 +447441,8 @@
     "repo_url": "https://gitlab.com/uit-sfb/AuthService2",
     "website": "",
     "licence": "mit-license",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/1058995",
@@ -458510,7 +458510,7 @@
     "harvester": "zenodo",
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
-    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 62088102 [CN]; further funders: CN,CN,CN"
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 62088102 [CN]; further funders: CN,CN"
   },
   {
     "id": "zenodo-11532369",
@@ -469274,8 +469274,8 @@
     "repo_url": "https://gitlab.in2p3.fr/gammalearn/publications/2024_domain_adaptation_methods",
     "website": "",
     "licence": "mit-license",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/21824932",
@@ -486133,8 +486133,8 @@
     "repo_url": "https://gitlab.in2p3.fr/gammalearn/stereograph/stereograph",
     "website": "",
     "licence": "mit-license",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/23956674",
@@ -502138,7 +502138,7 @@
   },
   {
     "id": "zenodo-15662941",
-    "name": "ADHFAIS APP{ENDIX} 1: OpenITI NgramReader (based on OpenITI, Release ver. 2023.1.8)",
+    "name": "DHFAIS App{endix} 1: OpenITI NgramReader, Version 2 (based on OpenITI, Release ver. 2023.1.8)",
     "name_original": "",
     "side": "EU",
     "funder_level": "member-state",
@@ -502150,8 +502150,8 @@
     "amount": null,
     "currency": "",
     "amount_type": "unknown",
-    "years": "2025",
-    "description": "This is an appendix to the monograph &ldquo;A Digital Humanities for Arabic and Islamic Studies: Proposition to the Field&rdquo; (working title), to be published by Brill (expected 2025 or early 2026). ADHFAIS APP{ENDIX} 1: NgramReader, 2025 (OpenITI, Release ver. 2023.1.8) is a tool similar to…",
+    "years": "2026",
+    "description": "This is an appendix to the monograph: Romanov, Maxim. Digital Humanities for Arabic and Islamic Studies . Leiden, The Netherlands: Brill, 2026. https://doi.org/10.1163/9789004760530 DHFAIS App{endix} 1: OpenITI NgramReader, version 2 (2026), based on OpenITI release 2023.1.8, is a tool similar to…",
     "domain": [
       "data"
     ],
@@ -502162,7 +502162,7 @@
     "repo_http": null,
     "sources": [
       {
-        "url": "https://zenodo.org/records/15662942",
+        "url": "https://zenodo.org/records/23985408",
         "accessed": "2026-11-08"
       },
       {
@@ -502178,7 +502178,7 @@
   },
   {
     "id": "zenodo-15663088",
-    "name": "ADHFAIS App{endix} 2: T10 Book Classification (based on OpenITI, Release ver. 2023.1.8)",
+    "name": "DHFAIS App{endix} 2: T10 Book Classification, Version 2 (based on OpenITI, Release ver. 2023.1.8)",
     "name_original": "",
     "side": "EU",
     "funder_level": "member-state",
@@ -502190,8 +502190,8 @@
     "amount": null,
     "currency": "",
     "amount_type": "unknown",
-    "years": "2025",
-    "description": "This is an appendix to the monograph &ldquo;A Digital Humanities for Arabic and Islamic Studies: Proposition to the Field&rdquo; (working title), to be published by Brill (expected 2025 or early 2026). ADHFAIS APP{ENDIX} 2: M10 Book Classification, 2025 (OpenITI, Release ver. 2023.1.8) is an…",
+    "years": "2026",
+    "description": "This is an appendix to the monograph: Romanov, Maxim. Digital Humanities for Arabic and Islamic Studies . Leiden, The Netherlands: Brill, 2026. https://doi.org/10.1163/9789004760530 DHFAIS App{endix} 2: T10 Book Classification, version 2 (2026), based on OpenITI release 2023.1.8, is an experiment…",
     "domain": [],
     "repo_url": "",
     "website": "",
@@ -502200,7 +502200,7 @@
     "repo_http": null,
     "sources": [
       {
-        "url": "https://zenodo.org/records/15663089",
+        "url": "https://zenodo.org/records/23985062",
         "accessed": "2026-11-08"
       },
       {
@@ -507710,7 +507710,7 @@
     "website": "",
     "licence": "mit-license",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/15930930",
@@ -509930,6 +509930,43 @@
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant 101079338 [EC]"
+  },
+  {
+    "id": "zenodo-16608844",
+    "name": "DOME: Dynamic Optimization Meta-Ensemble Framework for Computational Debris Flow Risk Assessment",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "China Association for Science and Technology",
+    "programme": "Young Talent Support Program for Doctoral Students ",
+    "grant_id": "156-O-170-0000603-2",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2025",
+    "description": "# DOME: Dynamic Optimization Meta-Ensemble Framework for Computational Debris Flow Risk Assessment ## Overview This project implements the DOME (Dynamic Optimization Meta-Ensemble) framework for computational debris flow risk prediction. DOME addresses the limitations of traditional machine…",
+    "domain": [
+      "ai",
+      "devtools"
+    ],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/16911533",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 156-O-170-0000603-2 [CN]"
   },
   {
     "id": "zenodo-16623961",
@@ -513928,6 +513965,40 @@
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant 300461 [RCN]"
+  },
+  {
+    "id": "zenodo-17019072",
+    "name": "ERTVI – An Open-source Variational Inference Code for Electrical Resistivity Tomography",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "National Natural Science Foundation of China",
+    "programme": "",
+    "grant_id": "NSFC42474192",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2025",
+    "description": "ERTVI is an open-source code used for quantifying resistivity distributions and associated uncertainties in electrical resistivity tomography (ERT) using variational inference (especially SVGD or sSVGD). The code is modified from the open-source package VIP - Variational Inversion Package…",
+    "domain": [],
+    "repo_url": "",
+    "website": "",
+    "licence": "cc-by-4.0",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/17019073",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant NSFC42474192 [CN]"
   },
   {
     "id": "zenodo-17021719",
@@ -540496,8 +540567,8 @@
     "repo_url": "https://gitlab.in2p3.fr/gammalearn/publications/2025-stereograph",
     "website": "",
     "licence": "mit-license",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/18986213",
@@ -560796,6 +560867,40 @@
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant ANR-24-CE45-0866 [ANR]"
   },
   {
+    "id": "zenodo-21098975",
+    "name": "Code for Duration-aware Unsupervised Segmentation Reveals Collective Movement Modes in Homing Flights of Pigeon Flocks",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "National Natural Science Foundation of China",
+    "programme": "",
+    "grant_id": "62301496",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2026",
+    "description": "This software package contains the code used to preprocess GPS and attitude/IMU data, construct the HSMM observation variables, fit and decode duration-aware hidden semi-Markov models, perform model-selection and sensitivity analyses, and generate the analysis outputs reported in the manuscript…",
+    "domain": [],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/21098976",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 62301496 [CN]"
+  },
+  {
     "id": "zenodo-21101876",
     "name": "Julia code for \"Sparse and low-rank approximations of parametric elliptic PDEs: the best of both worlds\"",
     "name_original": "",
@@ -564615,6 +564720,40 @@
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant CA 633/4-2 [DFG]"
   },
   {
+    "id": "zenodo-21465782",
+    "name": "Code and Reproducibility Workflows for Auditable Fixed-Geometry Replay in Ship–Glider Active Acoustics",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "Chinese Academy of Sciences",
+    "programme": "State Key Laboratory of Acoustics Research Support",
+    "grant_id": "SKLA202406",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2026",
+    "description": "This record contains the author-developed code, deterministic figure-generation workflows, package-verification scripts, configuration files, and reproducibility documentation supporting the manuscript &ldquo;Auditable Fixed-Geometry Replay for Scenario Sensitivity in Ship&ndash;Glider Active…",
+    "domain": [],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/21465783",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]"
+  },
+  {
     "id": "zenodo-21470345",
     "name": "Wireshark lua plugin for Secured Sampled Values",
     "name_original": "",
@@ -565258,6 +565397,42 @@
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant 214879 [SNSF]"
   },
   {
+    "id": "zenodo-21548992",
+    "name": "Public-Track–Guided Spatial Nulling for Multi-Array Passive Source Localization — Code and Frozen Configuration…",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "Chinese Academy of Sciences",
+    "programme": "State Key Laboratory of Acoustics Grant",
+    "grant_id": "SKLA202406",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2026",
+    "description": "Analysis code, hash-frozen configuration, and derived numerical results reproducing the manuscript \"Public-Track&ndash;Guided Spatial Nulling for Robust Multi-Array Passive Source Localization Under a Moving Broadband Interferer\" (submitted to the Journal of the Acoustical Society of America,…",
+    "domain": [
+      "messaging"
+    ],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/21548993",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]"
+  },
+  {
     "id": "zenodo-21550799",
     "name": "SHIFT Knowledge Graph: an executable ABox, rule set and evaluation harness for the SHIFT Ontology",
     "name_original": "",
@@ -565474,7 +565649,7 @@
     "harvester": "zenodo",
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
-    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]; further funders: CN"
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]"
   },
   {
     "id": "zenodo-21630065",
@@ -565549,6 +565724,40 @@
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant 101086321 [EC]"
+  },
+  {
+    "id": "zenodo-21641949",
+    "name": "AGDA Ocean-Acoustic Open Benchmark",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "Chinese Academy of Sciences",
+    "programme": "",
+    "grant_id": "SKLA202406",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2026",
+    "description": "Open benchmark and audit package accompanying the manuscript \"Acoustic-Guided Generative Assimilation for Estimating Ocean-Interior Structure From Surface and Acoustic Observations\", prepared for IEEE Journal of Oceanic Engineering. The archive includes manuscript source, figure-generation…",
+    "domain": [],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/21644877",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]"
   },
   {
     "id": "zenodo-21643800",
@@ -566005,6 +566214,43 @@
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant U2233217 [CN]; further funders: CN"
   },
   {
+    "id": "zenodo-21735041",
+    "name": "Satellite–Argo Reconstruction of the Mesoscale-Eddy Sound-Speed Field and Its Effect on Towed-Array Gain: A…",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "Chinese Academy of Sciences",
+    "programme": "",
+    "grant_id": "SKLA202406",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2026",
+    "description": "Code, stored results and figures reproducing the manuscript \"Satellite&ndash;Argo Reconstruction of the Mesoscale-Eddy Sound-Speed Field and Its Effect on Towed-Array Gain: A Differentiable Framework with Bounded Acoustic Feedback\" (Hu, Hu, Sun & Li), under review at the IEEE Journal of Oceanic…",
+    "domain": [
+      "devtools",
+      "geo"
+    ],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/21735042",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]"
+  },
+  {
     "id": "zenodo-21737775",
     "name": "geomattR: geomattR version 0.3.1",
     "name_original": "",
@@ -566081,6 +566327,42 @@
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant 101040760 [EC]; further funders: EC,EC,EC,EC,SNSF,DFG,SNSF"
+  },
+  {
+    "id": "zenodo-21755047",
+    "name": "Selective inversion with calibrated abstention for eddy acoustics",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "Chinese Academy of Sciences",
+    "programme": "",
+    "grant_id": "SKLA202406",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2026",
+    "description": "Reproduction package for the manuscript \"Selective inversion with calibrated abstention for eddy acoustics.\" Contains the peac package, all experiment and figure scripts, the observed-Argo EOF basis, numerical result files, trained operator checkpoints, and a SHA-256 manifest. Raw third-party…",
+    "domain": [
+      "ai"
+    ],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/21830528",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]"
   },
   {
     "id": "zenodo-21756400",
@@ -568901,6 +569183,42 @@
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
     "oss_basis": "Zenodo software record (open access) with depositor-declared grant 442032008 [DFG]"
+  },
+  {
+    "id": "zenodo-22109539",
+    "name": "Finite-observation identifiability for dual-order fractional-wave parameters: code and reproducibility archive",
+    "name_original": "",
+    "side": "CN",
+    "funder_level": "CN-central",
+    "country": "China",
+    "region": "",
+    "funder": "Chinese Academy of Sciences",
+    "programme": "",
+    "grant_id": "SKLA202406",
+    "amount": null,
+    "currency": "",
+    "amount_type": "unknown",
+    "years": "2026",
+    "description": "This repository provides version 1.0.0 of the source code and reproducibility materials supporting the manuscript &ldquo;Finite-observation identifiability for dual-order fractional-wave parameters&rdquo;. The archive contains the confirmatory analysis code, exploratory sensitivity analysis,…",
+    "domain": [
+      "devtools"
+    ],
+    "repo_url": "",
+    "website": "",
+    "licence": "mit-license",
+    "status": "unknown",
+    "repo_http": null,
+    "sources": [
+      {
+        "url": "https://zenodo.org/records/22109540",
+        "accessed": "2026-11-08"
+      }
+    ],
+    "evidence": "B",
+    "harvester": "zenodo",
+    "first_seen": "2026-11-08",
+    "last_checked": "2026-11-08",
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant SKLA202406 [CN]"
   },
   {
     "id": "zenodo-22110139",
@@ -572115,7 +572433,7 @@
     "harvester": "zenodo",
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
-    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 2025YFE0204500 [CN]; further funders: CN,CN"
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 2025YFE0204500 [CN]; further funders: CN"
   },
   {
     "id": "zenodo-22708937",
@@ -576957,7 +577275,7 @@
     "harvester": "zenodo",
     "first_seen": "2026-11-08",
     "last_checked": "2026-11-08",
-    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 12601563 [CN]; further funders: CN"
+    "oss_basis": "Zenodo software record (open access) with depositor-declared grant 12601563 [CN]"
   },
   {
     "id": "zenodo-23061299",
@@ -581627,8 +581945,8 @@
     "repo_url": "https://gitlab.com/disco-horizon-europe/open-software-repository",
     "website": "",
     "licence": "apache2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/23477903",
@@ -593635,8 +593953,8 @@
     "repo_url": "https://gitlab.com/AliK_A/buildtf",
     "website": "",
     "licence": "cc-by-4.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/3773863",
@@ -597930,7 +598248,7 @@
     "repo_http": 200,
     "sources": [
       {
-        "url": "https://zenodo.org/records/24038333",
+        "url": "https://zenodo.org/records/24053437",
         "accessed": "2026-11-08"
       },
       {
@@ -599199,7 +599517,7 @@
     "website": "",
     "licence": "apache2.0",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/7462000",
@@ -609900,7 +610218,7 @@
     "website": "",
     "licence": "cc-by-4.0",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/4071758",
@@ -613090,8 +613408,8 @@
     "repo_url": "https://gitlab.com/marcus.herrmann/mc-lilliefors",
     "website": "",
     "licence": "eupl-1.2",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/4162497",
@@ -625185,8 +625503,8 @@
     "repo_url": "https://gitlab.com/libreumg/dataquier",
     "website": "",
     "licence": "bsd-2-clause-netbsd",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/4767836",
@@ -630082,7 +630400,7 @@
     "website": "",
     "licence": "mit-license",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/5145235",
@@ -630123,7 +630441,7 @@
     "website": "",
     "licence": "cc-by-4.0",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/5145317",
@@ -630161,7 +630479,7 @@
     "website": "",
     "licence": "cc-by-4.0",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/5145381",
@@ -630199,7 +630517,7 @@
     "website": "",
     "licence": "cc-by-4.0",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/5145443",
@@ -637836,8 +638154,8 @@
     "repo_url": "https://gitlab.com/astron-idg/idg-fpga/",
     "website": "",
     "licence": "",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/5680920",
@@ -639225,8 +639543,8 @@
     "repo_url": "https://gitlab.com/marco.r.cosenza/simple_droplet_tools",
     "website": "",
     "licence": "apache2.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/5748533",
@@ -642082,8 +642400,8 @@
     "repo_url": "https://gitlab.in2p3.fr/gammalearn/gammalearn/-/raw/master/README.md",
     "website": "",
     "licence": "mit-license",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/22771066",
@@ -652035,8 +652353,8 @@
     "repo_url": "https://gitlab.com/ester.manganiello/foreshock-analyses",
     "website": "",
     "licence": "eupl-1.2",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/7438161",
@@ -655608,8 +655926,8 @@
     "repo_url": "https://gitlab.com/FalconProgrammer/opensourceirispad-oxidised/",
     "website": "",
     "licence": "mit-license",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/6499238",
@@ -672097,8 +672415,8 @@
     "repo_url": "https://gitlab.in2p3.fr/CTA-LAPP/rta/HiPeRTA/-",
     "website": "",
     "licence": "cecill-c",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/23042191",
@@ -675094,8 +675412,8 @@
     "repo_url": "https://gitlab.com/marcus.herrmann/ensembling-forecast-models-with-logistic-regression",
     "website": "",
     "licence": "eupl-1.2",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/7477998",
@@ -691277,8 +691595,8 @@
     "repo_url": "https://gitlab.com/sigcorr/sigcorr",
     "website": "",
     "licence": "cc-by-4.0",
-    "status": "unknown",
-    "repo_http": 0,
+    "status": "active",
+    "repo_http": 200,
     "sources": [
       {
         "url": "https://zenodo.org/records/8096892",
@@ -699245,7 +699563,7 @@
     "website": "",
     "licence": "lgpl-3.0-or-later",
     "status": "unknown",
-    "repo_http": 0,
+    "repo_http": 403,
     "sources": [
       {
         "url": "https://zenodo.org/records/8329459",
