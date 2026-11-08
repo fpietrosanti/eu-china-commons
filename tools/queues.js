@@ -21,6 +21,10 @@ const acquired = new Set();
 for (const line of read('sources/archive-vpn/index.tsv').split('\n')) {
   const c = line.split('\t'); if (c.some((x) => x === '200')) { const u = c.find((x) => /^https?:/.test(x)); if (u) acquired.add(norm(u)); }
 }
+// desktop-origin fetches (tools/desktop_fetch.js, Fabio's residential connection): class "ok" = acquired
+for (const line of read('sources/archive-desktop/index.tsv').split('\n').slice(1)) {
+  const c = line.split('\t'); if (c[9] === 'ok' && c[3]) acquired.add(norm(c[3]));
+}
 const done = new Map(); // key (url or id) -> note
 for (const line of read('data/queues/done.tsv').split('\n')) {
   if (!line.trim() || line.startsWith('#')) continue; const [key, date, note] = line.split('\t'); done.set(norm(key), { date, note });

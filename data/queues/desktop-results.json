@@ -1,0 +1,843 @@
+{
+  "https://www.gov.cn/": {
+    "url": "https://www.gov.cn/",
+    "final_url": "https://www.gov.cn/",
+    "http": 200,
+    "bytes": 69556,
+    "sha256": "8d8ca7422d7aa8619ba8436f0058ea4a6b2867e8bc94115363e34003d67c702a",
+    "file": "sources/archive-desktop/files/8d8ca7422d7aa8619ba8436f0058ea4a6b2867e8bc94115363e34003d67c702a.html",
+    "title": "中国政府网_中央人民政府门户网站",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T15:59:47.432Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "https://www.openatom.org/": {
+    "url": "https://www.openatom.org/",
+    "final_url": "https://www.openatom.org/",
+    "http": 200,
+    "bytes": 200063,
+    "sha256": "fb461cc5a730858f8e4647652eb0b63e73772592e5657b6a4a94498deeafd5bc",
+    "file": "sources/archive-desktop/files/fb461cc5a730858f8e4647652eb0b63e73772592e5657b6a4a94498deeafd5bc.html",
+    "title": "开放原子开源基金会",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T15:59:51.087Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "https://chinanpo.mca.gov.cn/": {
+    "url": "https://chinanpo.mca.gov.cn/",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T15:59:58.477Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "http://www.ccgp-shaanxi.gov.cn/": {
+    "url": "http://www.ccgp-shaanxi.gov.cn/",
+    "final_url": "http://www.ccgp-shaanxi.gov.cn/",
+    "http": 200,
+    "bytes": 78479,
+    "sha256": "e36a5066003e3f7370ce670afc5874e625426361b42117c73e781c41057fd8e0",
+    "file": "sources/archive-desktop/files/e36a5066003e3f7370ce670afc5874e625426361b42117c73e781c41057fd8e0.html",
+    "title": "陕西省政府采购网",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:12.189Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "https://www.fengxian.gov.cn/": {
+    "url": "https://www.fengxian.gov.cn/",
+    "final_url": "https://www.fengxian.gov.cn/",
+    "http": 200,
+    "bytes": 59243,
+    "sha256": "fdacc280618f27d224eedefddc1c8d9e45a24246aec9825a702f70c3b305c1db",
+    "file": "sources/archive-desktop/files/fdacc280618f27d224eedefddc1c8d9e45a24246aec9825a702f70c3b305c1db.html",
+    "title": "上海市奉贤区人民政府",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:16.926Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "https://atomgit.com/g-star/rank": {
+    "url": "https://atomgit.com/g-star/rank",
+    "final_url": "https://atomgit.com/g-star/rank",
+    "http": 200,
+    "bytes": 6159,
+    "sha256": "eecc79bdbd65296d2064d4a69a72a50194370ec6c23c0f56b1be5498e486e052",
+    "file": "sources/archive-desktop/files/eecc79bdbd65296d2064d4a69a72a50194370ec6c23c0f56b1be5498e486e052.html",
+    "title": "AtomGit - 全球开发者的开源社区,开源代码托管平台",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:22.737Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "https://gitee.com/gvp/all": {
+    "url": "https://gitee.com/gvp/all",
+    "final_url": "https://gitee.com/gvp/all",
+    "http": 200,
+    "bytes": 675121,
+    "sha256": "52bc84c6fb6544cd796058e56c9a08e39f20d8d28718f766a1563153db1a963a",
+    "file": "sources/archive-desktop/files/52bc84c6fb6544cd796058e56c9a08e39f20d8d28718f766a1563153db1a963a.html",
+    "title": "GVP - Gitee 最有价值开源项目计划 - Gitee.com",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:27.806Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/57ec772e-6579-4f42-90ea-341772e99c8d.pdf": {
+    "url": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/57ec772e-6579-4f42-90ea-341772e99c8d.pdf",
+    "final_url": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/57ec772e-6579-4f42-90ea-341772e99c8d.pdf",
+    "http": 403,
+    "bytes": 289,
+    "sha256": "4f34e16c878f94381a58e9dfabb0495bbdab4e849ab6755ac8eb3e6d9d2fac33",
+    "file": null,
+    "title": "403 Forbidden",
+    "class": "http-403",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:36.045Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/d373a21b-9bc2-194d-e343-77f143d7e887.pdf": {
+    "url": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/d373a21b-9bc2-194d-e343-77f143d7e887.pdf",
+    "final_url": "http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/d373a21b-9bc2-194d-e343-77f143d7e887.pdf",
+    "http": 403,
+    "bytes": 289,
+    "sha256": "291f58295e1c666cf12cf5bec2046cc870830205eb3c49b94d0764b4899c0be1",
+    "file": null,
+    "title": "403 Forbidden",
+    "class": "http-403",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:43.340Z",
+    "origin_queue": "research",
+    "ref": null
+  },
+  "https://www.tc28.org.cn": {
+    "url": "https://www.tc28.org.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:46.675Z",
+    "origin_queue": "directory",
+    "ref": "cn-tc28"
+  },
+  "https://www.ccidgroup.com": {
+    "url": "https://www.ccidgroup.com",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:00:49.885Z",
+    "origin_queue": "directory",
+    "ref": "cn-ccid"
+  },
+  "https://www.cstc.org.cn": {
+    "url": "https://www.cstc.org.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:01:03.616Z",
+    "origin_queue": "directory",
+    "ref": "cn-cstc"
+  },
+  "https://www.chinaunicom.com.cn": {
+    "url": "https://www.chinaunicom.com.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ECONNRESET",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:01:17.395Z",
+    "origin_queue": "directory",
+    "ref": "cn-chinaunicom"
+  },
+  "https://www.sgcc.com.cn": {
+    "url": "https://www.sgcc.com.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:01:22.641Z",
+    "origin_queue": "directory",
+    "ref": "cn-stategrid"
+  },
+  "https://www.zgclab.edu.cn": {
+    "url": "https://www.zgclab.edu.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:01:36.632Z",
+    "origin_queue": "directory",
+    "ref": "cn-zgclab"
+  },
+  "https://www.china-cic.org.cn": {
+    "url": "https://www.china-cic.org.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:01:40.221Z",
+    "origin_queue": "directory",
+    "ref": "cm-cic"
+  },
+  "https://www.cnrv.org.cn": {
+    "url": "https://www.cnrv.org.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:01:44.137Z",
+    "origin_queue": "directory",
+    "ref": "cm-cnrv"
+  },
+  "https://license.coscl.org.cn": {
+    "url": "https://license.coscl.org.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:01:47.335Z",
+    "origin_queue": "directory",
+    "ref": "cm-coscl"
+  },
+  "https://openi.pcl.ac.cn": {
+    "url": "https://openi.pcl.ac.cn",
+    "final_url": "https://openi.pcl.ac.cn/",
+    "http": 200,
+    "bytes": 78386,
+    "sha256": "d996aa4c855c296073cd0950f634b409726d72f696e52dc66172f132739386ac",
+    "file": "sources/archive-desktop/files/d996aa4c855c296073cd0950f634b409726d72f696e52dc66172f132739386ac.html",
+    "title": "OpenI - 启智AI开源社区提供普惠算力！",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:02:01.053Z",
+    "origin_queue": "directory",
+    "ref": "cm-openi"
+  },
+  "https://segmentfault.com": {
+    "url": "https://segmentfault.com",
+    "http": 0,
+    "class": "error",
+    "error": "This operation was aborted",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:02:05.839Z",
+    "origin_queue": "directory",
+    "ref": "cm-segmentfault"
+  },
+  "https://www.zhipuai.cn": {
+    "url": "https://www.zhipuai.cn",
+    "final_url": "https://www.zhipuai.cn/zh",
+    "http": 200,
+    "bytes": 899246,
+    "sha256": "bba40aac38548d7507ec8dd021583e8b038b8f8dc21e625b9e8d577354244830",
+    "file": "sources/archive-desktop/files/bba40aac38548d7507ec8dd021583e8b038b8f8dc21e625b9e8d577354244830.html",
+    "title": "Z.ai - Inspiring AGI to Benefit Humanity",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:02:38.864Z",
+    "origin_queue": "directory",
+    "ref": "co-zhipu"
+  },
+  "https://www.chinauos.com": {
+    "url": "https://www.chinauos.com",
+    "final_url": "https://www.chinauos.com/",
+    "http": 200,
+    "bytes": 3242,
+    "sha256": "5c8901db14a46d23d7525a444b7b1e40e8a74584cc944f6e65440adee64268aa",
+    "file": "sources/archive-desktop/files/5c8901db14a46d23d7525a444b7b1e40e8a74584cc944f6e65440adee64268aa.html",
+    "title": "统信UOS生态社区 - 打造操作系统创新生态",
+    "class": "ok",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:02:48.349Z",
+    "origin_queue": "directory",
+    "ref": "co-uniontech"
+  },
+  "https://www.hoperun.com": {
+    "url": "https://www.hoperun.com",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:02:52.991Z",
+    "origin_queue": "directory",
+    "ref": "co-hoperun"
+  },
+  "https://zgc.beijing.gov.cn": {
+    "url": "https://zgc.beijing.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:06.743Z",
+    "origin_queue": "directory",
+    "ref": "cn-zgc"
+  },
+  "https://gxj.sz.gov.cn": {
+    "url": "https://gxj.sz.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ECONNRESET",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:10.383Z",
+    "origin_queue": "directory",
+    "ref": "cn-sz-gxj"
+  },
+  "https://www.lg.gov.cn": {
+    "url": "https://www.lg.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ECONNRESET",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:14.041Z",
+    "origin_queue": "directory",
+    "ref": "cn-longgang"
+  },
+  "https://www.szlhq.gov.cn": {
+    "url": "https://www.szlhq.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ECONNRESET",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:18.287Z",
+    "origin_queue": "directory",
+    "ref": "cn-longhua"
+  },
+  "https://www.szft.gov.cn": {
+    "url": "https://www.szft.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ECONNRESET",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:22.518Z",
+    "origin_queue": "directory",
+    "ref": "cn-futian"
+  },
+  "https://www.szns.gov.cn": {
+    "url": "https://www.szns.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ECONNRESET",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:26.557Z",
+    "origin_queue": "directory",
+    "ref": "cn-nanshan"
+  },
+  "https://www.dg.gov.cn": {
+    "url": "https://www.dg.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:30.518Z",
+    "origin_queue": "directory",
+    "ref": "cn-dg"
+  },
+  "https://www.zj.gov.cn": {
+    "url": "https://www.zj.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:44.293Z",
+    "origin_queue": "directory",
+    "ref": "cn-zj-gov"
+  },
+  "https://kjt.zj.gov.cn": {
+    "url": "https://kjt.zj.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:03:58.026Z",
+    "origin_queue": "directory",
+    "ref": "cn-zj-kjt"
+  },
+  "https://jxj.hangzhou.gov.cn": {
+    "url": "https://jxj.hangzhou.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:04:11.758Z",
+    "origin_queue": "directory",
+    "ref": "cn-hz-jxj"
+  },
+  "https://www.hzxh.gov.cn": {
+    "url": "https://www.hzxh.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:04:25.496Z",
+    "origin_queue": "directory",
+    "ref": "cn-hz-xihu"
+  },
+  "https://www.yuhang.gov.cn": {
+    "url": "https://www.yuhang.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:04:39.215Z",
+    "origin_queue": "directory",
+    "ref": "cn-hz-yuhang"
+  },
+  "https://www.hzfstc.gov.cn": {
+    "url": "https://www.hzfstc.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:04:52.934Z",
+    "origin_queue": "directory",
+    "ref": "cn-hz-future"
+  },
+  "https://www.ningbo.gov.cn": {
+    "url": "https://www.ningbo.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:04:56.093Z",
+    "origin_queue": "directory",
+    "ref": "cn-nb"
+  },
+  "https://kjt.jiangsu.gov.cn": {
+    "url": "https://kjt.jiangsu.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:05:09.777Z",
+    "origin_queue": "directory",
+    "ref": "cn-js-kjt"
+  },
+  "https://gxt.hunan.gov.cn": {
+    "url": "https://gxt.hunan.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ERR_SSL_BAD_ECPOINT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:05:13.120Z",
+    "origin_queue": "directory",
+    "ref": "cn-hunan-zzb"
+  },
+  "https://www.changsha.gov.cn": {
+    "url": "https://www.changsha.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:05:17.304Z",
+    "origin_queue": "directory",
+    "ref": "cn-cs"
+  },
+  "https://www.zhuzhou.gov.cn": {
+    "url": "https://www.zhuzhou.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:05:30.962Z",
+    "origin_queue": "directory",
+    "ref": "cn-zhuzhou"
+  },
+  "https://jxt.sc.gov.cn": {
+    "url": "https://jxt.sc.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:05:44.634Z",
+    "origin_queue": "directory",
+    "ref": "cn-sc-jxt"
+  },
+  "https://www.sc.gov.cn": {
+    "url": "https://www.sc.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:05:58.292Z",
+    "origin_queue": "directory",
+    "ref": "cn-sc-gov"
+  },
+  "https://www.cd.gov.cn": {
+    "url": "https://www.cd.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ENOTFOUND",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:06:11.986Z",
+    "origin_queue": "directory",
+    "ref": "cn-cd"
+  },
+  "https://www.cq.gov.cn": {
+    "url": "https://www.cq.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:06:17.187Z",
+    "origin_queue": "directory",
+    "ref": "cn-cq-gov"
+  },
+  "https://www.liangjiang.gov.cn": {
+    "url": "https://www.liangjiang.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:06:30.830Z",
+    "origin_queue": "directory",
+    "ref": "cn-cq-liangjiang"
+  },
+  "https://gxj.tj.gov.cn": {
+    "url": "https://gxj.tj.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:06:44.582Z",
+    "origin_queue": "directory",
+    "ref": "cn-tj-gxj"
+  },
+  "https://gxt.hebei.gov.cn": {
+    "url": "https://gxt.hebei.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:06:58.291Z",
+    "origin_queue": "directory",
+    "ref": "cn-he-gxt"
+  },
+  "https://gxt.shanxi.gov.cn": {
+    "url": "https://gxt.shanxi.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:07:12.167Z",
+    "origin_queue": "directory",
+    "ref": "cn-sx-gxt"
+  },
+  "https://www.dl.gov.cn": {
+    "url": "https://www.dl.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:07:26.120Z",
+    "origin_queue": "directory",
+    "ref": "cn-dl"
+  },
+  "https://www.hefei.gov.cn": {
+    "url": "https://www.hefei.gov.cn",
+    "final_url": "https://www.hefei.gov.cn/",
+    "http": 403,
+    "bytes": 7385,
+    "sha256": "ad30177553f25605d0bd8e99713b62259b2ff9cd6e0b221117752cd91c17d440",
+    "file": null,
+    "title": "",
+    "class": "http-403",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:07:39.865Z",
+    "origin_queue": "directory",
+    "ref": "cn-hf"
+  },
+  "https://www.xm.gov.cn": {
+    "url": "https://www.xm.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:07:46.977Z",
+    "origin_queue": "directory",
+    "ref": "cn-xm"
+  },
+  "https://gxt.jiangxi.gov.cn": {
+    "url": "https://gxt.jiangxi.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:08:00.739Z",
+    "origin_queue": "directory",
+    "ref": "cn-jx-gxt"
+  },
+  "https://gxt.shandong.gov.cn": {
+    "url": "https://gxt.shandong.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:08:14.478Z",
+    "origin_queue": "directory",
+    "ref": "cn-sd-gxt"
+  },
+  "https://www.qingdao.gov.cn": {
+    "url": "https://www.qingdao.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:08:19.855Z",
+    "origin_queue": "directory",
+    "ref": "cn-qd"
+  },
+  "https://gxt.gxzf.gov.cn": {
+    "url": "https://gxt.gxzf.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:08:33.574Z",
+    "origin_queue": "directory",
+    "ref": "cn-gx-gxt"
+  },
+  "https://www.nanning.gov.cn": {
+    "url": "https://www.nanning.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:08:47.297Z",
+    "origin_queue": "directory",
+    "ref": "cn-nn"
+  },
+  "https://iitb.hainan.gov.cn": {
+    "url": "https://iitb.hainan.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:09:01.085Z",
+    "origin_queue": "directory",
+    "ref": "cn-hi-gxt"
+  },
+  "https://gxt.guizhou.gov.cn": {
+    "url": "https://gxt.guizhou.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:09:14.840Z",
+    "origin_queue": "directory",
+    "ref": "cn-gz-gxt"
+  },
+  "https://www.guiyang.gov.cn": {
+    "url": "https://www.guiyang.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:09:28.601Z",
+    "origin_queue": "directory",
+    "ref": "cn-guiyang"
+  },
+  "https://www.km.gov.cn": {
+    "url": "https://www.km.gov.cn",
+    "http": 0,
+    "class": "error",
+    "error": "UND_ERR_SOCKET",
+    "origin": {
+      "ip": "212.66.116.2",
+      "asn": "AS20912 ASN-PANSERVICE Giuliano Claudio Peritore trading as \"Panservice s.a.s. di Cuseo Fabrizio & C.\""
+    },
+    "utc": "2026-11-08T16:09:42.336Z",
+    "origin_queue": "directory",
+    "ref": "cn-km"
+  }
+}
