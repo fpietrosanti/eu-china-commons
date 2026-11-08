@@ -137,3 +137,11 @@ PA reuse is not the only goal: also map how each side builds open-source stacks 
 - [ ] Mailbox contact@eu-china-commons.eu: Fabio creates it, then add MX records via ~/domains.py dns-add
 - [ ] **CN mirror via Tencent EdgeOne Pages (FREE plan only), set up TOGETHER with Fabio when he has time:** (1) Fabio creates a free edgeone.ai account and connects GitHub repo fpietrosanti/eu-china-commons; (2) build cmd `node tools/build_funding.js && node tools/build_site.js`, output `site/`, region "Global (excluding Chinese mainland)" (no ICP); (3) check in the console that the plan is free with no card charge; (4) run the 31-node chinaz test on the *.edgeone.app URL, compare with GitHub (18/31 on 2026-11-08); (5) if better: CNAME cn.eu-china-commons.eu via ~/domains.py dns-add, and make cn. pages self-canonical for Baidu. Fallback: Alibaba OSS HK job in pages.yml (inactive)
 - [ ] Test reachability from mainland China (17ce.com / boce.com) and log result in docs/HOSTING-CN.md
+
+## Continuous collection (started 2026-11-08, Fabio: "procedi senza mai fermarti")
+- [ ] Industrial policy & economic impact literature → data/lit/industrial-policy.json, docs/INDUSTRIAL-POLICY.md (new research section)
+- [ ] EU–China and member-state–China cooperation map with official sites/contacts → data/cooperation/eu-cn.json, docs/EU-CN-COOPERATION-MAP.md
+- [ ] Organisation directory EU + member states → data/directory/eu-orgs.json, docs/DIRECTORY-EU.md
+- [ ] Organisation directory China → data/directory/cn-orgs.json, docs/DIRECTORY-CN.md
+- [ ] Publish: research chapter "Industrial policy", directory + cooperation map pages and CSV/JSON downloads on the site
+- Daily task step 2f keeps all four streams growing.
