@@ -163,7 +163,7 @@ ${body}
 </html>
 `;
 }
-const ORG = { '@context': 'https://schema.org', '@type': 'ResearchProject', name: NAME.en, alternateName: NAME.zh, url: BASE + '/', sameAs: [REPO], description: 'Independent observatory on European and Chinese digital commons and open-source policy, funding and public-sector reuse.' };
+const ORG = { '@context': 'https://schema.org', '@type': 'ResearchProject', name: NAME.en, alternateName: NAME.zh, url: BASE + '/', sameAs: [REPO, 'https://www.linkedin.com/company/eu-china-commons/'], description: 'Independent observatory on European and Chinese digital commons and open-source policy, funding and public-sector reuse.' };
 const firstPara = (s) => (s.replace(/\r/g, '').split('\n').filter((l) => l.trim() && !/^(#|\||>|\*|-|_)/.test(l.trim()))[0] || '').replace(/[*`[\]]/g, '').slice(0, 155);
 
 // ---------- research pages ----------
