@@ -32,3 +32,27 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  # Hong Kong mirror (cn.eu-china-commons.eu) on Alibaba Cloud OSS, region cn-hongkong.
+  # Runs only when the repo variable OSS_BUCKET is set and the secrets
+  # OSS_ACCESS_KEY_ID / OSS_ACCESS_KEY_SECRET exist (RAM user limited to that bucket).
+  mirror-hk:
+    needs: build
+    if: ${{ vars.OSS_BUCKET != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/build_funding.js && node tools/build_site.js
+      - name: Install ossutil
+        run: |
+          curl -sSfL -o ossutil.zip https://gosspublic.alicdn.com/ossutil/1.7.19/ossutil-v1.7.19-linux-amd64.zip
+          unzip -q ossutil.zip && sudo mv ossutil-v1.7.19-linux-amd64/ossutil64 /usr/local/bin/ossutil
+      - name: Sync site/ to OSS
+        env:
+          ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          KEY: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+        run: |
+          ossutil sync site/ "oss://${{ vars.OSS_BUCKET }}/" --delete -f \
+            -e oss-cn-hongkong.aliyuncs.com -i "$ID" -k "$KEY"
