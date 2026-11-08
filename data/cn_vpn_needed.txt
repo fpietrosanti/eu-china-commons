@@ -15,3 +15,5 @@ https://www.fengxian.gov.cn/ — Fengxian 2026-082 正版化软件采购 result 
 kaiyuanshe.cn (COSCon 2016, 2017 pages, Wayback-less)	2016 slogan conflict DeepSeek vs Qwen (R10)	official slogan, city, dates, track list
 https://atomgit.com/g-star/rank	G-Star full list by year (R09)	project list, graduation year, owner organisation
 https://gitee.com/gvp/all	GVP full list (R09)	project, owner org, stars, licence
+http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/57ec772e-6579-4f42-90ea-341772e99c8d.pdf	Hebei ccgp award annex, Shijiazhuang platform specifying Anolis OS 8.8 ANCK (R04/R06, DeepSeek 8 Nov; 403 GeoBL from EU laptop+server)	purchaser, project, year, OS line verbatim
+http://www.ccgp-hebei.gov.cn/BidWinAnncFiles/d373a21b-9bc2-194d-e343-77f143d7e887.pdf	Hebei ccgp second annex cited by DeepSeek (R04/R06, 8 Nov; GeoBL)	purchaser, OS line
