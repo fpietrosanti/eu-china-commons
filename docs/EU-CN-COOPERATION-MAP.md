@@ -68,7 +68,7 @@ Generated 2026-11-08 for the Europe-China Digital Commons Observatory. Data: `da
 | EU-China High-Level Environment and Climate Dialogue | dialogue | active | environment, diplomacy | [climate.ec.europa.eu](https://climate.ec.europa.eu) | [contact](https://climate.ec.europa.eu) | A |
 | EU-China Competition Policy Dialogue | dialogue | active | trade | [competition-policy.ec.europa.eu/international/bilateral-relations_en](https://competition-policy.ec.europa.eu/international/bilateral-relations_en) | [contact](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) | A |
 
-### Agreements (7)
+### Agreements (10)
 
 | Name | Type | Status | Domains | Website | Contact | Ev. |
 |---|---|---|---|---|---|---|
@@ -79,6 +79,9 @@ Generated 2026-11-08 for the Europe-China Digital Commons Observatory. Data: `da
 | NWO - NSFC cooperation | agreement | active | science | [www.nwo.nl/en](https://www.nwo.nl/en) | [contact](https://www.nwo.nl/en/contact) | A |
 | OpenAtom Foundation and Eclipse Foundation partnership | agreement | unknown | open-source | [www.eclipse.org](https://www.eclipse.org) | [contact](https://www.eclipse.org) | A |
 | OW2 and COPU cooperation | agreement | unknown | open-source | [www.ow2.org](https://www.ow2.org) | [contact](https://www.ow2.org) | A |
+| Austrian Standards International - SAC Co-operation Agreement (renewed 2018) | agreement | unknown | standards | [austrian-standards.at](https://www.austrian-standards.at/en/newsroom/pressemeldungen/standards-china-intensifies-co-operation-with-austria) | [contact](https://www.austrian-standards.at/en/contact) | A |
+| AFNOR - Chinese national standardisation administration cooperation agreement (6 May 2024) | agreement | active | standards | [elysee.fr](https://www.elysee.fr/emmanuel-macron/2024/05/10/declarations-et-accords-institutionnels-agrees-a-loccasion-de-la-visite-detat-de-xi-jinping-president-de-la-republique-populaire-de-chine-en-france) | [contact](https://www.afnor.org/en/contact/) | A |
+| France-China Joint Declaration on AI and Global Governance (2024; no mention of open source) | agreement | active | digital, diplomacy | [elysee.fr](https://www.elysee.fr/emmanuel-macron/2024/05/06/declaration-conjointe-entre-la-republique-francaise-et-la-republique-populaire-de-chine-sur-lintelligence-artificielle-et-la-gouvernance-des-enjeux-globaux) | [contact](https://www.elysee.fr/ecrire-au-president-de-la-republique) | A |
 
 ### Programmes (8)
 
@@ -335,7 +338,7 @@ Generated 2026-11-08 for the Europe-China Digital Commons Observatory. Data: `da
 
 EU-level and EU-wide entries are in the category tables above. Each country section lists every entry whose country list includes it (multilateral entries included).
 
-### Austria (AT) - 4 entries
+### Austria (AT) - 5 entries (+ Austrian Standards - SAC agreement, 9 Nov, see Agreements)
 
 | Name | Type | Status | Domains | Website | Contact | Ev. |
 |---|---|---|---|---|---|---|
@@ -423,7 +426,7 @@ EU-level and EU-wide entries are in the category tables above. Each country sect
 | Research Council of Finland - China cooperation | institution | active | science | [www.aka.fi/en](https://www.aka.fi/en) | [contact](https://www.aka.fi/en/about-the-rcf/about-us/contact-us/) | A |
 | Nordic Centre at Fudan University | joint-lab | active | education, science | [www.nordiccentre.org](https://www.nordiccentre.org) | [contact](https://www.nordiccentre.org) | B |
 
-### France (FR) - 14 entries
+### France (FR) - 16 entries (+ AFNOR - SAC 2024 agreement and FR-CN AI declaration, 9 Nov, see Agreements)
 
 | Name | Type | Status | Domains | Website | Contact | Ev. |
 |---|---|---|---|---|---|---|
@@ -669,7 +672,8 @@ EU-level and EU-wide entries are in the category tables above. Each country sect
 
 ## Gaps and caveats
 
-- **No digital, standards or open-source specific entry** for: Austria, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Luxembourg, Malta, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Norway. Entries there are chambers, trade agencies, funders, think tanks or Confucius Institutes. "None found" means none identified in this pass, not that none exists.
+- **Standards channels added 9 Nov:** Austria (ASI–SAC, 2018), France (AFNOR–SAC, 2024). Searched, not confirmed: UNE, SIS, NEN, UNI bilateral agreements with SAC (no result in EN/ZH search); BSI–SAC 2013 (press page now an index, not verified). FR–CN AI declaration 2024 read in full: **no mention of open source** (negative finding).
+- **No digital, standards or open-source specific entry** for: Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Luxembourg, Malta, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Norway. Entries there are chambers, trade agencies, funders, think tanks or Confucius Institutes. "None found" means none identified in this pass, not that none exists.
 - **EU level:** no EU-China open-source or digital-commons forum identified. Status of the High-Level Digital Dialogue (unknown), ICT dialogue (dormant) and Cyber Taskforce (unknown) needs checking against EEAS and DG CNECT sources.
 - **Searched but not confirmed (not included):** "ECRAN" (EU-China research and advisory network) and an "EU-China Policy Hub": no web results confirming either. A Dutch chamber of commerce in mainland China: no official site found (search returned the Danish chamber under the same acronym DCCC).
 - **Lithuania** left China-CEEC in 2021 and bilateral relations are strained; entries are generic agencies and funders.

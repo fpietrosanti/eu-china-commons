@@ -6916,5 +6916,118 @@
       "fact: Study concludes state funding of OSS can work in practice (Sovereign Tech Agency case)"
     ],
     "evidence": "B"
+  },
+  {
+    "type": "paper",
+    "geography": [
+      "CN"
+    ],
+    "language": "zh",
+    "accessed": "2026-11-09",
+    "organisation": "中国软科学 (China Soft Science)",
+    "id": "CN-072",
+    "title": "Research on the driving mechanisms and implementation paths of corporate open source innovation",
+    "title_original": "企业开源创新的驱动机制与实现路径研究",
+    "authors": "Xin Wen, Kaihua Chen, Guowei Dong, Qigang Zhu",
+    "year": 2026,
+    "topics": [
+      "OSPO",
+      "corporate open source",
+      "policy recommendations"
+    ],
+    "url": "https://doi.org/10.3724/1005-0566.20260112",
+    "url_http": "200",
+    "summary": "Comparative review of leading global firms' open-source strategy (OSPO institutionalisation, standard-setting, ecosystem collaboration) vs Chinese enterprises; ends with policy suggestions for China. 中国软科学 41(1):134-145, OA, full text archived (www.sciengine.com-db7b1eba2d.pdf).",
+    "key_findings": [
+      "fact (as argued by the authors): Chinese firms lag in OSS governance systems, talent and sustainable business models",
+      "proposal (authors): improve institutional support, incentive systems and ecosystem coordination"
+    ],
+    "evidence": "A"
+  },
+  {
+    "type": "paper",
+    "geography": [
+      "CN"
+    ],
+    "language": "zh",
+    "accessed": "2026-11-09",
+    "organisation": "中国软科学 (China Soft Science)",
+    "id": "CN-073",
+    "title": "Open-source organizational modes, innovation costs, and perceived policy effects",
+    "title_original": "开源组织模式、创新成本与政策效果感知",
+    "authors": "Zhe Wang, Lan Xue (Tsinghua University)",
+    "year": 2026,
+    "topics": [
+      "policy effectiveness",
+      "survey",
+      "open-source organisations",
+      "AI"
+    ],
+    "url": "https://doi.org/10.3724/1005-0566.20260403",
+    "url_http": "200",
+    "summary": "Nationwide survey of Chinese open-source organisations on how they perceive the effectiveness of national open-source innovation policies. 中国软科学 41(4):16-31; abstract via OpenAlex, full text not OA.",
+    "key_findings": [
+      "fact (survey result reported in abstract): less hierarchical organisations report stronger perceived policy effectiveness",
+      "fact (abstract): regulatory coordination costs reduce perceived policy efficacy; output appropriation costs strongly shape perceptions of funding allocation",
+      "inference: first empirical evaluation of Chinese OSS policy we found; converges with Liao & Zhang on coordination friction"
+    ],
+    "evidence": "B"
+  },
+  {
+    "type": "paper",
+    "geography": [
+      "CN"
+    ],
+    "language": "zh",
+    "accessed": "2026-11-09",
+    "organisation": "中国软科学 (China Soft Science)",
+    "id": "CN-074",
+    "title": "Open source innovation: Conceptual delineation, organizational logics, and paradigm reconstruction",
+    "title_original": "开源创新：概念界定、组织逻辑与范式重构",
+    "authors": "Jin Chen, Yang Yang",
+    "year": 2026,
+    "topics": [
+      "open source innovation",
+      "systematic review",
+      "theory"
+    ],
+    "url": "https://doi.org/10.3724/1005-0566.20260515",
+    "url_http": "200",
+    "summary": "Systematic review of 476 English-language articles (2000-2026) building a framework of open-source innovation beyond software (hardware, open science, open-source AI). 中国软科学 41(5):188-203; abstract via OpenAlex.",
+    "key_findings": [
+      "fact (abstract): open-source innovation framed as an organised innovation paradigm shaped by institutional constraints",
+      "inference: Chinese soft-science establishment is building a theory of 开源创新 in 2026 - a policy-relevant research agenda"
+    ],
+    "evidence": "B"
+  },
+  {
+    "type": "paper",
+    "geography": [
+      "CN",
+      "EU",
+      "US"
+    ],
+    "language": "zh",
+    "accessed": "2026-11-09",
+    "organisation": "中国软科学 (China Soft Science)",
+    "id": "CN-075",
+    "title": "China's regulatory strategy in the global open-source AI landscape: Comparative insights and independent framework construction",
+    "title_original": "全球开源人工智能博弈中的中国监管方案：经验借鉴与自主构建",
+    "authors": "Liao Huijiao, Zhang Taolue (Tongji University)",
+    "year": 2026,
+    "topics": [
+      "open-source AI",
+      "regulation",
+      "EU AI Act",
+      "comparison"
+    ],
+    "url": "https://doi.org/10.3724/1005-0566.20260102",
+    "url_http": "200",
+    "summary": "EU vs US vs CN open-source AI regulation; EU GPAI rules read as 'strategic self-binding'; CN incentives 'central tone-setting, local racing'. 中国软科学 41(1):16-26, OA, full text archived (www.sciengine.com-d0c9413e5a.pdf). Already in LITERATURE-REVIEW round 5.",
+    "key_findings": [
+      "fact (as argued): EU narrowed the open-source exemption for GPAI models",
+      "fact (as argued): CN local competition duplicates platforms and fragments standards"
+    ],
+    "evidence": "A"
   }
 ]

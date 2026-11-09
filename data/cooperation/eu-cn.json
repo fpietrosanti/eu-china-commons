@@ -6052,5 +6052,86 @@
     "source_url": "https://www.ui.se/english/research/swedish-national-china-centre/",
     "accessed": "2026-11-08",
     "evidence": "A"
+  },
+  {
+    "id": "at-asi-sac",
+    "name_en": "Austrian Standards International - SAC Co-operation Agreement",
+    "name_original": "Kooperationsabkommen Austrian Standards International - Standardization Administration of China",
+    "type": "agreement",
+    "scope": "AT-CN",
+    "countries": [
+      "AT",
+      "CN"
+    ],
+    "domains": [
+      "standards"
+    ],
+    "status": "unknown",
+    "since": 2018,
+    "description": "Bilateral co-operation agreement between the Austrian national standards body and SAC, renewed in October 2018 at the ISO General Assembly; aims at harmonising national standards with international ones and reducing barriers to trade. SAC appointed the then ASI director as strategic adviser. No digital or open-source scope stated. Fact (ASI press release 23 Oct 2018); current status after 2023 not verified.",
+    "official_website": "https://www.austrian-standards.at/en/newsroom/pressemeldungen/standards-china-intensifies-co-operation-with-austria",
+    "website_http": 200,
+    "website_is_parent_site": true,
+    "contact_channel": "https://www.austrian-standards.at/en/contact",
+    "contact_type": "official contact page (link found on organisation site)",
+    "relevance_for_observatory": "First Austrian standards channel with China in the map; route for OpenChain/ISO 18974 and SBOM standards dialogue (proposal).",
+    "source_url": "https://www.austrian-standards.at/en/newsroom/pressemeldungen/standards-china-intensifies-co-operation-with-austria",
+    "accessed": "2026-11-09",
+    "evidence": "A",
+    "see_stakeholder": "sac-china"
+  },
+  {
+    "id": "fr-afnor-sac-2024",
+    "name_en": "AFNOR - Chinese national standardisation administration cooperation agreement (2024)",
+    "name_original": "Accord de coopération entre l'AFNOR et l'Administration d'État pour la régulation des marchés de la RPC (Administration nationale de normalisation)",
+    "type": "agreement",
+    "scope": "FR-CN",
+    "countries": [
+      "FR",
+      "CN"
+    ],
+    "domains": [
+      "standards"
+    ],
+    "status": "active",
+    "since": 2024,
+    "description": "Cooperation agreement signed during the state visit of Xi Jinping to France (6 May 2024), item II.13 of the official list of agreements. Earlier AFNOR agreements with SAC (2013) and AQSIQ (2014) reported by AFNOR (not re-verified: AFNOR page now 404). Priority sectors reported by the press (agri-food, rail, e-health/silver economy, smart cities) are B. No open-source scope stated.",
+    "official_website": "https://www.elysee.fr/emmanuel-macron/2024/05/10/declarations-et-accords-institutionnels-agrees-a-loccasion-de-la-visite-detat-de-xi-jinping-president-de-la-republique-populaire-de-chine-en-france",
+    "website_http": 200,
+    "website_is_parent_site": true,
+    "contact_channel": "https://www.afnor.org/en/contact/",
+    "contact_type": "official contact page (organisation site, not individually opened)",
+    "relevance_for_observatory": "Active FR-CN standards channel; smart-cities strand overlaps with open-source urban platforms (inference).",
+    "source_url": "https://www.elysee.fr/emmanuel-macron/2024/05/10/declarations-et-accords-institutionnels-agrees-a-loccasion-de-la-visite-detat-de-xi-jinping-president-de-la-republique-populaire-de-chine-en-france",
+    "accessed": "2026-11-09",
+    "evidence": "A",
+    "see_stakeholder": "sac-china"
+  },
+  {
+    "id": "fr-cn-ai-declaration-2024",
+    "name_en": "France-China Joint Declaration on Artificial Intelligence and Global Governance (2024)",
+    "name_original": "Déclaration conjointe entre la République française et la République populaire de Chine sur l'intelligence artificielle et la gouvernance des enjeux globaux",
+    "type": "agreement",
+    "scope": "FR-CN",
+    "countries": [
+      "FR",
+      "CN"
+    ],
+    "domains": [
+      "digital",
+      "diplomacy"
+    ],
+    "status": "active",
+    "since": 2024,
+    "description": "Joint declaration of 6/7 May 2024 (state visit), reaffirmed at the December 2025 Macron state visit. Commitment-level text on international AI governance, AI summit participation and cyber capacity-building. Fact (full text read 9 Nov 2026, archived): it does not mention open source, open-weight models or free software.",
+    "official_website": "https://www.elysee.fr/emmanuel-macron/2024/05/06/declaration-conjointe-entre-la-republique-francaise-et-la-republique-populaire-de-chine-sur-lintelligence-artificielle-et-la-gouvernance-des-enjeux-globaux",
+    "website_http": 200,
+    "website_is_parent_site": true,
+    "contact_channel": "https://www.elysee.fr/ecrire-au-president-de-la-republique",
+    "contact_type": "official institutional contact form",
+    "relevance_for_observatory": "Only member-state-level CN declaration on AI found so far; open source is absent from it (negative finding) - a gap the observatory can point to (proposal).",
+    "source_url": "https://www.elysee.fr/emmanuel-macron/2024/05/06/declaration-conjointe-entre-la-republique-francaise-et-la-republique-populaire-de-chine-sur-lintelligence-artificielle-et-la-gouvernance-des-enjeux-globaux",
+    "accessed": "2026-11-09",
+    "evidence": "A"
   }
 ]

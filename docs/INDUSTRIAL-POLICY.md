@@ -50,6 +50,7 @@ Working document, 2026-11-08. Data: `data/lit/industrial-policy.json` (266 items
 - Institutional reports: CAICT white papers 2019/2020/2022 (CN-037-040), OpenAtom 2024 report (CN-034, B), COPU/OSCHINA blue book (CN-041), NIISC reports (CN-042, CN-043), CAS Bulletin (CN-044, CN-045).
 - Western analyses: MERICS (CN-001, CN-013, EU-051), OSW (CN-008), Jamestown (CN-010-012), USCC (CN-002), Stanford HAI/DigiChina (CN-004), RAND, CSET, CSIS, Carnegie, ASPI, Takshashila (CN-006, CN-007, CN-016-021, CN-029, CN-030, CN-018).
 - Ecosystem: openEuler (CN-059, CN-060), Gitee (CN-066), Baidu/Alibaba/Tencent landscape (CN-033, B), project counts (CN-036).
+- Chinese academic evaluation (added 9 Nov): 中国软科学 2026 runs a series on 开源创新 — Wang & Xue (Tsinghua) survey of Chinese open-source organisations on perceived policy effectiveness (CN-073, B: coordination costs lower perceived efficacy), Wen et al. on corporate OSPOs and the gaps of Chinese firms (CN-072, A), Chen & Yang theory review (CN-074, B), Liao & Zhang EU/US/CN open-source AI regulation (CN-075, A).
 - Inference: the sequence is demand-side substitution (xinchuang) -> domestic foundation (OpenAtom) -> municipal funding -> AI open-weight diplomacy; no document opened here quantifies GDP or productivity effects.
 
 ## 6. Member-state strategies (snapshot)
@@ -62,7 +63,7 @@ Working document, 2026-11-08. Data: `data/lit/industrial-policy.json` (266 items
 
 - No convincing causal evidence that OSS industrial policy raises productivity; no counterfactual studies of xinchuang.
 - No EU-China quantitative comparison of public OSS funding or contribution intensity found.
-- No CNKI-indexed empirical Chinese papers on OSS and productivity/GDP surfaced; Tsinghua/PKU/CASS output missing; CCID/CAICT primary texts not opened.
+- No CNKI-indexed empirical Chinese papers on OSS and productivity/GDP surfaced (one survey-based policy-perception study found 9 Nov: CN-073); Tsinghua/PKU/CASS output missing; CCID/CAICT primary texts not opened.
 - Missing primaries: COM(2026) 503 text, Cloud and AI Development Act, Chips Act 2.0 provisions on open source, MIIT plan Chinese original, Bundesrechnungshof report.
 - Think tanks with nothing found: CEPS, ECFR, IFRI, SWP, Terra Nova, Rhodium (open source specific), IISS, Atlantic Council, Paulson; ECA sovereignty audit; IMF, WIPO, World Bank OSS items (only DPI white paper).
 - Baltics, Czechia, Poland, UK, Nordics thin; no Eurostat OSS-specific dataset located.
