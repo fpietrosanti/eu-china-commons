@@ -5,7 +5,7 @@ const fs = require("fs");
 const { execFile } = require("child_process");
 const R = f => JSON.parse(fs.readFileSync(f, "utf8"));
 const eu = R("data/directory/eu-orgs.json"), cn = R("data/directory/cn-orgs.json"), co = R("data/cooperation/eu-cn.json");
-const adds = require("./collab_additions.js");
+const adds = require("./collab_additions.js").concat(require("./collab_additions_macao.js"));
 const CACHE = "data/stakeholders/.http-cache.json";
 const cache = fs.existsSync(CACHE) ? R(CACHE) : {};
 

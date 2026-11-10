@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-10",
   "note": "Collaboration map v1 (roadmap track G). value_proposition and likelihood are inferences, not facts; evidence reflects the existence/identity of the organisation (docs/METHODOLOGY.md levels), not the inference. institutional_contact holds official pages only; no personal data.",
-  "count": 950,
+  "count": 967,
   "records": [
     {
       "id": "at-epicenter",
@@ -3804,6 +3804,37 @@
       "origin": "addition (homepage fetched 2026-11, identity read)"
     },
     {
+      "id": "mo-fdct",
+      "name": "Science and Technology Development Fund (FDCT), Macao SAR",
+      "name_zh": "澳門科學技術發展基金",
+      "side": "CN",
+      "type": "funder",
+      "url": "https://www.fdct.gov.mo",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.fdct.gov.mo",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Macao public research funder with bilateral and joint schemes: MoU with Portugal's FCT (2017, one 2019 joint call reported), NSFC-FDCT joint research programme (2026 round reported), past FDCT-MOST and Guangdong joint calls. Gains (inference): a pipeline of international commons projects and impact evidence.",
+      "tracks": [
+        "F",
+        "A"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "FCT-FDCT MoU 2017 (FCT page, read 2026-11); NSFC-FDCT renewal Oct 2025 and 2026 joint programme (press/university notices, reported).",
+          "source_url": "https://www.fdct.gov.mo",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Only funder found with joint schemes with both a Portuguese and a mainland agency; thematic fit of open source/digital commons to be tested.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "cm-aiia",
       "name": "AI Industry Alliance (AIIA)",
       "name_zh": "中国人工智能产业发展联盟",
@@ -6495,6 +6526,37 @@
       "origin": "directory"
     },
     {
+      "id": "gba-hengqin",
+      "name": "Executive Committee of the Guangdong-Macao In-Depth Cooperation Zone in Hengqin",
+      "name_zh": "横琴粤澳深度合作区执行委员会",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.hengqin.gov.cn",
+      "region": "GBA",
+      "institutional_contact": {
+        "url": "https://www.hengqin.gov.cn",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Administrative body of the cooperation zone in Hengqin, Guangdong, adjacent to Macao; operates cross-border online services and publishes Macao-linked policy notices; possible interoperability testbed. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "E",
+        "D"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Zone site lists cross-border online services and Macao-linked policies (homepage read 2026-11-10).",
+          "source_url": "https://www.hengqin.gov.cn",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Testbed for cross-border services; open-source remit not checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "hk-astri",
       "name": "Hong Kong Applied Science and Technology Research Institute (ASTRI)",
       "name_zh": "香港应用科技研究院",
@@ -6730,6 +6792,143 @@
       ],
       "likelihood": "medium",
       "likelihood_reason": "Inference (analyst judgement, not yet validated): Policy counterpart for Greater Bay Area science and technology cooperation.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-cpttm",
+      "name": "Macao Productivity and Technology Transfer Center (CPTTM)",
+      "name_zh": "澳門生產力暨科技轉移中心",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.cpttm.org.mo/en/",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.cpttm.org.mo/en/",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Macao technology transfer, testing and training centre for industry; potential testbed and training partner for SMEs. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "D",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Industry-facing technology body; open-source remit not checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-dsedt",
+      "name": "Economic and Technological Development Bureau (DSEDT)",
+      "name_zh": "澳門經濟及科技發展局",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.dsedt.gov.mo/en_US/pg_home",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.dsedt.gov.mo/en_US/pg_home",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Macao bureau for economic and technological development; hosts the Science and Technology Development Fund web presence and industrial/technology policy. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "F",
+        "A"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Policy owner for science, technology and industry; open-source stance not checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-gov-portal",
+      "name": "Macao SAR Government Portal",
+      "name_zh": "澳門特別行政區政府入口網站",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.gov.mo/en/",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.gov.mo/en/",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Official government portal; entry point to One Account and public notices, including AI-assisted services reported in Chinese, English and Portuguese. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "C",
+        "E"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "AI service on the One Account platform in three languages incl. Portuguese (press, reported 2026-04).",
+          "source_url": "https://www.gov.mo/en/",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Portal rather than a decision-making body.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-ipim",
+      "name": "Commerce and Investment Promotion Institute of the Macao SAR (IPIM)",
+      "name_zh": "澳門貿易投資促進局",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.ipim.gov.mo/en",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.ipim.gov.mo/en/about-ipim/contact-us",
+        "kind": "contact page"
+      },
+      "value_proposition": "Brings: Macao investment and trade promotion body; its site presents the Commercial and Trade Co-operation Service Platform between China and Portuguese-speaking countries, a China-PSC business compass and a talent/business portal; Forum Macao support staff are reported to come from IPIM; runs GBA business conferences. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "C",
+        "D"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Site describes Macao as a gateway for mainland cooperation with Portuguese-speaking countries via its service platform (homepage read 2026-11-10).",
+          "source_url": "https://www.ipim.gov.mo/en",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Operates the Lusophone business platform and event channel; natural disseminator of bilingual material.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-safp",
+      "name": "Public Administration and Civil Service Bureau (SAFP)",
+      "name_zh": "澳門行政公職局",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.safp.gov.mo",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.safp.gov.mo",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Macao public administration bureau (the former DSAFP) responsible for administrative modernisation and e-government; counterpart for digital-government practice, including trilingual services. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "A",
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Digital-government counterpart; current ownership of open-source policy not confirmed.",
       "evidence": "A",
       "web_http": 200,
       "source_ids": [],
@@ -8868,6 +9067,138 @@
       "web_http": 200,
       "source_ids": [],
       "origin": "addition (homepage fetched 2026-11, identity read)+addition"
+    },
+    {
+      "id": "mo-cityu",
+      "name": "City University of Macau",
+      "name_zh": "澳門城市大學",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.cityu.edu.mo/en/",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.cityu.edu.mo/en/",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: University in Macao; possible partner for research exchange and student placements. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Broad university; no open-source or EU-China link found.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-mpu",
+      "name": "Macao Polytechnic University (MPU)",
+      "name_zh": "澳門理工大學",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.mpu.edu.mo/en",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.mpu.edu.mo/en",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Macao polytechnic university; reported to host an Engineering Research Centre of Applied Technology on Machine Translation and AI (with China's Ministry of Education) and a Chinese-Portuguese neural machine translation platform. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "C",
+        "E"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Centre on machine translation and AI established 2019 with China's Ministry of Education; Chinese-Portuguese translation platform (university account, reported).",
+          "source_url": "https://www.mpu.edu.mo/en",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Chinese-Portuguese translation and AI capability matches the language-barrier theme (tracks C, E).",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-must",
+      "name": "Macau University of Science and Technology (MUST)",
+      "name_zh": "澳門科技大學",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.must.edu.mo",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.must.edu.mo",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: University in Macao with computing and data science programmes; partner for research tracks and student exchange. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Research university; open-source stance not yet checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-um",
+      "name": "University of Macau",
+      "name_zh": "澳門大學",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.um.edu.mo",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.um.edu.mo",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Macao public research university with AI and IoT research; brings research capacity and English-language materials. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "B",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Research university with international staff; open-source programme not yet checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "mo-usj",
+      "name": "University of Saint Joseph, Macao (USJ)",
+      "name_zh": "澳門聖若瑟大學",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.usj.edu.mo/en/",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://www.usj.edu.mo/en/",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: University in Macao with Portuguese-language and international links; possible partner for Portuguese-language outreach and research. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Portuguese-language ties; technical research focus not checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
     },
     {
       "id": "x-cas-iscas",
@@ -13506,6 +13837,36 @@
         "eu-edps"
       ],
       "origin": "directory"
+    },
+    {
+      "id": "eu-eeas-hkmo",
+      "name": "Office of the European Union to Hong Kong and Macao",
+      "side": "EU",
+      "type": "public-agency",
+      "url": "https://www.eeas.europa.eu/hong-kong_en",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.eeas.europa.eu/eeas/contact_en",
+        "kind": "contact page"
+      },
+      "value_proposition": "Brings: EU diplomatic office covering Hong Kong and Macao; channel for EU-side information on Macao and the Greater Bay Area. Gains (inference): comparative evidence on open source policy and a channel to counterparts in China.",
+      "tracks": [
+        "A",
+        "C"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Page titled Delegation of the EU to Hong Kong and Macao, with a section 'The European Union and Macao' (read 2026-11-10).",
+          "source_url": "https://www.eeas.europa.eu/hong-kong_en",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Institutional channel for notification; no open-source programme.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
     },
     {
       "id": "eu-eesc",
@@ -21968,6 +22329,29 @@
       "origin": "cooperation"
     },
     {
+      "id": "pt-ani",
+      "name": "National Innovation Agency (ANI), Portugal",
+      "name_zh": "Agência Nacional de Inovação",
+      "side": "PT",
+      "type": "funder",
+      "url": "https://ani.pt",
+      "institutional_contact": {
+        "url": "https://ani.pt",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Portuguese innovation agency; possible route to national co-funding and international innovation partnerships. Gains (inference): a pipeline of cross-border commons work to fund and impact evidence.",
+      "tracks": [
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Funding scope relative to open-source commons unverified.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "pt-ccilc",
       "name": "Portugal-China Chamber of Commerce and Industry",
       "side": "PT",
@@ -22021,6 +22405,53 @@
       "origin": "directory"
     },
     {
+      "id": "pt-arte",
+      "name": "ARTE, Agency for State Technological Reform",
+      "name_zh": "Agência para a Reforma Tecnológica do Estado",
+      "side": "PT",
+      "type": "public-agency",
+      "url": "https://www.arte.gov.pt",
+      "institutional_contact": {
+        "url": "https://www.arte.gov.pt",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Portuguese public-sector digital agency (the former AMA domain now redirects here); counterpart for digital-government comparisons with Macao and China. Gains (inference): comparative evidence on open source policy and a channel to counterparts in China.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Digital-government agency; China cooperation link not checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "pt-camoes",
+      "name": "Camões, Institute for Cooperation and Language",
+      "name_zh": "Instituto Camões",
+      "side": "PT",
+      "type": "public-agency",
+      "url": "https://www.instituto-camoes.pt",
+      "institutional_contact": {
+        "url": "https://www.instituto-camoes.pt",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Portuguese public institute for cooperation and the Portuguese language; relevant for Portuguese-language materials and language networks. Gains (inference): comparative evidence on open source policy and a channel to counterparts in China.",
+      "tracks": [
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Language and cooperation remit; no technology programme checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "pt-cncs",
       "name": "National Cybersecurity Centre",
       "side": "PT",
@@ -22043,6 +22474,30 @@
         "pt-cncs"
       ],
       "origin": "directory"
+    },
+    {
+      "id": "pt-consulado-macau",
+      "name": "Consulate-General of Portugal in Macao",
+      "name_zh": "Consulado-Geral de Portugal em Macau",
+      "side": "PT",
+      "type": "public-agency",
+      "url": "https://macau.consuladoportugal.mne.gov.pt/pt/",
+      "region": "MO",
+      "institutional_contact": {
+        "url": "https://macau.consuladoportugal.mne.gov.pt/pt/",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Portuguese diplomatic post in Macao; institutional channel for Portuguese-government contact in Macao. Gains (inference): comparative evidence on open source policy and a channel to counterparts in China.",
+      "tracks": [
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Courtesy channel; no technology remit.",
+      "evidence": "D",
+      "web_http": 503,
+      "source_ids": [],
+      "origin": "addition (prior knowledge)"
     },
     {
       "id": "pt-lisboa",
