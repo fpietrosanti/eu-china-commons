@@ -1,6 +1,6 @@
 # COLLABORATION MAP v1 (roadmap track G)
 
-Source of truth: [../data/stakeholders/collab-map.json](../data/stakeholders/collab-map.json) (912 organisations, generated 2026-11-10 by `tools/build_collab_map.js`; this page by `tools/build_collab_doc.js`).
+Source of truth: [../data/stakeholders/collab-map.json](../data/stakeholders/collab-map.json) (950 organisations, generated 2026-11-10 by `tools/build_collab_map.js`; this page by `tools/build_collab_doc.js`).
 
 **Status: first version, machine-assisted, not yet human-validated.** Every `value_proposition` and `likelihood` is an **inference** (labelled in each record), not a fact. `evidence` (A/A-v/B/C/D, see METHODOLOGY) describes only the existence and identity of the organisation. No outreach has been made; `institutional_contact` holds official pages only, no personal data.
 
@@ -18,7 +18,7 @@ Source of truth: [../data/stakeholders/collab-map.json](../data/stakeholders/col
 ### By side
 | side | n |
 |---|---|
-| CN | 263 |
+| CN | 301 |
 | EU | 64 |
 | DE | 60 |
 | INTL | 51 |
@@ -55,52 +55,52 @@ Source of truth: [../data/stakeholders/collab-map.json](../data/stakeholders/col
 ### By type
 | type | n |
 |---|---|
-| public-agency | 212 |
-| university | 170 |
-| company | 118 |
-| cooperation-body | 103 |
-| community | 88 |
-| industry-assoc | 88 |
-| think-tank | 58 |
+| public-agency | 221 |
+| university | 182 |
+| company | 119 |
+| cooperation-body | 104 |
+| industry-assoc | 94 |
+| community | 92 |
+| think-tank | 59 |
 | foundation | 34 |
 | standards | 22 |
-| funder | 11 |
-| OSPO | 8 |
+| funder | 13 |
+| OSPO | 10 |
 
 ### By likelihood (inference)
 | likelihood | n |
 |---|---|
-| low | 606 |
-| medium | 233 |
-| high | 73 |
+| low | 617 |
+| medium | 257 |
+| high | 76 |
 
 ### By evidence level of the organisation record
 | evidence | n |
 |---|---|
-| C | 382 |
+| C | 386 |
 | B | 349 |
-| A | 161 |
+| A | 195 |
 | D | 20 |
 
 ### By track (an organisation can fit several)
 | track | n |
 |---|---|
-| A | 501 |
-| B | 61 |
-| C | 333 |
-| D | 204 |
-| E | 95 |
-| F | 98 |
+| A | 516 |
+| B | 66 |
+| C | 342 |
+| D | 220 |
+| E | 106 |
+| F | 107 |
 
 ### Group x likelihood
 | group | high | medium | low |
 |---|---|---|---|
 | EU institutions | 11 | 24 | 29 |
 | Member states / Europe (non-EU incl.) | 28 | 151 | 355 |
-| CN | 23 | 37 | 203 |
+| CN | 26 | 61 | 214 |
 | INTL | 11 | 21 | 19 |
 
-Records with at least one documented tie to the other side: **227** of 912.
+Records with at least one documented tie to the other side: **235** of 950.
 
 ## Top 50 high-likelihood organisations
 Ranked by heuristic score (ties and evidence as tie-breakers). Likelihood is an inference.
@@ -125,44 +125,44 @@ Ranked by heuristic score (ties and evidence as tie-breakers). Likelihood is an 
 | 16 | `x-riscv-intl` | [RISC-V International](https://riscv.org) | INTL | standards | A,B,D | Headquartered in Switzerland; strong Chinese membership (reported). | C |
 | 17 | `x-w3c` | [World Wide Web Consortium (W3C)](https://www.w3.org) | INTL | standards | A,B | Hosts in China (Beihang) and Europe (ERCIM). | C |
 | 18 | `x-cern` | [CERN](https://home.cern) | INTL | university | A,B | Chinese institutes participate in CERN experiments (reported). | C |
-| 19 | `ch-cern-ospo` | [CERN Open Source Program Office](https://ospo.web.cern.ch) | CH | OSPO | A,C | Inference from heuristic score 5: priority 1 in directory; OSPO fits the commons agenda; 1 listed open-source… | B |
-| 20 | `cm-anolis` | [OpenAnolis (Dragon Lizard) community](https://openanolis.cn) | CN | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
-| 21 | `cm-atomgit` | [AtomGit](https://atomgit.com) | CN | community | C,E | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
-| 22 | `cm-deepin` | [deepin community / UnionTech](https://www.deepin.org) | CN | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
-| 23 | `cm-modelscope` | [ModelScope](https://www.modelscope.cn) | CN | community | C,E | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
-| 24 | `cn-baai` | [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn) | CN | university | A | Inference from heuristic score 5: priority 1 in directory; university fits the commons agenda; 2 listed open-… | B |
-| 25 | `cn-bosc` | [Beijing Institute of Open Source Chip (BOSC)](https://www.bosc.ac.cn) | CN | university | A,B | Inference from heuristic score 5: priority 1 in directory; university fits the commons agenda; 1 listed open-… | B |
-| 26 | `cn-shlab` | [Shanghai AI Laboratory](https://www.shlab.org.cn) | CN | university | A | Inference from heuristic score 5: priority 1 in directory; university fits the commons agenda; 3 listed open-… | B |
-| 27 | `cz-nic` | [CZ.NIC](https://www.nic.cz) | CZ | foundation | C | Inference from heuristic score 5: priority 1 in directory; foundation fits the commons agenda; 1 listed open-… | B |
-| 28 | `de-prototypefund` | [Prototype Fund](https://prototypefund.de) | DE | funder | F | Inference from heuristic score 5: priority 1 in directory; funder fits the commons agenda; 1 listed open-sour… | B |
-| 29 | `dk-os2` | [OS2 - Public Digitalization Network](https://os2.eu) | DK | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
-| 30 | `eu-eurostack` | [EuroStack initiative](https://eurostack.eu) | EU | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
-| 31 | `eu-orcwg` | [Open Regulatory Compliance Working Group (Eclipse)](https://orcwg.org) | EU | foundation | C | Inference from heuristic score 5: priority 1 in directory; foundation fits the commons agenda; 1 listed open-… | B |
-| 32 | `eu-ospo-zone` | [OSPO Alliance / OSPO.Zone](https://ospo.zone) | EU | OSPO | C | Inference from heuristic score 5: priority 1 in directory; OSPO fits the commons agenda; 1 listed open-source… | B |
-| 33 | `eu-openfuture` | [Open Future Foundation](https://openfuture.eu) | EU | think-tank | A | Inference from heuristic score 5: priority 1 in directory; think-tank fits the commons agenda; 1 listed open-… | B |
-| 34 | `fr-april` | [April](https://www.april.org) | FR | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
-| 35 | `fr-softwareheritage` | [Software Heritage](https://www.softwareheritage.org) | FR | foundation | C | Inference from heuristic score 5: priority 1 in directory; foundation fits the commons agenda; 1 listed open-… | B |
-| 36 | `nl-nlnet` | [NLnet Foundation](https://nlnet.nl) | NL | funder | F | Inference from heuristic score 5: priority 1 in directory; funder fits the commons agenda; 1 listed open-sour… | B |
-| 37 | `nl-opensourcewerken` | [OSPO of the Dutch national government (Open Source Werken)](https://opensourcewerken.nl) | NL | OSPO | A,C | Inference from heuristic score 5: priority 1 in directory; OSPO fits the commons agenda; 1 listed open-source… | B |
-| 38 | `x-kaiyuanshe` | [KAIYUANSHE](https://kaiyuanshe.cn) | CN | community | C,D | Inference (analyst judgement, not yet validated): Active community bridge. | C |
-| 39 | `x-openeuler` | [openEuler](https://www.openeuler.org) | CN | community | D,E | Inference (analyst judgement, not yet validated): Distribution with international contributors. | C |
-| 40 | `x-ospp` | [Open Source Promotion Plan (OSPP)](https://summer-ospp.ac.cn) | CN | community | C | Inference (analyst judgement, not yet validated): Easy pairing with EU mentoring. | C |
-| 41 | `x-openatom` | [OpenAtom Foundation](https://www.openatom.org) | CN | foundation | A,C,D | Inference (analyst judgement, not yet validated): Natural counterpart for neutral hosting talks. | D |
-| 42 | `x-caict` | [CAICT](https://www.caict.ac.cn) | CN | think-tank | A,B,D | Inference (analyst judgement, not yet validated): Core Chinese OSS policy research. | D |
-| 43 | `x-spdx` | [SPDX](https://spdx.dev) | INTL | standards | B,E | Inference (analyst judgement, not yet validated): SBOM cooperation (B1/E4). | C |
-| 44 | `cn-ccsa` | [China Communications Standards Association](https://www.ccsa.org.cn) | CN | standards | A | China Communications Standards Association (CCSA) (institution, EU-CN): Chinese telecom standards organisatio… | B |
-| 45 | `eu-digitaleurope` | [DigitalEurope](https://www.digitaleurope.org) | EU | industry-assoc | A,B,D | DIGITALEUROPE (chamber, EU-CN): Brussels trade association for the European digital industry; follows EU-Chin… | B |
-| 46 | `nl-clingendael` | [Clingendael](https://www.clingendael.org) | NL | think-tank | A | Clingendael China Centre (think-tank, NL-CN): Dutch think tank China-focused research programme. | B |
-| 47 | `de-dgap` | [DGAP](https://dgap.org) | DE | think-tank | A | DGAP (German Council on Foreign Relations) (think-tank, DE-CN): Berlin think tank with a China-focused resear… | C |
-| 48 | `de-swp` | [SWP (German Institute for International and Security Affairs)](https://www.swp-berlin.org) | DE | think-tank | A,B | SWP - German Institute for International and Security Affairs, China research (think-tank, DE-CN): Berlin thi… | C |
-| 49 | `es-elcano` | [Real Instituto Elcano](https://www.realinstitutoelcano.org) | ES | think-tank | A | Real Instituto Elcano - Asia programme (think-tank, ES-CN): Spanish think tank with a China-focused research … | C |
-| 50 | `fr-ifri` | [Ifri](https://www.ifri.org) | FR | think-tank | A | IFRI Centre for Asian Studies (think-tank, FR-CN): Think tank with China-focused research. | C |
+| 19 | `hk-isoc` | [Internet Society Hong Kong chapter](https://www.isoc.hk) | CN | community | B,C | Inference (analyst judgement, not yet validated): Neutral community chapter with governance interest. | A |
+| 20 | `hk-opensource` | [Open Source Hong Kong](https://opensource.hk) | CN | community | C,E | Inference (analyst judgement, not yet validated): Direct fit: local open-source community and contact point. | A |
+| 21 | `hk-pycon` | [PyCon HK](https://pycon.hk) | CN | community | C | Inference (analyst judgement, not yet validated): Developer community event with open-source contributors. | A |
+| 22 | `ch-cern-ospo` | [CERN Open Source Program Office](https://ospo.web.cern.ch) | CH | OSPO | A,C | Inference from heuristic score 5: priority 1 in directory; OSPO fits the commons agenda; 1 listed open-source… | B |
+| 23 | `cm-anolis` | [OpenAnolis (Dragon Lizard) community](https://openanolis.cn) | CN | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
+| 24 | `cm-atomgit` | [AtomGit](https://atomgit.com) | CN | community | C,E | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
+| 25 | `cm-deepin` | [deepin community / UnionTech](https://www.deepin.org) | CN | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
+| 26 | `cm-modelscope` | [ModelScope](https://www.modelscope.cn) | CN | community | C,E | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
+| 27 | `cn-baai` | [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn) | CN | university | A | Inference from heuristic score 5: priority 1 in directory; university fits the commons agenda; 2 listed open-… | B |
+| 28 | `cn-bosc` | [Beijing Institute of Open Source Chip (BOSC)](https://www.bosc.ac.cn) | CN | university | A,B | Inference from heuristic score 5: priority 1 in directory; university fits the commons agenda; 1 listed open-… | B |
+| 29 | `cn-shlab` | [Shanghai AI Laboratory](https://www.shlab.org.cn) | CN | university | A | Inference from heuristic score 5: priority 1 in directory; university fits the commons agenda; 3 listed open-… | B |
+| 30 | `cz-nic` | [CZ.NIC](https://www.nic.cz) | CZ | foundation | C | Inference from heuristic score 5: priority 1 in directory; foundation fits the commons agenda; 1 listed open-… | B |
+| 31 | `de-prototypefund` | [Prototype Fund](https://prototypefund.de) | DE | funder | F | Inference from heuristic score 5: priority 1 in directory; funder fits the commons agenda; 1 listed open-sour… | B |
+| 32 | `dk-os2` | [OS2 - Public Digitalization Network](https://os2.eu) | DK | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
+| 33 | `eu-eurostack` | [EuroStack initiative](https://eurostack.eu) | EU | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
+| 34 | `eu-orcwg` | [Open Regulatory Compliance Working Group (Eclipse)](https://orcwg.org) | EU | foundation | C | Inference from heuristic score 5: priority 1 in directory; foundation fits the commons agenda; 1 listed open-… | B |
+| 35 | `eu-ospo-zone` | [OSPO Alliance / OSPO.Zone](https://ospo.zone) | EU | OSPO | C | Inference from heuristic score 5: priority 1 in directory; OSPO fits the commons agenda; 1 listed open-source… | B |
+| 36 | `eu-openfuture` | [Open Future Foundation](https://openfuture.eu) | EU | think-tank | A | Inference from heuristic score 5: priority 1 in directory; think-tank fits the commons agenda; 1 listed open-… | B |
+| 37 | `fr-april` | [April](https://www.april.org) | FR | community | C | Inference from heuristic score 5: priority 1 in directory; community fits the commons agenda; 1 listed open-s… | B |
+| 38 | `fr-softwareheritage` | [Software Heritage](https://www.softwareheritage.org) | FR | foundation | C | Inference from heuristic score 5: priority 1 in directory; foundation fits the commons agenda; 1 listed open-… | B |
+| 39 | `nl-nlnet` | [NLnet Foundation](https://nlnet.nl) | NL | funder | F | Inference from heuristic score 5: priority 1 in directory; funder fits the commons agenda; 1 listed open-sour… | B |
+| 40 | `nl-opensourcewerken` | [OSPO of the Dutch national government (Open Source Werken)](https://opensourcewerken.nl) | NL | OSPO | A,C | Inference from heuristic score 5: priority 1 in directory; OSPO fits the commons agenda; 1 listed open-source… | B |
+| 41 | `x-kaiyuanshe` | [KAIYUANSHE](https://kaiyuanshe.cn) | CN | community | C,D | Inference (analyst judgement, not yet validated): Active community bridge. | C |
+| 42 | `x-openeuler` | [openEuler](https://www.openeuler.org) | CN | community | D,E | Inference (analyst judgement, not yet validated): Distribution with international contributors. | C |
+| 43 | `x-ospp` | [Open Source Promotion Plan (OSPP)](https://summer-ospp.ac.cn) | CN | community | C | Inference (analyst judgement, not yet validated): Easy pairing with EU mentoring. | C |
+| 44 | `x-openatom` | [OpenAtom Foundation](https://www.openatom.org) | CN | foundation | A,C,D | Inference (analyst judgement, not yet validated): Natural counterpart for neutral hosting talks. | D |
+| 45 | `x-caict` | [CAICT](https://www.caict.ac.cn) | CN | think-tank | A,B,D | Inference (analyst judgement, not yet validated): Core Chinese OSS policy research. | D |
+| 46 | `x-spdx` | [SPDX](https://spdx.dev) | INTL | standards | B,E | Inference (analyst judgement, not yet validated): SBOM cooperation (B1/E4). | C |
+| 47 | `cn-ccsa` | [China Communications Standards Association](https://www.ccsa.org.cn) | CN | standards | A | China Communications Standards Association (CCSA) (institution, EU-CN): Chinese telecom standards organisatio… | B |
+| 48 | `eu-digitaleurope` | [DigitalEurope](https://www.digitaleurope.org) | EU | industry-assoc | A,B,D | DIGITALEUROPE (chamber, EU-CN): Brussels trade association for the European digital industry; follows EU-Chin… | B |
+| 49 | `nl-clingendael` | [Clingendael](https://www.clingendael.org) | NL | think-tank | A | Clingendael China Centre (think-tank, NL-CN): Dutch think tank China-focused research programme. | B |
+| 50 | `de-dgap` | [DGAP](https://dgap.org) | DE | think-tank | A | DGAP (German Council on Foreign Relations) (think-tank, DE-CN): Berlin think tank with a China-focused resear… | C |
 
 ## Gaps and caveats
 - **Member-state coverage**: 30 country codes outside the EU level and China appear. The smallest states are represented mostly by government units and Wikimedia chapters, rarely by OSS foundations.
-- **Chinese provinces and cities**: 89 Chinese public-agency records, mostly central, provincial and municipal economy/IT bodies from the directory. Only one provincial/city open-source association (Shanghai) was verified in this pass; searches for Zhejiang, Shenzhen and Chengdu open-source associations found policy documents but no association websites. This remains a gap.
+- **Chinese provinces and cities**: 98 Chinese public-agency records, mostly central, provincial and municipal economy/IT bodies from the directory. Only one provincial/city open-source association (Shanghai) was verified in this pass; searches for Zhejiang, Shenzhen and Chengdu open-source associations found policy documents but no association websites. This remains a gap.
 - **Contacts**: most `institutional_contact` entries are homepages or contact pages found automatically; curated additions only have the homepage. A contact-page pass is needed before any outreach.
-- **Evidence**: 402 records are evidence C/D. The 82 curated additions carry prior-knowledge claims about EU-China ties (`evidence: D` on each tie): leads to verify, not facts.
+- **Evidence**: 406 records are evidence C/D. The 120 curated additions carry prior-knowledge claims about EU-China ties (`evidence: D` on each tie): leads to verify, not facts.
 - **Value propositions** are generated from the directory's role description plus a per-type template of what the organisation gains; the top 50 deserve hand-written versions.
 - **Likelihood** is a transparent heuristic, not a measurement of interest; no organisation has been contacted. Politically sensitive actors (telecom vendors, security agencies, state think tanks) are rated low for open collaboration on purpose.
 - **Categories to search next**: national OSPOs in smaller member states, Chinese university open-source programme offices, Hong Kong foundations, universities and innovation bodies (in scope: as part of the Greater Bay Area together with Shenzhen, it shares a substantial and long-standing cross-fertilisation of research, talent, capital and open-source communities with mainland China, and often acts as a bridge to European partners. Macao is included for the same Greater Bay Area reason and for its established role as a platform between China and Portuguese-speaking countries, which gives Portugal and the Lusophone world a specific channel of cooperation.), member-state science councillors and China offices, EU RISC-V companies, Chinese open-source education bases.

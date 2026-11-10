@@ -28,3 +28,4 @@ x-digitaleurope -> eu-digitaleurope
 x-bitkom -> de-bitkom
 x-canonical -> uk-canonical
 x-orcwg -> eu-orcwg
+hk-polyu-kteo -> hk-polyu

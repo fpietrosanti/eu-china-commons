@@ -145,7 +145,7 @@ function curl(u) {
   for (let i = 0; i < todo.length; i += 12) await Promise.all(todo.slice(i, i + 12).map(async a => { cache[a[5]] = await curl(a[5]); }));
   fs.mkdirSync("data/stakeholders", { recursive: true });
   fs.writeFileSync(CACHE, JSON.stringify(cache, null, 2) + "\n", "utf8");
-  for (const [id, name, zh, side, type, url, vp, tracks, tie, lk, why] of adds) {
+  for (const [id, name, zh, side, type, url, vp, tracks, tie, lk, why, ext = {}] of adds) {
     const h = host(url);
     const KEEP = ["x-linuxfoundation","x-openatom","x-openforum-europe","x-interoperable-europe"];
     if (seen.has(h) && !KEEP.includes(id)) { skipped.dup.push(id + " -> " + seen.get(h).id); seen.get(h).origin += "+addition"; continue; }
@@ -153,11 +153,12 @@ function curl(u) {
     const gain = (side === "CN" ? GAIN_CN : GAIN_EU)[type === "OSPO" ? "OSPO" : type] || "";
     add({
       id, name, name_zh: zh || undefined, side, type, url,
-      institutional_contact: { url, kind: "homepage (dedicated contact page not yet located)" },
+      ...(ext.region ? { region: ext.region } : {}),
+      institutional_contact: ext.contact ? (/^https?:/.test(ext.contact) ? { url: ext.contact, kind: "contact page" } : { url: "mailto:" + ext.contact, kind: "generic email" }) : { url, kind: "homepage (dedicated contact page not yet located)" },
       value_proposition: "Brings: " + vp.replace(/\.$/, "") + ". Gains (inference): " + gain + ".",
       tracks, eu_cn_ties: tie ? [{ text: tie, source_url: url, evidence: "D" }] : [],
       likelihood: lk, likelihood_reason: "Inference (analyst judgement, not yet validated): " + why,
-      evidence: ok ? "C" : "D", web_http: http, source_ids: [], origin: "addition (prior knowledge" + (id === "x-shanghaiopen" ? " + web search 2026-11" : "") + ")"
+      evidence: ext.evidence || (ok ? "C" : "D"), web_http: http, source_ids: [], origin: ext.evidence === "A" ? "addition (homepage fetched 2026-11, identity read)" : "addition (prior knowledge" + (id === "x-shanghaiopen" ? " + web search 2026-11" : "") + ")"
     }, KEEP.includes(id) ? null : h);
   }
   records.sort((a, b) => a.side.localeCompare(b.side) || a.type.localeCompare(b.type) || a.id.localeCompare(b.id));

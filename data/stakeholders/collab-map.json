@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-10",
   "note": "Collaboration map v1 (roadmap track G). value_proposition and likelihood are inferences, not facts; evidence reflects the existence/identity of the organisation (docs/METHODOLOGY.md levels), not the inference. institutional_contact holds official pages only; no personal data.",
-  "count": 912,
+  "count": 950,
   "records": [
     {
       "id": "at-epicenter",
@@ -1949,6 +1949,101 @@
       "origin": "directory"
     },
     {
+      "id": "hk-hkix",
+      "name": "Hong Kong Internet Exchange (HKIX)",
+      "side": "CN",
+      "type": "community",
+      "url": "https://www.hkix.net",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkix.net",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Internet exchange point in Hong Kong; brings neutral-infrastructure peering practice. Gains (inference): overseas contributors and visibility beyond the Chinese-language web.",
+      "tracks": [
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Infrastructure; limited link to open-source policy.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-isoc",
+      "name": "Internet Society Hong Kong chapter",
+      "name_zh": "香港互联网协会",
+      "side": "CN",
+      "type": "community",
+      "url": "https://www.isoc.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.isoc.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Local chapter of the Internet Society; open-Internet and governance community. Gains (inference): overseas contributors and visibility beyond the Chinese-language web.",
+      "tracks": [
+        "B",
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Neutral community chapter with governance interest.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-opensource",
+      "name": "Open Source Hong Kong",
+      "side": "CN",
+      "type": "community",
+      "url": "https://opensource.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "mailto:webmaster@opensource.hk",
+        "kind": "generic email"
+      },
+      "value_proposition": "Brings: Volunteer-run community fostering open source in Hong Kong, governed by an executive committee formed in 2014. Gains (inference): overseas contributors and visibility beyond the Chinese-language web.",
+      "tracks": [
+        "C",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Direct fit: local open-source community and contact point.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-pycon",
+      "name": "PyCon HK",
+      "side": "CN",
+      "type": "community",
+      "url": "https://pycon.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://pycon.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Annual Python community conference in Hong Kong. Gains (inference): overseas contributors and visibility beyond the Chinese-language web.",
+      "tracks": [
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Developer community event with open-source contributors.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "x-kaiyuanshe",
       "name": "KAIYUANSHE",
       "name_zh": "开源社",
@@ -3420,6 +3515,31 @@
       "origin": "directory"
     },
     {
+      "id": "hk-hkirc",
+      "name": "Hong Kong Internet Registration Corporation (HKIRC)",
+      "name_zh": "香港互联网注册管理有限公司",
+      "side": "CN",
+      "type": "company",
+      "url": "https://www.hkirc.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkirc.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Non-profit registry for the .hk domain; part of Internet infrastructure governance. Gains (inference): European contributors and users, and clarity on EU rules such as the CRA.",
+      "tracks": [
+        "B",
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Infrastructure registry; open-source remit unchecked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "x-alibaba",
       "name": "Alibaba / Alibaba Cloud",
       "name_zh": "阿里巴巴",
@@ -3549,6 +3669,37 @@
       "origin": "addition (prior knowledge)"
     },
     {
+      "id": "hk-hetao",
+      "name": "Hetao Shenzhen-Hong Kong Science and Technology Innovation Cooperation Zone",
+      "name_zh": "深港科技创新合作区",
+      "side": "CN",
+      "type": "cooperation-body",
+      "url": "https://htcz.sz.gov.cn/en/hello",
+      "region": "GBA",
+      "institutional_contact": {
+        "url": "https://htcz.sz.gov.cn/en/hello",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Cooperation zone straddling Shenzhen and Hong Kong, with a Hong Kong Park component, for science and technology collaboration; part of the Greater Bay Area. Gains (inference): a digital-commons use case for its existing programmes.",
+      "tracks": [
+        "A",
+        "F"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Zone with a Shenzhen-side portal and a Hong Kong Park (ITIB outline, 2024; park opened Dec 2025 per ITIB).",
+          "source_url": "https://htcz.sz.gov.cn/en/hello",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Existing cross-boundary science cooperation platform (portal not reachable from the check host).",
+      "evidence": "C",
+      "web_http": 0,
+      "source_ids": [],
+      "origin": "addition (prior knowledge)"
+    },
+    {
       "id": "x-openatom",
       "name": "OpenAtom Foundation",
       "name_zh": "开放原子开源基金会",
@@ -3603,6 +3754,54 @@
         "nsfc"
       ],
       "origin": "directory"
+    },
+    {
+      "id": "hk-innohk",
+      "name": "InnoHK (Innovation and Technology Commission initiative)",
+      "side": "CN",
+      "type": "funder",
+      "url": "https://www.innohk.gov.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.innohk.gov.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Government initiative hosting AIR@InnoHK and Health@InnoHK research clusters with centres from local and overseas institutions. Gains (inference): a pipeline of international commons projects and impact evidence.",
+      "tracks": [
+        "A",
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Funding and hosting framework for international research centres, including AI.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-itf",
+      "name": "Innovation and Technology Fund (ITF)",
+      "name_zh": "创新及科技基金",
+      "side": "CN",
+      "type": "funder",
+      "url": "https://www.itf.gov.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.itf.gov.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Government fund supporting technology R&D projects in Hong Kong. Gains (inference): a pipeline of international commons projects and impact evidence.",
+      "tracks": [
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Funder; whether open-source outputs are favoured is unchecked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
     },
     {
       "id": "cm-aiia",
@@ -3879,6 +4078,162 @@
       "origin": "directory"
     },
     {
+      "id": "hk-eurocham",
+      "name": "European Chamber of Commerce in Hong Kong (EuroCham)",
+      "side": "CN",
+      "type": "industry-assoc",
+      "url": "https://www.eurocham.com.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.eurocham.com.hk/contact-us",
+        "kind": "contact page"
+      },
+      "value_proposition": "Brings: Chamber of chambers representing European national chambers in Hong Kong, with advocacy and business councils. Gains (inference): market-access evidence and European partners for its members.",
+      "tracks": [
+        "D",
+        "A"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Represents European national chambers in Hong Kong.",
+          "source_url": "https://www.eurocham.com.hk",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Convenes European business in Hong Kong.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-fccihk",
+      "name": "French Chamber of Commerce and Industry in Hong Kong",
+      "name_zh": "香港法国工商会",
+      "side": "CN",
+      "type": "industry-assoc",
+      "url": "https://www.fccihk.com",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.fccihk.com",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: French chamber of commerce in Hong Kong. Gains (inference): market-access evidence and European partners for its members.",
+      "tracks": [
+        "D"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Industry link between French firms and Hong Kong.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-gcc",
+      "name": "German Chamber of Commerce, Hong Kong (German Industry and Commerce Ltd.)",
+      "name_zh": "香港德国工商会",
+      "side": "CN",
+      "type": "industry-assoc",
+      "url": "https://hongkong.ahk.de",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://hongkong.ahk.de",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: German chamber in Hong Kong within the German AHK network, with committees and working groups. Gains (inference): market-access evidence and European partners for its members.",
+      "tracks": [
+        "D"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Part of the German chambers abroad network (AHK).",
+          "source_url": "https://hongkong.ahk.de",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Industry link between German firms and the Greater Bay Area.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkcs",
+      "name": "Hong Kong Computer Society (HKCS)",
+      "name_zh": "香港电脑学会",
+      "side": "CN",
+      "type": "industry-assoc",
+      "url": "https://www.hkcs.org.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkcs.org.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Professional body for information technology practitioners in Hong Kong with special-interest groups. Gains (inference): market-access evidence and European partners for its members.",
+      "tracks": [
+        "C",
+        "D"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Professional network with special-interest groups; possible venue for a briefing.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkitf",
+      "name": "Hong Kong Information Technology Federation (HKITF)",
+      "name_zh": "香港资讯科技联会",
+      "side": "CN",
+      "type": "industry-assoc",
+      "url": "https://www.hkitf.org.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkitf.org.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Federation of Hong Kong information technology bodies. Gains (inference): market-access evidence and European partners for its members.",
+      "tracks": [
+        "D"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Industry federation; open-source relevance unchecked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-icc",
+      "name": "Italian Chamber of Commerce Hong Kong",
+      "side": "CN",
+      "type": "industry-assoc",
+      "url": "https://www.icc.org.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.icc.org.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Italian chamber of commerce in Hong Kong supporting trade and membership. Gains (inference): market-access evidence and European partners for its members.",
+      "tracks": [
+        "D"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Industry link for Italian firms.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "x-aiia",
       "name": "AI Industry Alliance (AIIA)",
       "name_zh": "中国人工智能产业发展联盟",
@@ -3947,6 +4302,54 @@
       "web_http": 200,
       "source_ids": [],
       "origin": "addition (prior knowledge + web search 2026-11)"
+    },
+    {
+      "id": "hk-hku-rise",
+      "name": "HKU RISE (technology transfer and innovation)",
+      "side": "CN",
+      "type": "OSPO",
+      "url": "https://tto.hku.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://tto.hku.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: University office for research translation and technology transfer; the natural place to ask about open licensing of research software. Gains (inference): benchmarks and contacts for cross-border OSS practice.",
+      "tracks": [
+        "C",
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Technology-transfer offices decide licensing of research code.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkust-ro",
+      "name": "HKUST Research Office",
+      "side": "CN",
+      "type": "OSPO",
+      "url": "https://ro.hkust.edu.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://ro.hkust.edu.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: University office handling research administration and knowledge transfer; entry point for research-software licensing questions. Gains (inference): benchmarks and contacts for cross-border OSS practice.",
+      "tracks": [
+        "C",
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Administrative unit; value depends on a named open-source remit.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
     },
     {
       "id": "cn-ah-jxt",
@@ -6092,6 +6495,247 @@
       "origin": "directory"
     },
     {
+      "id": "hk-astri",
+      "name": "Hong Kong Applied Science and Technology Research Institute (ASTRI)",
+      "name_zh": "香港应用科技研究院",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.astri.org",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.astri.org",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Applied R&D institute in Hong Kong for information and communications technology. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "D",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): ICT R&D institute; open-source practice not yet checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-cyberport",
+      "name": "Cyberport",
+      "name_zh": "数码港",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.cyberport.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.cyberport.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Digital technology hub and incubator in Hong Kong supporting start-ups in AI, fintech and digital entertainment. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "D",
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Start-up and AI community convener (homepage blocked automated fetch; identity from prior knowledge).",
+      "evidence": "C",
+      "web_http": 403,
+      "source_ids": [],
+      "origin": "addition (prior knowledge)"
+    },
+    {
+      "id": "hk-dpo",
+      "name": "Digital Policy Office, Hong Kong (successor to OGCIO)",
+      "name_zh": "数字政策办公室",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.digitalpolicy.gov.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.digitalpolicy.gov.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Government office for digital policy, digital government and data governance; its site also serves the former OGCIO address. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "A",
+        "B"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Site title shows Digital Policy Office; ogcio.gov.hk resolves to the same site.",
+          "source_url": "https://www.digitalpolicy.gov.hk",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Counterpart for open-source and open-data policy comparison.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkcert",
+      "name": "Hong Kong Computer Emergency Response Team Coordination Centre (HKCERT)",
+      "name_zh": "香港电脑保安事故协调中心",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.hkcert.org",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkcert.org",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Computer emergency response coordination centre; relevant to vulnerability handling and CRA-like disclosure practice. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "B"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Vulnerability coordination fits track B.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkpc",
+      "name": "Hong Kong Productivity Council (HKPC)",
+      "name_zh": "香港生产力促进局",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.hkpc.org",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkpc.org",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Statutory body promoting productivity and digital transformation, with services for SMEs on cybersecurity and software. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "B",
+        "D"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Enterprise support; open-source relevance indirect.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkstp",
+      "name": "Hong Kong Science and Technology Parks Corporation (HKSTP)",
+      "name_zh": "香港科技园公司",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.hkstp.org",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkstp.org",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Operator of Hong Kong Science Park and related innovation platforms; hosts InnoHK centres and start-ups. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "D",
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Convenes start-ups and research centres, including AI and software.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-investhk",
+      "name": "Invest Hong Kong (InvestHK)",
+      "name_zh": "投资推广署",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.investhk.gov.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.investhk.gov.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Government department assisting overseas companies to set up in Hong Kong; lists international chambers of commerce. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "D"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Publishes a directory of international chambers of commerce in Hong Kong.",
+          "source_url": "https://www.investhk.gov.hk",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Business promotion; useful as directory and entry route.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-itc",
+      "name": "Innovation and Technology Commission (ITC)",
+      "name_zh": "创新科技署",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.itc.gov.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.itc.gov.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Government commission administering innovation and technology funding programmes and the InnoHK initiative. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "A",
+        "F"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Funding administrator for technology R&D.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-itib",
+      "name": "Innovation, Technology and Industry Bureau (ITIB)",
+      "name_zh": "创新科技及工业局",
+      "side": "CN",
+      "type": "public-agency",
+      "url": "https://www.itib.gov.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.itib.gov.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Policy bureau for innovation, technology and industry; publishes the development outline for the Hong Kong Park of the Hetao cooperation zone. Gains (inference): comparative evidence on open source policy, and international visibility for its local ecosystem.",
+      "tracks": [
+        "A",
+        "F"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Publishes the Hong Kong Park development outline for the Hetao Shenzhen-Hong Kong zone.",
+          "source_url": "https://www.itib.gov.hk",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Policy counterpart for Greater Bay Area science and technology cooperation.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "cn-ccsa",
       "name": "China Communications Standards Association",
       "name_zh": "中国通信标准化协会",
@@ -6397,6 +7041,31 @@
         "cn-cstc"
       ],
       "origin": "directory"
+    },
+    {
+      "id": "hk-hkaai",
+      "name": "Hong Kong Academy of Applied Artificial Intelligence (HKAAI)",
+      "name_zh": "香港应用人工智能科学院",
+      "side": "CN",
+      "type": "think-tank",
+      "url": "https://www.hkaai.org",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkaai.org",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Hong Kong body for applied artificial intelligence (site title in Chinese; English name to verify). Gains (inference): citable comparative evidence and access to European policy counterparts.",
+      "tracks": [
+        "A",
+        "D"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Identity read from Chinese title only.",
+      "evidence": "C",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (prior knowledge)"
     },
     {
       "id": "x-caict",
@@ -7891,6 +8560,314 @@
         "cn-zhejianglab"
       ],
       "origin": "directory"
+    },
+    {
+      "id": "hk-cair",
+      "name": "Centre for Artificial Intelligence and Robotics, Hong Kong Institute of Science and Innovation, Chinese Academy of Sciences (CAIR)",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.cair-cas.org.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.cair-cas.org.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: AIR@InnoHK research centre in Hong Kong on artificial intelligence and robotics. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "D",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Research centre; open-source practice unchecked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-cityu",
+      "name": "City University of Hong Kong (CityU)",
+      "name_zh": "香港城市大学",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.cityu.edu.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.cityu.edu.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Research university in Hong Kong with InnoHK centres in AI, data analysis and health engineering. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): AI and data-science research capacity.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-cuhk",
+      "name": "The Chinese University of Hong Kong (CUHK)",
+      "name_zh": "香港中文大学",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.cuhk.edu.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.cuhk.edu.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Research university in Hong Kong with several InnoHK centres in AI, robotics and health; hosts the HKIX exchange and the MMLab group. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Broad research university with open-source-adjacent labs.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-cuhk-sz",
+      "name": "The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)",
+      "name_zh": "香港中文大学（深圳）",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.cuhk.edu.cn",
+      "region": "GBA",
+      "institutional_contact": {
+        "url": "https://www.cuhk.edu.cn",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Campus located in Shenzhen, Guangdong; brings a Greater Bay Area research base with English-language material. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Self-described CUHK-Shenzhen (site title).",
+          "source_url": "https://www.cuhk.edu.cn",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Greater Bay Area site; English-language research pages.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-eduhk",
+      "name": "The Education University of Hong Kong (EdUHK)",
+      "name_zh": "香港教育大学",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.eduhk.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.eduhk.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Teacher-education university in Hong Kong; relevant to digital-skills and open educational resources. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "C"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Education focus; commons link through open educational resources.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkbu",
+      "name": "Hong Kong Baptist University (HKBU)",
+      "name_zh": "香港浸会大学",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.hkbu.edu.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkbu.edu.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: University in Hong Kong with research and innovation units active in Greater Bay Area cooperation. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "low",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Smaller research profile in software and AI.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkgai",
+      "name": "Hong Kong Generative AI Research and Development Center (HKGAI)",
+      "name_zh": "香港生成式人工智能研发中心",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.hkgai.org",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hkgai.org",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: InnoHK centre working on locally developed generative AI models. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "D",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Open-weight or open-model stance not yet checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hku",
+      "name": "The University of Hong Kong (HKU)",
+      "name_zh": "香港大学",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.hku.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.hku.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Research university in Hong Kong with InnoHK centres in health and AI; brings research capacity and student exchange. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Broad research university; open-source stance not yet checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkust",
+      "name": "The Hong Kong University of Science and Technology (HKUST)",
+      "name_zh": "香港科技大学",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.ust.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.ust.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Research university in Hong Kong hosting several InnoHK centres, including a generative-AI centre; strong AI and engineering output. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Strong AI research; open-source stance not yet checked.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-hkust-gz",
+      "name": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "name_zh": "香港科技大学（广州）",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.hkust-gz.edu.cn",
+      "region": "GBA",
+      "institutional_contact": {
+        "url": "https://www.hkust-gz.edu.cn",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Campus located in Guangzhou, Guangdong, within the Greater Bay Area; brings a joint HKUST-Guangdong research and teaching base. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "E"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Self-described campus of HKUST located in Guangzhou (site title).",
+          "source_url": "https://www.hkust-gz.edu.cn",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Greater Bay Area site with AI and data programmes.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
+      "id": "hk-mmlab",
+      "name": "CUHK Multimedia Laboratory (MMLab)",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.mmlab.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.mmlab.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Computer-vision research group whose alumni and collaborators maintain widely used open-source AI toolboxes (OpenMMLab); brings open AI tooling practice. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "D",
+        "E"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Open-source AI tooling lineage; link to the group to verify.",
+      "evidence": "C",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (prior knowledge)"
+    },
+    {
+      "id": "hk-polyu",
+      "name": "The Hong Kong Polytechnic University (PolyU)",
+      "name_zh": "香港理工大学",
+      "side": "CN",
+      "type": "university",
+      "url": "https://www.polyu.edu.hk",
+      "region": "HK",
+      "institutional_contact": {
+        "url": "https://www.polyu.edu.hk",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Applied research university in Hong Kong with InnoHK centres at Science Park; brings applied research and industry links. Gains (inference): international co-authorship, data and exchange opportunities.",
+      "tracks": [
+        "A",
+        "D"
+      ],
+      "eu_cn_ties": [],
+      "likelihood": "medium",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Applied research with industry partners.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)+addition"
     },
     {
       "id": "x-cas-iscas",
