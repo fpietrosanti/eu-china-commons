@@ -45,7 +45,7 @@ Principle: open source as a *shared, non-rival commons* — collaboration on pub
 - F3 Funding for the Observatory itself (NLnet, foundations, universities).
 
 ### G. Collaboration map: who has a value proposition and may want to join
-- G1 Map every organisation (EU, member states, China, international) whose mission gives it a concrete reason to cooperate on the digital commons: foundations, OSPOs, universities and think tanks, standards bodies, public agencies, industry associations, companies, funders, developer communities, EU–China cooperation bodies.
+- G1 Map every organisation (EU, member states, China, international) whose mission gives it a concrete reason to cooperate on the digital commons: foundations, OSPOs, universities and think tanks, standards bodies, public agencies, industry associations, companies, funders, developer communities, EU–China cooperation bodies. Hong Kong is included because, as part of the Greater Bay Area together with Shenzhen, it shares a substantial and long-standing cross-fertilisation of research, talent, capital and open-source communities with mainland China, and often acts as a bridge to European partners.
 - G2 For each: its value proposition (what it gains and what it brings), the tracks A–F it fits, its existing EU–China ties, its institutional contact, and a collaboration-likelihood estimate (inference, labelled).
 - G3 Dissemination: tailored, human-sent outreach per segment (research partners, reviewers, co-funders, event hosts), never mass email; track responses.
 - G4 Research on the map itself: which segments drive cooperation, where the gaps are (e.g. Chinese provinces, smaller member states).
