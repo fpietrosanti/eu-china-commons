@@ -120,8 +120,8 @@ function page({ lang = 'en', rel, title, desc, body, jsonld = [], crumbs = [], t
   const bc = crumbs.length ? { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map(([n, u], k) => ({ '@type': 'ListItem', position: k + 1, name: n, item: BASE + '/' + u })) } : null;
   const ld = [...jsonld, bc].filter(Boolean).map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n');
   const T = lang === 'zh'
-    ? { home: '首页', res: '研究', cat: '目录', proj: '项目资金', data: '数据', contrib: '参与改进', draft: '', note: '开源研究，基于公开来源，并非官方统计；内容不完整，欢迎指正。' }
-    : { home: 'Home', res: 'Research', cat: 'Catalogue', proj: 'Project funding', data: 'Data', contrib: 'Contribute', draft: '', note: 'Open-source research from public sources, not official statistics. Incomplete and correctable.' };
+    ? { home: '首页', road: '路线图', res: '研究', cat: '目录', proj: '项目资金', data: '数据', contrib: '参与改进', draft: '', note: '开源研究，基于公开来源，并非官方统计；内容不完整，欢迎指正。' }
+    : { home: 'Home', road: 'Roadmap', res: 'Research', cat: 'Catalogue', proj: 'Project funding', data: 'Data', contrib: 'Contribute', draft: '', note: 'Open-source research from public sources, not official statistics. Incomplete and correctable.' };
   const pre = lang === 'zh' ? up + 'zh/' : up;
   return `<!doctype html>
 <html lang="${lang === 'zh' ? 'zh-CN' : 'en'}">
@@ -150,7 +150,7 @@ ${ld}
 ${wxImg(up)}
 <header class="top"><div class="wrap">
   ${brandLink(pre, lang, up)}
-  <nav><a href="${pre}research/">${T.res}</a><a href="${pre}catalogue/">${T.cat}</a>${lang === 'en' ? `<a href="${up}projects/">${T.proj}</a>` : ''}<a href="${pre}data/">${T.data}</a><a href="${ISSUES}" rel="noopener">${T.contrib}</a></nav>
+  <nav><a href="${pre}roadmap/">${T.road}</a><a href="${pre}research/">${T.res}</a><a href="${pre}catalogue/">${T.cat}</a>${lang === 'en' ? `<a href="${up}projects/">${T.proj}</a>` : ''}<a href="${pre}data/">${T.data}</a><a href="${ISSUES}" rel="noopener">${T.contrib}</a></nav>
   <a class="lang" href="${up}${alternate || (lang === 'en' ? 'zh/' : '')}" hreflang="${lang === 'en' ? 'zh-CN' : 'en'}">${lang === 'en' ? '中文' : 'English'}</a>
 </div></header>
 <main class="wrap doc">
@@ -178,6 +178,22 @@ for (const [file, s, title, kind] of CHAPTERS) {
     crumbs: [['Home', ''], ['Research', 'research/'], [title, `research/${s}/`]],
     jsonld: [{ '@context': 'https://schema.org', '@type': kind === 'data' ? 'Dataset' : 'Report', name: title, headline: title, description: desc, inLanguage: 'en', dateModified: TODAY, url: `${BASE}/research/${s}/`, isPartOf: ORG, license: 'https://creativecommons.org/licenses/by/4.0/', isBasedOn: `${REPO}/blob/main/docs/${file}` }],
     body: `<h1>${esc(title)}</h1>\n<p class="meta">Source file: <a href="${REPO}/blob/main/docs/${file}" rel="noopener">docs/${file}</a> · updated ${TODAY}</p>\n${toc.length > 4 ? `<nav class="toc"><b>Contents</b><ul>${toc.filter((t) => t[0] === 2).map((t) => `<li><a href="#${t[1]}">${inline(t[2])}</a></li>`).join('')}</ul></nav>` : ''}\n${html}` }));
+}
+
+// ---------- roadmap & research agenda (EN + ZH) ----------
+for (const [lang, file, rel, title, crumb] of [
+  ['en', 'ROADMAP.md', 'roadmap/index.html', 'Roadmap & research agenda', [['Home', ''], ['Roadmap', 'roadmap/']]],
+  ['zh', 'ROADMAP.zh.md', 'zh/roadmap/index.html', '路线图与研究议程', [['首页', 'zh/'], ['路线图', 'zh/roadmap/']]],
+]) {
+  const fp = path.join(root, 'docs', file); if (!fs.existsSync(fp)) continue;
+  const src = fs.readFileSync(fp, 'utf8').replace(/^# .*\n/, '').replace(/\n## 3\. Decisions[\s\S]*$/, '\n').split('\n').filter((l) => !/\(Fabio\)|docs\/outreach/.test(l)).join('\n');
+  const { html, toc } = md(src);
+  const desc = lang === 'zh' ? '中欧数字公地观察站的研究议程（产业政策、国家安全与相互依赖、社区、企业合作、开发者行动、跨境资助、合作图谱）与路线图。' : 'Research agenda (industrial policy, security and mutual dependence, community, corporate collaboration, developer actions, cross-border funding, collaboration map) and roadmap of the Europe–China Digital Commons Observatory.';
+  write(rel, page({ lang, rel, title, desc, type: 'article', crumbs: crumb, alternate: lang === 'zh' ? 'roadmap/index.html' : 'zh/roadmap/index.html',
+    jsonld: [{ '@context': 'https://schema.org', '@type': 'Report', name: title, headline: title, description: desc, inLanguage: lang === 'zh' ? 'zh-CN' : 'en', dateModified: TODAY, isPartOf: ORG, license: 'https://creativecommons.org/licenses/by/4.0/' }],
+    body: `<h1>${esc(title)}</h1>
+<nav class="toc"><ul>${toc.filter((t) => t[0] === 3).map((t) => `<li><a href="#${t[1]}">${inline(t[2])}</a></li>`).join('')}</ul></nav>
+${html}` }));
 }
 const kindLabel = { chapter: 'Chapter', data: 'Data', analysis: 'Analysis', method: 'Method' };
 write('research/index.html', page({ rel: 'research/index.html', title: 'Research', desc: 'Chapters, analyses, data tables and methodology of the Europe–China Digital Commons Observatory.',
@@ -291,8 +307,8 @@ ${shareMeta(lang, lang === 'zh' ? '../' : '')}
   h = h.replace(/<a class="brand" href="([^"]*)">(?:<img[^>]*>)?/, (m, hr) => '<a class="brand" href="' + hr + '"><img src="' + up + 'assets/logo.svg" width="42" height="28" alt="">');
   h = h.replace(/<!--pay-->[\s\S]*?<!--\/pay-->\n?/, '').replace(/(<div class="hero">[\s\S]*?<\/h1>)/, '$1\n  <!--pay--><p class="payoff">' + BRAND.pay[lang] + '</p><!--/pay-->');
   const links = lang === 'zh'
-    ? `<!--seo-links--><section id="explore"><h2>浏览</h2><ul class="clean"><li><a href="research/">研究章节</a></li><li><a href="catalogue/">开源成功实践目录（${bi.length} 条）</a></li><li><a href="data/">开放数据下载</a></li></ul></section><!--/seo-links-->`
-    : `<!--seo-links--><section id="explore"><h2>Explore the research</h2><ul class="clean">${research.slice(0, 6).map((r) => `<li><a href="research/${r.s}/">${esc(r.title)}</a></li>`).join('')}<li><a href="research/">All research</a> · <a href="catalogue/">Catalogue (${cat.length} verified cases)</a> · <a href="projects/">Funding of ${plist.length} projects</a> · <a href="data/">Open data</a></li></ul></section><!--/seo-links-->`;
+    ? `<!--seo-links--><section id="explore"><h2>浏览</h2><ul class="clean"><li><a href="roadmap/">路线图与研究议程</a></li><li><a href="research/">研究章节</a></li><li><a href="catalogue/">开源成功实践目录（${bi.length} 条）</a></li><li><a href="data/">开放数据下载</a></li></ul></section><!--/seo-links-->`
+    : `<!--seo-links--><section id="explore"><h2>Explore the research</h2><ul class="clean"><li><a href="roadmap/"><b>Roadmap & research agenda</b></a></li>${research.slice(0, 6).map((r) => `<li><a href="research/${r.s}/">${esc(r.title)}</a></li>`).join('')}<li><a href="research/">All research</a> · <a href="catalogue/">Catalogue (${cat.length} verified cases)</a> · <a href="projects/">Funding of ${plist.length} projects</a> · <a href="data/">Open data</a></li></ul></section><!--/seo-links-->`;
   h = h.replace(/<!--seo-links-->[\s\S]*?<!--\/seo-links-->\n?/, '').replace('<section id="contact">', links + '\n<section id="contact">');
   fs.writeFileSync(f, h); urls.unshift(rel); alt[rel] = other;
 }

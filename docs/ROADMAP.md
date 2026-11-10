@@ -44,6 +44,12 @@ Principle: open source as a *shared, non-rival commons* — collaboration on pub
 - F2 Propose a small "commons bridge fund": micro-grants for maintainers working across both ecosystems (translation, mirroring, security fixes).
 - F3 Funding for the Observatory itself (NLnet, foundations, universities).
 
+### G. Collaboration map: who has a value proposition and may want to join
+- G1 Map every organisation (EU, member states, China, international) whose mission gives it a concrete reason to cooperate on the digital commons: foundations, OSPOs, universities and think tanks, standards bodies, public agencies, industry associations, companies, funders, developer communities, EU–China cooperation bodies.
+- G2 For each: its value proposition (what it gains and what it brings), the tracks A–F it fits, its existing EU–China ties, its institutional contact, and a collaboration-likelihood estimate (inference, labelled).
+- G3 Dissemination: tailored, human-sent outreach per segment (research partners, reviewers, co-funders, event hosts), never mass email; track responses.
+- G4 Research on the map itself: which segments drive cooperation, where the gaps are (e.g. Chinese provinces, smaller member states).
+
 ## 2. Roadmap
 
 **Phase 0 — Foundations (done / closing)**
@@ -54,7 +60,8 @@ Principle: open source as a *shared, non-rival commons* — collaboration on pub
 **Phase 1 — Launch & collection (Nov–Dec 2026)**
 - [ ] Launch posts WeChat / LinkedIn / X (texts ready in docs/outreach/)
 - [ ] Publish this research agenda on the site (EN/ZH) as "call for research & collaboration"
-- [ ] Continuous collection, now tagged by track A–F
+- [ ] Continuous collection, now tagged by track A–G
+- [ ] Collaboration map v1: value proposition and fit per organisation (G1–G2)
 - [ ] China access route (mainland VPS SOCKS exit) — decision pending; clear VPN (88) and assisted (47) queues
 - [ ] Hong Kong mirror (EdgeOne Pages, free)
 
@@ -69,7 +76,7 @@ Principle: open source as a *shared, non-rival commons* — collaboration on pub
 - [ ] "State of EU–China Digital Commons 2027" report (EN/ZH, PDF) with first Index (A5)
 - [ ] Dependency-mapping pilot (B1) and scenario note (B2)
 - [ ] Company case studies (D1, D3)
-- [ ] Targeted institutional outreach (human-sent); event tracks (C4)
+- [ ] Targeted institutional outreach from the collaboration map (G3); event tracks (C4)
 
 **Phase 4 — Programmes (2027+)**
 - [ ] Bridge programmes and interop sprints (C3, E3)
