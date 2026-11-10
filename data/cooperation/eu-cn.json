@@ -75,20 +75,48 @@
     "domains": [
       "digital"
     ],
-    "status": "unknown",
-    "since": 2023,
-    "description": "Ministerial-level dialogue on digital policy, successor to the older ICT dialogue; reported to cover digital regulation, AI, data flows and standards. Status needs checking.",
+    "status": "dormant",
+    "since": 2020,
+    "description": "Ministerial-level digital dialogue. Fact (EEAS page, archived 10 Nov 2026): 1st round Sept 2020; 2nd round 18 Sept 2023, Beijing, co-chaired by VP Věra Jourová and Vice-Premier Zhang Guoqing; agenda: platforms and data regulation, AI, research and innovation, cross-border flow of industrial data, product safety online. Open source and standards not mentioned; no follow-up or next round announced. No 2024–2026 round found (search 10 Nov 2026) → recorded as dormant (inference). Data-flow work continued in the separate trade-led mechanism (eu-cn-data-flow-mechanism).",
     "official_website": "https://digital-strategy.ec.europa.eu/en/policies/international-digital-cooperation",
     "website_http": 200,
     "website_is_parent_site": true,
     "contact_channel": "https://commission.europa.eu/about/contact_en",
     "contact_type": "official contact page (link found on organisation site)",
     "relevance_for_observatory": "DG CNECT is the owner; the dialogue is the natural place to propose an open-source/digital-commons working stream.",
-    "source_url": "https://digital-strategy.ec.europa.eu/en/policies/international-digital-cooperation",
-    "accessed": "2026-11-08",
+    "source_url": "https://www.eeas.europa.eu/delegations/china/eu-china-commission-and-china-hold-second-high-level-digital-dialogue_en",
+    "accessed": "2026-11-10",
     "evidence": "A",
     "see_stakeholder": "eu-alt-edic",
-    "evidence_scope": "organisation or parent site opened; the specific unit/programme page was not located"
+    "evidence_scope": "official round report opened (EEAS)"
+  },
+  {
+    "id": "eu-cn-data-flow-mechanism",
+    "name_en": "EU-China Cross-Border Data Flow Communication Mechanism",
+    "name_original": "中欧数据跨境流动交流机制",
+    "type": "dialogue",
+    "scope": "EU-CN",
+    "countries": [
+      "EU",
+      "CN"
+    ],
+    "domains": [
+      "digital",
+      "trade"
+    ],
+    "status": "active",
+    "since": 2024,
+    "description": "Fact (DG TRADE news 28 Aug 2024, archived): launched 27 Aug 2024 in Brussels to ease transfers of non-personal (industrial) data for EU firms and compliance with Chinese data laws. Second meeting 17 Jul 2025, Brussels (co-chairs DG TRADE and the Cyberspace Administration of China, per press relays, B) → Working Group on cross-border data flows in the automotive sector (B). Not open source; relevant as the only active EU–CN digital channel found (inference), and the automotive working group overlaps with the Catena-X ↔ CAAM trusted-data-space bridge.",
+    "official_website": "https://policy.trade.ec.europa.eu/news/eu-and-china-launch-cross-border-data-flow-communication-mechanism-2024-08-28_en",
+    "website_http": 200,
+    "website_is_parent_site": false,
+    "contact_channel": "https://policy.trade.ec.europa.eu/contact_en",
+    "contact_type": "official contact page (DG TRADE)",
+    "relevance_for_observatory": "Proposal: active channel where data-space interoperability (Catena-X/CAAM, IDSA/Gaia-X vs CN trusted data spaces) could be raised; owner DG TRADE, not DG CNECT.",
+    "source_url": "https://policy.trade.ec.europa.eu/news/eu-and-china-launch-cross-border-data-flow-communication-mechanism-2024-08-28_en",
+    "accessed": "2026-11-10",
+    "evidence": "A",
+    "evidence_scope": "launch news opened (A); 2025 meeting and automotive working group from press relays (B)"
   },
   {
     "id": "eu-cn-ict-dialogue",

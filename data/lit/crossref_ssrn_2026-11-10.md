@@ -1,0 +1,149 @@
+## R1 open source software policy China → 44915
+- 2025 | Frei, Sparzynski | Open-Source Software and Open-Source Hardware under the new European Product Liability Directive | https://doi.org/10.2139/ssrn.5567258
+- 2025 | Raj, N | Proprietary software versus Open Source Software for Education | https://doi.org/10.2139/ssrn.5273827
+- 2024 | Ransbotham | How Does Open Innovation Affect Risk? The Case of Open Source Software Vulnerability Exploitation | https://doi.org/10.2139/ssrn.4982115
+- 2023 | Agrawal | Open Source Software: Copyright vs. Right to Copy | https://doi.org/10.2139/ssrn.4525067
+- 2026 | salahi | QuakeBeacon -Earthquake Rescue Beacon App Open Source Software Blueprint | https://doi.org/10.2139/ssrn.6739418
+- 2025 | Thomas | Intellectual Property, Computer Software and the Open Source Movement | https://doi.org/10.2139/ssrn.5160091
+- 2024 | Onagh, Nayebi | Extension Decisions in Open Source Software Ecosystem | https://doi.org/10.2139/ssrn.4975545
+- 2019 | Warr, Hangsing | Open Source Digital Library Software: A Literature Review | https://doi.org/10.2139/ssrn.1639383
+- 2024 | Hoffmann, Nagle, Zhou | The Value of Open Source Software | https://doi.org/10.2139/ssrn.4693148
+- 2025 | Schreiber, Wieland | Inter-Organizational Collaborations in Open-Source Software Ecosystems | https://doi.org/10.2139/ssrn.5097590
+- 2020 | Wright, Nagle, Greenstein | Open Source Software and Global Entrepreneurship | https://doi.org/10.2139/ssrn.3636502
+- 2020 | Taffet, Zymler | Open Source Software and Standards Development: Competition Law Implications | https://doi.org/10.2139/ssrn.3742791
+- 2026 | Viseur, Jullien | Evaluating control over free and open-source software (FOSS) projects. Beyond the Open Governance Index | https://doi.org/10.2139/ssrn.6463687
+- 2020 | Bayati, Tripathi, Bapna | Recommending Open Source Software Projects to Developers | https://doi.org/10.2139/ssrn.3642052
+- 2019 | K R, swamy | Cloud Computing Applications: An Open Source Software (OSS) Approach | https://doi.org/10.2139/ssrn.3507358
+- 2024 | Haese, Peukert | Open at the Core: Moving from Proprietary Technology to Building a Product on Open Source Software | https://doi.org/10.2139/ssrn.4946238
+- 2026 | Boehm | How Open Source Coordinates: A Guide for Policy Makers | https://doi.org/10.2139/ssrn.6303038
+- 2026 | Hamza | When Honesty Becomes a Liability: Evaluating AI Disclosure Mandates in Open Source Software | https://doi.org/10.2139/ssrn.7137539
+- 2024 | Brunswicker, Haefliger | Is There Collaboration in Open Collaboration?The Role of Producers and Corporate Users in Open Source Software Development | https://doi.org/10.2139/ssrn.4985231
+- 2023 | Mkrtchyan, Thiem, Sebechlebska | CORA: An open-source software tool for Combinational Regularity Analysis | https://doi.org/10.2139/ssrn.4468659
+## R2 open source software Europe public sector → 30194
+- 2026 | Linaker, Nummelin Carlberg, O’Riordan | Public Sector Open Source Program Offices - Archetypes for how to Grow (Common) Institutional Capabilities | https://doi.org/10.2139/ssrn.6381014
+- 2026 | Wasserman | Finite Testability of Enterprise Software: A Quantitative Survey of Mutable State Across 200 Public Open-Source Codebases | https://doi.org/10.2139/ssrn.7115358
+- 2025 | Frei, Sparzynski | Open-Source Software and Open-Source Hardware under the new European Product Liability Directive | https://doi.org/10.2139/ssrn.5567258
+- 2025 | Raj, N | Proprietary software versus Open Source Software for Education | https://doi.org/10.2139/ssrn.5273827
+- 2021 | Checchi, Fenizia, Lucifora | Public Sector Jobs: Working in the Public Sector in Europe and the Us | https://doi.org/10.2139/ssrn.3879362
+- 2025 | Yan | Open Source in Motion: Rethinking Innovation In The Electric Vehicle Sector | https://doi.org/10.2139/ssrn.5217015
+- 2024 | Ransbotham | How Does Open Innovation Affect Risk? The Case of Open Source Software Vulnerability Exploitation | https://doi.org/10.2139/ssrn.4982115
+- 2023 | Agrawal | Open Source Software: Copyright vs. Right to Copy | https://doi.org/10.2139/ssrn.4525067
+- 2026 | salahi | QuakeBeacon -Earthquake Rescue Beacon App Open Source Software Blueprint | https://doi.org/10.2139/ssrn.6739418
+- 2025 | Thomas | Intellectual Property, Computer Software and the Open Source Movement | https://doi.org/10.2139/ssrn.5160091
+- 2024 | Onagh, Nayebi | Extension Decisions in Open Source Software Ecosystem | https://doi.org/10.2139/ssrn.4975545
+- 2019 | Warr, Hangsing | Open Source Digital Library Software: A Literature Review | https://doi.org/10.2139/ssrn.1639383
+- 2024 | Hoffmann, Nagle, Zhou | The Value of Open Source Software | https://doi.org/10.2139/ssrn.4693148
+- 2025 | Schreiber, Wieland | Inter-Organizational Collaborations in Open-Source Software Ecosystems | https://doi.org/10.2139/ssrn.5097590
+- 2020 | Wright, Nagle, Greenstein | Open Source Software and Global Entrepreneurship | https://doi.org/10.2139/ssrn.3636502
+- 2020 | Taffet, Zymler | Open Source Software and Standards Development: Competition Law Implications | https://doi.org/10.2139/ssrn.3742791
+- 2026 | Viseur, Jullien | Evaluating control over free and open-source software (FOSS) projects. Beyond the Open Governance Index | https://doi.org/10.2139/ssrn.6463687
+- 2020 | Bayati, Tripathi, Bapna | Recommending Open Source Software Projects to Developers | https://doi.org/10.2139/ssrn.3642052
+- 2019 | K R, swamy | Cloud Computing Applications: An Open Source Software (OSS) Approach | https://doi.org/10.2139/ssrn.3507358
+- 2024 | Haese, Peukert | Open at the Core: Moving from Proprietary Technology to Building a Product on Open Source Software | https://doi.org/10.2139/ssrn.4946238
+## R3 digital commons Europe → 19435
+- 2022 | Sharma | Tragedy of the Digital Commons | https://doi.org/10.2139/ssrn.4245266
+- 2024 | Belli | Building Good Digital Sovereignty Through Digital Public Infrastructures And Digital Commons In India And Brazil | https://doi.org/10.2139/ssrn.4966348
+- 2026 | LAATIGUE | Beyond the Commons Toward a Digital Common Heritage of Mankind Framework Algorithmic Enclosure of the Cognitive Commons and the Nagoya Analogy | https://doi.org/10.2139/ssrn.6642584
+- 2021 | Greco, Floridi | The Tragedy of the Digital Commons | https://doi.org/10.2139/ssrn.3848417
+- 2024 | Li, Chen | Governing Decentralized Autonomous Organizations as Digital Commons | https://doi.org/10.2139/ssrn.4684441
+- 2025 | Deng | Governing Digital Commons: The Essence of Information on Internet Platforms | https://doi.org/10.2139/ssrn.5141734
+- 2025 | Raizonville, Lacroix | Digital Commons and postal operators: an exploratory approach | https://doi.org/10.2139/ssrn.5312966
+- 2021 | Singh | Public Digital Estate: Role of Commons in Legal Education and Research | https://doi.org/10.2139/ssrn.3846947
+- 2026 | Srivastava, Srivastava | LLMs and OSINT in Digital Commons Governance&amp;nbsp; | https://doi.org/10.2139/ssrn.7354319
+- 2024 | Coco | Digital Enclosures and Commons Solutions: A Political-Ecological Approach to Data Governance | https://doi.org/10.2139/ssrn.4997858
+- 2025 | Agarwal | The End of Game Theory: Designing Positive-Sum Systems for the Digital Commons | https://doi.org/10.2139/ssrn.5479192
+- 2025 | Agarwal | The End of Game Theory: Designing Positive-Sum Systems for the Digital Commons | https://doi.org/10.2139/ssrn.5479369
+- 2020 | Kaminska, Walker | Submission to the House of Commons Treasury Committee - Digital Currencies Inquiry | https://doi.org/10.2139/ssrn.3412228
+- 2020 | Hockett | The Capital Commons: Digital Money and Citizens' Finance in a Productive Commercial Republic | https://doi.org/10.2139/ssrn.3715862
+- 2026 | Accorsi | Kleo: Designing a European Digital Commons for Social Communication -Open Protocols, Digital Sovereignty and Value-Centred Architecture in the EU Normative Framework | https://doi.org/10.2139/ssrn.6699738
+- 2026 | Chowdhry | Commons or Tollgate? The Private Enclosure of Digital Infrastructure | https://doi.org/10.2139/ssrn.6618698
+- 2025 | Egungbemi | Claiming the Digital Commons: Data Sovereignty and the Global South's Resistance to Surveillance Capitalism | https://doi.org/10.2139/ssrn.5429794
+- 2024 | Avila, Chandrasekhar, Dulong de Rosnay | Governing Digital Public Infrastructure as a Commons | https://doi.org/10.2139/ssrn.4981380
+- 2022 | Potts | Innovation Commons: New Innovation Policy for a Digital Economy | https://doi.org/10.2139/ssrn.4095561
+- 2025 | Koellner | Commons vs. Copyright: Reconciling UNESCO's Memory of the World with Exclusive Rights in Digital Collections | https://doi.org/10.2139/ssrn.5950715
+## R4 open source industrial policy digital sovereignty → 48510
+- 2026 | Pearce | Open Source Digital Sovereignty: The Case for a Canadian National Linux Distribution | https://doi.org/10.2139/ssrn.7585538
+- 2026 | Belli, Britto Gaspar | Leveraging Open Source Technologies as a Techno-regulatory Strategy to Advance Digital Sovereignty | https://doi.org/10.2139/ssrn.7612258
+- 2025 | Ali | Digital Sovereignty and Data Colonialism: India's Emerging Foreign Policy Challenge | https://doi.org/10.2139/ssrn.5712062
+- 2026 | kim | Governing by Risk: Digital Sovereignty and the Discursive Construction of Blockchain Policy | https://doi.org/10.2139/ssrn.6304931
+- 2021 | Circiumaru | The EU’s Digital Sovereignty - The role of Artificial Intelligence and Competition Policy | https://doi.org/10.2139/ssrn.3831815
+- 2026 | Julner | Digital Sovereignty Through Explicit Authorization: Cryptographic Enforcement of Individual Control in Open Systems | https://doi.org/10.2139/ssrn.6280658
+- 2024 | Name, Samlidis | Protecting Policy Space for Indigenous Data Sovereignty Under International Digital Trade Law | https://doi.org/10.2139/ssrn.4887819
+- 2026 | Alkhedir | HydroSovereign AI Engine (HSAE) v6.01: An Open-Source Satellite and AI Platform for Transboundary Water Sovereignty Analysis | https://doi.org/10.2139/ssrn.6661396
+- 2026 | Accorsi | Kleo: Designing a European Digital Commons for Social Communication -Open Protocols, Digital Sovereignty and Value-Centred Architecture in the EU Normative Framework | https://doi.org/10.2139/ssrn.6699738
+- 2026 | Das | From Digital Policy to Execution Sovereignty Europe's Strategic Foresight in an Era of Machine-Speed Governance Author | https://doi.org/10.2139/ssrn.6092807
+- 2026 | VATTIPALLI, Panyam | Governing Cognitive Infrastructures: A Policy Framework for AI–Quantum Sovereignty in the Digital Economy | https://doi.org/10.2139/ssrn.6463691
+- 2026 | Jegede | Decolonizing Digital Sovereignty: An Operational Framework and Policy Analysis of AI Governance in&amp;nbsp;Sub-Saharan Africa | https://doi.org/10.2139/ssrn.7049038
+- 2023 | Borgogno, Savini Zangrandi | Chinese Data Governance and Trade Policy: From Cyber Sovereignty to the Quest for Digital Hegemony? | https://doi.org/10.2139/ssrn.4464137
+- 2026 | Boehm | How Open Source Coordinates: A Guide for Policy Makers | https://doi.org/10.2139/ssrn.6303038
+- 2025 | Balogun, Ismaila Alao, Olaniyi | Disinformation in the digital era: The role of deepfakes, artificial intelligence, and open-source intelligence in shaping public trust and policy responses | https://doi.org/10.2139/ssrn.5165104
+- 2019 | Warr, Hangsing | Open Source Digital Library Software: A Literature Review | https://doi.org/10.2139/ssrn.1639383
+- 2023 | Su, Lee | Review of Machine Learning Approaches for Diagnostics and Prognostics of Industrial Systems Using Industrial Open Source Data | https://doi.org/10.2139/ssrn.4678054
+- 2025 | Galvanese de Sousa | Digital Sovereignty and Globalization: The Redefining State Sovereignty | https://doi.org/10.2139/ssrn.5953097
+- 2026 | Chow | &lt;p&gt;Cognitive Sovereignty and the AI State - Beyond Data Sovereignty and Digital Sovereignty&lt;/p&gt; | https://doi.org/10.2139/ssrn.6930638
+- 2020 | Chestek | Free and Open Source Law, Policy and Practice - 2d Edition: Trademark Chapter | https://doi.org/10.2139/ssrn.3534810
+## R5 open source artificial intelligence China regulation → 48271
+- 2026 | Kumar | Comparing Empathy-Efficiency Ratios Across Open-Source and Proprietary Artificial Intelligence Models | https://doi.org/10.2139/ssrn.7410218
+- 2026 | Wang, Li, Sun | Artificial Intelligence Complements Open-Source Knowledge in Startup Growth | https://doi.org/10.2139/ssrn.6347480
+- 2026 | Werbach | Conduct Regulation for Artificial Intelligence: Why the U.S. should Learn from China | https://doi.org/10.2139/ssrn.7284539
+- 2024 | Assuncao | Proprietary and Open-Source Artificial Intelligence: the Regulatory Challenges of a Janus-faced Technology | https://doi.org/10.2139/ssrn.4751942
+- 2025 | Gao, Yoo, Schecter | Open-Source AI Community as 'Trading Zone': The Role of Open-Source Models in the Diffusion of Artificial Intelligence Innovation Completed Research Paper | https://doi.org/10.2139/ssrn.5019689
+- 2025 | Liu, Sui | China and Regulation of Artificial Intelligence | https://doi.org/10.2139/ssrn.5874043
+- 2025 | Kim, Kwon | How Open Source Artificial Intelligence Democratizes and Improves Science: Evidence from Structural Biology | https://doi.org/10.2139/ssrn.5219337
+- 2025 | Zheng | Antitrust in Artificial Intelligence Infrastructure – between Regulation and Innovation in the EU, the Us, and China | https://doi.org/10.2139/ssrn.5159437
+- 2026 | Amavilah | Regulation and the Growth of Artificial Intelligence Products: A Cross-Jurisdictional Model (United States, European Union, China) | https://doi.org/10.2139/ssrn.7653421
+- 2025 | Kubba, Abu Talib, Ibrahim | Diffusion-Based Open-Source Generative Artificial Intelligence for Regional Architectural Design and Preservation | https://doi.org/10.2139/ssrn.5479942
+- 2025 | Garon | ARTIFICIAL INTELLIGENCE LAW AND REGULATION IN A NUTSHELL ® CHAPTER 9 CONSIDERATIONS FOR THE LAW AND REGULATION OF ARTIFICIAL INTELLIGENCE | https://doi.org/10.2139/ssrn.5384048
+- 2025 | Balogun, Ismaila Alao, Olaniyi | Disinformation in the digital era: The role of deepfakes, artificial intelligence, and open-source intelligence in shaping public trust and policy responses | https://doi.org/10.2139/ssrn.5165104
+- 2024 | Adelowo | Regulation of Artificial Intelligence | https://doi.org/10.2139/ssrn.4821161
+- 2024 | Oyedele | Regulation of Artificial Intelligence | https://doi.org/10.2139/ssrn.4812935
+- 2025 | Muro, Ibara, Nimura | SegRef3D: A Versatile Open-Source Platform for Artificial Intelligence-Assisted Segmentation and Three-Dimensional Reconstruction in Morphological Research | https://doi.org/10.2139/ssrn.5547238
+- 2025 | Obioha Val, Lawal, Olaniyi | Investigating the Feasibility and Risks of Leveraging Artificial Intelligence and Open Source Intelligence to Manage Predictive Cyber Threat Models | https://doi.org/10.2139/ssrn.5108973
+- 2025 | Obioha Val, Gbadebo, Olaniyi | Innovative Regulation of Open Source Intelligence and Deepfakes AI in Managing Public Trust | https://doi.org/10.2139/ssrn.5117977
+- 2025 | Simon | Bespoke Regulation of Artificial Intelligence | https://doi.org/10.2139/ssrn.5094900
+- 2026 | Giorgianni | From the Open Internet to Digital Infrastructural Power Comparative Regulation of Data, Platforms, Cybersecurity and Artificial Intelligence in the European Union and the United States | https://doi.org/10.2139/ssrn.7341758
+- 2024 | Waghmare | Fugitive Tracking using Open Source Intelligence ( OSINT) | https://doi.org/10.2139/ssrn.4719968
+## R6 open source software economic impact → 58480
+- 2023 | Bhuiyan, Setia | Engagement and Satisfaction in Open Source Software Development: The Impact of Job Characteristics | https://doi.org/10.2139/ssrn.4605132
+- 2026 | Abdulmajeed | A Software Engineering Perspective on Documentation Quality: Modeling Its Impact on Newcomer Onboarding in Open-Source Projects | https://doi.org/10.2139/ssrn.6864982
+- 2025 | Frei, Sparzynski | Open-Source Software and Open-Source Hardware under the new European Product Liability Directive | https://doi.org/10.2139/ssrn.5567258
+- 2025 | Raj, N | Proprietary software versus Open Source Software for Education | https://doi.org/10.2139/ssrn.5273827
+- 2025 | Hamza | High-Impact Quality Evaluation of Open Source Software Ml Projects Using State-of-The-Art Machine Learning and Deep Learning Approaches | https://doi.org/10.2139/ssrn.5247255
+- 2025 | Yang, Jiao, Yu | The Impact of Digital Startup's IPO Events on Complementary Developers’ Contributions to the Open-Source Software Community | https://doi.org/10.2139/ssrn.5144791
+- 2024 | Song, Agarwal, Wen | The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot&amp;nbsp; | https://doi.org/10.2139/ssrn.4856935
+- 2024 | Zou, Medappa, Tunc | How Does Early Involvement of External Contributors Impact Open Source Software Development and Maintenance? Evidence from GitHub | https://doi.org/10.2139/ssrn.4929384
+- 2024 | Ransbotham | How Does Open Innovation Affect Risk? The Case of Open Source Software Vulnerability Exploitation | https://doi.org/10.2139/ssrn.4982115
+- 2023 | Agrawal | Open Source Software: Copyright vs. Right to Copy | https://doi.org/10.2139/ssrn.4525067
+- 2026 | salahi | QuakeBeacon -Earthquake Rescue Beacon App Open Source Software Blueprint | https://doi.org/10.2139/ssrn.6739418
+- 2024 | Onagh, Nayebi | Extension Decisions in Open Source Software Ecosystem | https://doi.org/10.2139/ssrn.4975545
+- 2025 | Thomas | Intellectual Property, Computer Software and the Open Source Movement | https://doi.org/10.2139/ssrn.5160091
+- 2024 | Hoffmann, Nagle, Zhou | The Value of Open Source Software | https://doi.org/10.2139/ssrn.4693148
+- 2019 | Warr, Hangsing | Open Source Digital Library Software: A Literature Review | https://doi.org/10.2139/ssrn.1639383
+- 2025 | Schreiber, Wieland | Inter-Organizational Collaborations in Open-Source Software Ecosystems | https://doi.org/10.2139/ssrn.5097590
+- 2020 | Wright, Nagle, Greenstein | Open Source Software and Global Entrepreneurship | https://doi.org/10.2139/ssrn.3636502
+- 2020 | Taffet, Zymler | Open Source Software and Standards Development: Competition Law Implications | https://doi.org/10.2139/ssrn.3742791
+- 2026 | Viseur, Jullien | Evaluating control over free and open-source software (FOSS) projects. Beyond the Open Governance Index | https://doi.org/10.2139/ssrn.6463687
+- 2020 | Bayati, Tripathi, Bapna | Recommending Open Source Software Projects to Developers | https://doi.org/10.2139/ssrn.3642052
+## R7 technological self-reliance China software → 35159
+- 2025 | Ara | The Role of Artificial Intelligence in the Economic Development of South Asia: From Technological Dependence to Self-Reliance | https://doi.org/10.2139/ssrn.5560081
+- 2025 | Stark, Jorgensen Diener, Leeson | Supporting Self-Reliance for Displaced and Host Populations: Insights from the Self-Reliance Index Across 16 Countries | https://doi.org/10.2139/ssrn.5278528
+- 2024 | Hajdu, Frollová | Overconfidence Due to a Self-Reliance Dilemma | https://doi.org/10.2139/ssrn.4854794
+- 2024 | Hajdu, Frollová | Overconfidence Due to a Self-reliance Dilemma | https://doi.org/10.2139/ssrn.4793536
+- 2026 | Qi, Ye, Yu | &lt;div&gt;
+ From Stability Dependence to Capability Self-Reliance: Pathways to Career Security among Students at an Applied University in China
+&lt;/div&gt; | https://doi.org/10.2139/ssrn.6982998
+- 2023 | Kampanje | Towards Achieving Self-Reliance on Malawian Cooking Oil and Other Edible Fats | https://doi.org/10.2139/ssrn.4128053
+- 2026 | Pan | Forging Self-Confidence and Self-Reliance, Empowering with Openness and Inclusiveness:The Reconstruction and Practical Path of the Contemporary Chinese Intellectuals'Mission | https://doi.org/10.2139/ssrn.6171689
+- 2026 | Banerjee | Evaluating the Service Sector as a Pillar of Economic Self-Reliance in India | https://doi.org/10.2139/ssrn.7304918
+- 2023 | Garcia-Herrero, Weil | Lessons for Europe from China's Quest for Semiconductor Self-Reliance | https://doi.org/10.2139/ssrn.4516940
+- 2025 | Makamanzi | Africa beyond Aid: Pathways to Sustainable Self-Reliance in an Era of Shrinking Global Assistance | https://doi.org/10.2139/ssrn.5339143
+- 2021 | Kumari | A Review of resource management and self-reliance for sustainable Growth of India under pandemic scenario | https://doi.org/10.2139/ssrn.3937480
+- 2026 | monsang | Indigenous Product-Based Entrepreneurship and Tribal Self-Reliance: A Study of Manipur's Hill Districts | https://doi.org/10.2139/ssrn.7008778
+- 2025 | Marchetti, Newnham, Robinson | The Resilience Paradox: Rural Self-Reliance and the Limits of Disaster Recovery | https://doi.org/10.2139/ssrn.5136499
+- 2026 | Cao, Shen, Tan | From Sanctions to Self-Reliance: Export Controls, Retaliation, and Innovation Outcomes | https://doi.org/10.2139/ssrn.7247279
+- 2026 | Oriel Kagan, Pinson, Schler | Between Vulnerable and Self-Reliance: Refugee Students’ Experiences in Urban Schools in Kampala | https://doi.org/10.2139/ssrn.6879744
+- 2024 | SUN, Keung, Yang | Improving Anomaly Detection in Software Logs Through Hybrid Language Modeling and Reduced Reliance on Parser | https://doi.org/10.2139/ssrn.4978351
+- 2026 | BM | &lt;p&gt;Calibrating Confidence: A Self-Regulation-Based Cognitive-Behavioral Intervention for Appropriate AI Reliance Among Knowledge Workers&lt;/p&gt; | https://doi.org/10.2139/ssrn.7378538
+- 2026 | Mwape | Structural Transformation and Economic Sovereignty: A Rigorous Analysis of Macroeconomic Stabilization, Governance Integrity, and Industrial Self-reliance in Contemporary Zambia (Volume One) | https://doi.org/10.2139/ssrn.6997918
+- 2023 | chen, XUE | Input Trade Liberalization and Regional Technological Progress in China - a Discussion on Inter-Regional Technological Spillover | https://doi.org/10.2139/ssrn.4588801
+- 2019 | Estuwijaya, Usman | The Influence of Motivation Learning, Self-Reliance Learning, Environment of Others and Parents Attention to Learning Achievements | https://doi.org/10.2139/ssrn.3418315

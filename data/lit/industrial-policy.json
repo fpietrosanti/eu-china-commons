@@ -7029,5 +7029,192 @@
       "fact (as argued): CN local competition duplicates platforms and fragments standards"
     ],
     "evidence": "A"
+  },
+  {
+    "type": "paper",
+    "language": "en",
+    "accessed": "2026-11-10",
+    "url_http": "200 (doi.org→SSRN; metadata via Crossref/OpenAlex)",
+    "id": "EU-124",
+    "title": "How Open Source Coordinates: A Guide for Policy Makers",
+    "title_original": "",
+    "authors": "Mirko Boehm (Linux Foundation Europe)",
+    "organisation": "SSRN",
+    "year": 2026,
+    "geography": [
+      "global",
+      "EU"
+    ],
+    "topics": [
+      "policy",
+      "coordination",
+      "governance"
+    ],
+    "url": "https://doi.org/10.2139/ssrn.6303038",
+    "summary": "Policy-maker guide on how open-source communities coordinate production (title + author metadata; abstract not exposed).",
+    "key_findings": [
+      "inference: candidate framing text for EU policy chapter"
+    ],
+    "evidence": "C"
+  },
+  {
+    "type": "paper",
+    "language": "en",
+    "accessed": "2026-11-10",
+    "url_http": "200 (doi.org→SSRN; metadata via Crossref/OpenAlex)",
+    "id": "EU-125",
+    "title": "Leveraging Open Source Technologies as a Techno-regulatory Strategy to Advance Digital Sovereignty",
+    "title_original": "",
+    "authors": "Luca Belli, Walter Britto Gaspar (FGV)",
+    "organisation": "SSRN",
+    "year": 2026,
+    "geography": [
+      "global",
+      "BR"
+    ],
+    "topics": [
+      "digital sovereignty",
+      "open source",
+      "regulation"
+    ],
+    "url": "https://doi.org/10.2139/ssrn.7612258",
+    "summary": "Open source as techno-regulatory tool for digital sovereignty (Global-South perspective; abstract not exposed).",
+    "key_findings": [
+      "inference: third-country comparator for EU/CN sovereignty framings"
+    ],
+    "evidence": "C"
+  },
+  {
+    "type": "paper",
+    "language": "en",
+    "accessed": "2026-11-10",
+    "url_http": "200 (doi.org→SSRN; metadata via Crossref/OpenAlex)",
+    "id": "EU-126",
+    "title": "Lessons for Europe from China's Quest for Semiconductor Self-Reliance",
+    "title_original": "",
+    "authors": "Alicia García-Herrero (HKUST/Bruegel), Pauline Weil (Bruegel)",
+    "organisation": "SSRN / Bruegel",
+    "year": 2023,
+    "geography": [
+      "EU",
+      "CN"
+    ],
+    "topics": [
+      "self-reliance",
+      "semiconductors",
+      "industrial policy"
+    ],
+    "url": "https://doi.org/10.2139/ssrn.4516940",
+    "summary": "EU lessons from Chinese semiconductor self-reliance policy (not OSS-specific; RISC-V context).",
+    "key_findings": [
+      "inference: comparator for CN industrial-stack chapter"
+    ],
+    "evidence": "C"
+  },
+  {
+    "type": "paper",
+    "language": "en",
+    "accessed": "2026-11-10",
+    "url_http": "200 (doi.org→SSRN; metadata via Crossref/OpenAlex)",
+    "id": "EU-127",
+    "title": "Open-Source Software and Open-Source Hardware under the new European Product Liability Directive",
+    "title_original": "",
+    "authors": "Tarmio Frei, Greta Sparzynski (Bucerius Law School)",
+    "organisation": "SSRN",
+    "year": 2025,
+    "geography": [
+      "EU"
+    ],
+    "topics": [
+      "regulation",
+      "liability",
+      "open hardware"
+    ],
+    "url": "https://doi.org/10.2139/ssrn.5567258",
+    "summary": "Legal analysis of OSS and open hardware under the revised PLD (complements CRA readiness items EU-082).",
+    "key_findings": [
+      "inference: regulatory-lever evidence (key finding 9)"
+    ],
+    "evidence": "C"
+  },
+  {
+    "type": "paper",
+    "language": "en",
+    "accessed": "2026-11-10",
+    "url_http": "200 (doi.org→SSRN; metadata via Crossref/OpenAlex)",
+    "id": "EU-128",
+    "title": "Evaluating control over free and open-source software (FOSS) projects. Beyond the Open Governance Index",
+    "title_original": "",
+    "authors": "Robert Viseur (UMons), Nicolas Jullien (IMT Atlantique)",
+    "organisation": "SSRN",
+    "year": 2026,
+    "geography": [
+      "EU",
+      "global"
+    ],
+    "topics": [
+      "governance",
+      "vendor control",
+      "measurement"
+    ],
+    "url": "https://doi.org/10.2139/ssrn.6463687",
+    "summary": "Method to evaluate corporate control over FOSS projects beyond the Open Governance Index.",
+    "key_findings": [
+      "inference: usable to compare vendor control in OpenHarmony/openEuler vs EU projects (proposal)"
+    ],
+    "evidence": "C"
+  },
+  {
+    "type": "paper",
+    "language": "en",
+    "accessed": "2026-11-10",
+    "url_http": "200 (doi.org→SSRN; metadata via Crossref/OpenAlex)",
+    "id": "EU-129",
+    "title": "Open source digital sovereignty: the case for a Canadian national Linux distribution",
+    "title_original": "",
+    "authors": "Joshua M. Pearce (Western University)",
+    "organisation": "SSRN",
+    "year": 2026,
+    "geography": [
+      "CA"
+    ],
+    "topics": [
+      "national distribution",
+      "digital sovereignty",
+      "procurement"
+    ],
+    "url": "https://doi.org/10.2139/ssrn.7585538",
+    "summary": "Argues for a Canadian national Linux distribution; Windows 58% desktop share, federal Microsoft contracts > C65m/10y (abstract read via OpenAlex).",
+    "key_findings": [
+      "fact (as argued by author): national-distro case outside EU/CN - analog to openEuler/openKylin and to EU openDesk"
+    ],
+    "evidence": "B"
+  },
+  {
+    "type": "paper",
+    "language": "en",
+    "accessed": "2026-11-10",
+    "url_http": "200 (doi.org→SSRN; metadata via Crossref/OpenAlex)",
+    "id": "CN-076",
+    "title": "From Sanctions to Self-Reliance: Export Controls, Retaliation, and Innovation Outcomes",
+    "title_original": "",
+    "authors": "Yifan Cao (Fudan), Bin Shen (Donghua), Xiao Ting Tan (ECUST)",
+    "organisation": "SSRN",
+    "year": 2026,
+    "geography": [
+      "CN",
+      "US"
+    ],
+    "topics": [
+      "export controls",
+      "innovation",
+      "self-reliance"
+    ],
+    "url": "https://doi.org/10.2139/ssrn.7247279",
+    "summary": "Chinese-authored empirical paper on export controls and innovation outcomes (abstract not exposed).",
+    "key_findings": [
+      "inference: candidate evidence for key finding 8 (sanctions shape OSS geography)"
+    ],
+    "evidence": "C"
   }
 ]

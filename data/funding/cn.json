@@ -737,8 +737,8 @@
   {
     "side": "CN",
     "currency": "CNY",
-    "oss_amount_known": false,
-    "summable": false,
+    "oss_amount_known": true,
+    "summable": true,
     "id": "cn-wuhan-excellent-oss-2024",
     "level": "cn-city",
     "jurisdiction": "Wuhan",
@@ -748,14 +748,15 @@
     "instrument_type": "grant",
     "beneficiary": "projects-and-communities",
     "year": 2024,
-    "amount": null,
-    "amount_type": "unknown",
+    "amount": 6000000,
+    "amount_type": "allocated",
     "oss_share": "exclusive",
     "evidence": "A",
     "sources": [
-      "https://jxj.wuhan.gov.cn/xwzx_9/tztg/202502/t20250213_2532333.html"
+      "https://jxj.wuhan.gov.cn/xwzx_9/tztg/202502/t20250213_2532333.html",
+      "https://jxj.wuhan.gov.cn/zxzj/zxzj_xmgs/202504/P020250429331700704768.pdf"
     ],
-    "note": "Award notice 13 Feb 2025: 10 projects (deepin, Jupiter/Douyu, RustSBI and open EDA/HUST, LuoJiaNET and kunpengsecl/WHU, Uotan Toolbox, 凹语言, OpenHIS, NextDenovo) + 1 community (deepin). Amount not in notice; press reports ¥300k per project (C, not used). First Chinese award-stage list verified on the original (archived).",
+    "note": "Award notice 13 Feb 2025: 10 projects (deepin, Jupiter/Douyu, RustSBI and open EDA/HUST, LuoJiaNET and kunpengsecl/WHU, Uotan Toolbox, 凹语言, OpenHIS, NextDenovo) + 1 community (deepin). First Chinese award-stage list verified on the original (archived). [10 Nov 2026] Amounts verified A on the municipal pre-allocation notice 《2024年武汉市软件产业发展专项资金预安排情况》 (jxj.wuhan.gov.cn, Apr 2025, rows 41–51, archived): 10 × 优秀开源软件项目奖励 ¥300k + 开源社区运营费用补助 ¥3.0M to 武汉深之度 (deepin) = ¥6.0M of a ¥38.93M list (15.4%). Status: 预安排 (pre-allocation after public notice), counted as allocated like the Guangdong 2026 plan. Lead: DeepSeek 10 Nov (reviews/2026-11-10_deepseek_wuhan-oss-awards.md).",
     "selection": "recommendation by universities and district bureaus + expert review",
     "conditions": "Wuhan-based applicants; evaluation rules 武汉市优秀开源软件项目和开源社区评价办法（试行）",
     "sovereignty_frame": "unclear (not stated in source read)",
@@ -850,5 +851,35 @@
     "amount": 3390000,
     "oss_share": "exclusive",
     "note": "人工智能大模型和智能体应用测试验证开源生态中心 → 广州掌动智能科技有限公司, ¥3.39M. Target sheet: open-source operating model, open toolchain, developer community, standards."
+  },
+  {
+    "side": "CN",
+    "currency": "CNY",
+    "level": "cn-district",
+    "jurisdiction": "Wuhan (East Lake High-tech Zone)",
+    "province": "Hubei",
+    "id": "cn-wuhan-donghu-oss-awards-2024-b1",
+    "funder": "Wuhan East Lake High-tech Development Zone (东湖高新区)",
+    "instrument": "2024年度软件和信息技术服务业发展奖补资金审核结果（第一批） — clauses 打造开源生态：开源平台建设 / 开源软件开发",
+    "instrument_type": "grant",
+    "beneficiary": "oss-projects",
+    "year": 2024,
+    "amount": 4426100,
+    "amount_type": "allocated",
+    "oss_share": "exclusive",
+    "oss_amount_known": true,
+    "summable": true,
+    "evidence": "A",
+    "sources": [
+      "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202411/P020241126430904757217.pdf",
+      "http://web.archive.org/web/20260109021348/https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202411/P020241126430904757217.pdf"
+    ],
+    "note": "Fact (original PDF via Wayback 2026-01-09; live URL 404 on 10 Nov 2026; archived): 武汉深之度科技 (deepin) row 8 total ¥4.6156M = 软件适配测评 ¥189.5k + 开源平台建设 ¥2.4261M + 开源软件开发 ¥2.0M; OSS clauses ¥4.4261M. Only OSS-clause beneficiary in batch 1. Status: 审核结果 public notice (Nov 2024). Lead: DeepSeek 10 Nov.",
+    "selection": "application + district review",
+    "conditions": "Donghu-registered software firms; Donghu software policy clauses 打造开源生态",
+    "sovereignty_frame": "unclear (not stated in source read)",
+    "intermediary": "district management committee",
+    "openness_to_foreign": "local registered firms only",
+    "outputs_required": "open-source platform building / open-source software development (ex post reimbursement-style)"
   }
 ]

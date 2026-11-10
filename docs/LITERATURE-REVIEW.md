@@ -174,3 +174,21 @@ Also seen, unread: Linux Foundation Europe, *Open Is Sovereign* (names PaddlePad
 - **Result (inference):** cumulative 6 rounds, **34 included**; EU–CN comparative still 1 (Liao & Zhang). Chinese academic policy evaluation exists (Wang & Xue): the white paper should cite it as the Chinese side's own diagnosis.
 - **Negative (✖):** CJK `title.search` unusable; 9 of 11 journals barely indexed. CNKI (or the journals' own sites) remains necessary for 科学学研究, 电子政务, 情报杂志.
 - **Re-run:** `node tools/openalex_cnjournals.js` (prefer `page=` paging; cursor paging stopped at 200 on two sources). Next: journals' own sites for 开源 issues; Wang & Xue full text.
+
+### Round 7 — SSRN via the Crossref API, 10 Nov 2026 (R02)
+- **Identification:** SSRN has no public API; its DOIs carry the Crossref prefix 10.2139, so `api.crossref.org/prefixes/10.2139/works?query.bibliographic=…` with `from-pub-date:2019-01-01`, top 20 by relevance (tools/crossref_ssrn.js, raw data/lit/crossref_ssrn_2026-11-10.md). R1 open source software policy China; R2 … Europe public sector; R3 digital commons Europe; R4 open source industrial policy digital sovereignty; R5 open source AI China regulation; R6 open source software economic impact; R7 technological self-reliance China software. Abstracts sought through OpenAlex `/works/doi:` (only 1 of 7 exposes one).
+- **Screening:** 140 records (≈95 unique). Crossref relevance ranking ignores the country term (R1 returned no China item; R2 and R6 largely repeat R1). Excluded: OSINT, tools, education, unrelated self-reliance. Already included: public-sector OSPO archetypes (Linåker et al.), The Value of OSS (Hoffmann, Nagle, Zhou).
+- **Included (6, new; also entered in data/lit/industrial-policy.json):**
+
+| Work | Relevance | Why |
+|---|---|---|
+| Boehm, *How Open Source Coordinates: A Guide for Policy Makers*, SSRN 2026, doi 10.2139/ssrn.6303038 | 3 | Policy-maker guide by an LF Europe author (EU-124) |
+| Belli & Britto Gaspar (FGV), *Leveraging Open Source Technologies as a Techno-regulatory Strategy to Advance Digital Sovereignty*, SSRN 2026, doi 10.2139/ssrn.7612258 | 3 | Sovereignty framing of open source from a third region (EU-125) |
+| Pearce (Western U.), *Open source digital sovereignty: the case for a Canadian national Linux distribution*, SSRN 2026, doi 10.2139/ssrn.7585538 | 2 | Third-country analog of national distributions (openEuler/openKylin, openDesk) (EU-129) |
+| Viseur & Jullien, *Evaluating control over FOSS projects. Beyond the Open Governance Index*, SSRN 2026, doi 10.2139/ssrn.6463687 | 2 | Method usable to compare vendor control in OpenHarmony/openEuler and EU projects (EU-128) |
+| Frei & Sparzynski (Bucerius), *OSS and OSH under the new European Product Liability Directive*, SSRN 2025, doi 10.2139/ssrn.5567258 | 2 | EU regulatory lever (EU-127) |
+| García-Herrero & Weil, *Lessons for Europe from China's Quest for Semiconductor Self-Reliance*, SSRN 2023, doi 10.2139/ssrn.4516940 | 2 | EU reading of CN self-reliance industrial policy (EU-126) |
+- Context only (not counted): Cao, Shen & Tan, *From Sanctions to Self-Reliance* (SSRN 2026) → industrial-policy CN-076.
+- **Result (inference):** cumulative 7 rounds, 4 databases, **40 included**; EU–CN comparative open-source policy works still 1 (Liao & Zhang). SSRN adds policy/legal working papers but no EU–CN comparison.
+- **Negative (✖):** R7 returned no software-policy paper; country terms are not enforced by Crossref ranking.
+- **Re-run:** `node tools/crossref_ssrn.js [R1 …]`. Next: Google Scholar (no API, manual browser pass); journals' own sites for 科学学研究 / 电子政务.

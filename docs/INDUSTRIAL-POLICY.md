@@ -53,6 +53,9 @@ Working document, 2026-11-08. Data: `data/lit/industrial-policy.json` (266 items
 - Chinese academic evaluation (added 9 Nov): 中国软科学 2026 runs a series on 开源创新 — Wang & Xue (Tsinghua) survey of Chinese open-source organisations on perceived policy effectiveness (CN-073, B: coordination costs lower perceived efficacy), Wen et al. on corporate OSPOs and the gaps of Chinese firms (CN-072, A), Chen & Yang theory review (CN-074, B), Liao & Zhang EU/US/CN open-source AI regulation (CN-075, A).
 - Inference: the sequence is demand-side substitution (xinchuang) -> domestic foundation (OpenAtom) -> municipal funding -> AI open-weight diplomacy; no document opened here quantifies GDP or productivity effects.
 
+- SSRN round (10 Nov, via Crossref prefix 10.2139): Boehm, policy-maker guide to open-source coordination (EU-124, C); Belli & Britto Gaspar, open source as techno-regulatory sovereignty strategy (EU-125, C); Frei & Sparzynski, OSS/OSH under the new Product Liability Directive (EU-127, C); Viseur & Jullien, measuring vendor control beyond the Open Governance Index (EU-128, C); Pearce, a Canadian national Linux distribution (EU-129, B: third-country analog of openEuler/openKylin and openDesk); García-Herrero & Weil, lessons from China's semiconductor self-reliance (EU-126, C); Cao, Shen & Tan, export controls → Chinese innovation (CN-076, C).
+- **Disbursement evidence (10 Nov, data/funding):** Wuhan 2024 municipal pre-allocation ¥6.0M to open source (15.4% of the city software fund) and Donghu district ¥4.43M to deepin (both A) — the money goes to a domestic Linux distribution and its community, consistent with the substitution reading of key finding 6.
+
 ## 6. Member-state strategies (snapshot)
 
 - **DE**: Sovereign Tech Agency, ZenDiS/openDesk, Schleswig-Holstein, Deutschland-Stack, Bundesrechnungshof, Bitkom, IW Köln (MS-002, MS-003, MS-022-041).
