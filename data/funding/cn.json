@@ -520,13 +520,14 @@
     "evidence": "B",
     "sources": [
       "https://www.cls.cn/detail/2240200",
-      "https://www.ithome.com/0/907/836.htm"
+      "https://www.ithome.com/0/907/836.htm",
+      "https://www.shanghai.gov.cn/cmsres/f1/f151d8a73aa04e1a864479e4d3aaa68b/a2c85b1f4ea52d883f1cb14e91b54f8a.pdf"
     ],
-    "note": "Plan published 25 Dec 2025: 安排专项资金 ... 对基础性开发工具研发项目给予最高2000万元的资金补助. Original plan text not yet fetched.",
+    "note": "Plan published 25 Dec 2025: 安排专项资金 ... 对基础性开发工具研发项目给予最高2000万元的资金补助. 11 Nov 2026: official signed text (沪府办〔2025〕33号, PDF, A) read in full: it contains NO monetary amount (only targets) and assigns the open-source tool-chain, project and commercialisation tasks to 市经济信息化委 as lead unit; the cap was stated orally by SHEITC chief engineer Qiu Wei at the 25 Dec 2025 press briefing (B, press). Evidence stays B until a SHEITC implementing measure or award list is found.",
     "selection": "competitive-review (遴选)",
     "conditions": "Shanghai entities; priority AI, chips, high-end software",
     "sovereignty_frame": "unclear (not stated in source read)",
-    "intermediary": "municipal government (上海市经信委 likely; not confirmed)",
+    "intermediary": "Shanghai Municipal Commission of Economy and Informatization (市经济信息化委), lead unit per plan text (A)",
     "openness_to_foreign": "unclear (not stated in source read)",
     "outputs_required": "open-source tools/projects; plan targets 100 OSS-commercial firms, 3M developers by 2027"
   },
@@ -549,13 +550,14 @@
     "oss_share": "exclusive",
     "evidence": "B",
     "sources": [
-      "https://www.cls.cn/detail/2240200"
+      "https://www.cls.cn/detail/2240200",
+      "https://www.shanghai.gov.cn/cmsres/f1/f151d8a73aa04e1a864479e4d3aaa68b/a2c85b1f4ea52d883f1cb14e91b54f8a.pdf"
     ],
-    "note": "遴选一批优秀开源项目进行直接奖励，奖励资金最高500万元.",
+    "note": "遴选一批优秀开源项目进行直接奖励，奖励资金最高500万元. 11 Nov 2026: official signed text (沪府办〔2025〕33号, PDF, A) read in full: it contains NO monetary amount (only targets) and assigns the open-source tool-chain, project and commercialisation tasks to 市经济信息化委 as lead unit; the cap was stated orally by SHEITC chief engineer Qiu Wei at the 25 Dec 2025 press briefing (B, press). Evidence stays B until a SHEITC implementing measure or award list is found.",
     "selection": "competitive-review (遴选)",
     "conditions": "Shanghai entities; priority AI, chips, high-end software",
     "sovereignty_frame": "unclear (not stated in source read)",
-    "intermediary": "municipal government (上海市经信委 likely; not confirmed)",
+    "intermediary": "Shanghai Municipal Commission of Economy and Informatization (市经济信息化委), lead unit per plan text (A)",
     "openness_to_foreign": "unclear (not stated in source read)",
     "outputs_required": "open-source tools/projects; plan targets 100 OSS-commercial firms, 3M developers by 2027"
   },
@@ -578,13 +580,14 @@
     "oss_share": "exclusive",
     "evidence": "B",
     "sources": [
-      "https://www.ithome.com/0/907/836.htm"
+      "https://www.ithome.com/0/907/836.htm",
+      "https://www.shanghai.gov.cn/cmsres/f1/f151d8a73aa04e1a864479e4d3aaa68b/a2c85b1f4ea52d883f1cb14e91b54f8a.pdf"
     ],
-    "note": "Reported: 毕业项目 一次性奖励100万元 (example cited: 开源鸿蒙与开源欧拉). Count unknown.",
+    "note": "Reported: 毕业项目 一次性奖励100万元 (example cited: 开源鸿蒙与开源欧拉). Count unknown. 11 Nov 2026: official signed text (沪府办〔2025〕33号, PDF, A) read in full: it contains NO monetary amount (only targets) and assigns the open-source tool-chain, project and commercialisation tasks to 市经济信息化委 as lead unit; the cap was stated orally by SHEITC chief engineer Qiu Wei at the 25 Dec 2025 press briefing (B, press). Evidence stays B until a SHEITC implementing measure or award list is found.",
     "selection": "competitive-review (遴选)",
     "conditions": "Shanghai entities; priority AI, chips, high-end software",
     "sovereignty_frame": "unclear (not stated in source read)",
-    "intermediary": "municipal government (上海市经信委 likely; not confirmed)",
+    "intermediary": "Shanghai Municipal Commission of Economy and Informatization (市经济信息化委), lead unit per plan text (A)",
     "openness_to_foreign": "unclear (not stated in source read)",
     "outputs_required": "open-source tools/projects; plan targets 100 OSS-commercial firms, 3M developers by 2027"
   },

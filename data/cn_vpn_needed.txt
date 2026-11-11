@@ -76,7 +76,6 @@ https://www.scu.edu.cn	# unreachable from outside CN 2026-11-08 (curl 000): Sich
 https://www.dlut.edu.cn	# unreachable from outside CN 2026-11-08 (curl 000): Dalian University of Technology (大连理工大学); directory entry ac-dlut	local copy of homepage, about/policy pages, open-source plans, annual reports, white papers
 Zhejiang open-source system implementation opinion (7 depts, Jul 2026) — jxt.zj.gov.cn / zj.gov.cn	only NBD relay seen; no original	original text, document number, issuing departments, fund clauses
 Beijing 开源生态体系建设实施方案（2026—2028年）, jxj.beijing.gov.cn, 24 Dec 2025	relay (Xinhua/cs.com.cn, ITHome) only	original text, measures, funding clauses
-Shanghai 加强开源体系建设实施方案 (Dec 2025) Chinese original, shanghai.gov.cn	English summary only	full Chinese text with fund clauses and responsible units
 Hunan 开源鸿蒙专项实施方案 湘制造强省办〔2026〕7号, gxt.hunan.gov.cn	relay only (IT之家, QQ)	original text and annexes
 Guangdong 服务业扩能提质方案 (19 Jun 2026) gd.gov.cn	relay only	open-source clause text
 Wuhan East Lake High-tech Zone open-source application pilot rules, wehdz.gov.cn	Yicai relay only	rule text, cap, eligibility

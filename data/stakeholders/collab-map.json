@@ -6929,7 +6929,7 @@
       "eu_cn_ties": [],
       "likelihood": "medium",
       "likelihood_reason": "Inference (analyst judgement, not yet validated): Digital-government counterpart; current ownership of open-source policy not confirmed.",
-      "evidence": "B",
+      "evidence": "A",
       "web_http": 200,
       "source_ids": [],
       "origin": "addition (homepage fetched 2026-11, identity read)",
