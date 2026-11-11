@@ -7216,5 +7216,64 @@
       "inference: candidate evidence for key finding 8 (sanctions shape OSS geography)"
     ],
     "evidence": "C"
+  },
+  {
+    "language": "zh",
+    "accessed": "2026-11-11",
+    "url_http": "200 (fetched direct from laptop, archived)",
+    "organisation": "General Office of Shanghai Municipal People's Government",
+    "geography": [
+      "CN"
+    ],
+    "evidence": "A",
+    "type": "policy",
+    "id": "CN-077",
+    "title": "Shanghai Implementation Plan for Strengthening the Open-Source System (Hufuban [2025] No. 33)",
+    "title_original": "上海市加强开源体系建设实施方案 (沪府办〔2025〕33号)",
+    "authors": "",
+    "year": 2025,
+    "topics": [
+      "open-source industrial policy",
+      "commercialisation",
+      "licences",
+      "international communities"
+    ],
+    "url": "https://www.shanghai.gov.cn/cmsres/f1/f151d8a73aa04e1a864479e4d3aaa68b/a2c85b1f4ea52d883f1cb14e91b54f8a.pdf",
+    "summary": "Signed 5 Dec 2025, published 9 Dec, in force 15 Dec 2025–14 Dec 2028. 12 tasks in 5 programmes (foundations, project excellence, talent, culture, governance); lead unit 市经济信息化委.",
+    "key_findings": [
+      "fact: 2027 targets — 1–2 internationally influential communities, 100 OSS-commercial firms, 200+ quality projects, 3M+ developers",
+      "fact: no monetary amount anywhere in the text; the ¥20M / ¥5M caps reported by the press were stated orally at the SHEITC briefing (25 Dec 2025)",
+      "fact: supports overseas sites and multilingual modules of Chinese open-source platforms and participation in international rule-making",
+      "fact: encourages a \"中国特色开源许可协议\" (Chinese-characteristics open-source licence) led by application needs",
+      "inference: industrial and commercialisation logic, with internationalisation as outward projection; no reciprocity or foreign-participation clause"
+    ]
+  },
+  {
+    "language": "zh",
+    "accessed": "2026-11-11",
+    "url_http": "200 (fetched direct from laptop, archived)",
+    "organisation": "General Office of Shanghai Municipal People's Government",
+    "geography": [
+      "CN"
+    ],
+    "evidence": "A",
+    "type": "policy",
+    "id": "CN-078",
+    "title": "Implementation Plan of the National Digital Economy Innovation and Development Pilot Zone (Shanghai) (Hufubanfa [2026] No. 5)",
+    "title_original": "国家数字经济创新发展试验区(上海)实施方案 (沪府办发〔2026〕5号)",
+    "authors": "",
+    "year": 2026,
+    "topics": [
+      "digital economy",
+      "trusted data spaces",
+      "cross-border data"
+    ],
+    "url": "https://www.shanghai.gov.cn/cmsres/05/05c8fb17844448d5a013631b6d6b368d/ff4fd8d655935dae8d9d5c900af9f30f.pdf",
+    "summary": "Signed 13 Apr 2026. Shanghai flagship digital-economy plan (data elements, AI, cross-border data, Lingang international data park).",
+    "key_findings": [
+      "fact: open source appears once, as exploring open-source communities for high-quality datasets",
+      "fact: implements the national trusted-data-space pilot with blockchain; cross-border data cooperation with Hong Kong and Singapore, not the EU",
+      "inference: open source is marginal in the flagship digital-economy plan and is carried by the separate open-source plan (CN-077); EU appears nowhere as a partner (negative)"
+    ]
   }
 ]
