@@ -73,3 +73,13 @@ Not recommended for notification now: ARTE, ANI, Hengqin, SAFP and City Universi
 5. Do we want a Macao-specific tag in the public map (region `MO`), or fold these into the Greater Bay Area view?
 6. Should Brazil and other Forum Macao members be mapped, if EU-China relevance can be shown?
 7. Who confirms the current digital-government unit in Macao (SAFP is an assumption)?
+
+## (f) Decisions (Fabio, 2026-11-11)
+
+1. No Portuguese-language edition for now; outreach in English.
+2. The FCT/FDCT inquiry (S1) is signed by the Observatory itself.
+3. University partnerships (S3) are in scope for the first year.
+4. Priority 1–2 bodies are informed by short institutional email (drafts in docs/outreach/macao-lusophone-emails.md, sent by Fabio).
+5. Public map: Macao records are shown inside the Greater Bay Area view (data keeps region `MO` internally; public label "Greater Bay Area").
+6. Brazil and other non-EU Forum Macao members are not mapped.
+7. Macao digital-government unit confirmed: **SAFP (Public Administration and Civil Service Bureau)** leads e-government (Macao One Account, government cloud, local LLMs), with the Post and Telecommunications Bureau cooperating. Evidence B (Macao government news office gcs.gov.mo, Macau Daily Times, Legislative Assembly documents). No "DSAFP" found in current sources.

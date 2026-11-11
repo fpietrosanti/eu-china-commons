@@ -6929,10 +6929,11 @@
       "eu_cn_ties": [],
       "likelihood": "medium",
       "likelihood_reason": "Inference (analyst judgement, not yet validated): Digital-government counterpart; current ownership of open-source policy not confirmed.",
-      "evidence": "A",
+      "evidence": "B",
       "web_http": 200,
       "source_ids": [],
-      "origin": "addition (homepage fetched 2026-11, identity read)"
+      "origin": "addition (homepage fetched 2026-11, identity read)",
+      "notes": "Confirmed 2026-11-11 as lead e-government bureau (gcs.gov.mo, Legislative Assembly docs)."
     },
     {
       "id": "cn-ccsa",

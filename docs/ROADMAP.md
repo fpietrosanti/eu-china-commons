@@ -62,6 +62,7 @@ Principle: open source as a *shared, non-rival commons* — collaboration on pub
 - [ ] Publish this research agenda on the site (EN/ZH) as "call for research & collaboration"
 - [ ] Continuous collection, now tagged by track A–G
 - [ ] Collaboration map v1: value proposition and fit per organisation (G1–G2)
+- [ ] First-year university partnerships, starting with Macao Polytechnic University (S3); informing Portuguese-channel bodies by email (MACAO-LUSOPHONE-CHANNEL.md)
 - [ ] China access route (mainland VPS SOCKS exit) — decision pending; clear VPN (88) and assisted (47) queues
 - [ ] Hong Kong mirror (EdgeOne Pages, free)
 
