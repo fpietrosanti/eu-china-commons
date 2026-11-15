@@ -1389,26 +1389,6 @@
     "done": null
   },
   {
-    "key": "shanghai 加强开源体系建设实施方案 (dec 2025) chinese original, shanghai.gov.cn",
-    "target": "Shanghai 加强开源体系建设实施方案 (Dec 2025) Chinese original, shanghai.gov.cn",
-    "url": null,
-    "origin": "research",
-    "ref": null,
-    "blocker": "vpn (unreachable outside mainland China)",
-    "reason": "English summary only",
-    "needed": "full Chinese text with fund clauses and responsible units",
-    "then": "Archive the original, extract: full Chinese text with fund clauses and responsible units; check against the relay copies; upgrade evidence to A; log the round.",
-    "updates": [
-      "data/funding/cn.json and/or data/catalogue-verified.json (evidence → A, source URL, archive path)",
-      "docs/RESEARCH-REGISTER.md (new round)",
-      "docs/STATE.md",
-      "the chapter that cites it (docs/FUNDING-CHAPTER.md, CN-OSS-LANDSCAPE.md, …)",
-      "sources/archive-vpn/"
-    ],
-    "status": "open",
-    "done": null
-  },
-  {
     "key": "hunan 开源鸿蒙专项实施方案 湘制造强省办〔2026〕7号, gxt.hunan.gov.cn",
     "target": "Hunan 开源鸿蒙专项实施方案 湘制造强省办〔2026〕7号, gxt.hunan.gov.cn",
     "url": null,

@@ -19,16 +19,16 @@ untouched and are included as `profile-*` seeds.
 - **Hard coverage gaps (details in section 4):** CN data is thin and indirect - no reachable Chinese funder database lists projects (MOST, NSFC, MIIT, provincial bureaux are unreachable/captcha-gated from outside China; queued in `data/cn_vpn_needed.txt`); Prototype Fund website blocks bots (we do not bypass); Gitee/AtomGit search needs tokens. The EU:CN ratio in this registry is a **sampling artefact of what is publicly queryable, not a measure of relative funding**.
 
 <!-- STATS:BEGIN -->
-Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/registry/stats.js.
+Total records: **19037** (EU 18331, CN 706). Generated 2026-11-15 by tools/registry/stats.js.
 
 **By side x funder level**
 
 | side / level | records |
 |---|---:|
-| EU / EU | 9320 |
-| EU / member-state | 8153 |
-| CN / CN-central | 557 |
-| EU / region-city | 526 |
+| EU / EU | 9355 |
+| EU / member-state | 8195 |
+| CN / CN-central | 561 |
+| EU / region-city | 530 |
 | EU / foundation | 251 |
 | CN / CN-provincial | 66 |
 | CN / foundation | 51 |
@@ -38,14 +38,14 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 
 | harvester | records |
 |---|---:|
-| zenodo | 6917 |
+| zenodo | 6973 |
 | gh_funding | 3854 |
-| opencode_de | 3335 |
+| opencode_de | 3359 |
 | nlnet | 1859 |
 | cordis | 1048 |
 | codegouv | 1003 |
-| developers_italia | 576 |
-| code_overheid_nl | 193 |
+| developers_italia | 578 |
+| code_overheid_nl | 196 |
 | sta | 95 |
 | openatom | 38 |
 | seed_profiles | 34 |
@@ -54,7 +54,7 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 
 | evidence | records |
 |---|---:|
-| B | 14636 |
+| B | 14721 |
 | A | 2932 |
 | C | 1384 |
 
@@ -62,15 +62,15 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 
 | country | records |
 |---|---:|
-| EU | 8272 |
-| Germany | 4919 |
-| France | 1567 |
-| United Kingdom | 881 |
-| China | 702 |
-| Italy | 693 |
-| Switzerland | 610 |
-| Netherlands | 605 |
-| Austria | 180 |
+| EU | 8307 |
+| Germany | 4952 |
+| France | 1568 |
+| United Kingdom | 882 |
+| China | 706 |
+| Italy | 695 |
+| Switzerland | 615 |
+| Netherlands | 608 |
+| Austria | 181 |
 | Spain | 140 |
 | Norway | 95 |
 | Greece | 53 |
@@ -87,17 +87,17 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 
 | programme | records |
 |---|---:|
-| openCoDE public-sector code platform | 3335 |
+| openCoDE public-sector code platform | 3359 |
 | Horizon Europe | 1012 |
 | code.gouv.fr public-sector source code directory | 1003 |
-| H2020-EU.1.1. | 711 |
+| H2020-EU.1.1. | 714 |
 | NGI | 647 |
 | H2020 | 608 |
-| Developers Italia software catalogue (publiccode.yml, "riuso") | 576 |
+| Developers Italia software catalogue (publiccode.yml, "riuso") | 578 |
 | NGI0 Commons Fund | 537 |
 | H2020-EU.1.3. | 507 |
 | Horizon 2020 | 482 |
-| HORIZON.2.4 | 435 |
+| HORIZON.2.4 | 444 |
 | DFG | 348 |
 | H2020-EU.1.4. | 344 |
 | NSFC | 328 |
@@ -106,30 +106,30 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 | NGI Zero Core | 250 |
 | BMBF/BMWK Förderkennzeichen | 246 |
 | NGI0 Entrust | 245 |
+| HORIZON.1.1 | 238 |
 | ERC | 236 |
-| HORIZON.1.1 | 233 |
-| HORIZON.2.5 | 208 |
+| HORIZON.2.5 | 211 |
 | Stichting NLnet | 201 |
-| code.overheid.nl government code platform | 193 |
+| code.overheid.nl government code platform | 196 |
 | H2020-EU.3.5. | 188 |
 
 **By domain**
 
 | domain | records |
 |---|---:|
-| devtools | 2604 |
-| web | 1537 |
-| data | 1459 |
-| ai | 1342 |
-| security | 1055 |
-| hardware | 967 |
-| energy | 880 |
-| cloud | 509 |
-| messaging | 505 |
+| devtools | 2614 |
+| web | 1542 |
+| data | 1469 |
+| ai | 1348 |
+| security | 1056 |
+| hardware | 970 |
+| energy | 891 |
+| cloud | 513 |
+| messaging | 511 |
 | os | 429 |
 | geo | 406 |
 | office | 399 |
-| health | 366 |
+| health | 369 |
 | softwareengineering | 207 |
 | operatingsystems | 119 |
 | decentralisedsolutions | 116 |
@@ -143,7 +143,7 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 | harvester | records |
 |---|---:|
 | gh_funding | 558 |
-| zenodo | 88 |
+| zenodo | 92 |
 | openatom | 38 |
 | seed_profiles | 18 |
 
@@ -151,7 +151,7 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 
 | level / region | records |
 |---|---:|
-| CN-central / - | 557 |
+| CN-central / - | 561 |
 | foundation / - | 51 |
 | CN-provincial / Beijing | 27 |
 | CN-city / Shenzhen | 25 |
@@ -162,9 +162,9 @@ Total records: **18952** (EU 18250, CN 702). Generated 2026-11-08 by tools/regis
 | CN-city / - | 3 |
 | CN-provincial / Sichuan | 1 |
 
-**Records with a stated awarded amount (EUR)**: 1143 of 18952. cordis: 1048 records, EUR 3,391,016,947 (whole-project grants, not OSS-only - do not add up across sources); sta: 95 records, EUR 35,147,036 (whole-project grants, not OSS-only - do not add up across sources)
+**Records with a stated awarded amount (EUR)**: 1143 of 19037. cordis: 1048 records, EUR 3,391,016,947 (whole-project grants, not OSS-only - do not add up across sources); sta: 95 records, EUR 35,147,036 (whole-project grants, not OSS-only - do not add up across sources)
 
-**Repository links**: 12792 records have a repo_url; 12750 checked; 118 not reachable (HTTP >= 400 or no answer).
+**Repository links**: 12847 records have a repo_url; 12807 checked; 118 not reachable (HTTP >= 400 or no answer).
 
 <!-- STATS:END -->
 
