@@ -7275,5 +7275,103 @@
       "fact: implements the national trusted-data-space pilot with blockchain; cross-border data cooperation with Hong Kong and Singapore, not the EU",
       "inference: open source is marginal in the flagship digital-economy plan and is carried by the separate open-source plan (CN-077); EU appears nowhere as a partner (negative)"
     ]
+  },
+  {
+    "language": "pl",
+    "accessed": "2026-11-17",
+    "url_http": "200 (fetched direct from laptop, archived)",
+    "organisation": "Council of Ministers of Poland (Ministry of Digital Affairs, lead)",
+    "geography": [
+      "PL"
+    ],
+    "evidence": "A",
+    "type": "policy",
+    "id": "MS-082",
+    "title": "State Digitalisation Strategy (Strategia Cyfryzacji Państwa), Council of Ministers Resolution No. 130 of 9 June 2026 (M.P. 2026 item 620)",
+    "title_original": "Strategia Cyfryzacji Państwa (Uchwała nr 130 Rady Ministrów z dnia 9 czerwca 2026 r., M.P. 2026 poz. 620)",
+    "authors": "",
+    "year": 2026,
+    "topics": [
+      "open source",
+      "public administration",
+      "OSPO",
+      "procurement",
+      "funding instrument",
+      "open AI"
+    ],
+    "url": "https://api.sejm.gov.pl/eli/acts/MP/2026/620/text.pdf",
+    "summary": "Adopted 9 June 2026, published in Monitor Polski 18 June 2026; horizon 2035. Section 4.6 'Open source' (pp. 179-181) with two goals: 4.6.1 more OSS and open standards in public administration; 4.6.2 a stronger Polish OSS ecosystem.",
+    "key_findings": [
+      "fact: diagnosis states the lack of a comprehensive framework and of a central unit supporting OSS adoption in public administration (cites the EC 2021 OSS/OSH impact study)",
+      "commitment: create an Open Source Programme Office (Biuro Programów Otwartego Oprogramowania), inventory OSS use, an OSS and open-standards implementation programme with pilots, tender rules that support OSS in an accountable way, a security-vetted OSS repository for the administration",
+      "commitment: a financing instrument for companies, organisations and developers creating OSS and open hardware; support for open AI systems in the administration, open protocols for platform users, OSS for local government, OSS competitions",
+      "fact: no amounts attached to the open-source instrument in the strategy text; China is not mentioned in section 4.6",
+      "inference: first Polish government document committing to OSS at strategy level (consistent with OSOR 2026 country report, B); converges with the EU Open Source Strategy, COM(2026) 503"
+    ]
+  },
+  {
+    "language": "en",
+    "accessed": "2026-11-17",
+    "url_http": "200 (fetched from server euchina@51.158.36.151, archived)",
+    "organisation": "European Commission DG DIGIT / Interoperable Europe (OSOR), research by OpenForum Europe",
+    "geography": [
+      "EE"
+    ],
+    "evidence": "A",
+    "type": "report",
+    "id": "MS-083",
+    "title": "Open Source Software Country Intelligence Report: Estonia 2025",
+    "title_original": "",
+    "authors": "OpenForum Europe for DG DIGIT",
+    "year": 2025,
+    "topics": [
+      "open source",
+      "public administration",
+      "X-Road",
+      "NIIS",
+      "AI (Bürokratt)"
+    ],
+    "url": "https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Report%20Estonia%202025_0.pdf",
+    "summary": "State of OSS in the Estonian public sector as of February 2025 (update of the 2020 report).",
+    "key_findings": [
+      "fact: X-Road (since 2001) is maintained as open source by NIIS, funded by its member governments; code on GitHub since 2018",
+      "fact: the national AI strategy Kratt produced open-source AI modules, incl. the Bürokratt chatbot",
+      "fact: Digital Agenda principle that taxpayer-funded software is released as open source; Koodivaramu public code repository",
+      "inference: Estonia's OSS policy is an interoperability and digital-diplomacy instrument (X-Road export) more than an industrial-subsidy policy; no China link found"
+    ]
+  },
+  {
+    "language": "zh",
+    "accessed": "2026-11-17",
+    "url_http": "200 (laptop downloads truncated; fetched from server euchina@51.158.36.151, archived)",
+    "organisation": "Shanghai Municipal Commission of Economy and Informatization (SHEITC)",
+    "geography": [
+      "CN",
+      "CN-SH"
+    ],
+    "evidence": "A",
+    "type": "policy",
+    "id": "CN-079",
+    "title": "Shanghai Software and Information Services Industry Development Plan for the 15th Five-Year Period (Hujingxinruan [2026] No. 471)",
+    "title_original": "上海市软件和信息服务业发展“十五五”规划 (沪经信软〔2026〕471号)",
+    "authors": "",
+    "year": 2026,
+    "topics": [
+      "open source",
+      "software industry",
+      "15th Five-Year Plan",
+      "commercialisation",
+      "licensing"
+    ],
+    "url": "https://www.sheitc.sh.gov.cn/cyfz/20260811/7ff732b1c470421c86e46d14c0270ead.html",
+    "summary": "Published 11 Aug 2026. Contains task 3 'build an innovation-active open-source ecosystem' and box 9 'open-source innovation ecosystem project' (AI international open-source community, commercialisation, talent).",
+    "key_findings": [
+      "commitment: push open-source projects (software, corpora, algorithms, models, agents, humanoid-robot hardware/software) to launch first in Shanghai, relying on 白玉兰开源研究院, OpenLoong, OpenDataLab",
+      "commitment: promote 'paid open source' and dual licensing as benefit-sharing mechanisms; support commercial secondary development of OSS ('技术开源化+商业应用增值化')",
+      "commitment: support ModelScope (魔搭) overseas sites and events; compute and model vouchers; start-up subsidies for open-source contest winners; open-source contribution in university student and team evaluation",
+      "commitment: support participation in global open-source ecosystems and 'international rule-making'",
+      "fact: no monetary amounts in the open-source section (same as CN-077)",
+      "inference: Shanghai frames open source as an industrial-commercialisation and outward-projection tool; 'paid open source' sits uneasily with OSI definitions and is a dialogue point with the EU"
+    ]
   }
 ]

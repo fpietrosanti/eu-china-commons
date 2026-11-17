@@ -418,10 +418,11 @@ EU-level and EU-wide entries are in the category tables above. Each country sect
 | Enterprise Estonia (EAS) - China | office | active | trade | [www.eas.ee/en](https://www.eas.ee/en/) | [contact](https://www.eas.ee/en/) | B |
 | Confucius Institute at University of Tartu | university | active | education, culture | [www.ut.ee/en](https://www.ut.ee/en) | [contact](https://ut.ee/en/contacts) | A |
 
-### Finland (FI) - 4 entries
+### Finland (FI) - 5 entries
 
 | Name | Type | Status | Domains | Website | Contact | Ev. |
 |---|---|---|---|---|---|---|
+| Finland–China MOST Joint Innovation Call (Business Finland–MOST, 2025: max 15 projects, CN RMB 60M; no ICT/open-source topic) | funding programme | active | research, innovation, standards | [www.businessfinland.fi](https://www.businessfinland.fi/en/locations/asia-india-and-oceania/china/china-innovation) | [contact](https://www.businessfinland.fi) | A |
 | Business Finland China | office | active | trade, science | [www.businessfinland.fi](https://www.businessfinland.fi) | [contact](https://www.businessfinland.fi) | A |
 | FIIA - Finnish Institute of International Affairs | think-tank | active | policy-research | [www.fiia.fi/en](https://www.fiia.fi/en) | [contact](https://fiia.fi/en/institute/contact-information) | A |
 | Research Council of Finland - China cooperation | institution | active | science | [www.aka.fi/en](https://www.aka.fi/en) | [contact](https://www.aka.fi/en/about-the-rcf/about-us/contact-us/) | A |
@@ -678,6 +679,7 @@ EU-level and EU-wide entries are in the category tables above. Each country sect
 - **No digital, standards or open-source specific entry** for: Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, Greece, Hungary, Ireland, Latvia, Lithuania, Luxembourg, Malta, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom, Norway. Entries there are chambers, trade agencies, funders, think tanks or Confucius Institutes. "None found" means none identified in this pass, not that none exists.
 - **EU level:** no EU-China open-source or digital-commons forum identified. **10 Nov:** High-Level Digital Dialogue checked on the EEAS round report (A): rounds Sept 2020 and 18 Sept 2023 only, agenda without open source or standards, no round 2024–26 found → dormant (inference). The only active EU–CN digital channel found is the trade-led **Cross-Border Data Flow Communication Mechanism** (DG TRADE–CAC, launched Aug 2024, A; 2nd meeting Jul 2025 with an automotive data-flow working group, B). **11 Nov:** EEAS Delegation page (A, archived): ICT dialogue = DG CONNECT–MIIT annual dialogue since 2009; per the Commission 2023 HLDD release (B, relay) it had not met since 2020 and its resumption was agreed in Sept 2023 — no later round found (dormant). Cyber Taskforce: created 2012, DG CONNECT co-chairs; current activity not established. **Spain (11 Nov):** the 19 agreements of the April 2026 visit (La Moncloa, A) include no digital/AI/data/standards item — Spain stays in the no-digital-channel list.
 - **Searched but not confirmed (not included):** "ECRAN" (EU-China research and advisory network) and an "EU-China Policy Hub": no web results confirming either. A Dutch chamber of commerce in mainland China: no official site found (search returned the Danish chamber under the same acronym DCCC).
+- **17 Nov:** Finland–China MOST Joint Innovation Call 2025 read in full (A): topics green/circular/health only, open source absent; China–Finland Joint Action Plan 2025–2029 (29 Oct 2024) exists (gov.cn, B) but full text not retrieved (finlandabroad 403, gov.cn body JS-rendered). Czechia: no government-level digital agreement with China found (Czech digital MoUs are with Taiwan, Korea, Denmark). Finland SFS–SAC bilateral: none found (SFS only an ISO/TC 154 observer with SAC secretariat).
 - **Lithuania** left China-CEEC in 2021 and bilateral relations are strained; entries are generic agencies and funders.
 - **BICCS (VUB)** is recorded as ended (2009-2017) as a historical precedent.
 - **Confucius Institutes:** several have closed or been rebranded in Europe; entries with unknown status should be checked before contact.

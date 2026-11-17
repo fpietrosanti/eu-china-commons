@@ -6189,5 +6189,34 @@
     "accessed": "2026-11-11",
     "evidence": "A",
     "evidence_scope": "official news page read; agreement texts not opened"
+  },
+  {
+    "id": "fi-cn-most-joint-innovation-call",
+    "name_en": "Finland–China MOST Joint Innovation Call (Business Finland – Ministry of Science and Technology of China)",
+    "name_original": "中芬政府间联合创新项目征集 (Business Finland – 科学技术部)",
+    "type": "funding programme",
+    "scope": "FI-CN",
+    "countries": [
+      "FI",
+      "CN"
+    ],
+    "domains": [
+      "research",
+      "innovation",
+      "standards"
+    ],
+    "status": "active",
+    "since": 2025,
+    "description": "Fact (Business Finland launch deck, 16 Jun 2025, A): annual joint call under MoUs between Business Finland, MOST and three Yangtze River Delta provinces (Shanghai, Jiangsu, Zhejiang); 2025 MOST call: max 15 projects, China side RMB 4M per project, RMB 60M total, 1:1 matching; Finland 40-60% grants. Topics: climate/sustainable development, circular economy, health and agetech (incl. digital health). 'Contribute to standardisation' is a listed project type. Negative: no ICT/software/open-source topic.",
+    "official_website": "https://www.businessfinland.fi/en/locations/asia-india-and-oceania/china/china-innovation",
+    "website_http": null,
+    "website_is_parent_site": true,
+    "contact_channel": "https://www.businessfinland.fi",
+    "contact_type": "official website (institutional)",
+    "relevance_for_observatory": "One of the few active member-state–China co-funded innovation calls; template for a co-funded open-source call, but open source absent today.",
+    "source_url": "https://www.businessfinland.fi/globalassets/finnish-customers/05-go-to-market/locations/china-finland-innovation/bf-most-innovation-call-launch-2025-06-16.pdf",
+    "accessed": "2026-11-17",
+    "evidence": "A",
+    "evidence_scope": "launch deck read in full (fetched from server); call text and 2026 round not checked"
   }
 ]

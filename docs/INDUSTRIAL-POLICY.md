@@ -1,6 +1,6 @@
 # Industrial policy and economic-policy impacts of open source / digital commons
 
-Working document, 2026-11-08. Data: `data/lit/industrial-policy.json` (266 items; ids EU-, CN-, MS- = EU level, China, member states). Evidence levels: **A** = original document opened; **B** = reliable secondary description; **C** = search snippet only. Of 266 items only 16 are A, 47 B, 203 C: treat every number below as "as reported" until upgraded. Items still carry `url_http` from a curl check (232 x 200; 22 x 403 bot-blocks; 9 x 404; 2 unreachable).
+Working document, 2026-11-08. Data: `data/lit/industrial-policy.json` (282 items; ids EU-, CN-, MS- = EU level, China, member states). Evidence levels: **A** = original document opened; **B** = reliable secondary description; **C** = search snippet only. Of 266 items only 16 are A, 47 B, 203 C: treat every number below as "as reported" until upgraded. Items still carry `url_http` from a curl check (232 x 200; 22 x 403 bot-blocks; 9 x 404; 2 unreachable).
 
 ## Executive summary
 
@@ -57,6 +57,8 @@ Working document, 2026-11-08. Data: `data/lit/industrial-policy.json` (266 items
 - **Disbursement evidence (10 Nov, data/funding):** Wuhan 2024 municipal pre-allocation ¥6.0M to open source (15.4% of the city software fund) and Donghu district ¥4.43M to deepin (both A) — the money goes to a domestic Linux distribution and its community, consistent with the substitution reading of key finding 6.
 - **Shanghai originals (11 Nov, A, fetched direct):** the open-source plan 沪府办〔2025〕33号 (CN-077) sets 2027 targets (100 OSS-commercial firms, 200+ projects, 3M developers), assigns the lead to 市经济信息化委, backs overseas sites of Chinese platforms and a "中国特色开源许可协议", but **contains no amount**: the ¥20M/¥5M caps exist only as oral statements at the SHEITC press briefing (B). The 2026 digital-economy pilot-zone plan (CN-078) mentions open source once (dataset communities) and names Hong Kong and Singapore, not the EU, as data-cooperation partners.
 
+- **17 Nov (A):** Shanghai 十五五 software plan 沪经信软〔2026〕471号 (CN-079): an open-source ecosystem task and box 9 (ModelScope overseas sites, start-up subsidies for contest winners, open-source credit in university evaluation, "有偿开源/双许可证" benefit-sharing, participation in international rule-making) — again **no amounts**. Poland's State Digitalisation Strategy (MS-082, Monitor Polski 2026/620): section 4.6 commits to an OSPO, OSS-supportive tender rules, a vetted OSS repository and a financing instrument for OSS/open hardware — no amounts either. Estonia OSS country report 2025 (MS-083): X-Road/NIIS and Bürokratt; OSS as interoperability and digital-diplomacy tool. Inference: on both sides the 2026 texts are commitment-rich and amount-poor.
+
 ## 6. Member-state strategies (snapshot)
 
 - **DE**: Sovereign Tech Agency, ZenDiS/openDesk, Schleswig-Holstein, Deutschland-Stack, Bundesrechnungshof, Bitkom, IW Köln (MS-002, MS-003, MS-022-041).
@@ -70,7 +72,7 @@ Working document, 2026-11-08. Data: `data/lit/industrial-policy.json` (266 items
 - No CNKI-indexed empirical Chinese papers on OSS and productivity/GDP surfaced (one survey-based policy-perception study found 9 Nov: CN-073); Tsinghua/PKU/CASS output missing; CCID/CAICT primary texts not opened.
 - Missing primaries: COM(2026) 503 text, Cloud and AI Development Act, Chips Act 2.0 provisions on open source, MIIT plan Chinese original, Bundesrechnungshof report.
 - Think tanks with nothing found: CEPS, ECFR, IFRI, SWP, Terra Nova, Rhodium (open source specific), IISS, Atlantic Council, Paulson; ECA sovereignty audit; IMF, WIPO, World Bank OSS items (only DPI white paper).
-- Baltics, Czechia, Poland, UK, Nordics thin; no Eurostat OSS-specific dataset located.
+- Baltics, Czechia, Poland, UK, Nordics thin (17 Nov: Poland strategy MS-082 and Estonia report MS-083 added, both A; Latvia, Lithuania, Czechia still empty); no Eurostat OSS-specific dataset located.
 
 ## 8. Open questions
 
