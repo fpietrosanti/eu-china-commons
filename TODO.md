@@ -109,6 +109,7 @@ Fabio is logged in on Chrome to all three. ChatGPT Plus (€20/month), DeepSeek 
 - [ ] Rounds spread over time: at most a few sessions per day per service, staying within the free-plan limits
 - [ ] Tasks: (1) Chinese-index searches (Shanghai declaration, 15th Five-Year Plan, missing initiatives); (2) completeness check of registry + catalogue; (3) review of the analyses (REVIEW-DRAFT, MULTILEVEL) and scores; (4) ZH text and Chinese name
 - [ ] Every run archived in reviews/ + data/llm-runs.tsv; disagreements → decision log
+- [ ] **To test (added 18 Nov 2026, Fabio):** analyse the feasibility of [freellmapi](https://github.com/tashfeenahmed/freellmapi) to rerun these research questions extensively across all the free LLMs it supports, to maximise information coverage. Check: which providers/models it covers (Western + Chinese), ToS and free-plan limits of each provider, stability, whether it fits the blind cross-check protocol (protocols/) and the logging in reviews/ + data/llm-runs.tsv, token/budget rules, and security of running it on the server. Output: a short feasibility note in docs/, then a pilot on 1–2 tasks.
 
 ## Industrial open-source stacks — added 2 Nov 2026 (Fabio)
 PA reuse is not the only goal: also map how each side builds open-source stacks for its own industry.
