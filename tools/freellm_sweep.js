@@ -63,7 +63,7 @@ const runs = [];
 function normUrl(u) {
   try {
     const x = new URL(u.trim());
-    let p = x.pathname.replace(/\/+$/, '');
+    let p = x.pathname.replace(/\/{2,}/g, '/').replace(/\/+$/, '');
     return (x.hostname.replace(/^www\./, '') + p + (x.search || '')).toLowerCase();
   } catch { return u.trim().toLowerCase(); }
 }
@@ -84,6 +84,21 @@ function knownUrls() {
   };
   walk(ROOT);
   return set;
+}
+
+
+function repoText() {
+  let out = '';
+  const walk = d => {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      if (['.git', 'node_modules', 'site', 'freellm', 'registry', '.cache'].includes(e.name)) continue;
+      const p = path.join(d, e.name);
+      if (e.isDirectory()) walk(p);
+      else if (/\.(md|json|tsv|txt|html)$/i.test(e.name) && e.name !== 'FREELLM-SWEEP.md' && fs.statSync(p).size < 30e6) out += fs.readFileSync(p, 'utf8').toLowerCase() + '\n';
+    }
+  };
+  walk(ROOT);
+  return out.replace(/\s+/g, ' ') + ' ' + out.replace(/\s/g, '');
 }
 
 async function api(pathname, body, timeoutMs = 180000) {
@@ -266,15 +281,29 @@ function stageReport() {
       query_models: h.query_models, evidence: 'D', status: 'unverified',
     });
   }
-  const score = l => (l.agree === true ? 2 : l.agree === null ? 1 : 0) + (l.primary ? 2 : 0);
+  // Title-level dedupe: the same document often sits at several URLs. A lead is "maybe_known" when the core
+  // of its title (document name in 《》, else the part before the site suffix) already appears in the repo.
+  const corpus = repoText();
+  const seenUrl = new Set();
+  for (const l of leads) {
+    const t = (l.title || '').replace(/\s+/g, ' ').trim();
+    const book = t.match(/《([^》]{6,})》/);
+    let core = book ? book[1] : t.split(/\s[|\-–—_]\s|_|\s\|\s/)[0].trim();
+    if (/[\u4e00-\u9fff]/.test(core)) core = core.replace(/\s/g, '').slice(0, 24); else core = core.slice(0, 60);
+    l.maybe_known = core.length >= 8 && corpus.includes(/[\u4e00-\u9fff]/.test(core) ? core : core.toLowerCase());
+    const u = normUrl(l.url); l.duplicate = seenUrl.has(u); seenUrl.add(u);
+  }
+  for (let i = leads.length - 1; i >= 0; i--) if (leads[i].duplicate) leads.splice(i, 1);
+  const score = l => (l.agree === true ? 2 : l.agree === null ? 1 : 0) + (l.primary ? 2 : 0) + (l.maybe_known ? -3 : 0);
   leads.sort((x, y) => score(y) - score(x) || x.topics[0].localeCompare(y.topics[0]));
   fs.writeFileSync(path.join(OUT, 'leads.json'), JSON.stringify(leads, null, 1));
 
   const nQueries = Object.keys(hits.done).filter(k => !k.endsWith('|known')).length;
   const nKnown = Object.entries(hits.done).filter(([k]) => k.endsWith('|known')).reduce((s, [, v]) => s + v, 0);
   const nNew = Object.keys(hits.hits).length;
-  const strong = leads.filter(l => l.agree === true && l.primary);
-  const byTopic = {}; for (const l of leads) for (const t of l.topics) { byTopic[t] = byTopic[t] || { all: 0, strong: 0 }; byTopic[t].all++; if (l.agree === true && l.primary) byTopic[t].strong++; }
+  const strong = leads.filter(l => l.agree === true && l.primary && !l.maybe_known);
+  const nMaybe = leads.filter(l => l.maybe_known).length;
+  const byTopic = {}; for (const l of leads) for (const t of l.topics) { byTopic[t] = byTopic[t] || { all: 0, strong: 0 }; byTopic[t].all++; if (l.agree === true && l.primary && !l.maybe_known) byTopic[t].strong++; }
   // which query models generated queries that led to relevant leads
   const byQm = {}; for (const l of leads) for (const m of l.query_models) byQm[m] = (byQm[m] || 0) + 1;
 
@@ -284,12 +313,12 @@ function stageReport() {
     `found by web search and screened by free models from title/snippet only. Nothing here enters the registry, catalogue or chapters until verified against the primary source.*\n\n` +
     `## Run\n\n- Router: FreeLLMAPI v0.16.34 in Docker on the server, localhost only, **keyless providers only** (no accounts, no keys): OVH AI Endpoints (anonymous), Kilo Gateway (anonymous :free routes), Parallel Search (anonymous MCP).\n` +
     `- Query panel: ${PANEL.slice(0, 4).join(', ')} (EN + ZH queries per topic). Classifiers (A then blind B, never the same model): ${CLASSIFIERS.join(', ')}.\n` +
-    `- ${TOPICS.length} topics · ${nQueries} distinct queries · ${nKnown} hits already in the repo (dropped) · ${nNew} new URLs screened · **${leads.length} relevant** (model A) · **${strong.length} strong** (A and B agree + primary source).\n\n` +
+    `- ${TOPICS.length} topics · ${nQueries} distinct queries · ${nKnown} hits already in the repo (dropped) · ${nNew} new URLs screened · **${leads.length} relevant** (model A) · **${nMaybe} probably already known** (title found in the repo) · **${strong.length} strong** (A and B agree + primary source + title not in the repo).\n\n` +
     `## By topic\n\n| Topic | relevant | strong |\n|---|---|---|\n` +
     TOPICS.map(([t]) => `| ${t} | ${byTopic[t]?.all || 0} | ${byTopic[t]?.strong || 0} |`).join('\n') +
     `\n\n## Which model's queries surfaced relevant leads\n\n| Query model | relevant leads |\n|---|---|\n` +
     Object.entries(byQm).sort((a, b) => b[1] - a[1]).map(([m, v]) => `| ${m} | ${v} |`).join('\n') +
-    `\n\n## Strong leads (A+B agree, primary source) — to verify first\n\n| Topic | Side | Kind | Title | Issuer | Date | URL |\n|---|---|---|---|---|---|---|\n` +
+    `\n\n## Strong leads (A+B agree, primary source, not in the repo) — to verify first\n\n| Topic | Side | Kind | Title | Issuer | Date | URL |\n|---|---|---|---|---|---|---|\n` +
     strong.map(l => `| ${l.topics.join(', ')} | ${l.side} | ${l.kind} | ${esc(l.title_en || l.title)} | ${esc(l.issuer)} | ${esc(l.date)} | ${l.url} |`).join('\n') +
     `\n\n## Other relevant leads\n\nSee data/freellm/leads.json (${leads.length - strong.length} more: secondary sources, or A/B disagreement).\n`;
   fs.writeFileSync(path.join(ROOT, 'docs', 'FREELLM-SWEEP.md'), md);

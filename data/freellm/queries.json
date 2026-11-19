@@ -1,0 +1,666 @@
+{
+ "cn-national-policy": {
+  "desc": "Chinese national (central government) policies, plans and standards that promote open source software, open source ecosystems or 开源 governance (State Council, MIIT, CAC, NDRC, MOST, SASAC), including the 15th Five-Year Plan (2026-2030)",
+  "by": {
+   "nemotron-3-ultra-550b": [
+    "MIIT open source software development action plan 2024 2025 site:miit.gov.cn",
+    "CAC open source governance regulation 2024 site:cac.gov.cn",
+    "State Council 15th Five-Year Plan open source software 2026 2030 site:gov.cn",
+    "NDRC digital economy open source ecosystem 2024 2025 site:ndrc.gov.cn",
+    "MOST open source science technology innovation plan 2024 site:most.gov.cn",
+    "SASAC state-owned enterprises open source management guidelines 2024 site:sasac.gov.cn",
+    "工信部 开源软件发展行动计划 2024 2025 site:miit.gov.cn",
+    "网信办 开源治理 规定 2024 site:cac.gov.cn",
+    "国务院 十五五 规划 开源软件 2026 2030 site:gov.cn",
+    "发改委 数字经济 开源生态 2024 2025 site:ndrc.gov.cn",
+    "科技部 开源 科技创新 规划 2024 site:most.gov.cn",
+    "国资委 国企 开源 管理 指南 2024 site:sasac.gov.cn"
+   ],
+   "dots3-note-preview": [
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "..."
+   ],
+   "gpt-oss-120b": [
+    "\"State Council\" \"open source software\" development plan 2024 filetype:pdf site:gov.cn",
+    "\"Ministry of Industry and Information Technology\" \"open source ecosystem\" guidelines 2025 filetype:pdf",
+    "\"National Development and Reform Commission\" \"open source\" innovation policy 2024-2026 site:gov.cn",
+    "\"15th Five-Year Plan\" \"open source\" technology chapter China 2026-2030 PDF",
+    "\"Ministry of Science and Technology\" \"open source software\" support program 2024 site:gov.cn",
+    "\"State Administration for Market Regulation\" \"open source governance\" standards 2025 filetype:pdf",
+    "国务院 关于 加强 开源 软件 发展的指导意见 2024 site:gov.cn",
+    "工业和信息化部 开源 生态 系统 规划 2025 filetype:pdf",
+    "国家发展改革委 开源 创新 政策 2024-2026 site:gov.cn",
+    "第十五个五年规划 开源 技术 章节 PDF",
+    "科技部 开源 软件 支持 项目 2024 site:gov.cn",
+    "国家市场监管总局 开源 治理 标准 2025 filetype:pdf"
+   ]
+  }
+ },
+ "cn-local-policy": {
+  "desc": "Chinese provincial and municipal action plans, implementation schemes and subsidies for open source (开源) ecosystems, e.g. Shanghai, Beijing, Guangdong, Zhejiang, Jiangsu, Sichuan, Hubei, Hunan, Fujian, Shandong, Shenzhen, Hangzhou, Wuhan",
+  "by": {
+   "gpt-oss-120b": [
+    "Shanghai Open Source Ecosystem Action Plan 2024 site:gov.cn",
+    "Beijing municipal open source software subsidy policy 2025 filetype:pdf",
+    "Guangdong Province open source development implementation scheme 2024 site:gov.cn",
+    "Zhejiang Open Source Innovation Fund 2025 official notice PDF",
+    "Sichuan Province open source talent cultivation program 2026 government report",
+    "Shenzhen open source community support measures 2024 site:shenzhen.gov.cn",
+    "上海市开源软件生态行动计划 2024 site:gov.cn",
+    "北京市开源软件补贴政策 2025 filetype:pdf",
+    "广东省开源生态实施方案 2024 site:gov.cn",
+    "浙江省开源创新基金 2025 通知 PDF",
+    "四川省开源人才培养计划 2026 政府报告",
+    "深圳市开源社区支持措施 2024 site:shenzhen.gov.cn"
+   ],
+   "nemotron-3-ultra-550b": [
+    "Shanghai Open Source Innovation Ecosystem Construction Action Plan 2024 2025 site:shanghai.gov.cn filetype:pdf",
+    "Beijing Open Source Industry Development Action Plan 2024 site:beijing.gov.cn filetype:pdf",
+    "Guangdong Province Open Source Innovation Development Action Plan 2024 subsidies site:gd.gov.cn filetype:pdf",
+    "Zhejiang Province Open Source Industry Development Implementation Plan 2024 site:zj.gov.cn filetype:pdf",
+    "Shenzhen Open Source Industry Development Action Plan 2024 special fund site:sz.gov.cn filetype:pdf",
+    "Wuhan Open Source Innovation Development Action Plan 2024 implementation scheme site:wuhan.gov.cn filetype:pdf",
+    "上海 开源 创新 生态 建设 行动 计划 2024 2025 site:shanghai.gov.cn filetype:pdf",
+    "北京 开源 产业 发展 行动 计划 2024 site:beijing.gov.cn filetype:pdf",
+    "广东 省 开源 创新 发展 行动 计划 2024 补贴 site:gd.gov.cn filetype:pdf",
+    "浙江 省 开源 产业 发展 实施 方案 2024 site:zj.gov.cn filetype:pdf",
+    "深圳 开源 产业 发展 行动 计划 2024 专项 资金 site:sz.gov.cn filetype:pdf",
+    "武汉 开源 创新 发展 行动 计划 2024 实施 方案 site:wuhan.gov.cn filetype:pdf"
+   ],
+   "dots3-note-preview": [
+    "Shanghai Open Source Ecosystem Action Plan 2024",
+    "Beijing Open Source Software Subsidy Policy 2025",
+    "Guangdong Province Open Source Implementation Scheme 2024",
+    "Zhejiang Open Source Industry Development Plan 2025",
+    "Jiangsu Open Source Support Measures 2024",
+    "Shenzhen Open Source Innovation Fund Guidelines 2025",
+    "上海市开源行动计划 2024",
+    "北京市开源软件补贴政策 2025",
+    "广东省开源生态实施方案 2024",
+    "浙江省开源产业发展规划 2025",
+    "江苏省开源支持政策 2024",
+    "深圳市开源创新基金 2025"
+   ]
+  }
+ },
+ "cn-pa-reuse": {
+  "desc": "Chinese public administrations reusing or sharing open source software and code (政务 开源, government code sharing platforms, openEuler/OpenHarmony in e-government)",
+  "by": {
+   "gpt-oss-120b": [
+    "\"State Council\" \"Open Source Software\" government directive 2024 site:gov.cn",
+    "\"Ministry of Industry and Information Technology\" \"Open Source Software Development Plan\" 2024-2026",
+    "\"OpenEuler\" \"government\" \"implementation guidelines\" 2025 filetype:pdf",
+    "\"OpenHarmony\" \"e‑government\" \"white paper\" 2025 site:gov.cn",
+    "\"National e‑Government Open Source Code Repository\" announcement 2025",
+    "\"China Open Source Software Alliance\" \"annual report\" 2025 public administration",
+    "site:gov.cn \"国务院\" \"开源 软件\" 推广 通知 2024",
+    "工业和信息化部 \"开源 软件\" 发展规划（2024-2026）",
+    "OpenEuler 政务 平台 实施指南 2025 filetype:pdf",
+    "OpenHarmony 政务 应用 白皮书 2025",
+    "国家电子政务 开源 代码库 公告 2025",
+    "中国开源软件联盟 2025 年度报告 公共管理"
+   ],
+   "dots3-note-preview": [
+    "China State Council open source policy 2024 pdf",
+    "openEuler government deployment 2024 report",
+    "OpenHarmony e-government application 2024 white paper",
+    "Chinese government code sharing platform 2024 site:gov.cn",
+    "China MIIT open source software guidelines 2024",
+    "China government open source code repository 2024",
+    "openEuler 政务 部署 2024 报告",
+    "OpenHarmony 政务 应用 2024 白皮书",
+    "政务开源 平台 2024 通知",
+    "中国政府 开源 代码 共享 2024 文件",
+    "数字政府 开源 2024 政策",
+    "信创 开源 2024 指南"
+   ],
+   "qwen3.5-397b": [
+    "\"Digital China\" \"open source\" government policy 2024..2026 site:gov.cn",
+    "openEuler OR OpenHarmony \"government procurement\" China 2024..2026",
+    "OpenAtom Foundation \"government\" whitepaper report 2024..2026",
+    "\"Ministry of Industry and Information Technology\" open source government directive 2024..2026",
+    "\"Xinchuang\" OR \"IT Application Innovation\" open source public administration 2024..2026",
+    "\"government software reuse\" standard China MIIT 2024..2026",
+    "\"数字中国\" \"开源\" 政务 政策 2024..2026 site:gov.cn",
+    "openEuler OR OpenHarmony 政务 云 操作系统 采购 2024..2026",
+    "开放原子开源基金会 政务 开源 白皮书 2024..2026",
+    "\"政务开源\" 代码共享 平台 试点 2024..2026",
+    "信创 开源软件 政府 复用 2024..2026",
+    "工业和信息化部 开源 供应链 政务 2024..2026"
+   ],
+   "nemotron-3-ultra-550b": [
+    "China government open source software reuse policy 2024 site:gov.cn",
+    "OpenEuler e-government deployment 2025 official report site:openeuler.org",
+    "OpenHarmony government adoption China 2024 white paper site:openharmony.cn",
+    "China government code sharing platform 政务开源平台 2025 site:data.gov.cn",
+    "Ministry of Industry and Information Technology open source guidance 2024 site:miit.gov.cn",
+    "OpenAtom Foundation government open source case studies 2025 site:openatom.cn",
+    "政务开源 实施方案 2024 site:gov.cn",
+    "openEuler 电子政务 部署 白皮书 2025 site:openeuler.org",
+    "OpenHarmony 政务 应用 试点 2024 site:openharmony.cn",
+    "政府代码共享平台 建设 指导意见 2025 site:data.gov.cn",
+    "工信部 开源 软件 复用 管理办法 2024 site:miit.gov.cn",
+    "开放原子开源基金会 政务 开源 案例 集 2025 site:openatom.cn"
+   ]
+  }
+ },
+ "cn-foundations": {
+  "desc": "Chinese open source foundations and communities: OpenAtom Foundation, KAIYUANSHE, Gitee/AtomGit, CCF ODTC, their governance, funding, members and projects",
+  "by": {
+   "gpt-oss-120b": [
+    "OpenAtom Foundation governance structure 2024 site:openatom.org",
+    "KAIYUANSHE funding and sponsorship report 2025 filetype:pdf",
+    "Gitee AtomGit official project catalog 2024 site:gitee.com",
+    "CCF ODTC strategic plan 2025 filetype:pdf",
+    "Ministry of Industry and Information Technology open source policy OpenAtom 2024 site:gov.cn",
+    "China Open Source Software Promotion Center annual report 2025 OpenAtom site:gov.cn",
+    "OpenAtom 基金会 治理结构 2024 site:openatom.org",
+    "开源社区 开源基金会 2025 年度报告 filetype:pdf",
+    "Gitee AtomGit 官方项目目录 2024 site:gitee.com",
+    "CCF ODTC 战略规划 2025 filetype:pdf",
+    "工业和信息化部 开源 软件 政策 OpenAtom 2024 site:gov.cn",
+    "开源软件促进中心 2025 年度报告 OpenAtom site:gov.cn"
+   ],
+   "dots3-note-preview": [
+    "OpenAtom Foundation 2025 annual report",
+    "KAIYUANSHE 2024 funding members",
+    "Gitee AtomGit 2025 project list",
+    "CCF ODTC 2025 open source community report",
+    "OpenAtom Foundation 2026 members",
+    "KAIYUANSHE governance 2025",
+    "开放原子开源基金会 2025 年度报告",
+    "开源社 KAIYUANSHE 2024 资金 成员",
+    "Gitee AtomGit 2025 项目列表",
+    "CCF ODTC 2025 开源社区报告",
+    "开放原子开源基金会 2026 成员",
+    "开源社 治理 2025"
+   ],
+   "nemotron-3-ultra-550b": [
+    "OpenAtom Foundation 2024 annual report filetype:pdf site:openatom.cn",
+    "OpenAtom Foundation governance charter members list 2025 site:openatom.cn",
+    "KAIYUANSHE open source community governance white paper 2024 filetype:pdf site:kaiyuanshe.cn",
+    "Gitee AtomGit open source platform white paper 2024 filetype:pdf site:gitee.com",
+    "CCF ODTC open source development committee charter 2025 site:ccf.org.cn",
+    "OpenAtom Foundation OpenAtom Open Source Fund 2024 project list site:openatom.cn",
+    "开放原子开源基金会 2024 年度报告 filetype:pdf site:openatom.cn",
+    "开放原子开源基金会 章程 成员名单 2025 site:openatom.cn",
+    "开源社 开源社区治理 白皮书 2024 filetype:pdf site:kaiyuanshe.cn",
+    "码云 AtomGit 开源平台 白皮书 2024 filetype:pdf site:gitee.com",
+    "CCF ODTC 开源发展委员会 章程 2025 site:ccf.org.cn",
+    "开放原子开源基金会 开放原子开源基金 2024 项目清单 site:openatom.cn"
+   ]
+  }
+ },
+ "cn-industrial-stacks": {
+  "desc": "Chinese industrial open source stacks: openEuler, OpenHarmony, OpenAnolis, RISC-V, open-weight AI models (Qwen, DeepSeek, GLM), automotive and industrial internet open source, adoption figures",
+  "by": {
+   "gpt-oss-120b": [
+    "openEuler 2025 annual report site:openeuler.org filetype:pdf",
+    "OpenHarmony ecosystem whitepaper 2024 site:harmonyos.com filetype:pdf",
+    "OpenAnolis 2024 adoption statistics Ministry of Industry and Information Technology PDF",
+    "RISC-V China 2025 development roadmap site:riscv.org.cn filetype:pdf",
+    "Qwen large language model technical report 2024 Baidu AI official document PDF",
+    "China automotive open source IoT platform 2025 government white paper site:gov.cn",
+    "openEuler 2025 年度报告 site:openeuler.org filetype:pdf",
+    "OpenHarmony 2024 生态白皮书 site:harmonyos.com filetype:pdf",
+    "OpenAnolis 2024 采纳情况 工业和信息化部 PDF",
+    "RISC-V 中国 2025 发展规划 site:riscv.org.cn filetype:pdf",
+    "Qwen 大模型 技术报告 2024 百度 AI 官方 文档 PDF",
+    "中国 汽车 开源 平台 2025 行业报告 site:gov.cn"
+   ],
+   "nemotron-3-ultra-550b": [
+    "openEuler 2024 annual report adoption statistics site:openeuler.org filetype:pdf",
+    "OpenHarmony 2025 white paper OpenAtom Foundation site:openatom.cn filetype:pdf",
+    "OpenAnolis 2024 technical white paper Alibaba Cloud site:openanolis.cn filetype:pdf",
+    "RISC-V China 2024 industry development report government site:gov.cn filetype:pdf",
+    "Qwen 2.5 2024 model card license site:github.com/alibaba OR site:modelscope.cn",
+    "China automotive open source 2025 adoption report COVESA Apollo site:gov.cn OR site:auto-core.cn filetype:pdf",
+    "openEuler 2024 年度报告 采用数据 site:openeuler.org filetype:pdf",
+    "OpenHarmony 2025 白皮书 OpenAtom 基金会 site:openatom.cn filetype:pdf",
+    "OpenAnolis 2024 技术白皮书 阿里云 site:openanolis.cn filetype:pdf",
+    "RISC-V 中国 2024 产业发展报告 政府 site:gov.cn filetype:pdf",
+    "Qwen 2.5 2024 模型卡 许可 官方 site:github.com/alibaba OR site:modelscope.cn",
+    "中国 汽车 开源 2025 采用 报告 COVESA Apollo site:gov.cn OR site:auto-core.cn filetype:pdf"
+   ],
+   "dots3-note-preview": [
+    "openEuler 2024 release notes site:openeuler.org",
+    "OpenHarmony 2025 roadmap PDF",
+    "OpenAnolis 2024 annual report adoption statistics",
+    "RISC-V China 2024 white paper government",
+    "Qwen 2.0 model technical report arXiv 2024",
+    "DeepSeek 2025 model release official announcement",
+    "openEuler 2024 发布说明 site:openeuler.org",
+    "OpenHarmony 2025 路线图 PDF",
+    "OpenAnolis 2024 年度报告 采用率",
+    "RISC-V 中国 2024 白皮书 政府",
+    "Qwen 2.0 模型 技术报告 arXiv 2024",
+    "DeepSeek 2025 模型 官方 发布"
+   ]
+  }
+ },
+ "cn-funding": {
+  "desc": "Public and corporate funding of open source in China: government funds, awards, subsidies, NSFC/MOST programmes, corporate donations to OpenAtom",
+  "by": {
+   "nemotron-3-ultra-550b": [
+    "site:gov.cn \"open source\" funding 2024 OR 2025 OR 2026",
+    "\"National Natural Science Foundation of China\" \"open source software\" grant 2024 OR 2025",
+    "\"Ministry of Science and Technology\" \"open source\" special fund 2024 OR 2025",
+    "\"OpenAtom Foundation\" corporate donation report 2024 OR 2025",
+    "\"China Open Source Software Industry Development Fund\" 2024 OR 2025",
+    "\"State Council\" \"open source\" policy document 2024 OR 2025",
+    "site:gov.cn 开源 软件 资助 2024 OR 2025 OR 2026",
+    "国家自然科学基金 开源 软件 项目 2024 OR 2025",
+    "科技部 开源 专项 资金 2024 OR 2025",
+    "OpenAtom 基金会 企业 捐赠 报告 2024 OR 2025",
+    "中国 开源 软件 产业 发展 基金 2024 OR 2025",
+    "国务院 开源 政策 文件 2024 OR 2025"
+   ],
+   "gpt-oss-120b": [
+    "NSFC Notice on Open Source Software Project Funding (2024) site:gov.cn",
+    "\"Open Source Software Development Action Plan (2025-2026)\" Ministry of Science and Technology PDF",
+    "\"OpenAtom Foundation Annual Report 2024\" corporate donations Alibaba Tencent Huawei",
+    "\"China Open Source Software Innovation Award 2024\" official winners list site:gov.cn",
+    "\"Guidelines for Subsidizing Open Source Software Enterprises\" Ministry of Industry and Information Technology 2025",
+    "\"Support Measures for Open Source Software\" National Development and Reform Commission policy document 2024-2026",
+    "国家自然科学基金 开源软件 项目 资助通知 2024 site:gov.cn",
+    "科技部 开源软件发展行动计划（2025-2026） 官方文件 PDF",
+    "开放原子基金会 2024 年度报告 企业捐赠 阿里巴巴 腾讯 华为",
+    "中国 开源软件创新奖 2024 获奖名单 官方公告",
+    "工业和信息化部 开源软件 企业补贴 指导意见 2025",
+    "国家发展改革委 开源软件 支持措施 2024-2026 政策文件"
+   ],
+   "dots3-note-preview": [
+    "OpenAtom Foundation corporate donation 2024",
+    "NSFC open source funding 2025",
+    "MOST open source subsidy 2024",
+    "National Natural Science Foundation of China open source 2025",
+    "Chinese government open source award 2024",
+    "OpenAtom corporate sponsorship 2025",
+    "OpenAtom基金会 企业捐赠 2024",
+    "国家自然科学基金委 开源项目 2025",
+    "科技部 开源补贴 2024",
+    "OpenAtom 年度报告 2024",
+    "中国政府 开源奖项 2025",
+    "企业赞助 OpenAtom 2025"
+   ]
+  }
+ },
+ "eu-policy": {
+  "desc": "EU and member-state open source policies and strategies 2024-2026: EU Open Source Strategy, Tech Sovereignty, Interoperable Europe Act, Cyber Resilience Act and open source stewards, national OSPOs",
+  "by": {
+   "nemotron-3-ultra-550b": [
+    "\"EU Open Source Strategy 2024-2027\" site:ec.europa.eu",
+    "\"Interoperable Europe Act\" regulation text 2024 site:eur-lex.europa.eu",
+    "\"Cyber Resilience Act\" open source obligations 2024 site:ec.europa.eu",
+    "\"European Commission Open Source Programme Office\" OSPO 2024 report",
+    "\"France national open source strategy\" 2024 site:gouvernement.fr",
+    "\"Germany open source strategy\" 2024-2026 site:bundesregierung.de",
+    "\"欧盟开源战略 2024-2027\" site:ec.europa.eu",
+    "\"互操作欧洲法案\" 文本 2024 site:eur-lex.europa.eu",
+    "\"网络韧性法案\" 开源 义务 2024 site:ec.europa.eu",
+    "\"欧盟委员会 开源项目办公室\" OSPO 2024 报告",
+    "\"法国 国家开源战略\" 2024 site:gouvernement.fr",
+    "\"德国 开源战略\" 2024-2026 site:bundesregierung.de"
+   ],
+   "gpt-oss-120b": [
+    "EU Open Source Strategy 2024 site:europa.eu filetype:pdf",
+    "\"Interoperable Europe Act\" 2024 official journal pdf",
+    "\"Cyber Resilience Act\" 2024 open source annex site:ec.europa.eu",
+    "\"European Commission\" \"Open Source Stewardship\" 2025 policy paper",
+    "\"Germany\" \"Open Source Program Office\" 2024 report site:bund.de",
+    "\"France\" \"Open Source Office\" strategy 2024 filetype:pdf",
+    "欧盟 开源 战略 2024 官方 文件 site:europa.eu filetype:pdf",
+    "《互操作性欧洲法案》 2024 正式 文本 pdf",
+    "《网络弹性法案》 2024 开源 附件 site:ec.europa.eu",
+    "欧洲委员会 开源 管家 计划 2025 政策 文件",
+    "德国 开源 项目 办公室（OSPO） 2024 报告 site:bund.de",
+    "法国 数字局 开源 战略 2024 PDF"
+   ],
+   "dots3-note-preview": [
+    "EU Open Source Strategy 2024-2026 official document",
+    "Interoperable Europe Act open source provisions 2024",
+    "Cyber Resilience Act open source requirements 2025",
+    "European Commission open source policy 2024 PDF",
+    "EU member state national OSPO strategies 2024",
+    "EU Tech Sovereignty open source initiative 2025",
+    "欧盟开源战略2024-2026官方文件",
+    "欧洲互操作法案开源条款2024",
+    "网络韧性法案开源要求2025",
+    "欧盟委员会开源政策2024 PDF",
+    "欧盟成员国国家开源办公室战略2024",
+    "欧盟技术主权开源倡议2025"
+   ]
+  }
+ },
+ "eu-pa-reuse": {
+  "desc": "European public administrations reusing and sharing open source software: OSOR, code.europa.eu, openCode, national code repositories, Digital Commons EDIC (DC-EDIC)",
+  "by": {
+   "gpt-oss-120b": [
+    "OSOR 2025 European Commission “Open Source Software Reuse” annual report",
+    "code.europa.eu “Open Source Policy Framework” 2024 official EU document",
+    "openCode EU 2025 “Guidelines for Public Administration Open Source Collaboration”",
+    "Digital Commons EDIC (DC-EDIC) 2024 “Implementation Plan for European Public Sector”",
+    "France national code repository Code.gouv.fr 2025 strategic roadmap PDF",
+    "EU public administrations “Open Source Software Sharing” white paper 2026 official publication",
+    "OSOR 2025 欧洲委员会 开源软件 重用 年度报告 官方文件",
+    "code.europa.eu 开源政策框架 2024 欧盟 官方文档",
+    "openCode 项目 2025 欧盟 公共部门 开源协作 指南",
+    "Digital Commons EDIC (DC-EDIC) 2024 实施计划 欧洲公共部门",
+    "法国 国家代码库 Code.gouv.fr 2025 战略路线图 PDF",
+    "欧盟 公共行政 开源软件 共享 白皮书 2026 官方发布"
+   ],
+   "nemotron-3-ultra-550b": [
+    "\"Digital Commons EDIC\" regulation 2024 official document European Commission",
+    "\"code.europa.eu\" launch 2024 European Commission open source platform",
+    "OSOR annual report 2024 open source observatory repository",
+    "\"openCode\" Germany federal open source platform 2024 documentation",
+    "\"public code\" national repository France Germany Italy 2024 developers.italia.it code.gouv.fr",
+    "European Commission open source strategy 2024-2027 decision",
+    "\"数字公共资源欧洲数字基础设施联盟\" 2024 法规 欧盟委员会 官方文件",
+    "\"code.europa.eu\" 2024 启动 欧盟委员会 开源平台",
+    "OSOR 2024 年度报告 开源软件观察站 存储库",
+    "\"openCode\" 德国 联邦 开源 平台 2024 文档",
+    "\"公共代码\" 国家 代码 仓库 法国 德国 意大利 2024 developers.italia.it code.gouv.fr",
+    "欧盟委员会 开源 战略 2024-2027 决定"
+   ],
+   "dots3-note-preview": [
+    "OSOR 2024 report European Commission open source",
+    "code.europa.eu 2025 annual report public administration",
+    "openCode project 2024 EU open source software",
+    "Digital Commons EDIC 2025 white paper",
+    "national code repositories Europe 2024 open source",
+    "EU open source software reuse policy 2025",
+    "OSOR 2024 报告 欧盟 开源",
+    "code.europa.eu 2025 年度报告 公共行政",
+    "openCode 项目 2024 欧盟 开源软件",
+    "数字 commons EDIC 2025 白皮书",
+    "国家代码仓库 欧洲 2024 开源",
+    "欧盟 开源 软件 复用 政策 2025"
+   ]
+  }
+ },
+ "eu-industrial-stacks": {
+  "desc": "European industrial open source stacks: Eclipse Foundation (SDV, Oniro), Catena-X / Eclipse Tractus-X, Gaia-X, IPCEI-CIS, EuroStack, open-weight AI (Mistral, EuroLLM), RISC-V in Europe",
+  "by": {
+   "gpt-oss-120b": [
+    "Eclipse Foundation SDV 2024 official whitepaper site:eclipse.org",
+    "Oniro automotive open source platform roadmap 2025 filetype:pdf site:eclipse.org",
+    "Catena-X governance model 2024 PDF site:catena-x.net",
+    "Eclipse Tractus-X reference architecture 2025 site:eclipse.org",
+    "Gaia-X EuroStack RISC-V Europe ecosystem report 2024 site:europe.eu",
+    "IPCEI-CIS European Commission decision 2025 open-weight AI Mistral EuroLLM policy paper site:ec.europa.eu",
+    "Eclipse基金会 SDV 2024 官方白皮书 site:eclipse.org",
+    "Oniro 开源汽车平台 路线图 2025 PDF site:eclipse.org",
+    "Catena-X 治理模型 2024 PDF site:catena-x.net",
+    "Eclipse Tractus-X 参考架构 2025 site:eclipse.org",
+    "Gaia-X EuroStack RISC-V 欧洲 生态系统 报告 2024 site:europe.eu",
+    "IPCEI-CIS 欧洲委员会 决策 2025 开源 AI Mistral EuroLLM 政策文件 site:ec.europa.eu"
+   ],
+   "nemotron-3-ultra-550b": [
+    "Eclipse Foundation SDV Oniro project charter 2024 site:eclipse.org",
+    "Catena-X Eclipse Tractus-X technical specification 2024 PDF site:catena-x.net",
+    "Gaia-X architecture framework 2024 official document site:gaia-x.eu",
+    "IPCEI-CIS open source cloud infrastructure funding decision 2024 European Commission",
+    "EuroStack initiative European Commission white paper 2024",
+    "Mistral AI open-weight model release 2024 EuroLLM RISC-V Europe alliance 2024",
+    "Eclipse Foundation SDV Oniro 项目章程 2024 site:eclipse.org",
+    "Catena-X Eclipse Tractus-X 技术规范 2024 PDF site:catena-x.net",
+    "Gaia-X 架构框架 2024 官方文档 site:gaia-x.eu",
+    "IPCEI-CIS 开源云基础设施 资助决定 2024 欧盟委员会",
+    "EuroStack 计划 欧盟委员会 白皮书 2024",
+    "Mistral AI 开放权重 模型 发布 2024 EuroLLM RISC-V 欧洲 联盟 2024"
+   ],
+   "dots3-note-preview": [
+    "Eclipse Foundation SDV Oniro 2024",
+    "Eclipse Tractus-X Catena-X 2025",
+    "Gaia-X European open source 2024",
+    "IPCEI-CIS EuroStack 2025",
+    "Mistral open-weight AI European Commission 2024",
+    "RISC-V Europe initiative 2025",
+    "Eclipse基金会 SDV Oniro 2024",
+    "Eclipse Tractus-X Catena-X 2025",
+    "Gaia-X 欧洲 开源 2024",
+    "IPCEI-CIS EuroStack 2025",
+    "Mistral 开源权重 欧洲委员会 2024",
+    "RISC-V 欧洲 2025"
+   ]
+  }
+ },
+ "eu-funding": {
+  "desc": "Public funding of open source in Europe: NGI, Sovereign Tech Agency/Fund, Prototype Fund, NLnet, Horizon Europe, Digital Europe, national funds for open source maintenance",
+  "by": {
+   "gpt-oss-120b": [
+    "NGI open source funding 2024 site:ec.europa.eu filetype:pdf",
+    "\"Sovereign Tech Fund\" open source maintenance 2025 official report site:europa.eu",
+    "\"Prototype Fund\" open source projects 2024-2026 guidelines site:europa.eu",
+    "NLnet Foundation annual report 2025 open source funding PDF",
+    "\"Horizon Europe\" open source software calls 2024-2026 official documentation site:ec.europa.eu",
+    "\"Digital Europe Programme\" open source sustainability 2025 policy paper site:ec.europa.eu",
+    "NGI 开源 资助 2024 官方文件 site:europa.eu",
+    "主权技术基金 开源 维护 2025 报告 site:europa.eu",
+    "Prototype Fund 开源 项目 2024-2026 指南 site:europa.eu",
+    "NLnet 基金 2025 年度报告 开源 资助 PDF",
+    "Horizon Europe 开源 软件 招标 2024 官方文档 site:europa.eu",
+    "Digital Europe 计划 开源 可持续性 2025 政策文件 site:europa.eu"
+   ],
+   "nemotron-3-ultra-550b": [
+    "NGI \"calls for proposals\" 2024 site:ngi.eu OR site:ec.europa.eu filetype:pdf",
+    "\"Sovereign Tech Fund\" OR \"Sovereign Tech Agency\" 2024 site:bundesregierung.de OR site:sovereigntechfund.de filetype:pdf",
+    "\"Prototype Fund\" Förderung 2024 site:prototypefund.de filetype:pdf",
+    "\"NLnet\" grants 2024 site:nlnet.nl filetype:pdf",
+    "\"Horizon Europe\" \"open source\" \"work programme\" 2024 site:ec.europa.eu filetype:pdf",
+    "\"Digital Europe Programme\" \"open source\" 2024 site:digital-strategy.ec.europa.eu filetype:pdf",
+    "下一代互联网 NGI 资助 2024 官方 文件 site:ngi.eu OR site:ec.europa.eu filetype:pdf",
+    "主权技术基金 德国 2024 官方 报告 site:bundesregierung.de OR site:sovereigntechfund.de filetype:pdf",
+    "原型基金 德国 2024 资助 指南 site:prototypefund.de filetype:pdf",
+    "NLnet 基金会 资助 2024 申请 指南 site:nlnet.nl filetype:pdf",
+    "地平线欧洲 开源 资助 工作计划 2024 site:ec.europa.eu filetype:pdf",
+    "数字欧洲 计划 开源 资金 2024 site:digital-strategy.ec.europa.eu filetype:pdf"
+   ],
+   "dots3-note-preview": [
+    "NGI open source funding 2024 site:ec.europa.eu",
+    "Sovereign Tech Agency open source fund 2025",
+    "Prototype Fund open source Europe 2024 report",
+    "NLnet open source funding 2025",
+    "Horizon Europe open source maintenance 2024",
+    "Digital Europe open source national funds 2025",
+    "NGI 开源 资助 2024 site:ec.europa.eu",
+    "Sovereign Tech Agency 开源 基金 2025",
+    "Prototype Fund 开源 欧洲 2024 报告",
+    "NLnet 开源 资助 2025",
+    "Horizon Europe 开源 维护 2024",
+    "Digital Europe 开源 国家 资金 2025"
+   ]
+  }
+ },
+ "eu-cn-cooperation": {
+  "desc": "EU-China and member state-China cooperation on open source, digital standards, ICT and digital dialogues, joint research calls, Sino-European open source events and communities",
+  "by": {
+   "gpt-oss-120b": [
+    "EU-China Open Source Cooperation Framework 2025 site:europa.eu",
+    "European Commission Digital Europe Programme joint call with China 2024 filetype:pdf",
+    "China Ministry of Industry and Information Technology open source policy 2024 site:gov.cn",
+    "EU-China Digital Standards Dialogue 2024 report filetype:pdf",
+    "Sino-European Open Source Summit 2024 official programme site:europa.eu",
+    "Joint research call on open source software EU-China Horizon Europe 2025 announcement",
+    "欧盟-中国 开源合作框架 2025 site:europa.eu",
+    "欧盟数字欧洲计划 与中国 联合招标 2024 filetype:pdf",
+    "中华人民共和国工业和信息化部 开源政策 2024 site:gov.cn",
+    "欧中数字标准对话 2024 报告 filetype:pdf",
+    "中欧开源峰会 2024 官方议程 site:europa.eu",
+    "欧盟 Horizon Europe 与中国 联合研究 开源 软件 2025 公告"
+   ],
+   "dots3-note-preview": [
+    "EU-China Open Source Cooperation Framework 2024 PDF",
+    "European Commission Open Source Strategy 2025 China",
+    "Sino-European Open Source Summit 2025 programme",
+    "EU-China Digital Standards Dialogue 2024 minutes",
+    "EU-China Joint Research Call ICT 2025",
+    "China Open Source Policy White Paper 2024",
+    "欧盟中国开源合作框架 2024 PDF",
+    "欧洲委员会开源战略 2025 中国",
+    "中欧开源峰会 2025 议程",
+    "欧盟中国数字标准对话 2024 纪要",
+    "欧盟中国联合研究项目 ICT 2025",
+    "中国开源政策白皮书 2024"
+   ],
+   "nemotron-3-ultra-550b": [
+    "\"EU-China Digital Dialogue\" \"Joint Statement\" 2024 site:europa.eu",
+    "\"EU-China ICT Standardization Rolling Plan\" 2024 site:ec.europa.eu",
+    "\"Horizon Europe\" \"Work Programme\" 2024-2025 China open source site:ec.europa.eu",
+    "\"Digital Europe Programme\" 2024 China open source cooperation site:digital-strategy.ec.europa.eu",
+    "\"EU-China Joint Research Call\" 2024 open source site:ec.europa.eu",
+    "\"Linux Foundation Europe\" China MoU 2024 site:linuxfoundation.org",
+    "\"欧中数字对话\" \"联合声明\" 2024 site:gov.cn",
+    "\"欧中ICT标准化合作滚动计划\" 2024 site:miit.gov.cn",
+    "\"地平线欧洲\" \"工作计划\" 2024-2025 中国 开源 site:ec.europa.eu",
+    "\"数字欧洲计划\" 2024 中国 开源 合作 site:digital-strategy.ec.europa.eu",
+    "\"欧中联合研究征集\" 2024 开源 site:gov.cn",
+    "\"中国-欧盟开源社区\" 2024 活动 site:linuxfoundation.org"
+   ]
+  }
+ },
+ "literature": {
+  "desc": "Academic and think-tank literature comparing European and Chinese open source policy, digital commons, digital sovereignty and techno-nationalism (papers, reports 2022-2026)",
+  "by": {
+   "nemotron-3-ultra-550b": [
+    "\"European Commission\" \"Open Source Strategy\" 2024 site:ec.europa.eu",
+    "\"OSPO\" \"European Commission\" \"Open Source Programme Office\" 2025 report",
+    "\"Digital Europe Programme\" open source funding 2024-2026 site:digital-strategy.ec.europa.eu",
+    "\"Gaia-X\" open source federation 2024 white paper site:gaia-x.eu",
+    "\"China\" \"Open Source Promotion Union\" 2024 annual report site:osp.org.cn",
+    "\"MIIT\" \"open source\" \"digital sovereignty\" 2025 policy document site:miit.gov.cn",
+    "欧洲委员会 开源战略 2024 site:ec.europa.eu",
+    "欧盟 开源项目办公室 OSPO 2025 报告 site:ec.europa.eu",
+    "数字欧洲计划 开源 资助 2024 2026 site:digital-strategy.ec.europa.eu",
+    "Gaia-X 开源 联邦 2024 白皮书 site:gaia-x.eu",
+    "中国 开源推进联盟 2024 年度报告 site:osp.org.cn",
+    "工信部 开源 数字主权 2025 政策文件 site:miit.gov.cn"
+   ],
+   "gpt-oss-120b": [
+    "European Commission 2024 Open Source Strategy for Europe PDF site:ec.europa.eu",
+    "EU Digital Europe Programme 2025 open source policy report filetype:pdf",
+    "European Parliament resolution on digital sovereignty and open source 2024 site:europa.eu",
+    "Bruegel 2024 report \"Open source software and the European digital commons\"",
+    "China Ministry of Industry and Information Technology 2024 Open Source Software Development Action Plan site:gov.cn",
+    "State Council of the People's Republic of China 2025 Digital Sovereignty White Paper PDF",
+    "欧盟委员会 2024 开源战略 欧洲 PDF site:ec.europa.eu",
+    "数字欧洲计划 2025 开源政策 报告 filetype:pdf",
+    "欧洲议会 2024 数字主权 开源 决议 site:europa.eu",
+    "布鲁塞尔智库 Bruegel 2024 开源 软件 欧洲 数字公共领域 报告",
+    "工业和信息化部 2024 开源软件发展行动计划 PDF",
+    "国务院 2025 数字主权 白皮书 site:gov.cn"
+   ],
+   "dots3-note-preview": [
+    "...",
+    "...",
+    "...",
+    "..."
+   ]
+  }
+ },
+ "geopolitics-risk": {
+  "desc": "Risks and controversies around open source between China, EU and US: export controls, RISC-V restrictions, sanctions, US congressional letters on OpenHarmony/RISC-V, supply chain security",
+  "by": {
+   "gpt-oss-120b": [
+    "\"U.S. Department of Commerce\" \"Entity List\" \"RISC-V\" 2024",
+    "\"European Commission\" \"Open Source Software Strategy\" 2025 \"official report\"",
+    "\"U.S. Congressional\" \"letter\" \"OpenHarmony\" \"Secretary of Commerce\" 2024",
+    "\"China Ministry of Industry and Information Technology\" \"RISC-V\" \"development plan\" 2025",
+    "\"EU Dual-Use Regulation\" amendment \"open source hardware\" 2024 \"Commission Delegated Regulation\"",
+    "\"Supply Chain Security\" \"Open Source\" \"EU-China\" \"2024-2026\" \"Joint Working Group\"",
+    "美国商务部 实体清单 RISC-V 2024 官方文件",
+    "欧盟委员会 开源软件 战略 2025 报告",
+    "美国国会 致商务部长 OpenHarmony 信件 2024",
+    "工业和信息化部 RISC-V 发展规划 2025 官方发布",
+    "欧盟 双重用途条例 修订 开源硬件 2024 委员会条例草案",
+    "供应链安全 开源 软件 中欧 美 中 2024-2026 联合工作组报告"
+   ],
+   "nemotron-3-ultra-550b": [
+    "BIS final rule 2024 export controls RISC-V site:bis.doc.gov",
+    "House Foreign Affairs Committee letter OpenHarmony 2024 site:house.gov",
+    "European Commission open source software strategy 2024 site:ec.europa.eu",
+    "MIIT notice 2024 open source software management site:miit.gov.cn",
+    "RISC-V International export control position paper 2024 site:riscv.org",
+    "NIST SP 800-161 Rev.1 open source supply chain risk management 2024 site:nist.gov",
+    "商务部 2024 年 出口管制 RISC-V 最终规则 site:gov.cn",
+    "工业和信息化部 2024 开源软件 管理 通知 site:miit.gov.cn",
+    "美国众议院外交委员会 致信 商务部长 OpenHarmony 2024 site:house.gov",
+    "欧盟委员会 2024 开源软件 战略 通讯 site:ec.europa.eu",
+    "RISC-V 国际基金会 2024 出口管制 立场文件 site:riscv.org",
+    "国家标准化管理委员会 2024 供应链 安全 开源 白皮书 site:sac.gov.cn"
+   ],
+   "dots3-note-preview": [
+    "US Congress letter OpenHarmony RISC-V 2024",
+    "Bureau of Industry and Security RISC-V export controls 2025",
+    "EU Dual-Use Regulation open source software 2024",
+    "OpenAtom Foundation OpenHarmony US investigation 2025",
+    "China Ministry of Commerce export restrictions open source 2025",
+    "RISC-V International EU US sanctions 2025",
+    "美国国会 关于 OpenHarmony 和 RISC-V 的信函 2024",
+    "中国商务部 RISC-V 出口管制 通知 2025",
+    "欧盟 双用 物资 出口 管制 开源 软件 2024",
+    "OpenAtom 基金会 OpenHarmony 美国 调查 2025",
+    "RISC-V 国际 欧盟 制裁 2024",
+    "开源 供应链 安全 中国 政府 报告 2025"
+   ]
+  }
+ },
+ "macao-lusophone": {
+  "desc": "Macao and Portuguese-speaking countries channel for digital/open source cooperation between China and Europe (Forum Macao, Macao SAFP, Portugal)",
+  "by": {
+   "gpt-oss-120b": [
+    "Macao Forum on Digital Economy and Open Source – Memorandum of Understanding 2025 site:gov.mo filetype:pdf",
+    "Macao SAFP Open Source Software Cooperation Programme with Portugal – Official Report 2024 site:gov.pt filetype:pdf",
+    "EU‑China‑Macao Digital Cooperation Framework 2025 – European Commission document site:europa.eu filetype:pdf",
+    "Portuguese‑speaking Countries Digital Innovation Partnership – Macau Government Gazette 2024 site:gov.mo filetype:pdf",
+    "China‑Macao Open Source Initiative – Ministry of Industry and Information Technology 2025 official notice site:gov.cn filetype:pdf",
+    "Macao SAFP – Annual Report 2025 on Open Source Collaboration with Lusophone Nations site:gov.mo filetype:pdf",
+    "澳门论坛 数字经济 开源 合作 谅解备忘录 2025 site:gov.mo filetype:pdf",
+    "澳门SAFP 与葡萄牙 开源 软件 合作 项目 报告 2024 site:gov.pt filetype:pdf",
+    "中葡数字创新 合作 计划 澳门政府 公告 2025 site:gov.mo filetype:pdf",
+    "欧盟 中国 澳门 数字合作 框架 2025 官方文件 site:europa.eu filetype:pdf",
+    "澳门 与葡语国家 开源 软件 合作 年度报告 2025 site:gov.mo filetype:pdf",
+    "中国工业和信息化部 澳门 开源 合作 2024 文件 site:gov.cn filetype:pdf"
+   ],
+   "nemotron-3-ultra-550b": [
+    "Forum Macao 2024 joint declaration digital cooperation China Portuguese-speaking countries site:forummacao.org",
+    "Macao SAFP open source funding programme 2025 guidelines site:gov.mo",
+    "Portugal China digital partnership agreement 2024 open source cooperation site:gov.pt",
+    "China-Portuguese Speaking Countries Digital Economy Cooperation Action Plan 2024-2026 site:gov.cn",
+    "Macao Special Administrative Region Digital Economy Development Plan 2024-2026 open source site:gov.mo",
+    "EU-China digital cooperation forum Macao 2025 report site:eeas.europa.eu",
+    "中葡论坛 2024 数字合作 联合声明 site:forummacao.org",
+    "澳门 SAFP 开源 资助 计划 2025 指南 site:gov.mo",
+    "葡萄牙 中国 数字 伙伴 关系 协议 2024 开源 合作 site:gov.pt",
+    "中国 葡语 国家 数字 经济 合作 行动 计划 2024-2026 site:gov.cn",
+    "澳门 特别 行政区 数字 经济 发展 规划 2024-2026 开源 site:gov.mo",
+    "欧盟 中国 数字 合作 论坛 澳门 2025 报告 site:eeas.europa.eu"
+   ],
+   "dots3-note-preview": [
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "...",
+    "..."
+   ]
+  }
+ }
+}
