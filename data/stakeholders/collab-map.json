@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10",
+  "generated": "2026-11-19",
   "note": "Collaboration map v1 (roadmap track G). value_proposition and likelihood are inferences, not facts; evidence reflects the existence/identity of the organisation (docs/METHODOLOGY.md levels), not the inference. institutional_contact holds official pages only; no personal data.",
-  "count": 967,
+  "count": 969,
   "records": [
     {
       "id": "at-epicenter",
@@ -6932,8 +6932,7 @@
       "evidence": "A",
       "web_http": 200,
       "source_ids": [],
-      "origin": "addition (homepage fetched 2026-11, identity read)",
-      "notes": "Confirmed 2026-11-11 as lead e-government bureau (gcs.gov.mo, Legislative Assembly docs)."
+      "origin": "addition (homepage fetched 2026-11, identity read)"
     },
     {
       "id": "cn-ccsa",
@@ -18994,6 +18993,35 @@
       "origin": "cooperation"
     },
     {
+      "id": "it-idis-cds",
+      "name": "Fondazione IDIS-Città della Scienza (Settimana Italia-Cina)",
+      "side": "IT",
+      "type": "foundation",
+      "url": "https://settimanaitaliacina.cittadellascienza.it/",
+      "institutional_contact": {
+        "url": "https://settimanaitaliacina.cittadellascienza.it/",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Coordinates the Italian side of the annual Italy-China Science, Technology and Innovation Week with CNR; venue to present the report and propose a digital-commons forum for the 2027 edition. Gains (inference): a neutral, evidence-based view of cross-border contribution and members' dependencies; a partner for shared-upstream governance.",
+      "tracks": [
+        "A",
+        "C"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "Organiser of the XV Italy-China S&T Week, Venice/Padua 9-11 Dec 2026 (MUR, MOST).",
+          "source_url": "https://settimanaitaliacina.cittadellascienza.it/",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Event organiser with an established Chinese counterpart network.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
+    },
+    {
       "id": "it-anitec",
       "name": "Anitec-Assinform",
       "side": "IT",
@@ -19166,6 +19194,36 @@
         "it-bolzano"
       ],
       "origin": "directory"
+    },
+    {
+      "id": "it-cn-intergov-committee",
+      "name": "Italy-China Intergovernmental Committee (MAECI, S&T table)",
+      "name_zh": "中意政府委员会",
+      "side": "IT",
+      "type": "public-agency",
+      "url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2025/10/italia-cina-tajani-apre-con-il-ministro-degli-esteri-cinese-wang-yi-la-xii-sessione-del-comitato-intergovernativo/",
+      "institutional_contact": {
+        "url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2025/10/italia-cina-tajani-apre-con-il-ministro-degli-esteri-cinese-wang-yi-la-xii-sessione-del-comitato-intergovernativo/",
+        "kind": "homepage (dedicated contact page not yet located)"
+      },
+      "value_proposition": "Brings: Highest-level Italy-China mechanism (foreign ministers, since 2004); its science and technology table is the formal place to table an open-source / digital-commons cooperation item. Gains (inference): comparative evidence on open source policy and a channel to counterparts in China.",
+      "tracks": [
+        "A",
+        "C"
+      ],
+      "eu_cn_ties": [
+        {
+          "text": "XII session Rome 8 Oct 2025 (Tajani, Wang Yi); three tables incl. science and technology (MAECI press release).",
+          "source_url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2025/10/italia-cina-tajani-apre-con-il-ministro-degli-esteri-cinese-wang-yi-la-xii-sessione-del-comitato-intergovernativo/",
+          "evidence": "D"
+        }
+      ],
+      "likelihood": "high",
+      "likelihood_reason": "Inference (analyst judgement, not yet validated): Formal bilateral channel; approach via MAECI with MUR.",
+      "evidence": "A",
+      "web_http": 200,
+      "source_ids": [],
+      "origin": "addition (homepage fetched 2026-11, identity read)"
     },
     {
       "id": "it-consip",

@@ -101,6 +101,7 @@ Research method and dissemination method are both deliverables, to be published 
 - [ ] Only official organisational channels (no private personal data) — GDPR
 - [ ] Invitation text EN + ZH (after gate B, when the site is published)
 - [ ] First wave of ~30 invitations, **each send approved by Fabio**; track responses in a private repo (not the public one)
+- [ ] **Italy-China S&T channels (added 19 Nov 2026, Fabio):** dissemination targets for the report + collaboration proposal: (1) Italy-China Intergovernmental Committee, S&T table (`it-cn-intergov-committee`, via MAECI with MUR); (2) Italy-China S&T Innovation Week, XV ed. Venice/Padua **9-11 Dec 2026** (`it-ctw`, organiser Fondazione IDIS-Città della Scienza + CNR, cina@cittadellascienza.it): 2026 calls closed, so attend/circulate the report and pitch a digital-commons forum for the 2027 edition; (3) MAECI-NSFC joint call (`it-maeci-nsfc`): no digital/open-source project among the 10 selected for 2027-29, propose the topic for the next call. Fabio heard of a "Comitato di collaborazione scientifica Italia-Cina" on the radio: exact body not yet identified.
 
 ## Cross-validation with external LLMs (ChatGPT, DeepSeek, Qwen) — added 4 Nov 2026
 Fabio is logged in on Chrome to all three. ChatGPT Plus (€20/month), DeepSeek and Qwen on free plans: **stay within the free plans** for DeepSeek and Qwen.

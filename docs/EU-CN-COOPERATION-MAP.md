@@ -40,7 +40,7 @@ Generated 2026-11-08 for the Europe-China Digital Commons Observatory. Data: `da
 | 13 | GOSIM Foundation (`be-gosim`) | Conference series bridging Chinese and European open-source communities. |
 | 14 | China RISC-V Alliance (CRVA) (`cn-ce-crva`) | Chinese RISC-V alliance, counterpart to Swiss-based RISC-V International. |
 | 15 | CNRS Beijing and Shanghai offices (`fr-cnrs-china`) | CNRS joint-lab network in China. |
-| 16 | Italy-China Science, Technology and Innovation Week (`it-ctw`) | Annual Italy-China S&T week; high-visibility dissemination event. |
+| 16 | Italy-China Science, Technology and Innovation Week (`it-ctw`) | Annual Italy-China S&T week; XV edition Venice/Padua 9-11 Dec 2026; high-visibility dissemination event. Added 19 Nov: Italy-China Intergovernmental Committee (`it-cn-intergov-committee`), whose S&T table is the formal channel for a cooperation proposal. |
 | 17 | Fondazione Italia Cina (ICCF) (`it-fondazione-italia-cina`) | Foundation with China Forum events and business network. |
 | 18 | Sino-Danish Center for Education and Research (SDC) (`dk-sdc`) | Eight Danish universities plus UCAS; joint research education. |
 | 19 | Nordic Centre at Fudan University (`no-nordic-centre-fudan`) | Nordic university consortium hosted at Fudan. |
@@ -53,13 +53,14 @@ Generated 2026-11-08 for the Europe-China Digital Commons Observatory. Data: `da
 
 ## By category (type)
 
-### Dialogues (10)
+### Dialogues (11)
 
 | Name | Type | Status | Domains | Website | Contact | Ev. |
 |---|---|---|---|---|---|---|
 | EU-China Summit | dialogue | active | diplomacy, trade, digital | [www.consilium.europa.eu/en/policies/china](https://www.consilium.europa.eu/en/policies/china/) | [contact](https://www.consilium.europa.eu/en/policies/china/) | B |
 | EU-China Strategic Dialogue | dialogue | active | diplomacy | [www.eeas.europa.eu/eeas/eu-china-relations_en](https://www.eeas.europa.eu/eeas/eu-china-relations_en) | [contact](https://www.eeas.europa.eu/eeas/contact_en) | A |
 | EU-China High-Level Digital Dialogue | dialogue | dormant (last round Sept 2023) | digital | [EEAS 2nd round report](https://www.eeas.europa.eu/delegations/china/eu-china-commission-and-china-hold-second-high-level-digital-dialogue_en) | [contact](https://commission.europa.eu/about/contact_en) | A |
+| Italy-China Intergovernmental Committee (foreign ministers; XII session Rome 8 Oct 2025; S&T table) | dialogue | active | diplomacy, science, trade, culture | [MAECI press release](https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2025/10/italia-cina-tajani-apre-con-il-ministro-degli-esteri-cinese-wang-yi-la-xii-sessione-del-comitato-intergovernativo/) | [contact](https://www.esteri.it/it/ministero/contatti/) | A |
 | EU-China Cross-Border Data Flow Communication Mechanism | dialogue | active (2024, 2nd meeting Jul 2025) | digital, trade | [policy.trade.ec.europa.eu](https://policy.trade.ec.europa.eu/news/eu-and-china-launch-cross-border-data-flow-communication-mechanism-2024-08-28_en) | [contact](https://policy.trade.ec.europa.eu/contact_en) | A |
 | EU-China ICT Dialogue (DG CONNECT–MIIT, 2009–; not met since 2020, resumption agreed 2023) | dialogue | dormant | digital, standards | [www.eeas.europa.eu/delegations/china/digital-policies_en](https://www.eeas.europa.eu/delegations/china/digital-policies_en) | [contact](https://commission.europa.eu/about/contact_en) | A |
 | EU-China Cyber Taskforce (2012–, DG CONNECT co-chair) | dialogue | unknown | digital, diplomacy | [www.eeas.europa.eu/delegations/china/digital-policies_en](https://www.eeas.europa.eu/delegations/china/digital-policies_en) | [contact](https://www.eeas.europa.eu/eeas/contact_en) | A |
@@ -84,7 +85,7 @@ Generated 2026-11-08 for the Europe-China Digital Commons Observatory. Data: `da
 | AFNOR - Chinese national standardisation administration cooperation agreement (6 May 2024) | agreement | active | standards | [elysee.fr](https://www.elysee.fr/emmanuel-macron/2024/05/10/declarations-et-accords-institutionnels-agrees-a-loccasion-de-la-visite-detat-de-xi-jinping-president-de-la-republique-populaire-de-chine-en-france) | [contact](https://www.afnor.org/en/contact/) | A |
 | France-China Joint Declaration on AI and Global Governance (2024; no mention of open source) | agreement | active | digital, diplomacy | [elysee.fr](https://www.elysee.fr/emmanuel-macron/2024/05/06/declaration-conjointe-entre-la-republique-francaise-et-la-republique-populaire-de-chine-sur-lintelligence-artificielle-et-la-gouvernance-des-enjeux-globaux) | [contact](https://www.elysee.fr/ecrire-au-president-de-la-republique) | A |
 
-### Programmes (8)
+### Programmes (9)
 
 | Name | Type | Status | Domains | Website | Contact | Ev. |
 |---|---|---|---|---|---|---|
@@ -94,7 +95,8 @@ Generated 2026-11-08 for the Europe-China Digital Commons Observatory. Data: `da
 | EU-China IP Dialogue and IP Key China | programme | active | ip, trade | [ipkey.eu/en/china](https://ipkey.eu/en/china) | [contact](https://ipkey.eu/en/contact-us) | A |
 | EU-China Energy Cooperation Platform | programme | ended | environment, science | [energy.ec.europa.eu/topics/international-cooperation_en](https://energy.ec.europa.eu/topics/international-cooperation_en) | [contact](https://commission.europa.eu/about/contact_en) | A |
 | EPO and EUIPO cooperation with CNIPA | programme | active | ip | [www.epo.org](https://www.epo.org) | [contact](https://www.epo.org/en/news-events/press-centre/contact) | A |
-| Italy-China Science, Technology and Innovation Week | programme | active | science, digital | [www.esteri.it](https://www.esteri.it) | [contact](https://www.esteri.it/it/ministero/contatti/) | A |
+| Italy-China Science, Technology and Innovation Week (XV ed. Venice/Padua, 9-11 Dec 2026) | programme | active | science, digital | [settimanaitaliacina.cittadellascienza.it](https://settimanaitaliacina.cittadellascienza.it/) | [cina@cittadellascienza.it](mailto:cina@cittadellascienza.it) | A |
+| MAECI-NSFC joint research projects (339 proposals, 10 selected for 2027-29; none digital/open source) | programme | active | science | [Joint Statement Oct 2026](https://www.esteri.it/wp-content/uploads/2026/10/Joint_Statement_MAECI_NFSC2027-2029-finale.pdf) | [contact](https://www.esteri.it/it/ministero/contatti/) | A |
 | Eclipse Oniro Project (OpenHarmony-compatible, with OpenAtom) | programme | active | open-source | [oniroproject.org](https://oniroproject.org) | [contact](https://oniroproject.org) | A |
 
 ### Institutions (44)
@@ -500,11 +502,13 @@ EU-level and EU-wide entries are in the category tables above. Each country sect
 | UCD Confucius Institute for Ireland | university | active | education, culture | [www.ucd.ie](https://www.ucd.ie) | [contact](https://www.ucd.ie) | A |
 | Ireland China Association | network | active | trade, culture | [www.irelandchina.org](https://www.irelandchina.org) | [contact](https://www.irelandchina.org) | A |
 
-### Italy (IT) - 9 entries
+### Italy (IT) - 11 entries (+2 on 19 Nov 2026)
 
 | Name | Type | Status | Domains | Website | Contact | Ev. |
 |---|---|---|---|---|---|---|
-| Italy-China Science, Technology and Innovation Week | programme | active | science, digital | [www.esteri.it](https://www.esteri.it) | [contact](https://www.esteri.it/it/ministero/contatti/) | A |
+| Italy-China Science, Technology and Innovation Week (XV ed. Venice/Padua, 9-11 Dec 2026) | programme | active | science, digital | [settimanaitaliacina.cittadellascienza.it](https://settimanaitaliacina.cittadellascienza.it/) | [cina@cittadellascienza.it](mailto:cina@cittadellascienza.it) | A |
+| MAECI-NSFC joint research projects (339 proposals, 10 selected for 2027-29; none digital/open source) | programme | active | science | [Joint Statement Oct 2026](https://www.esteri.it/wp-content/uploads/2026/10/Joint_Statement_MAECI_NFSC2027-2029-finale.pdf) | [contact](https://www.esteri.it/it/ministero/contatti/) | A |
+| Italy-China Intergovernmental Committee (foreign ministers; XII session Rome 8 Oct 2025; S&T table) | dialogue | active | diplomacy, science, trade, culture | [MAECI press release](https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2025/10/italia-cina-tajani-apre-con-il-ministro-degli-esteri-cinese-wang-yi-la-xii-sessione-del-comitato-intergovernativo/) | [contact](https://www.esteri.it/it/ministero/contatti/) | A |
 | CNR - Italy China cooperation office | institution | active | science | [www.cnr.it](https://www.cnr.it) | [contact](https://www.cnr.it) | B |
 | Fondazione Italia Cina (ICCF) | foundation | active | trade, culture, diplomacy | [www.italychina.org](https://www.italychina.org) | [contact](https://www.italychina.org/contact-us/) | A |
 | Italian Chamber of Commerce in China | chamber | active | trade | [www.cameraitacina.com](https://www.cameraitacina.com) | [contact](https://www.cameraitacina.com/about/contact-us) | B |

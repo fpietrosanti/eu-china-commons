@@ -2220,7 +2220,7 @@
   {
     "id": "it-ctw",
     "name_en": "Italy-China Science, Technology and Innovation Week",
-    "name_original": "中意科技创新周",
+    "name_original": "Settimana Italia-Cina della Scienza, della Tecnologia e dell'Innovazione / 中意科技创新周",
     "type": "programme",
     "scope": "IT-CN",
     "countries": [
@@ -2232,18 +2232,75 @@
       "digital"
     ],
     "status": "active",
-    "since": 2007,
-    "description": "Annual event series rotating between the two countries, backed by the Italian foreign ministry and MOST.",
-    "official_website": "https://www.esteri.it",
+    "since": 2010,
+    "description": "Annual Italy-China science, technology and innovation week, rotating between the two countries; promoted by MUR and China's MOST, Italian side coordinated by Fondazione IDIS-Città della Scienza with CNR. XV edition: Venice and Padua, 9-11 Dec 2026 (ministers Bernini and Yin Hejun expected; Chinese co-organisers Beijing Municipal S&T Commission and Zhongguancun administrative commission). Format: thematic forums, one-to-one meetings, signing of cooperation agreements. 2026 themes listed in the press do not include digital/ICT/open source (calls for one-to-one meetings and agreements closed 30 Oct and 15 Oct 2026).",
+    "official_website": "https://settimanaitaliacina.cittadellascienza.it/",
+    "website_http": 200,
+    "website_is_parent_site": false,
+    "contact_channel": "mailto:cina@cittadellascienza.it",
+    "contact_type": "institutional email published by the organiser (press release); general: contact@cittadellascienza.it",
+    "relevance_for_observatory": "Dissemination platform: the main recurring Italy-China S&T event. Too late for the 2026 calls; target the 2027 edition (in China) with a digital-commons/open-source forum proposal, and attend or circulate the report at the Dec 2026 edition.",
+    "source_url": "https://www.insidertrend.it/2026/10/05/eventi/scienza-cooperazioni-bilaterali-venezia-e-padova-xv-edizione-della-settimana-italia-cina-della-scienza-della-tecnologia-e-dellinnovazione/",
+    "accessed": "2026-11-19",
+    "evidence": "A",
+    "evidence_scope": "organiser site opened (edition XV, organisers, calls); dates, venues and themes from press report (insidertrend.it, 5 Oct 2026)"
+  },
+  {
+    "id": "it-cn-intergov-committee",
+    "name_en": "Italy-China Intergovernmental Committee",
+    "name_original": "Comitato Intergovernativo Italia-Cina / 中意政府委员会",
+    "type": "dialogue",
+    "scope": "IT-CN",
+    "countries": [
+      "IT",
+      "CN"
+    ],
+    "domains": [
+      "diplomacy",
+      "science",
+      "trade",
+      "culture"
+    ],
+    "status": "active",
+    "since": 2004,
+    "description": "Standing intergovernmental mechanism chaired by the two foreign ministers, meeting alternately in Italy and China; described by China's MFA as its first intergovernmental cooperation mechanism with a European country. XII session 8 Oct 2025, Villa Madama, Rome (Tajani, Wang Yi); XI session Beijing, 4 Sep 2023. Works through three thematic tables: economy and finance, culture and civil society, science and technology.",
+    "official_website": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2025/10/italia-cina-tajani-apre-con-il-ministro-degli-esteri-cinese-wang-yi-la-xii-sessione-del-comitato-intergovernativo/",
     "website_http": 200,
     "website_is_parent_site": true,
     "contact_channel": "https://www.esteri.it/it/ministero/contatti/",
-    "contact_type": "official contact page (link found on organisation site)",
-    "relevance_for_observatory": "Dissemination platform.",
-    "source_url": "https://www.esteri.it",
-    "accessed": "2026-11-08",
+    "contact_type": "official contact page (MAECI)",
+    "relevance_for_observatory": "Highest-level Italy-China channel; its science and technology table is where an open-source / digital-commons cooperation item could be proposed (via MAECI, with MUR). Dissemination target for the report and the collaboration proposal.",
+    "source_url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2025/10/italia-cina-tajani-apre-con-il-ministro-degli-esteri-cinese-wang-yi-la-xii-sessione-del-comitato-intergovernativo/",
+    "accessed": "2026-11-19",
     "evidence": "A",
-    "evidence_scope": "organisation or parent site opened; the specific unit/programme page was not located"
+    "evidence_scope": "MAECI press release on the XII session; Chinese MFA readout (fmprc.gov.cn, 9 Oct 2025)"
+  },
+  {
+    "id": "it-maeci-nsfc",
+    "name_en": "MAECI-NSFC joint research projects (Italy-China S&T cooperation)",
+    "name_original": "Protocollo esecutivo di cooperazione scientifica e tecnologica Italia-Cina (MAECI-NSFC)",
+    "type": "programme",
+    "scope": "IT-CN",
+    "countries": [
+      "IT",
+      "CN"
+    ],
+    "domains": [
+      "science"
+    ],
+    "status": "active",
+    "since": 2015,
+    "description": "Joint research funding under the Italy-China S&T Cooperation Agreement (9 Jun 1998) and the MAECI-NSFC MoU (Beijing, 17 Nov 2015). Call Oct-Dec 2025 received 339 joint proposals; Joint Statement (Oct 2026) selected 10 projects for 2027-2029 co-funding (agrifood, biodiversity incl. AI-driven remote sensing, energy, health, large research infrastructures). No software, open-source or digital-commons project selected.",
+    "official_website": "https://www.esteri.it/wp-content/uploads/2026/10/Joint_Statement_MAECI_NFSC2027-2029-finale.pdf",
+    "website_http": 200,
+    "website_is_parent_site": false,
+    "contact_channel": "https://www.esteri.it/it/ministero/contatti/",
+    "contact_type": "official contact page (MAECI, DG for Cultural and Economic Promotion and Innovation)",
+    "relevance_for_observatory": "Shows digital/open source absent from the bilateral research portfolio; evidence for the gap analysis and a target for a future call topic.",
+    "source_url": "https://www.esteri.it/wp-content/uploads/2026/10/Joint_Statement_MAECI_NFSC2027-2029-finale.pdf",
+    "accessed": "2026-11-19",
+    "evidence": "A",
+    "evidence_scope": "primary document read (Joint Statement, 2 pages)"
   },
   {
     "id": "it-cnr-cas",
