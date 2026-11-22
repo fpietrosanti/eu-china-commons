@@ -94,8 +94,8 @@ const OGV = '2'; // bump to force social apps to re-fetch the preview image
 const BRAND = {
   pay: { en: 'Caring for the global digital commons, together', zh: '共同守护全球数字公地' },
   mission: {
-    en: 'An independent observatory mapping how Europe and China fund, govern and reuse open source, to find non-competitive cooperation on the upstream both depend on.',
-    zh: '独立观察站：梳理欧洲与中国如何资助、治理和复用开源软件，在双方共同依赖的全球上游中寻找非竞争性合作。',
+    en: 'Open research and open engagement for EU–China cooperation on the digital commons: mapping how Europe and China fund, govern and reuse open source, and bringing every stakeholder into the research.',
+    zh: '以开放研究和广泛参与，推动中欧数字公地合作：梳理欧洲与中国如何资助、治理和复用开源软件，并邀请各利益相关方共同参与研究。',
   },
 };
 function shareMeta(lang, up) {
@@ -120,8 +120,8 @@ function page({ lang = 'en', rel, title, desc, body, jsonld = [], crumbs = [], t
   const bc = crumbs.length ? { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map(([n, u], k) => ({ '@type': 'ListItem', position: k + 1, name: n, item: BASE + '/' + u })) } : null;
   const ld = [...jsonld, bc].filter(Boolean).map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n');
   const T = lang === 'zh'
-    ? { home: '首页', road: '路线图', res: '研究', cat: '目录', proj: '项目资金', data: '数据', contrib: '参与改进', draft: '', note: '开源研究，基于公开来源，并非官方统计；内容不完整，欢迎指正。' }
-    : { home: 'Home', road: 'Roadmap', res: 'Research', cat: 'Catalogue', proj: 'Project funding', data: 'Data', contrib: 'Contribute', draft: '', note: 'Open-source research from public sources, not official statistics. Incomplete and correctable.' };
+    ? { home: '首页', man: '宣言', road: '路线图', res: '研究', cat: '目录', proj: '项目资金', data: '数据', contrib: '参与改进', draft: '', note: '开源研究，基于公开来源，并非官方统计；内容不完整，欢迎指正。' }
+    : { home: 'Home', man: 'Manifesto', road: 'Roadmap', res: 'Research', cat: 'Catalogue', proj: 'Project funding', data: 'Data', contrib: 'Contribute', draft: '', note: 'Open-source research from public sources, not official statistics. Incomplete and correctable.' };
   const pre = lang === 'zh' ? up + 'zh/' : up;
   return `<!doctype html>
 <html lang="${lang === 'zh' ? 'zh-CN' : 'en'}">
@@ -150,7 +150,7 @@ ${ld}
 ${wxImg(up)}
 <header class="top"><div class="wrap">
   ${brandLink(pre, lang, up)}
-  <nav><a href="${pre}roadmap/">${T.road}</a><a href="${pre}research/">${T.res}</a><a href="${pre}catalogue/">${T.cat}</a>${lang === 'en' ? `<a href="${up}projects/">${T.proj}</a>` : ''}<a href="${pre}data/">${T.data}</a><a href="${ISSUES}" rel="noopener">${T.contrib}</a></nav>
+  <nav><a href="${pre}manifesto/">${T.man}</a><a href="${pre}roadmap/">${T.road}</a><a href="${pre}research/">${T.res}</a><a href="${pre}catalogue/">${T.cat}</a>${lang === 'en' ? `<a href="${up}projects/">${T.proj}</a>` : ''}<a href="${pre}data/">${T.data}</a><a href="${ISSUES}" rel="noopener">${T.contrib}</a></nav>
   <a class="lang" href="${up}${alternate || (lang === 'en' ? 'zh/' : '')}" hreflang="${lang === 'en' ? 'zh-CN' : 'en'}">${lang === 'en' ? '中文' : 'English'}</a>
 </div></header>
 <main class="wrap doc">
@@ -194,6 +194,20 @@ for (const [lang, file, rel, title, crumb] of [
     body: `<h1>${esc(title)}</h1>
 <nav class="toc"><ul>${toc.filter((t) => t[0] === 3).map((t) => `<li><a href="#${t[1]}">${inline(t[2])}</a></li>`).join('')}</ul></nav>
 ${html}` }));
+}
+// ---------- manifesto & mission (EN + ZH) ----------
+for (const [lang, file, rel, title, crumb] of [
+  ['en', 'MANIFESTO.md', 'manifesto/index.html', 'Manifesto & Mission', [['Home', ''], ['Manifesto', 'manifesto/']]],
+  ['zh', 'MANIFESTO.zh.md', 'zh/manifesto/index.html', '宣言与使命', [['首页', 'zh/'], ['宣言', 'zh/manifesto/']]],
+]) {
+  const fp = path.join(root, 'docs', file); if (!fs.existsSync(fp)) continue;
+  const src = fs.readFileSync(fp, 'utf8').replace(/^# .*\n/, '').split('\n').filter((l) => !/MANIFESTO-PHRASES|^\*Published on/.test(l)).join('\n');
+  const { html } = md(src);
+  const desc = BRAND.mission[lang];
+  write(rel, page({ lang, rel, title, desc, type: 'article', crumbs: crumb, alternate: lang === 'zh' ? 'manifesto/index.html' : 'zh/manifesto/index.html',
+    jsonld: [{ '@context': 'https://schema.org', '@type': 'CreativeWork', name: title, headline: title, description: desc, inLanguage: lang === 'zh' ? 'zh-CN' : 'en', dateModified: TODAY, isPartOf: ORG, license: 'https://creativecommons.org/licenses/by/4.0/' }],
+    body: `<h1>${esc(title)}</h1>\n${html}` }));
+  if (lang === 'en') alt['manifesto/index.html'] = 'zh/manifesto/index.html';
 }
 const kindLabel = { chapter: 'Chapter', data: 'Data', analysis: 'Analysis', method: 'Method' };
 write('research/index.html', page({ rel: 'research/index.html', title: 'Research', desc: 'Chapters, analyses, data tables and methodology of the Europe–China Digital Commons Observatory.',
@@ -305,10 +319,10 @@ ${shareMeta(lang, lang === 'zh' ? '../' : '')}
   const up = lang === 'zh' ? '../' : '';
   h = h.replace(/<!--wx-->[\s\S]*?<!--\/wx-->\n?/, '').replace('<body>', '<body>\n<!--wx-->' + wxImg(up) + '<!--/wx-->');
   h = h.replace(/<a class="brand" href="([^"]*)">(?:<img[^>]*>)?/, (m, hr) => '<a class="brand" href="' + hr + '"><img src="' + up + 'assets/logo.svg" width="42" height="28" alt="">');
-  h = h.replace(/<!--pay-->[\s\S]*?<!--\/pay-->\n?/, '').replace(/(<div class="hero">[\s\S]*?<\/h1>)/, '$1\n  <!--pay--><p class="payoff">' + BRAND.pay[lang] + '</p><!--/pay-->');
+  h = h.replace(/<!--pay-->[\s\S]*?<!--\/pay-->\n?/, '').replace(/(<div class="hero">[\s\S]*?<\/h1>)/, '$1\n  <!--pay--><p class="payoff">' + BRAND.pay[lang] + '</p><p class="sub"><b>' + (lang === 'zh' ? '以开放研究和广泛参与，推动中欧数字公地合作。' : 'Open research and open engagement for EU–China cooperation on the digital commons.') + '</b> <a href="manifesto/">' + (lang === 'zh' ? '阅读宣言与使命 →' : 'Read the manifesto & mission →') + '</a></p><!--/pay-->');
   const links = lang === 'zh'
-    ? `<!--seo-links--><section id="explore"><h2>浏览</h2><ul class="clean"><li><a href="roadmap/">路线图与研究议程</a></li><li><a href="research/">研究章节</a></li><li><a href="catalogue/">开源成功实践目录（${bi.length} 条）</a></li><li><a href="data/">开放数据下载</a></li></ul></section><!--/seo-links-->`
-    : `<!--seo-links--><section id="explore"><h2>Explore the research</h2><ul class="clean"><li><a href="roadmap/"><b>Roadmap & research agenda</b></a></li>${research.slice(0, 6).map((r) => `<li><a href="research/${r.s}/">${esc(r.title)}</a></li>`).join('')}<li><a href="research/">All research</a> · <a href="catalogue/">Catalogue (${cat.length} verified cases)</a> · <a href="projects/">Funding of ${plist.length} projects</a> · <a href="data/">Open data</a></li></ul></section><!--/seo-links-->`;
+    ? `<!--seo-links--><section id="explore"><h2>浏览</h2><ul class="clean"><li><a href="manifesto/"><b>宣言与使命</b></a></li><li><a href="roadmap/">路线图与研究议程</a></li><li><a href="research/">研究章节</a></li><li><a href="catalogue/">开源成功实践目录（${bi.length} 条）</a></li><li><a href="data/">开放数据下载</a></li></ul></section><!--/seo-links-->`
+    : `<!--seo-links--><section id="explore"><h2>Explore the research</h2><ul class="clean"><li><a href="manifesto/"><b>Manifesto & Mission</b></a></li><li><a href="roadmap/"><b>Roadmap & research agenda</b></a></li>${research.slice(0, 6).map((r) => `<li><a href="research/${r.s}/">${esc(r.title)}</a></li>`).join('')}<li><a href="research/">All research</a> · <a href="catalogue/">Catalogue (${cat.length} verified cases)</a> · <a href="projects/">Funding of ${plist.length} projects</a> · <a href="data/">Open data</a></li></ul></section><!--/seo-links-->`;
   h = h.replace(/<!--seo-links-->[\s\S]*?<!--\/seo-links-->\n?/, '').replace('<section id="contact">', links + '\n<section id="contact">');
   fs.writeFileSync(f, h); urls.unshift(rel); alt[rel] = other;
 }
