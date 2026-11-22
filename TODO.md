@@ -65,6 +65,7 @@ Prepared in parallel with research; the choice is made at gate B.
 - [ ] Working paper with a DOI (Zenodo/SSRN)
 
 ## Phase E — Operations, social, outreach (continuous)
+- [ ] **European Guanxi, *European Perspectives on China* vol. 4 (2027), "EU–China Relations in the Global Digital Order"**: abstract (400–500 words) + CV + 10–15 refs by **20 Dec 2026** via Google Form. The form requires certifying no AI was used to write or edit the proposal, so Fabio writes; Claude provides evidence and source checks only (kit outside the repo: ~euchina/private/european-guanxi-2027/). Notification 24 Jan 2027, article 26 Mar 2027.
 - [ ] Token ledger + weekly job with a 10% cap (dedicated server account)
 - [ ] Social EU: LinkedIn, Mastodon, Bluesky, YouTube, GitHub. CN: WeChat 公众号 (via a Chinese partner), Weibo, Zhihu, Bilibili, OSChina, Gitee. **Accounts created by Fabio**
 - [ ] Monthly newsletter "Commons Bridge Brief"; monthly catalogue update
