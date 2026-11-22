@@ -1,7 +1,7 @@
 # Manifesto — Europe–China Digital Commons Observatory
 *中欧数字公地观察站 · eu-china-commons.eu*
 
-**Status: DRAFT v0.1 (22 Nov 2026), for Fabio's review.** The manifesto is a **[P] proposal** document. The facts it rests on are labelled **[F]** (fact, sourced in our research) or **[I]** (inference) and point to the research file behind them. Sections: EN master text · IT version · key phrases EN/IT/ZH · where to use them. The full Chinese version comes after approval (Qwen + DeepSeek copy-edit, then native review, as for the site).
+**Status: DRAFT v0.2 (22 Nov 2026), for Fabio's review.** The manifesto is a **[P] proposal** document. The facts it rests on are labelled **[F]** (fact, sourced in our research) or **[I]** (inference) and point to the research file behind them. Sections: EN master text · IT version · key phrases EN/IT/ZH · where to use them. The full Chinese version comes after approval (Qwen + DeepSeek copy-edit, then native review, as for the site).
 
 ---
 
@@ -10,7 +10,7 @@
 ### What we see
 - **[F]** Europe and China run on the same open foundations: the Linux kernel, OpenSSL, curl, compilers, RISC-V toolchains, Apache projects started in China and used in Europe. ([INDUSTRIAL-STACKS.md](INDUSTRIAL-STACKS.md))
 - **[F]** Both now treat open source as strategic: the EU Open Source Strategy and the tech-sovereignty agenda on one side; open source (开源) in China's national plans and in local action plans from Beijing and Shanghai to Hunan on the other. ([MULTILEVEL-ANALYSIS.md](MULTILEVEL-ANALYSIS.md), [INDUSTRIAL-POLICY.md](INDUSTRIAL-POLICY.md))
-- **[F]/[I]** They invest in different places. China pays for adoption. Europe pays for creation and maintenance. The two efforts complement each other more than they overlap. ([FUNDING-CHAPTER.md](FUNDING-CHAPTER.md))
+- **[F]** Both invest public money in open source, through different instruments and priorities: local incentives tied to deployment and to national stacks in China; grants for new technology and, in a few countries, standing maintenance funds in Europe. **[I]** Neither side covers the whole life of the code that both use, from creation to long-term maintenance. ([FUNDING-CHAPTER.md](FUNDING-CHAPTER.md))
 - **[F]** Public administrations on both sides already reuse open source. We have verified cases in Europe and in China. ([../data/catalogue-verified.json](../data/catalogue-verified.json))
 - **[I]** The weak points are the same everywhere: common upstreams are under-maintained, funding is opaque, critical projects depend on a single company or on a few volunteers, and no standing channel exists for the two sides to look after the layer they share.
 
@@ -60,7 +60,7 @@ Contact: contact@eu-china-commons.eu · Research and data: github.com/fpietrosan
 ### Cosa vediamo
 - **[F]** Europa e Cina poggiano sulle stesse fondamenta aperte: il kernel Linux, OpenSSL, curl, i compilatori, le toolchain RISC-V, i progetti Apache nati in Cina e usati in Europa.
 - **[F]** Entrambe considerano ormai l'open source una scelta strategica. Da una parte ci sono la strategia open source dell'UE e l'agenda sulla sovranità tecnologica. Dall'altra c'è l'open source (开源) nei piani nazionali cinesi e nei piani d'azione locali, da Pechino e Shanghai fino allo Hunan.
-- **[F]/[I]** Investono in punti diversi. La Cina paga l'adozione, l'Europa paga la creazione e la manutenzione. Più che sovrapporsi, i due sforzi si completano.
+- **[F]** Entrambe investono denaro pubblico nell'open source, con strumenti e priorità diversi: in Cina incentivi locali legati all'adozione e agli stack nazionali; in Europa bandi per nuove tecnologie e, in pochi Paesi, fondi stabili per la manutenzione. **[I]** Nessuna delle due copre da sola l'intera vita del codice che entrambe usano, dalla creazione alla manutenzione nel lungo periodo.
 - **[F]** Le pubbliche amministrazioni di entrambe le parti riusano già software open source: abbiamo casi verificati sia in Europa sia in Cina.
 - **[I]** I punti deboli sono gli stessi ovunque: i progetti di base comuni ricevono poca manutenzione e i finanziamenti sono poco trasparenti. Inoltre i progetti critici dipendono da un'unica azienda o da pochi volontari, e non esiste un canale stabile in cui le due parti si occupino dello strato che condividono.
 
@@ -120,7 +120,7 @@ Contatti: contact@eu-china-commons.eu · Ricerca e dati: github.com/fpietrosanti
 | 8 | Trust by evidence, not by declaration. | Fiducia per evidenze, non per dichiarazioni. | 以证据建立信任，而非靠表态。 |
 | 9 | Small steps, measured, then scaled. | Piccoli passi, misurati, poi estesi. | 小步起步，可衡量，可推广。 |
 | 10 | Science grows in the open. | La scienza cresce all'aperto. | 科学在开放中生长。 |
-| 11 | China funds adoption, Europe funds maintenance: together they fund the commons. | La Cina finanzia l'adozione, l'Europa la manutenzione: insieme finanziano i beni comuni. | 中国投入应用，欧洲投入维护：合起来，就是数字公地。 |
+| 11 | Different paths, the same commons. | Strade diverse, gli stessi beni comuni. | 路径不同，公地相同。 |
 | 12 | If you think this should happen, you are already one of us. | Se pensi che debba accadere, sei già dei nostri. | 如果你认为这件事应该发生，你已经是我们中的一员。 |
 
 **Notes on the ZH wording (for the native reviewer):**
@@ -143,4 +143,5 @@ Contatti: contact@eu-china-commons.eu · Ricerca e dati: github.com/fpietrosanti
 | Footer, methodology page | 8, 9 |
 
 ## Changelog
+- v0.2, 22 Nov 2026: "China funds adoption, Europe funds maintenance" removed (Fabio): replaced by a neutral description of both sides' instruments and by phrase 11 "Different paths, the same commons".
 - v0.1, 22 Nov 2026: first draft (Claude), based on FUNDING-CHAPTER, MULTILEVEL-ANALYSIS, INDUSTRIAL-STACKS, EU-CN-COOPERATION-MAP and the v0.1 site's call to institutions.
