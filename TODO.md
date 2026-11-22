@@ -58,7 +58,7 @@ Prepared in parallel with research; the choice is made at gate B.
 - [ ] Logo, palette, social templates for WeChat cover images and LinkedIn banners
 
 ## Phase D — Writing and publication (EN + ZH)
-- [ ] **Manifesto + Mission** (docs/MANIFESTO.md, draft v0.3 22 Nov 2026, EN + ZH): Fabio reviews EN text, mission and key phrases → ZH full version (Qwen + DeepSeek copy-edit, native review) → site page + "Join" onboarding (endorse / contribute / partner; public listing opt-in only, GDPR)
+- [x] **Manifesto + Mission** published 22 Nov 2026 (Fabio): https://eu-china-commons.eu/manifesto/ + /zh/manifesto/ (sources docs/MANIFESTO.md, MANIFESTO.zh.md; phrases in MANIFESTO-PHRASES.md). [ ] ZH native review by Fabio's local reader → update MANIFESTO.zh.md and MANIFESTO-PHRASES.md, rebuild, redeploy. [ ] "Join" flow: endorsement form/list (opt-in public names, GDPR)
 - [ ] White paper v1 EN, then ZH (native review required)
 - [ ] Site v1 on GitHub Pages at eu-china-commons.eu
 - [ ] Four proposition papers and talking points for EU and CN audiences
