@@ -39,6 +39,7 @@ The v0.1 site already online locally stays **frozen as a placeholder**. It is no
 - [ ] Read the flagged items: OpenUK *AI Openness Report* (Jul 2026), MERICS AI stack (Jul 2025)
 - [ ] Oniro/OpenHarmony case study at repository level, plus a reply to the House Select Committee letter (Jun 2025)
 - [ ] Funding comparison: EU maintenance vs Chinese incubation, with additionality as the metric
+- [ ] **R17 external report (Ian, Nov 2026)**, see docs/EXT-REPORT-CN-OSS-LANDSCAPE.md: verify key claims on the archived primaries (17.1); Doc. 34/2025 and MoF procurement standards (17.2); CNITSEC list time series (17.3); two-way dependency table (17.4). **Fabio:** ask Ian about authorship and permission to cite or publish the PDF and dataset (17.12)
 - [ ] Weekly monitoring of new policies (server job, once the dedicated account is available)
 
 ## Phase B — Site and white paper structure (after gate A)

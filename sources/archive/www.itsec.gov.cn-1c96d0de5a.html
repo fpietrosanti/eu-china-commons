@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>安全可靠测评工作指南（V4.0）</title>
+	<link rel="stylesheet" href="../../../images/common.css" type="text/css" />
+	<link rel="stylesheet" href="../../../images/detail.css" type="text/css" />
+<script src="../../../images/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="contentbox">
+			
+      <!--include头开始-->
+<script type="text/javascript">
+//设为首页 
+function SetHome(obj,url){
+  try{
+    obj.style.behavior='url(#default#homepage)';
+    obj.setHomePage(url);
+  }catch(e){
+    if(window.netscape){
+     try{
+       netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+     }catch(e){
+       alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+     }
+    }else{
+    alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。");
+    }
+ }
+}
+  
+//收藏本站 
+function AddFavorite(title, url) {
+ try {
+   window.external.addFavorite(url, title);
+ }
+catch (e) {
+   try {
+    window.sidebar.addPanel(title, url, "");
+  }
+   catch (e) {
+     alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请进入新网站后使用Ctrl+D进行添加");
+   }
+ }
+}
+</script>
+
+
+<div class="cnit_headbox">
+
+<!--<div style=" color: rgb(177 24 26);">1</div> -->
+
+<!-- 头部开始 -->
+		<div class="header" style=" margin-top: 0px;">
+			<ul>
+				<span>
+				<script>
+					var myDate=new Date();
+					document.write(myDate.getFullYear()+'年'+parseInt(myDate.getMonth()+1)+'月'+myDate.getDate()+'日');
+				</script>
+				</span>
+				<li> <a href="javascript:void(0);" onclick="SetHome(this,'http://www.itsec.gov.cn/');">设为首页</a>  </li>
+				<li ><a href="javascript:void(0);" onclick="AddFavorite('中国信息安全测评中心','http://www.itsec.gov.cn/')">加入收藏夹</a></li>
+
+<li class="bgnone" ><a href="http://www.itsec.gov.cn/fz/en/201708/t20170802_15316.html">English</a></li>
+
+			</ul>
+		</div>
+	<!-- 头部结束 -->
+	<!-- logo开始 -->
+		<div class="logo" style="margin-top: 50px;">
+			<img src="/images/cnitsec_logo1.png" alt="" />
+		</div>
+	<!-- logo结束 -->
+	<!-- 导航开始 -->
+		<div class="navbox">
+			<div class="navlist">
+				<ul class="navdetail">
+					<li><a href="/" class="sy" >首页</a></li>
+					<li id="jigou"><a href="/" class="jg" >机构</a></li>
+					<li class="bgnone"  id="fuwu"><a href="/" class="fw ">服务</a></li>
+
+				</ul>
+				<!-- 机构内容开始 -->
+					<div class="navchild-jigou" id="conjg">
+						<!-- 列表开始 -->
+							<div class="jigou-list">
+							
+								<div class="listtop">
+									<a href="../../zxjs/zxjs/201708/t20170802_15317.html" class="agroup">中心简介</a>
+									<a href="../../zxjs/zxjs/201708/t20170802_15317.html" class="more">更多</a>
+								</div>
+								<div class="ji-listtext">
+
+									
+									<img src="../../zxjs/zxjs/201708/W020170802331364223059.jpg" /> 
+									 
+									<p>
+										中国信息安全测评中心（以下简称测评中心）是我国专门从事信息技术安全测试和风险评估的权威职能机构。
+									</p>
+								</div>
+							
+							</div>
+						<!-- 列表结束 -->
+						<!-- 列表开始 -->
+							<div class="jigou-list">
+								
+								<div class="listtop">
+									<a href="../../zxjs/txjj/201708/t20170802_15318.html" class="agroup">体系简介</a>
+									<a href="../../zxjs/txjj/201708/t20170802_15318.html" class="more">更多</a>
+								</div>
+								<div class="ji-tixitext">
+									
+									<p>
+										信息技术已经成为应 用面极广、渗透性很强的战略性技术。信息安全产品和信息系统固有的敏感性和特殊性，直接影响国家的安全利益和经济利益。各国政府纷纷采取颁布标准，实行测 评和认证制度等方式，对信息安全产品的研制、生产、销售、使用和进出口实行严格、有效的控制。美、英、德、法、澳、加、荷、韩等国家先后建立了国家信息安 全测评认证体系。
+									</p>
+								</div>
+								
+							</div>
+						<!-- 列表结束 -->
+						<!-- 列表开始 -->
+							<div class="jigou-list">
+								
+								<div class="listtop">
+									<a href="../../zxjs/lxwm/201708/t20170802_15319.html" class="agroup">联系我们</a>
+									<a href="../../zxjs/lxwm/201708/t20170802_15319.html" class="more">更多</a>
+								</div>
+								<div class="ji-listtext">
+									
+									<img src="../../zxjs/lxwm/201708/W020170802348202749283.png" /> 
+									 
+									<div class="contactus">
+										<p class="lianxi">联系方式</p>
+										<p>地  址：北京市海淀区上地西路8号院1号楼<br>邮 编：100085<br>电  话：010-82341188  010-82341118<br>传  真：010-82341100</p>
+
+									</div>
+								</div>
+								
+							</div>
+						<!-- 列表结束 -->
+					</div>
+				<!-- 机构内容结束 -->
+				<!-- 服务内容开始 -->
+					<div class="navchild-fuwu" id="confw">
+						<ul class="f-listone">
+                                                        <li><a target="_self" href="../../aqkkcp/"><img src="/images/cnitsec_f6.png" alt="" /><span>安全可靠测评</span></a></li>
+							<li><a target="_self" href="../../cp/"><img src="/images/cnitsec_f1.png" alt="" /><span>产品测评</span></a></li>
+							<li><a target="_self" href="../../fwzz/"><img src="/images/cnitsec_f2.png" alt="" /><span>服务资质</span></a></li>
+							<li><a target="_self" href="../../xtpg/"><img src="/images/cnitsec_f3.png" alt="" /><span>系统评估</span></a></li>
+							<li><a target="_self" href="../../ryzc/"><img src="/images/cnitsec_f4.png" alt="" /><span>人员注册</span></a></li>
+							<li class="bgnone"><a target="_self" href="../../qtyw/"><img src="/images/cnitsec_f5.png" alt="" /><span>其他业务</span></a></li>
+						</ul>
+						<ul class="f-listtwo">
+                                                        <li><a target="_self" href="../../aqkkcp/cpgg/"><img src="/images/cnitsec_fu1.png" alt="" /><span>安全可靠测评公告</span></a></li>
+							<li><a target="_self" href="../../cp/cpgg/"><img src="/images/cnitsec_fu1.png" alt="" /><span>产品测评公告</span></a></li>
+							<li><a target="_self" href="../../fwzz/fcpgg/"><img src="/images/cnitsec_fu1.png" alt="" /><span>资质测评公告</span></a></li>
+							<li class="bgnone"><a target="_self" href="../../ryzc/rcpgg/"><img src="/images/cnitsec_fu1.png" alt="" /><span>人员测评公告</span></a></li>
+						</ul>
+					</div>
+				<!-- 服务内容结束 -->
+					<form>
+					<div class="searchbox">
+						<input id="js_searchword" value='中国信息安全测评中心' onfocus="this.value=='中国信息安全测评中心'?this.value='':this.value" onblur="this.value==''?this.value='中国信息安全测评中心':this.value" type="text" />
+						<img id="js_dosearch" src="/images/cnitsec_search.png" alt="" />
+					</div>
+					</form>
+
+			</div>
+		</div>
+	<!-- 导航结束 -->
+</div>
+
+<script type="text/javascript">
+						
+function newssearch(){
+  var mysearchword=$("#js_searchword").val();
+  mysearchword=mysearchword.substr(0,40);
+  mysearchword=mysearchword.replace(/-/img,' and ');
+  window.open("/search/search?channelid="+279872+"&searchword="+mysearchword);
+}
+$("#js_searchword").keypress(function(event) {//监控输入框enter按键
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    if (keycode == '13') {
+event.preventDefault();
+        newssearch();
+    }
+});
+$("#js_dosearch").click(function(event) {//监控输入框enter按键
+event.preventDefault();
+        newssearch();
+});
+</script>
+<!--include头结束-->
+
+
+	<!-- 当前位置开始 -->
+	<div class="nowposition">
+		<p>当前位置：<a href="../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="../../" title="安全可靠测评" class="CurrChnlCls">安全可靠测评</a>&nbsp;&gt;&nbsp;<a href="../" title="业务介绍" class="CurrChnlCls">业务介绍</a></p>
+	</div>
+	<!-- 当前位置结束 -->
+
+	<!-- 文字详情开始 -->
+	<div class="textbox">
+		<div class="article">
+			<p class="article-tit">安全可靠测评工作指南（V4.0）</p>
+			<p><span class="date">2026-06-30</span>&nbsp;&nbsp;&nbsp;来源：<span class="from"></span>
+
+<span class="from">中国信息安全测评中心</span>
+</p>
+		</div>
+			<div class="content content2" id="js_content">
+			    <div class=TRS_Editor><p align="justify">安全可靠测评主要面向计算机终端和服务器搭载的中央处理器（包括含人工智能加速单元的中央处理器）、人工智能训练推理芯片、操作系统、数据库，以及激光或喷墨打印机搭载的主控芯片。通过对产品及其研发单位的核心技术、安全保障、持续发展等方面开展评估，评定产品的安全性和可持续性，实现对产品研发设计、生产制造、供应保障、售后维护等全生命周期安全可靠性的综合度量和客观评价。</p>
+<p align="justify">安全可靠测评坚持“自愿平等、客观公正”原则，由企业自愿向中国信息安全测评中心、国家保密科技测评中心（以下简称“测评机构”）申请产品检测，测评结果由企业和用户自主选择使用。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong><font style="font-size: 14pt">一、测评申请</font></strong></p>
+<p align="justify"><strong>（一）申请流程</strong></p>
+<p align="justify">安全可靠测评申请流程分为材料提交、材料审核、受理评审3个阶段。</p>
+<p align="center"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" alt="" oldsrc="W020260630576188620200.png" src="./W020260630576188620200.png" /></p>
+<p align="justify">&nbsp;</p>
+<p align="center">图1 安全可靠测评申请流程</p>
+<p align="justify"><strong>1.材料提交</strong></p>
+<p align="justify">（1）送测单位按照自主自愿原则，在受理期内通过邮件方式向中国信息安全测评中心（pdtscc@mail.itsec.gov.cn）或国家保密科技测评中心（nsstecaqkk@163.com）提交《安全可靠测评申请登记表》扫描件（表格附后）。</p>
+<p align="justify">（2）测评机构收到送测单位提交的《安全可靠测评申请登记表》后，5个工作日内通知送测单位到指定地点领取测评申请材料清单。</p>
+<p align="justify">（3）送测单位根据测评申请材料清单在受理期内向测评机构提交相关材料，并对材料的真实性负责。</p>
+<p align="justify">（4）受理期每年两次，为1月第一个工作日至2月最后一个工作日和7月第一个工作日至8月最后一个工作日。</p>
+<p align="justify"><strong>2.材料审核</strong></p>
+<p align="justify">（1）测评机构收到送测单位提交的申请材料后开展材料审核，10个工作日内向送测单位反馈审核意见。</p>
+<p align="justify">（2）通过材料审核的，进入受理评审环节。</p>
+<p align="justify">（3）未通过材料审核的，仍在受理期内，送测单位可根据审核意见补充完善申请材料并重新提交。</p>
+<p align="justify">（4）受理期截止后，测评机构不再接受送测单位提交的申请材料和补充材料。</p>
+<p align="justify"><strong>3.受理评审</strong></p>
+<p align="justify">（1）受理期截止后，测评机构根据送测单位提交的申请材料进行受理评审，并向送测单位反馈受理评审结果。</p>
+<p align="justify">（2）通过受理评审的，测评机构与送测单位明确测试样品和测评材料有关要求，核定测评工作量，确定测评费用并签订测评协议，进入测评实施环节。</p>
+<p align="justify">（3）未通过受理评审或未达成测评协议的，终止本次测评。</p>
+<p align="justify">（4）通过受理评审后，送测单位申请终止测评的，作不通过处理。</p>
+<p align="justify"><strong>（二）申请条件</strong></p>
+<p align="justify">送测单位应为中国境内注册的实体，且满足以下条件：</p>
+<p align="justify">1.送测产品应面向市场公开销售或已投入实际使用；</p>
+<p align="justify">2.具有送测产品完备的研发文档、设计资料、代码数据和研发环境；</p>
+<p align="justify">3.拥有送测产品相关的授权专利、注册商标、著作权、集成电路布图设计等知识产权之一；</p>
+<p align="justify">4.具备与送测产品研发设计、生产制造、供应保障、售后维护相匹配的人员队伍和工作环境；</p>
+<p align="justify">5.不存在违反中国法律法规的行为和记录；</p>
+<p align="justify">6.送测产品功能定性定位应准确，产品名称应与产品功能一致，不同技术路线产品名称应有明确区分，不得误导用户；</p>
+<p align="justify">7.同类产品迭代升级，产品名称应保持连续性，非同类产品应做明确区分；</p>
+<p align="justify">8.同一送测单位一个受理期内最多送测中央处理器、操作系统、数据库、人工智能训练推理芯片、打印机主控芯片产品各两款。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong><font style="font-size: 14pt">二、测评实施</font></strong></p>
+<p align="justify"><strong>（一）测评流程</strong></p>
+<p align="justify">测评流程分为测评启动、测评开展、结果评定3个阶段。</p>
+<p align="center"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" alt="" oldsrc="W020260630576188644140.png" src="./W020260630576188644140.png" /></p>
+<p align="justify">&nbsp;</p>
+<p align="center">图2 安全可靠测评流程</p>
+<p align="justify"><strong>1.测评启动</strong></p>
+<p align="justify">（1）送测单位自接到测评机构通知起10个工作日内提交测评材料、测试样品及样机。</p>
+<p align="justify">（2）测评机构对送测单位提交的测评材料、测试样品及样机确认无误后，启动测评。</p>
+<p align="justify"><strong>2.测评开展</strong></p>
+<p align="justify">（1）测评主要包括材料核验、人员访谈、代码审查、环境审查、现场测试、现场考核、样品测试等环节。</p>
+<p align="justify">（2）测评过程中，送测单位应及时响应测评机构需要，提供技术支持或补充相关材料。若测试样品出现问题导致测评无法正常开展，送测单位应及时更换或补充样品。</p>
+<p align="justify">（3）自测评启动之日起，测评机构原则上在90个工作日内完成测评。送测单位补充材料、更换或补充样品的时间不计入测评周期。如遇特殊情况或受不可抗力影响，测评周期可根据实际情况延长。</p>
+<p align="justify">（4）若测评过程中发现送测产品存在影响或者可能涉及网络安全法律法规的问题，应当确认送测产品符合相关法律法规后，再继续开展测评。</p>
+<p align="justify">（5）若测评过程中发现送测单位存在隐瞒、欺骗、提交虚假材料、夸大产品代码自主量超过60%、不配合测评等行为，测评机构终止本次测评，作不通过处理，且两年内不再受理其测评申请。</p>
+<p align="justify"><strong>3.结果评定</strong></p>
+<p align="justify">测评完成后，测评机构对测评情况进行分级评定，出具安全可靠测评结果。</p>
+<p align="justify"><strong>（二）测评主要内容</strong></p>
+<p align="justify"><strong>1.针对送测产品：</strong></p>
+<p align="justify">（1）设计、开发、生产等关键环节在中国境内完成的情况，以及实施必要的安全防护措施的情况；</p>
+<p align="justify">（2）遵守中华人民共和国知识产权相关法律法规、行业标准规范的情况，履行开源许可协议、授权许可合同的要求的情况；</p>
+<p align="justify">（3）不存在未声明功能和已知安全风险的情况；</p>
+<p align="justify">（4）安全风险防护能力的情况；</p>
+<p align="justify">（5）供应链安全性和持续稳定性的情况；</p>
+<p align="justify">（6）服务保障安全性、持续稳定性和可追溯性的情况；</p>
+<p align="justify">（7）符合中华人民共和国网络安全相关的法律法规及技术标准的情况；</p>
+<p align="justify">（8）满足技术要件对测评机构充分公开和可追溯的情况。</p>
+<p align="justify"><strong>2.针对送测单位：</strong></p>
+<p align="justify">（1）依据中华人民共和国相关法律法规合法合规运营，具备相关的运营、研发、管理、服务等资质的情况；</p>
+<p align="justify">（2）依据中华人民共和国相关法律法规实施知识产权保护及管理的情况；</p>
+<p align="justify">（3）依据中华人民共和国相关法律法规对核心数据、重要数据进行保护的情况；</p>
+<p align="justify">（4）供应链服务的情况或风险；</p>
+<p align="justify">（5）具备与送测产品研发设计、生产制造、供应保障、售后维护相匹配的人员队伍的情况；</p>
+<p align="justify">（6）具备产品定制开发能力，能够基于自身产品构建产业生态，保持生态开放性、透明性，满足各种应用场景需求的情况；</p>
+<p align="justify">（7）具备漏洞响应等能力与管理机制的情况；</p>
+<p align="justify">（8）具备及时有效的售后服务能力与管理机制的情况；</p>
+<p align="justify">（9）具备送测产品的独立研发能力，且拥有相关知识产权保护的情况；</p>
+<p align="justify">（10）具备送测产品的研发环境及过程记录的情况；</p>
+<p align="justify">（11）确保测评材料对测评机构充分公开和可追溯。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong><font style="font-size: 14pt">三、结果查询</font></strong></p>
+<p align="justify">1.送测单位可通过中国信息安全测评中心（网址：www.itsec.gov.cn）和国家保密科技测评中心（网址：www.nsstec.org.cn）官方网站查询测评结果，测评结果自发布之日起有效期3年。</p>
+<p align="justify">2.测评结果有效期内，若送测单位出现实控人或控股权发生变化、产品技术路线更换、产品被发现重大安全漏洞等可能影响测评结果的情形，送测单位应及时告知测评机构。未及时告知的，测评机构有权视情处置，直至取消产品测评结果。</p>
+<p align="justify">3.送测单位对测评结果有异议，在结果发布30个工作日内，采用书面方式向测评机构提出申诉。一般情况下，测评机构30个工作日内予以答复。</p>
+<p align="justify">4.未通过测评的产品，如在供应链安全、核心技术掌控、知识产权、抵御安全风险等方面取得重要进展，可在受理期内重新申请送测。两次未通过测评的，两年内不再受理其同类产品测评申请。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong><font style="font-size: 14pt">四、结果复核</font></strong></p>
+<p align="justify">1.测评结果有效期满前，送测单位按照自主自愿原则，在受理期内通过邮件方式向中国信息安全测评中心（pdtscc@mail.itsec.gov.cn）或国家保密科技测评中心（nsstecaqkk@163.com）提交《安全可靠测评结果复核申请表》扫描件（表格附后）。</p>
+<p align="justify">2.测评机构收到送测单位提交的《安全可靠测评结果复核申请表》后，5个工作日内，通过邮件方式向送测单位告知结果复核相关事项。</p>
+<p align="justify">3.送测单位在受理期内向测评机构提交材料，并对材料的真实性负责。受理期截止后未提交材料的，视为放弃结果复核。</p>
+<p align="justify">4.测评机构对送测单位提交的材料开展复核。通过复核的，测评结果有效期延长3年，并在中国信息安全测评中心（网址：www.itsec.gov.cn）和国家保密科技测评中心（网址：www.nsstec.org.cn）官方网站发布。未通过复核的，测评结果到期终止。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong><font style="font-size: 14pt">五、保密承诺</font></strong></p>
+<p align="justify">1.测评机构对在测评工作中知悉的商业秘密和未公开材料承担保密义务，承诺不侵犯送测单位的知识产权。</p>
+<p align="justify">2.送测单位应对测评工作涉及的未公开事项承担保密义务，不公开宣传、报道，不向第三方泄露。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong><font style="font-size: 14pt">六、参考依据</font></strong></p>
+<p align="justify">1.《中华人民共和国国家安全法》</p>
+<p align="justify">2.《中华人民共和国网络安全法》</p>
+<p align="justify">3.《中华人民共和国数据安全法》</p>
+<p align="justify">4.《中华人民共和国个人信息保护法》</p>
+<p align="justify">5.《中华人民共和国保守国家秘密法》</p>
+<p align="justify">6.《中华人民共和国密码法》</p>
+<p align="justify">7.《中华人民共和国专利法》</p>
+<p align="justify">8.《中华人民共和国商标法》</p>
+<p align="justify">9.《中华人民共和国著作权法》</p>
+<p align="justify">10.《中华人民共和国反垄断法》</p>
+<p align="justify">11.《计算机软件保护条例》</p>
+<p align="justify">12.《集成电路布图设计保护条例》</p>
+<p align="justify">13.《关键信息基础设施安全保护条例》</p>
+<p align="justify">14.《商用密码管理条例》</p>
+<p align="justify">15.《网络安全审查办法》</p>
+<p align="justify">16.《数据出境安全评估办法》</p>
+<p align="justify">17.《商用密码应用安全性评估管理办法》</p>
+<p align="justify">18.《知识产权对外转让有关工作办法（试行）》</p>
+<p align="justify">19.《商标一般违法判断标准》</p>
+<p align="justify">20.《商标侵权判断标准》</p>
+<p align="justify">21.《不可靠实体清单规定》</p>
+<p align="justify">22.《国家知识产权局知识产权信用管理规定》</p>
+<p align="justify">23.GB/T 18336-2024《网络安全技术 信息技术安全评估准则》</p>
+<p align="justify">24.GB/T 29490-2023《企业知识产权合规管理体系要求》</p>
+<p align="justify">25.GB/T 37286-2019《知识产权分析评议服务—服务规范》</p>
+<p align="justify">26.GB/T 22239-2019《信息安全技术 网络安全等级保护基本要求》</p>
+<p align="justify">27.GB/T 25070-2019《信息安全技术 网络安全等级保护安全设计技术要求》</p>
+<p align="justify">28.GB/T 28448-2019《信息安全技术 网络安全等级保护测评要求》</p>
+<p align="justify">29.GB/T 39786-2021《信息安全技术 信息系统密码应用基本要求》</p></div>
+
+			</div>
+		
+		
+		
+	</div>
+					
+	<!-- 文字详情结束 -->
+	
+
+      <!--include头开始-->
+<div class="cnit_footbox">
+<!-- footer开始 -->
+<div class="partingline"></div>
+				<div class="footer">
+					<div class="bottom">
+						<a target="_blank" href="http://www.itsec.gov.cn/fz/map/">网站地图</a> <label for="">|</label>
+						<a target="_blank" href="http://www.itsec.gov.cn/zxjs/lxwm/201708/t20170802_15319.html">联系我们</a> <label for="">|</label>
+						<a target="_blank" href="http://www.itsec.gov.cn/zxjs/zpxx/">人才招聘</a>
+					</div>
+					<div class="bottom1">
+						<p>中国信息安全测评中心&nbsp;&nbsp;版权所有&nbsp;&nbsp;备案号：<a target="_blank" href="https://beian.miit.gov.cn">京ICP备14044185号-2</a></p>
+						<p>北京市海淀区上地西路8号院1号楼&nbsp;&nbsp;邮政编号：100085&nbsp;&nbsp;电话：010-82341118&nbsp;&nbsp;传真：010-82341100</p>
+					</div>
+				</div>
+<!-- footer结束 -->
+</div>
+
+<!-- 右侧广告开始 -->
+	<div class="adsbox" id="adright">
+<a style="position: absolute;right: 10px;top: 7px;font-size: 20px;color: #5F87E7;cursor: pointer;" onclick="javascript:$('#adright').hide();">X</a>
+		<!-- <img src="/images/cnitsec_phone.png" alt="" /> -->
+		<div class="adstxt">
+			<div class="dianhua">
+			<span class="ads-text">产品测评咨询电话</span><br/>
+			<span class="ads-telphone">010-82341592</span><br/>
+			<span class="ads-text">系统评估咨询电话</span><br/>
+			<span class="ads-telphone">010-82341592</span><br/>
+			<span class="ads-text">服务资质咨询电话</span><br/>
+			<span class="ads-telphone">010-82341582</span><br/>
+			<span class="ads-telphone">010-82341551</span><br/>
+			<span class="ads-text">人员培训咨询电话</span><br/>
+			<span class="ads-telphone">010-82341582</span><br/>
+			<span class="ads-telphone">010-82341551</span><br/>
+
+		</div>
+
+		<div class="jiandu">	
+			<span class="ads-text">投诉与监督</span><br/>
+			<span class="ads-telphone">010-82341315</span><br/>
+			<span class="ads-text">E-mail</span><br/>
+			<span class="ads-telphone">jiandu@itsec.gov.cn</span>
+		</div>
+		</div>
+		<!--  <img src="/images/cnitsec_close.png" alt="" class="stop" /> -->
+		
+	</div>
+<!-- 右侧广告结束 -->
+<!-- 100周年开始 -->
+<style>
+ 
+
+.cnit_headbox{width: 100%;padding-bottom: 0px;}
+
+.conlistbox .toplistbox .listleft { float: left; width: 31%; margin-right: 17px; }
+
+.conlistbox .toplistbox .listright {float: left;width: 31%;margin-right: 17px;height: 210px;}
+.cnit_footbox .partingline{margin:auto;height:2px;width:990px;border-bottom: 1px solid #bacaed;border-top: 1px solid #bacaed;margin-top: px;}
+.conlistbox .youqingbox .abox{width: 100%;margin-top: 20px;padding-bottom: 0px;}
+.conlistbox .youqingbox .listtop{width: 100%;border-bottom: 1px solid #cbd8ed;overflow: hidden;margin-top: 420px;}
+</style>
+<!-- 100周年开始 -->
+<!--include头结束-->
+
+	</div>
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+FilterFormat();
+});
+function FilterFormat() {
+    //过滤table多余标签
+    var tables = $('#js_content table');
+    for (var i = tables.length - 1; i >= 0; i--) {
+        tables[i].width = "100%";
+        tables[i].style.width="100%";
+tables[i].style.margin="auto";
+        var html=$(tables[i]).html();
+        html=html.replace(/(<\/?a.*?>)|(<\/?span.*?>)|(<\/?div.*?>)|(<\/?p.*?>)/g, '');
+        $(tables[i]).html(html)
+    }
+}
+
+</script>
+</html>

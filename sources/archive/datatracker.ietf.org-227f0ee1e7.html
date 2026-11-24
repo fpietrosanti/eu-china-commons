@@ -1,0 +1,2140 @@
+
+<!DOCTYPE html>
+
+
+
+
+
+
+
+<html data-bs-theme="auto" lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+            
+                RFC 8998 - ShangMi (SM) Cipher Suites for TLS 1.3
+            
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://static.ietf.org/fonts/inter/import.css" rel="stylesheet">
+        <link href="https://static.ietf.org/fonts/noto-sans-mono/import.css" rel="stylesheet">
+        
+            <link rel="stylesheet" href="https://static.ietf.org/dt/12.83.2/ietf/css/document_html_referenced.css">
+            
+                <link rel="stylesheet" href="https://static.ietf.org/dt/12.83.2/ietf/css/document_html_txt.css">
+            
+            <script type="module" crossorigin="" src="https://static.ietf.org/dt/12.83.2/assets/embedded-72dc5a5f.js"></script>
+<link href="https://static.ietf.org/dt/12.83.2/assets/create-pinia-singleton-4fceef90.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static.ietf.org/dt/12.83.2/assets/Scrollbar-0888439d.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+            <script src="https://static.ietf.org/dt/12.83.2/ietf/js/document_html.js"></script>
+            <script src="https://static.ietf.org/dt/12.83.2/ietf/js/theme.js"></script>
+        
+        <link rel="alternate" type="application/atom+xml" title="Document changes" href="/feed/document-changes/rfc8998/">
+        <meta name="description"
+            
+                content="ShangMi (SM) Cipher Suites for TLS 1.3 (RFC 8998, )"
+            >
+        
+
+<link rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-180.png">
+<link rel="icon"
+      sizes="32x32"
+      href="https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-32.png">
+<link rel="icon"
+      sizes="16x16"
+      href="https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon"
+      href="https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-mask.svg"
+      color="#ffffff">
+<meta name="msapplication-TileColor"
+      content="#ffffff">
+<meta name="theme-color"
+      content="#ffffff">
+        
+
+
+
+
+<meta property="og:title" content="RFC 8998: ShangMi (SM) Cipher Suites for TLS 1.3">
+<meta property="og:url" content="https://datatracker.ietf.org/doc/html/rfc8998">
+
+
+<link rel="canonical" href="https://www.rfc-editor.org/info/rfc8998/">
+
+<meta property="og:site_name" content="IETF Datatracker">
+<meta property="og:description" content="This document specifies how to use the ShangMi (SM) cryptographic algorithms with Transport Layer Security (TLS) protocol version 1.3. The use of these algorithms with TLS 1.3 is not endorsed by the IETF. The SM algorithms are becoming mandatory in China, so this document provides a description of how to use the SM algorithms with TLS 1.3 and specifies a profile of TLS 1.3 so that implementers can produce interworking implementations.">
+<meta property="og:type" content="article">
+
+<meta property="article:section" content="Individual Internet-Draft">
+
+<meta property="article:author" content="Paul Yang">
+
+
+
+        
+        <style>
+            
+            .diff-form .select2-selection__rendered {
+                direction: rtl;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <noscript><iframe class="status" title="Site status" src="/status/latest"></iframe></noscript>
+<div class="vue-embed" data-component="Status"></div>
+        <div class="btn-toolbar sidebar-toolbar position-fixed top-0 end-0 m-2 m-lg-3 d-print-none">
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary btn-sm me-1 dropdown-toggle d-flex align-items-center"
+                    id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
+                    aria-label="Toggle theme">
+                        <i class="theme-icon-active bi bi-circle-half"></i>
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="bd-theme">
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center"
+                            data-bs-theme-value="light" aria-pressed="false">
+                            <i class="me-2 opacity-50 theme-icon bi bi-sun-fill"></i>
+                            Light<i class="bi bi-check2 ms-auto d-none"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center"
+                            data-bs-theme-value="dark" aria-pressed="false">
+                            <i class="me-2 opacity-50 theme-icon bi bi-moon-stars-fill"></i>
+                            Dark<i class="bi bi-check2 ms-auto d-none"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item d-flex align-items-center active"
+                            data-bs-theme-value="auto" aria-pressed="true">
+                            <i class="me-2 opacity-50 theme-icon bi bi-circle-half"></i>
+                            Auto<i class="bi bi-check2 ms-auto d-none"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-outline-secondary btn-sm sidebar-toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#sidebar"
+                    aria-expanded="true"
+                    aria-controls="sidebar"
+                    aria-label="Toggle metadata sidebar"
+                    title="Toggle metadata sidebar">
+            <i class="bi bi-arrow-bar-left sidebar-shown"></i>
+            <i class="bi bi-arrow-bar-right sidebar-collapsed"></i>
+            </button>
+        </div>
+        <nav class="navbar bg-light-subtle px-1 fixed-top d-print-none d-md-none">
+            <a class="nav-link ps-1"
+               href="/doc/rfc8998/">
+                
+                    RFC 8998
+                
+                <br class="d-sm-none">
+
+                <span class="ms-sm-3 badge rounded-pill badge-inf">
+                    
+                        Informational
+                    
+                </span>
+            </a>
+            <button class="navbar-toggler p-1"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#docinfo-collapse"
+                    aria-controls="docinfo-collapse"
+                    aria-expanded="false"
+                    aria-label="Show document information">
+                <span class="navbar-toggler-icon small"></span>
+            </button>
+            <div class="navbar-nav navbar-nav-scroll overscroll-none collapse pt-1" id="docinfo-collapse">
+                <div class="bg-light-subtle p-0">
+                    <table class="table table-sm table-borderless small">
+                        <tbody class="meta align-top">
+                            <tr>
+                                <th scope="row"></th>
+                                <th scope="row">Title</th>
+                                <td class="edit"></td>
+                                <td>ShangMi (SM) Cipher Suites for TLS 1.3</td>
+                            </tr>
+                        </tbody>
+                        
+
+
+
+
+
+
+
+<tbody class="meta align-top ">
+    <tr>
+        <th scope="row">Document</th>
+        <th scope="row">Document type</th>
+        <td class="edit"></td>
+        <td>
+            
+
+
+
+
+
+<span class="text-success">RFC
+    
+    - Informational
+    
+</span>
+
+            
+                
+                    <br>March 2021
+                
+                <br>
+                
+                
+                    <a class="btn btn-sm btn-warning"
+                       title="Click to report an error in the document."
+                       href="https://www.rfc-editor.org/errata.php#reportnew"
+                       target="_blank">
+                        Report errata
+                    </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    <div>
+                        Was
+                        <a href="/doc/draft-yang-tls-tls13-sm-suites/06/">draft-yang-tls-tls13-sm-suites</a>
+                        (individual)
+                    </div>
+                
+            
+            
+            
+                
+
+
+
+
+    
+        <div class="alert alert-warning small p-2 mt-2" role="alert">
+            This RFC was published on the Independent Submission stream.
+            This RFC is <strong>not endorsed by the IETF</strong> and has <strong>no formal standing</strong> in the
+            <a href="/doc/rfc2026/">IETF standards process</a>.
+        </div>
+    
+
+
+            
+        </td>
+    </tr>
+    
+        <tr>
+            <td></td>
+            <th scope="row">Select version</th>
+            <td class="edit"></td>
+            <td>
+                
+
+
+
+    <ul class="revision-list pagination pagination-sm text-center flex-wrap my-0">
+        
+            
+            
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-00"
+                        rel="nofollow">
+                            00
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-01"
+                        rel="nofollow">
+                            01
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-02"
+                        rel="nofollow">
+                            02
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-03"
+                        rel="nofollow">
+                            03
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-04"
+                        rel="nofollow">
+                            04
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-05"
+                        rel="nofollow">
+                            05
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-06"
+                        rel="nofollow">
+                            06
+                        </a>
+                    </li>
+                
+            
+            
+            <li class="page-item rfc active">
+                <a class="page-link"
+                href="/doc/html/rfc8998">
+                    RFC 8998
+                </a>
+            </li>
+        
+    </ul>
+
+            </td>
+        </tr>
+        
+            <tr>
+                <td></td>
+                <th scope="row">Compare versions</th>
+                <td class="edit"></td>
+                <td>
+                    
+
+
+
+<form class="form-horizontal diff-form"
+      action="https://author-tools.ietf.org/iddiff"
+      method="get"
+      target="_blank">
+
+            <select class="form-select form-select-sm mb-1 select2-field"
+                    data-max-entries="1"
+                    data-width="resolve"
+                    data-allow-clear="false"
+                    data-minimum-input-length="0"
+                    aria-label="From revision"
+                    name="url1">
+                
+                    <option value="rfc8998">
+                        RFC 8998
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-06" selected>
+                        draft-yang-tls-tls13-sm-suites-06
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-05">
+                        draft-yang-tls-tls13-sm-suites-05
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-04">
+                        draft-yang-tls-tls13-sm-suites-04
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-03">
+                        draft-yang-tls-tls13-sm-suites-03
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-02">
+                        draft-yang-tls-tls13-sm-suites-02
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-01">
+                        draft-yang-tls-tls13-sm-suites-01
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-00">
+                        draft-yang-tls-tls13-sm-suites-00
+                        
+                    </option>
+                
+                
+            </select>
+
+            <select class="form-select form-select-sm mb-1 select2-field"
+                    data-max-entries="1"
+                    data-width="resolve"
+                    data-allow-clear="false"
+                    data-minimum-input-length="0"
+                    aria-label="To revision"
+                    name="url2">
+                
+                    <option value="rfc8998" selected>
+                        RFC 8998
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-06">
+                        draft-yang-tls-tls13-sm-suites-06
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-05">
+                        draft-yang-tls-tls13-sm-suites-05
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-04">
+                        draft-yang-tls-tls13-sm-suites-04
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-03">
+                        draft-yang-tls-tls13-sm-suites-03
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-02">
+                        draft-yang-tls-tls13-sm-suites-02
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-01">
+                        draft-yang-tls-tls13-sm-suites-01
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-00">
+                        draft-yang-tls-tls13-sm-suites-00
+                        
+                    </option>
+                
+                
+            </select>
+
+            <button type="submit"
+                    class="btn btn-primary btn-sm"
+                    value="--html"
+                    name="difftype">
+                Side-by-side
+            </button>
+            
+            <button type="submit"
+                    class="btn btn-primary btn-sm"
+                    value="--hwdiff"
+                    name="difftype">
+                Inline
+            </button>
+
+
+</form>
+
+                </td>
+            </tr>
+        
+    
+    <tr>
+        <td></td>
+        <th scope="row">Author</th>
+        <td class="edit">
+            
+        </td>
+        <td>
+            
+            
+                <span ><a 
+           title="Datatracker profile of Paul Yang"
+            href="/person/paulyang.inf@gmail.com" >P. Yang</a> <a 
+               href="mailto:paulyang.inf%40gmail.com"
+               aria-label="Compose email to paulyang.inf@gmail.com"
+               title="Compose email to paulyang.inf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+            
+                <br>
+                <a class="btn btn-primary btn-sm mt-1" href="mailto:rfc8998@ietf.org?subject=rfc8998" title="Send email to the document authors">Email authors</a>
+            
+        </td>
+    </tr>
+    
+    
+    <tr>
+        <td></td>
+        <th scope="row">
+            RFC stream
+        </th>
+        <td class="edit">
+            
+        </td>
+        <td >
+            
+                
+                    <a href="/stream/ise/">
+                
+                
+                    
+                        Independent Submission
+                    
+                
+                
+                    </a>
+                
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <th scope="row">
+            Other formats
+        </th>
+        <td class="edit">
+        </td>
+        <td>
+            
+                
+    <div class="buttonlist">
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.txt">
+            
+                <i class="bi bi-file-text"></i> txt
+            
+        </a>
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.html">
+            
+                <i class="bi bi-file-code"></i> html
+            
+        </a>
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.xml">
+            
+                <i class="bi bi-file-code"></i> xml
+            
+        </a>
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+            download="rfc8998.pdf"
+          
+         
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.pdf">
+            
+                <i class="bi bi-file-pdf"></i> pdf
+            
+        </a>
+        
+    
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="/doc/rfc8998/bibtex/">
+            
+                <i class="bi bi-file-ruled"></i> bibtex
+            
+        </a>
+        
+    
+</div>
+
+            
+        </td>
+    </tr>
+    
+    
+        
+    
+</tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <th scope="row"></th>
+                            <td class="edit"></td>
+                            <td>
+                                <a class="btn btn-sm btn-warning mb-3"
+                                target="_blank"
+                                href="https://github.com/ietf-tools/datatracker/issues/new/choose">
+                                    Report a bug
+                                    <i class="bi bi-bug"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </nav>
+        <div class="row g-0">
+            <div class="col-md-9 d-flex justify-content-center lh-sm"
+                 data-bs-spy="scroll"
+                 data-bs-target="#toc-nav"
+                 data-bs-smooth-scroll="true"
+                 tabindex="0"
+                 id="content">
+                
+                    <div class="rfchtml">
+                        <br class="noprint">
+                        <div>
+<table class="ears">
+<thead><tr>
+<td class="left">RFC 8998</td>
+<td class="center">SM Cipher Suites for TLS 1.3</td>
+<td class="right">March 2021</td>
+</tr></thead>
+<tfoot><tr>
+<td class="left">Yang</td>
+<td class="center">Informational</td>
+<td class="right">[Page]</td>
+</tr></tfoot>
+</table>
+<div id="external-metadata" class="document-information"></div>
+<div id="internal-metadata" class="document-information">
+<dl id="identifiers">
+<dt class="label-stream">Stream:</dt>
+<dd class="stream">Independent Submission</dd>
+<dt class="label-rfc">RFC:</dt>
+<dd class="rfc"><a href="https://www.rfc-editor.org/rfc/rfc8998" class="eref">8998</a></dd>
+<dt class="label-category">Category:</dt>
+<dd class="category">Informational</dd>
+<dt class="label-published">Published:</dt>
+<dd class="published">
+<time datetime="2021-03" class="published">March 2021</time>
+    </dd>
+<dt class="label-issn">ISSN:</dt>
+<dd class="issn">2070-1721</dd>
+<dt class="label-authors">Author:</dt>
+<dd class="authors">
+<div class="author">
+      <div class="author-name">P. Yang</div>
+<div class="org">Ant Group</div>
+</div>
+</dd>
+</dl>
+</div>
+<h1 id="rfcnum">RFC 8998</h1>
+<h1 id="title">ShangMi (SM) Cipher Suites for TLS 1.3</h1>
+<section id="section-abstract">
+      <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
+<p id="section-abstract-1">This document specifies how to use the ShangMi (SM) cryptographic
+algorithms with Transport Layer Security (TLS) protocol version 1.3.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-2">The use of these algorithms with TLS 1.3 is not endorsed by the
+IETF.  The SM algorithms are becoming mandatory in China, so
+this document provides a description of how to use the SM algorithms
+with TLS 1.3 and specifies a profile of TLS 1.3 so that
+implementers can produce interworking
+implementations.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
+</section>
+<div id="status-of-memo">
+<section id="section-boilerplate.1">
+        <h2 id="name-status-of-this-memo">
+<a href="#name-status-of-this-memo" class="section-name selfRef">Status of This Memo</a>
+        </h2>
+<p id="section-boilerplate.1-1">
+            This document is not an Internet Standards Track specification; it is
+            published for informational purposes.<a href="#section-boilerplate.1-1" class="pilcrow">¶</a></p>
+<p id="section-boilerplate.1-2">
+            This is a contribution to the RFC Series, independently of any
+            other RFC stream.  The RFC Editor has chosen to publish this
+            document at its discretion and makes no statement about its value
+            for implementation or deployment.  Documents approved for
+            publication by the RFC Editor are not candidates for any level of
+            Internet Standard; see Section 2 of RFC 7841.<a href="#section-boilerplate.1-2" class="pilcrow">¶</a></p>
+<p id="section-boilerplate.1-3">
+            Information about the current status of this document, any
+            errata, and how to provide feedback on it may be obtained at
+            <span><a href="https://www.rfc-editor.org/info/rfc8998">https://www.rfc-editor.org/info/rfc8998</a></span>.<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="copyright">
+<section id="section-boilerplate.2">
+        <h2 id="name-copyright-notice">
+<a href="#name-copyright-notice" class="section-name selfRef">Copyright Notice</a>
+        </h2>
+<p id="section-boilerplate.2-1">
+            Copyright (c) 2021 IETF Trust and the persons identified as the
+            document authors. All rights reserved.<a href="#section-boilerplate.2-1" class="pilcrow">¶</a></p>
+<p id="section-boilerplate.2-2">
+            This document is subject to BCP 78 and the IETF Trust's Legal
+            Provisions Relating to IETF Documents
+            (<span><a href="https://trustee.ietf.org/license-info">https://trustee.ietf.org/license-info</a></span>) in effect on the date of
+            publication of this document. Please review these documents
+            carefully, as they describe your rights and restrictions with
+            respect to this document.<a href="#section-boilerplate.2-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="toc">
+<section id="section-toc.1">
+        <a href="#" onclick="scroll(0,0)" class="toplink">▲</a><h2 id="name-table-of-contents">
+<a href="#name-table-of-contents" class="section-name selfRef">Table of Contents</a>
+        </h2>
+<nav class="toc"><ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.1">
+            <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a><a href="#section-toc.1-1.1.1" class="pilcrow">¶</a></p>
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.1.2.1">
+                <p id="section-toc.1-1.1.2.1.1" class="keepWithNext"><a href="#section-1.1" class="xref">1.1</a>.  <a href="#name-the-sm-algorithms" class="xref">The SM Algorithms</a><a href="#section-toc.1-1.1.2.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.1.2.2">
+                <p id="section-toc.1-1.1.2.2.1" class="keepWithNext"><a href="#section-1.2" class="xref">1.2</a>.  <a href="#name-terminology" class="xref">Terminology</a><a href="#section-toc.1-1.1.2.2.1" class="pilcrow">¶</a></p>
+</li>
+            </ul>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.2">
+            <p id="section-toc.1-1.2.1"><a href="#section-2" class="xref">2</a>.  <a href="#name-algorithm-identifiers" class="xref">Algorithm Identifiers</a><a href="#section-toc.1-1.2.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.3">
+            <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-algorithm-definitions" class="xref">Algorithm Definitions</a><a href="#section-toc.1-1.3.1" class="pilcrow">¶</a></p>
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.3.2.1">
+                <p id="section-toc.1-1.3.2.1.1"><a href="#section-3.1" class="xref">3.1</a>.  <a href="#name-tls-versions" class="xref">TLS Versions</a><a href="#section-toc.1-1.3.2.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.2">
+                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="xref">3.2</a>.  <a href="#name-authentication" class="xref">Authentication</a><a href="#section-toc.1-1.3.2.2.1" class="pilcrow">¶</a></p>
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.3.2.2.2.1">
+                    <p id="section-toc.1-1.3.2.2.2.1.1"><a href="#section-3.2.1" class="xref">3.2.1</a>.  <a href="#name-sm2-signature-scheme" class="xref">SM2 Signature Scheme</a><a href="#section-toc.1-1.3.2.2.2.1.1" class="pilcrow">¶</a></p>
+</li>
+                </ul>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.3">
+                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="xref">3.3</a>.  <a href="#name-key-exchange" class="xref">Key Exchange</a><a href="#section-toc.1-1.3.2.3.1" class="pilcrow">¶</a></p>
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.3.2.3.2.1">
+                    <p id="section-toc.1-1.3.2.3.2.1.1"><a href="#section-3.3.1" class="xref">3.3.1</a>.  <a href="#name-hello-messages" class="xref">Hello Messages</a><a href="#section-toc.1-1.3.2.3.2.1.1" class="pilcrow">¶</a></p>
+</li>
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.3.2.2">
+                    <p id="section-toc.1-1.3.2.3.2.2.1"><a href="#section-3.3.2" class="xref">3.3.2</a>.  <a href="#name-certificaterequest" class="xref">CertificateRequest</a><a href="#section-toc.1-1.3.2.3.2.2.1" class="pilcrow">¶</a></p>
+</li>
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.3.2.3">
+                    <p id="section-toc.1-1.3.2.3.2.3.1"><a href="#section-3.3.3" class="xref">3.3.3</a>.  <a href="#name-certificate" class="xref">Certificate</a><a href="#section-toc.1-1.3.2.3.2.3.1" class="pilcrow">¶</a></p>
+</li>
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.3.2.4">
+                    <p id="section-toc.1-1.3.2.3.2.4.1"><a href="#section-3.3.4" class="xref">3.3.4</a>.  <a href="#name-certificateverify" class="xref">CertificateVerify</a><a href="#section-toc.1-1.3.2.3.2.4.1" class="pilcrow">¶</a></p>
+</li>
+                </ul>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.4">
+                <p id="section-toc.1-1.3.2.4.1"><a href="#section-3.4" class="xref">3.4</a>.  <a href="#name-key-scheduling" class="xref">Key Scheduling</a><a href="#section-toc.1-1.3.2.4.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.5">
+                <p id="section-toc.1-1.3.2.5.1"><a href="#section-3.5" class="xref">3.5</a>.  <a href="#name-cipher" class="xref">Cipher</a><a href="#section-toc.1-1.3.2.5.1" class="pilcrow">¶</a></p>
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.3.2.5.2.1">
+                    <p id="section-toc.1-1.3.2.5.2.1.1"><a href="#section-3.5.1" class="xref">3.5.1</a>.  <a href="#name-aead_sm4_gcm" class="xref">AEAD_SM4_GCM</a><a href="#section-toc.1-1.3.2.5.2.1.1" class="pilcrow">¶</a></p>
+</li>
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.3.2.5.2.2">
+                    <p id="section-toc.1-1.3.2.5.2.2.1"><a href="#section-3.5.2" class="xref">3.5.2</a>.  <a href="#name-aead_sm4_ccm" class="xref">AEAD_SM4_CCM</a><a href="#section-toc.1-1.3.2.5.2.2.1" class="pilcrow">¶</a></p>
+</li>
+                </ul>
+</li>
+            </ul>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.4">
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-iana-considerations" class="xref">IANA Considerations</a><a href="#section-toc.1-1.4.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.5">
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-security-considerations" class="xref">Security Considerations</a><a href="#section-toc.1-1.5.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.6">
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-references" class="xref">References</a><a href="#section-toc.1-1.6.1" class="pilcrow">¶</a></p>
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.6.2.1">
+                <p id="section-toc.1-1.6.2.1.1"><a href="#section-6.1" class="xref">6.1</a>.  <a href="#name-normative-references" class="xref">Normative References</a><a href="#section-toc.1-1.6.2.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.6.2.2">
+                <p id="section-toc.1-1.6.2.2.1"><a href="#section-6.2" class="xref">6.2</a>.  <a href="#name-informative-references" class="xref">Informative References</a><a href="#section-toc.1-1.6.2.2.1" class="pilcrow">¶</a></p>
+</li>
+            </ul>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.7">
+            <p id="section-toc.1-1.7.1"><a href="#section-appendix.a" class="xref">Appendix A</a>.  <a href="#name-test-vectors" class="xref">Test Vectors</a><a href="#section-toc.1-1.7.1" class="pilcrow">¶</a></p>
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.7.2.1">
+                <p id="section-toc.1-1.7.2.1.1"><a href="#section-a.1" class="xref">A.1</a>.  <a href="#name-sm4-gcm-test-vectors" class="xref">SM4-GCM Test Vectors</a><a href="#section-toc.1-1.7.2.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.7.2.2">
+                <p id="section-toc.1-1.7.2.2.1"><a href="#section-a.2" class="xref">A.2</a>.  <a href="#name-sm4-ccm-test-vectors" class="xref">SM4-CCM Test Vectors</a><a href="#section-toc.1-1.7.2.2.1" class="pilcrow">¶</a></p>
+</li>
+            </ul>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.8">
+            <p id="section-toc.1-1.8.1"><a href="#section-appendix.b" class="xref"></a><a href="#name-contributors" class="xref">Contributors</a><a href="#section-toc.1-1.8.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.9">
+            <p id="section-toc.1-1.9.1"><a href="#section-appendix.c" class="xref"></a><a href="#name-authors-address" class="xref">Author's Address</a><a href="#section-toc.1-1.9.1" class="pilcrow">¶</a></p>
+</li>
+        </ul>
+</nav>
+</section>
+</div>
+<div id="intro">
+<section id="section-1">
+      <h2 id="name-introduction">
+<a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
+      </h2>
+<p id="section-1-1">This document describes two new cipher suites, a signature algorithm and a
+key exchange mechanism for the Transport Layer
+Security (TLS) protocol version 1.3 (TLS 1.3) (<span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span>).
+These all utilize several ShangMi (SM) cryptographic algorithms
+to fulfill the authentication and confidentiality requirements of TLS 1.3.
+      The new cipher suites are as follows (see also <a href="#proposed" class="xref">Section 2</a>):<a href="#section-1-1" class="pilcrow">¶</a></p>
+<div id="section-1-2">
+<pre class="sourcecode">
+   CipherSuite TLS_SM4_GCM_SM3 = { 0x00, 0xC6 };
+   CipherSuite TLS_SM4_CCM_SM3 = { 0x00, 0xC7 };
+</pre><a href="#section-1-2" class="pilcrow">¶</a>
+</div>
+<p id="section-1-3">For a more detailed
+introduction to SM cryptographic algorithms, please see <a href="#sm-algos" class="xref">Section 1.1</a>.
+These cipher suites follow the TLS 1.3 requirements. Specifically,
+all the cipher suites use SM4 in either Galois/Counter (GCM) mode
+or Counter with CBC-MAC (CCM) mode to meet the needs of TLS 1.3 to have an encryption algorithm that is Authenticated Encryption with Associated Data (AEAD) capable.
+The key exchange mechanism utilizes Elliptic Curve Diffie-Hellman
+Ephemeral (ECDHE) over the SM2 elliptic curve, and the signature algorithm combines
+the SM3 hash function and the SM2 elliptic curve signature scheme.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">For details about how these mechanisms negotiate shared encryption
+keys, authenticate the peer(s), and protect the record structure, please see
+<a href="#definitions" class="xref">Section 3</a>.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5">The cipher suites, signature algorithm, and key exchange mechanism
+defined in this document are not recommended by the IETF. The SM
+algorithms are becoming mandatory in China, so this document
+provides a description of how to use them with TLS 1.3 and specifies
+a profile of TLS 1.3 so that implementers can produce interworking
+implementations.<a href="#section-1-5" class="pilcrow">¶</a></p>
+<div id="sm-algos">
+<section id="section-1.1">
+        <h3 id="name-the-sm-algorithms">
+<a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-the-sm-algorithms" class="section-name selfRef">The SM Algorithms</a>
+        </h3>
+<p id="section-1.1-1">Several different SM
+cryptographic algorithms are used to integrate with TLS 1.3,
+including SM2 for authentication, SM4 for
+encryption, and SM3 as the hash function.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
+<p id="section-1.1-2">SM2 is a set of cryptographic algorithms based on elliptic curve cryptography, including a digital
+        signature, public key encryption and key exchange scheme.
+
+ In this document, only
+the SM2 digital signature algorithm and basic key exchange scheme are involved, which have already been added
+to ISO/IEC 14888-3:2018 <span>[<a href="#ISO-SM2" class="xref">ISO-SM2</a>]</span> (as well as to <span>[<a href="#GBT.32918.2-2016" class="xref">GBT.32918.2-2016</a>]</span>).
+SM4 is a block cipher defined in <span>[<a href="#GBT.32907-2016" class="xref">GBT.32907-2016</a>]</span> and now is being standardized
+by ISO to ISO/IEC 18033-3:2010 <span>[<a href="#ISO-SM4" class="xref">ISO-SM4</a>]</span>. SM3 is a hash function that produces an output of 256 bits. SM3 has already been accepted by ISO in
+ISO/IEC 10118-3:2018 <span>[<a href="#ISO-SM3" class="xref">ISO-SM3</a>]</span> and has also been described by <span>[<a href="#GBT.32905-2016" class="xref">GBT.32905-2016</a>]</span>.<a href="#section-1.1-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="term">
+<section id="section-1.2">
+        <h3 id="name-terminology">
+<a href="#section-1.2" class="section-number selfRef">1.2. </a><a href="#name-terminology" class="section-name selfRef">Terminology</a>
+        </h3>
+<p id="section-1.2-1">
+    The key words "<span class="bcp14">MUST</span>", "<span class="bcp14">MUST NOT</span>", "<span class="bcp14">REQUIRED</span>", "<span class="bcp14">SHALL</span>", "<span class="bcp14">SHALL NOT</span>", "<span class="bcp14">SHOULD</span>", "<span class="bcp14">SHOULD NOT</span>", "<span class="bcp14">RECOMMENDED</span>", "<span class="bcp14">NOT RECOMMENDED</span>",
+    "<span class="bcp14">MAY</span>", and "<span class="bcp14">OPTIONAL</span>" in this document are to be interpreted as
+    described in BCP 14 <span>[<a href="#RFC2119" class="xref">RFC2119</a>]</span> <span>[<a href="#RFC8174" class="xref">RFC8174</a>]</span> 
+    when, and only when, they appear in all capitals, as shown here.<a href="#section-1.2-1" class="pilcrow">¶</a></p>
+<p id="section-1.2-2">Although this document is not an IETF Standards Track publication, it
+adopts the conventions for normative language to provide clarity of
+instruction to the implementer and to indicate requirement levels
+for compliant TLS 1.3 implementations.<a href="#section-1.2-2" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="proposed">
+<section id="section-2">
+      <h2 id="name-algorithm-identifiers">
+<a href="#section-2" class="section-number selfRef">2. </a><a href="#name-algorithm-identifiers" class="section-name selfRef">Algorithm Identifiers</a>
+      </h2>
+<p id="section-2-1">The cipher suites defined here have the following identifiers:<a href="#section-2-1" class="pilcrow">¶</a></p>
+<div id="section-2-2">
+<pre class="sourcecode">
+   CipherSuite TLS_SM4_GCM_SM3 = { 0x00, 0xC6 };
+   CipherSuite TLS_SM4_CCM_SM3 = { 0x00, 0xC7 };
+</pre><a href="#section-2-2" class="pilcrow">¶</a>
+</div>
+<p id="section-2-3">To accomplish a TLS 1.3 handshake, additional objects have been introduced along with
+the cipher suites as follows:<a href="#section-2-3" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-2-4.1">The combination of the SM2 signature algorithm and SM3 hash function used in the Signature Algorithm
+extension is defined in <span><a href="https://www.rfc-editor.org/rfc/rfc8446#appendix-B.3.1.3" class="relref">Appendix B.3.1.3</a> of [<a href="#RFC8446" class="xref">RFC8446</a>]</span>:<a href="#section-2-4.1" class="pilcrow">¶</a>
+</li>
+      </ul>
+<div id="section-2-5">
+<pre class="sourcecode">
+      SignatureScheme sm2sig_sm3 = { 0x0708 };
+</pre><a href="#section-2-5" class="pilcrow">¶</a>
+</div>
+<ul class="normal">
+<li class="normal" id="section-2-6.1">The SM2 elliptic curve ID used in the Supported Groups extension is defined in <span><a href="https://www.rfc-editor.org/rfc/rfc8446#appendix-B.3.1.4" class="relref">Appendix B.3.1.4</a> of [<a href="#RFC8446" class="xref">RFC8446</a>]</span>:<a href="#section-2-6.1" class="pilcrow">¶</a>
+</li>
+      </ul>
+<div id="section-2-7">
+<pre class="sourcecode">
+      NamedGroup curveSM2 = { 41 };
+</pre><a href="#section-2-7" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+<div id="definitions">
+<section id="section-3">
+      <h2 id="name-algorithm-definitions">
+<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-algorithm-definitions" class="section-name selfRef">Algorithm Definitions</a>
+      </h2>
+<div id="tls-versions">
+<section id="section-3.1">
+        <h3 id="name-tls-versions">
+<a href="#section-3.1" class="section-number selfRef">3.1. </a><a href="#name-tls-versions" class="section-name selfRef">TLS Versions</a>
+        </h3>
+<p id="section-3.1-1">The new cipher suites defined in this document are only applicable to TLS 1.3.
+Implementations of this document <span class="bcp14">MUST NOT</span> apply these cipher suites to any older
+versions of TLS.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="authentication">
+<section id="section-3.2">
+        <h3 id="name-authentication">
+<a href="#section-3.2" class="section-number selfRef">3.2. </a><a href="#name-authentication" class="section-name selfRef">Authentication</a>
+        </h3>
+<div id="sm2-signature-scheme">
+<section id="section-3.2.1">
+          <h4 id="name-sm2-signature-scheme">
+<a href="#section-3.2.1" class="section-number selfRef">3.2.1. </a><a href="#name-sm2-signature-scheme" class="section-name selfRef">SM2 Signature Scheme</a>
+          </h4>
+<p id="section-3.2.1-1">The Chinese government requires the use of the SM2 signature algorithm.
+This section specifies the use of the SM2 signature algorithm
+   as the authentication method for a TLS 1.3 handshake.<a href="#section-3.2.1-1" class="pilcrow">¶</a></p>
+<p id="section-3.2.1-2">The SM2 signature algorithm is defined in <span>[<a href="#ISO-SM2" class="xref">ISO-SM2</a>]</span>. The SM2 signature algorithm is
+based on elliptic curves. The SM2 signature algorithm uses a fixed elliptic curve
+parameter set defined in <span>[<a href="#GBT.32918.5-2017" class="xref">GBT.32918.5-2017</a>]</span>. This curve is named "curveSM2" and has been assigned the value 41, as shown in <a href="#proposed" class="xref">Section 2</a>. Unlike other public key algorithms based on elliptic curve cryptography like the Elliptic Curve Digital Signature Algorithm (ECDSA), SM2 <span class="bcp14">MUST NOT</span> select other elliptic curves.
+But it is acceptable to write test cases that use other elliptic curve parameter
+sets for SM2; see Annex F.14 of <span>[<a href="#ISO-SM2" class="xref">ISO-SM2</a>]</span> as a reference.<a href="#section-3.2.1-2" class="pilcrow">¶</a></p>
+<p id="section-3.2.1-3">Implementations of the signature scheme and key exchange mechanism defined in this document <span class="bcp14">MUST</span> conform to
+what <span>[<a href="#GBT.32918.5-2017" class="xref">GBT.32918.5-2017</a>]</span> requires; that is to say, the only valid elliptic curve
+parameter set for the SM2 signature algorithm (a.k.a. curveSM2) is defined as follows:<a href="#section-3.2.1-3" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="dlParallel" id="section-3.2.1-4">
+            <dt id="section-3.2.1-4.1">curveSM2:</dt>
+            <dd style="margin-left: 1.5em" id="section-3.2.1-4.2">A prime field of 256 bits.<a href="#section-3.2.1-4.2" class="pilcrow">¶</a>
+</dd>
+          <dd class="break"></dd>
+</dl>
+<p id="section-3.2.1-5">y<sup>2</sup> = x<sup>3</sup> + ax + b<a href="#section-3.2.1-5" class="pilcrow">¶</a></p>
+<div id="section-3.2.1-6">
+<pre class="sourcecode">
+   p  = FFFFFFFE FFFFFFFF FFFFFFFF FFFFFFFF
+        FFFFFFFF 00000000 FFFFFFFF FFFFFFFF
+   a  = FFFFFFFE FFFFFFFF FFFFFFFF FFFFFFFF
+        FFFFFFFF 00000000 FFFFFFFF FFFFFFFC
+   b  = 28E9FA9E 9D9F5E34 4D5A9E4B CF6509A7
+        F39789F5 15AB8F92 DDBCBD41 4D940E93
+   n  = FFFFFFFE FFFFFFFF FFFFFFFF FFFFFFFF
+        7203DF6B 21C6052B 53BBF409 39D54123
+   Gx = 32C4AE2C 1F198119 5F990446 6A39C994
+        8FE30BBF F2660BE1 715A4589 334C74C7
+   Gy = BC3736A2 F4F6779C 59BDCEE3 6B692153
+        D0A9877C C62A4740 02DF32E5 2139F0A0
+</pre><a href="#section-3.2.1-6" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.1-7">The SM2 signature algorithm requests an identifier value when generating or verifying
+a signature. In all uses except when a client of a server needs to verify a peer's
+SM2 certificate in the Certificate message, an implementation of this document
+<span class="bcp14">MUST</span> use the following ASCII string value as the SM2 identifier when doing a
+TLS 1.3 key exchange:<a href="#section-3.2.1-7" class="pilcrow">¶</a></p>
+<div id="section-3.2.1-8">
+<pre class="sourcecode">
+   TLSv1.3+GM+Cipher+Suite
+</pre><a href="#section-3.2.1-8" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.1-9">If either a client or a server needs to verify the peer's SM2 certificate
+contained in the Certificate message, then the following ASCII string value <span class="bcp14">MUST</span> be
+used as the SM2 identifier according to <span>[<a href="#GMT.0009-2012" class="xref">GMT.0009-2012</a>]</span>:<a href="#section-3.2.1-9" class="pilcrow">¶</a></p>
+<div id="section-3.2.1-10">
+<pre class="sourcecode">
+   1234567812345678
+</pre><a href="#section-3.2.1-10" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.1-11">Expressed as octets, this is:<a href="#section-3.2.1-11" class="pilcrow">¶</a></p>
+<div id="section-3.2.1-12">
+<pre class="sourcecode">
+   0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38,
+   0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38
+</pre><a href="#section-3.2.1-12" class="pilcrow">¶</a>
+</div>
+<p id="section-3.2.1-13">In practice, the SM2 identifier used in a certificate signature depends on the
+certificate authority (CA) who signs that certificate. CAs may choose values other than the ones mentioned
+above. Implementations of this document <span class="bcp14">SHOULD</span> confirm this information by themselves.<a href="#section-3.2.1-13" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="kx">
+<section id="section-3.3">
+        <h3 id="name-key-exchange">
+<a href="#section-3.3" class="section-number selfRef">3.3. </a><a href="#name-key-exchange" class="section-name selfRef">Key Exchange</a>
+        </h3>
+<div id="hello-messages">
+<section id="section-3.3.1">
+          <h4 id="name-hello-messages">
+<a href="#section-3.3.1" class="section-number selfRef">3.3.1. </a><a href="#name-hello-messages" class="section-name selfRef">Hello Messages</a>
+          </h4>
+<p id="section-3.3.1-1">The use of the algorithms defined by this document is negotiated during
+the TLS handshake with information exchanged in the Hello messages.<a href="#section-3.3.1-1" class="pilcrow">¶</a></p>
+<div id="clienthello">
+<section id="section-3.3.1.1">
+            <h5 id="name-clienthello">
+<a href="#section-3.3.1.1" class="section-number selfRef">3.3.1.1. </a><a href="#name-clienthello" class="section-name selfRef">ClientHello</a>
+            </h5>
+<p id="section-3.3.1.1-1">To use the cipher suites defined by this document, a TLS 1.3 client includes
+the new cipher suites in the "cipher_suites"
+array of the ClientHello structure defined in <span><a href="https://www.rfc-editor.org/rfc/rfc8446#section-4.1.2" class="relref">Section 4.1.2</a> of [<a href="#RFC8446" class="xref">RFC8446</a>]</span>.<a href="#section-3.3.1.1-1" class="pilcrow">¶</a></p>
+<p id="section-3.3.1.1-2">Other requirements of this TLS 1.3 profile on the extensions of
+ClientHello message are as follows:<a href="#section-3.3.1.1-2" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3.3.1.1-3.1">For the supported_groups extension, "curveSM2" <span class="bcp14">MUST</span> be included.<a href="#section-3.3.1.1-3.1" class="pilcrow">¶</a>
+</li>
+              <li class="normal" id="section-3.3.1.1-3.2">For the signature_algorithms extension, "sm2sig_sm3" <span class="bcp14">MUST</span> be included.<a href="#section-3.3.1.1-3.2" class="pilcrow">¶</a>
+</li>
+              <li class="normal" id="section-3.3.1.1-3.3">For the signature_algorithms_cert extension (if present), "sm2sig_sm3" <span class="bcp14">MUST</span> be included.<a href="#section-3.3.1.1-3.3" class="pilcrow">¶</a>
+</li>
+              <li class="normal" id="section-3.3.1.1-3.4">For the key_share extension, a KeyShareEntry for the "curveSM2" group <span class="bcp14">MUST</span> be included.<a href="#section-3.3.1.1-3.4" class="pilcrow">¶</a>
+</li>
+            </ul>
+</section>
+</div>
+<div id="serverhello">
+<section id="section-3.3.1.2">
+            <h5 id="name-serverhello">
+<a href="#section-3.3.1.2" class="section-number selfRef">3.3.1.2. </a><a href="#name-serverhello" class="section-name selfRef">ServerHello</a>
+            </h5>
+<p id="section-3.3.1.2-1">If a TLS 1.3 server receives a ClientHello message containing the algorithms
+defined in this document, it <span class="bcp14">MAY</span> choose to use them. If
+so, then the server <span class="bcp14">MUST</span> put one of the new cipher suites defined in this
+document into its ServerHello's "cipher_suites" array and eventually send it
+to the client side.<a href="#section-3.3.1.2-1" class="pilcrow">¶</a></p>
+<p id="section-3.3.1.2-2">A TLS 1.3 server's choice of what cipher suite to use depends on the configuration
+of the server. For instance, a TLS 1.3 server may or not be configured to include the
+new cipher suites defined in this document. Typical TLS 1.3
+server applications also provide a mechanism that configures the cipher suite
+preference on the server side. If a server is not configured to use the cipher suites
+defined in this document, it <span class="bcp14">SHOULD</span> choose another cipher suite in the list that
+the TLS 1.3 client provides; otherwise, the server <span class="bcp14">MUST</span> abort the handshake with
+an "illegal_parameter" alert.<a href="#section-3.3.1.2-2" class="pilcrow">¶</a></p>
+<p id="section-3.3.1.2-3">The following extension <span class="bcp14">MUST</span> conform to the new requirements:<a href="#section-3.3.1.2-3" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3.3.1.2-4.1">For the key_share extension, a KeyShareEntry with SM2-related values <span class="bcp14">MUST</span> be added
+if the server wants to conform to this profile.<a href="#section-3.3.1.2-4.1" class="pilcrow">¶</a>
+</li>
+            </ul>
+</section>
+</div>
+</section>
+</div>
+<div id="certificaterequest">
+<section id="section-3.3.2">
+          <h4 id="name-certificaterequest">
+<a href="#section-3.3.2" class="section-number selfRef">3.3.2. </a><a href="#name-certificaterequest" class="section-name selfRef">CertificateRequest</a>
+          </h4>
+<p id="section-3.3.2-1">If a CertificateRequest message is sent by the server to require the client
+to send its certificate for authentication purposes, for conformance to this
+profile, the following is <span class="bcp14">REQUIRED</span>:<a href="#section-3.3.2-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3.3.2-2.1">The only valid signature algorithm present in "signature_algorithms" extension
+<span class="bcp14">MUST</span> be "sm2sig_sm3". That is to say, if the server chooses to conform to this profile,
+the signature algorithm for the client's certificate <span class="bcp14">MUST</span> use the SM2/SM3 procedure specified by this document.<a href="#section-3.3.2-2.1" class="pilcrow">¶</a>
+</li>
+          </ul>
+</section>
+</div>
+<div id="certificate">
+<section id="section-3.3.3">
+          <h4 id="name-certificate">
+<a href="#section-3.3.3" class="section-number selfRef">3.3.3. </a><a href="#name-certificate" class="section-name selfRef">Certificate</a>
+          </h4>
+<p id="section-3.3.3-1">When a server sends the Certificate message containing the server certificate
+to the client side, several new rules are added that will affect the certificate
+selection:<a href="#section-3.3.3-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3.3.3-2.1">The public key in the certificate <span class="bcp14">MUST</span> be a valid SM2 public key.<a href="#section-3.3.3-2.1" class="pilcrow">¶</a>
+</li>
+            <li class="normal" id="section-3.3.3-2.2">The signature algorithm used by the CA to sign the current certificate <span class="bcp14">MUST</span> be
+"sm2sig_sm3".<a href="#section-3.3.3-2.2" class="pilcrow">¶</a>
+</li>
+            <li class="normal" id="section-3.3.3-2.3">The certificate <span class="bcp14">MUST</span> be capable of signing; e.g., the digitalSignature bit
+of X.509's Key Usage extension is set.<a href="#section-3.3.3-2.3" class="pilcrow">¶</a>
+</li>
+          </ul>
+</section>
+</div>
+<div id="certificateverify">
+<section id="section-3.3.4">
+          <h4 id="name-certificateverify">
+<a href="#section-3.3.4" class="section-number selfRef">3.3.4. </a><a href="#name-certificateverify" class="section-name selfRef">CertificateVerify</a>
+          </h4>
+<p id="section-3.3.4-1">In the CertificateVerify message, the signature algorithm <span class="bcp14">MUST</span> be "sm2sig_sm3",
+indicating that the hash function <span class="bcp14">MUST</span> be SM3 and the signature algorithm <span class="bcp14">MUST</span> be
+SM2.<a href="#section-3.3.4-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="key-scheduling">
+<section id="section-3.4">
+        <h3 id="name-key-scheduling">
+<a href="#section-3.4" class="section-number selfRef">3.4. </a><a href="#name-key-scheduling" class="section-name selfRef">Key Scheduling</a>
+        </h3>
+<p id="section-3.4-1">As described in <a href="#sm-algos" class="xref">Section 1.1</a>, SM2 is actually a set of cryptographic
+algorithms, including one key exchange protocol that defines methods such as
+key derivation function, etc. This document does not define an SM2 key exchange
+protocol, and an SM2 key exchange protocol <span class="bcp14">SHALL NOT</span> be used in the key exchange
+steps defined in <a href="#kx" class="xref">Section 3.3</a>. Implementations of this document <span class="bcp14">MUST</span> always conform to
+what TLS 1.3 <span>[<a href="#RFC8446" class="xref">RFC8446</a>]</span> and its successors require regarding the key derivation and
+related methods.<a href="#section-3.4-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="cipher">
+<section id="section-3.5">
+        <h3 id="name-cipher">
+<a href="#section-3.5" class="section-number selfRef">3.5. </a><a href="#name-cipher" class="section-name selfRef">Cipher</a>
+        </h3>
+<p id="section-3.5-1">The new cipher suites introduced in this document add two new AEAD encryption
+algorithms, AEAD_SM4_GCM and AEAD_SM4_CCM, which stand for SM4 cipher in Galois/Counter
+mode and SM4 cipher <span>[<a href="#GBT.32907-2016" class="xref">GBT.32907-2016</a>]</span> in Counter with CBC-MAC mode, respectively.
+The hash function for both cipher suites is SM3 (<span>[<a href="#ISO-SM3" class="xref">ISO-SM3</a>]</span>).<a href="#section-3.5-1" class="pilcrow">¶</a></p>
+<p id="section-3.5-2">This section defines the AEAD_SM4_GCM and AEAD_SM4_CCM AEAD algorithms in a
+style similar to what <span>[<a href="#RFC5116" class="xref">RFC5116</a>]</span> used to define AEAD ciphers based on the AES cipher.<a href="#section-3.5-2" class="pilcrow">¶</a></p>
+<div id="aeadsm4gcm">
+<section id="section-3.5.1">
+          <h4 id="name-aead_sm4_gcm">
+<a href="#section-3.5.1" class="section-number selfRef">3.5.1. </a><a href="#name-aead_sm4_gcm" class="section-name selfRef">AEAD_SM4_GCM</a>
+          </h4>
+<p id="section-3.5.1-1">The AEAD_SM4_GCM authenticated encryption algorithm works as specified in <span>[<a href="#GCM" class="xref">GCM</a>]</span>,
+using SM4 as the block cipher, by providing the key, nonce, plaintext, and
+associated data to that mode of operation. An authentication tag conforming to
+the requirements of TLS 1.3 as specified in <span><a href="https://www.rfc-editor.org/rfc/rfc8446#section-5.2" class="relref">Section 5.2</a> of [<a href="#RFC8446" class="xref">RFC8446</a>]</span> <span class="bcp14">MUST</span> be constructed using
+the details in the TLS record header. The additional data input that forms the
+authentication tag <span class="bcp14">MUST</span> be the TLS record header. The AEAD_SM4_GCM ciphertext is formed by
+appending the authentication tag provided as an output to the GCM encryption
+operation to the ciphertext that is output by that operation. AEAD_SM4_GCM has 
+four inputs: an SM4 key, an initialization vector (IV), a plaintext content, and optional 
+additional authenticated data (AAD). AEAD_SM4_GCM generates two outputs: a ciphertext 
+and message authentication code (also called an authentication tag). To have a common 
+set of terms for AEAD_SM4_GCM and AEAD_SM4_CCM, the AEAD_SM4_GCM IV is referred to as a 
+nonce in the remainder of this document. A simple test vector of AEAD_SM4_GCM and 
+AEAD_SM4_CCM is given in <a href="#test-vectors" class="xref">Appendix A</a> of this document.<a href="#section-3.5.1-1" class="pilcrow">¶</a></p>
+<p id="section-3.5.1-2">The nonce is generated by the party performing the authenticated encryption operation.
+Within the scope of any authenticated encryption key, the nonce value <span class="bcp14">MUST</span> be unique.
+That is, the set of nonce values used with any given key <span class="bcp14">MUST NOT</span> contain any duplicates.
+Using the same nonce for two different messages encrypted with the same key
+destroys the security properties of GCM mode. To generate the nonce, implementations of this document
+<span class="bcp14">MUST</span> conform to TLS 1.3 (see <span>[<a href="#RFC8446" class="xref">RFC8446</a>], <a href="https://www.rfc-editor.org/rfc/rfc8446#section-5.3" class="relref">Section 5.3</a></span>).<a href="#section-3.5.1-2" class="pilcrow">¶</a></p>
+<p id="section-3.5.1-3">The input and output lengths are as follows:<a href="#section-3.5.1-3" class="pilcrow">¶</a></p>
+<ul class="normal ulEmpty">
+<li class="normal ulEmpty" id="section-3.5.1-4.1">The SM4 key length is 16 octets.<a href="#section-3.5.1-4.1" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.1-4.2">The max plaintext length is 2<sup>36</sup> - 31 octets.<a href="#section-3.5.1-4.2" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.1-4.3">The max AAD length is 2<sup>61</sup> - 1 octets.<a href="#section-3.5.1-4.3" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.1-4.4">The nonce length is 12 octets.<a href="#section-3.5.1-4.4" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.1-4.5">The authentication tag length is 16 octets.<a href="#section-3.5.1-4.5" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.1-4.6">The max ciphertext length is 2<sup>36</sup> - 15 octets.<a href="#section-3.5.1-4.6" class="pilcrow">¶</a>
+</li>
+          </ul>
+<p id="section-3.5.1-5">A security analysis of GCM is available in <span>[<a href="#MV04" class="xref">MV04</a>]</span>.<a href="#section-3.5.1-5" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="aeadsm4ccm">
+<section id="section-3.5.2">
+          <h4 id="name-aead_sm4_ccm">
+<a href="#section-3.5.2" class="section-number selfRef">3.5.2. </a><a href="#name-aead_sm4_ccm" class="section-name selfRef">AEAD_SM4_CCM</a>
+          </h4>
+<p id="section-3.5.2-1">The AEAD_SM4_CCM authenticated encryption algorithm works as specified in <span>[<a href="#CCM" class="xref">CCM</a>]</span>
+using SM4 as the block cipher. AEAD_SM4_CCM has four inputs: an SM4 key, a nonce,
+a plaintext, and optional additional authenticated data (AAD). AEAD_SM4_CCM
+generates two outputs: a ciphertext and a message authentication code (also called
+an authentication tag). The formatting and counter generation functions are as
+specified in Appendix A of <span>[<a href="#CCM" class="xref">CCM</a>]</span>, and the values of the parameters
+identified in that appendix are as follows:<a href="#section-3.5.2-1" class="pilcrow">¶</a></p>
+<ul class="normal ulEmpty">
+<li class="normal ulEmpty" id="section-3.5.2-2.1">The nonce length n is 12.<a href="#section-3.5.2-2.1" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.2-2.2">The tag length t is 16.<a href="#section-3.5.2-2.2" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.2-2.3">The value of q is 3.<a href="#section-3.5.2-2.3" class="pilcrow">¶</a>
+</li>
+          </ul>
+<p id="section-3.5.2-3">An authentication tag is also used in AEAD_SM4_CCM. The generation of the authentication
+tag <span class="bcp14">MUST</span> conform to TLS 1.3 (See <span>[<a href="#RFC8446" class="xref">RFC8446</a>], <a href="https://www.rfc-editor.org/rfc/rfc8446#section-5.2" class="relref">Section 5.2</a></span>).
+The AEAD_SM4_CCM ciphertext is formed by appending the authentication tag provided
+as an output to the CCM encryption operation to the ciphertext that is output
+by that operation. The input and output lengths are as follows:<a href="#section-3.5.2-3" class="pilcrow">¶</a></p>
+<ul class="normal ulEmpty">
+<li class="normal ulEmpty" id="section-3.5.2-4.1">   The SM4 key length is 16 octets.<a href="#section-3.5.2-4.1" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.2-4.2">   The max plaintext length is 2<sup>24</sup> - 1 octets.<a href="#section-3.5.2-4.2" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.2-4.3">   The max AAD length is 2<sup>64</sup> - 1 octets.<a href="#section-3.5.2-4.3" class="pilcrow">¶</a>
+</li>
+            <li class="normal ulEmpty" id="section-3.5.2-4.4">   The max ciphertext length is 2<sup>24</sup> + 15 octets.<a href="#section-3.5.2-4.4" class="pilcrow">¶</a>
+</li>
+          </ul>
+<p id="section-3.5.2-5">To generate the nonce, implementations of this document <span class="bcp14">MUST</span> conform to
+TLS 1.3 (see <span>[<a href="#RFC8446" class="xref">RFC8446</a>], <a href="https://www.rfc-editor.org/rfc/rfc8446#section-5.3" class="relref">Section 5.3</a></span>).<a href="#section-3.5.2-5" class="pilcrow">¶</a></p>
+<p id="section-3.5.2-6">A security analysis of CCM is available in <span>[<a href="#J02" class="xref">J02</a>]</span>.<a href="#section-3.5.2-6" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+</section>
+</div>
+<div id="iana-considerations">
+<section id="section-4">
+      <h2 id="name-iana-considerations">
+<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
+      </h2>
+<p id="section-4-1">IANA has assigned the values {0x00,0xC6} and {0x00,0xC7} with the names
+"TLS_SM4_GCM_SM3" and "TLS_SM4_CCM_SM3"
+to the "TLS Cipher Suites" registry with this document as reference:<a href="#section-4-1" class="pilcrow">¶</a></p>
+<table class="center" id="table-1">
+        <caption><a href="#table-1" class="selfRef">Table 1</a></caption>
+<thead>
+          <tr>
+            <th class="text-left" rowspan="1" colspan="1">Value</th>
+            <th class="text-left" rowspan="1" colspan="1">Description</th>
+            <th class="text-left" rowspan="1" colspan="1">DTLS-OK</th>
+            <th class="text-left" rowspan="1" colspan="1">Recommended</th>
+            <th class="text-left" rowspan="1" colspan="1">Reference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-right" rowspan="1" colspan="1">0x00,0xC6</td>
+            <td class="text-left" rowspan="1" colspan="1">TLS_SM4_GCM_SM3</td>
+            <td class="text-left" rowspan="1" colspan="1">No</td>
+            <td class="text-left" rowspan="1" colspan="1">No</td>
+            <td class="text-left" rowspan="1" colspan="1">RFC 8998</td>
+          </tr>
+          <tr>
+            <td class="text-right" rowspan="1" colspan="1">0x00,0xC7</td>
+            <td class="text-left" rowspan="1" colspan="1">TLS_SM4_CCM_SM3</td>
+            <td class="text-left" rowspan="1" colspan="1">No</td>
+            <td class="text-left" rowspan="1" colspan="1">No</td>
+            <td class="text-left" rowspan="1" colspan="1">RFC 8998</td>
+          </tr>
+        </tbody>
+      </table>
+<p id="section-4-3">IANA has assigned the value 0x0708 with the name "sm2sig_sm3" to the
+"TLS SignatureScheme" registry:<a href="#section-4-3" class="pilcrow">¶</a></p>
+<table class="center" id="table-2">
+        <caption><a href="#table-2" class="selfRef">Table 2</a></caption>
+<thead>
+          <tr>
+            <th class="text-right" rowspan="1" colspan="1">Value</th>
+            <th class="text-left" rowspan="1" colspan="1">Description</th>
+            <th class="text-left" rowspan="1" colspan="1">Recommended</th>
+            <th class="text-left" rowspan="1" colspan="1">Reference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-right" rowspan="1" colspan="1">0x0708</td>
+            <td class="text-left" rowspan="1" colspan="1">sm2sig_sm3</td>
+            <td class="text-left" rowspan="1" colspan="1">No</td>
+            <td class="text-left" rowspan="1" colspan="1">RFC 8998</td>
+          </tr>
+        </tbody>
+      </table>
+<p id="section-4-5">IANA has assigned the value 41 with the name "curveSM2" to the
+"TLS Supported Groups" registry:<a href="#section-4-5" class="pilcrow">¶</a></p>
+<table class="center" id="table-3">
+        <caption><a href="#table-3" class="selfRef">Table 3</a></caption>
+<thead>
+          <tr>
+            <th class="text-right" rowspan="1" colspan="1">Value</th>
+            <th class="text-left" rowspan="1" colspan="1">Description</th>
+            <th class="text-left" rowspan="1" colspan="1">DTLS-OK</th>
+            <th class="text-left" rowspan="1" colspan="1">Recommended</th>
+            <th class="text-left" rowspan="1" colspan="1">Reference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-right" rowspan="1" colspan="1">41</td>
+            <td class="text-left" rowspan="1" colspan="1">curveSM2</td>
+            <td class="text-left" rowspan="1" colspan="1">No</td>
+            <td class="text-left" rowspan="1" colspan="1">No</td>
+            <td class="text-left" rowspan="1" colspan="1">RFC 8998</td>
+          </tr>
+        </tbody>
+      </table>
+</section>
+</div>
+<div id="security-considerations">
+<section id="section-5">
+      <h2 id="name-security-considerations">
+<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
+      </h2>
+<p id="section-5-1">At the time of writing, there are no known weak keys for SM
+cryptographic algorithms SM2, SM3 and SM4, and no security issues
+have been found for these algorithms.<a href="#section-5-1" class="pilcrow">¶</a></p>
+<p id="section-5-2">A security analysis of GCM is available in <span>[<a href="#MV04" class="xref">MV04</a>]</span>.<a href="#section-5-2" class="pilcrow">¶</a></p>
+<p id="section-5-3">A security analysis of CCM is available in <span>[<a href="#J02" class="xref">J02</a>]</span>.<a href="#section-5-3" class="pilcrow">¶</a></p>
+</section>
+</div>
+<section id="section-6">
+      <h2 id="name-references">
+<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-references" class="section-name selfRef">References</a>
+      </h2>
+<section id="section-6.1">
+        <h3 id="name-normative-references">
+<a href="#section-6.1" class="section-number selfRef">6.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
+        </h3>
+<dl class="references">
+<dt id="CCM">[CCM]</dt>
+        <dd>
+<span class="refAuthor">Dworkin, M.</span>, <span class="refTitle">"Recommendation for Block Cipher Modes of Operation: the CCM Mode for Authentication and Confidentiality"</span>, <span class="seriesInfo">Special Publication 800-38C</span>, <span class="seriesInfo">DOI 10.6028/NIST.SP.800-38C</span>, <time datetime="2004-05" class="refDate">May 2004</time>, <span>&lt;<a href="http://csrc.nist.gov/publications/nistpubs/800-38C/SP800-38C.pdf">http://csrc.nist.gov/publications/nistpubs/800-38C/SP800-38C.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="GCM">[GCM]</dt>
+        <dd>
+<span class="refAuthor">Dworkin, M.</span>, <span class="refTitle">"Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC"</span>, <span class="seriesInfo">Special Publication 800-38D</span>, <span class="seriesInfo">DOI 10.6028/NIST.SP.800-38D</span>, <time datetime="2007-11" class="refDate">November 2007</time>, <span>&lt;<a href="http://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf">http://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="ISO-SM2">[ISO-SM2]</dt>
+        <dd>
+<span class="refAuthor">International Organization for Standardization</span>, <span class="refTitle">"IT Security techniques -- Digital signatures with appendix -- Part 3: Discrete logarithm based mechanisms"</span>, <span class="seriesInfo">ISO/IEC 14888-3:2018</span>, <time datetime="2018-11" class="refDate">November 2018</time>, <span>&lt;<a href="https://www.iso.org/standard/76382.html">https://www.iso.org/standard/76382.html</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="ISO-SM3">[ISO-SM3]</dt>
+        <dd>
+<span class="refAuthor">International Organization for Standardization</span>, <span class="refTitle">"IT Security techniques -- Hash-functions -- Part 3: Dedicated hash-functions"</span>, <span class="seriesInfo">ISO/IEC 10118-3:2018</span>, <time datetime="2018-10" class="refDate">October 2018</time>, <span>&lt;<a href="https://www.iso.org/standard/67116.html">https://www.iso.org/standard/67116.html</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="ISO-SM4">[ISO-SM4]</dt>
+        <dd>
+<span class="refAuthor">International Organization for Standardization</span>, <span class="refTitle">"Information technology -- Security techniques -- Encryption algorithms -- Part 3: Block ciphers"</span>, <span class="seriesInfo">ISO/IEC 18033-3:2010</span>, <time datetime="2010-12" class="refDate">December 2010</time>, <span>&lt;<a href="https://www.iso.org/standard/54531.html">https://www.iso.org/standard/54531.html</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC2119">[RFC2119]</dt>
+        <dd>
+<span class="refAuthor">Bradner, S.</span>, <span class="refTitle">"Key words for use in RFCs to Indicate Requirement Levels"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 2119</span>, <span class="seriesInfo">DOI 10.17487/RFC2119</span>, <time datetime="1997-03" class="refDate">March 1997</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc2119">https://www.rfc-editor.org/info/rfc2119</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC5116">[RFC5116]</dt>
+        <dd>
+<span class="refAuthor">McGrew, D.</span>, <span class="refTitle">"An Interface and Algorithms for Authenticated Encryption"</span>, <span class="seriesInfo">RFC 5116</span>, <span class="seriesInfo">DOI 10.17487/RFC5116</span>, <time datetime="2008-01" class="refDate">January 2008</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc5116">https://www.rfc-editor.org/info/rfc5116</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC8174">[RFC8174]</dt>
+        <dd>
+<span class="refAuthor">Leiba, B.</span>, <span class="refTitle">"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words"</span>, <span class="seriesInfo">BCP 14</span>, <span class="seriesInfo">RFC 8174</span>, <span class="seriesInfo">DOI 10.17487/RFC8174</span>, <time datetime="2017-05" class="refDate">May 2017</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc8174">https://www.rfc-editor.org/info/rfc8174</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC8446">[RFC8446]</dt>
+      <dd>
+<span class="refAuthor">Rescorla, E.</span>, <span class="refTitle">"The Transport Layer Security (TLS) Protocol Version 1.3"</span>, <span class="seriesInfo">RFC 8446</span>, <span class="seriesInfo">DOI 10.17487/RFC8446</span>, <time datetime="2018-08" class="refDate">August 2018</time>, <span>&lt;<a href="https://www.rfc-editor.org/info/rfc8446">https://www.rfc-editor.org/info/rfc8446</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+</dl>
+</section>
+<section id="section-6.2">
+        <h3 id="name-informative-references">
+<a href="#section-6.2" class="section-number selfRef">6.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
+        </h3>
+<dl class="references">
+<dt id="GBT.32905-2016">[GBT.32905-2016]</dt>
+        <dd>
+<span class="refAuthor">Standardization Administration of China</span>, <span class="refTitle">"Information security technology --- SM3 cryptographic hash algorithm"</span>, <span class="seriesInfo">GB/T 32905-2016</span>, <time datetime="2017-03" class="refDate">March 2017</time>, <span>&lt;<a href="http://www.gmbz.org.cn/upload/2018-07-24/1532401392982079739.pdf">http://www.gmbz.org.cn/upload/2018-07-24/1532401392982079739.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="GBT.32907-2016">[GBT.32907-2016]</dt>
+        <dd>
+<span class="refAuthor">Standardization Administration of the People's Republic of China</span>, <span class="refTitle">"Information security technology -- SM4 block cipher algorithm"</span>, <span class="seriesInfo">GB/T 32907-2016</span>, <time datetime="2017-03" class="refDate">March 2017</time>, <span>&lt;<a href="http://www.gmbz.org.cn/upload/2018-04-04/1522788048733065051.pdf">http://www.gmbz.org.cn/upload/2018-04-04/1522788048733065051.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="GBT.32918.2-2016">[GBT.32918.2-2016]</dt>
+        <dd>
+<span class="refAuthor">Standardization Administration of the People's Republic of China</span>, <span class="refTitle">"Information security technology --- Public key cryptographic algorithm SM2 based on elliptic curves --- Part 2: Digital signature algorithm"</span>, <span class="seriesInfo">GB/T 32918.2-2016</span>, <time datetime="2017-03" class="refDate">March 2017</time>, <span>&lt;<a href="http://www.gmbz.org.cn/upload/2018-07-24/1532401673138056311.pdf">http://www.gmbz.org.cn/upload/2018-07-24/1532401673138056311.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="GBT.32918.5-2017">[GBT.32918.5-2017]</dt>
+        <dd>
+<span class="refAuthor">Standardization Administration of the People's Republic of China</span>, <span class="refTitle">"Information security technology --- Public key cryptographic algorithm SM2 based on elliptic curves --- Part 5: Parameter definition"</span>, <span class="seriesInfo">GB/T 32918.5-2017</span>, <time datetime="2017-12" class="refDate">December 2017</time>, <span>&lt;<a href="http://www.gmbz.org.cn/upload/2018-07-24/1532401863206085511.pdf">http://www.gmbz.org.cn/upload/2018-07-24/1532401863206085511.pdf</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="GMT.0009-2012">[GMT.0009-2012]</dt>
+        <dd>
+<span class="refAuthor">State Cryptography Administration</span>, <span class="refTitle">"SM2 cryptography algorithm application specification"</span>, <span class="seriesInfo">GM/T 0009-2012</span>, <time datetime="2012-11" class="refDate">November 2012</time>, <span>&lt;<a href="http://www.gmbz.org.cn/main/viewfile/2018011001400692565.html">http://www.gmbz.org.cn/main/viewfile/2018011001400692565.html</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="J02">[J02]</dt>
+        <dd>
+<span class="refAuthor">Jonsson, J.</span>, <span class="refTitle">"On the Security of CTR + CBC-MAC"</span>, <span class="seriesInfo">DOI 10.1007/3-540-36492-7_7</span>, <time datetime="2003-02" class="refDate">February 2003</time>, <span>&lt;<a href="https://link.springer.com/chapter/10.1007%2F3-540-36492-7_7">https://link.springer.com/chapter/10.1007%2F3-540-36492-7_7</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="MV04">[MV04]</dt>
+      <dd>
+<span class="refAuthor">McGrew, D.</span><span class="refAuthor"> and J. Viega</span>, <span class="refTitle">"The Security and Performance of the Galois/Counter Mode of Operation"</span>, <span class="seriesInfo">DOI 10.1007/978-3-540-30556-9_27</span>, <time datetime="2004-12" class="refDate">December 2004</time>, <span>&lt;<a href="http://eprint.iacr.org/2004/193">http://eprint.iacr.org/2004/193</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+</dl>
+</section>
+</section>
+<div id="test-vectors">
+<section id="section-appendix.a">
+      <h2 id="name-test-vectors">
+<a href="#section-appendix.a" class="section-number selfRef">Appendix A. </a><a href="#name-test-vectors" class="section-name selfRef">Test Vectors</a>
+      </h2>
+<p id="section-appendix.a-1">All values are in hexadecimal and are in network byte order (big endian).<a href="#section-appendix.a-1" class="pilcrow">¶</a></p>
+<div id="sm4-gcm-test-vectors">
+<section id="section-a.1">
+        <h2 id="name-sm4-gcm-test-vectors">
+<a href="#section-a.1" class="section-number selfRef">A.1. </a><a href="#name-sm4-gcm-test-vectors" class="section-name selfRef">SM4-GCM Test Vectors</a>
+        </h2>
+<div id="section-a.1-1">
+<pre class="sourcecode">
+Initialization Vector:   00001234567800000000ABCD
+Key:                     0123456789ABCDEFFEDCBA9876543210
+Plaintext:               AAAAAAAAAAAAAAAABBBBBBBBBBBBBBBB
+                         CCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDD
+                         EEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFF
+                         EEEEEEEEEEEEEEEEAAAAAAAAAAAAAAAA
+Associated Data:         FEEDFACEDEADBEEFFEEDFACEDEADBEEFABADDAD2
+CipherText:              17F399F08C67D5EE19D0DC9969C4BB7D
+                         5FD46FD3756489069157B282BB200735
+                         D82710CA5C22F0CCFA7CBF93D496AC15
+                         A56834CBCF98C397B4024A2691233B8D
+Authentication Tag:      83DE3541E4C2B58177E065A9BF7B62EC
+</pre><a href="#section-a.1-1" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+<div id="sm4-ccm-test-vectors">
+<section id="section-a.2">
+        <h2 id="name-sm4-ccm-test-vectors">
+<a href="#section-a.2" class="section-number selfRef">A.2. </a><a href="#name-sm4-ccm-test-vectors" class="section-name selfRef">SM4-CCM Test Vectors</a>
+        </h2>
+<div id="section-a.2-1">
+<pre class="sourcecode">
+Initialization Vector:   00001234567800000000ABCD
+Key:                     0123456789ABCDEFFEDCBA9876543210
+Plaintext:               AAAAAAAAAAAAAAAABBBBBBBBBBBBBBBB
+                         CCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDD
+                         EEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFF
+                         EEEEEEEEEEEEEEEEAAAAAAAAAAAAAAAA
+Associated Data:         FEEDFACEDEADBEEFFEEDFACEDEADBEEFABADDAD2
+CipherText:              48AF93501FA62ADBCD414CCE6034D895
+                         DDA1BF8F132F042098661572E7483094
+                         FD12E518CE062C98ACEE28D95DF4416B
+                         ED31A2F04476C18BB40C84A74B97DC5B
+Authentication Tag:      16842D4FA186F56AB33256971FA110F4
+</pre><a href="#section-a.2-1" class="pilcrow">¶</a>
+</div>
+</section>
+</div>
+</section>
+</div>
+<div id="contributors">
+<section id="section-appendix.b">
+      <h2 id="name-contributors">
+<a href="#name-contributors" class="section-name selfRef">Contributors</a>
+      </h2>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Qin Long</span></div>
+<div dir="auto" class="left"><span class="org">Ant Group</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:zhuolong.lq@antfin.com" class="email">zhuolong.lq@antfin.com</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Kepeng Li</span></div>
+<div dir="auto" class="left"><span class="org">Ant Group</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:kepeng.lkp@antfin.com" class="email">kepeng.lkp@antfin.com</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Ke Zeng</span></div>
+<div dir="auto" class="left"><span class="org">Ant Group</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:william.zk@antfin.com" class="email">william.zk@antfin.com</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Han Xiao</span></div>
+<div dir="auto" class="left"><span class="org">Ant Group</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:han.xiao@antfin.com" class="email">han.xiao@antfin.com</a>
+</div>
+</address>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Zhi Guan</span></div>
+<div dir="auto" class="left"><span class="org">Peking University</span></div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:guan@pku.edu.cn" class="email">guan@pku.edu.cn</a>
+</div>
+</address>
+</section>
+</div>
+<div id="authors-addresses">
+<section id="section-appendix.c">
+      <h2 id="name-authors-address">
+<a href="#name-authors-address" class="section-name selfRef">Author's Address</a>
+      </h2>
+<address class="vcard">
+        <div dir="auto" class="left"><span class="fn nameRole">Paul Yang</span></div>
+<div dir="auto" class="left"><span class="org">Ant Group</span></div>
+<div dir="auto" class="left"><span class="street-address">No. 77 Xueyuan Road</span></div>
+<div dir="auto" class="left"><span class="locality">Hangzhou</span></div>
+<div dir="auto" class="left"><span class="postal-code">310000</span></div>
+<div dir="auto" class="left"><span class="country-name">China</span></div>
+<div class="tel">
+<span>Phone:</span>
+<a href="tel:+86-571-2688-8888" class="tel">+86-571-2688-8888</a>
+</div>
+<div class="email">
+<span>Email:</span>
+<a href="mailto:kaishen.yy@antfin.com" class="email">kaishen.yy@antfin.com</a>
+</div>
+</address>
+</section>
+</div>
+</div>
+
+                    </div>
+                
+            </div>
+            <div class="d-print-none col-md-3 bg-light-subtle collapse show" id="sidebar">
+                <div class="position-fixed border-start sidebar overflow-scroll overscroll-none no-scrollbar">
+                    <div class="d-flex flex-column vh-100 pt-2 pt-lg-3 ps-3 pl-md-2 pl-lg-3">
+                        <div>
+                            <a class="btn btn-primary btn-sm" href="/doc/rfc8998/">Datatracker</a>
+                            <p class="fw-bold pt-2">
+                                
+                                    RFC 8998
+                                
+                                <br>
+                                
+
+
+
+
+
+<span class="text-success">RFC
+    
+    - Informational
+    
+</span>
+
+                            </p>
+                        </div>
+                        
+                        <ul class="nav nav-tabs nav-fill small me-2" role="tablist">
+                            <li class="nav-item" role="presentation" title="Document information">
+                                <button class="nav-link px-2"
+                                        id="docinfo-tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#docinfo-tab-pane"
+                                        type="button"
+                                        role="tab"
+                                        aria-controls="docinfo-tab-pane"
+                                        aria-selected="true">
+                                    <i class="bi bi-info-circle"></i><span class="d-none d-md-block d-xl-inline ms-xl-1">Info</span>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation" title="Table of contents">
+                                <button class="nav-link px-2"
+                                        id="toc-tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#toc-tab-pane"
+                                        type="button"
+                                        role="tab"
+                                        aria-controls="toc-tab-pane"
+                                        aria-selected="false">
+                                    <i class="bi bi-list-ol"></i><span class="d-none d-md-block d-xl-inline ms-xl-1">Contents</span>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation" title="Preferences">
+                                <button class="nav-link px-2"
+                                        id="pref-tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#pref-tab-pane"
+                                        type="button"
+                                        role="tab"
+                                        aria-controls="pref-tab-pane"
+                                        aria-selected="false">
+                                    <i class="bi bi-gear"></i><span class="d-none d-md-block d-xl-inline ms-xl-1">Prefs</span>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="overflow-auto tab-content pt-2 me-2">
+                            <div class="tab-pane"
+                                 id="docinfo-tab-pane"
+                                 role="tabpanel"
+                                 aria-labelledby="docinfo-tab"
+                                 tabindex="0">
+                                <table class="table table-sm table-borderless">
+                                    
+
+
+
+
+
+
+
+<tbody class="meta align-top ">
+    <tr>
+        <th scope="row">Document</th>
+        <th scope="row">Document type</th>
+        <td class="edit"></td>
+        <td>
+            
+
+
+
+
+
+<span class="text-success">RFC
+    
+    - Informational
+    
+</span>
+
+            
+                
+                    <br>March 2021
+                
+                <br>
+                
+                
+                    <a class="btn btn-sm btn-warning"
+                       title="Click to report an error in the document."
+                       href="https://www.rfc-editor.org/errata.php#reportnew"
+                       target="_blank">
+                        Report errata
+                    </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    <div>
+                        Was
+                        <a href="/doc/draft-yang-tls-tls13-sm-suites/06/">draft-yang-tls-tls13-sm-suites</a>
+                        (individual)
+                    </div>
+                
+            
+            
+            
+                
+
+
+
+
+    
+        <div class="alert alert-warning small p-2 mt-2" role="alert">
+            This RFC was published on the Independent Submission stream.
+            This RFC is <strong>not endorsed by the IETF</strong> and has <strong>no formal standing</strong> in the
+            <a href="/doc/rfc2026/">IETF standards process</a>.
+        </div>
+    
+
+
+            
+        </td>
+    </tr>
+    
+        <tr>
+            <td></td>
+            <th scope="row">Select version</th>
+            <td class="edit"></td>
+            <td>
+                
+
+
+
+    <ul class="revision-list pagination pagination-sm text-center flex-wrap my-0">
+        
+            
+            
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-00"
+                        rel="nofollow">
+                            00
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-01"
+                        rel="nofollow">
+                            01
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-02"
+                        rel="nofollow">
+                            02
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-03"
+                        rel="nofollow">
+                            03
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-04"
+                        rel="nofollow">
+                            04
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-05"
+                        rel="nofollow">
+                            05
+                        </a>
+                    </li>
+                
+                    <li class="page-item">
+                        <a class="page-link"
+                        href="/doc/html/draft-yang-tls-tls13-sm-suites-06"
+                        rel="nofollow">
+                            06
+                        </a>
+                    </li>
+                
+            
+            
+            <li class="page-item rfc active">
+                <a class="page-link"
+                href="/doc/html/rfc8998">
+                    RFC 8998
+                </a>
+            </li>
+        
+    </ul>
+
+            </td>
+        </tr>
+        
+            <tr>
+                <td></td>
+                <th scope="row">Compare versions</th>
+                <td class="edit"></td>
+                <td>
+                    
+
+
+
+<form class="form-horizontal diff-form"
+      action="https://author-tools.ietf.org/iddiff"
+      method="get"
+      target="_blank">
+
+            <select class="form-select form-select-sm mb-1 select2-field"
+                    data-max-entries="1"
+                    data-width="resolve"
+                    data-allow-clear="false"
+                    data-minimum-input-length="0"
+                    aria-label="From revision"
+                    name="url1">
+                
+                    <option value="rfc8998">
+                        RFC 8998
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-06" selected>
+                        draft-yang-tls-tls13-sm-suites-06
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-05">
+                        draft-yang-tls-tls13-sm-suites-05
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-04">
+                        draft-yang-tls-tls13-sm-suites-04
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-03">
+                        draft-yang-tls-tls13-sm-suites-03
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-02">
+                        draft-yang-tls-tls13-sm-suites-02
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-01">
+                        draft-yang-tls-tls13-sm-suites-01
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-00">
+                        draft-yang-tls-tls13-sm-suites-00
+                        
+                    </option>
+                
+                
+            </select>
+
+            <select class="form-select form-select-sm mb-1 select2-field"
+                    data-max-entries="1"
+                    data-width="resolve"
+                    data-allow-clear="false"
+                    data-minimum-input-length="0"
+                    aria-label="To revision"
+                    name="url2">
+                
+                    <option value="rfc8998" selected>
+                        RFC 8998
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-06">
+                        draft-yang-tls-tls13-sm-suites-06
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-05">
+                        draft-yang-tls-tls13-sm-suites-05
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-04">
+                        draft-yang-tls-tls13-sm-suites-04
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-03">
+                        draft-yang-tls-tls13-sm-suites-03
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-02">
+                        draft-yang-tls-tls13-sm-suites-02
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-01">
+                        draft-yang-tls-tls13-sm-suites-01
+                        
+                    </option>
+                
+                    <option value="draft-yang-tls-tls13-sm-suites-00">
+                        draft-yang-tls-tls13-sm-suites-00
+                        
+                    </option>
+                
+                
+            </select>
+
+            <button type="submit"
+                    class="btn btn-primary btn-sm"
+                    value="--html"
+                    name="difftype">
+                Side-by-side
+            </button>
+            
+            <button type="submit"
+                    class="btn btn-primary btn-sm"
+                    value="--hwdiff"
+                    name="difftype">
+                Inline
+            </button>
+
+
+</form>
+
+                </td>
+            </tr>
+        
+    
+    <tr>
+        <td></td>
+        <th scope="row">Author</th>
+        <td class="edit">
+            
+        </td>
+        <td>
+            
+            
+                <span ><a 
+           title="Datatracker profile of Paul Yang"
+            href="/person/paulyang.inf@gmail.com" >P. Yang</a> <a 
+               href="mailto:paulyang.inf%40gmail.com"
+               aria-label="Compose email to paulyang.inf@gmail.com"
+               title="Compose email to paulyang.inf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+            
+                <br>
+                <a class="btn btn-primary btn-sm mt-1" href="mailto:rfc8998@ietf.org?subject=rfc8998" title="Send email to the document authors">Email authors</a>
+            
+        </td>
+    </tr>
+    
+    
+    <tr>
+        <td></td>
+        <th scope="row">
+            RFC stream
+        </th>
+        <td class="edit">
+            
+        </td>
+        <td >
+            
+                
+                    <a href="/stream/ise/">
+                
+                
+                    
+                        Independent Submission
+                    
+                
+                
+                    </a>
+                
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <th scope="row">
+            Other formats
+        </th>
+        <td class="edit">
+        </td>
+        <td>
+            
+                
+    <div class="buttonlist">
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.txt">
+            
+                <i class="bi bi-file-text"></i> txt
+            
+        </a>
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.html">
+            
+                <i class="bi bi-file-code"></i> html
+            
+        </a>
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.xml">
+            
+                <i class="bi bi-file-code"></i> xml
+            
+        </a>
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+            download="rfc8998.pdf"
+          
+         
+          target="_blank"
+          href="https://www.rfc-editor.org/rfc/rfc8998.pdf">
+            
+                <i class="bi bi-file-pdf"></i> pdf
+            
+        </a>
+        
+    
+        
+    
+        
+        <a class="btn btn-primary btn-sm"
+          
+          target="_blank"
+          href="/doc/rfc8998/bibtex/">
+            
+                <i class="bi bi-file-ruled"></i> bibtex
+            
+        </a>
+        
+    
+</div>
+
+            
+        </td>
+    </tr>
+    
+    
+        
+    
+</tbody>
+                                </table>
+                                <a class="btn btn-sm btn-warning mb-3"
+                                target="_blank"
+                                href="https://github.com/ietf-tools/datatracker/issues/new/choose">
+                                    Report a datatracker bug
+                                    <i class="bi bi-bug"></i>
+                                </a>
+                            </div>
+                            <div class="tab-pane mb-5"
+                                 id="toc-tab-pane"
+                                 role="tabpanel"
+                                 aria-labelledby="toc-tab"
+                                 tabindex="0">
+                                <nav class="nav nav-pills flex-column small" id="toc-nav">
+                                </nav>
+                            </div>
+                            <div class="tab-pane mb-5 small"
+                                 id="pref-tab-pane"
+                                 role="tabpanel"
+                                 aria-labelledby="pref-tab"
+                                 tabindex="0">
+                                <label class="form-label fw-bold mb-2">Show sidebar by default</label>
+                                <div class="btn-group-vertical btn-group-sm d-flex" role="group">
+                                    <input type="radio" class="btn-check" name="sidebar" id="on-radio">
+                                    <label class="btn btn-outline-primary" for="on-radio">Yes</label>
+                                    <input type="radio" class="btn-check" name="sidebar" id="off-radio">
+                                    <label class="btn btn-outline-primary" for="off-radio">No</label>
+                                </div>
+                                <label class="form-label fw-bold mt-4 mb-2">Tab to show by default</label>
+                                <div class="btn-group-vertical btn-group-sm d-flex" role="group">
+                                    <input type="radio" class="btn-check" name="deftab" id="docinfo-radio">
+                                    <label class="btn btn-outline-primary" for="docinfo-radio">
+                                        <i class="bi bi-info-circle me-1"></i>Info
+                                    </label>
+                                    <input type="radio" class="btn-check" name="deftab" id="toc-radio">
+                                    <label class="btn btn-outline-primary" for="toc-radio">
+                                        <i class="bi bi-list-ol me-1"></i>Contents
+                                    </label>
+                                </div>
+                                <label class="form-label fw-bold mt-4 mb-2">HTMLization configuration</label>
+                                <div class="btn-group-vertical btn-group-sm d-flex" role="group">
+                                    <input type="radio" class="btn-check" name="htmlconf" id="txt-radio">
+                                    <label class="btn btn-outline-primary" for="txt-radio" title="This is the traditional HTMLization method.">
+                                        <i class="bi bi-badge-sd me-1"></i>HTMLize the plaintext
+                                    </label>
+                                    <input type="radio" class="btn-check" name="htmlconf" id="html-radio">
+                                    <label class="btn btn-outline-primary" for="html-radio" title="This is the modern HTMLization method.">
+                                        <i class="bi bi-badge-hd me-1"></i>Plaintextify the HTML
+                                    </label>
+                                </div>
+                                <label class="form-label fw-bold mt-4 mb-2" for="ptsize">Maximum font size</label>
+                                <input type="range" class="form-range" min="7" max="16" id="ptsize" oninput="ptdemo.value = ptsize.value">
+                                <label class="form-label fw-bold mt-4 mb-2">Page dependencies</label>
+                                <div class="btn-group-vertical btn-group-sm d-flex" role="group">
+                                    <input type="radio" class="btn-check" name="pagedeps" id="inline-radio">
+                                    <label class="btn btn-outline-primary" for="inline-radio" title="Generate larger, standalone web pages that do not require network access to render.">
+                                        <i class="bi bi-box me-1"></i>Inline
+                                    </label>
+                                    <input type="radio" class="btn-check" name="pagedeps" id="reference-radio">
+                                    <label class="btn btn-outline-primary" for="reference-radio" title="Generate regular web pages that require network access to render.">
+                                        <i class="bi bi-link-45deg me-1"></i>Reference
+                                    </label>
+                                </div>
+                                <label class="form-label fw-bold mt-4 mb-2">Citation links</label>
+                                <div class="btn-group-vertical btn-group-sm d-flex" role="group">
+                                    <input type="radio" class="btn-check" name="reflinks" id="refsection-radio">
+                                    <label class="btn btn-outline-primary" for="refsection-radio" title="Citation links go to the reference section.">
+                                        <i class="bi bi-arrow-clockwise"></i> Go to reference section
+                                    </label>
+                                    <input type="radio" class="btn-check" name="reflinks" id="citation-radio">
+                                    <label class="btn btn-outline-primary" for="citation-radio" title="Citation links go directly to the cited document.">
+                                        <i class="bi bi-link-45deg me-1"></i>Go to linked document
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<script>
+  var _paq = window._paq || [];
+  
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.ietf.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 7]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.ietf.org/matomo.php?idsite=7" style="border:0;" alt="" /></p></noscript>
+
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5f7d4304c7e294f',t:'MTc5NTUxNzE3Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5f7d4304c7e294f',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

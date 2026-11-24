@@ -1,0 +1,393 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>北京市公共资源交易服务平台</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+<meta charset = "utf-8"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand"> 
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+<meta http-equiv="SiteName" content="北京市公共资源交易服务平台">
+<meta http-equiv="SiteDomain" content="https://ggzyfw.beijing.gov.cn">
+<meta http-equiv="SiteIDCode" content="1100000239">
+<meta http-equiv="ColumnName" content="采购公告">
+<meta http-equiv="ColumnDescription" content="主要发布政府采购类项目采购公告">
+<meta http-equiv="ColumnKeywords" content="政府采购、公告">
+<meta http-equiv="ColumnType" content="采购公告">
+<meta http-equiv="ArticleTitle" content="2026年顺义区教育系统WPS办公软件场地授权续费项目公开招标公告">
+<meta http-equiv="PubDate" content="2026-08-12 16:33:41">
+<meta http-equiv="ContentSource" content="北京市公共资源交易服务平台">
+
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 720px)" href="/r/cms/cn.gov.bjggzyfw.www/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 719px)" href="/r/cms/cn.gov.bjggzyfw.www/css/style-m.css">
+
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" media="all" href="/cmsbj/r/cms/cn.gov.bjggzyfw.www/css/style.css"/>
+<![endif]-->
+
+
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 719px)" href="/r/cms/cn.gov.bjggzyfw.www/css/mobile.css" />
+<script type="text/javascript" src="/r/cms/cn.gov.bjggzyfw.www/js/jquery.min.js"></script>
+<script type="text/javascript" src="/r/cms/cn.gov.bjggzyfw.www/js/jquery.format.js"></script>
+<script type="text/javascript" src="/r/cms/cn.gov.bjggzyfw.www/js/header.js"></script>
+<script type="text/javascript" src="/r/cms/cn.gov.bjggzyfw.www/js/enroll.js"></script>
+
+
+
+<script type="text/javascript" src="/r/cms/cn.gov.bjggzyfw.www/js/jquery.hiSlider.js"></script>
+<script type="text/javascript" src="/r/cms/cn.gov.bjggzyfw.www/js/controller.js"></script>
+<script type="text/javascript" src="/r/cms/ckplayer/ckplayer.js" ></script>
+<script src="/r/cms/ckplayer/offlights.js" type="text/javascript"></script>
+<script type="text/javascript" src="/r/cms/front.js"></script>
+<script type="text/javascript">
+$(function () {
+    if ($('.hotWordBanner').length > 0) {
+        var hotWordBanner = (function (externalO) {
+            var externalGo = true, _index = 0, externalO = '.' + externalO;
+            $(externalO).hide().children().hide();
+            function inside() {
+                $(externalO).eq(_index).children().first().fadeIn(function play() {
+                    $(this).next().fadeIn(play);
+                    if ($(this).index() == $(externalO).eq(_index).children().length - 1) {
+                        _index++;
+                        externalGo = true;
+                        setTimeout(playGo, 3000);
+                    }
+                    return 'slow';
+                })
+            }
+            function external() {
+                $(externalO).eq(_index).fadeIn('fast').siblings(externalO).hide(function () {
+                    externalGo = false;
+                    inside();
+                    return 0;
+                }).children().hide();
+
+            }
+            function playGo() {
+                if (externalGo == true) {
+                    _index >= $(externalO).length ? _index = 0 : "";
+                    external();
+                }
+            }
+            return playGo();
+        })('hotWordBanner');
+    }
+}
+)
+var selectDate='';
+var _vaq = _vaq || [];
+			_vaq.push(["setCookieDomain", "auto"]);
+			_vaq.push(['setPingTime',3000]);
+			_vaq.push(['enableHeat']);
+			_vaq.push(['trackPageView']);
+			(function() {
+			_vaq.push(['setSiteId',5080]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+			g.defer=true; g.async=true; g.src='https://yhxw.tj.beijing.gov.cn/vas.js'; s.parentNode.insertBefore(g,s);
+			})();
+			
+			$(".btn-search").on("click", function() {
+			
+			
+			
+			var q = $(".searchAll").val();
+				var htmlRegExp = /<\[^>]*>/g;
+				if(htmlRegExp.test(q)){
+					alert("查询内容不能包含非法字符！");
+					return ;
+				}
+				if(q == "" || q == null || q == undefined){
+					alert("查询内容不能为空！");
+					return ;
+				}
+				
+//alert(selectDate)
+				if(selectDate==2){
+					var url ="http://www.beijing.gov.cn/so/s?tab=all&sourceCode=1100000239";
+					document.getElementById("search-form").action = url;
+					$(".searchAll").val($(".searchAll").val().trim().replace(/\s/g,""));
+					_vaq.push(['trackSiteSearch', $('.searchAll').val(), 'search', '1']);
+					$("#search-form").submit();
+				}else{
+				    
+					var url ="https://ggzyfw.beijing.gov.cn/elasticsearch/index.jsp";
+					document.getElementById("search-form").action = url;
+					$(".searchAll").val($(".searchAll").val().trim().replace(/\s/g,""));
+					_vaq.push(['trackSiteSearch', $('.searchAll').val(), 'search', '1']);
+					$("#search-form").submit();
+				}
+				
+			})
+			$(".searchAll").on("keydown", function(event) {
+				if (event.keyCode == 13) {
+					$(".btn-search").click();
+					return false;
+				}
+			})
+			
+			
+      function searchDo(the){
+        console.log(the.parentNode.querySelector('input').value)
+        console.log(selectDate)
+        // the.parentNode.querySelector('input').value;
+      }
+      function csShow(the){
+        if (the.querySelector('.cs_selectBox').style.display=='block') {
+          the.querySelector('.cs_selectBox').style.display='none';
+        }else{
+          the.querySelector('.cs_selectBox').style.display='block'
+        }
+        
+      }
+      // 获取下拉值
+      function csSelect(the,value,key){
+		the.parentNode.parentNode.parentNode.querySelector('span').innerText=the.innerText;
+        
+        selectDate=key;
+		
+      }
+
+// 导航展开收起
+// document.querySelector('.cs_mobile_nav')
+function navGo(item,key){
+  console.log('item',item.classList)
+  if (item.classList.value.indexOf('cs_mobile_nav_close')>-1) {
+    item.classList.remove('cs_mobile_nav_close');
+    item.classList.add('cs_mobile_nav_open');
+  }else{
+    item.classList.remove('cs_mobile_nav_open');
+    item.classList.add('cs_mobile_nav_close');
+  }
+  console.log('key',key)
+}
+
+
+	// 导航展开收起
+	function turnFn(){
+	  var doc=document.querySelector('.cs_mobile_height')
+	  if (doc.classList.value.indexOf('cs_mobile_nav_close')>-1) {
+	    doc.classList.remove('cs_mobile_nav_close');
+	    doc.classList.add('cs_mobile_nav_open');
+	  }else{
+	    doc.classList.remove('cs_mobile_nav_open');
+	    doc.classList.add('cs_mobile_nav_close');
+	  }
+	}
+</script>
+
+</head>
+<body>
+
+	<!--header---开始-->
+	 
+	<!--header---结束-->
+<script type="text/javascript">
+$(function() {
+
+Cms.collectCsi("https://ggzyfw.beijing.gov.cn/cmsbj","collectCsiDiv","collect_csi","5665839");
+Cms.attachment("https://ggzyfw.beijing.gov.cn/cmsbj","5665839","0","attach");
+Cms.viewCount("https://ggzyfw.beijing.gov.cn/cmsbj","5665839");
+Cms.siteFlow("https://ggzyfw.beijing.gov.cn/cmsbj", location.href, document.referrer,"true");
+});
+</script>
+<style type="text/css">
+.ckywjpng {
+ width: 90px;
+ height: 30px;
+ line-height: 20px;
+ border-radius: 2px;
+ text-align: center;
+ float: right;
+ text-indent: 10px */;
+ background: url("/r/cms/cn.gov.bjggzyfw.www/images/ckywj.png") no-repeat 0px 0px;
+ cursor: pointer;
+    background-size: contain;
+margin-top: -5px;
+}
+</style>
+<div class="content clearfix">
+	<div class="sitemap">
+			<a href="/index.html"><img class="home" src="/r/cms/cn.gov.bjggzyfw.www/images/home.png" />首页</a>> <a href="/jyxxggjtbyqs/index.html">公告公示</a> > 政府采购 > 采购公告
+			<script>
+				$(function() {
+					var path = "jyxx";
+					$(".mainbar li").removeClass("on");
+					$("#menu-" + path).addClass("on");
+					var platformCode= "北京市政府采购监管系统";
+					var endTime= "2026-09-02 09:30:00";
+					var chan = "126";
+					var ext12 = "11110000000021207E";
+					if("北京市工程建设招标投标交易系统"==platformCode && "121"==chan){
+						var sysUrl = "";
+						platformCode = platformCode +sysUrl;
+					}
+					enrool(platformCode,endTime,ext12);
+				})
+			</script>
+		
+	</div>
+	<div class="div-content">
+		<div class="div-title">
+		2026年顺义区教育系统WPS办公软件场地授权续费项目公开招标公告
+		<br>
+		<p style="font-size: 0.9em;color: #666;text-align: center;">交易项目编号：S110000C005112080001</p>
+		</div>  
+		<div class="div-title2">
+			发布时间：2026-08-12 &nbsp;&nbsp; &nbsp;&nbsp;浏览次数：
+			<span id="views">0</span>
+		</div>
+		<div class="div-article2">
+			<div class="newsCon" >
+	    		  <blockquote><p></p><h3>项目概况</h3>
+          2026年顺义区教育系统WPS办公软件场地授权续费项目 招标项目的潜在投标人应在北京市政府采购电子交易平台 （http://zbcg-bjzc.zhongcy.com/bjczj-portal-site/index.html#/home）获取招标文件，并于2026-09-02 09:30（北京时间）前递交投标文件。
+          <p></p></blockquote> <p><strong>一、项目基本情况</strong></p> <p>项目编号：1101132****200027776-XM001</p> <p>项目名称：2026年顺义区教育系统WPS办公软件场地授权续费项目</p> <p>预算金额：221.7 万元（人民币）</p> <p>最高限价：221.7 万元（人民币）</p> <p>采购需求：</p><p></p><p><table>
+<tbody>
+<tr>
+<td>
+<p>包号</p>
+</td>
+<td>
+<p>标的名称</p>
+</td>
+<td>
+<p>采购包预审金额（万元）</p>
+</td>
+<td>
+<p>数量</p>
+</td>
+<td>
+<p>服务地点</p>
+</td>
+<td>
+<p>简要技术需求或服务要求</p>
+</td>
+</tr>
+<tr>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>01</p>
+</td>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>2026年顺义区教育系统WPS办公软件场地授权续费项目</p>
+</td>
+<td>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>221.7</p>
+</td>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> 1</p>
+</td>
+<td>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>顺义区教育系统单位</p>
+</td>
+<td>
+<p>1、正版化办公软件和会员账号服务</p>
+<p>（Windows环境）： 1）为全区教育系统单位提供 Windows 环境办公软件客户端，包括但不限于教学电脑、办公电脑、大屏等终端设备办公软件正版授权以及使用培训服务。</p>
+<p>2）为区内教职工提供不少于 6000 个账号会员功能使用服务，每账号包含 365G 云空间、PDF 格式转换、图片处理、办公模板等服务。</p>
+<p>2、国产正版化办公软件（Linux 环境）：提供 2500 点 Linux 环境办公软件客户端，包含文字处理、表格计算、幻灯片演示三个组件。操作系统包括但不限于：UOS、麒麟、中科方德等；CPU 包括但不限于：龙芯、飞腾、鲲鹏、兆芯、申威等正版授权以及使用培训服务。</p>
+</td>
+</tr>
+</tbody>
+</table></p> <p>合同履行期限：2026年11月14日-2027年11月13日</p> <p>本项目不接受联合体投标。</p> <p><strong>二、申请人的资格要求：</strong></p> <p>1.满足《中华人民共和国政府采购法》第二十二条规定；</p> <p>2.落实政府采购政策需满足的资格要求：</p> <p><p>1.满足《中华人民共和国政府采购法》第二十二条规定；</p>
+<p>2.落实政府采购政策需满足的资格要求：</p>
+<p>2.1 中小企业政策</p>
+<p>□本项目不专门面向中小企业预留采购份额。</p>
+<p>■本项目专门面向  □中小 ■小微企业  采购。即：提供的服务全部由符合政策要求的小微企业承接。</p>
+<p>□本项目预留部分采购项目预算专门面向中小企业采购。对于预留份额，提供的货物由符合政策要求的中小企业制造、服务由符合政策要求的中小企业承接。预留份额通过以下措施进行：/。</p>
+<p>2.2 其它落实政府采购政策的资格要求（如有）： / 。</p>
+<p></p>
+<p></p></p> <p>3.本项目的特定资格要求：</p> <p><p>3.1本项目是否属于政府购买服务：</p>
+<p>■否</p>
+<p>□是，公益一类事业单位、使用事业编制且由财政拨款保障的群团组织，不得作为承接主体；</p>
+<p>3.2其他特定资格要求：无。</p></p> <p><strong>三、获取招标文件</strong></p> <p>时间：2026-08-13 至 2026-08-19
+          ，每天上午09:00至12:00，下午12:00至17:00（北京时间，法定节假日除外）</p> <p>地点：北京市政府采购电子交易平台 （http://zbcg-bjzc.zhongcy.com/bjczj-portal-site/index.html#/home）</p> <p>方式：</p> <p><p>供应商使用CA数字证书或电子营业执照登录北京市政府采购电子交易平台（http://zbcg-bjzc.zhongcy.com/bjczj-portal-site/index.html#/home）获取电子版招标文件。</p></p> <p>售价：￥0 元，本公告包含的招标文件售价总和</p> <p><strong>四、提交投标文件截止时间、开标时间和地点</strong></p><p> 2026-09-02 09:30（北京时间）</p> <p>地点：北京市顺义区复兴东街3号院顺义区政务服务中心6号电梯厅二层开标室（具体标室号开标当天见一层大屏幕）或投标人使用CA认证证书或电子营业执照登录北京市政府采购电子交易平台远程参与电子开标，投标人自行对电子投标文件进行解密。</p> <p><strong>五、公告期限</strong></p> <p>自本公告发布之日起5个工作日。</p> <p><strong>六、其他补充事宜</strong></p> <p><p>1.本项目需要落实的政府采购政策：</p>
+<p>（1）执行《财政部发展改革委关于印发《节能产品政府采购品目清单》的通知》（财库[2019]19号）；</p>
+<p>（2）执行《财政部生态环境部关于印发《环境标志产品政府采购品目清单》的通知（财库[2019]18号）；</p>
+<p>（3）执行财政部、工业和信息化部关于印发《政府采购促进中小企业发展管理办法》的通知财库〔2020〕46号；</p>
+<p>（4）执行《财政部关于开展政府采购信用担保试点工作方案》（财库[2011]124号）；</p>
+<p>（5）执行《财政部、司法部关于政府采购支持监狱企业发展有关问题的通知》（财库[2014]68 号）；</p>
+<p>（6）执行《关于促进残疾人就业政府采购政策的通知》（财库〔2017〕141号）；</p>
+<p>（7）执行《财政部关于在政府采购活动中查询及使用信用记录有关问题的通知》（财库[2016]125号）；</p>
+<p>（8）执行《财政部发展改革委生态环境部市场监管总局关于调整优化节能产品、环境标志产品政府采购执行机制》的通知（财库〔2019〕9号）；</p>
+<p>（9）执行《关于进一步加大政府采购支持中小企业力度的通知》（财库[2022]19号）；</p>
+<p>（10）执行扶持不发达地区和少数民族地区、促进监狱企业和中小企业发展，支持节能减排、环境保护等政府采购政策。</p>
+<p>2.本项目采用全流程电子化采购方式，请供应商认真学习北京市政府采购电子交易平台发布的相关操作手册（供应商可在交易平台下载相关手册），办理CA数字证书或电子营业执照、进行北京市政府采购电子交易平台注册绑定，并认真核实CA数字证书或电子营业执照情况确认是否符合本项目电子化采购流程要求。</p>
+<p>CA数字证书服务热线 010-58511086</p>
+<p>电子营业执照服务热线 400-699-7000</p>
+<p>技术支持服务热线    010-86483801</p>
+<p>2.1办理CA数字证书或电子营业执照</p>
+<p>供应商登录北京市政府采购电子交易平台查阅 “用户指南”—“操作指南”—“市场主体CA办理操作流程指引”/“电子营业执照使用指南”，按照程序要求办理。</p>
+<p>2.2注册</p>
+<p>供应商登录北京市政府采购电子交易平台“用户指南”—“操作指南”—“市场主体注册入库操作流程指引”进行自助注册绑定。</p>
+<p>2.3驱动、客户端下载</p>
+<p>供应商登录北京市政府采购电子交易平台“用户指南”—“工具下载”—“招标采购系统文件驱动安装包”下载相关驱动。</p>
+<p>供应商登录北京市政府采购电子交易平台“用户指南”—“工具下载”—“投标文件编制工具”下载相关客户端。</p>
+<p>2.4 获取电子招标文件</p>
+<p>供应商使用CA数字证书或电子营业执照登录北京市政府采购电子交易平台获取电子招标文件。</p>
+<p>供应商如计划参与多个采购包的投标，应在登录北京市政府采购电子交易平台后，在【我的项目】栏目依次选择对应采购包，进入项目工作台招标/采购文件环节分别按采购包下载招标文件电子版。未在规定期限内按上述操作获取文件的采购包，供应商无法提交相应包的电子投标文件。</p>
+<p>2.5编制电子投标文件</p>
+<p>供应商应使用电子投标客户端编制电子投标文件并进行线上投标，供应商电子投标文件需要加密并加盖电子签章，如无法按照要求在电子投标文件中加盖电子签章和加密，请及时通过技术支持服务热线联系技术人员。</p>
+<p>2.6提交电子投标文件</p>
+<p>供应商应于投标截止时间前在北京市政府采购电子交易平台提交电子投标文件，上传电子投标文件过程中请保持与互联网的连接畅通。</p>
+<p>2.7电子开标</p>
+<p>供应商在开标地点使用CA数字证书或电子营业执照登录北京市政府采购电子交易平台进行电子开标。</p>
+<p>（1）若供应商已申请多把数字证书，请注意使用差别，确保制作的投标文件和开标解密时使用的数字证书一致，造成解密失败的，由供应商负责。</p>
+<p>（2）供应商应充分考虑到网络及系统平台可能存在的非正常情况，在投标文件递交截止时间之前完成上传。</p>
+<p>3.项目审批情况：本项目已获得主管部门审批，资金已落实。</p>
+<p>4.资金性质：财政资金。</p>
+<p>5.评分方法和标准：本项目采用综合评分法，满分100分，具体详见招标文件。</p>
+<p style="text-indent: 24.0000pt; mso-char-indent-count: 2.0000; line-height: 150%;">6.公告媒体：本公告同时在中国政府采购网、北京市政府采购网平台发布，未经采购人、采购代理机构授权的任何转载，采购人及采购代理机构不对其承担任何法律责任。<span style="mso-spacerun: 'yes'; font-family: 宋体; line-height: 150%; font-size: 12.0000pt; mso-font-kerning: 1.0000pt;"></span></p></p> <p><strong>七、对本次招标提出询问，请按以下方式联系。</strong></p> <p>1.采购人信息</p> <p>名 称：中国共产党北京市顺义区委员会宣传部本级　　　　　</p> <p>地址：北京市顺义区复兴东街1号行政中心　　　　　　　　</p> <p>联系方式：杨利军,010-61426859　　　　　　</p> <p>2.采购代理机构信息</p> <p>名 称：北京京采工程造价咨询有限公司　　　　　　　　　　　　</p> <p>地　址：北京市顺义区仁和地区太平村北北环路80号　　　　　　　　　　　　</p> <p>联系方式：马健，010-69406008　　　　　　　　　　　　</p> <p>3.项目联系方式</p> <p>项目联系人：马健</p> <p>电　话：　　010-69406008</p>
+    		</div>
+		</div>
+	</div>
+</div>
+<script>
+var href=$(".lc-table2 a.link").attr("href");
+if(href=="无"){
+	$(".lc-table2 a.link").attr("href","javascript:return false");
+}
+var  len=$(".newsCon").children('table').length;
+if(len==0){
+	$(".newsCon").css("width","100%");
+	$(".newsCon > div ").css("width","100%");
+	$(".newsCon > div > div ").css("width","100%");
+}
+</script>
+
+
+
+		<!---->
+			<div class="fixed_box" style="display: block;" id="post2"></div> 
+		<!---->
+
+﻿<!--footer---开始-->
+<script type="text/javascript" src="/r/cms/cn.gov.bjggzyfw.www/js/footer.js"></script>
+</body></html>

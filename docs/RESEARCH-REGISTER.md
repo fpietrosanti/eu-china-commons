@@ -26,6 +26,7 @@ Each line of research is a **branch** that stays open over time. An entry record
 | R14 | Private corporate funding (philanthropy) | 3 Nov | 3 Nov | ◐ | – | data/funding/ (private-*), FUNDING-COMPARISON.md §1a |
 | R15 | Funding of major projects | 3 Nov | 3 Nov | ◐ | – | docs/PROJECT-FUNDING.md, data/project-funding.json |
 | R16 | Multi-LLM iterative research (cross-cutting) | 2 Nov | 3 Nov | ◐ | – | reviews/, data/llm-runs.tsv |
+| R17 | External report "China's Open-Source Technology: Landscape and History" (Nov 2026, 504 projects) | 24 Nov | 24 Nov | ◐ | 2 / 1 | docs/EXT-REPORT-CN-OSS-LANDSCAPE.md |
 
 ---
 
@@ -91,6 +92,14 @@ Each line of research is a **branch** that stays open over time. An entry record
 - **Inconclusive:** employer shares of top contributors mostly inferred (B/C); SCS federal grant (~€15M), GnuPG STF amount, Matrix.org accounts to confirm.
 - **Incident:** an agent ran a stale scratch script that overwrote data/initiatives.json and data/new_source_urls.txt; both restored from git, verified identical to HEAD. Lesson: agents must not run scripts found in the scratchpad.
 - **Re-run recipe:** OpenDigger developer/affiliation endpoints per repo; Open Collective API; STF "Technologies" page; foundation annual reports.
+
+## R17 — External report: China's open-source landscape and history (Nov 2026)
+- **Question:** what does a 149-page external map of Chinese open source (504 projects, 26 cases, funding chapter) add to our branches, and what must be verified?
+- **Round 1 (24 Nov):** PDF shared via Fabio (no author stated). Text extracted with pdftotext. 741 links extracted from the PDF via pdftohtml -xml. Project tables parsed by coordinates (504 rows). Compared with the repo: 107 links known, 157 Chinese open-source projects new. 55 policy and case primaries archived.
+- **Worked:** links in the PDF give a primary source for nearly every claim; the coordinate parse of the tables is clean.
+- **Did not work / limits:** no author or publication status, so it stays at level C; no figures for open-source-specific funding; policy coverage below the national level is thin; Europe gets only 4 reference points.
+- **Re-run:** `pdftohtml -xml -i ian.pdf out` → parse `<a href>` and font-31 rows at left≈85 (script in the session notes; data in ~euchina/private/ian-report/).
+- **Next:** tasks 17.1–17.12 in docs/EXT-REPORT-CN-OSS-LANDSCAPE.md §5.
 
 ## Chapter closures
 - **Funding (R12–R15) → docs/FUNDING-CHAPTER.md v1.0, 3 Nov 2026.**
