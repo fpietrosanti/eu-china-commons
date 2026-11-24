@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>中华人民共和国驻意大利共和国大使馆</title>
+	<link rel="stylesheet" type="text/css" href="./images/css.css" />
+	<script type="text/javascript" src="./images/main.js"></script>
+	<style type="text/css">
+#simg {margin:0 auto; display:inline;}
+#simg a {
+	FONT-SIZE: 14px; background-color:#000; width:18px; height:18px; float:left; COLOR:#fff; LINE-HEIGHT: 18px; FONT-FAMILY: Arial; TEXT-ALIGN: center; border-left:#fff 1px solid; display:block;filter:alpha(opacity=80);
+}
+#simg a:hover{FONT-SIZE: 14px; background-color:#f00; width:18px; height:18px; float:left; COLOR: #fff; LINE-HEIGHT: 18px; FONT-FAMILY: Arial; TEXT-ALIGN: center; border-left:#fff 1px solid; display:block;}
+#simg {
+	 position:absolute;  right:0; bottom:38px;
+}
+#simg .s { background-color:#BF1E32;
+}
+#simg .s1 { background-color:#000;
+}
+#simg .s IMG {
+	FILTER: #5F6E7C
+}
+#simg a {
+	CURSOR: pointer
+}
+
+#bimg {
+	FILTER: progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 ); WIDTH: 376px; HEIGHT: 207px; 
+}
+
+#infos {
+	FILTER: progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 ); WIDTH: 376px; height:38px; line-height:38px; text-align:center; background-color:#d9d9d9; font-size:14px; font-weight:bold
+}
+
+
+.dis {
+	DISPLAY: block
+}
+.undis {
+	DISPLAY: none; LINE-HEIGHT: 0px; HEIGHT: 0px
+}
+
+
+.linkww TD {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.linkww A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.linkww A:hover {
+	TEXT-DECORATION: underline
+}
+
+</style>
+<script type="text/javascript">
+var n=0;
+
+function getid(obj)//取对应id的元素
+		  {
+			return document.getElementById(obj);
+		  }
+
+	function getNames(obj,name,tij)//取obj元素下标签为tij的元素并要求满足name属性=name;返回一个数组
+	{	
+		var p = getid(obj);
+		var plist = p.getElementsByTagName(tij);
+		var rlist = new Array();
+		for(i=0;i<plist.length;i++)
+		{
+			if(plist[i].getAttribute("name") == name)
+			{
+				rlist[rlist.length] = plist[i];
+			}
+		}
+		return rlist;
+	}
+
+	function ri(obj)//取得对应的小图列表中当前元素对应的序号
+	{
+		var p = getid("simg").getElementsByTagName("a");
+		for(i=0;i<p.length;i++)
+		{
+			if(obj == p[i])
+			{
+				return i;
+			}
+		}
+	}
+
+	function ci(obj)//小图选择框的处理函数
+	{
+		var p = getid("simg").getElementsByTagName("a");
+		for(i=0;i<p.length;i++)
+		{
+			if(obj.innerText ==p[i].innerText)
+			{
+				p[i].className = "s";
+				n = i;
+			}
+			else
+			{
+				p[i].className = "s1";
+			}
+		}
+	}
+	function fiterplay(obj,num,t,name)//类似页卡的函数.设置对应内容的隐藏和显示 obj:元素的id  name:元素对应的name属性的值, t:对应内容的标签 num:当前选择的元素的序号
+	{
+		var fitlist = getNames(obj,name,t);
+		for(i=0;i<fitlist.length;i++)
+		{
+
+			if(i == num)
+			{
+				fitlist[i].className = "dis";
+			}
+			else
+			{
+				fitlist[i].className = "undis";
+			}
+		}
+	}
+		  
+		  	
+	function play(obj,n1,n2)//播放的函数
+	{
+		var bimg = getid(n1);
+		var infos = getid(n2);
+		var num = ri(obj);
+		try	//ie下的处理部分
+		{
+			with(bimg)
+			{
+				filters[0].Apply();	//接收滤镜
+				//ci(obj); //变幻小图的选择.可以放在try以外.
+				fiterplay(n1,num,"div","f");//设置滤镜中对应部分的显示和隐藏
+				filters[0].play();	//播放滤镜
+				//alert(p[0].innerHTML)
+			}
+		with(infos)
+			{
+				filters[0].Apply();	//接收滤镜
+				//ci(obj); //变幻小图的选择.可以放在try以外.
+				fiterplay(n2,num,"div","f");//设置滤镜中对应部分的显示和隐藏
+				filters[0].play();	//播放滤镜
+			}
+		}
+		catch(e)//ff下的处理部分
+		{
+				//ci(obj);
+				fiterplay(n1,num,"div","f");
+				fiterplay(n2,num,"div","f");
+		}
+	}
+
+
+function setAuto(){autoStart=setInterval("auto(n)", 5000)}
+function auto()
+{
+	var x = getid("simg").getElementsByTagName("a");
+	n++;
+	if(n>x.length-1)n=0;
+	for(i=0;i<x.length;i++)
+		{
+			if(n ==i)
+			{
+				x[n].className = "s";
+			}
+			else
+			{
+				x[i].className = "s1";
+			}
+		}
+	play(x[n],"bimg","infos");
+	//alert(x[n].className);
+} 
+function clearAuto() {clearInterval(autoStart);};
+ setAuto();
+ 
+</script>
+<link href="./images/public_hb_0403.css" type="text/css" rel="stylesheet" />
+<script src="./images/public_hb_040301.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script src="https://www.fmprc.gov.cn/images/public_top_banner.js" type="text/javascript" ignorepad="1"></script>
+<script type="text/javascript">
+setRootPath("./");main_writeheader();
+</script>
+<div id="scroll">
+<iframe allowtransparency="true" scrolling="no" frameborder="0" width="991" height="110" src="./gdtp/"></iframe>
+</div>
+
+<div class="menuNav">
+	<a href="./">首页</a>
+	<a href="./zjydl/">走进意大利</a>
+	<a href="./lsyw/">领事服务</a>
+	<a href="./dsfs/">大使发声</a>
+</div>
+
+<div class="main">
+	
+	<div id="left">
+		<div class="nav">
+			<a href="./" class="li">首页</a>
+			<div style="padding:13px 0 16px 22px "><a href="./dsxx/"><img src="./dsxx/images/P020260912011261537648.jpg" width="180" border="0" height="227" alt="" /></a></div>
+			<a href="./sgxx/" class="li">使馆信息</a>
+
+            <div style="padding:24px 3px 0 3px"><a href="./sgxx/"><img src="./sgxx/images/P020210518623981028405.jpg" border="0" width="214" height="143" alt="" /></a></div>
+		</div>
+       <div class="search"><form action="https://www.fmprc.gov.cn/irs-c-web/search.shtml" method="get" style="margin-bottom:0" onsubmit="return search_check()"><input type="hidden" name="code" value="1828c60d505" /><input type="hidden" name="dataTypeId" value="292" /><input type="text" name="searchWord" id="sw" onclick="javascript:if(this.value=='请输入关键字') this.value=''" value="请输入关键字" /><br><select name="select" id="select"> <option selected="selected" value="1">本站点</option> <option value="0">所有站点</option></select><input name="submit" type="submit" id="submit" value="搜索" /></form></div>
+		<a href="./xglj/" class="li">相关链接</a>
+        <div class="ydl">
+		   <ul>
+		      
+			  <li><a href="http://www.chinadiplomacy.org.cn/" target="_blank"><img src="./xglj/202310/W020231006794167258617.png" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="https://www.facebook.com/chineseembassyitaly" target="_blank"><img src="./xglj/201905/W020210704133975567198.jpg" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="https://twitter.com/ambcina" target="_blank"><img src="./xglj/201905/W020210704133945322839.jpg" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="https://www.tiktok.com/@ambcina" target="_blank"><img src="./xglj/202311/W020231121617881391971.png" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="https://www.instagram.com/ambcina/?hl=zh-cn" target="_blank"><img src="./xglj/202311/W020231121621640909446.png" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="http://it.mofcom.gov.cn/" target="_blank"><img src="./xglj/201905/W020210704133915562481.jpg" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="http://it.china-embassy.org/chn/kjhz/" target="_blank"><img src="./xglj/201905/W020210704133885453565.jpg" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="http://it.china-embassy.org/chn/whjl/" target="_blank"><img src="./xglj/201905/W020210704133855440565.jpg" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="http://italy.lxgz.org.cn/" target="_blank"><img src="./xglj/201905/W020210704133825545493.jpg" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="http://milano.china-consulate.org/chn/" target="_blank"><img src="./xglj/201905/W020210704133795729967.jpg" width="135" border="0" //></a></li>
+			  	
+			  <li><a href="http://firenze.china-consulate.org/chn/" target="_blank"><img src="./xglj/201905/W020210704133765788962.jpg" width="135" border="0" //></a></li>
+			  			  
+		   </ul>
+		
+		</div>
+	</div>
+	
+	<div id="right">
+		<div class="center_content">
+			<div class="title1"><strong class="tag">双边要闻</strong></div>
+			<div>
+				
+				<div>
+					<div class="recommend clearfix">
+                    	<div class="recommendImg">
+						<div class="focus fl" style="position:relative;z-index:9;">
+        	<TABLE cellSpacing=0 cellPadding=0 width=376 align=center border=0>
+    <TBODY>
+      <TR>
+        <TD>
+<div id="simg">
+                <a class="s" onmouseover="clearAuto();ci(this);play(this,'bimg','infos');" style="border-left:none;" onmouseout="setAuto()">1</a>
+                <a class="s1" onmouseover="clearAuto();ci(this);play(this,'bimg','infos');" onmouseout="setAuto()">2</a>
+                <a class="s1" onmouseover="clearAuto();ci(this);play(this,'bimg','infos');" onmouseout="setAuto()">3</a>
+                <a class="s1" onmouseover="clearAuto();ci(this);play(this,'bimg','infos');" onmouseout="setAuto()">4</a>
+            </div>
+          <DIV id=bimg>
+		  	
+			
+			<DIV class="dis" name="f"><a href="./sbyw/202611/t20261121_12064563.htm" target="_blank"><img src="./sbyw/202611/W020261121615526602467.jpg" height="207" width="376" border="0" alt=""//></a></DIV>
+			
+			
+            <DIV class="undis" name="f"><a href="./sbyw/202611/t20261111_12057673.htm" target="_blank"><img src="./sbyw/202611/W020261111820392184017_ORIGIN.jpg" height="207" width="376" border="0" alt=""//></a></DIV>
+			
+            <DIV class="undis" name="f"><a href="./sbyw/202611/t20261111_12057665.htm" target="_blank"><img src="./sbyw/202611/W020261111817886829103_ORIGIN.jpg" height="207" width="376" border="0" alt=""//></a></DIV>
+			
+            <DIV class="undis" name="f"><a href="./sbyw/202611/t20261114_12059243.htm" target="_blank"><img src="./sbyw/202611/W020261114065729372007.jpg" height="207" width="376" border="0" alt=""//></a></DIV>
+			
+			
+          </DIV></TD>
+      </TR>
+      <TR>
+        <TD class="linkww" bgcolor="#d9d9d9">
+		<div id="infos">
+		<table align="center" width="376" cellpadding="0" cellspacing="0" border="0">
+		<tr><td valign="middle" height="38">
+			
+			
+			
+            <div class=dis name="f"><a href="./sbyw/202611/t20261121_12064563.htm" target="_blank">驻意大利使馆举办“中国大讲堂”介绍台湾问题和...</a></div>
+			
+			
+            <div class=undis name="f"><a href="./sbyw/202611/t20261111_12057673.htm" target="_blank">侯悦大使在“治理与革新：意大利视角下的百年大...</a></div>
+			
+            <div class=undis name="f"><a href="./sbyw/202611/t20261111_12057665.htm" target="_blank">驻意大利大使侯悦出席“治理与革新：意大利视角...</a></div>
+			
+            <div class=undis name="f"><a href="./sbyw/202611/t20261114_12059243.htm" target="_blank">驻意大利大使侯悦会见意民主党国际书记普罗文扎诺</a></div>
+			
+			
+			
+		</td></tr>
+       </table>
+	   </div>
+       </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+        </div>
+						</div>
+						
+                    	<div class="recommendTxt"><div class="wz20"><a href="./sbyw/202611/t20261121_12064563.htm" target="_blank">驻意大利使馆举办“中国大讲堂”介绍台湾问题和中方立场</a></div>
+						<div style="padding-left:10px; color:#1587b9; margin-top:13px">
+						<span id="sghd" style="display:none">2026年11月19日，驻意大利使馆举办“中国大讲堂”，第十四届全国政协常委、外事委员会副主任刘结一围绕“台湾问题和中方立场”举行讲座，中国政府欧洲事务特别代表卢沙野，第十四届全国政协委员、中华全国台湾同胞联谊会副会长蔡睿等出席，驻意大利大使侯悦主持。意政界、学界、媒体、智库等140余人参加。刘结一系统阐释了台湾问题的历史经纬、法理事实，全面介绍两岸关系现...</span>						
+				<a href="./sbyw/202611/t20261121_12064563.htm" target="_blank" id="sghdcon">
+				<script type="text/javascript">
+                    var con = document.getElementById("sghd").innerText;
+						con   =   con.replace(/\s/ig,'');
+						con   =   con.replace(/\s/ig,' ');
+						con   =   con.replace(/\s/ig,'&nbsp;');
+						con   =   con.replace(/\s/ig,'<br/>');
+						con   =   con.replace(/(^\s*)|(\s*$)/g," ");
+						document.write(LTrim(con));
+				</script>
+				</a>
+				<a href="./sbyw/202611/t20261121_12064563.htm" target="_blank" id="sghdabs"></a>
+					<script type="text/javascript">
+						if(document.getElementById("sghdabs").innerText=="")
+						{
+							document.getElementById("sghdabs").style.display="none";
+							document.getElementById("sghdcon").style.display="block";
+						}
+						else
+						{
+						document.getElementById("sghdabs").innerHTML=document.getElementById("sghdabs").innerText;
+							document.getElementById("sghdabs").style.display="block";
+							document.getElementById("sghdcon").style.display="none";
+						}
+					</script>
+						</div>
+                        </div>
+						
+					<div class="cl"></div>	
+                  </div>
+                        
+				<ul style="margin-bottom:8px">
+				
+				<li><a href="./sbyw/202611/t20261117_12061412.htm" target="_blank">董军同意大利国防部长举行会谈</a><span>（2026-11-17）</span></li>
+				
+				<li><a href="./sbyw/202611/t20261111_12057673.htm" target="_blank">侯悦大使在“治理与革新：意大利视角下的百年大党”专题研讨会上的致辞</a><span>（2026-11-11）</span></li>
+				
+				<li><a href="./sbyw/202611/t20261111_12057665.htm" target="_blank">驻意大利大使侯悦出席“治理与革新：意大利视角下的百年大党”专题研讨会</a><span>（2026-11-11）</span></li>
+				
+				<li><a href="./sbyw/202611/t20261114_12059243.htm" target="_blank">驻意大利大使侯悦会见意民主党国际书记普罗文扎诺</a><span>（2026-11-14）</span></li>
+				
+				<li><a href="./sbyw/202611/t20261110_12056416.htm" target="_blank">驻意大利大使侯悦接受《信使报》专访</a><span>（2026-11-10）</span></li>
+				
+				<li><a href="./sbyw/202611/t20261105_12054146.htm" target="_blank">驻意大利大使侯悦与意企业与“意大利制造”部部长乌尔索会见</a><span>（2026-11-05）</span></li>
+				
+				<li><a href="./sbyw/202611/t20261105_12053430.htm" target="_blank">驻意大利大使侯悦出席纪念孙中山先生诞辰160周年座谈会</a><span>（2026-11-04）</span></li>
+				
+				<li><a href="./sbyw/202611/t20261104_12052723.htm" target="_blank">驻意大利大使侯悦会见意参议院秘书长托尼亚托</a><span>（2026-11-04）</span></li>
+				
+				<a class="more1" href="./sbyw/">更多...</a>
+             <div class="cl"></div>
+				</ul>
+				</div>				
+		  </div>
+		  
+		  
+		 <div class="wwd">
+		  <div class="wwdd">
+			<div class="title1"><strong class="tag">最新动态</strong></div>
+			<ul>
+				
+				<li><a href="./sbdt/202611/t20261121_12064563.htm" target="_blank">驻意大利使馆举办“中国大讲堂”介绍台湾问题和中方立场</a><span>（2026-11-21）</span></li>
+				
+				<li><a href="./sbdt/202611/t20261117_12061412.htm" target="_blank">董军同意大利国防部长举行会谈</a><span>（2026-11-17）</span></li>
+				
+				<li><a href="./sbdt/202611/t20261114_12059243.htm" target="_blank">驻意大利大使侯悦会见意民主党国际书记普罗文扎诺</a><span>（2026-11-14）</span></li>
+				
+				<li><a href="./sbdt/202611/t20261111_12057673.htm" target="_blank">侯悦大使在“治理与革新：意大利视角下的百年大党”专题研讨会上的致辞</a><span>（2026-11-11）</span></li>
+				
+				<li><a href="./sbdt/202611/t20261111_12057665.htm" target="_blank">驻意大利大使侯悦出席“治理与革新：意大利视角下的百年大党”专题研讨会</a><span>（2026-11-11）</span></li>
+				
+				<li><a href="./sbdt/202611/t20261110_12056416.htm" target="_blank">驻意大利大使侯悦接受《信使报》专访</a><span>（2026-11-10）</span></li>
+				
+				<li><a href="./sbdt/202611/t20261105_12054147.htm" target="_blank">驻意大利大使侯悦与意企业与“意大利制造”部部长乌尔索会见</a><span>（2026-11-05）</span></li>
+				
+				<li><a href="./sbdt/202611/t20261105_12053430.htm" target="_blank">驻意大利大使侯悦出席纪念孙中山先生诞辰160周年座谈会</a><span>（2026-11-04）</span></li>
+				
+                 <a class="more2" href="./sbdt/">更多...</a>
+				 
+				 <div class="cl"></div>
+			</ul>
+			
+		  </div>
+		  
+		  <div class="cl"></div>
+		  
+		  
+		  <div class="wwdd1">
+            <div class="title1"><strong class="tag">重要领事通知</strong></div>
+			<ul>
+		
+				<li><a href="./lstz/202605/t20260513_11909986.htm" target="_blank"><font color="#ff0000">领事保护联系方式</font></a><span>（2026-05-13）</span></li>
+				
+				<li><a href="./lstz/202506/t20250612_11647441.htm" target="_blank">关于重申为中国公民办理证件提供“只跑一次” “一次性告知”和“绿色通道”等便民服务的通知</a><span>（2025-06-12）</span></li>
+				
+				<li><a href="./lsyw/lingshibaohu/202508/t20250806_11683679.htm" target="_blank"><font color="#0000ff">旅意中国游客安全指南</font></a><span>（2025-08-06）</span></li>
+				
+				<li><a href="./lstz/202512/t20251210_11769795.htm" target="_blank">驻意大利使馆领事办证大厅2026年放假安排</a><span>（2025-12-10）</span></li>
+				
+				<li><a href="./lstz/202511/t20251104_11746372.htm" target="_blank"><font color="#000000">关于延长对意大利等国单方面免签政策的通知</font></a><span>（2025-11-04）</span></li>
+				
+				<a class="more2" href="./lstz/">更多...</a>
+			</ul>
+		  </div>	
+			<div class="wwdd2">
+            <div class="title1"><strong class="tag">外交部发言人谈话</strong></div>
+			<ul>
+				
+				<li><a href="./fyrth/202611/t20261124_12066219.htm" target="_blank">2026年11月24日外交部发言人郭嘉昆主持例行记者会</a><span>（2026-11-24）</span></li>
+				
+				<li><a href="./fyrth/202611/t20261123_12065449.htm" target="_blank">2026年11月23日外交部发言人郭嘉昆主持例行记者会</a><span>（2026-11-23）</span></li>
+				
+				<li><a href="./fyrth/202611/t20261120_12063932.htm" target="_blank">2026年11月20日外交部发言人郭嘉昆主持例行记者会</a><span>（2026-11-20）</span></li>
+				
+				<li><a href="./fyrth/202611/t20261119_12062896.htm" target="_blank">2026年11月19日外交部发言人郭嘉昆主持例行记者会</a><span>（2026-11-19）</span></li>
+				
+				<li><a href="./fyrth/202611/t20261118_12061934.htm" target="_blank">2026年11月18日外交部发言人郭嘉昆主持例行记者会</a><span>（2026-11-18）</span></li>
+				
+				<a class="more2" href="./fyrth/">更多...</a>
+			</ul>
+			</div>
+			
+	     </div>
+		 <div class="wwdr">
+		   <ul>
+		   
+		      <li><a href="http://www.gov.cn/" target="_blank"><img src="./yctplj/201905/W020210704134275402116.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="http://www.fmprc.gov.cn/" target="_blank"><img src="./yctplj/201905/W020210704134245420628.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="https://www.yidaiyilu.gov.cn/" target="_blank"><img src="./yctplj/201905/W020210704134215392379.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="http://cs.mfa.gov.cn/" target="_blank"><img src="./yctplj/201905/W020210704134185498798.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="http://www.cnafun.moa.gov.cn/" target="_blank"><img src="./yctplj/201905/W020210704134155448785.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="http://www.xinhuanet.com/" target="_blank"><img src="./yctplj/201905/W020210704134125316367.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="http://www.people.com.cn/" target="_blank"><img src="./yctplj/201905/W020210704134095346671.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="https://italian.cri.cn/" target="_blank"><img src="./yctplj/201905/W020231129785333624631.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="https://www.weibo.com/wjxlt" target="_blank"><img src="./yctplj/201905/W020210704134035517680.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		      <li><a href="https://www.ciie.org/zbh/index.html" target="_blank"><img src="./yctplj/201908/W020250218675945184986.jpg" width="137" border="0" alt="" //></a></li>
+		   
+		   </ul>
+		
+		 
+		 </div>
+		 		
+
+	  </div>
+		
+		
+		<div style="clear:both"></div>
+	</div>
+</div>
+
+<div class="cl"></div>
+
+<div class="bott">
+  <ul>
+      
+  </ul>
+
+<div class="cl"></div>
+</div>
+<script type="text/javascript">
+main_writefooter();
+</script><script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=5153" async="async" defer="defer"></script>
+</body>
+</html>

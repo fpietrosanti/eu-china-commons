@@ -1,0 +1,2402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1200">
+  <meta http-equiv="Expires" content="0"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Cache" content="no-cache"/>
+  <title>国家科技管理信息系统公共服务平台</title>
+  <script src="../ui/js/jquery.min.js"></script>
+  <script src="../ui/js/jquery.cookie.js"></script>
+  <script src="../ui/js/cy_tools.js?v=202402231606"></script>
+  <script src="../ui/js/cy_userAction.js?v=202402231606"></script>
+  <!-- <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js" async></script> -->
+  <script src="../ui/js/jweixin-1.6.0.js"></script>
+  <script src="../ui/js/wechat-share.js?w=20241101&v=202402231606"></script>
+  <link rel="stylesheet" href="../ui/css/reset.css?v=2024051401">
+  <link rel="stylesheet" href="../ui/css/cy_tools.css?v=2024051401">
+  <link rel="stylesheet" href="../ui/css/public.css?v=2024051401">
+  <link rel="stylesheet" href="../ui/popup/css/index.css?v=2024051401">
+  <link rel="stylesheet" href="../ui/iconfont/iconfont.css">
+  <link rel="stylesheet" href="../ui/css/pop.css?v=2024051401">
+
+  <style>
+    body{
+      min-width: 1200px;
+      min-height: 880px;
+    }
+    .login_user_info_row {
+      margin-bottom: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .login_user_info_title {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      vertical-align:top;
+    }
+
+    .login_user_info_label {
+      display: inline-block;
+      width: 140px;
+      text-align: left;
+      vertical-align:top;
+    }
+
+
+  </style></head>
+<body>
+  <!-- ========================================= -->
+  <!-- ========================================= -->
+  <!-- =============    公共页头    ============= -->
+  <!-- ========================================= -->
+  <!-- ========================================= -->
+  <link rel="stylesheet" href="../ui/css/layout_header.css?v=2024051401">
+  <!-- 页头工具栏 -->
+  <div class="layout_header_tools_bar">
+    <div class="layout_header_tools_bar_box">
+      <div class="today_week">
+        <span id="time_today" style="padding-left: 15px;"></span>
+        <span id="time_week" style="padding-left: 15px;"></span>
+      </div>
+      <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center; margin: 0;">
+	  <!--     <div style="user-select: none; cursor: pointer; color: #5289dd;" onclick="location.href='https://service.most.gov.cn/'">切换旧版</div> -->
+	      <div class="header_tools_icon">
+	        <div class="header_tools_icon_box">
+	          <img src="../ui/images/index/icon_wenhao.png">
+	          <div class="header_tools_icon_txt" onclick="window.open('../help/index.html')">在线帮助</div>
+	        </div>
+	      </div>
+	      <div class="vx_icon_box">
+	        <img src="../ui/images/index/icon_xiaochengxu.png">
+	        <div class="vx_code_img_box">
+	          <img src="../ui/images/index/vx_code.png">
+	        </div>
+	      </div>
+	      <div class="header_tools_icon all_nav_btn">
+	        <div class="header_tools_icon_box">
+	          <img src="../ui/images/index/icon_quanzhandaohang.png">
+	          <div class="header_tools_icon_txt">全站导航</div>
+	        </div>
+	      </div>
+	      <!-- 未登录状态 -->
+	      <div>
+	        <img src="../ui/images/index/icon_user.png" title="用户">
+	        <span style="user-select: none; cursor: pointer;">
+	          <span onclick="topLogin()">登录</span>/<span onclick="register()">注册</span>
+	        </span>
+	      </div>
+	      <div>
+	        <img src="../ui/images/index/key_icon.png" title="忘记密码">
+	        <span style="user-select: none; cursor: pointer;">
+	          <span onclick="dxResetPassword()">忘记密码</span>
+	        </span>
+	      </div>
+	    </div>
+	 </div>
+  </div>
+  <script>
+    $(function () {
+      // 显示 全站导航
+      $('.all_nav_btn').click(function () {
+        $('body').css({ 'overflow-y': 'hidden' })
+        $('.popup_iframe_nav_box').show().stop(true).animate({ height: '100%' })
+      })
+
+      // 隐藏 全站导航
+      $('.all_nav_btn_show').click(function () {
+        $('body').css({ 'overflow-y': 'auto' })
+        $('.popup_iframe_nav_box').stop(true).animate({ height: 0 }, 500, function () {
+          $('.popup_iframe_nav_box').hide()
+        })
+      })
+      // 当前日期
+      $('#time_today').text(function () {
+        var d = new Date()
+        var yyyy = d.getFullYear()
+        var mm = (d.getMonth() + 1) < 10 ? '0' + (d.getMonth() + 1) : (d.getMonth() + 1)
+        var dd = d.getDate() < 10 ? '0' + d.getDate() : d.getDate()
+        return yyyy + '年' + mm + '月' + dd + '日'
+      })
+
+      // 当前星期
+      $('#time_week').text(function () {
+        var d = new Date()
+        var wk_txt = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']
+        var wk = wk_txt[d.getDay()]
+        return wk
+      })
+      
+      // 滚动到页面上方
+      $('.s_top').click(function () {
+        window.scroll(0, 0)
+      })
+      
+      
+    })
+  </script>
+
+  <!-- 全站导航 -->
+  <div class="popup_iframe_nav_box">
+    <div class="popup_iframe_nav_tools_box">
+      <img src="../ui/images/index/icon_logo.png">
+      <img src="../ui/images/index/popup_close.png" class="all_nav_btn_show">
+    </div>
+    <div class="popup_iframe_nav_box_s">
+      <iframe id="web_all_nav_link" style="border: 0;"></iframe>
+      <script>
+        $(function () {
+          $('#web_all_nav_link').attr('src', '../index/global_nav.html?v=' + (new Date().getTime()))
+        })
+      </script>
+    </div>
+  </div>
+
+  <!-- logo -->
+  <div class="layout_header_logo_bar">
+    <div class="layout_header_logo_bar_box">
+      <div>
+        <img src="../ui/images/index/icon_logo_m.png?v=1.0.0">
+      </div>
+      <!-- 搜索区域 -->
+      <div class="layout_header_search_bar">
+        <div class="layout_header_search_bar_box">
+          <div style="width:190px;"><input tabindex="-1" id="searchKeyTop" placeholder="搜索" type="text"></div>
+          <div style="cursor: pointer;" id="searchBtn"><img src="../ui/images/index/icon_search.png"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 导航栏 -->
+  <div class="layout_header_nav_bar">
+    <div class="layout_header_nav_bar_box">
+      <div url="../index/" code="100" target="_self" class="layout_header_nav_item layout_header_nav_item_chk">
+        <div url="../index/" code="100" target="_self" class="layout_header_nav_item_icon">
+          <img src="../ui/images/index/icon_home.png">
+        </div>
+        	首页
+      </div>
+
+<div url="../kjjh_tztg_all/" code="200" target="_self" class="layout_header_nav_item ">公开公示</div>
+      <div url="../xmtj/" code="300" target="_self" data-nav="xmtj" class="layout_header_nav_item ">项目申报</div>
+      <div url="../zxfw/" code="400" target="_self" class="layout_header_nav_item ">在线服务</div>
+       
+      <div url="../kjjr/" code="800" target="_self" class="layout_header_nav_item "">科技金融</div>
+     
+
+<div url="../jdpg/" code="500" target="_self" class="layout_header_nav_item ">监督评估</div>
+<div url="../kjll/" code="600" target="_self" class="layout_header_nav_item ">伦理登记平台</div>
+    
+      <!-- <div url="../kjgh/" code="600" target="_self" class="layout_header_nav_item ">成果报告</div> -->
+      <!-- <div url="../kyzy/" code="700" target="_self" class="layout_header_nav_item ">科研资源</div> -->
+    </div>
+  </div>
+  
+  <!-- 右侧漂浮 -->
+  <div class="layout_header_sidebar">
+	  <div class="layout_header_window" style="height: 370px;width:80px">
+	    <div class="layout_header_window_item" onclick="location.href='../xmtj/?type=sbsm'">
+	      <div><img src="../ui/images/index/icon_window_01.png"></div>
+	      <div>申报说明</div>
+	    </div>
+	    <div class="layout_header_window_item" onclick="location.href='../zxfw/?type=1'">
+	      <div><img src="../ui/images/index/icon_window_02.png"></div>
+	      <div>申报流程</div>
+	    </div>
+	    <div class="layout_header_window_item" onclick="window.open('../help/index.html')">
+	      <div><img src="../ui/images/index/icon_window_03.png"></div>
+	      <div>用户手册</div>
+	    </div>
+	    <div class="layout_header_window_item" onclick="favorite()">
+	      <div><img src="../ui/images/index/icon_window_04.png"></div>
+	      <div>收藏本站</div>
+	    </div>
+	    <!-- <div class="layout_header_window_item" onclick="window.open('https://advice2035.most.cn/')">
+	      <div><img src="../ui/images/index/icon_window_05.png"></div>
+	      <div>工作意见</div>
+	    </div> -->
+	    <div class="layout_header_window_item" onclick="location.href='../index/xcx_index.html?v=20240115'">
+	      <div><img src="../ui/xcx/images/logo_s.png"></div>
+	      <div>小程序</div>
+	    </div>
+	    <div class="layout_header_window_item" onclick="fcClose()">
+	      <div><img src="../ui/images/close.png" style="width: 15px"></div>
+	      <div>关闭</div>
+	    </div>
+	    <div class="layout_header_window_item">
+	      <div class="s_top"><img src="../ui/images/index/icon_window_06.png"></div>
+	    </div>
+	  </div>
+	  <div class="layout_header_favorite" id="sc" style="display: none;">
+	  	<span class="content">Ctrl+D 把科技管理信息系统公共服务平台放入收藏夹！</span>
+	  	<i class="arrow"></i>
+	  </div>
+  </div>
+<!-- 登录提示 -->
+
+<popup id="powerPopup" title="登录提示" tabindex="-1" width="600" height="300" icon="popup_warning" style="display: none">
+  <popup-content>
+    <div style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+      请您先登录系统，再浏览该栏目；如您尚未获取登录账号，请点击<font style="font-size: 18px;color: #FF0000">“用户注册”</font>。
+    </div>
+  </popup-content>
+  <popup-btns>
+    <popup-btn onclick="register()" tabindex="2" background="transparent" color="#5387eb">用户注册</popup-btn>
+    <popup-btn onclick="" id="moduleLogin" tabindex="0" background="" color="">用户登录</popup-btn>
+    <popup-btn onclick="cy_pupup_close('powerPopup')" tabindex="1" background="#b9b9b9" color="">取消</popup-btn>
+  </popup-btns>
+</popup>
+<!-- 登录成功提示 -->
+
+<!-- <popup id="loginOk" title="登录成功提示" tabindex="-1" width="600" height="300" icon="popup_success" style="display: none">
+<popup-content>
+    <div class="login_user_info_row">
+      <div class="login_user_info_title">用户姓名：</div>
+      <div class="login_user_info_label"><%=ui.getUsername()%></div>
+      <div class="login_user_info_title">单位名称：</div>
+      <div class="login_user_info_label"><%=orgname %></div>
+    </div>
+    <div class="login_user_info_row">
+      <div class="login_user_info_title">登录时间：</div>
+      <div class="login_user_info_label"><%=systemDate%></div>
+      <div class="login_user_info_title">登录IP：</div>
+      <div class="login_user_info_label"><%=ui.getUserip()%></div>
+    </div>
+
+  </popup-content>
+  <popup-btns>
+    <popup-btn onclick="cy_pupup_close('loginOk')" tabindex="0" background="#5387eb" color="#FFF">确定</popup-btn>
+  </popup-btns>
+
+</popup>-->
+
+
+
+<!-- 新登录成功提示    -->
+
+<popup id="loginOk" title="登录成功提示" tabindex="-1" width="600" height="600" icon="popup_success" style="display: none">
+  <popup-content class="login_info">
+    <div class="login_user_info_row">
+      <div class="login_user_info_title">用户姓名：</div>
+      <div class="login_user_info_label" title="<%=ui.getUsername()%>"><%=ui.getUsername()%></div>
+      <div class="login_user_info_title">单位名称：</div>
+      <div class="login_user_info_label" title="<%=orgname %>"><%=orgname %></div>
+    </div>
+    <div class="login_user_info_row">
+      <div class="login_user_info_title">登录时间：</div>
+      <div class="login_user_info_label"><%=systemDate%></div>
+      <div class="login_user_info_title">登录IP：</div>
+      <div class="login_user_info_label"><%=ui.getUserip()%></div>
+    </div>
+    <div class="login_info_fot">
+      <span><i></i>本平台为互联网非涉密平台</span>
+      <p>严禁处理、传输国家秘密，请确认扫描、传输的文件资料不涉及国家秘密。</p>
+    </div>
+  </popup-content>
+  <popup-btns>
+    <popup-btn onclick="cy_pupup_close('loginOk')" tabindex="0" background="#5387eb" color="#FFF">确定</popup-btn>
+  </popup-btns>
+</popup>
+
+
+
+
+<!-- 实名认证提示 -->
+<popup id="auth" title="信息提示" tabindex="-1" width="600" height="510" icon="popup_warning" style="display: none">
+  <popup-content>
+    <div id="certificateMessage" style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+    </div>
+    <div id="bcSwsClPrompt" style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+    </div>
+    <div id="updatemessage" style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+    </div>
+  </popup-content>
+  <popup-btns>
+    <popup-btn id="authbtn" onclick="authLink('auth')" tabindex="0" background="#cccc" color="#999">5</popup-btn>
+  </popup-btns>
+</popup>
+
+
+
+<!-- 科研诚信弹窗 -->
+
+<!-- 科研诚信2弹窗 -->
+
+
+<!-- 科研诚信填写中弹窗 -->
+
+
+ <!-- 需求征集弹窗 -->
+
+
+<div class="dialog-20220527" id="zjPrompt" style="display:none">
+    <div class="dialog-close-20220527" style="cursor: pointer;">
+      <img src="../ui/popup/img/close-icon.png" alt="关闭">
+    </div>
+    <div class="dialog-body-20220527">
+      <div class="body-bgimg-20220527">
+        <div class="body-title-20220527">
+          <img src="../ui/popup/img/info-icon.png" alt="信息提示图标">
+          <img src="../ui/popup/img/info-text.png" alt="信息提示文字">
+    <div style="float: right;margin-right: 4px;width: 291px;padding: 8px;background: url(/ui/popup/img/rectangle-3.png) no-repeat;">
+          <span style="margin-left: 10px; "><a href="/wdtz/20220526/4922.html" target="_blank" style=" font-size: 16px;font-weight: 600;color: white;">查看专家库信息更新常见问题</a></span></div>
+        </div>
+        <div class="body-content-20220527">
+          <div class="first-sentence-20220527" style="font-size: 18px">为进一步完善国家科技专家库建设，提升专家参与国家科技管理活动的质量，请您通过</div>
+          <div class="second-sentence-20220527" style="font-size: 18px">“ <span class="word-20220527">在线服务</span><span> —— </span><span class="word-20220527">专家管理</span><span> —— </span><span class="word-20220527">专家库</span> ”</div>
+          <div class="last-sentence-20220527" style="font-size: 18px">及时完成信息更新及确认。</div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog-footer-20220527">
+      <div class="footer-button-20220527" style="background: url(/ui/popup/img/jrzjk.gif) no-repeat;" onclick="window.open('https://expert.most.gov.cn/service?<%=par %>')">
+        <!-- <span style="font-size: 18px">进入专家库</span>
+        <span style="font-size: 18px">&gt;</span>-->
+      </div>
+      <div class="footer-text-20220527" style="font-size: 18px;line-height: 33px;margin-right: 88px;">
+         <a href="/u/cms/static/202205/国家科技专家库管理办法_20220531223134.pdf" target="_blank" style="font-size: 18px;color:#0f7ecc;">国家科技专家库管理办法</a><br>
+         <a href="/u/cms/static/202205/入库专家基本标准_20220531223134.pdf" target="_blank" style="font-size: 18px;color:#0f7ecc;">关于完善补充专家信息的通知</a>
+      </div>
+    </div>
+  </div>
+
+<popup id="adminList" title="多账号提示" tabindex="-1" width="770" height="300" icon="popup_success" style="display: none">
+  <popup-content>
+    <table id="zh" style="width: 100%;">
+    <thead>
+    <tr><td style="border: 1px solid #efefef;text-align: center;font-weight: bold;line-height: 24px;">登录名</td>
+    <td style="border: 1px solid #efefef;text-align: center;font-weight: bold;line-height: 24px;">姓名</td>
+    <td style="border: 1px solid #efefef;text-align: center;font-weight: bold;line-height: 24px;">所属单位</td>
+    <td style="border: 1px solid #efefef;text-align: center;font-weight: bold;line-height: 24px;">账号状态</td>
+    <td style="border: 1px solid #efefef;text-align: center;font-weight: bold;line-height: 24px;">角色</td>
+    <!-- <td style="border: 1px solid #efefef;text-align: center;font-weight: bold;">最后一次登录时间</td>
+    <td style="border: 1px solid #efefef;text-align: center;font-weight: bold;">备注</td></tr> -->
+    </thead>
+    <tbody id="tb"></tbody>
+    </table>
+  </popup-content>
+  <popup-btns>
+    <popup-btn onclick="cy_pupup_close('adminList')" tabindex="0" background="#5387eb" color="#FFF">确定</popup-btn>
+  </popup-btns>
+</popup>
+
+<div class="dialog-20220527" id="adminPrompt" style="display:none">
+    <div class="dialog-close-20220527" style="cursor: pointer;">
+      <img src="../ui/popup/img/close-icon.png" alt="关闭">
+    </div>
+    <div class="dialog-body-20220527">
+      <div class="body-bgimg-20220527">
+        <div class="body-title-20220527">
+          <img src="../ui/popup/img/info-icon.png" alt="信息提示图标">
+          <img src="../ui/popup/img/info-text.png" alt="信息提示文字">
+    <div style="float: right;margin-right: 4px;width: 291px;padding: 8px;background: url(/ui/popup/img/rectangle-3.png) no-repeat;">
+          <span style="margin-left: 10px; "><a href="/wdtz/20220526/4922.html" target="_blank" style=" font-size: 16px;font-weight: 600;color: white;">查看专家库信息更新常见问题</a></span></div>
+        </div>
+        <div class="body-content-20220527">
+          <div class="first-sentence-20220527" style="font-size: 18px">为进一步完善国家科技专家库建设，提升专家参与国家科技管理活动的质量，请您通过</div>
+          <div class="second-sentence-20220527" style="font-size: 18px">“ <span class="word-20220527">在线服务</span><span> —— </span><span class="word-20220527">专家管理</span><span> —— </span><span class="word-20220527">专家审核</span> ”</div>
+          <div class="last-sentence-20220527" style="font-size: 18px">及时完成本单位专家信息确认及审核工作。</div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog-footer-20220527">
+      <div class="footer-button-20220527" style="background: url(/ui/popup/img/zjps.gif) no-repeat;" onclick="window.location.href='/zxfw/?click=5020zjgl'">
+        <!-- <span style="font-size: 18px">专家审核</span>
+        <span style="font-size: 18px">&gt;</span> -->
+      </div>
+      <div class="footer-text-20220527" style="font-size: 18px;line-height: 33px;margin-right: 88px;">
+         <a href="/u/cms/static/202205/国家科技专家库管理办法_20220531223134.pdf" target="_blank" style="font-size: 18px; color:#0f7ecc;">国家科技专家库管理办法</a><br>
+         <a href="/u/cms/static/202205/入库专家基本标准_20220531223134.pdf" target="_blank" style="font-size: 18px; color:#0f7ecc;">关于完善补充专家信息的通知</a>
+      </div>
+    </div>
+  </div>
+
+<script>
+  var ua = new userAction({ autoSend: false })
+  var login = "访客";
+  var userType = "访客";
+  var orgName = "访客";
+  var userName = "访客";
+  var Role ="";
+  $(function () {
+	// 右侧浮层箭头动态显示
+	$(window).scroll(function() {
+	   var e = $(window).scrollTop();
+	   e > 60 ? $(".layout_header_window").css("height","410px") : $(".layout_header_window").css("height","370px")
+	})
+    //浏览器兼容
+    var isCompatible = getBrowserInfo();
+    if(!isCompatible){
+   	  $('#jianrong').show()
+    }
+
+     //20261117 // 导航选中态：整个页面只允许存在一个 layout_header_nav_item_chk
+    // 服务端模板、公共 JS、异步脚本都可能给菜单追加 chk；/xmtj/ 下多个菜单共用路径和
+    // code=300，「项目推荐」和「项目推荐(新)」尤其容易被同时标记，这里统一强制互斥。
+    var NAV_ACTIVE_KEY = 'navActiveKey';
+    var $activeNav = null;
+    var navEnforcing = false;
+
+    function navItems () {
+      return $('.layout_header_nav_bar_box .layout_header_nav_item');
+    }
+    function navKeyOf ($item) {
+      return $item.attr('data-nav') || $item.attr('url') || '';
+    }
+    function navPath (u) {
+      var a = document.createElement('a');
+      a.href = u;
+      var p = a.pathname.replace(/\/+$/, '/');
+      return p.charAt(0) === '/' ? p : '/' + p;
+    }
+    function navMatchUrl (u) {
+      if (!u) return false;
+      var path = location.pathname.replace(/\/index\.(html?|jsp)$/, '/').replace(/\/+$/, '/');
+      if (navPath(u) !== path) return false;
+      var mtMatch = location.search.match(/[?&]menuType=([^&]*)/);
+      var mt = mtMatch ? mtMatch[1] : null;
+      // /xmtj/ 下的几个菜单靠 menuType 密文区分（SB / QD / JG）
+      if (u.indexOf('menuType=') > -1) return !!mt && u.indexOf('menuType=' + mt) > -1;
+      return true;
+    }
+    function applyNavActive ($hit) {
+      $activeNav = $hit && $hit.length ? $hit.first() : null;
+      // 只清真正带 chk 的元素：老版本 jQuery 的 removeClass 会无条件写 className，
+      // 无谓写入会让 MutationObserver 反复回调甚至死循环
+      navItems().filter('.layout_header_nav_item_chk').removeClass('layout_header_nav_item_chk');
+      if ($activeNav) {
+        $activeNav.addClass('layout_header_nav_item_chk');
+        try { sessionStorage.setItem(NAV_ACTIVE_KEY, navKeyOf($activeNav)); } catch (e) {}
+      }
+    }
+    function enforceNavActive () {
+      if (navEnforcing) return;
+      navEnforcing = true;
+      try {
+        if (!$activeNav || !$activeNav.parents('.layout_header_nav_bar_box').length) {
+          setNavActive();
+          return;
+        }
+        // 状态正确时一个字都不写，保证巡检幂等、不会自己触发自己
+        var $extra = $('.layout_header_nav_bar_box .layout_header_nav_item_chk').not($activeNav);
+        if ($extra.length) $extra.removeClass('layout_header_nav_item_chk');
+        if (!$activeNav.hasClass('layout_header_nav_item_chk')) {
+          $activeNav.addClass('layout_header_nav_item_chk');
+        }
+      } finally {
+        navEnforcing = false;
+      }
+    }
+    var navObserverPending = false;
+    function scheduleNavEnforce () {
+      if (navObserverPending) return;
+      navObserverPending = true;
+      setTimeout(function () {
+        navObserverPending = false;
+        enforceNavActive();
+      }, 0);
+    }
+    function setNavActive () {
+      var $items = navItems();
+      if (!$items.length) return;
+      var $serverHit = $items.filter('.layout_header_nav_item_chk').first();
+      var $hit = $items.filter(function () { return navMatchUrl($(this).attr('url')); }).first();
+      if (!$hit.length) {
+        var lastKey = null;
+        try { lastKey = sessionStorage.getItem(NAV_ACTIVE_KEY); } catch (e) {}
+        if (lastKey) $hit = $items.filter(function () { return navKeyOf($(this)) === lastKey; }).first();
+      }
+      // 子页面（channel.parent 这类判断）URL 匹配不上时，保留服务端标记的那一个
+      if (!$hit.length && $serverHit.length) $hit = $serverHit;
+      applyNavActive($hit);
+    }
+    setNavActive();
+
+    // 任何来源在加载之后追加的高亮都会被清掉，保证「项目推荐」不会连「项目推荐(新)」一起亮
+    var navBox = document.querySelector('.layout_header_nav_bar_box');
+    if (navBox && window.MutationObserver) {
+      new MutationObserver(scheduleNavEnforce).observe(navBox, {
+        subtree: true, attributes: true, attributeFilter: ['class']
+      });
+    } else {
+      setInterval(enforceNavActive, 300);
+    }
+    $(window).on('load', enforceNavActive);
+    setTimeout(enforceNavActive, 0);
+    setTimeout(enforceNavActive, 600);
+     
+    // 导航栏按钮 点击事件
+    $('.layout_header_nav_bar_box div').click(function () {
+      // 记录日志
+      logs(null,$(this).attr('code'));
+      if ($(this).attr('target') == '_self') {
+        $('.layout_header_nav_bar_box div').removeClass('layout_header_nav_item_chk')
+        $(this).addClass('layout_header_nav_item_chk')
+        location.href = $(this).attr('url')
+      } else {
+        window.open($(this).attr('url'))
+      }
+    })
+   
+    // 搜索框 回车事件
+    $('#searchKeyTop').keypress(function (e) {
+      var keycode = (e.keyCode ? e.keyCode : e.which);
+      if (keycode == '13') {
+        searchTop()
+      }
+    })
+    // 了解详情
+    $('#xqzjJump').click(function () {
+      window.location.href="../xmtj/?from=popup&menuType=<%=encMenuType_QD %>";
+    })
+
+    // 搜索框 搜索按钮
+    $('#searchBtn').click(function () {
+      searchTop()
+    })
+    // 收藏本站，鼠标移除隐藏浮层
+    $('.layout_header_window_item').mouseleave(function () {
+    	setTimeout(function(){
+    		document.getElementById("sc").style.display="none";
+        },5000)
+ 	})
+    //当页面有滚动条时，只阻止空格键出发默认，其他键不阻止
+    document.body.onkeydown = function (event) {
+      var e = window.event || event;
+      var charCode = e.keyCode || e.which; 
+      if (charCode === 32) {
+        if(e.preventDefault){
+          e.preventDefault();
+        }else{
+          window.event.returnValue = false;
+        }
+      }
+    }
+    $('#loginOk .cy_popup_box_btn_item').on("keydown", function (event) {
+        var keyCode = event.keyCode || event.which;
+        if (keyCode == "13" || keyCode === 32) {
+          if($("#loginOk").is(":visible")){
+            $("#loginOk .cy_popup_box_btn_item").click()
+          }
+        }
+    })
+  });
+  function logs(f,t){
+	var id = "";
+	if (f == null || f == "" || f == "null"){
+		id = $(".layout_header_nav_item_chk").attr('code');
+	}else{
+		id = f;
+	}
+	
+	// 记录日志
+    var parames = {
+      loginName: login,
+      nickName: userName,
+      orgName: orgName,
+      userType: userType,
+      menuId: id,
+      outPageTime: ua.getCurTime('YYYY-MM-DD HH:NN:SS'),
+      pageFrom: id,
+      pageTo: t
+    }
+    ua.send(parames)
+  }
+  function searchTop(){
+    // 记录日志
+    logs(null,'10');
+    var searchKeyTop = $("#searchKeyTop").val();
+    var url = "https://service1.most.gov.cn/sousuonew/s.html?title="+encodeURI(searchKeyTop);
+    window.open(url);
+  }
+
+  function search() {
+    // 记录日志
+    logs(null,'20');
+
+    var searchKey = $("#searchKey").val();
+    if(searchKey == undefined){
+      searchKey = document.getElementById('contentR').contentWindow.document.getElementById('searchKey').value;
+    }
+    var year= document.getElementById("year")
+    if (year != null){
+       year = year.attributes["code"].value;
+    }
+    year =  year == null ? "" : year ;
+    var url = "https://service1.most.gov.cn/sousuonew/s.html?title="+encodeURI(searchKey)+"&year="+year;
+    window.open(url);
+  }
+  // 打开通知内容
+  function openW(url){
+    //window.open("/new"+url);
+    window.open(url);
+  }
+  
+  function favorite(){
+	  var c = document.getElementById("sc").style.display;
+	  if(c=="block"){
+		  document.getElementById("sc").style.display="none";
+	  }
+	  if(c=="none"){
+		  document.getElementById("sc").style.display="block";
+	  }
+  }
+  function fcClose(){
+      $(".layout_header_sidebar").hide();
+  }
+  window.addEventListener('message', function (e) {
+    // 监听Iframe高度
+    if (e.data.height) {
+      if(e.data.height!=0){ $('.contentR').height(e.data.height)}
+    }
+    // 监听Iframe调用登录弹框
+    if (e.data.powerPopup){
+      $('#powerPopup').show()
+    }
+    if(e.data && e.data.scrollTop && e.data.scrollTop==true){
+    	window.scrollTo(e.data.scrollx||0,e.data.scrollY||0);
+    }
+    if(e.data.height!=0){  adjustFooter(e.data.height)};
+  }, false)
+  //获取滚动条高度
+  function getWindowOffsetTop(){
+	  return window.pageYOffset;
+  }
+</script>
+
+<div id="dlORwh" style="display: none;">
+</div> 
+<!-- 系统维护提示 点登录运维提示    --> 
+<popup id="xtwh" title="系统维护提示" width="600" height="340" icon="popup_warning" style="display: none;">
+  <popup-content>
+    <div id="xtwh_content" style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+    
+    </div>
+  </popup-content>
+  <popup-btns>
+    <popup-btn onclick="cy_pupup_close()" background="#5387eb" color="#FFF">确定</popup-btn>
+  </popup-btns>
+</popup> 
+
+
+
+
+<!-- 系统维护提示2 用户模块运维提示  -->
+<popup id="xtwh2" title="系统维护提示" width="463" height="293" icon="popup_warning" style="display: none;">
+  <popup-content>
+    <div style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+         <span id="modelName" style="font-size: 18px;"></span>系统正开展维护工作，维护期间系统将暂停访问。
+    </div>
+  </popup-content>
+  <popup-btns>
+    <popup-btn onclick="cy_pupup_close()" background="#5387eb" color="#FFF">确定</popup-btn>
+  </popup-btns>
+</popup> 
+<!-- 
+<popup id="xtwh3" title="系统维护提示" width="1000" height="693" icon="popup_warning" style="display: none;">
+  <popup-content>
+    <div style="font-size: 18px; line-height: 36px; ">
+         各会计师事务所：    
+    </div>
+    <div style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+          按照2022年6月29日发布的《中央财政科技计划项目（课题）结题审计指引》文件要求，本系统即将上线重点研发计划项目填报新模板，现系统将于2022年7月4日（星期一）起停止接受访问以便更新，新模板于2022年7月7日（星期四）上线，登录方式保持不变，和原模板填报仍在同一系统中操作。新模板上线后，系统设有过渡期，过渡期时间截至7月27日（星期三），请各会计师事务所按照新新发布的审计指引要求进行审计。
+    </div>
+    <div style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+               新的用户手册即将在系统中发布，请在新系统上线后及时下载学习。需注意以下三点：    
+	</div>
+    <div style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+     1、新绑定课题将直接按照新模板执行   
+    </div>
+    <div style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+	2、在过渡期内，已经按照旧模板填报的课题可以选择继续完成报告填报并上传，过渡期结束后，系统中所有未上传的报告模板都将切换为新模板，未上报的数据也会清空需要重新填报。
+    </div>
+    <div style="font-size: 18px; line-height: 36px; text-indent: 36px;">
+	3、对于在原有系统中已提交或绑定课题的重点研发计划课题报告，若根据相关机构要求，需要按照新模板重新出具报告的，可在系统中先撤报并解绑课题后重新绑定课题，撤报、解绑流程不变，此类型原因引起的课题解绑或撤报可仅提供加盖事务所公章的申请。如有其它系统使用技术问题请与技术支持人员联系：010-58882999。
+    </div>
+    <div style="font-size: 18px; line-height: 36px;     float: right;">
+ 	科技部科技经费监管服务中心<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022年6月30日     
+ 	</div>
+  </popup-content>
+  <popup-btns>
+    <popup-btn onclick="cy_pupup_close()" background="#5387eb" color="#FFF">确定</popup-btn>
+  </popup-btns>
+</popup> 
+ --><script type="text/javascript">
+	//头部用户登录
+	function topLogin() {
+		var url = window.location.pathname;
+		moduleLogin('xmsb', url)
+	}
+	//左侧菜单点击登录
+	function leftMenuLogin(curType, leftMenuId) {
+		var url = window.location.pathname + "?click=" + leftMenuId;
+		moduleLogin(curType, url)
+	}
+	// 登录
+	function moduleLogin(curType, url) {
+		getWHXX();
+		setTimeout(function() {
+			if ($('#dlORwh #model').text() == "运维") {
+				$('#xtwh_content').text($('#dlORwh #content').text());
+				$('#xtwh').show();
+			} else if ($('#dlORwh #model').text() == "登录") {
+				var params = "?type=sb&curType=" + curType + "&url=" + url;
+				window.location.href = "https://service2.most.gov.cn/page/login.jsp" + params
+			} else {
+                                var params = "?type=sb&curType=" + curType + "&url=" + url;
+				window.location.href = "https://service2.most.gov.cn/page/login.jsp" + params
+                        }
+		}, 100)
+	}
+	//首页维护提示
+	function indexWHTS() {
+		getWHXX();
+		setTimeout(function() {
+			if ($('#dlORwh #isOpen').text() == "是") {
+				$('#xtwh_content').text($('#dlORwh #content').text());
+				$('#xtwh').show();
+			} else {
+				return false;
+			}
+		}, 100)
+	}
+	//获取维护信息
+	function getWHXX() {
+		var v = new Date();
+		$.ajax({
+			url : 'https://service.most.gov.cn/dlORwh/?v='+(new Date().getTime()),
+			success : function(data) {
+				$('#dlORwh').html(data)
+			}
+		});
+	}
+	//注册
+	function register() {
+                getWHXX();
+		setTimeout(function() {
+			if ($('#dlORwh #model').text() == "运维") {
+				$('#xtwh_content').text($('#dlORwh #content').text());
+				$('#xtwh').show();
+			} else if ($('#dlORwh #model').text() == "登录") {
+				window.open('https://service1.most.gov.cn')
+			}
+		}, 100)
+	}
+	function dxResetPassword(){
+		 getWHXX();
+		 setTimeout(function() {
+			if ($('#dlORwh #model').text() == "运维") {
+				$('#xtwh_content').text($('#dlORwh #content').text());
+				$('#xtwh').show();
+			} else if ($('#dlORwh #model').text() == "登录") {
+				window.open('https://service1.most.gov.cn/page/reg/reg_DXResetPassword_step1.jsp')
+			}
+		}, 100)
+	}
+</script>  <!-- 首页 -->
+  <style>
+    #roll {
+      width: 234px;
+      height: 170px;
+      position: fixed;
+      /*fixed实现绝对定位*/
+      cursor: pointer;
+      /*background: url(.../ui/images/piao.png) no-repeat;
+      background-size:100% 100%;*/
+      box-sizing: border-box;
+      padding: 0 20px;
+      z-index: 999;
+    }
+    .close{
+      width:60px;
+      height: 44px;
+      position: absolute;
+      top:0;
+      right: 0;
+      cursor: pointer;
+      z-index: 12;
+    }
+    .jlgsclosenew{
+       width:60px;
+      height: 44px;
+      position: absolute;
+      top:0;
+      right: 0;
+      cursor: pointer;
+      z-index: 12;
+    }
+    #roll .title{
+      width:100%;
+      line-height: 35px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      color:#fff;
+      position: relative;
+      z-index:10;
+    }
+    #roll .content{
+      padding: 0 0 0 20px;
+
+    }
+    #roll .content .text,
+    #roll .content .text2{
+      line-height: 25px;
+      color:#333;
+      font-size: 14px;
+      padding: 6px 0;
+      position: relative;
+    }
+    #roll .content .text.line{
+      border-bottom: 1px solid #eaeaea;
+    }
+    #roll .content .text a{
+      color:#333;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    #roll .content .text a:hover{
+      color:#4f87d1;
+    }
+    #roll .content .text2 a{
+      color:#666;
+      text-decoration: none;
+    }
+    #roll .content .text2 a:hover{
+      color:#4f87d1;
+    }
+    #roll .content .text2 i,
+    #roll .content .text i{
+      width:8px;
+      height: 8px;
+      background: #0aabc0;
+      border-radius: 50%;
+      display: block;
+      position: absolute;
+      top:17px;
+      left:-14px;
+    }  
+  </style>
+  <style>
+    #newroll {
+      width: 234px;
+      height: 170px;
+      position: fixed;
+      /*fixed实现绝对定位*/
+      cursor: pointer;
+      /*background: url(.../ui/images/piao.png) no-repeat;
+      background-size:100% 100%;*/
+      box-sizing: border-box;
+      padding: 0 20px;
+      z-index: 999;
+    }
+    .close{
+      width:60px;
+      height: 44px;
+      position: absolute;
+      top:0;
+      right: 0;
+      cursor: pointer;
+      z-index: 12;
+    }
+    #newroll .title{
+      width:100%;
+      line-height: 35px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      color:#fff;
+      position: relative;
+      z-index:10;
+    }
+    #newroll .content{
+      padding: 0 0 0 20px;
+
+    }
+    #newroll .content .text,
+    #newroll .content .text2{
+      line-height: 25px;
+      color:#333;
+      font-size: 14px;
+      padding: 6px 0;
+      position: relative;
+    }
+    #newroll .content .text.line{
+      border-bottom: 1px solid #eaeaea;
+    }
+    #newroll .content .text a{
+      color:#333;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    #newroll .content .text a:hover{
+      color:#4f87d1;
+    }
+    #newroll .content .text2 a{
+      color:#666;
+      text-decoration: none;
+    }
+    #newroll .content .text2 a:hover{
+      color:#4f87d1;
+    }
+    #newroll .content .text2 i,
+    #newroll .content .text i{
+      width:8px;
+      height: 8px;
+      background: #0aabc0;
+      border-radius: 50%;
+      display: block;
+      position: absolute;
+      top:17px;
+      left:-14px;
+    } 
+    #wrapper {
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+      top: -48px;
+    } 
+  </style>
+<link rel="stylesheet" href="../ui/css/index.css?v=2024051401">
+<link rel="stylesheet" href="../ui/css/pop_page.css?v=2024051401">
+<link rel="stylesheet" href="../ui/css/home_banner.css?v=2024051401">
+<link rel="stylesheet" type="text/css" href="../ui/xcx/css/xcx_pop.css?v=2024051401">
+  <!-- 通知栏 -->
+  <div class="layout_header_msg_bar">
+    <div class="layout_header_msg_bar_box" style="display: none;">
+      <div style="margin-left: 20px;margin-right: 20px;"><img src="../ui/images/index/icon_msg.png"></div>
+      <!-- 提示通知 -->
+      <div class="layout_header_msg_box">
+        <div class="layout_header_msg_box_s">
+          <div class="layout_header_msg">欢迎浏览“国家科技管理信息系统公共服务平台”，如需咨询问题可以拨打技术支持电话：010-58882999（中继线）。</div>
+        </div>
+      </div>
+      <script>
+        $(function () {
+          // 滚动通知
+          var w = 0
+          $('.layout_header_msg').each(function () {
+            w += $(this).width()
+            w += 60
+          })
+          w -= 60
+
+          var timer_msg = null, timer_msg_move = 0
+          // 3秒后，开始执行滚动
+          setTimeout(function () {
+            timer_msg = setInterval(function () {
+              timer_msg_move += -3 // 移动速度
+              $('.layout_header_msg_box_s').css('left', timer_msg_move + 'px')
+              if (Math.abs(timer_msg_move - 1140) >= (w + 1140)) {
+                timer_msg_move = 1140
+              }
+            }, 100);
+          }, 3000);
+        })
+      </script>
+    </div>
+  </div>
+
+
+
+  <!-- ========================================= -->
+  <!-- ========================================= -->
+  <!-- =============    首页正文    ============= -->
+  <!-- ========================================= -->
+  <!-- ========================================= -->
+  <div class="layout_content">
+    <div class="layout_content_box">
+      <!-- 块1 -->
+      <div class="index_block_box" style="padding: 10px 20px 20px 20px;">
+        <!-- 重要通知 -->
+        <div class="ps_msg_box" style="margin-right: 40px;">
+          <div class="ps_msg_swiper_box" name="msg">
+          <!--  
+           -->
+          </div>
+        </div>
+
+        <!-- 轮播图和新闻列表 -->
+        <div class="ad_news_box"  
+         style="margin-top: 15px;">
+          <div class="zytz_box">
+            <div class="pic_swiper_box_item_box" name="banner0" style="width: 480px; height: 320px; cursor: pointer;">
+              <div class="pic_swiper_box_item_box_s">
+                <div class="pic_swiper_box_item" onclick="openW('/kjjh_tztg_all/20240423/5515.html')" style="width: 480px;">
+                  <img src="/u/cms/static/202404/23145445tybu.png">
+                </div> 
+                <div class="pic_swiper_box_item" onclick="openW('/wdtz/20220613/4935.html')" style="width: 480px;">
+                  <img src="/u/cms/static/202302/28170601wzsp.png">
+                </div> 
+                <div class="pic_swiper_box_item" onclick="openW('/wdtz/20220609/4933.html')" style="width: 480px;">
+                  <img src="/u/cms/static/202302/281704583oza.png">
+                </div> 
+                <div class="pic_swiper_box_item" onclick="openW('/wdtz/20220511/4906.html')" style="width: 480px;">
+                  <img src="/u/cms/static/202302/28171621ta1k.png">
+                </div> 
+                <div class="pic_swiper_box_item" onclick="openW('/wdtz/20220511/4908.html')" style="width: 480px;">
+                  <img src="/u/cms/static/202302/28170147qk3t.png">
+                </div> 
+                <div class="pic_swiper_box_item" onclick="openW('/wdtz/20220526/4922.html')" style="width: 480px;">
+                  <img src="/u/cms/static/202205/31143036415c.png">
+                </div> 
+              </div>
+            </div>
+            <div class="ps_msg_swiper_box_bj">
+              <div class="ps_msg_swiper_box pic_swiper_box_btn_box" name="banner0">
+                <div class="ps_msg_swiper_item2 ps_msg_swiper_item_chk2"></div>
+                <div class="ps_msg_swiper_item2"></div>
+                <div class="ps_msg_swiper_item2"></div>
+                <div class="ps_msg_swiper_item2"></div>
+                <div class="ps_msg_swiper_item2"></div>
+                <div class="ps_msg_swiper_item2"></div>
+              </div>
+            </div>
+          </div>
+          <!-- 通知公告 -->
+          <div class="news_box">
+            <!-- TABS -->
+            <div class="news_box_title_swiper">
+              <div class="news_box_title_swiper_item_box" name="news">
+                <div class="news_box_title_swiper_item news_box_title_swiper_item_chk">通知公告</div>
+                <div class="news_box_title_swiper_item">地方动态</div>
+                <div class="news_box_title_swiper_item" id="scrollSite_btn">申报指南</div>
+              </div>
+              <div class="news_box_title_swiper_more" id="more1">更多&gt;&gt;</div>
+            </div>
+            <div class="news_box_lsit_box" name="news">
+              <div class="news_box_lsit_item_box" style="margin-top: 10px;">
+                <div class="news_box_lsit_item_page">
+	                <div class="news_box_lsit_item" title="关于国家重点研发计划“国家量子科技关键材料器件设备研发”重点专项2026年度（第二批）项目申报指南征求意见的通知" onclick="openW('/kjjh_tztg_all/20261124/5939.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">关于国家重点研发计划“国家量子科技关键材料器件设备研发”重点专项2026年度（第二...</div>
+	                  <div class="news_box_lsit_item_time">2026-11-24</div>
+	                </div>
+	                <div class="news_box_lsit_item" title="关于京津冀环境综合治理国家科技重大专项2027年度第二批项目申报指南征求意见的通知" onclick="openW('/kjjh_tztg_all/20261124/5940.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">关于京津冀环境综合治理国家科技重大专项2027年度第二批项目申报指南征求意见的通知</div>
+	                  <div class="news_box_lsit_item_time">2026-11-24</div>
+	                </div>
+	                <div class="news_box_lsit_item" title="中国工程院关于发布国家重点研发计划“工程科学与复杂系统”重点专项2026年度项目申报指南的通知" onclick="openW('/kjjh_tztg_all/20261124/5938.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">中国工程院关于发布国家重点研发计划“工程科学与复杂系统”重点专项2026年度项目申...</div>
+	                  <div class="news_box_lsit_item_time">2026-11-24</div>
+	                </div>
+	                <div class="news_box_lsit_item" title="农业农村部关于发布国家重点研发计划“主要粮食与经济作物大面积单产提升技术”等5个重点专项2026年度项目申报指南的通知" onclick="openW('/kjjh_tztg_all/20261118/5937.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">农业农村部关于发布国家重点研发计划“主要粮食与经济作物大面积单产提升技术”等5...</div>
+	                  <div class="news_box_lsit_item_time">2026-11-18</div>
+	                </div>
+	                <div class="news_box_lsit_item" title="中国机械工业集团有限公司关于发布国家重点研发计划“关键基础件及制造工艺”重点专项2026年度公开竞争项目申报指南的通知" onclick="openW('/kjjh_tztg_all/20261114/5936.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">中国机械工业集团有限公司关于发布国家重点研发计划“关键基础件及制造工艺”重点专...</div>
+	                  <div class="news_box_lsit_item_time">2026-11-14</div>
+	                </div>
+	                <div class="news_box_lsit_item" title="关于“雄安新区科技创新”专项2026年储备项目（第一批）通过预评审的储备项目填报正式申报书的通知" onclick="openW('/kjjh_tztg_all/20261111/5934.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">关于“雄安新区科技创新”专项2026年储备项目（第一批）通过预评审的储备项目填报正...</div>
+	                  <div class="news_box_lsit_item_time">2026-11-11</div>
+	                </div>
+	                <div class="news_box_lsit_item" title="国家自然科学基金委员会关于发布国家重点研发计划“重大需求导向的数学理论及应用”等重点专项2026年度项目申报指南的通知" onclick="openW('/kjjh_tztg_all/20261110/5933.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">国家自然科学基金委员会关于发布国家重点研发计划“重大需求导向的数学理论及应用”...</div>
+	                  <div class="news_box_lsit_item_time">2026-11-10</div>
+	                </div>
+	                <div class="news_box_lsit_item" title="中国三峡集团关于发布“三峡水运新通道数智增效”重点专项2026年度公开竞争项目申报指南的通知" onclick="openW('/kjjh_tztg_all/20261105/5932.html')">
+	                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+	                  <div class="news_box_lsit_item_title">中国三峡集团关于发布“三峡水运新通道数智增效”重点专项2026年度公开竞争项目申报...</div>
+	                  <div class="news_box_lsit_item_time">2026-11-05</div>
+	                </div>
+                </div>
+                <div class="news_box_lsit_item_page" style="display:none;">
+                  <div class="news_box_lsit_item" title="关于开展2024年度长三角科技创新共同体联合攻关需求征集工作的通知" onclick="openW('/kjjh_dfdt_all/20240816/5561.html')">
+                    <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                    <div class="news_box_lsit_item_title">关于开展2024年度长三角科技创新共同体联合攻关需求征集工作的通知</div>
+                    <div class="news_box_lsit_item_time">2024-08-16</div>
+                  </div>
+                  <div class="news_box_lsit_item" title="关于印发《长三角科技创新共同体联合攻关计划实施办法（试行）》的通知" onclick="openW('/kjjh_dfdt_all/20230410/5186.html')">
+                    <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                    <div class="news_box_lsit_item_title">关于印发《长三角科技创新共同体联合攻关计划实施办法（试行）》的通知</div>
+                    <div class="news_box_lsit_item_time">2023-04-10</div>
+                  </div>
+                  <div class="news_box_lsit_item" title=" 关于开展2023年度长三角科技创新共同体联合攻关需求征集工作的通知" onclick="openW('/kjjh_dfdt_all/20230410/5188.html')">
+                    <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                    <div class="news_box_lsit_item_title"> 关于开展2023年度长三角科技创新共同体联合攻关需求征集工作的通知</div>
+                    <div class="news_box_lsit_item_time">2023-04-10</div>
+                  </div>
+                  <div class="news_box_lsit_item" title="河北雄安新区管理委员会关于征集科技创新支撑雄安高质量发展科研储备任务的通知" onclick="openW('/kjjh_dfdt_all/20220714/4980.html')">
+                    <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                    <div class="news_box_lsit_item_title">河北雄安新区管理委员会关于征集科技创新支撑雄安高质量发展科研储备任务的通知</div>
+                    <div class="news_box_lsit_item_time">2022-07-14</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 块2 -->
+<div class="home_banner">
+  <ul>
+    <li>
+      <div class="img_con">
+        <div class="img_box">
+          <img src="../ui/images/index/home_banner_01.png"/>
+        </div>
+        <div class="img_text">新项目申请</div>
+        <div class="img_arrow"></div>
+      </div>
+      <div class="img_list">
+        <div class="img_list_title">请选择新项目申请计划类别</div>
+        <div class="img_list_con">
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">“十五五”国家重点研发计划</a>
+          </div>
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">“十四五”国家重点研发计划</a>
+          </div>
+          <div class="item two" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">“十五五”国家重点研发计划<br/>（地方项目上升为国家项目）</a>
+          </div>
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">国家科技重大专项</a>
+          </div>
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">基地和人才专项</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="img_con">
+        <div class="img_box">
+          <img src="../ui/images/index/home_banner_02.png"/>
+        </div>
+        <div class="img_text">已立项项目管理</div>
+        <div class="img_arrow"></div>
+      </div>
+      <div class="img_list">
+        <div class="img_list_title">请选择已立项项目计划类别</div>
+        <div class="img_list_con">
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">“十五五”国家重点研发计划</a>
+          </div>
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">“十四五”国家重点研发计划</a>
+          </div>
+          <div class="item two" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">“十五五”国家重点研发计划<br/>（地方项目上升为国家项目）</a>
+          </div>
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">国家科技重大专项</a>
+          </div>
+          <div class="item" url="../xmtj/" curType="xmsb">
+            <a href="javascript:;">基地和人才专项</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="img_con"  code="102002" url="../sbzn_d/" curType="xmsb">
+        <div class="img_box">
+          <img src="../ui/images/index/home_banner_03.png"/>
+        </div>
+        <div class="img_text">申报指南</div>
+        <a href="javascript:;"></a>
+      </div>
+    </li>
+	<li>
+      <div class="img_con" url="../xmtj/" 
+						curType="xmsb">
+        <div class="img_box">
+          <img src="../ui/images/index/home_banner_05.png"/>
+        </div>
+        <div class="img_text">在研人员查询</div>
+        <a href="javascript:;"></a>
+      </div>
+    </li>
+		<li>
+		  <div class="img_con"  code="102002" url="../zxfw/?click=5014zjgl" curType="xmsb">
+			<div class="img_box">
+			  <img src="../ui/images/index/home_banner_04.png"/>
+			</div>
+			<div class="img_text">专家库</div>
+			<a href="javascript:;"></a>
+		  </div>
+		</li>
+		<li>
+		  <div class="img_con"  url="../zxfw/?click=5023zjgl" curType="xmsb">
+			<div class="img_box">
+			  <img src="../ui/images/index/home_banner_06.png"/>
+			</div>
+			<div class="img_text">评审邀请确认</div>
+			<a href="javascript:;"></a>
+		  </div>
+		</li>
+		<li>
+		  <div class="img_con"  url="../zxfw/?click=5026zjgl" curType="xmsb">
+			<div class="img_box">
+			  <img src="../ui/images/index/home_banner_07.png"/>
+			</div>
+			<div class="img_text">在线评审</div>
+			<a href="javascript:;"></a>
+		  </div>
+		</li>
+    <li>
+      <div class="img_con" url="../index/xcx_index.html" >
+        <div class="img_box">
+          <img src="../ui/images/index/home_banner_08.png"/>
+        </div>
+        <div class="img_text">小程序</div>
+        <a href="javascript:;"></a>
+      </div>
+    </li>
+  </ul>
+</div>
+      <script>
+        $(function () {
+          // 初始化容器宽度
+          var quick_page = 1, quick_count = $('.quick_item_box_s').children().length
+          var quick_pageMax = quick_count % 6 > 0 ? parseInt(quick_count / 6) + 1 : parseInt(quick_count / 6)
+          //$('.quick_item_box_s').css({ width: quick_count * 170 + 'px' })
+          $('.quick_item_box_s').css({ display: 'inline-flex' })
+
+          $('.quick_page_prev').click(function () {
+            quick_changePage('prev')
+          })
+
+          $('.quick_page_next').click(function () {
+            quick_changePage('next')
+          })
+
+          function quick_changePage(type) {
+            // 向前
+            if (type == 'prev') {
+              if (quick_page == 1) {
+                return
+              } else {
+                quick_page--
+              }
+            }
+
+            // 向后
+            if (type == 'next') {
+              if (quick_page == quick_pageMax) {
+                return
+              } else {
+                quick_page++
+              }
+            }
+
+            $('.quick_item_box_s').stop(true).animate({ left: ($('.quick_item_box').width() * (quick_page - 1)) * -1 + 'px' })
+
+            // 翻页按钮样式处理
+            if (quick_page == 1) {
+              $('.quick_page_prev').css({ opacity: 0.3 })
+            } else {
+              $('.quick_page_prev').css({ opacity: 1 })
+            }
+            if (quick_page == quick_pageMax) {
+              $('.quick_page_next').css({ opacity: 0.3 })
+            } else {
+              $('.quick_page_next').css({ opacity: 1 })
+            }
+          }
+
+          quick_changePage()
+
+          var scroll_offset=$("#site").offset(); //site为目标位置的ID
+          $("#scrollSite_btn").click(function(){ 
+            //$("html,body").animate({scrollTop:scroll_offset.top},500); //利用scrollTop将页面顶部位置指定到某坐标
+              $('#moduleLogin').attr("onclick","topLogin();")
+              $('#powerPopup').show()
+          });
+        })
+        
+      </script>
+
+      <!-- 块3 颠覆性意见征集系统 -->
+      <!-- <div class="pic_swiper_box" id="site">
+        <div class="pic_swiper_box_item_box" name="banner1">
+          <div class="pic_swiper_box_item_box_s">
+            <div class="pic_swiper_box_item" onclick="jyzjOpen()" style="cursor: pointer;">
+              <img src="../ui/images/index/img_banner_1_1xg.png" style="top: -18px;position: relative;">
+            </div> 
+          </div>
+        </div>
+      </div> -->
+<!-- 块3-->
+	<div class="pic_swiper_box" id="jlgsDiv" style="display: none;">
+        <div class="pic_swiper_box_item_box" name="banner1">
+          <div class="pic_swiper_box_item_box_s">
+           <!--             <div id="jlgs" class="pic_swiper_box_item" onclick="openW('https://service.most.gov.cn/jl')" style="cursor: pointer;">
+             <img src="../ui/images/index/img_banner_1_3_4_1.png" style="position: relative;">
+            </div> 
+            -->
+             <div id="jlgsstate" class="pic_swiper_box_item" onclick="openW('https://pt.escience.org.cn/lb/mh_web/login')" style="cursor: pointer;">
+              <!--<img src="../ui/images/index/img_banner_1_3_3.png" style="position: relative;">-->
+               <img src="../ui/images/index/img_banner_1_3_3_new.png" style="position: relative;">
+            </div> 
+            
+          </div>
+        </div>
+        <!-- <div class="ps_msg_swiper_box pic_swiper_box_btn_box" name="banner1">
+          <div class="ps_msg_swiper_item2 ps_msg_swiper_item_chk2"></div>
+        </div> -->
+      </div>
+      <!-- 块4 -->
+      <div id="sbzn" class="index_block_box" style="margin-top: 20px; display: flex; justify-content: space-between;">
+        <!-- 申报指南，常见问答 -->
+        <div class="news_box news_box_line" style="width: 555px; flex: none; margin-left: 0;">
+          <!-- TABS -->
+          <div class="news_box_title_swiper">
+            <div class="news_box_title_swiper_item_box" name="faq">
+              <div class="news_box_title_swiper_item news_box_title_swiper_item_chk">常见问答</div>
+            </div>
+            <div class="news_box_title_swiper_more" id="more2">更多&gt;&gt;</div>
+          </div>
+          <div class="news_box_lsit_box" name="faq" style="margin-top: 20px; width: 555px;">
+            <div class="news_box_lsit_item_box">
+              <div class="news_box_lsit_item_page" style="height: 204px; width: 555px; display:none">
+                <div class="news_box_lsit_item" title="专家信息更新问题解答视频" onclick="openW('/sptz/20250925/5757.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title">专家信息更新问题解答视频</div>
+                  <div class="news_box_lsit_item_time">2025-09-25</div>
+                </div>
+                <div class="news_box_lsit_item" title="多场景视频评审会议系统使用常见问题" onclick="openW('/wdtz/20230912/5374.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title">多场景视频评审会议系统使用常见问题</div>
+                  <div class="news_box_lsit_item_time">2023-09-12</div>
+                </div>
+                <div class="news_box_lsit_item" title="手机验证码登录常见问题" onclick="openW('/wdtz/20230527/5207.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title">手机验证码登录常见问题</div>
+                  <div class="news_box_lsit_item_time">2023-05-27</div>
+                </div>
+                <div class="news_box_lsit_item" title="单位注册常见问题" onclick="openW('/wdtz/20230428/5198.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title">单位注册常见问题</div>
+                  <div class="news_box_lsit_item_time">2023-04-28</div>
+                </div>
+                <div class="news_box_lsit_item" title="项目预申报阶段常见问题（二）" onclick="openW('/wdtz/20230427/5197.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title">项目预申报阶段常见问题（二）</div>
+                  <div class="news_box_lsit_item_time">2023-04-27</div>
+                </div>
+                <div class="news_box_lsit_item" title="多场景视频评审会议系统常见问题" onclick="openW('/wdtz/20220804/5047.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title">多场景视频评审会议系统常见问题</div>
+                  <div class="news_box_lsit_item_time">2022-08-04</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 申报文件 -->
+        <div class="news_box" style="width: 555px; flex: none;">
+          <!-- TABS -->
+          <div class="news_box_title_swiper">
+            <div class="news_box_title_swiper_item_box">
+              <div class="news_box_title_swiper_item news_box_title_swiper_item_chk">申报文件</div>
+            </div>
+            <div class="news_box_title_swiper_more" id="more3">更多&gt;&gt;</div>
+          </div>
+          <div class="news_box_lsit_box" style="margin-top: 20px; width: 555px;">
+            <div class="news_box_lsit_item_box">
+              <div class="news_box_lsit_item_page" style="height: 204px; width: 555px;">
+                <div class="news_box_lsit_item" title="国家重点研发计划科技型中小企业项目任务书模板（2022）" onclick="openW('/wjfg_zdyf/20221024/5128.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title" style="width: 550px;">国家重点研发计划科技型中小企业项目任务书模板（2022）</div>
+                </div>
+                <div class="news_box_lsit_item" title="国家重点研发计划青年科学家项目预申报书模板（2021）" onclick="openW('/wjfg_zdyf/20210525/4344.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title" style="width: 550px;">国家重点研发计划青年科学家项目预申报书模板（2021）</div>
+                </div>
+                <div class="news_box_lsit_item" title="国家重点研发计划项目预申报书模板（2021）" onclick="openW('/wjfg_zdyf/20210525/4343.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title" style="width: 550px;">国家重点研发计划项目预申报书模板（2021）</div>
+                </div>
+                <div class="news_box_lsit_item" title="国家重点研发计划政府间/港澳台重点专项项目预申报书模板（2019） " onclick="openW('/wjfg_zdyf/20190513/2933.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title" style="width: 550px;">国家重点研发计划政府间/港澳台重点专项项目预申报书模板（2019） </div>
+                </div>
+                <div class="news_box_lsit_item" title="国家重点研发计划课题绩效自评价报告模板（2019）" onclick="openW('/wjfg_zdyf/20190508/2932.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title" style="width: 550px;">国家重点研发计划课题绩效自评价报告模板（2019）</div>
+                </div>
+                <div class="news_box_lsit_item" title="国家重点研发计划项目综合绩效自评价报告模板（2019）" onclick="openW('/wjfg_zdyf/20190508/2931.html')">
+                  <div class="news_box_lsit_item_icon"><i class="news_box_lsit_item_icon_spot"></i></div>
+                  <div class="news_box_lsit_item_title" style="width: 550px;">国家重点研发计划项目综合绩效自评价报告模板（2019）</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 块5 -->
+      <div class="pic_swiper_box">
+        <div class="pic_swiper_box_item_box" name="banner2">
+          <div class="pic_swiper_box_item_box_s">
+            <div class="pic_swiper_box_item">
+              <img src="../ui/images/index/img_banner_2_1.png" style="top: -18px;position: relative;">
+            </div>
+          </div>
+        </div>
+        <!-- 轮播原点 -->
+        <!-- <div class="ps_msg_swiper_box pic_swiper_box_btn_box" name="banner2">
+          <div class="ps_msg_swiper_item2 ps_msg_swiper_item_chk2"></div>
+        </div> -->
+      </div>
+
+      <!-- 块6 -->
+      <div class="link_more_box" style="padding-bottom: 30px;">
+        <!-- 社会公众 -->
+        <div class="link_more_item_box">
+          <div class="link_more_item" code="1">
+            <!-- 标题 -->
+            <div class="link_more_item_title_box more1">
+              <div class="link_more_item_title_line"></div>
+              <div class="link_more_item_title_txt">社会公众</div>
+            </div>
+
+            <!-- 内容 -->
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" code="202" url="../jhzxgs">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      计划公示
+                      <!--<img src="../ui/images/index/icon_link_more_hot.png">-->
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      科技计划管理过程公开，信息组织透明，接受公众监督
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                
+              </div>
+            </div>
+
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" code="102001" url="../xmtj">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      服务导引
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      项目申报的快速导引，查询项目全过程状态，进行科研人员查询
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                
+              </div>
+            </div>
+
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" code="-1" url="https://sys.nfttc.org.cn/">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      子基金申报
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      创业投资子基金在线申报系统
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                
+              </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="link_more_item_content_btn_more">
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- 科研人员与科研单位 -->
+        <div class="link_more_item_box">
+          <div class="link_more_item" code="2">
+            <!-- 标题 -->
+            <div class="link_more_item_title_box more2">
+              <div class="link_more_item_title_line"></div>
+              <div class="link_more_item_title_txt">科研人员与科研单位</div>
+            </div>
+
+            <!-- 内容 -->
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" code="-1" url="https://service1.most.gov.cn">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      单位注册
+                      <!--<img src="../ui/images/index/icon_link_more_hot.png">-->
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      申报科研项目的单位进行注册备案，成功后可进行项目申报工作
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                <!--<div class="link_more_item_content_item" url="../zxfw/?click=0426qt" curType="xmsb">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      科研空间
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                     科研空间
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div> -->
+                <!--<div class="link_more_item_content_item" url="../xmtj/" curType="gly">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      信息统计
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      信息统计
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div> -->
+                <div class="link_more_item_content_item"
+								url="../xmtj/"
+								curType="xmsb">
+		    <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      人员查询
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                    查询科研人员参与各计划信息
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" code="103001" url="../zxfw">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      单位服务
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                     科研单位进行信息修改、用户管理等操作
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                
+              </div>
+            </div>
+
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+				<div class="link_more_item_content_item" code="102001"
+								url="../xmtj/"curType="xmsb">
+				  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      项目申请
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      科技计划项目申请、立项、验收各环节
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                
+              </div>
+            </div>
+            <div class="link_more_item_content_btn_more">
+              <span class="link_more_item_content_btn_show" style="color: #2573d8;">查看全部 &gt;</span>
+              <div class="link_more_item_content_btn_hide">&lt; 收起</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 科技专家 -->
+        <div class="link_more_item_box">
+          <div class="link_more_item" code="3">
+            <!-- 标题 -->
+            <div class="link_more_item_title_box more3">
+              <div class="link_more_item_title_line"></div>
+              <div class="link_more_item_title_txt">科技专家</div>
+            </div>
+
+            <!-- 内容 -->
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" 
+                      url="../zxfw/?click=5020zjgl"
+curType="gly">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      专家管理
+                     <!--<img src="../ui/images/index/icon_link_more_hot.png">-->
+                     <img style="margin-top: -10px;" src="../ui/images/index/icon_link_more_hot_new.png">
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      专家管理
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" url="../zxfw/?click=0421yhgl" 
+curType="zjfw">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      密码修改
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      密码修改
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" code="-1" url="<%=zjkUrl %>" 
+curType="zjfw">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      信息更新
+                      <img style="margin-top: -10px;" src="../ui/images/index/icon_link_more_hot_new.png">
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      科技计划项目评审专家更新个人信息
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+
+              </div>
+            </div>
+
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" url="../zxfw/?click=5026zjgl"
+curType="zjfw">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      项目评审
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                       项目评审
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+
+              </div>
+            </div>
+            <div class="link_more_item_content_btn_more">
+              <span class="link_more_item_content_btn_show" style="color: #2573d8;">查看全部 &gt;</span>
+              <div class="link_more_item_content_btn_hide">&lt; 收起</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 地方部门及推荐单位 -->
+        <div class="link_more_item_box">
+          <div class="link_more_item" code="4">
+            <!-- 标题 -->
+            <div class="link_more_item_title_box more4">
+              <div class="link_more_item_title_line"></div>
+              <div class="link_more_item_title_txt">地方部门及推荐单位</div>
+            </div>
+
+            <!-- 内容 -->
+            
+ 	    <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+                <div class="link_more_item_content_item" url="../xmtj/" curType="xmsb">
+                  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      项目申请
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      项目申请
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+
+              </div>
+            </div>
+            <div class="link_more_item_content_item_box">
+              <div class="link_more_item_content_item_box_s">
+				<div class="link_more_item_content_item"
+								url="../xmtj/" curType="xmtj">
+				  <div class="link_more_item_content_item_txt_box">
+                    <div class="link_more_item_content_item_title">
+                      项目推荐
+                      <!--<img src="../ui/images/index/icon_link_more_new.png">-->
+                    </div>
+                    <div class="link_more_item_content_item_details">
+                      项目推荐
+                    </div>
+                  </div>
+                  <div class="link_more_item_content_item_arr"><img src="../ui/images/index/icon_link_more_arr.png"></div>
+                </div>
+              </div>
+              <div class="link_more_item_content_item_box_s">
+                
+              </div>
+            </div>
+             
+            <div class="link_more_item_content_btn_more">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+const jlgsdate = new Date();
+// 设置开始日期：2025年9月22日16点
+const jlgsstartDate = new Date();
+// 方式1：直接写4月1日0点（等价于3月31日24点，推荐）
+const jlgsendDate = new Date(2026, 3, 1, 0, 0, 0);
+if(jlgsdate <= jlgsendDate){
+  $('#jlgsDiv').show();
+}else{
+    $('#jlgsDiv').hide();
+}
+
+    $(function () {
+      // swiper方法体
+      var CY_SWIPER = function () {
+        var that = this
+
+        // 初始化定时器
+        this.timer_changePage = null
+        this.timer_changePage_second = 5 * 1000
+        this.timer_changePage_index = 0
+        this.item_length = 0
+        this.o = null
+        this.timer_temp = null
+
+        this.init = function (o) {
+          that.o = o
+
+          // 容器宽度初始化
+          var l = that.o.view_region.find(that.o.view_dom).children().length
+          var lw = that.o.view_region.find(that.o.view_dom).children().eq(0).width()
+          that.o.view_region.find(that.o.view_dom).css({ width: (l * lw) + 'px' })
+
+          // 样式初始化
+          that.changePage()
+          // 添加按钮点击事件，如果为幻灯片，添加鼠标滑过事件，其余为点击事件
+          if(that.o.control_region.attr("name")=="banner0"){ 
+        	  that.o.control_region.find(that.o.control_button).mouseover(function () {
+        		  that.timer_changePage_index = $(this).index()
+                  that.changePage()
+
+                  if (that.o.auto_change) {
+                    // 停止计时器
+                    clearInterval(that.timer_changePage)
+
+                    // 定时加载计时器
+                    clearTimeout(that.timer_temp)
+                    that.timer_temp = setTimeout(function () {
+                      that.timer()
+                    }, that.timer_changePage_second);
+                  }
+              })
+          }else{
+        	  that.o.control_region.find(that.o.control_button).click(function () {
+        		  if($(this).attr('id') == 'scrollSite_btn'){
+                      return;
+                  }
+        		  that.timer_changePage_index = $(this).index()
+                  that.changePage()
+
+                  if (that.o.auto_change) {
+                    // 停止计时器
+                    clearInterval(that.timer_changePage)
+
+                    // 定时加载计时器
+                    clearTimeout(that.timer_temp)
+                    that.timer_temp = setTimeout(function () {
+                      that.timer()
+                    }, that.timer_changePage_second);
+                  }
+              })
+          }
+          
+
+          // 自动加载计时器
+          if (that.o.auto_change) {
+            that.timer()
+          }
+        }
+
+        this.timer = function () {
+          // 添加自动轮换定时器
+          that.timer_changePage = setInterval(function () {
+            that.timer_changePage_index++
+            if (that.timer_changePage_index > that.item_length - 1) {
+              that.timer_changePage_index = 0
+            }
+            that.changePage()
+          }, that.timer_changePage_second);
+        }
+
+        this.changePage = function () {
+          // 设置按钮状态
+          var c = that.o.control_region
+          var ctrl = c.find(that.o.control_button)
+          that.item_length = ctrl.length
+          ctrl.each(function () {
+            $(this).removeClass(that.o.control_button_chk)
+          })
+          ctrl.eq(that.timer_changePage_index).addClass(that.o.control_button_chk)
+
+          // 设置显示区域
+          var v = that.o.view_region
+          v.find(".news_box_lsit_item_page").css({"display":"block"});
+          
+          var view = v.find(that.o.view_dom);
+          view.stop(true).animate({ left: (that.timer_changePage_index * view.children().eq(0).width() * -1) + 'px' }, 300);
+        }
+      }
+
+      // 重要通知 - 轮换
+      var swiper_msg = new CY_SWIPER()
+      swiper_msg.init({
+        auto_change: true,
+        control_region: $('.ps_msg_swiper_box[name="msg"]'), // 控制区域
+        control_button: '.ps_msg_swiper_item', // 控制按钮
+        control_button_chk: 'ps_msg_swiper_item_chk', // 按钮选中样式
+        view_region: $('.ps_msg_box_txt_box'), // 显示区域
+        view_dom: '.ps_msg_box_txt_item_box', // 显示元素（盒子）
+      })
+
+      // 通知公告/地方动态
+      var swiper_news = new CY_SWIPER()
+      swiper_news.init({
+        control_region: $('.news_box_title_swiper_item_box[name="news"]'), // 控制区域
+        control_button: '.news_box_title_swiper_item', // 控制按钮
+        control_button_chk: 'news_box_title_swiper_item_chk', // 按钮选中样式
+        view_region: $('.news_box_lsit_box[name="news"]'), // 显示区域
+        view_dom: '.news_box_lsit_item_box', // 显示元素（盒子）
+      })
+
+      // 申报指南/常见问题
+      var swiper_faq = new CY_SWIPER()
+      swiper_faq.init({
+        control_region: $('.news_box_title_swiper_item_box[name="faq"]'), // 控制区域
+        control_button: '.news_box_title_swiper_item', // 控制按钮
+        control_button_chk: 'news_box_title_swiper_item_chk', // 按钮选中样式
+        view_region: $('.news_box_lsit_box[name="faq"]'), // 显示区域
+        view_dom: '.news_box_lsit_item_box', // 显示元素（盒子）
+      })
+
+      // BANNER0
+      var swiper_banner0 = new CY_SWIPER()
+      swiper_banner0.init({
+        auto_change: true,
+        control_region: $('.ps_msg_swiper_box[name="banner0"]'), // 控制区域
+        control_button: '.ps_msg_swiper_item2', // 控制按钮
+        control_button_chk: 'ps_msg_swiper_item_chk2', // 按钮选中样式
+        view_region: $('.pic_swiper_box_item_box[name="banner0"]'), // 显示区域
+        view_dom: '.pic_swiper_box_item_box_s', // 显示元素（盒子）
+      })
+
+      // BANNER1
+      var swiper_banner1 = new CY_SWIPER()
+      swiper_banner1.init({
+        auto_change: true,
+        control_region: $('.ps_msg_swiper_box[name="banner1"]'), // 控制区域
+        control_button: '.ps_msg_swiper_item2', // 控制按钮
+        control_button_chk: 'ps_msg_swiper_item_chk2', // 按钮选中样式
+        view_region: $('.pic_swiper_box_item_box[name="banner1"]'), // 显示区域
+        view_dom: '.pic_swiper_box_item_box_s', // 显示元素（盒子）
+      })
+
+      // BANNER2
+      var swiper_banner2 = new CY_SWIPER()
+      swiper_banner2.init({
+        auto_change: true,
+        control_region: $('.ps_msg_swiper_box[name="banner2"]'), // 控制区域
+        control_button: '.ps_msg_swiper_item2', // 控制按钮
+        control_button_chk: 'ps_msg_swiper_item_chk2', // 按钮选中样式
+        view_region: $('.pic_swiper_box_item_box[name="banner2"]'), // 显示区域
+        view_dom: '.pic_swiper_box_item_box_s', // 显示元素（盒子）
+      })
+
+      /* // 面板展开
+      $('.link_more_item_content_btn_more').mouseenter(function (e) {
+        $(this).parent().css({ 'z-index': 999 })
+        $(this).children('.link_more_item_content_btn_show').hide()
+        $(this).children('.link_more_item_content_btn_hide').show()
+        $(this).parent().stop(true).animate({ width: '587px' })
+      })*/
+
+      // 面板收起
+      $('.link_more_item').mouseleave(function () {
+    	  //console.log("link_more_item--"+$(this));
+        $(this).stop(true).animate({ width: '280px' }, function () {
+          if ($(this).attr('code') == 4) {
+            $(this).css({ 'z-index': 1, right: 0 })
+          } else {
+            $(this).css({ 'z-index': 1 })
+          }
+        })
+        $(this).children('.link_more_item_content_btn_more').children('.link_more_item_content_btn_show').show()
+        $(this).children('.link_more_item_content_btn_more').children('.link_more_item_content_btn_hide').hide()
+      }) 
+      // 面板展开
+      $('.link_more_item_content_btn_show').click(function (e) {
+        $(this).parents(".link_more_item_box").siblings().find(".link_more_item_content_btn_hide").click();
+
+    	var m = $(this).parents('.link_more_item');
+        m.css({ 'z-index': 999 })
+        m.children('.link_more_item_content_btn_more').children('.link_more_item_content_btn_show').hide()
+        m.children('.link_more_item_content_btn_more').children('.link_more_item_content_btn_hide').show()
+        m.animate({ width: '587px' })
+      })
+
+      // 面板收起 
+      $('.link_more_item_content_btn_hide').click(function(){
+    	var m = $(this).parents('.link_more_item');
+    	m.stop(true).animate({ 'width': '280px' }, function () {
+          if (m.attr('code') == 4) {
+            m.css({ 'z-index': 1, right: 0 })
+          } else {
+            m.css({ 'z-index': 1 })
+          }
+        })
+         m.children('.link_more_item_content_btn_more').children('.link_more_item_content_btn_show').show()
+        m.children('.link_more_item_content_btn_more').children('.link_more_item_content_btn_hide').hide() 
+      }) 
+    })
+  </script>
+  <!-- 建议征集div弹框 开始 -->
+  <div class="pop_page" id="jyzj" style="display:none">
+    <div class="pop_close" onclick="jyzjClose()"></div>
+    <div class="title">“颠覆性技术研发方向建议征集”相关事项说明
+        <font style=" color: #333; font-size: 20px; font-weight: 500;  margin-left: 50px;">技术支持电话：010-58882999</font>
+    </div>
+    <div class="pop_img"></div>
+    <div class="left">
+        <div class="name">相关说明</div>
+        <p>
+            1．您需在国家科技管理信息系统公共服务平台登录后，才能够进行颠覆性技术研发方向建议征集填报。
+        </p>
+        <p>
+            2．若您已有平台账号，您可以根据您的账号类型，点击下方“个人用户登录/注册”或“公共服务平台已有用户登录”，登录确认后填报建议征集。
+        </p>
+        <p>
+            3．若您暂无平台账号，您可以点击“个人用户登录/注册”，在建议征集登录页注册个人账号；或联系单位管理员为您创建公共服务平台账号。
+        </p>
+        <div class="info">
+            注：建议征集个人账号仅用于填报建议征集，暂不支持其他业务功能。
+        </div>
+    </div>
+    <div class="right">
+        <div class="right_box"><!--750x480 4-->
+            <div class="name">操作流程</div>
+            <div class="right_img"></div>
+            <div class="gif_img"><a href="../kjjh_cjwd_all/20210915/4573.html" target="_blank"
+                                    style="width: 170px;height: 100px; margin-top: 20px;float: right;"></a></div>
+            <div class="right_img"></div>
+            <p class="txt"><span>注：</span>若暂无中华人民共和国居民身份证，您可将颠覆性建议征集电子版发送至<span>xmzj@istic.ac.cn</span></p>
+        </div>
+        <div class="right_btn">
+            <span id="pop_login_btn" onclick="moduleLogin('xmsb','../index/?click=jyzj')">公共服务平台已有用户登录</span>
+            <a href="https://service2.most.gov.cn/topic_solicitation/f/mobilelogin"
+               target="_blank"><span>个人用户登录/注册</span></a>
+        </div>
+    </div>
+  </div>
+  <!-- 建议征集div弹框 结束 -->
+<!--飘窗 开始 -->
+ <!-- <div id="newroll" style="height:179px;width:210px;padding: 0 10px;">
+    <img src="../ui/images/index/piao1.png" style="position: absolute;left:0;width:234px;height:170px;z-index:0;"/>
+    <div class="close" style="top: 50px;right: -25px;"></div>
+    <div class="content" style="position: relative;margin-top: 100px;width: 215px;text-align: center;padding: 0 0;">
+            <a tabindex="-1" href="javascript:;" onclick="openW('https://service.most.gov.cn/jl')" style="font-size:14px;color:red;font-weight: bold;">2025年度国家科学技术奖<br>通过初评项目公示及评审专家名单公布</a>
+    </div>
+  </div> -->
+<div id="newroll" style="cursor:default;">
+<div class="jlgsclosenew"></div>
+     <img src="../ui/images/index/syspg_new.png" style="position: absolute;left:0;width:245px;height:160px;z-index:0;pointer-events: auto;" onclick="logs(null,'212-2');openW('https://pt.escience.org.cn/lb/mh_web/login')"/>
+</div>
+<script>
+const date = new Date();
+// 设置开始日期：2025年7月27日17点
+const startDate = new Date();
+// 方式1：直接写4月1日0点（等价于3月31日24点，推荐）
+const endDate = new Date(2026, 3, 1, 0, 0, 0);
+if(date <= endDate){
+  $('#newroll').show();
+}else{
+    $('#newroll').hide();
+}
+    var ggnewRoll = {                                     //创建对象直接量
+      newroll: document.getElementById("newroll"),          //获取id属性为roll的对象
+      speed: 20,                                      //飘动速度，即为定时器函数多长时间执行一次
+      statusX: 1,                                     //规定每执行一次函数，left属性值变化的幅度
+      statusY: 1,                                     //规定每执行一次函数，top属性值变化的幅度
+      x: 300,                                         //规定初始状态下left属性的值
+      y: 500,                                         //规定初始状态下top属性的值
+      //差值用来测算left属性值的极限
+      winW: document.documentElement.clientWidth - document.getElementById("newroll").offsetWidth,
+      //差值用来测算top属性值的极限
+      winH: document.documentElement.clientHeight - document.getElementById("newroll").offsetHeight,
+      //声明函数
+      Go: function () {
+        //设置div的left属性值
+        this.newroll.style.left = this.x + 'px';
+        //设置div的top属性值
+        this.newroll.style.top = this.y + 'px';
+        //如果statusX=1则每次减少1px,否则减少1px
+        this.x = this.x + (this.statusX ? -1 : 1)
+        //如果left属性值小于0，也就是div要超出左边界了，就将statusX设置为0
+        if (this.x < 0) { this.statusX = 0 }
+        //如果top属性值大于winW，也就是div要超出右边界了，就将statusX设置为1
+        if (this.x > this.winW) { this.statusX = 1 }
+
+        this.y = this.y + (this.statusY ? -1 : 1)
+        if (this.y < 0) { this.statusY = 0 }
+        if (this.y > this.winH) { this.statusY = 1 }
+
+      }
+    };
+
+    var interval = setInterval("ggnewRoll.Go()", ggnewRoll.speed);
+    ggnewRoll.newroll.onmousemove = function(){
+      clearInterval(interval) 
+    }
+    ggnewRoll.newroll.onmouseover= function(){
+      clearInterval(interval) 
+    }
+    ggnewRoll.newroll.onmouseout = function () { 
+      clearInterval(interval) //清除定时器
+      interval = setInterval("ggnewRoll.Go()", ggnewRoll.speed) 
+    };
+    $(".jlgsclosenew").click(function(){
+      clearInterval(ggnewRoll.interval) ;
+      $("#newroll").hide();
+    })
+    function dcwj(){
+      var url="https://service2.most.gov.cn/survey/tb/20230701/temaSurveyNew.html?type=release&uuId=03d4d85a-6ff8-4930-aead-037ed8971c3f&<%=par %>";
+      window.open(url); 
+    }
+</script>
+<!--飘窗 开始-->
+<!--  飘窗 结束-->
+<!-- 小程序弹出框 开始-->
+<div class="wrap_xcx" style="display:none">
+    <div class="xcx_bg">
+      <div class="xcx_close"></div>
+      <div class="xcx_pop_img"></div>
+      <div class="xcx_logo">
+        <p> 围绕科研主体&nbsp;&nbsp;提供便捷服务 </p>
+      </div>
+      <div class="xcx_info">
+        <ul>
+          <li> 实时掌握项目状态 </li>
+          <li> 查询管理本人论文、专利等科研成果 </li>
+        </ul>
+      </div>
+      <div class="xcx_code">
+        <div class="img_box">
+          <img src="../ui/xcx/images/code.png">
+        </div>
+        <p> 科管小程序已上线<br> 微信“扫一扫”体验 </p>
+      </div>
+      <div class="xcx_title"></div>
+      <div class="xcx_list">
+        <ul>
+          <li class="li1">通过微信小程序<font>搜索</font>“科管服务”，或扫描上方二维码，可直接访问公开信息。</li>
+          <li class="li2">具有科管系统账号，可直接使用账号<font>登录</font>，访问项目信息、在线服务。</li>
+          <li class="li3">不具有科管系统账号，请先完成用户<font>注册</font>，由本单位管理员在公共服务平台进行审核，才可以登录访问项目信息、在线服务。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<!-- 小程序弹出框 结束-->
+  <script>
+    $(function () {
+      //建议征集弹框动态缩放
+      var vh = window.screen.height;
+      if(vh<=768){
+        $('.pop_page').css('transform','scale(0.8)');
+      }
+      // 运维弹框
+      indexWHTS();
+      //从本地存储获取关闭小程序弹框次数
+      var count = window.localStorage.getItem('xcx_close_count');
+      var xcx_close_count = count == null ? 0 : count;
+      //关闭3次隐藏弹出框
+      if(xcx_close_count<3){
+          $('.layout_footer_bra').css('position','initial');
+    	  $('.wrap_xcx').show()
+      }
+      var xcx_close = $(".xcx_close");
+ 	  xcx_close.unbind("click");
+  	  xcx_close.click(function(){
+  		xcx_close_count++;
+  		//往本地存储记录关闭次数
+  		window.localStorage.setItem('xcx_close_count',xcx_close_count);
+    	$(".wrap_xcx").hide();
+  	  })
+      // 通知公告 更多
+      $('#more1').click(function () {
+        var i = $(this).parents('.news_box_title_swiper').find('.news_box_title_swiper_item_chk').index()
+        var url = ['../kjjh_tztg_all/?type=0', '../kjjh_tztg_all/?type=1']
+        location.href = url[i]
+      })
+      // 常见问答 更多
+      $('#more2').click(function () {
+        var i = $(this).parents('.news_box_title_swiper').find('.news_box_title_swiper_item_chk').index()
+        var url = [ '../zxfw/?click=cjwt1']
+        location.href = url[i]
+      })
+      // 申报文件 更多
+      $('#more3').click(function () {
+        location.href = "../wjfg/";
+      })
+    })
+    // 更多快捷快捷入口
+    $('.link_more_item_content_item, .quick_item, .item, .img_con').click(function () {
+      // 记录日志
+      if (typeof ua != 'undefined' && typeof $(this).attr('code') != 'undefined') {
+          var parames = {
+            menuId: 100,
+            outPageTime: ua.getCurTime('YYYY-MM-DD HH:NN:SS'),
+            pageTo: $(this).attr('code')
+          }
+          ua.send(parames)
+        }
+      //每个模块点击事件，如果属性curType不为空或未定义弹出登提示框，否侧跳转到指定连接
+      if (typeof $(this).attr('curType') != 'undefined' && $(this).attr('curType') != '') {
+    	$('#moduleLogin').attr("onclick","moduleLogin('"+$(this).attr('curType')+"', '"+$(this).attr('url')+"')")
+        $('#powerPopup').show()
+      } else {
+        if ($(this).attr('url')== undefined) {
+          return false;
+        } else  if ($(this).attr('url').indexOf('../') > -1) {
+          location.href = $(this).attr('url')
+        } else {
+          window.open($(this).attr('url'))
+        }
+      }
+    })
+	//建议征集
+	function jyzjOpen(){
+		$("#jyzj").css("display","block");
+	}
+	function jyzjClose(){
+		$("#jyzj").css("display","none");
+	}
+     function changePopDirection() {
+        const targetLi = document.querySelectorAll('.home_banner ul li:nth-child(1), .home_banner ul li:nth-child(2)');
+        // 下拉弹窗高度 326px，预留缓冲20px
+        const popHeight = 326 + 20;
+        targetLi.forEach(el => {
+        // 获取li在视口底部距离
+        const rect = el.getBoundingClientRect();
+        const bottomSpace = window.innerHeight - rect.bottom;
+        // 底部剩余空间小于弹窗高度，添加向上弹出类
+        if (bottomSpace < popHeight) {
+          el.classList.add('hover-top');
+        } else {
+          el.classList.remove('hover-top');
+        }
+      });
+    }
+    // 初始化执行
+    changePopDirection();
+    // 窗口缩放、滚动都触发
+    window.addEventListener('resize', changePopDirection);
+    window.addEventListener('scroll', changePopDirection);
+  </script>
+<!-- 页面变为黑白色调 
+<script type="text/javascript" src="../ui/js/grayscale.js?v=1.1"></script>
+<script>
+    grayscale(document.querySelector('body'))
+    $(function () {
+      $('.layout_footer_bra').css('background-image','none');
+      $('.layout_footer_bra').css('background-color','rgb(51, 51, 51)');
+    })
+    setTimeout(function(){
+      grayscale($('#xcx_img'));
+      grayscale($('.layout_footer_bra'));
+    },1000)
+</script> 
+<style>
+  html{
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+
+  }
+  .link_more_item_title_box{
+      background-color: rgb(51, 51, 51);
+      background-image: none;
+  }
+</style>
+-->
+<style>
+    .browserItems {
+      text-align: center;
+    }
+
+    .browserItem {
+      display: inline-block;
+      width: 30%;
+      user-select: none;
+      cursor: pointer;
+    }
+    .cy_popup_title_box{
+      background: url(../ui/images/cy_tools/popup/popup_title_bg.png);
+    }
+  </style>
+  <div id="jianrong" class="cy_popup_bg" style="display: none;">
+    <div class="cy_popup_box" style="width: 600px; height: 360px; margin-left: -300px; margin-top: -170px;">
+      <div class="cy_popup_content">
+        <div class="cy_popup_title_box">
+          <img class="cy_popup_title_icon" src="../ui/images/cy_tools/popup/popup_warning.png">浏览器兼容
+          <div class="cy_popup_box_titleBox_closeIcon" code="jianrong">
+          <img src="../ui/images/cy_tools/popup/cy_popup_close.png">
+          </div>
+        </div>
+        <div class="cy_popup_content_box">
+	      <div class="browserItems">
+	        <div class="browserItem" onclick="">
+	          <div><img src="../ui/images/browser/360.png"></div>
+	          <div>
+	            <p>360</p>
+	            <p>9.0及以上版本</p>
+	          </div>
+	        </div>
+	        <div class="browserItem" onclick="">
+	          <div><img src="../ui/images/browser/chrome.png"></div>
+	          <div>
+	            <p>Chrome</p>
+	            <p>52.0及以上版本</p>
+	          </div>
+	        </div>
+	        <div class="browserItem" onclick="">
+	          <div><img src="../ui/images/browser/ie.png"></div>
+	          <div>
+	            <p>IE</p>
+	            <p>10.0及以上版本</p>
+	          </div>
+	        </div>
+	      </div>
+          <div style="text-align: center; margin-top: 15px;"><span id="lbBrowser"></span><span style="color: red;">建议使用以上浏览器的最新版本</span></div>
+        </div>
+        <div class="cy_popup_box_BtnsBox">
+          <div onclick="cy_pupup_close()" background="#5387eb" color="#FFF" class="cy_popup_box_btn_item" style="background: rgb(83, 135, 235); color: rgb(255, 255, 255);">确定</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ========================================= -->
+  <!-- ========================================= -->
+  <!-- =============    公共页脚    ============= -->
+  <!-- ========================================= -->
+  <!-- ========================================= -->
+  <link rel="stylesheet" href="../ui/css/layout_footer.css?v=2024051401">
+  <div class="layout_footer_bra">
+    <div class="footer_left_img"></div>
+    <div class="footer_right_img"></div>
+    <div class="layout_footer_bra_box">
+      <div class="layout_footer_box">
+        <div class="layout_footer_item" style="margin-right: 12px;">
+          <div style="width: 90px; text-align: center;"><img src="../ui/images/index/icon_footer_phone.png"></div>
+          <div style="font-size: 12px; color: #FFF; line-height: 22px;">
+            为使您的咨询问题及时得到答复，请您务必<br>拨打以下技术支持电话，请勿拨打其它电话：<br>010-58882999（中继线）
+          </div>
+        </div>
+        <div class="layout_footer_item" style="margin-right: 12px;">
+          <div style="width: 90px; text-align: center;"><img src="../ui/images/index/icon_footer_mail.png"></div>
+          <div style="font-size: 12px; color: #FFF; line-height: 22px;">
+            如电话繁忙请通过以下邮箱进行咨询：<br><a tabindex="-1" href="mailto:program@istic.ac.cn" style="color: #FFF;">program@istic.ac.cn</a>
+          </div>
+        </div>
+        <div class="layout_footer_item">
+          <div style="width: 90px; text-align: center;"><img src="../ui/images/index/icon_footer_fax.png"></div>
+          <div style="font-size: 12px; color: #FFF; line-height: 22px;">
+            传真请发送至：010-58882370
+          </div>
+        </div>
+      </div>
+      <div>
+        <img id="xcx_img" src="../ui/images/index/vx_code.png">
+      </div>
+    </div>
+  </div>
+
+  <div id="copyright" style="display: flex; justify-content: center; padding: 20px 0;">
+    <div style="margin-right: 50px;">中华人民共和国科学技术部 &copy; 2015
+        <div onclick="window.open('https://beian.miit.gov.cn','_blank');" style=" display: inline-block; cursor: pointer; margin-left: 50px;">
+           京ICP备05022684号
+        </div>
+    </div>
+    <div id="look" style="cursor: pointer; user-select: none;">查看浏览器兼容版本</div>
+  </div>
+</body>
+  <script>
+  $('#look').click(function(){
+	  $('#jianrong').show()
+  })
+  $(function(){
+      var vw = window.screen.width;
+      var cw = document.body.clientWidth;
+      if(cw <=1520 || vw<=1520 ){
+        $('.footer_left_img, .footer_right_img').hide();
+      }
+      if(cw >= 1300){
+        $('.layout_header_sidebar').css('left','calc(50% + 630px)');
+      } else {
+        $('.layout_header_sidebar').css('left','calc(50% + 520px)');
+      }
+  })
+  </script>
+</html>

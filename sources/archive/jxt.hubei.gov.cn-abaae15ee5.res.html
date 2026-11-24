@@ -1,0 +1,2139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 必须，不要动 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <!-- 移动端必须、PC端非响应式可以去掉 -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- SEO用 -->
+    <meta name="SiteName" content="湖北省经济和信息化厅">
+<meta name="SiteDomain" content="jxt.hubei.gov.cn">
+<meta name="SiteIDCode" content="4200000054">
+<meta name="description" content="湖北经济,湖北省信息化,湖北省经信厅,湖北省经济和信息化厅门户网站,新闻动态,公众互动,专题专栏,领导分工,湖北省经济和信息化厅,jxt.hubei.gov.cn">
+<meta name="keywords" content="湖北经济,湖北省信息化,湖北省经信厅,湖北省经济和信息化厅门户网站,新闻动态,公众互动,专题专栏,领导分工,湖北省经济和信息化厅,jxt.hubei.gov.cn">
+    <title>湖北省经济和信息化厅</title>
+    <link rel="shortcut icon" href="http://jxt.hubei.gov.cn/material/images/gh.png" />
+    <link type="text/css" rel="stylesheet" href="http://jxt.hubei.gov.cn/material/css_2020/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://jxt.hubei.gov.cn/material/css_2020/common.css" />
+    <link rel="stylesheet" type="text/css" href="http://jxt.hubei.gov.cn/material/css_2020/ui20250617.css" />
+    <link rel="stylesheet" type="text/css" href="http://jxt.hubei.gov.cn/material/css_2020/sygnzs_2020.css" />
+    
+    <!-- 兼容低版本IE -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js_2020/html5shiv.js"></script>
+    <script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js_2020/respond.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js_2020/jquery_1_12_4.js"></script>
+    <script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/jquery_SuperSlide.js"></script>
+
+    <script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/opinion_index_2023.js"></script>
+    <script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js_2020/common.js"></script>
+<script>
+        $(function() {
+            //点击上部的li 当前li添加current类 其余兄弟移除类
+            $('#zwgk_lista li').hover(function() {
+                $(this).addClass('current').siblings().removeClass('current');
+
+                //点击的同时得到当前li的索引号
+
+                var index = $(this).index();
+                console.log(index);
+                //让下面相应的索引号的item显示,其余的item隐藏
+                $('#zwgk_listul #item').eq(index).show().siblings().hide();
+            })
+
+            $('#hdjl_lista li').hover(function() {
+                $(this).addClass('current').siblings().removeClass('current');
+
+                //点击的同时得到当前li的索引号
+
+                var index = $(this).index();
+                console.log(index);
+                //让下面相应的索引号的item显示,其余的item隐藏
+                $('#hdjl_pic-text #item-hdjl').eq(index).show().siblings().hide();
+            })
+        })
+    </script>
+<style>
+  .bj{
+      font-size: 10px;
+      line-height: 24px;
+      height: 24px;
+      color: #ffffff;
+      background: linear-gradient(to bottom,#f40000,#f79607);
+      padding: 0 10px;
+      padding-left: 12px;
+      position: absolute;
+      right:10px;
+      top: 10px;
+      border-radius: 0 0 0 15px;
+    }
+.gqbj{
+    background-image: none !important;
+}
+.gqbj1{
+    background: url(/material/2023images/background3.png) 50% 0 no-repeat;
+}
+
+    .zt li {
+    height: auto;
+}
+.list iframe{
+margin-top:40px
+}
+.znwd2023{
+    background: url(/material/2023images/znwd.jpg) top right no-repeat;
+    height: 177px;
+    width: calc( 100% - 10px );
+    padding: 20px 212px 10px 20px;
+}
+.znwd2023 h3{
+margin-bottom: 10px;
+}
+.znwd2023 h3 i{
+    background: url(/material/2023images/znwd2023.png) no-repeat;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    top: 5px;
+    position: relative;
+}
+.znwd2023 .row{
+margin-left:-5px;
+margin-right:-5px
+}
+.znwd2023 .row>div{
+height:38px;
+margin-top:10px;
+padding-left:5px !important;
+padding-right:5px !important;
+}
+.znwd2023 .row>div a{
+    background:#fff;
+border-radius:5px;
+display:block;
+height:100%;
+width:100%;
+text-align:center;
+line-height:38px;
+color:#3b5a88;
+}
+
+.p1-bottom a{
+font-size: 22px !important;
+padding:0 5px;
+margin-right: 5px;
+}
+.p1-bottom a:last-child{
+ margin-right: 0;
+}
+@media(max-width:1200px){
+.p1-bottom a{
+     font-size: 16px !important;
+}
+.focus .pic{
+     margin-left: 0;
+    margin-right: 0;
+}
+}
+@media(max-width:992px){
+.znwd2023{
+height:auto;
+    padding: 20px 331px 10px 20px;
+width:100%;
+background: #e2f3fb url(/material/2023images/znwd.jpg) top right no-repeat;
+background-size: auto 100%;
+padding-bottom:20px
+}
+}
+@media(max-width:768px){
+.znwd2023{
+padding: 20px;backgournd:#e2f3fb 
+}
+}
+
+@media (max-width: 1400px) and (min-width: 1200px){
+ .content  .focus {
+    width: 100%;
+  }
+.tab a{
+  padding: 0 15px;
+}
+}
+
+</style>
+
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function() {
+     /**
+         * 获取当前系统时间的时间戳
+         * @returns {Number} - 时间戳 秒
+         */
+        function getCurUnix() {
+            var date = new Date(); // 将yyy-mm-dd格式装换成yyyy/mm/dd
+            return Date.parse(date) / 1000; // parseDate.parse()支持yyyy/mm/dd格式的毫秒数返回
+        }
+
+        /**
+         * 日期格式转换为时间戳
+         * @param {String} date - 日期 yyyy-MM-dd HH-mm-ss
+         * @returns {Number} - 时间戳 秒
+         */
+        function dateToUnix(date) {
+            if (date) {
+                var date = date.replace(/-/g, '/'); // 将yyy-mm-dd格式装换成yyyy/mm/dd
+                return Date.parse(new Date(date)) / 1000; // parseDate.parse()支持yyyy/mm/dd格式的毫秒数返回
+            } else {
+                return null;
+            }
+        }
+
+        /**
+         * 定时显示
+         * @param {String} beginTime yyyy-MM-dd HH-mm-ss - 开始时间
+         * @param {String} endTime yyyy-MM-dd HH-mm-ss - 结束时间
+         */
+        function bannerTimer(beginTime, endTime) {
+            var currTime = getCurUnix();
+            var beginTime = dateToUnix(beginTime);
+            var endTime = dateToUnix(endTime);
+
+            if (currTime >= beginTime && currTime <= endTime) {//时间之间
+                //do something 页面加载完成后弹广告
+        //春节庆祝
+//PC,ipadpro页面
+if(document.documentElement.clientWidth>=1024){
+      $(window).load(function() {
+          //弹层
+          var img = document.getElementById("img1");
+				//显示广告
+				img.style.display = "block";
+          //设置自动关闭时间
+          //setTimeout("layer.closeAll()", 5000);
+      });
+}
+//手机版
+else if(document.documentElement.clientWidth<=450){
+      $(window).load(function() {
+          //弹层
+         var img = document.getElementById("img1");
+				//显示广告
+				img.style.display = "block";
+          //设置自动关闭时间
+          //setTimeout("layer.closeAll()", 8000);
+      });
+}
+          $('body').addClass('gqbj');
+             $('.wrap').addClass('gqbj1')
+            } else if (currTime < beginTime) {//开始之前
+                //do nothing
+            } else if (currTime > endTime) {//已经结束
+                //do nothing
+            
+            }
+        }
+ //调用函数
+        bannerTimer("2026-09-30 00:00:00", "2026-10-31 00:00:00");
+});
+</script>
+<img src="/material/images/2026-006.jpg" style="display:none; width: 100%;" id="img1" />
+<style>
+.layui-layer-ico {
+    background: url(/material/images/layer_icon.png) no-repeat !important;
+    background-position: -149px -31px !important;
+}
+</style>
+<style>
+@-webkit-keyframes fade-in {/*针对webkit内核*/ 
+    0% {width:100%} 
+    60% {width:100%} 
+    100% {width:0px} 
+} 
+@keyframes fade-in { 
+    0% {width:100%} 
+    60% {width:100%} 
+    100% {width:0px} 
+} 
+@-webkit-keyframes sss1 {/*针对webkit内核*/ 
+    0% {opacity: 0;} 
+    99% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes sss1 { 
+    0% {opacity: 0;} 
+    99% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+.cj2023_1{   
+    animation: fade-in;/*动画名称*/ 
+    animation-duration: 5s;/*动画持续时间*/ 
+    -webkit-animation:fade-in 5s;/*针对webkit内核*/ 
+}
+.cj2023_2{   
+    animation: sss1;/*动画名称*/ 
+    animation-duration: 5s;/*动画持续时间*/ 
+    -webkit-animation:sss1 5s;/*针对webkit内核*/ 
+}
+.cj2023_1{
+position:absolute;
+bottom:0;
+right:0;
+z-index:2;
+height: 517px;
+width:0
+}
+.cj2023_1 img{width:100%}
+ 
+.cj2023_2{
+position:absolute;
+bottom:39px;
+right: -269px;
+ 
+}
+
+</style>
+                <script>
+ 
+  $(function(){
+   var f = false;
+   $('.p1').on('click','.cj2023_2',function(){
+       if(f =!f){
+           $(".cj2023_1").stop().animate({width: '100%'});
+       }else{
+           $(".cj2023_1").stop().animate({width: '0px'});
+       }
+   });
+});
+ 
+        </script>
+<!--功能导航 开始 
+<div id="rightArrow" style="right: 0;"><a href="javascript:;" title=""></a></div>
+<div id="floatDivBoxs" style="right:-90px;">
+    <div class="floatShadow">
+        <ul class="floatDqq">
+           <li><a ><span class="iconfont icon-jyh-wx"></span>微信<span class="wx"><img src="./images/qr.png" alt="" /></span></a></li> 
+            <li><a href="https://weibo.com/hbeitc?is_all=1"><span class="iconfont icon-jyh-wb"></span>微博</a></li> 
+            <li><a><span class="iconfont icon-jyh-sj"></span>APP<span class="sj"><img src="./images/jxtapp.png" alt="" /></span></a></li>
+
+       <li><a href="./fzlm/zzms/" target="_blank"><img src="./images/zzms.png" /> <span style="display: block;margin: 10px 15px;font-size: 24px;"></span>长者模式</a></li>
+            <li><a  id="wuzhangai"><span class="iconfont icon-jyh-wza"></span>无障碍</a></li>
+            <li><a ><span class="iconfont icon-jyh-phone"><img src="./images/phone.png" alt="" /></span>店小二<span class="dxe"><img src="./images/179.jpg" alt="" /></span></a></li>
+            <li><a href="http://jxt.hubei.gov.cn/fzlm/zwxmt/index.shtml" target="_blank" ><span class="iconfont"><img src="./images/zwxmtewm.png" alt="" /></span>政务新媒体</a></li>
+        </ul>
+    </div>
+</div>功能导航 结束 -->
+<!-- dom 开始 -->
+<div class="wrap">
+    <!-- header 开始 -->
+    <link rel="stylesheet" type="text/css" href="http://jxt.hubei.gov.cn/material/css/yetou2023.css" />
+<div class="header">
+    <!-- 头部动画 开始 -->
+    <!-- <div id="wave" style="position:absolute;top:0;left:0;right:0;bottom:60px;opacity:0.3;">
+        <canvas id="c1"></canvas>
+    </div> -->
+    <!-- 头部动画 结束 -->
+    <div class="ht" style="z-index: 11;">
+        <div class="inner clearfix">
+         <p class="fl"> 
+          <script type="text/javaScript">
+            var sysdate = new Date();
+         var year = sysdate.getFullYear();
+         var month = sysdate.getMonth();
+         var date = sysdate.getDate();
+         var day = sysdate.getDay();
+         var week = ['日', '一', '二', '三', '四', '五', '六'];
+         document.write(year + "年" + (month + 1) + "月" + date + "日 星期" + week[day]);
+      </script> 
+         </p>
+         <p class="fl">
+            <a href="javascript:;" id="StranLink" name="StranLink" style="display:none">繁体</a><a class="ipv6">网站支持IPV6</a>
+        </p>
+
+         <p class="frr">
+            <a  id="wuzhangai">无障碍</a> <span class="hidden-xs">|</span> <a  href="http://jxt.hubei.gov.cn/fzlm/zzms/" target="_blank" >长者版</a>  
+</p>
+
+<p class="fr">
+            <a id="login" class="login" style="cursor: pointer;">登录个人中心</a>|<a href="http://jxt.hubei.gov.cn/fzlm/znwd/index.shtml" style="cursor: pointer;">智能问答</a>
+         </p>
+        </div>
+       </div>
+       
+    <div class="inner clearfix">
+        <h1><a href="http://jxt.hubei.gov.cn/" class="nt">湖北省经济和信息化厅</a></h1>
+        <div class="search" id="search">
+            <div class="search-box">
+                <input type="text" maxlength="20" onclick="if(this.value=='请输入您想要搜索的内容'){this.value='';}" placeholder="请输入关键词" id="textfield" />
+                <button onclick="chkSearch()"><span class="s1"></span><a>搜索</a></button>
+            </div>
+<p>热门搜索：
+<a onclick="chkSearch1()" target="_blank">专精特新 </a>
+<a onclick="chkSearch22()" target="_blank">单项冠军</a>
+<a onclick="chkSearch3()" target="_blank">两化融合 </a>
+<a onclick="chkSearch4()" target="_blank">小巨人 </a>
+<a onclick="chkSearch5()" target="_blank">绿色工厂</a>
+</p>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="current"><a href="http://jxt.hubei.gov.cn/"><b>首&ensp;页</b></a></li>
+            <li id="4610"><a href="http://jxt.hubei.gov.cn/fbjd/" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"><b>政府信息公开</b></a></li>
+            <li id="4659"><a href="http://jxt.hubei.gov.cn/hdjl/"><b>互动交流</b></a></li>
+            <li id="4667"><a href="http://jxt.hubei.gov.cn/bsfw/"><b>办事服务</b></a></li>
+            <li id="4680"><a href="http://jxt.hubei.gov.cn/bmdt/"><b>部门动态</b></a></li>
+            <li id="42087"><a href="http://jxt.hubei.gov.cn/sjkf/"><b>数据开放</b></a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+function chkSearch1(){
+window.open("http://www.hubei.gov.cn/site/hb/#/all?type=%E6%89%80%E6%9C%89&siteId=31&name=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitename=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitetype=%E7%9C%81%E7%9B%B4%E9%83%A8%E9%97%A8&searchWord=专精特新","_blank")
+}
+function chkSearch22(){
+window.open("http://www.hubei.gov.cn/site/hb/#/all?type=%E6%89%80%E6%9C%89&name=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&siteId=31&sitename=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitetype=%E7%9C%81%E7%9B%B4%E9%83%A8%E9%97%A8&searchWord=单项冠军","_blank")
+}
+function chkSearch3(){
+window.open("http://www.hubei.gov.cn/site/hb/#/all?type=%E6%89%80%E6%9C%89&siteId=31&name=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitename=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitetype=%E7%9C%81%E7%9B%B4%E9%83%A8%E9%97%A8&searchWord=两化融合","_blank")
+}
+function chkSearch4(){
+window.open("http://www.hubei.gov.cn/site/hb/#/all?type=%E6%89%80%E6%9C%89&siteId=31&name=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitename=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitetype=%E7%9C%81%E7%9B%B4%E9%83%A8%E9%97%A8&searchWord=小巨人","_blank")
+}
+function chkSearch5(){
+window.open("http://www.hubei.gov.cn/site/hb/#/all?type=%E6%89%80%E6%9C%89&siteId=31&name=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitename=%E6%B9%96%E5%8C%97%E7%9C%81%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8E%85&sitetype=%E7%9C%81%E7%9B%B4%E9%83%A8%E9%97%A8&searchWord=绿色工厂","_blank")
+}
+
+</script>
+<script>
+    function chkSearch(){
+        if($('#textfield').val() == '' || $('#textfield').val().length == 0){
+            alert('请输入您想要搜索的内容');
+            return false;
+        }
+        var keywords = encodeURI($('#textfield').val());
+        $url = 'http://www.hubei.gov.cn/site/hb/#/all?type='+'所有'+'&siteId=31&name='+'湖北省经济和信息化厅'+'&sitename='+'湖北省经济和信息化厅'+'&sitetype='+'省直部门'+'&searchWord='+keywords+'';
+        window.open($url,'_blank');
+    }
+    $('#textfield').on('keypress',function (event) {
+        if (event.keyCode === 13){
+            chkSearch();
+        }
+    });
+</script>
+<script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/eazy.js"></script>
+
+
+<div class="clear"></div>
+<!-- 移动端菜单开始 -->
+<div class="menu-btn"><span></span><span></span><span></span></div>
+        <div class="menu">
+        <p class="tc"><img src="/material/2023images/logo3.png" alt="" /></p>
+        <ul>
+                <li class="current"><a href="http://jxt.hubei.gov.cn/"><b>首&ensp;页</b></a></li>
+                <li id="4610"><a href="http://jxt.hubei.gov.cn/fbjd/" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"><b>政府信息公开</b></a></li>
+                <li id="4659"><a href="http://jxt.hubei.gov.cn/hdjl/"><b>互动交流</b></a></li>
+                <li id="4667"><a href="http://jxt.hubei.gov.cn/bsfw/"><b>办事服务</b></a></li>
+                <li id="4680"><a href="http://jxt.hubei.gov.cn/bmdt/"><b>部门动态</b></a></li>
+                <li id="42087"><a href="http://jxt.hubei.gov.cn/sjkf/"><b>数据开放</b></a></li>
+        </ul>
+    </div>
+    <div class="mask"></div> 
+<!-- 移动端菜单结束 -->
+    <link rel="stylesheet" type="text/css" href="http://jxt.hubei.gov.cn/material/css/index20260903.css" />
+<style>
+.p2{
+height:auto
+}
+</style>
+    <!-- header 结束 -->
+    <!-- content 开始 -->
+    <div class="content">
+
+                                    <!-- 智能推荐 s -->
+                <style>
+
+                </style>
+                <div class="zntj-btn"></div>
+                <div class="zntj">
+                    <div class="zntj-inner">
+                        <!-- Tab 栏 -->
+                        <div class="zntj-tabs">
+                            <div class="zntj-tab-item active" data-tab="tj">推荐服务</div>
+                            <div class="zntj-tab-item" data-tab="rd">热点推荐</div>
+                            <div class="zntj-tab-item" data-tab="zc">最新政策</div>
+                        </div>
+
+                        <!-- 列表：每个 pane 含 1 个数据池 ul.zntj-pool（隐藏） + 1 个显示池 ul.zntj-show，JS 随机抽 8 条放入显示池 -->
+                        <div class="zntj-list">
+                            <!-- 推荐服务 -->
+                            <div class="zntj-pane active" data-pane="tj">
+                                <ul class="zntj-pool">
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704800001" target="_blank">电台呼号指配审批（新申请、变更）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704700003" target="_blank">无线电台（站）的设置、使用审批(新申请)</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704600001" target="_blank">无线电频率指配审批（新申请）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704700005" target="_blank">无线电台（站）的设置、使用审批(续用）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704700008" target="_blank">卫星地球站（新申请）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704600002" target="_blank">无线电频率指配审批（续用）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704600003" target="_blank">无线电频率指配审批（注销）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704700007" target="_blank">无线电台（站）的设置、使用审批(注销）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704600004" target="_blank">无线电频率指配审批（变更）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704700004" target="_blank">无线电台（站）的设置、使用审批(变更）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704700006" target="_blank">无线电台（站）的设置、使用审批(遗失补办）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010704800002" target="_blank">电台呼号指配审批（注销）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700300001" target="_blank">第二类监控化学品经营许可（新申请）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700300002" target="_blank">第二类监控化学品经营许可（企业法人变更）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700300003" target="_blank">第二类监控化学品经营许可（企业名称变更）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700400001" target="_blank">第二类监控化学品使用许可（新申请）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700400002" target="_blank">第二类监控化学品使用许可（企业法人变更）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700400003" target="_blank">第二类监控化学品使用许可（企业名称变更）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700600001" target="_blank">变质或者过期失效的监控化学品处理方案批准（新申请）</a></li>
+                                    <li><a href="https://zwfw.hubei.gov.cn/webview/bszn/bsznpage.html?transactCode=11420000757009218A200010700600002" target="_blank">变质或者过期失效的监控化学品处理方案批准（企业法人变更）</a></li>
+                                </ul>
+                                <ul class="zntj-show"></ul>
+                            </div>
+
+                            <!-- 热点推荐 -->
+                            <div class="zntj-pane" data-pane="rd">
+                                <ul class="zntj-pool">
+ 		  
+
+                                   <li><a href="./bmdt/gzdt/202611/t20261124_6133647.shtml" class="w80" target="_blank" title="你以为这合法④ | 无人机“黑飞”不受控？这条法规划清红线">你以为这合法④ | 无人机“黑飞”不受控？这条法规划清红线</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261124_6133543.shtml" class="w80" target="_blank" title="太蓝全固态电池潜江基地首期产线试生产">太蓝全固态电池潜江基地首期产线试生产</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261124_6133362.shtml" class="w80" target="_blank" title="湖北2家入选！首批高标准数字园区建设对象名单公布">湖北2家入选！首批高标准数字园区建设对象名单公布</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261124_6133361.shtml" class="w80" target="_blank" title="李殿勋调研“人工智能+”行动并召开推进会">李殿勋调研“人工智能+”行动并召开推进会</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6133008.shtml" class="w80" target="_blank" title="武汉“小巨人”自研材料获海内外头部企业订单">武汉“小巨人”自研材料获海内外头部企业订单</a></li>
+		  
+
+                                   <li><a href="./bmdt/szgz/202611/t20261123_6133009.shtml" class="w80" target="_blank" title="市州动态丨荆门举办工业软件供需对接会">市州动态丨荆门举办工业软件供需对接会</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6133008.shtml" class="w80" target="_blank" title="武汉“小巨人”自研材料获海内外头部企业订单">武汉“小巨人”自研材料获海内外头部企业订单</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261119_6128366.shtml" class="w80" target="_blank" title="网联万物 智兴千业 | 2026中国5G+工业互联网大会在武汉召开">网联万物 智兴千业 | 2026中国5G+工业互联网大会在武汉召开</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132608.shtml" class="w80" target="_blank" title="武汉成立中试服务协会，打通成果转化“关键一环”">武汉成立中试服务协会，打通成果转化“关键一环”</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132212.shtml" class="w80" target="_blank" title="李殿勋出席第十四届中国中部投资贸易博览会">李殿勋出席第十四届中国中部投资贸易博览会</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132203.shtml" class="w80" target="_blank" title="一台车身87秒下线，5G+让湖北制造换了“表情”">一台车身87秒下线，5G+让湖北制造换了“表情”</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132203.shtml" class="w80" target="_blank" title="一台车身87秒下线，5G+让湖北制造换了“表情”">一台车身87秒下线，5G+让湖北制造换了“表情”</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132184.shtml" class="w80" target="_blank" title="芯片当机器人“小脑”！国产RISC-V芯片亮相5G+工业互联网大会">芯片当机器人“小脑”！国产RISC-V芯片亮相5G+工业互联网大会</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132175.shtml" class="w80" target="_blank" title="我省建成武汉咸宁低空试验网">我省建成武汉咸宁低空试验网</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132163.shtml" class="w80" target="_blank" title="飞行汽车、无人机、机器人集体亮相光谷">飞行汽车、无人机、机器人集体亮相光谷</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261123_6132155.shtml" class="w80" target="_blank" title="宜昌东阳光、同济医院入选国家算力互联互通行业节点创建培育名单">宜昌东阳光、同济医院入选国家算力互联互通行业节点创建培育名单</a></li>
+		  
+
+                                   <li><a href="./bmdt/gzdt/202611/t20261123_6132144.shtml" class="w80" target="_blank" title="湖北7个产业集群新晋“国家队”，附集群简介！">湖北7个产业集群新晋“国家队”，附集群简介！</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261120_6131892.shtml" class="w80" target="_blank" title="湖北新增7个！2026年度（第五批）中小企业特色产业集群名单公布">湖北新增7个！2026年度（第五批）中小企业特色产业集群名单公布</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261120_6129079.shtml" class="w80" target="_blank" title="我国将加快5G工厂建设 加强6G与工业融合前瞻研究">我国将加快5G工厂建设 加强6G与工业融合前瞻研究</a></li>
+		  
+
+                                   <li><a href="./bmdt/rdjj/202611/t20261120_6129023.shtml" class="w80" target="_blank" title="湖北1家上榜！2026年度领航级智能工厂培育名单公布">湖北1家上榜！2026年度领航级智能工厂培育名单公布</a></li>
+
+                                </ul>
+                                <ul class="zntj-show"></ul>
+                            </div>
+
+                            <!-- 最新政策 -->
+                            <div class="zntj-pane" data-pane="zc">
+                                <ul class="zntj-pool">
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202611/t20261109_6072651.shtml" class="w80" target="_blank" title="湖北省经济和信息化厅等七部门关于印发《湖北省推进石化化工行业老旧装置更新改造实施方案（2026—2029年）》的通知">湖北省经济和信息化厅等七部门关于印发《湖北省推进石化化工行业老旧装置更新改造实施方案（2026—2029...</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202607/t20260723_5982304.shtml" class="w80" target="_blank" title="湖北省经济和信息化厅  湖北省财政厅  湖北省地方金融管理局  湖北省数据局 中国人民银行湖北省分行  国家金融监督管理总局 湖北监管局 关于印发《湖北省民营中小企业商业价值信用贷款改革试验方案》的通知">湖北省经济和信息化厅  湖北省财政厅  湖北省地方金融管理局  湖北省数据局 中国人民银行湖北省分行  国...</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202604/t20260413_5913081.shtml" class="w80" target="_blank" title="湖北省经济和信息化厅 中共湖北省委网络安全和信息化委员会办公室 湖北省发展和改革委员会 湖北省科学技术厅 湖北省人民政府国有资产监督管理委员会 湖北省市场监督管理局 湖北省数据局 湖北省通信管理局关于印发《湖北省“人工智能+制造”专项行动实施方案》的通知">湖北省经济和信息化厅 中共湖北省委网络安全和信息化委员会办公室 湖北省发展和改革委员会 湖北省科学技...</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202510/t20251023_5796751.shtml" class="w80" target="_blank" title="湖北省人民政府办公厅关于加快推进人工智能产业发展的实施意见">湖北省人民政府办公厅关于加快推进人工智能产业发展的实施意见</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202509/t20250926_5780859.shtml" class="w80" target="_blank" title="省人民政府办公厅关于印发《湖北省加快算网存用协同发展的若干措施》的通知">省人民政府办公厅关于印发《湖北省加快算网存用协同发展的若干措施》的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202504/t20250425_5629503.shtml" class="w80" target="_blank" title="省经信厅 省地方金融管理局 省财政厅 人行湖北省分行 湖北金融监管局关于印发《湖北省中小企业商业价值信用贷款实施办法（试行）》的通知">省经信厅 省地方金融管理局 省财政厅 人行湖北省分行 湖北金融监管局关于印发《湖北省中小企业商业价值...</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202504/t20250410_5611219.shtml" class="w80" target="_blank" title="省人民政府办公厅关于印发《湖北省中小企业特色产业集群高质量发展工作方案（2025-2027年）》的通知">省人民政府办公厅关于印发《湖北省中小企业特色产业集群高质量发展工作方案（2025-2027年）》的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202412/t20241201_5433041.shtml" class="w80" target="_blank" title="​省人民政府办公厅关于加快生物医药产业高质量发展的实施意见">​省人民政府办公厅关于加快生物医药产业高质量发展的实施意见</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202411/t20241113_5411366.shtml" class="w80" target="_blank" title="省经信厅 省商务厅 武汉海关印发《关于促进专精特新企业出口的实施方案》的通知">省经信厅 省商务厅 武汉海关印发《关于促进专精特新企业出口的实施方案》的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/gfxwj/202408/t20240812_5300883.shtml" class="w80" target="_blank" title="省经信厅关于印发《湖北省省级工业设计中心认定管理办法》的通知">省经信厅关于印发《湖北省省级工业设计中心认定管理办法》的通知</a></li>
+                                        
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202611/t20261116_6086000.shtml" class="w80" target="_blank" title="省经信厅办公室关于开展湖北省第九批专精特新中小企业认定的通知">省经信厅办公室关于开展湖北省第九批专精特新中小企业认定的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202611/t20261113_6085318.shtml" class="w80" target="_blank" title="省经信厅办公室关于开展2026年工业软件券兑付申请工作的通知">省经信厅办公室关于开展2026年工业软件券兑付申请工作的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202610/t20261012_6031558.shtml" class="w80" target="_blank" title="省经信厅办公室关于开展2026年湖北省首版次软件产品申报工作的通知">省经信厅办公室关于开展2026年湖北省首版次软件产品申报工作的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202609/t20260923_6021319.shtml" class="w80" target="_blank" title="省经信厅办公室关于开展2026年工业软件券补充申领工作的通知">省经信厅办公室关于开展2026年工业软件券补充申领工作的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202609/t20260922_6020215.shtml" class="w80" target="_blank" title="关于开展2026年度湖北省电子信息工程专业职称评审申报工作的通知">关于开展2026年度湖北省电子信息工程专业职称评审申报工作的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202609/t20260922_6020210.shtml" class="w80" target="_blank" title="关于开展2026年度湖北省专精特新企业工程系列职称评审申报工作的通知">关于开展2026年度湖北省专精特新企业工程系列职称评审申报工作的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202609/t20260915_6014388.shtml" class="w80" target="_blank" title="省经信厅办公室关于组织申报2026年工业高质量数据集和智能体的通知">省经信厅办公室关于组织申报2026年工业高质量数据集和智能体的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202608/t20260827_6002591.shtml" class="w80" target="_blank" title="省经信厅办公室关于做好2026年度省级工业设计中心申报工作的通知">省经信厅办公室关于做好2026年度省级工业设计中心申报工作的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202608/t20260824_5999407.shtml" class="w80" target="_blank" title="省经信厅办公室关于组织申报2026年“人工智能+制造”服务商的通知">省经信厅办公室关于组织申报2026年“人工智能+制造”服务商的通知</a></li>
+                                         
+                                            <li><a href="./fbjd/zc/qtzdgkwj/gwfb/202608/t20260810_5991934.shtml" class="w80" target="_blank" title="湖北省经济和信息化厅关于组织申报2026年工业和信息化领域创新任务揭榜挂帅任务的通知">湖北省经济和信息化厅关于组织申报2026年工业和信息化领域创新任务揭榜挂帅任务的通知</a></li>
+                                        
+
+                                </ul>
+                                <ul class="zntj-show"></ul>
+                            </div>
+                        </div>
+
+                        <!-- 换一批按钮 -->
+                        <div class="zntj-refresh">
+                           <img src="/material/images/zntj_sx.png" alt="" />
+                            <span>不感兴趣，换一批</span>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    // hover 展开/收起
+                    $(".zntj-btn").hover(function(){
+                        $(".zntj").stop().animate({width: '688px',left: '0px',top: '-3px'});
+                    },function(){
+                        $(".zntj").stop().animate({width: '0'});
+                    })
+                    $(".zntj").hover(function(){
+                        $(".zntj").stop().animate({width: '688px',left: '0px',top: '-3px'});
+                    },function(){
+                        $(".zntj").stop().animate({width: '0'});
+                    })
+
+                    // Tab 切换
+                    $('.zntj-tabs').on('click', '.zntj-tab-item', function() {
+                        var key = $(this).data('tab')
+                        $(this).addClass('active').siblings('.zntj-tab-item').removeClass('active')
+                        $('.zntj-list .zntj-pane').each(function() {
+                            if ($(this).data('pane') === key) {
+                                $(this).addClass('active')
+                            } else {
+                                $(this).removeClass('active')
+                            }
+                        })
+                    })
+
+                    // 从某个 pane 的数据池中随机取 n 条到显示池
+                    function renderZntjPane($pane, n) {
+                        n = n || 8
+                        var $pool = $pane.children('ul.zntj-pool')
+                        var $show = $pane.children('ul.zntj-show')
+                        var source = $pool.children('li').get()
+                        var total = source.length
+                        if (!total) return
+                        if (total <= n) {
+                            // 不够 n 条，直接全部
+                            $show.empty()
+                            for (var k = 0; k < total; k++) {
+                                $show.append(source[k].cloneNode(true))
+                            }
+                            return
+                        }
+                        // Fisher-Yates 洗牌取前 n 条
+                        var arr = source.slice()
+                        for (var i = arr.length - 1; i > 0; i--) {
+                            var j = Math.floor(Math.random() * (i + 1))
+                            var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp
+                        }
+                        $show.empty()
+                        for (var m = 0; m < n; m++) {
+                            $show.append(arr[m].cloneNode(true))
+                        }
+                    }
+
+                    // 初始化：对所有 pane 首次各随机填充 8 条
+                    $('.zntj-list .zntj-pane').each(function() {
+                        renderZntjPane($(this), 8)
+                    })
+
+                    // 换一批：只对当前激活的 pane，重新从数据池随机筛 8 条
+                    $('.zntj-refresh').on('click', function() {
+                        var $activePane = $('.zntj-list .zntj-pane.active')
+                        if (!$activePane.length) return
+                        renderZntjPane($activePane, 8)
+                    })
+
+                </script>
+                <!-- 智能推荐 s -->
+
+
+        <!-- grid p1 开始 -->
+        <div class="grid p1">
+            <div class="row">
+<div class="headline tc mb20">
+
+    <h2><span class="hidden-xs">
+
+            <a title="头条新闻" target="_blank" class="ttNew"></a>
+
+
+        </span>
+            <a href="./bmdt/ttgz/202611/t20261116_6085620.shtml" target="_blank"  title="《求是》杂志发表习近平总书记重要文章《携手共建亚太命运共同体》">《求是》杂志发表习近平总书记重要文章《携手共建亚太命运共同体》</a>
+                    
+        </h2>
+
+    <p>
+        
+            <a href="./bmdt/ttgz/202611/t20261105_6065695.shtml" target="_blank" title="总书记的人民情怀 | “做强做优做大实体经济”">
+            总书记的人民情怀 | “做强做优做大实体经济”</a>
+                
+
+        <span class="hidden-xs hidden-sm">|</span>
+
+<a href="./bmdt/ttgz/202610/t20261030_6043764.shtml" target="_blank" title="中国共产党第二十届中央委员会第五次全体会议公报">
+ 中国共产党第二十届中央委员会第五次全体会议公报</a>
+ 
+    </p>
+</div>
+
+                  <div class="col-md-6">
+                    <div class="focus">
+                        <div class="swiper-wrapper pic">
+                            <!-- 循环提取开始 -->
+                            
+                                <div class="swiper-slide"><a href="./bmdt/jxtyw/202610/t20261026_6041027.shtml" target="_blank"  title="全省制造业数智化转型推进会暨“深度行”活动在鄂州举行"><img src="./bmdt/jxtyw/202610/W020261030346511732711.png"/><span>全省制造业数智化转型推进会暨“深度行”活动在鄂州举行</span></a></div>
+                            
+                                <div class="swiper-slide"><a href="./bmdt/jxtyw/202608/t20260827_6002193.shtml" target="_blank"  title="省经信厅召开党组（扩大）会议"><img src="./bmdt/jxtyw/202608/W020260827492965725531.png"/><span>省经信厅召开党组（扩大）会议</span></a></div>
+                            
+                                <div class="swiper-slide"><a href="./bmdt/jxtyw/202606/t20260611_5955947.shtml" target="_blank"  title="全省引导支持和服务保障企业开展“三类创新”工作推进会在汉召开"><img src="./bmdt/jxtyw/202606/W020260825374924166895.png"/><span>全省引导支持和服务保障企业开展“三类创新”工作推进会在汉召开</span></a></div>
+                            
+                                <div class="swiper-slide"><a href="./bmdt/jxtyw/202603/t20260319_5895708.shtml" target="_blank"  title="省经信厅召开会议传达学习全国两会精神"><img src="./bmdt/jxtyw/202603/W020260319625997231090.png"/><span>省经信厅召开会议传达学习全国两会精神</span></a></div>
+                            
+                                <div class="swiper-slide"><a href="./bmdt/jxtyw/202603/t20260304_5884407.shtml" target="_blank"  title="省经信厅召开干部作风建设大会"><img src="./bmdt/jxtyw/202603/W020260304320899294696_ORIGIN.png"/><span>省经信厅召开干部作风建设大会</span></a></div>
+                            
+                            <!-- 循环提取结束 -->
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="navi"></div>
+                        <!-- Add Number -->
+                        <div class="num"></div>
+                        <!-- Add Arrows -->
+                        <div class="next"><i class="iconfont icon-jyh-right"></i></div>
+                        <div class="prev"><i class="iconfont icon-jyh-left"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- 固定选项卡组件结构 start -->
+                    <div class="tab-pane lxgs">
+                        <!-- 选项卡标签容器 start-->
+                        <h3 class="tab mb10"><a href="http://jxt.hubei.gov.cn/bmdt/rdjj/"  class="current">热点聚焦</a>
+                       <a href="http://jxt.hubei.gov.cn/bmdt/jxtyw/" >经信厅要闻</a>
+                       <a href="http://jxt.hubei.gov.cn/bmdt/gzdt/" >工作动态</a> 
+                       <a href="http://jxt.hubei.gov.cn/bmdt/szgz/" >市州工作</a></h3>
+                        <!-- 选项卡标签容器 end-->
+                        <!-- 选项卡内容容器 start-->
+                        <div class="pane">
+                            <div><ul class="list-t mt10">
+                                        
+                                            <li><a href="./bmdt/rdjj/202611/t20261124_6133543.shtml" class="w80" target="_blank" title="太蓝全固态电池潜江基地首期产线试生产">太蓝全固态电池潜江基地首期产线试生产<span class="date">2026-11-24</span></a></li>
+                                        
+                                            <li><a href="./bmdt/rdjj/202611/t20261124_6133362.shtml" class="w80" target="_blank" title="湖北2家入选！首批高标准数字园区建设对象名单公布">湖北2家入选！首批高标准数字园区建设对象名单公布<span class="date">2026-11-24</span></a></li>
+                                        
+                                            <li><a href="./bmdt/rdjj/202611/t20261124_6133361.shtml" class="w80" target="_blank" title="李殿勋调研“人工智能+”行动并召开推进会">李殿勋调研“人工智能+”行动并召开推进会<span class="date">2026-11-24</span></a></li>
+                                        
+                                            <li><a href="./bmdt/rdjj/202611/t20261123_6133008.shtml" class="w80" target="_blank" title="武汉“小巨人”自研材料获海内外头部企业订单">武汉“小巨人”自研材料获海内外头部企业订单<span class="date">2026-11-23</span></a></li>
+                                        
+                                            <li><a href="./bmdt/rdjj/202611/t20261123_6132608.shtml" class="w80" target="_blank" title="武汉成立中试服务协会，打通成果转化“关键一环”">武汉成立中试服务协会，打通成果转化“关键一环”<span class="date">2026-11-23</span></a></li>
+                                        
+                                            <li><a href="./bmdt/rdjj/202611/t20261123_6132212.shtml" class="w80" target="_blank" title="李殿勋出席第十四届中国中部投资贸易博览会">李殿勋出席第十四届中国中部投资贸易博览会<span class="date">2026-11-23</span></a></li>
+                                        
+                                            <li><a href="./bmdt/rdjj/202611/t20261123_6132203.shtml" class="w80" target="_blank" title="一台车身87秒下线，5G+让湖北制造换了“表情”">一台车身87秒下线，5G+让湖北制造换了“表情”<span class="date">2026-11-22</span></a></li>
+                                        
+                                </ul></div>
+                            <div>
+                                <ul class="list-t mt10">
+                                        
+                                            <li><a href="./bmdt/jxtyw/202611/t20261120_6128791.shtml" class="w80" target="_blank" title="算通九州 网联万象 | 2026算力互联网大会在武汉举办">算通九州 网联万象 | 2026算力互联网大会在武汉举办<span class="date">2026-11-19</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jxtyw/202611/t20261117_6123163.shtml" class="w80" target="_blank" title="朱万奎主持召开2026中国5G+工业互联网大会筹备工作专题调度会">朱万奎主持召开2026中国5G+工业互联网大会筹备工作专题调度会<span class="date">2026-11-16</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jxtyw/202611/t20261116_6085539.shtml" class="w80" target="_blank" title="中小企业数智化转型现场交流活动在湖北武汉举办">中小企业数智化转型现场交流活动在湖北武汉举办<span class="date">2026-11-15</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jxtyw/202611/t20261111_6083117.shtml" class="w80" target="_blank" title="全省规上工业企业培育及进规申报专题培训会在汉召开">全省规上工业企业培育及进规申报专题培训会在汉召开<span class="date">2026-11-10</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jxtyw/202611/t20261109_6072822.shtml" class="w80" target="_blank" title="“鄂药出海·链通全球”湖北省医药企业出海需求专场对接会成功举办">“鄂药出海·链通全球”湖北省医药企业出海需求专场对接会成功举办<span class="date">2026-11-08</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jxtyw/202611/t20261109_6072768.shtml" class="w80" target="_blank" title="全省原材料重点企业大气环境绩效提升暨工作部署会议在武汉召开">全省原材料重点企业大气环境绩效提升暨工作部署会议在武汉召开<span class="date">2026-11-07</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jxtyw/202610/t20261030_6046044.shtml" class="w80" target="_blank" title="全省创新产品应用示范推介活动在汉举办">全省创新产品应用示范推介活动在汉举办<span class="date">2026-10-30</span></a></li>
+                                        
+
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul class="list-t mt10">
+                                    
+                                        <li><a href="./bmdt/gzdt/202611/t20261124_6133647.shtml" class="w80" target="_blank" title="你以为这合法④ | 无人机“黑飞”不受控？这条法规划清红线">你以为这合法④ | 无人机“黑飞”不受控？这条法规划清红线<span class="date">2026-11-24</span></a></li>
+                                    
+                                        <li><a href="./bmdt/gzdt/202611/t20261123_6132144.shtml" class="w80" target="_blank" title="湖北7个产业集群新晋“国家队”，附集群简介！">湖北7个产业集群新晋“国家队”，附集群简介！<span class="date">2026-11-21</span></a></li>
+                                    
+                                        <li><a href="./bmdt/gzdt/202611/t20261119_6128146.shtml" class="w80" target="_blank" title="2026年优企进校・百日招聘 专精特新中小企业人才供需专场招聘会成功举办">2026年优企进校・百日招聘 专精特新中小企业人才供需专场招聘会成功举办<span class="date">2026-11-19</span></a></li>
+                                    
+                                        <li><a href="./bmdt/gzdt/202611/t20261116_6085556.shtml" class="w80" target="_blank" title="以赛促用，249个项目竞逐AI新赛道2026年湖北省国资国企“人工智能+”场景创新应用大赛收官">以赛促用，249个项目竞逐AI新赛道2026年湖北省国资国企“人工智能+”场景创新应用大赛收官<span class="date">2026-11-15</span></a></li>
+                                    
+                                        <li><a href="./bmdt/gzdt/202611/t20261116_6085524.shtml" class="w80" target="_blank" title="你以为这合法③|无型号核准的无线电发射设备不能卖！湖北这条条例划清红线">你以为这合法③|无型号核准的无线电发射设备不能卖！湖北这条条例划清红线<span class="date">2026-11-14</span></a></li>
+                                    
+                                        <li><a href="./bmdt/gzdt/202611/t20261112_6083937.shtml" class="w80" target="_blank" title="全省专精特新中小企业赋能项目走进北交所">全省专精特新中小企业赋能项目走进北交所<span class="date">2026-11-12</span></a></li>
+                                    
+                                        <li><a href="./bmdt/gzdt/202611/t20261111_6083148.shtml" class="w80" target="_blank" title="优企进校·百日招聘--“专精特新”人才供需线上专场招聘会！">优企进校·百日招聘--“专精特新”人才供需线上专场招聘会！<span class="date">2026-11-10</span></a></li>
+                                    
+                                </ul>
+
+                            </div>
+
+                            <div>
+                                <ul class="list-t mt10">
+                                    
+                                        <li><a href="./bmdt/szgz/202611/t20261123_6133009.shtml" class="w80" target="_blank" title="市州动态丨荆门举办工业软件供需对接会">市州动态丨荆门举办工业软件供需对接会<span class="date">2026-11-23</span></a></li>
+                                    
+                                        <li><a href="./bmdt/szgz/202611/t20261116_6085919.shtml" class="w80" target="_blank" title="市州动态丨宜昌这块“石头”，全球爆单">市州动态丨宜昌这块“石头”，全球爆单<span class="date">2026-11-16</span></a></li>
+                                    
+                                        <li><a href="./bmdt/szgz/202611/t20261116_6085564.shtml" class="w80" target="_blank" title="市州动态丨四名院士带队，工信部“专家行”为武汉创建国家新型工业化示范区把脉问诊">市州动态丨四名院士带队，工信部“专家行”为武汉创建国家新型工业化示范区把脉问诊<span class="date">2026-11-15</span></a></li>
+                                    
+                                        <li><a href="./bmdt/szgz/202611/t20261112_6084364.shtml" class="w80" target="_blank" title="市州动态丨年产472.4吨高端原料药项目开工！">市州动态丨年产472.4吨高端原料药项目开工！<span class="date">2026-11-12</span></a></li>
+                                    
+                                        <li><a href="./bmdt/szgz/202611/t20261111_6083569.shtml" class="w80" target="_blank" title="市州动态丨超两层楼高，年节能效益达500万元！176吨纯电无人驾驶刚性矿卡十堰下线">市州动态丨超两层楼高，年节能效益达500万元！176吨纯电无人驾驶刚性矿卡十堰下线<span class="date">2026-11-11</span></a></li>
+                                    
+                                        <li><a href="./bmdt/szgz/202611/t20261111_6083493.shtml" class="w80" target="_blank" title="荆门监测站：无线监管添新翼 频谱创新护安全">荆门监测站：无线监管添新翼 频谱创新护安全<span class="date">2026-11-11</span></a></li>
+                                    
+                                        <li><a href="./bmdt/szgz/202611/t20261109_6078307.shtml" class="w80" target="_blank" title="黄冈监测站：踏雨奔跑逐梦 无形守护随行">黄冈监测站：踏雨奔跑逐梦 无形守护随行<span class="date">2026-11-09</span></a></li>
+                                    
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- 选项卡内容容器 end-->
+                        <div class="p1-bottom">
+                             <a href="http://www.hubei.gov.cn/szyw/" target="_blank"><span>时政要闻</span></a>
+                            <a href="http://www.gov.cn/pushinfo/v150203/index.htm" target="_blank"><span>国务院信息</span></a>
+                            <a href="http://www.hubei.gov.cn/zwgk/hbyw/hbywqb/"  target="_blank" ><span>湖北要闻</span></a>
+                            <a href="https://www.miit.gov.cn/search/wjfb.html?websiteid=110000000000000&pg=&p=&tpl=14&category=51&q="  target="_blank" ><span>工信部政策</span></a>
+                            
+                        </div>
+
+                    </div>
+                    <!-- 固定选项卡组件结构 end-->
+                </div>
+            </div>
+        </div>
+        <!-- grid p1 结束 -->
+
+        <div class="mb20 p4">
+            <h3 class="h3">
+                <a href="http://jxt.hubei.gov.cn/bmdt/ztzl/" target="_blank">专题<b>专栏</b></a>
+            </h3>
+
+            <div class="zt clearfix">
+                <div class="scroll list">
+                    <ul class="h ztzlsy">
+                        
+                            <li><a href="./bmdt/ztzl/gyhlwdh/"  target="_blank" title="2026中国5G+工业互联网大会"  class="pic"><img src='./bmdt/ztzl/gyhlwdh/images/P020261105652208141409.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/esjwz/"  target="_blank" title="学习贯彻党的二十届五中全会精神"  class="pic"><img src='./bmdt/ztzl/esjwz/images/P020261030746341178764.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/jcjsyl/"  target="_blank" title="2026年全国无线电监测技术演练"  class="pic"><img src='./bmdt/ztzl/jcjsyl/images/P020261030579919322747.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/zjg/"  target="_blank" title="树立和践行正确政绩观"  class="pic"><img src='./bmdt/ztzl/zjg/images/P020260707582826833608.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/xjzzyhd/"  target="_blank" title="51020先进制造业集群产业生态系列活动"  class="pic"><img src='./bmdt/ztzl/xjzzyhd/images/P020260228626381046536.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/cybzqxc/"  target="_blank" title="产业倍增启新程 砥砺奋进建支点"  class="pic"><img src='./bmdt/ztzl/cybzqxc/images/P020250527524469111298.png'/>
+<span class="bj">年度重点专题</span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/zjtx/"  target="_blank" title="专精特新荆彩飞扬"  class="pic"><img src='./bmdt/ztzl/zjtx/images/P020231116731164642843.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="http://www.hubei.gov.cn/zhuanti/2022zt/2022gyyc/index.shtml?IhgKt6cDPAH3=1669796281069"  target="_blank" title="追风逐梦踏浪行 荆楚工业铸辉煌 ——走进湖北国家工业遗产"  class="pic"><img src='./bmdt/ztzl/62218/images/P020221130600704936245.jpg'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/zcwdzsk/"  target="_blank" title="政策问答知识库"  class="pic"><img src='./bmdt/ztzl/zcwdzsk/images/P020251202566616427619.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/xsdgyhxxhfz/"  target="_blank" title="新时代工业和信息化发展"  class="pic"><img src='./bmdt/ztzl/xsdgyhxxhfz/images/P020220928443821473120.png'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/cjc/"  target="_blank" title="下基层、察民情、解民忧、暖民心"  class="pic"><img src='./bmdt/ztzl/cjc/images/P020220613497916551353.jpg'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+                            <li><a href="./bmdt/ztzl/zfwzndgzbbhz/"  target="_blank" title="政府网站年度工作报表汇总"  class="pic"><img src='./bmdt/ztzl/zfwzndgzbbhz/images/P020200117603426556740.jpg'/>
+<span class="bj"></span></a>
+                            </li>
+                        
+
+                    </ul>
+                </div>
+                <div class="next"><span class="iconfont icon-jyh-right2"></span></div>
+                <div class="prev"><span class="iconfont icon-jyh-left2"></span></div>
+            </div>
+        </div>
+        <!-- grid p4 结束 -->
+
+
+        <!-- grid p2 开始 -->
+        <div class="grid p2">
+            <h3 class="zwgk_h3">
+                <i></i>
+                <a href="http://jxt.hubei.gov.cn/fbjd/" target="_blank"><b>政府</b>信息公开</a>
+            </h3>
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- 固定选项卡组件结构 start -->
+                    <div class="tab-pane lxgs lxgs1">
+                        <!-- <i class="xxgkl"></i> -->
+                        <!-- 选项卡标签容器 start-->
+                        <h3 class="tab mb10"><a href="http://jxt.hubei.gov.cn/fbjd/zc/gfxwj/">规范性文件</a><a href="http://jxt.hubei.gov.cn/fbjd/zc/zcjd/">政策解读</a></h3>
+                       
+                        <div class="ssboxxx">
+                            <select class="wj-xzlx" id="choose" onclick="change()">
+                                <option value="标题">标题</option>
+                                <option value="文号">文号</option>
+                            </select>
+                            <input class="srk" type="text" maxlength="50" onclick="if(this.value=='请输入关键词'){this.value='';}" placeholder="请输入关键词" id="textfield3" />
+            
+                            <button class="cxbt" onclick="chkSearch2()"><img src="/material/2023images/Icon_Search.png" alt="" />
+                            </button>
+            <a href="http://jxt.hubei.gov.cn/bmdt/ztzl/zcwdzsk/"  target="_blank" style="position: absolute;right: 0;"><img src="http://jxt.hubei.gov.cn/material/images/zcwdzsk1202.png" /></a>
+                            <script>
+                                function chkSearch2(){
+                                    if($('#textfield3').val() == '' || $('#textfield3').val().length == 0){
+                                        alert('请输入关键字');
+                                        return false;
+                                    }
+                            var name=$('.wj-xzlx option:selected') .val();
+                            var keywords2 = encodeURI($('#textfield3').val());
+                                $url ='/fbjd/zc/gfxwj/index.shtml?name='+name+'&searchWord='+keywords2;
+                                    window.open($url,'_blank');
+                                }
+                                              //添加切换
+                                              $("#choose").change(function() {
+                                      var opt =  $("#choose").val();
+                                      if(opt=='标题'){
+                                          $("#textfield3").attr("placeholder","请输入关键词");
+                                      }else{
+                                          $("#textfield3").attr("placeholder","请输入发文字号");
+                                      }
+                            
+                                    });
+                            </script>
+                        </div>
+
+                        <!-- 选项卡标签容器 end-->
+                        <!-- 选项卡内容容器 start-->
+                        <div class="pane">
+                            <ul class="list-t mt10 zc">
+       
+        
+            <li class="on"><a href="./fbjd/zc/gfxwj/202611/t20261109_6072651.shtml" target="_blank" title="湖北省经济和信息化厅等七部门关于印发《湖北省推进石化化工行业老旧装置更新改造实施方案（2026—2029年）》的通知">湖北省经济和信息化厅等七部门关于印发《湖北省推进石化化工行业老旧装置更新...<span class="date">2026-10-22</span></a>
+                <div class="zc-bot">
+                    <a href="./fbjd/zc/zcjd/202611/t20261123_6132666.shtml" target="_blank" id="d_6132666" >
+                        <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "文字方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_6132666").html(newStr);
+                        </script>
+                        </a>
+                    
+                    <a href='./fbjd/zc/gfxwj/202611/t20261109_6072651.shtml' target="_blank">政策原文</a></div>    
+             </li>
+             
+             
+                <li><a href="./fbjd/zc/gfxwj/202607/t20260723_5982304.shtml" target="_blank" title="湖北省经济和信息化厅  湖北省财政厅  湖北省地方金融管理局  湖北省数据局 中国人民银行湖北省分行  国家金融监督管理总局 湖北监管局 关于印发《湖北省民营中小企业商业价值信用贷款改革试验方案》的通知">湖北省经济和信息化厅  湖北省财政厅  湖北省地方金融管理局  湖北省数据局 ...<span class="date">2026-06-23</span></a>
+                    <div class="zc-bot">
+                        <a href="./fbjd/zc/zcjd/202607/t20260723_5982283.shtml" target="_blank" id="d_5982283" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "文字方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5982283").html(newStr);
+                        </script>
+                        </a>
+                        <a href='./fbjd/zc/gfxwj/202607/t20260723_5982304.shtml' target="_blank">政策原文</a></div>    
+                 </li>
+                 
+                <li><a href="./fbjd/zc/gfxwj/202604/t20260413_5913081.shtml" target="_blank" title="湖北省经济和信息化厅 中共湖北省委网络安全和信息化委员会办公室 湖北省发展和改革委员会 湖北省科学技术厅 湖北省人民政府国有资产监督管理委员会 湖北省市场监督管理局 湖北省数据局 湖北省通信管理局关于印发《湖北省“人工智能+制造”专项行动实施方案》的通知">湖北省经济和信息化厅 中共湖北省委网络安全和信息化委员会办公室 湖北省发展...<span class="date">2026-04-13</span></a>
+                    <div class="zc-bot">
+                        <a href="./fbjd/zc/zcjd/202608/t20260814_5995326.shtml" target="_blank" id="d_5995326" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "视频方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5995326").html(newStr);
+                        </script>
+                        </a><a href="./fbjd/zc/zcjd/202604/t20260427_5923065.shtml" target="_blank" id="d_5923065" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "音频方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5923065").html(newStr);
+                        </script>
+                        </a><a href="./fbjd/zc/zcjd/202604/t20260420_5917412.shtml" target="_blank" id="d_5917412" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "图文方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5917412").html(newStr);
+                        </script>
+                        </a><a href="./fbjd/zc/zcjd/202604/t20260413_5913086.shtml" target="_blank" id="d_5913086" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "文字方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5913086").html(newStr);
+                        </script>
+                        </a>
+                        <a href='./fbjd/zc/gfxwj/202604/t20260413_5913081.shtml' target="_blank">政策原文</a></div>    
+                 </li>
+                 
+                <li><a href="./fbjd/zc/gfxwj/202510/t20251023_5796751.shtml" target="_blank" title="湖北省人民政府办公厅关于加快推进人工智能产业发展的实施意见">湖北省人民政府办公厅关于加快推进人工智能产业发展的实施意见<span class="date">2025-10-22</span></a>
+                    <div class="zc-bot">
+                        <a href="./fbjd/zc/zcjd/202510/t20251023_5796758.shtml" target="_blank" id="d_5796758" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "图文方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5796758").html(newStr);
+                        </script>
+                        </a><a href="./fbjd/zc/zcjd/202510/t20251023_5796756.shtml" target="_blank" id="d_5796756" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "文字方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5796756").html(newStr);
+                        </script>
+                        </a>
+                        <a href='./fbjd/zc/gfxwj/202510/t20251023_5796751.shtml' target="_blank">政策原文</a></div>    
+                 </li>
+                 
+                <li><a href="./fbjd/zc/gfxwj/202509/t20250926_5780859.shtml" target="_blank" title="省人民政府办公厅关于印发《湖北省加快算网存用协同发展的若干措施》的通知">省人民政府办公厅关于印发《湖北省加快算网存用协同发展的若干措施》的通知<span class="date">2025-09-25</span></a>
+                    <div class="zc-bot">
+                        <a href="./fbjd/zc/zcjd/202509/t20250926_5780861.shtml" target="_blank" id="d_5780861" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "图文方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5780861").html(newStr);
+                        </script>
+                        </a><a href="./fbjd/zc/zcjd/202509/t20250926_5780860.shtml" target="_blank" id="d_5780860" >
+                          <script>
+                            var type = "部门解读"
+                            if (type == '媒体解读') {
+                              var newStr = '媒体解读'
+                            } else if (type == '部门解读') {
+                              var str = "文字方式";
+                              var newStr = str.replace("方式", "解读");
+                            }
+                            $("#d_5780860").html(newStr);
+                        </script>
+                        </a>
+                        <a href='./fbjd/zc/gfxwj/202509/t20250926_5780859.shtml' target="_blank">政策原文</a></div>    
+                 </li>
+                 
+        
+
+                            </ul>
+                            <div>
+                                <ul class="list-t mt10">
+                                        
+                                            <li><a href="./fbjd/zc/zcjd/202611/t20261123_6132666.shtml" class="w80" target="_blank" title="《湖北省推进石化化工行业老旧装置更新改造实施方案（2026—2029年）》解读">《湖北省推进石化化工行业老旧装置更新改造实施方案（2026—2029年）》解读<span class="date">2026-10-23</span></a></li>
+                                        
+                                            <li><a href="./fbjd/zc/zcjd/202607/t20260723_5982283.shtml" class="w80" target="_blank" title="省经信厅解读：《湖北省民营中小企业商业价值信用贷款改革试验方案》">省经信厅解读：《湖北省民营中小企业商业价值信用贷款改革试验方案》<span class="date">2026-06-24</span></a></li>
+                                        
+                                            <li><a href="./fbjd/zc/zcjd/202608/t20260814_5995326.shtml" class="w80" target="_blank" title="Ai解读：《湖北省“人工智能+制造”专项行动实施方案》">Ai解读：《湖北省“人工智能+制造”专项行动实施方案》<span class="date">2026-04-13</span></a></li>
+                                        
+                                            <li><a href="./fbjd/zc/zcjd/202604/t20260420_5917412.shtml" class="w80" target="_blank" title="图解：《湖北省“人工智能+制造”专项行动实施方案》">图解：《湖北省“人工智能+制造”专项行动实施方案》<span class="date">2026-04-13</span></a></li>
+                                        
+                                            <li><a href="./fbjd/zc/zcjd/202604/t20260427_5923065.shtml" class="w80" target="_blank" title="音频解读：《湖北省“人工智能+制造”专项行动实施方案》">音频解读：《湖北省“人工智能+制造”专项行动实施方案》<span class="date">2026-04-13</span></a></li>
+                                        
+                                            <li><a href="./fbjd/zc/zcjd/202604/t20260413_5913086.shtml" class="w80" target="_blank" title="省经信厅解读：《湖北省“人工智能+制造”专项行动实施方案》">省经信厅解读：《湖北省“人工智能+制造”专项行动实施方案》<span class="date">2026-04-13</span></a></li>
+                                        
+                                            <li><a href="./fbjd/zc/zcjd/202510/t20251023_5796758.shtml" class="w80" target="_blank" title="图解：《湖北省人民政府办公厅关于加快推进人工智能产业发展的实施意见》">图解：《湖北省人民政府办公厅关于加快推进人工智能产业发展的实施意见》<span class="date">2025-10-23</span></a></li>
+                                                                 
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 选项卡内容容器 end-->
+                    </div>
+                    <!-- 固定选项卡组件结构 end-->
+                </div>
+                <div class="col-md-4">
+                    <!-- 固定选项卡组件结构 start -->
+                    <h3 class="mb10 tab">
+                        <a href="http://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/" class="current">通知公告</a>
+                    </h3>
+                    
+                    <div class="tab-pane">
+                        <!-- 选项卡标签容器 start-->
+
+                        <!-- 选项卡标签容器 end-->
+                        <!-- 选项卡内容容器 start-->
+                        <div class="pane">
+                            <div class="tzgg1">
+                                <ul class="list-t mt10">
+                               
+     
+                                        <li><a href="./fbjd/zc/qtzdgkwj/gsgg/202602/t20260211_5875366.shtml" target="_blank" title="注销公告">注销公告<span class="date">2026-02-11</span></a></li>
+                                    
+                                        <li><a href="./fbjd/zc/qtzdgkwj/gsgg/202611/t20261124_6133589.shtml" target="_blank" title="关于襄阳市华漳资源循环有限公司200万吨/年磷石膏制酸联产80万吨/年水泥熟料项目产能置换方案的公示">关于襄阳市华漳资源循环有限公司200万吨/年磷石膏制酸联产80万吨/年水泥熟料...<span class="date">2026-11-24</span></a></li>
+                                    
+                                        <li><a href="./fbjd/zc/qtzdgkwj/gsgg/202611/t20261124_6133583.shtml" target="_blank" title="关于湖北汇能化学有限公司400万吨/年磷石膏制酸项目产能置换方案的公示">关于湖北汇能化学有限公司400万吨/年磷石膏制酸项目产能置换方案的公示<span class="date">2026-11-23</span></a></li>
+                                    
+                                        <li><a href="./fbjd/zc/qtzdgkwj/gsgg/202611/t20261124_6133579.shtml" target="_blank" title="关于宜昌西部化工有限公司200万吨/年磷石膏制酸项目水泥熟料产能置换方案的公示">关于宜昌西部化工有限公司200万吨/年磷石膏制酸项目水泥熟料产能置换方案的公示<span class="date">2026-11-23</span></a></li>
+                                    
+                                        <li><a href="./fbjd/zc/qtzdgkwj/gsgg/202611/t20261124_6133573.shtml" target="_blank" title="湖北金盛兰冶金科技有限公司125万吨精品钢转型升级项目产能置换方案公示">湖北金盛兰冶金科技有限公司125万吨精品钢转型升级项目产能置换方案公示<span class="date">2026-11-23</span></a></li>
+                                      
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 选项卡内容容器 end-->
+                    </div>
+                    <!-- 固定选项卡组件结构 end-->
+                </div>
+            </div>
+            <div class="p2-bottom">
+                <ul class="ul-t clearfix">
+                    <li></i><a href="http://jxt.hubei.gov.cn/fbjd/xxgkzn/" target="_blank"><i class="s1"></i>信息公开指南</a></li>
+                    <li></i><a href="http://jxt.hubei.gov.cn/fbjd/xxgkzd/" target="_blank"><i class="s2"></i>信息公开制度</a></li>
+                    <li></i><a href="http://jxt.hubei.gov.cn/fbjd/xxgkml/" target="_blank"><i class="s3"></i>法定主动公开</a></li>
+                    <li></i><a href="http://jxt.hubei.gov.cn/fbjd/xxgknb/" target="_blank"><i class="s4"></i>信息公开年报</a></li>
+                    <li></i><a href="http://jxt.hubei.gov.cn/fbjd/ysqgk/" target="_blank"><i class="s5"></i>依申请公开</a></li>
+                    <li></i><a href="http://jxt.hubei.gov.cn/fbjd/wzndbg/" target="_blank"><i class="s6"></i>政府网站年度报表</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- grid p2 结束 -->
+        <!-- grid p3 开始 -->
+        <div class="p3">
+            <div class="row grid" style="overflow: hidden;">
+                <div class="bsfwleft animated fadeIn">
+                    <div class="col-md-8 bsfw1">
+                        <!-- zwgk start -->
+                        <div class="bsfw">
+                            <h3 class="bsfw_h3">
+                                <i></i>
+                                <a href="http://jxt.hubei.gov.cn/bsfw/" target="_blank"><b>办事</b>服务</a>
+                            </h3>
+                            <div class="p3_bsfw_top">
+                                <a href="http://zwfw.hubei.gov.cn/webview/bszn/bmsy.html?department=11420000757009218A"
+                                    target="_blank"><img src="http://jxt.hubei.gov.cn/material/2023images/p3background1.png" alt="" /></a>
+                            </div>
+        
+                            <div class="tongji">
+                                <div class="bstj">
+                                    <a href="http://jxt.hubei.gov.cn/bsfw/bstj/"><img src="http://jxt.hubei.gov.cn/material/2023images/icon04.png" alt="" /></a>
+                                </div>
+                                <div class="sjly">
+                                    <a>
+                                        数据来源：2026年<span class="bsyf"></span>月
+                                    </a>
+                                </div>
+                                <div class="sqbj">
+                                    <p>
+                                        申请数<span class="sqs"></span>件
+                                    </p> 
+                                    <p>
+                                        办结数<span class="bjs">397</span>件
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-7 slideTxtBox bmfw">
+        
+                                <h2 class="title"><a href="http://jxt.hubei.gov.cn/bsfw/bmcxfw/" target="_blank">便民服务</a></h2>
+                                <h2 class="tab1 hd">
+                                    <ul>
+                                        <!--<li class="on">1</li>-->                                        
+                                       
+                                    </ul>
+                                </h2>
+                                <div class="pane1 bd">
+                                    <ul class="list-a">
+                                        
+        
+        
+
+                                      <li class="col-md-3">
+                                            <a href="./bsfw/bmcxfw/syddpfqymd/" target="_blank" title="食盐定点批发企业名单">
+                                                <p>食盐定点批发企业名单</p><img src="http://jxt.hubei.gov.cn/material/2023images/icon001.png" />
+                                            </a>
+                                              </li>
+                                    <li class="col-md-3">
+                                            <a href="./bsfw/bmcxfw/syddcyqydpzmdcx/" target="_blank" title="食盐定点生产企业名单查询">
+                                                <p>食盐定点生产企业名单查询</p><img src="http://jxt.hubei.gov.cn/material/2023images/icon002.png" />
+                                            </a>
+                                        </li>
+                                <li class="col-md-3">
+                                            <a href="./bsfw/bmcxfw/jjyxcx/"  target="_blank" title="经济运行查询">
+                                                <p>经济运行查询</p><img src="http://jxt.hubei.gov.cn/material/2023images/icon07.png" />
+                                            </a>
+                                        </li>
+
+                                 <li class="col-md-3">
+                                            <a href="./bsfw/bmcxfw/hbsgymsds/"  target="_blank" title="湖北省工艺美术大师评审通过名单">
+                                                <p>湖北省工艺美术大师</p><img src="http://jxt.hubei.gov.cn/material/2023images/icon08.png" />
+                                            </a>
+                                        </li>
+                              </ul>
+                            
+        
+        
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <!--<li> <a target="_blank"><img src="http://jxt.hubei.gov.cn/material/2023images/icon09.png" /></a></li>-->
+                                <ul style="margin-top: 55px;">
+                                    <li> <a href="./fzlm/zcjb/" target="_blank">政策简编</a></li>
+                                    <li> <a href="./wzlm/hqzc/" target="_blank">惠企政策</a></li>
+                                </ul>
+                            </div>
+                    <div class="row tsgn">
+                         <div class="col-md-6"><a href="http://jxt.hubei.gov.cn/bsfw/yjsfw/"><img src="http://jxt.hubei.gov.cn/material/2023images/yjs20241018.png" alt="" /></a></div>
+                         <div class="col-md-6"><a href="http://jxt.hubei.gov.cn/bsfw/jxtdtcx/"><img src="http://jxt.hubei.gov.cn//material/2023images/zwdt.png" alt="" /></a></div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bsfw2">
+                        <div class="tjsj">
+                            <h3 class="bsfw_h3">
+                                <i></i>
+                                <a href="http://jxt.hubei.gov.cn/fbjd/xxgkml/sjfb/2023_tjxx/" target="_blank"><b>统计</b>数据</a>
+                            </h3>
+                        </div>
+        
+                        <div class="p3-bottom">
+                            <ul class="ul-t clearfix">
+                                <li><a href="javascript:void(0);" ><i class="s1"></i>经信数据</a></li>
+                                <li><a href="javascript:void(0);" ><i class="s3"></i>统计图解</a></li>
+                                <li><a href="javascript:void(0);" ><i class="s2"></i>经济运行</a></li>
+                            </ul>
+                        </div>
+                        <div class="p3-bottom1">
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    $(document).ready(function () {
+                        // 统计数据点击
+                      $(".bsfwleft .bsfw2").hover(function(){
+                        //   $(this).parents('.bsfwleft').toggleClass('fadeInLeft fadeOutLeft').siblings().toggleClass('fadeOutRight fadeInRight')
+                            $(".bsfwleft").hide()
+                          $(".tjsjright").show()
+                      });
+                    //   办事服务点击
+                      $(".tjsjright .tjsj1").hover(function(){
+                       //   $(this).parents('.tjsjright').removeClass('fadeInRight').addClass('fadeOutRight animated').siblings().removeClass('fadeOutLeft').addClass('animated fadeInLeft')
+                          $(".bsfwleft").show()
+                            $(".tjsjright").hide()
+                      });
+                  })
+                  </script>
+
+                <div class="tjsjright animated fadeIn">
+                    <div class="col-md-4 tjsj1">
+                        <div class="tjsj">
+                            <h3 class="bsfw_h3">
+                                <i></i>
+                                <a href="http://jxt.hubei.gov.cn/fbjd/" target="_blank"><b>办事</b>服务</a>
+                            </h3>
+                        </div>
+                        <div class="p3-bottom">
+                            <ul class="ul-t clearfix">
+                                <li><a href="javascript:void(0);"><i class="s1"></i>办事统计</a></li>
+                                <li><a href="javascript:void(0);"><i class="s2"></i>便民服务</a></li>
+                                <li><a href="javascript:void(0);"><i class="s3"></i>惠企政策</a></li>
+                            </ul>
+                        </div>
+                        <div class="p3-bottom1">
+                        </div>
+                    </div>
+                    <div class="col-md-8 tjsj2">
+                        <div class="bsfw">
+                            <h3 class="bsfw_h3">
+                                <i></i>
+                                <a href="http://jxt.hubei.gov.cn/fbjd/xxgkml/sjfb/2023_tjxx/" target="_blank"><b>统计</b>数据</a>
+                            </h3>
+                        </div>
+        
+                        <div class="tab-pane lxgs lxgs1">
+                            <!-- 选项卡标签容器 start-->
+                            <h3 class="tab mb10 hd"><a href="http://jxt.hubei.gov.cn/fbjd/xxgkml/sjfb/" target="_blank">经信数据</a><a class="current" href="http://jxt.hubei.gov.cn/sjkf/#part3" target="_blank">统计图解</a><a href="http://jxt.hubei.gov.cn/bmdt/jjyx/" target="_blank">经济运行</a>
+                            </h3>
+                            <!-- 选项卡标签容器 end-->
+                            <!-- 选项卡内容容器 start-->
+                            <div class="pane">
+                                <div>
+                                    <ul class="list-t mt10">
+                                        
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202611/t20261119_6128665.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年1-10月全省工业经济运行情况'>【图解】2026年1-10月全省工业经济运行情况<span class="date">
+                                                    2026-11-19
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202610/t20261023_6040314.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年前三季度全省工业经济运行情况'>【图解】2026年前三季度全省工业经济运行情况<span class="date">
+                                                    2026-10-23
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202609/t20260918_6017240.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年1-8月全省工业经济运行情况'>【图解】2026年1-8月全省工业经济运行情况<span class="date">
+                                                    2026-09-18
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202608/t20260820_5998399.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年1-7月全省工业经济运行情况'>【图解】2026年1-7月全省工业经济运行情况<span class="date">
+                                                    2026-08-20
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202607/t20260720_5980018.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年上半年全省工业经济运行情况'>【图解】2026年上半年全省工业经济运行情况<span class="date">
+                                                    2026-07-20
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202606/t20260622_5962228.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年1-5月全省工业经济运行情况'>【图解】2026年1-5月全省工业经济运行情况<span class="date">
+                                                    2026-06-20
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202605/t20260521_5940518.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年1-4月全省工业经济运行情况'>【图解】2026年1-4月全省工业经济运行情况<span class="date">
+                                                    2026-05-22
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202604/t20260421_5918575.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年一季度全省工业经济运行情况'>【图解】2026年一季度全省工业经济运行情况<span class="date">
+                                                    2026-04-21
+                                                </span></a>
+                                            </li>
+                                            
+                                            <li><a href='./fbjd/xxgkml/sjfb/2026tjxx/202603/t20260320_5895932.shtml' class="w80" target="_blank" title='
+                                                【图解】2026年1-2月全省工业经济运行情况'>【图解】2026年1-2月全省工业经济运行情况<span class="date">
+                                                    2026-03-20
+                                                </span></a>
+                                            </li>
+                                              
+
+                                    </ul>
+                                </div>
+        
+                                <div class="tj clearfix">
+                                    <div class="scroll list">
+                                        <iframe src="/tj.shtml" frameborder="0" width="100%" scrolling="No" height="285" leftmargin="0" topmargin="0" bfdi="230"></iframe>
+                                    </div>
+                                </div>
+                                <div>
+                                    <ul class="list-t mt10">
+                                        
+                                            <li><a href="./bmdt/jjyx/202611/t20261119_6128667.shtml" class="w80" target="_blank" title="2026年1-10月全省工业经济运行情况">2026年1-10月全省工业经济运行情况<span class="date">2026-11-19</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202610/t20261023_6040317.shtml" class="w80" target="_blank" title="2026年前三季度全省工业经济运行情况">2026年前三季度全省工业经济运行情况<span class="date">2026-10-23</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202609/t20260918_6017502.shtml" class="w80" target="_blank" title="2026年1-8月全省工业经济运行情况">2026年1-8月全省工业经济运行情况<span class="date">2026-09-18</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202608/t20260820_5998400.shtml" class="w80" target="_blank" title="2026年1-7月全省工业经济运行情况">2026年1-7月全省工业经济运行情况<span class="date">2026-08-20</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202607/t20260720_5980033.shtml" class="w80" target="_blank" title="2026年上半年全省工业经济运行情况">2026年上半年全省工业经济运行情况<span class="date">2026-07-20</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202606/t20260623_5963022.shtml" class="w80" target="_blank" title="2026年1-5月全省工业经济运行情况">2026年1-5月全省工业经济运行情况<span class="date">2026-06-20</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202605/t20260522_5941542.shtml" class="w80" target="_blank" title="2026年1-4月全省工业经济运行情况">2026年1-4月全省工业经济运行情况<span class="date">2026-05-22</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202604/t20260421_5918724.shtml" class="w80" target="_blank" title="2026年一季度全省工业经济运行情况">2026年一季度全省工业经济运行情况<span class="date">2026-04-21</span></a></li>
+                                        
+                                            <li><a href="./bmdt/jjyx/202603/t20260320_5895936.shtml" class="w80" target="_blank" title="2026年1-2月全省工业经济运行情况">2026年1-2月全省工业经济运行情况<span class="date">2026-03-20</span></a></li>
+                                          
+                                    </ul>
+                                </div>
+        
+                            </div>
+                            <!-- 选项卡内容容器 end-->
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- grid p3 结束 -->
+
+        
+        <!-- grid p4 开始 -->
+        <div class="grid p5">
+            <h3 class="zwgk_h3">
+                <i></i>
+                <a href="http://jxt.hubei.gov.cn/hdjl/" target="_blank"><b>互动</b>交流</a>
+            </h3>
+            <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-7">
+                    <div class="tab-pane lxgs lxgs1">
+                        <!-- 选项卡标签容器 start-->
+                        <h3 class="tab mb10"><a href="http://jxt.hubei.gov.cn/hdjl/zxft/" target="_blank" class="current">在线访谈</a><a href="http://jxt.hubei.gov.cn/hdjl/dczj/" target="_blank" >调查征集</a><a href="http://jxt.hubei.gov.cn/hdjl/lxgs/" target="_blank">来信公示</a></h3>
+                        <!-- 选项卡标签容器 end-->
+                        <!-- 选项卡内容容器 start-->
+                        <div class="pane">
+                            <div class="zxft">
+                                <div class="pic fl col-md-5">
+                                    <a  id="jsContentUrl" href="" target="_blank"><img id="jsFilePath" src="" alt="" /><img id="jsFilePath2" src="./images/zxftgytp.jpg" alt="" style="display: none;" /></a>
+                                </div>
+                                <div class="col-md-7 zxft_h4">
+                                    <h4 class="mb10">
+                                        <b><a href="" id="jsTitle" title="" target="_blank"></a></b>
+                                    </h4>
+                                    <p id="jsStartTime"></p>
+                                  <p id="jsGuests"></p>
+                                </div>
+
+                                <div class="ftyg">
+                                     <p id="jsComment"  target="_blank" class="md-gray zxft_jl"></p>
+</div>
+                        </div>
+
+                            
+
+                            <div class="list-t mt10 zc" id="item-hdjl">
+                            </div>
+
+                            <div>
+                                <ul class="list-t mt10">
+                                    
+                                        <li><a href="./hdjl/lxgs/202611/t20261117_6125135.shtml" class="w80" target="_blank" title="【政务咨询】关于软考网络工程师科目考场未提供草稿纸及咨询电话无法接通事宜的咨询">【政务咨询】关于软考网络工程师科目考场未提供草稿纸及咨询电话无法接通事宜的咨询<span class="date">2026-11-17</span></a></li>
+                                    
+                                        <li><a href="./hdjl/lxgs/202611/t20261117_6125134.shtml" class="w80" target="_blank" title="【政务咨询】关于申请专用无线电频率使用权限申报流程及对接人员的咨询">【政务咨询】关于申请专用无线电频率使用权限申报流程及对接人员的咨询<span class="date">2026-11-17</span></a></li>
+                                    
+                                        <li><a href="./hdjl/lxgs/202611/t20261117_6125116.shtml" class="w80" target="_blank" title="【政务咨询】关于我省绿色工厂评比未按期启动及相关原因的咨询">【政务咨询】关于我省绿色工厂评比未按期启动及相关原因的咨询<span class="date">2026-10-15</span></a></li>
+                                    
+                                        <li><a href="./hdjl/lxgs/202611/t20261117_6125115.shtml" class="w80" target="_blank" title="【政务建议】关于指导浠水产业转型、引进新兴高科技产业的建议">【政务建议】关于指导浠水产业转型、引进新兴高科技产业的建议<span class="date">2026-10-15</span></a></li>
+                                    
+                                        <li><a href="./hdjl/lxgs/202611/t20261117_6125114.shtml" class="w80" target="_blank" title="【政务咨询】关于废弃木屑制机制炭项目是否属于化工项目及园区准入相关事宜的咨询">【政务咨询】关于废弃木屑制机制炭项目是否属于化工项目及园区准入相关事宜的咨询<span class="date">2026-09-17</span></a></li>
+                                    
+                                        <li><a href="./hdjl/lxgs/202611/t20261117_6125113.shtml" class="w80" target="_blank" title="【政务咨询】关于软考报名开票及咨询电话无法接通的问题咨询">【政务咨询】关于软考报名开票及咨询电话无法接通的问题咨询<span class="date">2026-09-17</span></a></li>
+                                    
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- 选项卡内容容器 end-->
+                    </div>
+            </div>
+            <div class="col-md-5">
+                <div class="p5-top">
+                    <ul>
+                        <li><a href="http://jxt.hubei.gov.cn/hdjl/tzxx/" target="_blank"><i class="s1"></i>厅长信箱</a></li>
+                        <li><a href="http://jxt.hubei.gov.cn/hdjl/zxts/" target="_blank"><i class="s2"></i>咨询投诉</a></li>
+                        <li><a href="http://zwfw.hubei.gov.cn/webview/bszn/zxts.html" target="_blank"><i class="s3"></i>咨询建议</a></li>
+                    </ul>
+                </div>
+                <div class="znwd2023">
+                    <h3><i></i>大家都在问</h3>
+                    <div class="row">
+<div class="col-md-6">
+ <a href="/fzlm/znwd/index.shtml?tzwt=惠企政策">惠企政策</a>
+ </div>
+<div class="col-md-6">
+ <a href="/fzlm/znwd/index.shtml?tzwt=企业技术中心">企业技术中心</a>
+ </div>
+<div class="col-md-12">
+ <a href="/fzlm/znwd/index.shtml?tzwt=技术创新示范企业">技术创新示范企业</a>
+ </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+        <div class="p5-bottom1">
+            <ul>
+                <li><a><i class="s11"></i>政务大厅<b calss="dxr1">87232519</b></a></li>
+                <li><a><i class="s12"></i>店小二专线<b calss="dxr1">96500</b></a></li>
+                <li><a><i class="s13"></i>无线电频率占用费征收联系电话<b calss="dxr1">88232838</b></a></li>
+                <li><a href="/hdjl/jjjcxx/202311/t20231122_4962280.shtml" target="_blank"><i class="s14"></i>问题线索举报</a></li>
+            </ul>
+        </div>
+        </div>
+
+
+    </div>
+    <!-- content 结束 -->
+    <!-- footer 开始 -->
+    <style>
+.copyright p .dxe1 {
+	position:absolute;
+	display: none;
+	width: 160px;
+	top: -15px;
+	right: 180px;
+	z-index: 1;
+    border: 2px solid #a7a7a7;
+    border-radius: 3px;
+}
+.dxe1 img{
+    width: 100%;
+}
+.dxr:hover+.dxe1{
+    display: block;
+}
+.pl60 {
+    padding-left: 60px;
+}
+</style>
+<div class="footer">
+    <div class="links">
+        <ul class="row friendship rowyw">
+            <li class="col-md-3  col-sm-6 col-xs-12"><a href="http://www.gov.cn/" target="_blank"><img src="http://jxt.hubei.gov.cn/material/images/friendlylink1.jpg" alt="" /></a></li>
+            <li class="col-md-3  col-sm-6 col-xs-12"><a href="http://www.miit.gov.cn/" target="_blank"><img src="http://jxt.hubei.gov.cn/material/images/friendlylink2.jpg" alt="" /></a></li>
+            <li class="col-md-3  col-sm-6 col-xs-12"><a href="http://www.hubei.gov.cn/" target="_blank"><img src="http://jxt.hubei.gov.cn/material/images/friendlylink3.jpg" alt="" /></a></li>
+            <li class="col-md-3  col-sm-6 col-xs-12"><a href="http://credit.hubei.gov.cn/" target="_blank"><img src="http://jxt.hubei.gov.cn/material/images/friendlylink4.jpg" alt="" /></a></li>
+        </ul>
+        <ul class="row rowyw">
+            <li class="col-md-4"><a href="javascript:">各省经信部门网站</a>
+                <ul>
+                    
+                        <li><a href="http://jxj.beijing.gov.cn/"  target="_blank" title="北京市经信局">北京市经信局</a></li>
+                    
+                        <li><a href="http://gyxxh.tj.gov.cn/"  target="_blank" title="天津市工信局">天津市工信局</a></li>
+                    
+                        <li><a href="http://gxt.hebei.gov.cn/hbgyhxxht/index/index.html"  target="_blank" title="河北省工信厅">河北省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.shanxi.gov.cn/"  target="_blank" title="山西省工信厅">山西省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.nmg.gov.cn/"  target="_blank" title="内蒙古工信厅">内蒙古工信厅</a></li>
+                    
+                        <li><a href="https://gxt.ln.gov.cn/"  target="_blank" title="辽宁省工信厅">辽宁省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.jl.gov.cn/"  target="_blank" title="吉林省工信厅">吉林省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.hlj.gov.cn/pages/MainPortal.aspx"  target="_blank" title="黑龙江省工信厅">黑龙江省工信厅</a></li>
+                    
+                        <li><a href="http://www.sheitc.sh.gov.cn/"  target="_blank" title="上海市经信委">上海市经信委</a></li>
+                    
+                        <li><a href="http://gxt.jiangsu.gov.cn/"  target="_blank" title="江苏省工信厅">江苏省工信厅</a></li>
+                    
+                        <li><a href="http://jxt.zj.gov.cn/"  target="_blank" title="浙江省经信厅">浙江省经信厅</a></li>
+                    
+                        <li><a href="http://jx.ah.gov.cn/"  target="_blank" title="安徽省经信厅">安徽省经信厅</a></li>
+                    
+                        <li><a href="http://gxt.fujian.gov.cn/"  target="_blank" title="福建省工信厅">福建省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.jiangxi.gov.cn/"  target="_blank" title="江西省工信厅">江西省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.shandong.gov.cn/"  target="_blank" title="山东省工信厅">山东省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.henan.gov.cn/"  target="_blank" title="河南省工信厅">河南省工信厅</a></li>
+                    
+                        <li><a href="http://jxt.hubei.gov.cn/"  target="_blank" title="湖北省经信厅">湖北省经信厅</a></li>
+                    
+                        <li><a href="http://gxt.hunan.gov.cn/"  target="_blank" title="湖南省工信厅">湖南省工信厅</a></li>
+                    
+                        <li><a href="http://gdii.gd.gov.cn/"  target="_blank" title="广东省工信厅">广东省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.gxzf.gov.cn/"  target="_blank" title="广西壮族自治区工信厅">广西壮族自治区工信厅</a></li>
+                    
+                        <li><a href="http://iitb.hainan.gov.cn/"  target="_blank" title="海南省工信厅">海南省工信厅</a></li>
+                    
+                        <li><a href="https://jjxxw.cq.gov.cn/"  target="_blank" title="重庆市经信委">重庆市经信委</a></li>
+                    
+                        <li><a href="http://jxt.sc.gov.cn/"  target="_blank" title="四川省经信厅">四川省经信厅</a></li>
+                    
+                        <li><a href="http://gxt.yn.gov.cn/"  target="_blank" title="云南省工信厅">云南省工信厅</a></li>
+                    
+                        <li><a href="http://jxt.xizang.gov.cn/"  target="_blank" title="西藏经信厅">西藏经信厅</a></li>
+                    
+                        <li><a href="http://gxt.shaanxi.gov.cn/"  target="_blank" title="陕西省工信厅">陕西省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.gansu.gov.cn/"  target="_blank" title="甘肃省工信厅">甘肃省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.qinghai.gov.cn/"  target="_blank" title="青海省工信厅">青海省工信厅</a></li>
+                    
+                        <li><a href="http://gxt.nx.gov.cn/"  target="_blank" title="宁夏工信厅">宁夏工信厅</a></li>
+                    
+                        <li><a href="http://www.xjeic.gov.cn/"  target="_blank" title="新疆工信厅">新疆工信厅</a></li>
+                    
+                </ul>
+            </li>
+            <li class="col-md-4"><a href="javascript:">省直部门网站</a>
+                <ul>
+                    
+                        <li><a href="http://fgw.hubei.gov.cn/"  target="_blank" title="湖北省发展和改革委员会">湖北省发展和改革委员会</a></li>
+                    
+                        <li><a href="http://jyt.hubei.gov.cn/"  target="_blank" title="湖北省教育厅">湖北省教育厅</a></li>
+                    
+                        <li><a href="http://kjt.hubei.gov.cn/"  target="_blank" title="湖北省科学技术厅">湖北省科学技术厅</a></li>
+                    
+                        <li><a href="http://jxt.hubei.gov.cn/"  target="_blank" title="湖北省经济和信息化厅">湖北省经济和信息化厅</a></li>
+                    
+                        <li><a href="http://mzw.hubei.gov.cn/"  target="_blank" title="湖北省民族宗教事务委员会">湖北省民族宗教事务委员会</a></li>
+                    
+                        <li><a href="http://gat.hubei.gov.cn/"  target="_blank" title="湖北省公安厅">湖北省公安厅</a></li>
+                    
+                        <li><a href="http://mzt.hubei.gov.cn/"  target="_blank" title="湖北省民政厅">湖北省民政厅</a></li>
+                    
+                        <li><a href="http://sft.hubei.gov.cn/"  target="_blank" title="湖北省司法厅">湖北省司法厅</a></li>
+                    
+                        <li><a href="http://czt.hubei.gov.cn/"  target="_blank" title="湖北省财政厅">湖北省财政厅</a></li>
+                    
+                        <li><a href="https://rst.hubei.gov.cn/"  target="_blank" title="湖北省人力资源和社会保障厅">湖北省人力资源和社会保障厅</a></li>
+                    
+                        <li><a href="https://zrzyt.hubei.gov.cn/"  target="_blank" title="湖北省自然资源厅">湖北省自然资源厅</a></li>
+                    
+                        <li><a href="http://sthjt.hubei.gov.cn/"  target="_blank" title="湖北省生态环境厅">湖北省生态环境厅</a></li>
+                    
+                        <li><a href="http://zjt.hubei.gov.cn/"  target="_blank" title="湖北省住房和城乡建设厅">湖北省住房和城乡建设厅</a></li>
+                    
+                        <li><a href="http://jtt.hubei.gov.cn/"  target="_blank" title="湖北省交通运输厅">湖北省交通运输厅</a></li>
+                    
+                        <li><a href="http://slt.hubei.gov.cn/"  target="_blank" title="湖北省水利厅">湖北省水利厅</a></li>
+                    
+                        <li><a href="http://nyt.hubei.gov.cn/"  target="_blank" title="湖北省农业农村厅">湖北省农业农村厅</a></li>
+                    
+                        <li><a href="http://swt.hubei.gov.cn/"  target="_blank" title="湖北省商务厅">湖北省商务厅</a></li>
+                    
+                        <li><a href="http://wlt.hubei.gov.cn/"  target="_blank" title="湖北省文化和旅游厅">湖北省文化和旅游厅</a></li>
+                    
+                        <li><a href="http://wjw.hubei.gov.cn/"  target="_blank" title="湖北省卫生健康委员会">湖北省卫生健康委员会</a></li>
+                    
+                        <li><a href="http://va.hubei.gov.cn/"  target="_blank" title="湖北省退役军人事务厅">湖北省退役军人事务厅</a></li>
+                    
+                        <li><a href="http://yjt.hubei.gov.cn/"  target="_blank" title="湖北省应急管理厅">湖北省应急管理厅</a></li>
+                    
+                        <li><a href="http://sjt.hubei.gov.cn/"  target="_blank" title="湖北省审计厅">湖北省审计厅</a></li>
+                    
+                        <li><a href="http://gzw.hubei.gov.cn/#"  target="_blank" title="湖北省人民政府国有资产监督管理委员会">湖北省人民政府国有资产监督...</a></li>
+                    
+                        <li><a href="http://scjg.hubei.gov.cn/"  target="_blank" title="湖北省市场监督管理局">湖北省市场监督管理局</a></li>
+                    
+                        <li><a href="http://gdj.hubei.gov.cn/"  target="_blank" title="湖北省广播电视局">湖北省广播电视局</a></li>
+                    
+                        <li><a href="http://tyj.hubei.gov.cn/"  target="_blank" title="湖北省体育局">湖北省体育局</a></li>
+                    
+                        <li><a href="http://tjj.hubei.gov.cn/"  target="_blank" title="湖北省统计局">湖北省统计局</a></li>
+                    
+                        <li><a href="http://ybj.hubei.gov.cn/"  target="_blank" title="湖北省医疗保障局">湖北省医疗保障局</a></li>
+                    
+                        <li><a href="http://gfdy.hubei.gov.cn/"  target="_blank" title="湖北省国防动员办公室">湖北省国防动员办公室</a></li>
+                    
+                        <li><a href="http://zys.hubei.gov.cn/"  target="_blank" title="湖北省人民政府研究室">湖北省人民政府研究室</a></li>
+                    
+                        <li><a href="http://jgswj.hubei.gov.cn/"  target="_blank" title="湖北省机关事务管理局">湖北省机关事务管理局</a></li>
+                    
+                        <li><a href="https://sjj.hubei.gov.cn/"  target="_blank" title="湖北省数据局">湖北省数据局</a></li>
+                    
+                        <li><a href="https://jrb.hubei.gov.cn/"  target="_blank" title="湖北省地方金融管理局">湖北省地方金融管理局</a></li>
+                    
+                        <li><a href="http://zscqj.hubei.gov.cn/"  target="_blank" title="湖北省知识产权局">湖北省知识产权局</a></li>
+                    
+                        <li><a href="http://lyj.hubei.gov.cn/"  target="_blank" title="湖北省林业局">湖北省林业局</a></li>
+                    
+                        <li><a href="http://mpa.hubei.gov.cn/"  target="_blank" title="湖北省药品监督管理局">湖北省药品监督管理局</a></li>
+                    
+                        <li><a href="http://lsj.hubei.gov.cn/"  target="_blank" title="湖北省粮食局">湖北省粮食局</a></li>
+                    
+                        <li><a href="http://jyj.hubei.gov.cn/"  target="_blank" title="湖北省监狱管理局">湖北省监狱管理局</a></li>
+                    
+                        <li><a href="http://dzj.hubei.gov.cn/"  target="_blank" title="湖北省地质局">湖北省地质局</a></li>
+                    
+                        <li><a href="http://jycg.hubei.gov.cn"  target="_blank" title="湖北省公共资源交易中心（湖北省政府采购中心）">湖北省公共资源交易中心（湖...</a></li>
+                    
+                        <li><a href="https://hbnysy.hubei.gov.cn/"  target="_blank" title="湖北省农业事业发展中心">湖北省农业事业发展中心</a></li>
+                    
+                        <li><a href="http://gxs.hubei.gov.cn/"  target="_blank" title="湖北省供销合作总社">湖北省供销合作总社</a></li>
+                    
+                </ul>
+            </li>
+            <li class="col-md-4"><a href="javascript:">各市州经信局</a>
+                <ul>
+                    
+                        <li><a href="http://jxj.wuhan.gov.cn/"  target="_blank" title="武汉市经信局">武汉市经信局</a></li>
+                    
+                        <li><a href="http://jxj.xiangyang.gov.cn/"  target="_blank" title="襄阳市经信局">襄阳市经信局</a></li>
+                    
+                        <li><a href="http://jxw.yichang.gov.cn/"  target="_blank" title="宜昌市经信局">宜昌市经信局</a></li>
+                    
+                        <li><a href="http://jxw.huangshi.gov.cn/"  target="_blank" title="黄石市经信局">黄石市经信局</a></li>
+                    
+                        <li><a href="http://jxj.jingzhou.gov.cn/"  target="_blank" title="荆州市经信局">荆州市经信局</a></li>
+                    
+                        <li><a href="http://jxw.shiyan.gov.cn/"  target="_blank" title="十堰市经信局">十堰市经信局</a></li>
+                    
+                        <li><a href="http://jxj.xiaogan.gov.cn/"  target="_blank" title="孝感市经信局">孝感市经信局</a></li>
+                    
+                        <li><a href="http://jjhxxhj.jingmen.gov.cn/"  target="_blank" title="荆门市经信局">荆门市经信局</a></li>
+                    
+                        <li><a href="http://jxj.ezhou.gov.cn/"  target="_blank" title="鄂州市经信局">鄂州市经信局</a></li>
+                    
+                        <li><a href="http://jxw.hg.gov.cn/"  target="_blank" title="黄冈市经信局">黄冈市经信局</a></li>
+                    
+                        <li><a href="http://jxj.xianning.gov.cn/"  target="_blank" title="咸宁市经信局">咸宁市经信局</a></li>
+                    
+                        <li><a href="http://jxj.suizhou.gov.cn/"  target="_blank" title="随州市经信局">随州市经信局</a></li>
+                    
+                        <li><a href="http://jxw.enshi.gov.cn/"  target="_blank" title="恩施州经信局">恩施州经信局</a></li>
+                    
+                        <li><a href="https://www.xiantao.gov.cn/bmxxgk/sjxw/zfxxgk/zc/gfxwj/"  target="_blank" title="仙桃市经信局">仙桃市经信局</a></li>
+                    
+                        <li><a href="https://www.hbqj.gov.cn/sjjhxxhj/"  target="_blank" title="潜江市经信局">潜江市经信局</a></li>
+                    
+                        <li><a href="http://www.tianmen.gov.cn/zwgk/bmhxzxxgkml/bm/sjjhxxhj/"  target="_blank" title="天门市经信局">天门市经信局</a></li>
+                    
+                        <li><a href="http://swj.snj.gov.cn/"  target="_blank" title="神农架林区经信局">神农架林区经信局</a></li>
+                    
+                </ul>
+            </li>
+           
+        </ul>
+    </div>
+    <div class="copyright clearfix">
+        <div class="footer-map p20 fl">
+            <p><span>邮编：430071</span><span class="hidden-xs">|</span><a href="http://jxt.hubei.gov.cn/fzlm/wzdtt/" target="_blank">网站地图</a></p>
+            <p>网站标识码：4200000054</p>
+            <p>服务大厅咨询电话：027-87232519</p>
+            <p>版权所有：湖北省经济和信息化厅</p>
+
+        </div>
+        <div class="p20 fl pl60">
+            <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42010602004343" target="_blank"><img src="http://jxt.hubei.gov.cn/material/images/footer_icp.png" style="margin-bottom: 4px;" />鄂公网安备 42010602004343号</a></p>
+            <p>鄂ICP备05011090号-1<span><script id="_trs_ta_js" src="//jxt.hubei.gov.cn/c/js/ta.js?mpid=2997" async="async" defer="defer"></script></span><span class="hidden-xs">|</span><a href="http://jxt.hubei.gov.cn/fzlm/yszc_wz/" target="_blank">隐私政策</a>&nbsp;&nbsp;<span class="hidden-xs">|</span><img src="http://jxt.hubei.gov.cn/material/css_2020/xmtjz.png" /><a href="http://jxt.hubei.gov.cn/fzlm/zwxmt/" target="_blank" style="font-weight: 600;">政务新媒体</a>
+			&nbsp;&nbsp;<span class="hidden-xs">|</span><img src="http://jxt.hubei.gov.cn/material/css_2020/dxr.png" /><a class="dxr" style="font-weight: 600;">店小二专线</a><span class="dxe1" bfdi="18"><img src="http://jxt.hubei.gov.cn/material/images_2020/179.jpg" /></span>
+			
+			</p>
+            <p class="adress">地址：武汉市武昌区洪山路10号洪山大厦（原湖北饭店）</p>
+            <p>建议您使用IE9+、webkit内核、极速模式浏览器，分辨率1280*800及以上浏览本网站。</p>
+        </div>
+        <div class="gov"><a href="http://bszs.conac.cn/sitename?method=show&id=069EEE84256B5578E053012819AC5101" target="_blank"><img src="http://jxt.hubei.gov.cn/material/images/red.png" alt="" /></a></div>
+        <div class="jc"><script id="_jiucuo_" sitecode='4200000054' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script></div>
+    </div>
+</div>
+
+<link type="text/css" rel="stylesheet" href="http://jxt.hubei.gov.cn/material/css/wltz.css" />
+<script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/wltz.js"></script>
+<script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/ssoAjax.js"></script>
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"  style="height:165px;">
+    <div class="modal-header">
+        <button type="button" class="bootstrap-close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">&nbsp;</h3>
+    </div>
+    <div class="modal-body" style="color:#000">
+        <p>您访问的链接将离开“<span id="modalDomainName"></span>”门户网站 是否继续？</p>
+        <input id="modalOuterURL" type="hidden" />
+    </div>
+    <div class="modal-footer">
+        <button class="bootstrap-btn bootstrap-btn-default" data-dismiss="modal" aria-hidden="true">放弃</button>
+        <button class="bootstrap-btn bootstrap-btn-danger" onclick="toRedirect()">继续访问</button>
+    </div>
+</div>
+<link href="http://jxt.hubei.gov.cn/material/indeci/static/css/iconfont.css" rel="stylesheet" type="text/css" />
+<link href="http://jxt.hubei.gov.cn/material/indeci/static/css/indeci.css" rel="stylesheet" type="text/css" />
+<link href="http://jxt.hubei.gov.cn/material/assets/css/bf/barrierfree.css" rel="stylesheet" type="text/css" />
+<script src="/material/assets/js/iframe.js" id="barrierFree" data="sn=003FE80CCC54BD8A19CE617C4B34A1880CB734F93284C7F6C2D6672907F7F9CB&amp;rcode=EED292770C46E9998A4EF92C76E91EBAE5A33B696E57B9CD4DDBB4739B350398003EC03B6082B1D616EB3045AA4B89DED1621AC006BC1ECE526A815EAB0E557FAA421B115C538488046C236DB6CE507CF8BAB2FC4E0C73EF497984A3D6BC52040E4F6536FB6F8F616A2F8F6BBF8B9D05EF8AE0A423EC7F232FFC5A52790C88D7&helpsrc=/material/help.html"></script>
+<script>
+(function(){
+$.splitArea({
+		pageInfo: {type: '页面'},
+		nav: [
+			{
+				el: '.nav',  //配置导航区的类名
+				desc: '主栏目导航'  //导航区的名称
+			}
+		],
+		window: [
+			{
+				el: '.headline',  //配置视窗区的类名
+				desc: '头条区'  //视窗区的名称
+			},
+                        {
+				el: '.p1 .lxgs',  //配置视窗区的类名
+				desc: '要闻区'  //视窗区的名称
+			},
+                        {
+				el: '.p2 .lxgs1',  //配置视窗区的类名
+				desc: '工作动态、通知公告、市州工作'  //视窗区的名称
+			},
+                        {
+				el: '.p2 .lxgs2',  //配置视窗区的类名
+				desc: '图解、经济运行、企业风采'  //视窗区的名称
+			},
+                        {
+				el: '.p3 .zwgk',  //配置视窗区的类名
+				desc: '政务公开'  //视窗区的名称
+			},
+                        {
+				el: '.p3 .hdjl',  //配置视窗区的类名
+				desc: '互动交流'  //视窗区的名称
+			},
+                        {
+				el: '.p3 .bsfw',  //配置视窗区的类名
+				desc: '办事服务'  //视窗区的名称
+			},
+                         {
+				el: '.p4',  //配置视窗区的类名
+				desc: '专题专栏区'  //视窗区的名称
+			},
+{
+				el: '.article h4',  //配置视窗区的类名
+				desc: '标题'  //视窗区的名称
+			},
+                        {
+				el: '.footer',  //配置视窗区的类名
+				desc: '底部功能区'  //视窗区的名称
+			}
+		],
+		interactive: [
+			{
+				el: '.search', //配置交互去的类名
+				desc: '搜索区'  //交互区的名称
+			}
+		]
+});
+
+$.elderOptions([
+	{ el: '.nav', desc: '主栏目导航,本区域包含首页、政府信息公开、互动交流、办事服务、部门动态、数据开放'},
+	{ el: '.search', desc: '搜索区，可输入关键字搜索相关内容'}
+])
+})();
+</script>
+
+<script>
+var arr9 = window.location.href;
+try {
+var my_element2 =document.querySelector('meta[name="ArticleTitle"]').getAttribute('content');
+var t9 =my_element2
+}
+catch(e){
+try {
+var my_element =document.querySelector('meta[name="ColumnName"]').getAttribute('content');
+var t9 =my_element
+}
+catch(e){
+t9 = "湖北省经济和信息化厅";
+arr9 = "http://jxt.hubei.gov.cn/"
+}
+}
+
+var arr1 = []
+var arr2 = []
+var arr3 = []
+var arr4 = []
+arr1.push(t9)
+arr2.push(arr9)
+arr1.map((item,index) => {
+  arr3.push({id:item})
+})
+arr2.map((item,index) => {
+ arr4.push({name:item})
+})
+arr4.map((item,index) => {
+ arr3[index].name = item.name
+})
+if (localStorage.getItem("num") != null) {
+var xxx=JSON.parse(localStorage.getItem("num"));
+xxx = xxx.filter(item => item.id!=arr3[0].id );
+console.log(xxx);
+                            xxx.forEach((item) => {      
+                                var obj ={};
+                                obj.id = item.id;
+                                obj.name = item.name;
+                                arr3.push(obj)
+                          })
+}
+localStorage.setItem("num",JSON.stringify(arr3));
+console.log(localStorage.getItem("num"))
+
+	
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b6564ffd7a04bf8cb06eea91adfbce21";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+// 平台访问统计
+(function() {
+    var serverUrl = "/wasp-api"; 
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = serverUrl + '/js/ta.js';
+    g.id = "visit-js-id";
+    g.onload = function() {
+        window.Tracker.setCrossSubDomain();
+        window.Tracker.setSiteId('30');
+    }
+    s.parentNode.insertBefore(g, s);
+})();
+</script>
+    <!-- footer 结束 -->
+<div class="menu-help8 fl hidden-xs" style="z-index:8999;position: fixed;bottom: 9%;right: 2px"> <a id="close9" class="fr" href="javascript:"><img src="../../images/fc_coles.png" alt="" /></a>    
+<ul style="margin-bottom:-81px;">  
+<li ><a href="https://alleasy.cc/" target="_blank"><img src="http://jxt.hubei.gov.cn/material/2026/images/2026091701.png" width="250" height="" /></a></li>
+
+</ul>   
+</div>
+
+
+<div class="menu-help9 fl hidden-xs" style="z-index:8999;position: fixed;bottom: 9%;left: 0px;"> <a id="close9" class="fr" href="javascript:"><img src="../../images/fc_coles.png" alt="" /></a>    
+<ul style="margin-bottom: 86px;">  
+<li ><a href="https://jrb.hubei.gov.cn/szxqyxyxx/enterprise/operation-platform-index.html" target="_blank"><img src="http://jxt.hubei.gov.cn/material/2023images/20250606.png" width="250" height="" alt="湖北省中小企业商业价值信用贷款运行平台" /></a></li>
+
+</ul>   
+</div>
+
+<div class="menu-help4 fl hidden-xs" style="z-index:8999;position: fixed;bottom: 7%;left: 0px;"> <a id="close2" class="fr" href="javascript:"><img src="../../images/fc_coles.png" alt="" /></a>    
+<ul style="margin-bottom:-61px;">  
+
+<li ><a href="http://36.134.78.228:18080/portal-pc/#/index" target="_blank"><img src="/images/20230627.png" width="250" height="" alt="湖北省企业上云服务券申领平台" RELATED="1" /></a></li>
+</ul>   
+</div>
+
+<script type="text/javascript">
+  $(".menu-help8 #close9").click(function() { $(".menu-help8").hide(); })
+   $(".menu-help9 #close9").click(function() { $(".menu-help9").hide(); })
+   $(".menu-help4 #close2").click(function() { $(".menu-help4").hide(); })
+   </script>
+ <!--<div class="menu-help5 fl hidden-xs " style="z-index:8999;position: fixed;bottom: 5px;right: 0px;"> <a id="close9" class="fr" href="javascript:"><img src="/material/images/fc_coles.png" alt="" /></a>    
+<ul style="">  
+<li ><a  target="_blank"><img src="http://jxt.hubei.gov.cn/material/2023images/20240723_xx.png" width="240" height="136" /></a></li>
+</ul>   
+</div>-->
+ <div id="move_port" class="close33 hidden-xs" style="margin-bottom:60px;display: none;">
+    <a id="close3" class="fr" href="javascript:"><img src="/material/images/fc_coles.png" alt="" style="top:-15px;right:0;position:absolute" /></a>    
+    <ul style="">  
+        <li ><a href="http://jxt.hubei.gov.cn/bmdt/ztzl/wqzt/hlwdh/" target="_blank"><img src="http://jxt.hubei.gov.cn/material/2023images/20241118_5g.png" width="240" height="136" /></a></li>
+        </ul> 
+  </div>
+<script type="text/javascript">
+   $(".menu-help4 #close2").click(function() { $(".menu-help4").remove(); })
+   $(".menu-help5 #close9").click(function() { $(".menu-help5").hide(); })
+
+   </script>
+</div>
+<!-- dom 结束 -->
+<script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js_2020/index_2024.js"></script>
+<script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/layui/layui.js"></script>
+<script type="text/javascript" src="http://jxt.hubei.gov.cn/material/js/zxft_index_2023.js"></script>
+
+<!-- 左下角飘窗1 -->
+
+<style>
+        /*示例1-广告飘窗*/
+        #move_port{
+      position: fixed;
+      min-height: 50px;
+      left: 0;
+      top:0;
+      cursor: pointer;
+      z-index: 10000;
+    }
+    #close3 {
+    position: absolute;
+    right: 4px;
+    }
+.close_port{
+display:none!important;
+}
+</style>
+
+
+  <script type="text/javascript" src="//gdj.hubei.gov.cn/material/js/move_port.js"></script>
+
+  <script>
+    /*调用移动浮窗方法并按顺序传入正确参数["obj",x,y,l,t,m],obj必填*/
+    //示例:
+    move_obj("#move_port",'','',1,1,'','',50);
+
+    move_obj(".move_div",'','',10,10,800,500,100);
+    move_obj(".d1",600,500);
+    move_obj(".d2",'','','','','',300,200);
+    move_obj(".d3",500,300);
+
+
+   $("#close3").click(function() { $(".close33").hide(); })
+   
+ </script>
+
+
+
+<script>
+    //dom effect
+    $(document).ready(function() {
+        //$("焦点图组件容器").setFocus("滚动内容容器选择器", "触发滚动容器选择器", "计数器容器选择器");
+        //$('焦点图组件容器').setFocus(); //默认参数 ".scroll", ".navi", ".number"
+        $('.focus').setFocus(".pic",".navi",".num");
+
+        //多个tab
+        $(".tab-pane").each(function() {
+            $(this).setTab();
+        });
+
+        //jq slide
+        $('#b2 li:gt(0) .text').hide();
+        $('#b2 li').click(function() {
+            $(this).children(".text").slideDown(200);
+            $(this).siblings().children(".text").hide();
+        });
+
+        //$("滚动组件容器").setSlide("滚动内容容器", "滚动方向 x-水平 y-垂直", 一次滚动数量, 滚动内容总数, 移动端滚动内容总数, 滚动间隔毫秒);
+        //$('滚动组件容器').setSlide(); //默认参数 ".scroll", "x", 1, 3, 2, 3000
+        $(".zt .scroll").setSlide(".h", "x", 1, 4, 1,3000,true);
+
+   //功能导航
+    $('#rightArrow').mouseover(function() {
+         $("#floatDivBoxs").animate({ right: '0' }, 500);
+         $(this).css("right", 120).hide();
+     });
+     $('#floatDivBoxs').mouseleave(function() {
+         $(this).animate({ right: '-120px' }, 500);
+         $('#rightArrow').css("right", 0).show();
+     });
+    });
+
+    window.onload=function(){$("#item-hdjl li:first").addClass('on');
+                    $(".list-t.zc li.on").find('.zc-bot').slideDown(0)
+                    $(".list-t.zc li").mouseover(function(event) {
+                         $(this).addClass('on').siblings('li').removeClass('on');
+                        $(this).find('.zc-bot').stop(true).slideDown(0).parent('li').siblings('li').find('.zc-bot').stop(true).slideUp(0) 
+                     });
+}
+
+
+
+//办事统计
+var abc="10;229;128"
+var bcd=abc.split(";");
+console.log(bcd);
+$(".bsyf").html(bcd[0]);
+$(".sqs").html(bcd[1]);
+$(".bjs").html(bcd[2]);
+</script>
+
+<!-- 自动切换 -->
+<script>
+    jQuery(".slideTxtBox").slide({autoPlay:true,delayTime:1000});
+</script>
+<script>
+    //dom effect
+    $(document).ready(function() {
+           $('.bj').each(function () {
+      if($(this).text()===''){
+        $(this).hide();
+      }
+    })
+    });
+
+//隐藏制造翘楚专题
+$(function() {
+    $('.zt li a').each(function () {
+        // 获取 href 属性的值
+        var href = $(this).attr('href');
+        var href1= "./bmdt/ztzl/wqzt/2024cyl/";
+        // 在控制台打印出来，方便调试，确认获取到的值是否正确
+        console.log(href);
+
+        // 判断 href 的值是否与目标字符串相等
+        // 使用严格相等运算符 ===
+        if (href === href1) {
+            // 如果相等，则移除其最近的 li 父元素
+            $(this).closest('li').remove();
+        }
+    });
+});
+</script>
+</body>
+</html>

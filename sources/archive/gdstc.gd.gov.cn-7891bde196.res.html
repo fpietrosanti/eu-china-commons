@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="科学、技术、科技、资讯、申报" />
+<meta name="description" content="广东省科学技术厅网站由广东省科学技术厅主办" />
+    <meta name="SiteName" content="广东省科学技术厅">
+    <meta name="SiteDomain" content="gdstc.gd.gov.cn/">
+    <meta name="SiteIDCode" content="4400000090">
+    <meta name="ColumnName" content="首页">
+    <meta name="ColumnDescription" content="提供网站信息公开栏目及政务服务事项入口">
+    <meta name="ColumnKeywords" content="首页 政务公开 科技资讯">
+    <meta name="ColumnType" content="首页">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <link type="text/css" rel="stylesheet" href="css/index1.css">
+    <link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css">
+    <title>广东省科学技术厅</title>
+    <script src="/gdkjnj2017/jquery.js"></script>
+    <script src="js/idangerous.swiper.min.js"></script>
+    <script>window.NFCMS_SITE_ID=172;window.NFCMS_PUB_TYPE="page";window.NFCMS_PAGE_ID="470";</script><script src="//statistics.gd.gov.cn/scripts/s.js?t=1795512483" async></script>
+    <script>
+     /**
+     * 判断是否是pc设备
+     */
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            if(window.screen.width>=768){
+                flag = true;
+            }
+            return flag;
+        }
+        if(!IsPC()){
+            window.location.href="mindex.html";
+        }
+    </script>
+    <script>/* JumpCodeAbort. */</script>
+</head>
+<body>
+<div style="opacity:0;text-indent:-9999px;width:0;height:0;overflow:hidden">
+<a href="javascript:void(0)" aria-label="欢迎访问广东省科学技术厅网站，请用 alt 加右键开启智能盲道功能，按 alt 加 4打开导航区，按 tab 键切换读取导航区元素；按 alt 加 5 打开视窗区，按 tab 键切换读取视窗区元素；按 alt 加 6 打开交互区，按 tab 键切换读取交互区元素；按 alt 加 7 打开服务区，按 tab 键切换读取服务区元素；按 alt 加 L 开启或关闭语音阅读声音；按 shift 加上方向键开启或关闭大字幕；按 alt 加问号打开智能盲道帮助页面；按 alt 加 q 键退出智能盲道；按 alt 加 9 退出无障碍服务。" target="_self"
+role="alert" id="wza-intro"></a>
+</div>
+<script>
+	// tab 切换
+	window.$bindArrow = function (obj) {
+		var $tabs = $(obj.tabs)
+		var $tabsPanel = $(obj.tabsPanel)
+		var $index = obj.initPos || 0
+		$tabs.bind(
+		{
+			keydown: function(ev){
+				var LEFT_ARROW = 37;
+				var UP_ARROW = 38;
+				var RIGHT_ARROW = 39;
+				var DOWN_ARROW = 40;
+
+				var k = ev.which || ev.keyCode;
+
+				if (k >= LEFT_ARROW && k <= DOWN_ARROW){
+					if (k == LEFT_ARROW || k == UP_ARROW){
+						if ($index > 0) {
+							$index--;
+						}
+						else {
+							$index = $tabs.length - 1;
+						}
+					}
+					else if (k == RIGHT_ARROW || k == DOWN_ARROW){
+						if ($index < ($tabs.length - 1)){
+							$index++;
+						}
+						else {
+							$index = 0;
+						}
+					}
+					// $($tabs.get($index)).click();
+					setFocus($index)
+					ev.preventDefault();
+				}
+			},
+			// click: function(ev){
+			// 	$index = $.inArray(this, $tabs.get())
+			// 	setFocus($index)
+			// }
+		})
+
+		//初始化
+		init()
+
+		function setChildNode($index) {
+			$tabs.find(obj.childNode).attr(
+			{
+				tabindex: '-1',
+				'aria-selected': 'false'
+			})
+
+			$($tabs.get($index)).find(obj.childNode).attr(
+			{
+				tabindex: '0',
+				'aria-selected': 'true'
+			})
+		}
+
+		function init() {
+			var initCount =  0;
+			if (obj.childNode) {
+				setChildNode(initCount)
+			}
+			$tabs.attr(
+			{
+				tabindex: '-1',
+				'aria-selected': 'false'
+			}).removeClass(obj.active)
+
+			$($tabs.get($index)).attr(
+			{
+				tabindex: '0',
+				'aria-selected': 'true'
+			}).addClass(obj.active)
+		}
+
+		function initTree(p, cb) {
+			
+			for (var i = 0; i < p.children.length; i++) {
+				// 遍历第一级子元素
+				var child = p.children[i];
+				if(cb){
+					cb(child);
+				}
+				// 递归
+				initTree(child);
+			}
+		}
+		
+		function setFocus($index) {
+			$tabs.attr(
+			{
+				tabindex: '-1',
+				'aria-selected': 'false'
+			}).removeClass(obj.active)
+
+			$($tabs.get($index)).attr(
+			{
+				tabindex: '0',
+				'aria-selected': 'true'
+			}).addClass(obj.active).focus()
+			// 控制区块显隐方式
+			if(obj.type === 'display'){
+				$tabsPanel.hide()
+
+				$($tabsPanel.get($index)).show()
+			}else if(obj.type === 'animate'){
+				// do something
+
+				// $tabsPanel.each(function(){
+				// 	initTree(this, function(ele){
+				// 		$(ele).attr({
+				// 			tabindex: '-1',
+				// 		});
+				// 	})
+				// });
+
+				// initTree($($tabsPanel.get($index)), function(ele){
+				// 	$(ele).attr({
+				// 		tabindex: '0',
+				// 	});
+				// })
+				$tabsPanel.attr(
+				{
+					tabindex: '-1',
+				});
+				$($tabsPanel.get($index)).attr(
+				{
+					tabindex: '0',
+				});
+			}
+			if (obj.childNode) {
+				setChildNode($index)
+			}
+		}
+	}
+
+	// select 切换
+	window.$bindSelect = function(obj) {  
+		var $selectedItem = $(obj.selectedItem)
+		var $menus = $(obj.menus)
+		var $index = 0     
+		$selectedItem.attr(
+			{
+				tabindex: '0',
+				role: 'menu'
+			})
+		$menus.attr(
+			{
+				role: 'menuitem'
+			})
+		$selectedItem.bind(
+			{
+				keydown: function(ev, inx) {
+					var SPACE = 32
+					var ESC = 27  
+					var ENTER = 13        
+					var k = ev.which || ev.keyCode;
+					if (k == SPACE || k == ENTER) {
+						if(ev.preventDefault){
+							ev.preventDefault();
+						}else{
+							window.event.returnValue = false;
+						}
+						setFocus(ev)
+					}
+					if (k == ESC) {
+						setClose(ev)
+					}
+
+				}
+			})
+
+		function setClose(ev) {
+			var target = $(ev.target)
+			var selectedItem = target.closest(obj.selectedItem)
+			var panel = selectedItem.find(obj.menus)
+			panel.hide()
+			selectedItem.focus()
+		}
+
+		function setFocus(ev) {
+			var panel = $(ev.target).find(obj.menus)
+			$menus.hide()
+			panel.show()
+		}
+	}
+</script>
+    
+<link rel="stylesheet" type="text/css" href="/gdkjnj2017/style1.css"/>
+<script src="/gdkjnj2017/jquery.js"></script>
+<script src="/gdkjnj2017/zh.js"></script>
+ <style type="text/css">
+    .zh_click {
+        display: none;
+    }
+</style>
+<!--头部-->
+<div class="banner">
+    <div class="content">
+        <div class="logo"><img src="/gdkjnj2017/logo.png"></div>
+        <div class="sign"><img src="/gdkjnj2017/ipv.png"></div>
+        <a class="zh_click" id="zh_click_s" onclick="zh_tran('s')">简体</a>
+        <a class="zh_click" id="zh_click_t" onclick="zh_tran('t')">繁体</a>
+        <a id="wza" class="wza">无障碍</a>
+        <a id="slh" class="slh">长者助手</a>
+    </div>
+    <div class="header">
+        <div class="content clearfix">
+        <!--导航-->
+        <ul class="nav left" wzades="提供网站首页、政务公开、科技资讯、党风廉政、办事服务、互动平台栏目入口。" aria-label="您已进入首页及一级栏目导航区。" altdes="导航区">
+            <li><a href="//gdstc.gd.gov.cn/">首页</a></li>
+            <li>
+                                    <a href="https://gdstc.gd.gov.cn/zwgk_n/index.html">政务公开</a>
+                            </li>
+            <li>
+                                    <a href="https://gdstc.gd.gov.cn/kjzx_n/index.html">科技资讯</a>
+                            </li>
+            <li>
+                                    <a href="https://gdstc.gd.gov.cn/ztzl_n/pzjd/index.html">党风廉政</a>
+                            </li>
+            <li><a target="_blank" href="https://www.gdzwfw.gov.cn/portal/v2/branch-hall?orgCode=006939801">办事服务</a></li>
+            <li><a href="https://gdstc.gd.gov.cn/hdjlpt">互动平台</a></li>
+        </ul>
+        <!--搜索-->
+        <div class="search right" wzades="输入关键词可对网站内容进行搜索" aria-label="您已进入全站搜索交互区，本区域包含1个文本输入框和1个提交按钮。请输入关键词，按回车键进行网站内容搜索。" altdes="交互区">
+            <form target="_blank" action="https://search.gd.gov.cn/search/all/172">
+                <input type="text" name="keywords" placeholder="请输入要搜索的内容">
+                <button type="submit">搜&nbsp;&nbsp;索</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<script src="//service.gd.gov.cn/wza/wza.js?app=gdstc"></script>
+<script src="https://slhsrv.southcn.com/wza/slh.js?app=gdstc.gd.gov.cn"></script>
+<script>
+    // IE8 兼容配置
+    window.onload = function() {
+        cnillWzaInstance.startInit("/gdkjnj2017/cnill_polyfill.swf");
+    }
+    document.getElementById("wza").onclick = function() {
+        // 执行实例的init方法
+        cnillWzaInstance.init(); // cnillWzaInstance为全局变量
+    }
+    // 适老化
+    document.getElementById("slh").onclick = function() {
+        // 执行实例的init方法
+        slhInstance.init();  // cnillWzaInstance为全局变量
+   }
+</script>
+
+<div class="main">
+    <!--新闻-->
+    <div class="news clearfix" style="height:444px;">
+        <!--新闻大图-->
+        <div class="newsPic left" wzades="展示图片新闻。" aria-label="您已进入图片新闻视窗区。" altdes="视窗区">
+            <div class="swiper-container swiper-container1">
+                <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                            <a title="学习贯彻党的二十届五中全会精神" href="https://www.gd.gov.cn/gdywdt/zwzt/wzqh/">
+                                <img src="https://gdstc.gd.gov.cn/img/1/1695/1695516/4975763.jpg" alt="学习贯彻党的二十届五中全会精神">
+                                <p>学习贯彻党的二十届五中全会精神</p>
+                            </a>
+                        </div>
+                                            <div class="swiper-slide">
+                            <a title="树立和践行正确政绩观" href="http://gdstc.gd.gov.cn/ztzl_n/slhjxzqzjg/">
+                                <img src="https://gdstc.gd.gov.cn/img/1/1599/1599241/4876279.jpg" alt="树立和践行正确政绩观">
+                                <p>树立和践行正确政绩观</p>
+                            </a>
+                        </div>
+                                            <div class="swiper-slide">
+                            <a title="中华人民共和国中央人民政府重要政策举措及实施效果" href="https://www.gov.cn/zhengce/zczhjd/">
+                                <img src="https://gdstc.gd.gov.cn/img/1/1105/1105172/4227970.jpg" alt="中华人民共和国中央人民政府重要政策举措及实施效果">
+                                <p>中华人民共和国中央人民政府重要政策举措及实施效果</p>
+                            </a>
+                        </div>
+                                            <div class="swiper-slide">
+                            <a title="国务院“互联网+督查”平台关于征集阻碍民营经济发展壮大问题线索的公告" href="https://tousu.www.gov.cn/dc/2023myjj/index.htm">
+                                <img src="https://gdstc.gd.gov.cn/img/1/1105/1105171/4226931.jpg" alt="国务院“互联网+督查”平台关于征集阻碍民营经济发展壮大问题线索的公告">
+                                <p>国务院“互联网+督查”平台关于征集阻碍民营经济发展壮大问题线索的公告</p>
+                            </a>
+                        </div>
+                                    </div>
+            </div>
+            <div class="pagination"></div>
+        </div>
+        <!--新闻列表-->
+        <div class="newsList tzgg right" wzades="展示通知公告、政声传递、媒体聚焦、广东科技信息。" aria-label="您已进入通知公告、政声传递、媒体聚焦、广东科技视窗区，本区域包含通知公告、政声传递、媒体聚焦、广东科技4个栏目，请按上、下、左、右方向键切换栏目，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+            <ul class="newsListNav"  role="tablist">
+                <li class="active" aria-label="您已进入通知公告视窗区" role="tab">
+                                            <a href="https://gdstc.gd.gov.cn/zwgk_n/tzgg/index.html">通知公告</a>
+                                    </li>
+                <li aria-label="您已进入政声传递视窗区" role="tab"><a href="https://www.gd.gov.cn/xxts">政声传递</a></li>
+                <li aria-label="您已进入媒体聚焦视窗区" role="tab">
+                                            <a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/index.html">媒体聚焦</a>
+                                    </li>
+                <li aria-label="您已进入广东科技视窗区" role="tab">
+                                            <a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/index.html">广东科技</a>
+                                    </li>
+            </ul>
+            <div class="section">
+                <ul class="list tab-panel-1" role="tabpanel">    
+                                            <li><a href="http://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4845562.html" title="广东省科学技术厅2025年政府信息公开工作年度报告">广东省科学技术厅2025年政府信息公开工作年度报告</a><span class="time right">2026-01-20</span></li>
+                                            <li><a href="http://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4843175.html" title="广东省科学技术厅2025年政府网站工作年度报表">广东省科学技术厅2025年政府网站工作年度报表</a><span class="time right">2026-01-16</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4984340.html" title="广东省科学技术厅关于废止《广东省科学技术厅关于征集科技信贷风险补偿省级受托管理机构的通知》的公告">广东省科学技术厅关于废止《广东省科学技术厅关于征集科技信贷风险补偿省级受托管理机构的通知》的公告</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4984026.html" title="广东省科学技术厅关于2026年10月广东省实验动物行政许可日常监督检查结果的公告">广东省科学技术厅关于2026年10月广东省实验动物行政许可日常监督检查结果的公告</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4983000.html" title="广东省科学技术厅直属事业单位2026年集中公开招聘高校毕业生拟聘用人员公示（第二批）">广东省科学技术厅直属事业单位2026年集中公开招聘高校毕业生拟聘用人员公示（第二批）</a><span class="time right">2026-11-20</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4982877.html" title="广东省科学技术厅关于2026—2027年度广东省重点领域研发计划“智能机器人”专项申报指南社会反馈意见吸收采纳情况的公告">广东省科学技术厅关于2026—2027年度广东省重点领域研发计划“智能机器人”专项申报指南社会反馈意见吸收采纳情况的公告</a><span class="time right">2026-11-20</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4981360.html" title="广东省科学技术厅 广东省财政厅关于印发《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》的通知">广东省科学技术厅 广东省财政厅关于印发《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》的通知</a><span class="time right">2026-11-17</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/zwgk_n/tzgg/content/post_4981090.html" title="广东省科学技术厅关于公开征求《广东省科技专家库管理办法（试行）》（征求意见稿）意见的公告">广东省科学技术厅关于公开征求《广东省科技专家库管理办法（试行）》（征求意见稿）意见的公告</a><span class="time right">2026-11-17</span></li>
+                                    </ul>
+                <ul class="zscd list hide tab-panel-1" role="tabpanel">
+                <script type="text/javascript">
+                    $(function () {
+                        $.ajax({
+                            url: 'https://app.gd.gov.cn/xxts/pushinfo_json.php',
+                            dataType: "jsonp",
+                            jsonp: "pushInfoJsonpCallBack",
+                            jsonpCallback: "pushInfoJsonpCallBack",
+                            success: function (data) {
+                            $.each(data, function (i, json) {
+                                 if ( i > 7){
+				                    return;
+			                    }
+                                $(".zscd").append( "<li><a href='" + json.link + "'>" + json.title + "</a><span class='time right'>" + json.pubDate + "</span></li>")})
+                            },
+                            error: function () {
+                                //alert('fail');
+                            }
+                        });
+                    })
+                </script>
+                </ul>
+                <ul class="list hide tab-panel-1" role="tabpanel">    
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4984041.html" title="陶瓷薄膜可从液体中“长”出来">陶瓷薄膜可从液体中“长”出来</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4984039.html" title="扼住病毒入侵“命门”">扼住病毒入侵“命门”</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4984038.html" title="新方案破解电网电磁干扰难题">新方案破解电网电磁干扰难题</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4983406.html" title="之江实验室的“二次创业”">之江实验室的“二次创业”</a><span class="time right">2026-11-23</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4983404.html" title="国际合作奏响北冰洋考察交响曲">国际合作奏响北冰洋考察交响曲</a><span class="time right">2026-11-23</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4983403.html" title="高校静音舱是应急之策，不是治本之方">高校静音舱是应急之策，不是治本之方</a><span class="time right">2026-11-23</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4982736.html" title="建设亚太共同体，续写“亚太奇迹”新篇章">建设亚太共同体，续写“亚太奇迹”新篇章</a><span class="time right">2026-11-20</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/mtjj/content/post_4982735.html" title="2026年亚太经合组织领导人深圳展望 建设亚太共同体，促进共同繁荣">2026年亚太经合组织领导人深圳展望 建设亚太共同体，促进共同繁荣</a><span class="time right">2026-11-20</span></li>
+                                    </ul>
+                <ul class="list hide tab-panel-1" role="tabpanel">    
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4984037.html" title="全尺寸全倾转电动飞行汽车倾转过渡试飞成功">全尺寸全倾转电动飞行汽车倾转过渡试飞成功</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4984036.html" title="汕尾把区位优势转化为发展胜势">汕尾把区位优势转化为发展胜势</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4984031.html" title="大湾区精准影像诊疗再添新支撑">大湾区精准影像诊疗再添新支撑</a><span class="time right">2026-11-24</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4983402.html" title="国产120千伏冷冻透射电子显微镜发布">国产120千伏冷冻透射电子显微镜发布</a><span class="time right">2026-11-23</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4983401.html" title="自主架构托举中国超算持续领跑">自主架构托举中国超算持续领跑</a><span class="time right">2026-11-23</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4983400.html" title="深圳龙岗：词元指数算出AI应用价值">深圳龙岗：词元指数算出AI应用价值</a><span class="time right">2026-11-23</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4982733.html" title="未来感与人情味同在 科技范与岭南韵共生">未来感与人情味同在 科技范与岭南韵共生</a><span class="time right">2026-11-20</span></li>
+                                            <li><a href="https://gdstc.gd.gov.cn/kjzx_n/gdkj_n/content/post_4982728.html" title="更新资本打法 发力半导体赛道">更新资本打法 发力半导体赛道</a><span class="time right">2026-11-20</span></li>
+                                    </ul>
+            </div>
+        </div>
+<script>
+	 window.$bindArrow({
+        type: 'display',
+        // 切换页头
+        tabs: '.tzgg .newsListNav li',
+        // 切换内容
+        tabsPanel: '.tzgg  .section .list.tab-panel-1',
+        // 子节点如果存在a、button，需写上
+        //childNode: 'a',
+        // 切换高亮
+        active: 'active'
+    })
+</script>
+    </div>
+    <div class="part2 clearfix">
+        <!--政务动态-->
+        <div class="newsList zwdt left" wzades="展示政务动态、政策解读、部门规范性文件信息。" aria-label="您已进入政务动态、政策解读、部门规范性文件视窗区，本区域包含政务动态、政策解读、部门规范性文件3个栏目，请按上、下、左、右方向键切换栏目，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+            <ul class="newsListNav" role="tablist">
+                <li class="active" aria-label="您已进入政务动态视窗区" role="tab">
+                                            <a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/index.html">政务动态</a>
+                                    </li>
+                <li class="" aria-label="您已进入政策解读视窗区" role="tab">
+                                            <a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/index.html">政策解读</a>
+                                    </li>
+                <li class="" aria-label="您已进入部门规范性文件视窗区" role="tab">
+                                            <a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/index.html">部门规范性文件</a>
+                                    </li>
+            </ul>
+            <div class="section">
+                <div class="list tab-panel-2" role="tabpanel">
+                    <ul>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4984024.html" title="广东省科技监督与科研诚信系列培训华南师范大学专场成功举办">广东省科技监督与科研诚信系列培训华南师范大学专场成功举办</a><span class="time right">2026-11-24</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4984023.html" title="广东省科技监督与科研诚信系列培训广东药科大学专场成功举办">广东省科技监督与科研诚信系列培训广东药科大学专场成功举办</a><span class="time right">2026-11-24</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4984022.html" title="广东省科技监督与科研诚信系列培训广东工业大学专场成功举办">广东省科技监督与科研诚信系列培训广东工业大学专场成功举办</a><span class="time right">2026-11-24</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4983383.html" title="省科技厅举行省科技系统学习贯彻党的二十届五中全会精神宣讲报告会">省科技厅举行省科技系统学习贯彻党的二十届五中全会精神宣讲报告会</a><span class="time right">2026-11-23</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4979634.html" title="“科创成果・亮南粤”系列活动之海洋工程装备珠海专场对接会成功举办">“科创成果・亮南粤”系列活动之海洋工程装备珠海专场对接会成功举办</a><span class="time right">2026-11-12</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4977280.html" title="省科技厅扎实开展2026年消防宣传月系列活动">省科技厅扎实开展2026年消防宣传月系列活动</a><span class="time right">2026-11-10</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4975283.html" title="省科技厅召开党组扩大会议认真传达学习习近平总书记在党的二十届五中全会上的重要讲话和全会精神">省科技厅召开党组扩大会议认真传达学习习近平总书记在党的二十届五中全会上的重要讲话和全会精神</a><span class="time right">2026-11-04</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4974872.html" title="2026大湾区科学论坛人工智能分论坛暨第七届中国（广东）人工智能论坛在广州南沙召开">2026大湾区科学论坛人工智能分论坛暨第七届中国（广东）人工智能论坛在广州南沙召开</a><span class="time right">2026-11-04</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zwdt/content/post_4974744.html" title="省科技厅召开机关青年干部座谈会">省科技厅召开机关青年干部座谈会</a><span class="time right">2026-11-03</span></li>
+                                            </ul>
+                </div>
+                <div class="list hide tab-panel-2" role="tabpanel">
+                    <ul>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4981335.html" title="图解：一图读懂《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》">图解：一图读懂《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》</a><span class="time right">2026-11-17</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4981328.html" title="政策解读：《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》政策解读">政策解读：《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》政策解读</a><span class="time right">2026-11-17</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4981110.html" title="图解：一图读懂《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策享惠主体名单的实施办法》《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策科普影视作品的实施办法》政策解读">图解：一图读懂《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策享惠主体名单的实施办法》《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策科普影视作品的实施办法》政策解读</a><span class="time right">2026-11-17</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4981102.html" title="政策解读：《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策享惠主体名单的实施办法》《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策科普影视作品的实施办法》政策解读">政策解读：《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策享惠主体名单的实施办法》《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策科普影视作品的实施办法》政策解读</a><span class="time right">2026-11-17</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4964850.html" title="图解：一图读懂《省级科技计划项目任务书管理细则（2026年修订）》政策解读">图解：一图读懂《省级科技计划项目任务书管理细则（2026年修订）》政策解读</a><span class="time right">2026-10-10</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4964840.html" title="政策解读：《省级科技计划项目任务书管理细则（2026年修订）》政策解读">政策解读：《省级科技计划项目任务书管理细则（2026年修订）》政策解读</a><span class="time right">2026-10-10</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4962871.html" title="图解：一图读懂《广东省重点实验室建设管理办法》政策解读">图解：一图读懂《广东省重点实验室建设管理办法》政策解读</a><span class="time right">2026-09-30</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4962870.html" title="政策解读：《广东省重点实验室建设管理办法》政策解读">政策解读：《广东省重点实验室建设管理办法》政策解读</a><span class="time right">2026-09-30</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/zcjd/content/post_4960251.html" title="图解：一图读懂《广东省科学技术厅 广东省商务厅 广东省财政厅 国家税务总局广东省税务局 广东省发展和改革委员会关于延长&lt;广东省技术先进型服务企业认定管理办法&gt;有效期的通知》政策解读">图解：一图读懂《广东省科学技术厅 广东省商务厅 广东省财政厅 国家税务总局广东省税务局 广东省发展和改革委员会关于延长&lt;广东省技术先进型服务企业认定管理办法&gt;有效期的通知》政策解读</a><span class="time right">2026-09-02</span></li>
+                                            </ul>
+                </div>
+                <div class="list hide tab-panel-2" role="tabpanel">
+                    <ul>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4981324.html" title="广东省科学技术厅 广东省财政厅关于印发《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》的通知">广东省科学技术厅 广东省财政厅关于印发《广东省重大科研基础设施与大型科研仪器开放共享补助实施办法（试行）》的通知</a><span class="time right">2026-11-17</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4981100.html" title="广东省科学技术厅 广东省财政厅 海关总署广东分署 国家税务总局广东省税务局印发《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策享惠主体名单的实施办法》的通知">广东省科学技术厅 广东省财政厅 海关总署广东分署 国家税务总局广东省税务局印发《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策享惠主体名单的实施办法》的通知</a><span class="time right">2026-11-17</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4981098.html" title="广东省科学技术厅 中共广东省委宣传部 广东省广播电视局印发《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策科普影视作品的实施办法》的通知">广东省科学技术厅 中共广东省委宣传部 广东省广播电视局印发《关于核定“十五五”期间享受支持科普事业发展进口税收优惠政策科普影视作品的实施办法》的通知</a><span class="time right">2026-11-17</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4964823.html" title="广东省科学技术厅关于印发《省级科技计划项目任务书管理细则（2026年修订）》的通知">广东省科学技术厅关于印发《省级科技计划项目任务书管理细则（2026年修订）》的通知</a><span class="time right">2026-10-10</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4962869.html" title="广东省科学技术厅关于印发《广东省重点实验室建设管理办法》的通知">广东省科学技术厅关于印发《广东省重点实验室建设管理办法》的通知</a><span class="time right">2026-09-30</span></li>
+                                                    <li><a href="https://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4960072.html" title="广东省科学技术厅 广东省商务厅 广东省财政厅 国家税务总局广东省税务局 广东省发展和改革委员会关于延长《广东省技术先进型服务企业认定管理办法》有效期的通知">广东省科学技术厅 广东省商务厅 广东省财政厅 国家税务总局广东省税务局 广东省发展和改革委员会关于延长《广东省技术先进型服务企业认定管理办法》有效期的通知</a><span class="time right">2026-09-02</span></li>
+                                                    <li><a href="http://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4917406.html" title="广东省科学技术厅 广东省财政厅 广东省地方金融管理局 国家金融监督管理总局广东监管局关于印发《广东省科技保险后奖补管理办法（试行）》的通知">广东省科学技术厅 广东省财政厅 广东省地方金融管理局 国家金融监督管理总局广东监管局关于印发《广东省科技保险后奖补管理办法（试行）》的通知</a><span class="time right">2026-06-29</span></li>
+                                                    <li><a href="http://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4915655.html" title="中共广东省委科技委员会办公室关于印发《广东省脑机接口科技与产业协同发展行动计划（2026-2030年）》的通知">中共广东省委科技委员会办公室关于印发《广东省脑机接口科技与产业协同发展行动计划（2026-2030年）》的通知</a><span class="time right">2026-06-24</span></li>
+                                                    <li><a href="http://gdstc.gd.gov.cn/zwgk_n/zcfg/gfwj/content/post_4908112.html" title="中共广东省委科技委员会关于印发《广东省加快推动人工智能赋能科学研究行动方案（2026—2030年）》的通知">中共广东省委科技委员会关于印发《广东省加快推动人工智能赋能科学研究行动方案（2026—2030年）》的通知</a><span class="time right">2026-06-08</span></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+	 window.$bindArrow({
+        type: 'display',
+        // 切换页头
+        tabs: '.zwdt .newsListNav li',
+        // 切换内容
+        tabsPanel: '.zwdt  .section .list.tab-panel-2',
+        // 子节点如果存在a、button，需写上
+        //childNode: 'a',
+        // 切换高亮
+        active: 'active'
+    })
+</script>
+        <!--服务板块-->
+        <div class="service right" wzades="提供广东省科技业务管理阳光政务平台、广东政务服务网、外国人来华工作管理服务系统、统一办公平台入口。" aria-label="您已进入广东省科技业务管理阳光政务平台、广东政务服务网、外国人来华工作管理服务系统、统一办公平台视窗区，本区域包含广东省科技业务管理阳光政务平台、广东政务服务网、外国人来华工作管理服务系统、统一办公平台4个栏目，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+            <div class="serviceBox">
+                <a href="https://pro.gdstc.gd.gov.cn/egrantweb/"><img src="images/platform.jpg" alt="广东省科技业务管理阳光政务平台" title="广东省科技业务管理阳光政务平台"> </a>
+            </div>
+            <div class="serviceBox">
+                <a href="https://www.gdzwfw.gov.cn/portal/v2/branch-hall?orgCode=006939801"><img src="images/service.jpg" alt="广东政务服务网" title="广东政务服务网"> </a>
+            </div>
+            <div class="serviceBox">
+                <a href="https://fwp.safea.gov.cn/lhgzweb/"><img src="images/foreigner.jpg" alt="外国人来华工作管理服务系统" title="外国人来华工作管理服务系统"></a>
+            </div>
+        </div>
+    </div>
+    <div class="part3">
+        <div class="content clearfix">
+            <div class="left">
+                <!--专题-->
+                <div class="zt" wzades="提供政务专题入口。" aria-label="您已进入专题图片视窗区，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+                    <a class="arrow-left"></a>
+                    <a class="arrow-right"></a>
+                    <div class="swiper-container swiper-container2">
+                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                    <a title="党风廉政" href="http://gdstc.gd.gov.cn/ztzl_n/pzjd/index.html">
+                                        <img src="https://gdstc.gd.gov.cn/img/0/186/186186/2661829.jpg" alt="党风廉政">
+                                    </a>
+                                </div>
+                                                            <div class="swiper-slide">
+                                    <a title="弘扬科学家精神" href="http://gdstc.gd.gov.cn/hykxjjs/index.html">
+                                        <img src="https://gdstc.gd.gov.cn/img/0/253/253722/2914338.jpg" alt="弘扬科学家精神">
+                                    </a>
+                                </div>
+                                                            <div class="swiper-slide">
+                                    <a title="科技年鉴" href="http://gdstc.gd.gov.cn/ztzl_n/kjnj/">
+                                        <img src="https://gdstc.gd.gov.cn/img/0/166/166930/2661843.jpg" alt="科技年鉴">
+                                    </a>
+                                </div>
+                                                  
+                        </div>
+                    </div>
+                </div>
+                <div class="zwgkIcon" wzades="提供重点领域信息公开、信用信息双公示、数据发布、数据开放入口和1个“更多”点击按钮。" aria-label="您已进入重点领域信息公开、信用信息双公示、数据发布、数据开放、更多视窗区，本区域包含重点领域信息公开、信用信息双公示、数据发布、数据开放4个栏目和1个“更多”点击按钮，点击“更多”有：内设部门、机构职能、直属单位、派驻机构、人事信息、权责清单、计划规划、建议提案，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+                    <div class="zwgkIcon1 clearfix">
+                        <div class="icon left">                            
+                                                            <a href="https://gdstc.gd.gov.cn/zwgk_n/zdly/index.html" title="重点领域信息公开"><img src="images/icon_1.png" alt="重点领域信息公开" title="重点领域信息公开"></a>
+                                                    </div>
+                        <div class="icon left"><a href="https://gdstc.gd.gov.cn/zwgk_n/xyxxsgs/index.html" title="信用信息双公示"><img src="images/icon_2.png" alt="信用信息双公示" title="信用信息双公示"></a></div>
+                        <div class="icon left"><a href="https://sjfb.gdstc.gd.gov.cn/kjzykf//index.html" title="数据发布"><img src="images/icon_3.png" alt="数据发布" title="数据发布"></a></div>
+                        <div class="icon left"><a href="https://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/7" title="数据开放"><img src="images/icon_4.png" alt="数据开放" title="数据开放"> </a></div>
+                    </div>
+                    <div class="more"><img src="images/more.jpg" alt="更多" title="更多"></div>
+                    <div class="zwgkIcon2 hide clearfix">
+                        <div class="close_panel"></div>
+                        <div class="icon left">                            
+                                                            <a href="https://gdstc.gd.gov.cn/zwgk_n/zdly/index.html" title="重点领域信息公开"><img src="images/icon_1.png" alt="重点领域信息公开" title="重点领域信息公开"></a>
+                                                    </div>
+                        <div class="icon left"><a href="https://gdstc.gd.gov.cn/zwgk_n/xyxxsgs/index.html" title="信用信息双公示"><img src="images/icon_2.png" alt="信用信息双公示" title="信用信息双公示"></a></div>
+                        <div class="icon left"><a href="https://sjfb.gdstc.gd.gov.cn/kjzykf//index.html" title="数据发布"><img src="images/icon_3.png" alt="数据发布" title="数据发布"> </a></div>
+                        <div class="icon left"><a href="https://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/7" title="数据开放"><img src="images/icon_4.png" alt="数据开放" title="数据开放"> </a></div>
+                        <div class="icon left"><a href="https://gdstc.gd.gov.cn/zwgk_n/jggk/nsbm/index.html" title="内设部门"><img src="images/icon_5.png" alt="内设部门" title="内设部门"></a></div>
+                        <div class="icon left">
+                                                            <a href="http://gdstc.gd.gov.cn/zwgk_n/jggk/jgzn/content/post_2651957.html" title="机构职能"><img src="images/icon_6.png" alt="机构职能" title="机构职能"></a>
+                                                    </div>
+                        <div class="icon left">
+                                                            <a href="http://gdstc.gd.gov.cn/zwgk_n/jggk/zsdw/content/post_4513880.html" title="直属单位"><img src="images/icon_7.png" alt="直属单位" title="直属单位"> </a>
+                                                    </div>
+                        <div class="icon left">
+                                                            <a href="http://gdstc.gd.gov.cn/zwgk_n/jggk/pzjg/content/post_4858367.html" title="派驻机构"><img src="images/icon_8.png" alt="派驻机构" title="派驻机构"> </a>
+                                                    </div>
+                        <div class="icon left"><a href="https://gdstc.gd.gov.cn/zwgk_n/jggk/rsxx/index.html" title="人事信息"><img src="images/icon_9.png" alt="人事信息" title="人事信息"></a></div>
+                        <div class="icon left"><a href="https://www.gdzwfw.gov.cn/portal/affairs-public-duty-list?region=440000&deptCode=006939801" title="权责清单"><img src="images/icon_10.png" alt="权责清单" title="权责清单"></a></div>
+                        <div class="icon left"><a href="https://gdstc.gd.gov.cn/zwgk_n/jhgh/index.html" title="计划规划"><img src="images/icon_11.png" alt="计划规划" title="计划规划"> </a></div>
+                        <div class="icon left"><a href="https://gdstc.gd.gov.cn/zwgk_n/jyta/index.html" title="建议提案"><img src="images/icon_12.png" alt="建议提案" title="建议提案"> </a></div>
+                    </div>
+                </div>
+            </div>
+            <!--信息公开-->
+            <div class="xxgk left" wzades="提供依申请公开、政府信息公开、公开指南、公开年报入口。" aria-label="您已进入信息公开视窗区，本区域包含依申请公开、政府信息公开、公开指南、公开年报4个栏目，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+                <h4>
+                    <a href="https://gdstc.gd.gov.cn/xxgk_n/index.html">信息公开</a>                </h4>
+                <div class=" clearfix">
+                    <div class="xxgkIcon left"><a href="https://ysqgk.gd.gov.cn/51/choice" title="依申请公开"><img src="images/sxxgk_1.jpg" alt="依申请公开" title="依申请公开"> </a></div>
+                    <div class="xxgkIcon left"><a href="https://gdstc.gd.gov.cn/gkmlpt/index" title="公开目录"><img src="images/sxxgk_2.jpg" alt="政府信息公开" title="政府信息公开"> </a></div>
+                    <div class="xxgkIcon left">
+                        <a href="http://gdstc.gd.gov.cn/xxgk_n/gkzn/content/post_3733432.html" title="公开指南"><img src="images/sxxgk_3.jpg" alt="公开指南" title="公开指南"> </a>        
+                    </div>
+                    <div class="xxgkIcon left">
+                                                    <a href="https://gdstc.gd.gov.cn/xxgk_n/gknb/index.html" title="公开年报"><img src="images/sxxgk_4.jpg" alt="公开年报入口" title="公开年报入口"> </a>
+                                            </div>
+                </div>
+            </div>
+            <!--互动平台-->
+            <div class="hdpt left" wzades="提供业务咨询、领导信箱、在线访谈、意见征集、答问库、智能问答入口。" aria-label="您已进入互动平台视窗区，本区域包含业务咨询、领导信箱、在线访谈、意见征集、答问库、智能问答6个栏目，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+                <h4><a href="https://gdstc.gd.gov.cn/hdjlpt">互动平台</a></h4>
+                <div class="icons clearfix">
+                    <div class="hdptIcon left"><a href="https://gdstc.gd.gov.cn/hdjlpt/zixun" title="业务咨询"><img src="images/hd_1.jpg" alt="业务咨询" title="业务咨询"> </a></div>
+                    <div class="hdptIcon left"><a href="https://gdstc.gd.gov.cn/hdjlpt/ldxx" title="领导信箱"><img src="images/hd_2.jpg" alt="领导信箱" title="领导信箱"> </a></div>
+                    <div class="hdptIcon left"><a href="https://gdstc.gd.gov.cn/hdjlpt/interview" title="在线访谈"><img src="images/hd_3.jpg" alt="在线访谈" title="在线访谈"> </a></div>
+                    <div class="hdptIcon left"><a href="https://gdstc.gd.gov.cn/hdjlpt/suggestion" title="意见征集"><img src="images/hd_4.jpg" alt="意见征集" title="意见征集"> </a></div>
+                    <div class="hdptIcon left"><a href="https://gdstc.gd.gov.cn/hdjlpt/dwzsk" title="答问库"><img src="images/hd_5.jpg" alt="答问库" title="答问库"> </a></div>
+                    <div class="hdptIcon left"><a href="https://gdstc.gd.gov.cn/znjqr" title="智能问答"><img src="images/hd_6.jpg" alt="智能问答" title="智能问答"> </a></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="part4 clearfix" wzades="提供微信号、联系我们、网站地图入口。" aria-label="您已进入微信号、联系我们、网站地图视窗区，本区域包含微信号、联系我们、网站地图3个栏目，按tab键切换栏目下的动态，定位动态后按回车键打开动态链接。" altdes="视窗区">
+        <div class="part4Icon left"><a href="http://gdstc.gd.gov.cn/wxh_n/content/post_2676396.html"><img src="images/icon_wechat.png" alt="微信号" title="微信号"> </a> </div>
+        <div class="part4Icon left"><a href="http://gdstc.gd.gov.cn/lxwm_n/content/post_2676388.html"><img src="images/icon_contact.png" alt="联系我们" title="联系我们"> </a> </div>
+        <div class="part4Icon left"><a href="http://gdstc.gd.gov.cn/wzdt_n/content/post_2676460.html"><img src="images/icon_map.png" alt="网站地图" title="网站地图"></a> </div>
+    </div>
+</div>
+<script>
+    $(".sjfbIcon").on("click", function () {
+        alert("正在维护中！");
+    });
+</script>
+<!--新闻列表切换-->
+<script>
+    $(function () {
+        var $lis1 = $(".part2 .newsListNav li");
+        var $conts1 = $(".part2 .section .list");
+
+        $lis1.each(function (index) {
+            $(this).on("mouseover", function () {
+                $(this).addClass("active").siblings().removeClass("active");
+                $conts1.eq(index).stop().fadeIn(0).siblings().fadeOut(0);
+            });
+        });
+    });
+</script>
+<!--政务动态列表切换-->
+<script>
+    $(function () {
+        var $lis2 = $(".news .newsListNav li");
+        var $conts2 = $(".news .section .list");
+
+        $lis2.each(function (index) {
+            $(this).on("mouseover", function () {
+                $(this).addClass("active").siblings().removeClass("active");
+                $conts2.eq(index).stop().fadeIn(0).siblings().fadeOut(0);
+            });
+        });
+    });
+</script>
+<!--新闻大图切换-->
+<script>
+    var swiper1 = new Swiper('.swiper-container1', {
+        pagination: '.pagination',
+        paginationClickable: true,
+        loop: false,   
+    });
+</script>
+<!-- 左飘窗代码-->
+
+
+
+<!--左飘窗代码 结束 -->
+
+
+
+<!--专题专栏切换-->
+<script>
+    var swiper2 = new Swiper('.swiper-container2', {
+        loop: true,
+        grabCursor: true,
+        paginationClickable: true,
+        autoplay : 5000,
+    });
+        $('.zt .arrow-left').on('click', function (e) {
+        e.preventDefault()
+        swiper2.swipePrev()
+    })
+    $('.zt .arrow-right').on('click', function (e) {
+        e.preventDefault()
+        swiper2.swipeNext()
+    })
+</script>
+<!-- 打开所有的政务公开 -->
+<script>
+    $(function () {
+        $('.zwgkIcon .more').on('click', function() {
+            if($('.zwgkIcon .zwgkIcon2').is(":hidden")){
+                $('.zwgkIcon .zwgkIcon2').show();
+            }
+            else{
+                $('.zwgkIcon .zwgkIcon2').hide();
+            }
+        });
+        $('.close_panel').on('click', function() {
+            $('.zwgkIcon .zwgkIcon2').hide();
+        });
+    });
+</script>
+
+<link rel="stylesheet" type="text/css" href="/gdkjnj2017/style1.css"/>
+<script src="/gdkjnj2017/jquery.js"></script>
+<script src="/gdkjnj2017/replacehttpTohttps.js"></script>
+<!--友情链接-->
+<div class="links" wzades="提供国家部委、省政府及省直部门、各省市科技管理部门、各地级市科技管理部门、各地市政府网站入口。" aria-label="您已进入友情链接导航区，本区域包含国家部委、省政府及省直部门、各省市科技管理部门、各地级市科技管理部门、各地市政府网站链接，请按空格键打开相应的下拉选项，按tab键定位选项，按回车键选中选项，按esc键关闭下拉选择。" altdes="导航区">
+    <div class="linkCon">
+        <div class="cusSelect" id="szf">
+            <div class="cusTitle">上级政府部门</div>
+            <ul class="cusOpSet">
+                                    <li class="cusOption"><a target="_blank" href="https://www.gov.cn/">中国政府网</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.gd.gov.cn/">广东省人民政府</a></li>
+                                    <li class="cusOption"><a target="_blank" href="https://www.most.gov.cn/">中华人民共和国科学技术部</a></li>
+                            </ul>
+        </div>
+        <div class="cusSelect" id="gss">
+            <div class="cusTitle">各省市科技管理部门</div>
+            <ul class="cusOpSet">
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.xinjiang.gov.cn/">新疆维吾尔自治区科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.qinghai.gov.cn/">青海省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.nx.gov.cn/">宁夏回族自治区科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="https://kjt.gansu.gov.cn/">甘肃省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://sti.xizang.gov.cn/">西藏自治区科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.yn.gov.cn/">云南省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.guizhou.gov.cn/">贵州省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.sc.gov.cn/">四川省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjj.cq.gov.cn/">重庆市科学技术局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://dost.hainan.gov.cn/">海南省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.gxzf.gov.cn/">广西壮族自治区科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.hunan.gov.cn/">湖南省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.hubei.gov.cn/">湖北省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.hnkjt.gov.cn/">河南省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.shandong.gov.cn/">山东省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.jiangxi.gov.cn/">江西省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.fujian.gov.cn/">福建省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.ah.gov.cn/">安徽省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.zj.gov.cn/">浙江省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="https://kxjst.jiangsu.gov.cn/">江苏省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://stcsm.sh.gov.cn/">上海市科委</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.hlj.gov.cn/">黑龙江省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.jl.gov.cn/">吉林省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.ln.gov.cn/">辽宁省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.nmg.gov.cn/">内蒙古自治区科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.shanxi.gov.cn/">山西省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjt.hebei.gov.cn/www/index.html">河北省科技厅</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kxjs.tj.gov.cn/">天津市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kw.beijing.gov.cn/">北京市科委</a></li>
+                            </ul>
+        </div>
+        <div class="cusSelect" id="gds">
+            <div class="cusTitle">各地级市科技管理部门</div>
+            <ul class="cusOpSet">
+                                    <li class="cusOption"><a target="_blank" href="http://stic.sz.gov.cn/">深圳市科技创新局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.zhaoqing.gov.cn/zqkjj/gkmlpt/index">肇庆市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.zhuhai.gov.cn/zhskjcxj/">珠海市科创局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.gdqy.gov.cn/channel/qyskxjsj/">清远市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjj.maoming.gov.cn/">茂名市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.zhanjiang.gov.cn/zjkjj">湛江市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.jiangmen.gov.cn/bmpd/jmskxjsj/">江门市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kj.zs.gov.cn/">中山市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://dgstb.dg.gov.cn/">东莞市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.shanwei.gov.cn/swkjj/">汕尾市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="https://www.meizhou.gov.cn/zwgk/zfjg/skxjsj/index.html">梅州市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.heyuan.gov.cn/bmjy/hyskxjsj/tzgg/">河源市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="https://www.sg.gov.cn/bmpdlm/kjj/xwzx/index.html">韶关市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://fskjj.foshan.gov.cn/">佛山市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://www.shantou.gov.cn/kjj/">汕头市科技局</a></li>
+                                    <li class="cusOption"><a target="_blank" href="http://kjj.gz.gov.cn/">广州市科技局</a></li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<!--尾部-->
+<div class="footer">
+    <div class="footerCon clearfix">
+        <div style="display:inline-block" wzades="提供我为政府网站找错平台入口。" aria-label="您已进入我为政府网站找错平台视窗区。" altdes="视窗区"><script id="_jiucuo_" sitecode='4400000090' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script></div>
+        <div style="display:inline-block" wzades="展示党政机关网站标识" aria-label="您已进入党政机关网站标识视窗区。" altdes="视窗区"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/20/000/0000/60100042/CA200000000601000420001.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+        <div class="right"  wzades="展示网站标识信息。" aria-label="您已进入网站标识视窗区。" altdes="视窗区">
+            <p>
+                <span>版权所有：广东省科学技术厅</span>
+                <a target="_blank"  href="https://beian.miit.gov.cn/#/Integrated/index">粤ICP备05018469</a>
+                <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010402000587"><img src="/gdkjnj2017/icon_ga.png">粤公网安备44010402000587号</a>
+                <a target="_blank"  href="//gdstc.gd.gov.cn/">主办单位：广东省科学技术厅</a>
+            </p>
+            <p><span>网站标识码4400000090</span><span>电话：83163931</span></p>
+            <p>未经用户许可，本网保证绝不会对外公开或向第三方泄漏用户提交的个人信息</p>
+        </div>
+    </div>
+</div>
+<script src="/gdkjnj2017/links.js"></script>
+<script>
+    $("#_span_jiucuo img").attr("title","政府网站找错").attr("alt","政府网站找错");
+    $("#imgConac").attr("title","党政机关").attr("alt","党政机关");
+</script>
+
+ <div class="filter" style="display:none; z-index:100; position: fixed; _position: absolute;  pointer-events: auto; background-color:#000; opacity:0.7; filter:alpha(opacity=70);top: 0; left: 0;  width: 100%;  height: 100%;"></div>
+<div class="aTips" style="display:none;">
+	<div class="text">您即将离开“广东省科学技术厅”网站，是否继续？</div>
+	<div class="layui-layer-btn">
+		<div date-url="" class="layui-layer-btn0">继续访问</div>
+		<div class="layui-layer-btn1">放弃</div>
+	</div>
+</div>
+<style>
+.aTips{
+    position: fixed;
+    _position: absolute;
+	z-index: 101;
+    width: 480px;
+    height: 170px;
+    top: 50%;
+	margin-top: -85px;
+    left: 50%;
+	margin-left:-240px;
+	background-color: #fff;
+}
+
+.aTips .text {
+    position: relative;
+	font-size: 16px;
+    padding: 20px;
+    line-height: 24px;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.layui-layer-btn {
+    text-align: right;
+    padding: 0 10px 12px;
+    pointer-events: auto;
+    user-select: none;
+    -webkit-user-select: none;
+	margin-top:30px;
+}
+
+.layui-layer-btn div {
+    height: 28px;
+    line-height: 28px;
+    margin: 6px 6px 0;
+    padding: 0 15px;
+    border: 1px solid #dedede;
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+	display: inline-block;
+}
+
+.layui-layer-btn .layui-layer-btn0 {
+    border-color: #4898d5;
+    background-color: #2e8ded;
+    color: #fff;
+}
+</style>
+<script>
+$("body a").click(function(){
+	var url = $(this).attr("href");
+	if((url.indexOf("gdstc.gd.gov.cn")>-1 || $.trim(url).substr(0,2).indexOf("./")>-1  || $.trim(url).indexOf("gov.cn")>-1|| $.trim(url).indexOf("#")>-1 || $.trim(url).indexOf("gd.gov.cn")>-1 || $.trim(url).indexOf("javascript:void")>-1)){
+		return true;
+	}else{
+		checkUrl(url);
+		return false;
+	}
+});
+$(".layui-layer-btn0").click(function(){
+	var url = $(".layui-layer-btn0").attr("data-url");
+	// window.location.href = url;
+    window.open(url,"_blank");
+    $(".filter").hide();
+	$(".aTips").hide();
+});
+
+$(".layui-layer-btn1").click(function(){
+	$(".filter").hide();
+	$(".aTips").hide();
+});
+
+function checkUrl(url){
+	$(".filter").show();
+	$(".aTips").show();
+	$(".layui-layer-btn0").attr("data-url",url);
+}
+</script>
+
+</body>
+</html>
