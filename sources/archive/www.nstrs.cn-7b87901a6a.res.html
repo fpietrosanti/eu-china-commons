@@ -1,0 +1,1401 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head id="Head1">
+    <title>
+        国家科技报告服务系统
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+    <link rel="stylesheet" type="text/css" href="/staticViews/modules/login/css/main.css" />
+
+    <style type="text/css">
+
+	/* 2022-11-30 start
+	html{
+
+	-webkit-filter:grayscale(100%);
+
+	-moz-filter:grayscale(100%);
+
+	-ms-filter:grayscale(100%);
+
+	-o-filter:grayscale(100%);
+
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+
+	_filter:none;
+
+	}
+	*/
+		/* 2022-10-15 start */
+			/*html {
+				background: url(/staticViews/modules/login/img/ershidasybg.png) no-repeat left top;
+				width: 100%;
+				position: relative;
+				left: 0px;
+				top: 0px;
+				z-index: 1;
+				height: 500px;
+			}
+
+			.GJKJBG2013_body_all {
+				background:none;
+				font-family: "Microsoft YaHei";
+				margin-top: 100px;
+			}
+
+			.GJKJBG2013_hd {
+				margin-bottom: 0px;
+				;
+			}
+
+			.GJKJBG2013_hd,
+			.GJKJBG2013_bd {
+				background: #fff;
+				padding: 0px 20px;
+				width: 1200px;
+				box-sizing: border-box;
+
+			}
+			.GJKJBG2013_bd {
+				padding-top: 20px;
+			}
+			.GJKJBG2013_nav{
+				background-color: #1865b5;
+			}
+
+
+			.a_href{
+				display: inline-block;
+				position: absolute;
+				width: 500px;
+				height: 100px;
+
+				top: 0px;
+				right: calc((100% - 1250px) / 2);
+			}
+			*/
+			/* 2022-10-15 end */
+
+
+        .imgbox {
+            width: 250px;
+            height: 200px;
+            margin: 1px 0 10px 0px;
+            margin-top: 0px;
+            border: 0px #CCCCCC solid;
+            text-align: center;
+        }
+
+        .imgbox .list {
+            display: none;
+        }
+        /*sss*/
+
+        #BgDiv {
+            background-color: #2F4F4F;
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            top: 0;
+            display: none;
+            width: 100%;
+            height: 1000px;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+        }
+
+        .fgg {
+            border: 1px solid #ff4400;
+            padding: 5px;
+            position: fixed;
+            background: green;
+        }
+
+        #scrolltop1 {
+            position: fixed;
+            right: 170px;
+            top: 209px;
+            background: green;
+            width: 40px;
+            height: 80px;
+        }
+
+        #scrolltop1 span {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #scrolltop1 img {
+            border: 0px;
+        }
+
+        .floatFixedRightTop {
+            position: absolute;
+        }
+
+        .floatFixedRight {
+            float: right;
+            height: 80px;
+            position: fixed;
+            right: 10px;
+            bottom: 190px;
+        }
+        .slct{
+            width:550px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        /* 	html {
+           FILTER: gray;
+           -webkit-filter: grayscale(100%);
+           -moz-filter: grayscale(100%);
+           -ms-filter: grayscale(100%);
+           -o-filter:grayscale(100%);
+           } */
+        /*主导航菜单*/
+
+        #nav-menu .container {
+            position: relative;
+            overflow: visible;
+            z-index: 99;
+        }
+
+        #nav-menu .menu {
+            padding: 0 0 0 14px;
+        }
+
+        #nav-menu .menu li {
+            position: relative;
+            float: left;
+            padding: 0 8px 0 5px;
+            display: inline;
+            font-size: 14px;
+        }
+
+        #nav-menu .menu li h3 {
+            font-weight: normal;
+            display: inline-block;
+            float: left;
+        }
+
+        #nav-menu .menu li a.xialaguang {
+            margin-top: 10px;
+            display: inline-block;
+            color: #FFF;
+            height: 30px;
+            text-decoration: none;
+            font-size: 14px;
+            width: 100px;
+            text-align: center;
+        }
+
+        #nav-menu .menu li a.selected,
+        #nav-menu .menu li a.navhover,
+        #nav-menu .menu li a.xialaguang:hover {
+            color: #1a529c;
+        }
+
+        #nav-menu .menu li a.navhover,
+        #nav-menu .menu li a.xialaguang:hover {
+            background-color: #FFF;
+        }
+
+        #nav-menu .menu li a.xialaguang span {
+            height: 30px;
+            line-height: 25px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        #nav-menu .menu li a.selected span,
+        #nav-menu .menu li a.navhover span,
+        #nav-menu .menu li a.xialaguang:hover span {
+            cursor: pointer;
+        }
+
+        #nav-menu .menu li a.navhover span,
+        #nav-menu .menu li a.xialaguang:hover span {
+            width: 100px;
+        }
+
+        #nav-menu .menu ul.children {
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 3px;
+            width: 150px;
+            background: #FFF;
+            border: 2px solid #1a529c;
+            border-top: 0;
+            line-height: normal;
+        }
+
+        #nav-menu .menu ul.children li {
+            width: 150px;
+            padding: 0px;
+            display: inline-block;
+            font-size: 12px;
+            border-top: 1px solid #ccc;
+        }
+
+        #nav-menu .menu ul.children li h3 {
+            display: block;
+            width: 100%;
+        }
+
+        #nav-menu .menu ul.children li a {
+            width: 100%;
+            height: 16px;
+            line-height: 16px;
+            overflow: hidden;
+            padding: 3px 0;
+            display: block;
+            color: #1a529c;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        #nav-menu .menu ul.children li a:hover {
+            background-color: #eee;
+            text-decoration: none;
+        }
+
+        .imgbox {
+            width: 400px;
+            height: 270px;
+            margin: 1px 0 10px 0px;
+            margin-top: 0px;
+            border: 0px #CCCCCC solid;
+            text-align: center;
+        }
+
+        .imgbox .list {
+            display: none;
+        }
+        /*sss*/
+
+        .GJKJBG2013_nav .member {
+            float: right;
+            color: #034DA2;
+            padding: 0px;
+            font-size: 14px;
+        }
+
+        .GJKJBG2013_nav .member:hover {
+            color: #FF0000;
+            background: none;
+            text-decoration: underline;
+        }
+
+        .QA {
+            float: right;
+            font-family: "Microsoft YaHei";
+            font-size: 14px;
+            color: #034EA1;
+        }
+
+        .QA:hover {
+            color: #FF0000;
+        }
+        /*##################################  2015-02-10  ###########################################*/
+
+        #nav-menu .menu li {
+            padding: 0;
+        }
+
+        #nav-menu .menu ul.children {
+            top: 40px;
+            left: 0px;
+            width: 180px;
+            background: #EFEFEF;
+            border: 1px solid #999999;
+            border-top: 0;
+            line-height: normal;
+        }
+
+        #nav-menu .menu ul.children li {
+            width: 180px;
+            font-family: "Microsoft YaHei";
+            font-size: 14px;
+            border-top: 1px solid #D9D9D9;
+        }
+
+        #nav-menu .menu ul.children li a {
+            height: 35px;
+            line-height: 35px;
+            padding: 0;
+            color: #444444;
+            font-family: "Microsoft YaHei";
+            font-size: 14px;
+        }
+
+        #nav-menu .menu ul.children li a:hover {
+            background-color: #E6E6E6;
+            color: #FF0000;
+        }
+    </style>
+
+</head>
+
+<body class="">
+
+
+<div class="GJKJBG2013_div_all" id="div_Result">
+    <div class="GJKJBG2013_body_all GJKJBG2013_hd" >
+
+        <div class="logo" style=" padding-top:0px;">
+            <a href="/index"><img alt="" src="/staticViews/modules/login/img/logo.jpg" /></a>
+        </div>
+        
+        
+            <div class="link2">
+              
+                  <a id="login" href="/cas" class="a1">登录</a>
+                <a href="/nstrs/../../../staticViews/kjbg/help/help.html" id="help" class="a2">使用帮助</a><br/>
+                <a id="register" href="/nstrs/sys/register/termsOfRegister" class="a3">注册</a>
+                <a id="takeAdvice" href="/questionnaire/list" class="a4">问卷调查</a>
+            </div>
+        
+        <div class="GJKJBG2013_clear">
+        </div>
+
+        <div class="GJKJBG2013_nav">
+
+            <!--######### 2018-02-05 #########-->
+            
+<script src="/static/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	<!-- 通过页面加载初始化，遍历菜单项的url,如果等于当前页面的url就加上选中的样式 -->
+	$(document).ready(function(){
+
+		$(".nav a.a1").each(function(){
+			$this = $(this);
+			if($this[0].href==String(window.location)){
+				$this.addClass("current");
+			}
+		});
+	});
+</script>
+<div class="nav Z_clearfix" >
+
+	<a href="/index" class="a1">首页</a>
+	
+
+	<a class="a1" href="/kjbg/navigation">报告导航</a>
+	
+	
+	
+	
+	<a class="a1"  href="/work">工作动态</a>
+	<a class="a1"  href="/standard">标准规范</a>
+	<a class="a1"  href="/study">撰写培训</a>
+	
+	
+	
+	<a class="a1"  href="/nstrs/kjbg/wfCertificateApply/ReceptionListNew">收录证书</a>
+	<a  class="a1" href="/policy">政策解读</a>
+	<a class="a1"  href="/advice">业务咨询</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <script src="/staticViews/modules/login/js/kxbdMarquee.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    	var springvm={};
+        function isShow(id) {
+            var node = $("#" + id + "");
+            if(node.is(":hidden")) {
+                node.show();
+                return false;
+            }
+            return true;
+        }
+
+        function isHidden(id,textId) {
+            var node = $("#" + id + "");
+            var textnode = $("#" + textId + "");
+            if(!node.is(":hidden")) {
+                node.hide();
+                textnode.val("");
+                return false;
+            }
+            return true;
+        }
+
+        $(document).ready(function() {
+
+            // 调整样式
+            $(".Z_clearfix a").removeAttr("class");
+            $(".Z_clearfix a[href='/index']").attr("class","current");
+
+        	// 显示下方滚动图片动态
+        	$.ajax({
+				type: "get",
+				url: "/picture/listPage",
+				data: {
+					"state": "1",
+					"type": "picture",
+					"orderBy": "sort asc",
+					"pageSize": "5"
+				},
+				success: function(result) {
+					$("#demo0").empty();
+					for(var i = 0; i < result.length; i++) {
+						var work = result[i];
+						var $a = $("<a href='/work/detail?arid="+work.arid+"' style='color:blue' title='"+work.title+"' target='_blank'><img alt='' src='/staticViews/modules/kjbg/filed/images/"+work.filePath+"' title='"+work.title+"' bolder='0' /></a>");
+						$("#demo0").append($a);
+					}
+					$('div.imgbox').imgbox();
+				}
+			});
+
+        	// 显示下方滚动工作动态
+        	$.ajax({
+				type: "get",
+				url: "/work/listPage",
+				data: {
+					"state": "1",
+					"type": "work",
+					"pageNo": 1
+				},
+				success: function(result) {
+					$("#ulGZDT").empty();
+					for(var j = 0; j < 2; j++) {
+						for(var i = 0; i < result.length; i++) {
+							var work = result[i];
+							var title = work.title;
+							if(title.length > 18) {
+								title = title.substring(0, 18) + "...";
+							}
+							var $li = $("<li class='liShow'>·<a href='/work/detail?arid=" + work.arid + "' target='_blank' title='"+work.title+"' style='font-size:15px;max-height:70px;display:inline-block;width:300px;vertical-align:top'>" + title + "</a><span class='time' style='float:right;max-height:70px;'>" + work.outDate + "</span></li>");
+
+							$("#ulGZDT").append($li);
+						}
+						var $blankLi = $("<li>&nbsp;</li><li>&nbsp;</li>");
+						$("#ulGZDT").append($blankLi);
+					}
+					$('#demo1').kxbdMarquee({
+                        direction: 'up',
+                        isEqual: false,
+                        scrollDelay: 40
+                    });
+				}
+			});
+
+            $.ajax({
+                type : 'POST',
+                url : '/rest/kjbg/wfKjbg/totals' ,
+                type:"POST",
+                //timeout : 20000,
+                success : function(data) {
+                    var dataList  = data.RESULT;
+                    var total = 0;
+                    for (var i=0;i<dataList.length;i++){
+                        total += dataList[i].totalCount;
+                    }
+                    var kjbgNum = document.getElementById("kjbgNum");
+                    $("#kjbgNum").append("报告导航("+total+")");
+                    springvm.list = data.RESULT;
+                }
+            });
+
+
+            $('.Hsearch').click(function() {
+                $('.CGXX2018_Hsearch').slideDown();
+            });
+            $('.CGXX2018_Hsearch .up').click(function() {
+                $('.CGXX2018_Hsearch').slideUp();
+            });
+            $("#imgAdd").click(function() {
+                if(isShow("num1")) {
+                    $("#imgDel").show();
+                    if(isShow("num2")) {
+
+                        if(isShow("num3")) {
+                            if(isShow("num4")) {
+                                if(isShow("num5")) {
+                                    $("#imgAdd").hide();
+                                    //isShow("num6");
+                                }
+                            }
+                        }
+                    }
+                }
+
+            })
+            $("#imgDel").click(function() {
+                $("#imgAdd").show();
+                //if(isHidden("num6")) {
+                    if(isHidden("num5","txbSearch5")) {
+                        if(isHidden("num4","txbSearch4")) {
+                            if(isHidden("num3","txbSearch3")) {
+                                $("#imgDel").hide();
+                                if(isHidden("num2","txbSearch2")) {
+
+                                }
+                            }
+                        }
+                    }
+               // }
+
+            })
+        });
+    </script>
+
+            
+
+            <!--#############  2018-03-27 start #############-->
+            <div class="New_nav_search">
+                <div class="input1">
+                	<select name="ddlBGField" id="ddlBGField" style="width:200px;width: 140px;display:none">
+											<option selected="selected" value="All">全部</option>
+											<option value="TM">报告名称</option>
+											<option value="BGID">报告编号</option>
+											<option value="ZZ">作者</option>
+											<option value="ZZDW">作者单位</option>
+											<option value="keyword">关键词</option>
+											<option value="ZY">摘要</option>
+											<option value="JH">计划名称</option>
+											<option value="LXND">立项年度</option>
+                                            <option value="KTXMBH">项目/课题编号</option>
+										</select>
+                   <!--  <input type="text" id="iptsearch" value="请输入检索条件" onfocus="if(value==defaultValue){value=&#39;&#39;;$(this).css(&#39;color&#39;,&#39;#333333&#39;)}" onblur="if(!value){value=defaultValue;$(this).css(&#39;color&#39;,&#39;#AAAAAA&#39;)}" style="color: rgb(170, 170, 170);"> -->
+                    <input name="txbField" type="text" id="txbField" placeholder="请您输入检索词(最大长度20个汉字)" style="width:220px" />
+                </div>
+                <input class="btn1" id="btnsearch" type="button" value="检 索">
+                <input class="btn2 Hsearch" type="button" value="高级检索">
+            </div>
+            <div class="New_nav_right">
+            </div>
+        </div>
+        <!--#############  2018-03-27 start #############-->
+        <div class="CGXX2018_Hsearch" style="display:none;">
+            <table>
+                <tbody>
+                <tr id="num1">
+                    <td class="td1">
+                        <a href="#"><img id="imgAdd" src="/staticViews/modules/login/img/ico_add.gif"></a>&nbsp;
+                        <a href="#"><img id="imgDel" src="/staticViews/modules/login/img/ico_cut.gif"></a>
+                    </td>
+                    <td>
+                   	  <select name="ddlSearch1" id="ddlSearch1" class="selectBox" style="width:200px">
+							<option value="All">请选择检索项</option>
+							<option selected="selected" value="TM">报告名称</option>
+                            <option value="BGID">报告编号</option>
+							<option value="ZZ">作者</option>
+							<option value="ZZDW">作者单位</option>
+							<option value="keyword">关键词</option>
+							<option value="ZY">摘要</option>
+							<option value="JH">计划名称</option>
+							<option value="LXND">立项年度</option>
+                          <option value="KTXMBH">项目/课题编号</option>
+
+						</select>
+
+                    </td>
+                    <td>
+                    	<input name="txbSearch1" type="text" id="txbSearch1" placeholder="请您输入检索词(最大长度20个汉字)" style="width: 540px" />
+                    	<select name="ddlTxbLXND1" id="ddlTxbLXND1" class="slct" style="display:none;" v-if="yearList.length > 0">
+									<option  :value="item.totalType" v-for="item in yearList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbLXND1" id="ddlTxbLXND1" class="slct" style="display:none;"  v-else>
+									<option  :value="item.proposalDate" v-for="item in yearAllList" >{{item.proposalDate}}</option>
+						</select>
+						<select name="ddlTxbJHMC1" id="ddlTxbJHMC1" class="slct" style="display:none;"  v-if="jhList.length > 0">
+									<option :value="item.jihuaId" v-for="item in jhList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbJHMC1" id="ddlTxbJHMC1" class="slct" style="display:none;"  v-else>
+									<option :value="item.jihuaId" v-for="item in jhAllList" >{{item.projectName}}</option>
+						</select>
+                    </td>
+                    <td>
+                        <select name="ddlUnion1" id="ddlUnion1" style="width: 150px;">
+							<option value="1">与</option>
+							<option value="2">或</option>
+							<option value="3">非</option>
+
+						</select>
+                    </td>
+                </tr>
+                <tr id="num2">
+                    <td class="td1">
+                    </td>
+                    <td>
+                        <select name="ddlSearch2" id="ddlSearch2" class="selectBox" style="width:200px">
+							<option value="All">请选择检索项</option>
+							<option value="TM">报告名称</option>
+                            <option value="BGID">报告编号</option>
+							<option selected="selected" value="ZZ">作者</option>
+							<option value="ZZDW">作者单位</option>
+							<option value="keyword">关键词</option>
+							<option value="ZY">摘要</option>
+							<option value="JH">计划名称</option>
+							<option value="LXND">立项年度</option>
+                            <option value="KTXMBH">项目/课题编号</option>
+
+						</select>
+                    </td>
+                     <td>
+                    	<input name="txbSearch2" type="text" id="txbSearch2" placeholder="请您输入作者名称()最大长度20个汉字)" style="width: 540px" />
+                    	<select name="ddlTxbLXND2" id="ddlTxbLXND2" class="slct" style="display:none;" v-if="yearList.length > 0">
+									<option  :value="item.totalType" v-for="item in yearList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbLXND2" id="ddlTxbLXND2" class="slct" style="display:none;"  v-else>
+									<option  :value="item.proposalDate" v-for="item in yearAllList" >{{item.proposalDate}}</option>
+						</select>
+						<select name="ddlTxbJHMC2" id="ddlTxbJHMC2" class="slct" style="display:none;"  v-if="jhList.length > 0">
+									<option :value="item.jihuaId" v-for="item in jhList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbJHMC2" id="ddlTxbJHMC2" class="slct" style="display:none;"  v-else>
+									<option :value="item.jihuaId" v-for="item in jhAllList" >{{item.projectName}}</option>
+						</select>
+                    </td>
+                    <td>
+                       <select name="ddlUnion2" id="ddlUnion2" style="width: 150px;">
+							<option value="1">与</option>
+							<option value="2">或</option>
+							<option value="3">非</option>
+
+						</select>
+                    </td>
+                </tr>
+                <tr id="num3" style="display:none">
+                  <td class="td1">
+                    </td>
+                    <td>
+                        <select name="ddlSearch3" id="ddlSearch3" class="selectBox" style="width:200px">
+							<option value="All">请选择检索项</option>
+							<option value="TM">报告名称</option>
+                            <option value="BGID">报告编号</option>
+							<option value="ZZ">作者</option>
+							<option selected="selected" value="ZZDW">作者单位</option>
+							<option value="keyword">关键词</option>
+							<option value="ZY">摘要</option>
+							<option value="JH">计划名称</option>
+							<option value="LXND">立项年度</option>
+                            <option value="KTXMBH">项目/课题编号</option>
+
+						</select>
+                    </td>
+                     <td>
+                    	<input name="txbSearch3" type="text" id="txbSearch3" placeholder="请您输入检索词(最大长度20个汉字)" style="width: 540px" />
+                    	<select name="ddlTxbLXND3" id="ddlTxbLXND3" class="slct" style="display:none;" v-if="yearList.length > 0">
+									<option  :value="item.totalType" v-for="item in yearList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbLXND3" id="ddlTxbLXND3" class="slct" style="display:none;"  v-else>
+									<option  :value="item.proposalDate" v-for="item in yearAllList" >{{item.proposalDate}}</option>
+						</select>
+						<select name="ddlTxbJHMC3" id="ddlTxbJHMC3" class="slct" style="display:none;"  v-if="jhList.length > 0">
+									<option :value="item.jihuaId" v-for="item in jhList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbJHMC3" id="ddlTxbJHMC3" class="slct" style="display:none;"  v-else>
+									<option :value="item.jihuaId" v-for="item in jhAllList" >{{item.projectName}}</option>
+						</select>
+                    </td>
+                    <td>
+                       <select name="ddlUnion3" id="ddlUnion3" style="width: 150px;">
+							<option value="1">与</option>
+							<option value="2">或</option>
+							<option value="3">非</option>
+
+						</select>
+                    </td>
+                </tr>
+                <tr id="num4" style="display:none">
+                  <td class="td1">
+                    </td>
+                    <td>
+                        <select name="ddlSearch4" id="ddlSearch4" class="selectBox" style="width:200px">
+							<option value="All">请选择检索项</option>
+							<option value="TM">报告名称</option>
+                            <option value="BGID">报告编号</option>
+							<option value="ZZ">作者</option>
+							<option value="ZZDW">作者单位</option>
+							<option selected="selected" value="keyword">关键词</option>
+							<option value="ZY">摘要</option>
+							<option value="JH">计划名称</option>
+							<option value="LXND">立项年度</option>
+                            <option value="KTXMBH">项目/课题编号</option>
+
+						</select>
+                    </td>
+                     <td>
+                    	<input name="txbSearch4" type="text" id="txbSearch4" placeholder="请您输入检索词(最大长度20个汉字)" style="width: 540px" />
+                    	<select name="ddlTxbLXND4" id="ddlTxbLXND4" class="slct" style="display:none;" v-if="yearList.length > 0">
+									<option  :value="item.totalType" v-for="item in yearList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbLXND4" id="ddlTxbLXND4" class="slct" style="display:none;"  v-else>
+									<option  :value="item.proposalDate" v-for="item in yearAllList" >{{item.proposalDate}}</option>
+						</select>
+						<select name="ddlTxbJHMC4" id="ddlTxbJHMC4" class="slct" style="display:none;"  v-if="jhList.length > 0">
+									<option :value="item.jihuaId" v-for="item in jhList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbJHMC4" id="ddlTxbJHMC4" class="slct" style="display:none;"  v-else>
+									<option :value="item.jihuaId" v-for="item in jhAllList" >{{item.projectName}}</option>
+						</select>
+                    </td>
+                    <td>
+                       <select name="ddlUnion4" id="ddlUnion4" style="width: 150px;">
+							<option value="1">与</option>
+							<option value="2">或</option>
+							<option value="3">非</option>
+
+						</select>
+                    </td>
+                </tr>
+                <tr id="num5" style="display:none">
+                  <td class="td1">
+                    </td>
+                    <td>
+                        <select name="ddlSearch5" id="ddlSearch5" class="selectBox" style="width:200px">
+							<option value="All">请选择检索项</option>
+							<option value="TM">报告名称</option>
+                            <option value="BGID">报告编号</option>
+							<option value="ZZ">作者</option>
+							<option value="ZZDW">作者单位</option>
+							<option value="keyword">关键词</option>
+							<option selected="selected" value="ZY">摘要</option>
+							<option value="JH">计划名称</option>
+							<option value="LXND">立项年度</option>
+                            <option value="KTXMBH">项目/课题编号</option>
+
+						</select>
+                    </td>
+                     <td>
+                    	<input name="txbSearch5" type="text" id="txbSearch5" placeholder="请您输入检索词(最大长度20个汉字)" style="width: 540px" />
+                    	<select name="ddlTxbLXND5" id="ddlTxbLXND5" class="slct" style="display:none;" v-if="yearList.length > 0">
+									<option  :value="item.totalType" v-for="item in yearList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbLXND5" id="ddlTxbLXND5" class="slct" style="display:none;"  v-else>
+									<option  :value="item.proposalDate" v-for="item in yearAllList" >{{item.proposalDate}}</option>
+						</select>
+						<select name="ddlTxbJHMC5" id="ddlTxbJHMC5" class="slct" style="display:none;"  v-if="jhList.length > 0">
+									<option :value="item.jihuaId" v-for="item in jhList" >{{item.totalType}}</option>
+						</select>
+						<select name="ddlTxbJHMC5" id="ddlTxbJHMC5" class="slct" style="display:none;"  v-else>
+									<option :value="item.jihuaId" v-for="item in jhAllList" >{{item.projectName}}</option>
+						</select>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+
+                    <td colspan="4" style="text-align:center;padding-top:20px;">
+                        <input class="btn1" type="button" id="btnsq" value="搜 索">
+                    </td>
+
+                </tr>
+                </tbody>
+            </table>
+            <a class="up"></a>
+        </div>
+        <div class="Z_clear"></div>
+
+    </div>
+
+    <div class="GJKJBG2013_bd">
+
+        <!--###################  2016-03-02 新左右结构，把原来中间以及右边的代码，直接放到左边的DleftA里，新的重点科技成果在右边  #######################-->
+        <!--###################  左边部分  #################################-->
+        <!--############## 2018-02-05 ##############-->
+        <div class="GJKJBG2018_Aleft">
+            <!--#### 四功能 ####-->
+            <div class="GJKJBG2018_3user">
+                <div class="user1">
+                    <div class="top">
+                        
+                        
+                            <a href="/kjbg/CommonPeople"><span class="tt">社会公众</span>（直接点击进入）</a>
+                        
+
+                    </div>
+                    <div class="middle">
+                        向社会公众无偿提供科技报告摘要浏览服务
+                    </div>
+                    <div class="txt">
+                        社会公众不需要注册，即可通过检索科技报告摘要和基本信息，了解国家科技投入所产出科技报告的基本情况。
+                    </div>
+                </div>
+                <div class="user2">
+                    <div class="top">
+                        
+
+
+
+						
+						 <a href="/cas"><span class="tt">专业人员</span>（经实名注册后登录进入）</a>
+						
+                    </div>
+                    <div class="middle">
+                        向专业人员提供在线全文浏览服务
+                    </div>
+                    <div class="txt">
+                        专业人员需要实名注册，通过身份认证即可检索并在线浏览科技报告全文，不能下载保存全文。科技报告作者实名注册后，将按提供报告页数的15倍享有获取原文推送服务的阅点。
+                    </div>
+                </div>
+                <div class="user3">
+                    <div class="top">
+                        
+                        
+                            <a href="/cas"><span class="tt">管理人员</span>（实名注册并由管理部门批准后登录进入）</a>
+                        
+                 		
+
+                    </div>
+                    <div class="middle">
+                        向各级科研管理人员提供统计分析服务
+                    </div>
+                    <div class="txt">
+                        管理人员需实名注册，并通过科研管理部门批准后，享有检索、查询、浏览、全文推送以及批准范围内的相应统计分析等服务。
+                    </div>
+                </div>
+            </div>
+            <div class="GJKJBG2013_User4_4" style="display: none;">
+                <div class="title">
+                    <a href="#">决策支持<span class="sbNum">（建设中）</span></a>
+                </div>
+                <div class="txt">
+                    <b>向政府部门提供决策支持服务</b>
+                    <br /> &nbsp;&nbsp;用户需要通过管理部门批准注册，提供基于科技报告内容的技术情报研究、团队/机构评价、行业/领域深度分析等数据挖掘服务和相关知识关联服务，为政府部门提供决策支持。
+                </div>
+            </div>
+            <div id="advice" class="GJKJBG2013_ZQYJ" style="display:none">
+                <div class="top">
+                    <a href="#" style="font-size: 16px; color: #034DA2">征求意见栏</a>
+                </div>
+                <div class="txt">
+                    您对国家科技报告服务系统的意见和建议？</div>
+            </div>
+
+            <!--########  报告导航  ########-->
+            <div class="GJZDBG2016_home_Leftnav" id="middles">
+               
+                <div id="kjbgNum" class="top"></div>
+                <div class="top" v-else>报告导航</div>
+                <div class="middle"  >
+               		<a v-for="(item,index) in list" href="/kjbg/navigation">
+               			<span class='num'>{{item.totalCount}}</span>{{item.competentOrg}}
+               		</a>
+
+
+
+                </div>
+                     <div class="middle" style="padding:2px" id="middless">
+
+                </div>
+            </div>
+
+            <div class="GJKJBG2013_clear"></div>
+            <!--#### 工作动态 ####-->
+            <div class="top">
+
+                <div class="GJKJBG2013_module1">
+                    <div class="top">
+                        <table class="css_01">
+                            <tr>
+                                <td align="left" style="font-size: 16px;color:#fff;">工作动态</td>
+                                <td align="right">
+                                    <a href="/work">
+                                        <img alt="更多" src="/staticViews/modules/login/img/more1.gif" /></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="marqueeGZDT" class="middle css_02">
+                        <div class="imgbox">
+                            <div class="list" id="demo0"></div>
+                        </div>
+                        <div id="demo1" style="overflow: hidden;  line-height: 30px; font-size: 15px; position: absolute;" class="css_03">
+                            <ul id="ulGZDT"></ul>
+                        </div>
+                        <div style="width: 243px; display:none; height: 42px; line-height: 35px; background: #EEEEEE; position: absolute; margin-top: 160px;">
+                            <a style='color:#034da2' href="#" target="_blank"><img src="/staticViews/modules/login/img/dqzt.jpg" alt="大气污染防治科技支撑专题" /></a>
+                        </div>
+                        <div id="demo2">
+                        </div>
+                        <script type="text/javascript">
+                            $(function() {
+                                $(".abq").css("font-size", "12px");
+                            })
+                        </script>
+                    </div>
+                </div>
+
+                <!--##################  改宽度  ######-->
+
+                <!--##############################################  改高度  ######-->
+
+            </div>
+            <div>
+
+                <a href="https://www.nstad.cn/" target="framel"><img src="/staticViews/modules/login/img/link_chengguozhk.png" /></a>
+            </div>
+            <div style="height: 13px;"></div>
+
+
+
+
+
+
+
+
+            <!--#### 友情链接 ####-->
+            <!--#############  2018-02-06  ##############-->
+            <div class="GJKJBG2018_home_XGLJ">
+                <div class="top">链接</div>
+                <div class="middle">
+                    <select id="dfLink">
+                       <option value="-1">相关链接</option>
+                        <option value="https://www.most.gov.cn/">中华人民共和国科学技术部</option>
+                        <option value="https://www.nsfc.gov.cn/ ">国家自然科学基金委员会</option>
+                        <option value="http://219.143.235.48/jt/model/model.do?method=login">交通运输部科技管理信息系统</option>
+                    </select>
+                    <select id="gjLink">
+                        <option value="-1">地方科技报告系统</option>
+                        <option value="http://kjbg.ahinfo.org.cn/">安徽科技报告共享服务系统</option>
+                        <option value="https://kjbg.kjt.zj.gov.cn/">浙江科技报告共享服务系统</option>
+                        <option value="http://www.jsstrs.cn/">江苏科技报告共享服务系统</option>
+                        <option value="http://www.sdstrs.cn/">山东科技报告服务系统</option>
+                        <option value="http://kjbg.hnkjt.gov.cn/">河南省科技报告共享服务系统</option>
+                        <option value="http://str.hebsti.cn/">河北科技报告服务系统</option>
+                        <option value="http://www.snstr.cn">陕西省科技报告服务系统</option>
+                        <option value="http://www.qhkjbg.com/">青海科技报告服务系统</option>
+                        <option value="https://kjbg.xizangsti.cn">西藏科技报告服务系统</option>
+                        <option value="http://www.fjstrs.cn/">福建科技报告服务系统</option>
+                        
+                        <option value="https://gxkjbg.gxinfo.org:90/index">广西科技报告服务系统</option>
+                        <option value="http://kjbg.hljsti.org.cn/">黑龙江科技报告服务系统</option>
+                        <option value="http://220.249.102.25/">湖北科技报告共享服务系统</option>
+                        <!-- <option value="http://kjbg.hbstd.gov.cn/">湖北科技报告共享服务系统</option>-->
+                        <option value="http://kjbg.kjt.hunan.gov.cn">湖南科技报告共享服务系统</option>
+                        <option value="https://www.jlstrs.cn/">吉林科技报告共享服务系统</option>
+                        <!--<option value="http://218.64.59.72/">江西科技报告共享服务系统</option>-->
+                        <option value="http://www.lnstrs.cn/">辽宁科技报告服务系统</option>
+                       <!-- <option value="http://kjbg.nxkjt.gov.cn/">宁夏科技报告服务系统</option>-->
+                        <option value="http://218.26.228.143:11188/">山西科技报告服务系统</option>
+                        
+                        <option value="http://www.ynstrs.cn/">云南科技报告服务系统</option>
+                        <option value="http://219.159.12.172:7070/">内蒙古自治区科技报告服务系统</option>
+                        <option value="http://report.gsstd.cn">甘肃科技报告共享服务系统</option>
+                        <option value="http://www.scstrs.cn">四川科技报告共享服务系统</option>
+						<option value="http://kjbg.stcsm.sh.gov.cn/">上海市科技报告服务管理平台</option>
+                        <option value="https://report.csti.cn">重庆市科技报告服务系统</option>
+                        <option value="http://120.221.95.86">青岛科技报告服务系统</option>
+                        <option value="http://www.ytstrs.cn/">烟台市科技报告服务系统</option>
+                    </select>
+                </div>
+                <script type="text/javascript">
+                    $(function() {
+                        $("#dfLink,#gjLink").change(function() {
+                            var URL = $(this).val();
+                            if(URL == "-1") {
+                                return;
+                            } else {
+                                window.open($(this).val(), "_blank");
+                            }
+                        })
+
+                    })
+                </script>
+            </div>
+
+        </div>
+        <!--###################  右边部分  #################################-->
+        <!--############## 2018-02-05 ##############-->
+        <div class="GJKJBG2018_Aright">
+            <div class="GJZDBG2016_home_banner">
+
+
+
+
+
+
+
+                <img src="/staticViews/modules/login/img/GJZDCG_banner.gif" quality="high" style="width:700px;height:165px"  allowScriptAccess="sameDomain">
+                <p>为加快实施国家创新驱动发展战略，按照促进科技成果转移转化行动的部署，科技部以国家“863”、“973”、国家科技支撑计划等财政科技计划产生的科技成果为重点，汇总发布一批符合产业转型升级方向、先进适用的科技成果，涉及新一代信息、能源、现代农业、高端装备与先进制造等11个技术领域。旨在通过需求导向和市场选择方式，引导企业、地方、社会资本和各类机构参与，推动一批科技成果转化与示范推广，促进科技成果转化为现实生产力，支撑产业转型升级与经济结构调整，更好发挥科技创新对供给侧结构性改革的支撑和引领作用。</p>
+
+            </div>
+
+            <!--####  十一项技术领域  ###-->
+            <div class="GJZDBG2016_home_Nav11">
+                <div class="top"></div>
+                <div class="middle">
+                    <a class="a1" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=XYDXX" target="framel">
+                        <span class="a_new"></span>
+                        <span>新一代信息技术领域</span>
+                    </a>
+                    <a class="a2" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=NYJS" target="framel">
+                        <span class="a_new"></span>
+                        <span>能源技术领域</span>
+                    </a>
+                    <a class="a3" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=XDNY" target="framel">
+                        <span class="a_new"></span>
+                        <span>现代农业技术领域</span>
+                    </a>
+                    <a class="a4" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=GDZB" target="framel">
+                        <span class="a_new"></span>
+                        <span>高端装备与先进制造技术</span>
+                    </a>
+                    <a class="a5" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=CZHJS" target="framel">
+                        <span>城镇化技术领域</span>
+                    </a>
+                    <a class="a6" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=HYJS" target="framel">
+                        <span>海洋技术领域</span>
+                    </a>
+                    <a class="a7" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=ZYJY" target="framel">
+                        <span class="a_new"></span>
+                        <span>资源节约与生态修复技术</span>
+                    </a>
+                    <a class="a8" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=RKJK" target="framel">
+                        <span class="a_new"></span>
+                        <span>人口健康技术领域</span>
+                    </a>
+                    <a class="a9" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=XCLJS" target="framel">
+                        <span>新材料技术领域</span>
+                    </a>
+                    <a class="a10" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=GXJF" target="framel">
+                        <span>高新技术服务业技术领域</span>
+                    </a>
+                    <a class="a11" href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=QTJS" target="framel">
+                        <span class="a_new"></span>
+                        <span>其他技术领域</span>
+                    </a>
+                    <div class="GJKJBG2013_clear"></div>
+                </div>
+            </div>
+
+            <!--####  五大专题  ###-->
+            <div class="GJZDBG2016_home_Nav5">
+                <div class="top"></div>
+                <div class="middle">
+                    <a href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=HSDH" target="framel">
+                        <img src="/staticViews/modules/login/img/GJZDCG_home_Nav5_p1.jpg"/>
+                    </a>
+                    <a href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=NYFQW" target="framel">
+                        <img src="/staticViews/modules/login/img/GJZDCG_home_Nav5_p2.jpg"/></a>
+                    <a href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=DQWR" target="framel">
+                        <img src="/staticViews/modules/login/img/GJZDCG_home_Nav5_p3.jpg"/></a>
+                    <a href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=JNJP" target="framel">
+                        <img src="/staticViews/modules/login/img/GJZDCG_home_Nav5_p4.jpg"/></a>
+                    <a href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=JSZW" target="framel">
+                        <img src="/staticViews/modules/login/img/GJZDCG_home_Nav5_p5.jpg"/></a>
+                    <a href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=SSNY" target="framel">
+                        <img src="/staticViews/modules/login/img/GJZDCG_home_Nav5_p6.png"/></a>
+                    <a href="/nstrs/kjbg/wfTopicField/toKjbgTopicFieldMain?type=LSSCY" target="framel">
+                        <img src="/staticViews/modules/login/img/GJZDCG_home_Nav5_p7.png"/></a>
+                </div>
+                <div class="GJKJBG2013_clear"></div>
+            </div>
+            <!--#########  版权声明  #########-->
+            <div class="GJZDBG2016_PS">
+                <b>注：</b>所有成果信息均由成果拥有单位提供，并确保信息真实有效。任何机构使用其中所列成果，请认真研究分析该成果在相关应用中的适用性，并根据相关法律法规，与成果提供方约定双方权利义务，在技术交易和使用中严格履行供需双方的责任和义务。
+            </div>
+        </div>
+
+        <div class="GJKJBG2013_clear">&nbsp;</div>
+    </div>
+    
+
+    <div class="GJKJBG2013_ft" style="position:relative">
+          
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link href="/staticViews/modules/kjbg/filed/css/main.css" rel="stylesheet" type="text/css" />-->
+		<script type="text/javascript" src="/static/layui/layui/layui.all.js"></script>
+		<script type="text/javascript" src="/jeeSpringStatic/plugs/layer-v3.1.1/layer/layui-loading.js"></script>
+	</head>
+	<body>
+		<div class="GJKJBG2013_ft">
+				
+					<div class="link">
+						<a target="_blank" href="/kjbg/static/jump?type=aboutUs">关于我们</a>|
+						<a target="_blank" href="/kjbg/static/jump?type=artileDetails">知识问答</a>|
+						<a target="_blank" href="/kjbg/static/jump?type=sitemap">网站地图</a>
+					</div>
+					<div class="txt" style="position:relative">
+						<div style="position:absolute; z-index:9;margin-left: 90px;margin-top: 10px;width: 100px; height: 80px; border-right:1px #456FA0 solid;">
+
+							<a target="_blank" href="http://bszs.conac.cn/sitename?method=show&id=4CEEBB531D0D3764E053022819AC9CA8"><img alt="" src="/staticViews/modules/kjbg/filed/images/blue.png" /></a>
+						</div>
+						地址：北京市海淀区复兴路15号&nbsp;&nbsp;&nbsp;&nbsp;邮编：100038&nbsp;&nbsp;&nbsp;&nbsp;咨询电话：010-58882168&nbsp;&nbsp;&nbsp;&nbsp;电子邮箱：service@nstrs.cn
+						<br /> 中国科学技术信息研究所&nbsp;&nbsp;版权所有&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" style="color: #ffffff;" target="_blank">京ICP备10027328</a>&nbsp;&nbsp;&nbsp;点击量&nbsp;:&nbsp;
+						
+						<span id="kjbgCount" style='font-family:Times New Roman, Times, serif; color: #00FA9A'></span>
+
+						<br />
+						<img alt="" src="/staticViews/modules/kjbg/filed/images/logo_GS.gif" />
+					</div>
+			</div>
+	</body>
+	<script>
+		$(function () {
+			$.ajax({
+				url : "/buttonNum",
+				type : "POST",
+				dataType : 'json',
+				success : function(data) {
+					$("#kjbgCount").text(data);
+				}
+			});
+		})
+	</script>
+</html>
+
+       
+    </div>
+
+</div>
+<div id="huoying" style="position: absolute; z-index: 50; left: 1687.67px; top: 152.043px;">
+    <div style="text-align:right;cursor:pointer;" id="closepiaofu">关闭</div>
+    <a href="/UserDir/Documents/科技报告格式模板.doc"><img src="/staticViews/modules/kjbg/filed/images/ad5.jpg" style="padding-left:17px;" alt=""></a>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="/staticViews/modules/kjbg/admove.js" type="text/javascript"></script>
+
+<script  type="text/javascript">
+    var ad1 = new AdMove("huoying", true);
+    ad1.Run();
+//	var ad2 = new AdMove("huoying1", true);
+ //  ad2.Run();
+   // var ad3 = new AdMove("huoying2", true);
+   // ad3.Run();
+</script>
+
+<script  type="text/javascript">
+    $(function () {
+        $("#closepiaofu").click(function () {
+            $("#huoying").hide();
+        });
+    })
+// $(function () {
+// $("#closepiaofu1").click(function () {
+ //           $("#huoying1").hide();
+ //        });
+ //    })
+	//$(function () {
+      //  $("#closepiaofu2").click(function () {
+     //       $("#huoying2").hide();
+     //   });
+   // })
+</script>
+
+<script type="text/javascript">
+    (function($) {
+        $.fn.extend({
+            'imgbox': function(options) {
+                var defaultSetting = {
+                    'changeTime': 5
+                };
+                options = $.extend(defaultSetting, options || {})
+                return this.each(function() {
+                    var $obj = $(this);
+                    $obj.css('position', 'relative');
+                    var $list = $('div.list', $obj).find('a');
+                    var t = 3;
+                    var len = $list.length;
+                    var i = len;
+                    var w = parseInt($obj.css('width'));
+                    var h = parseInt($obj.css('height')) - 30;
+                    show_imgbox();
+                    var tid = window.setInterval(function() {
+                        show_imgbox();
+                    }, t * 1000);
+
+                    function show_imgbox() {
+                        i += 1;
+                        if(i >= len) i = 0;
+                        var $img = $($list[i]);
+                        var title = $img.attr('title');
+                        var url = $img.attr('href');
+                        var src = $img.find('img').attr('src');
+                        var $panel = $('div.imgbox_panel', $obj);
+                        if($panel.length == 0) {
+                            $panel = $('<div><a href="#"><img src="" border="0" /></a><p class="css_04" style="height:23px;line-height:23px; padding-left:5px;padding-right:5px;text-align:center;margin:0 auto;background:#EEE;position:absolute;"><a href="#" style="font-weight:400;color:#034da2">loading...</a></p></div>').attr('class', 'imgbox_panel');
+                            $panel.find('p').css({
+                                //'width': w - 20 + 'px',
+                                'left': '3px',
+                                'top': h + 5 + 'px'
+                            });
+                            $panel.find('img').css({
+                                'width': w + 'px',
+                                'height': h + 'px',
+                                'border': 0
+                            }).attr('width', w + 'px').attr('height', h + 'px');
+                            $obj.append($panel);
+                            $panel.mouseover(function(e) {
+                                window.clearInterval(tid);
+                            }).mouseout(function(e) {
+                                tid = window.setInterval(function() {
+                                    show_imgbox();
+                                }, t * 1000);
+                            });
+                        }
+                        $panel.find('img').attr('src', src);
+                        $panel.find('a').attr('href', url).attr('title', title);
+                        var showTitle = title.length > 18 ? (title.substring(0, 17) + '...') : title;
+                        $panel.find('a:last').html(showTitle);
+                        var $u = $('ul.imgbox_num', $obj);
+                        if($u.length == 0) {
+                            $u = $('<ul style="display:block;list-style-type:none;overflow:hidden;zoom:1;position:absolute;left:0;top:0;visibility:hidden;text-align:left;padding:0;margin:0;" />').attr('class', 'imgbox_num').css('width', len * 29 + 'px');
+                            for(var i2 = 1; i2 <= len; i2++) {
+                                $('<li style="display:block;width:15px;height:15px;line-height:15px;text-align:center;vertical-align:middle;float:left;margin:0 3px;border:1px #777 solid;font-weight:700;color:#000;cursor:pointer;" />').html(i2).appendTo($u);
+                            }
+                            $u.css({
+                                'left': (w - $u.width() + 10) + 'px',
+                                'top': (h - $u.height() - $panel.find('p').height() - 0) + 'px',
+                                'visibility': 'visible'
+                            });
+                            $obj.append($u);
+                            $u.find('li').mouseover(function(e) {
+                                window.clearInterval(tid);
+                                i = parseInt($(this).html()) - 2;
+                                if(i < 0) i = len;
+                                show_imgbox();
+                            }).mouseout(function(e) {
+                                tid = window.setInterval(function() {
+                                    show_imgbox();
+                                }, t * 1000);
+                            });
+                        }
+                        var $uli = $u.find('li');
+                        $uli.css({
+                            'border': '1px #777 solid', //background-color:#f8990d;
+                            'background': '#f8990d',
+                            'color': ''
+                        });
+                        $($uli[i]).css({
+                            'border': '1px #F60 solid',
+                            'background': '#3d3934',
+                            'color': '#f60'
+                        });
+                    }
+                });
+            }
+        });
+        // $("#kjbgCount").text($("#kjbgNum").text())
+    })(jQuery);
+</script>
+
+<!--<script src="/static/grayscale.js"></script>-->
+<script type="text/javascript">
+
+
+
+</script>
+<script src="/static/vue/vue.min.js"></script>
+<script src="/staticViews/modules/kjbg/searchChange.js" type="text/javascript"></script>
+<script src="/staticViews/modules/kjbg/indexSearch.js" type="text/javascript"></script>
+</body>
+<script>
+    $(function () {
+
+        var userName='';
+        var node='';
+        if (userName!=''&&userName!='null'){
+            node ="你好,&nbsp;&nbsp; <a onclick='unuserFun()' style=' cursor: pointer;'>非本地用户</a>";
+        }else {
+            
+            
+            
+            node ='<a href="/nstrs/indexManager" id="MenberCenter">[个人中心]</a>&nbsp;你好,&nbsp;&nbsp;';
+            
+        }
+        node =node +"<a id='logout' href='/nstrs/logout'>[退出]</a><a href='/questionnaire/list'>问卷调查</a>"
+        var   userinfo = $("#userinfo")
+        if(userinfo.length!=0){
+            document.getElementById('userinfo').innerHTML=node;
+        }
+    })
+
+
+    function unuserFun()
+    {
+        if (confirm("是否申请成为本系统正式用户?")) {
+            $.ajax({
+                url : "/nstrs/sys/user/userLanding",
+                type : "POST",
+                dataType : 'json',
+                success : function(data) {
+                    if (data.code=="200") {
+                        returnCasUrl(data.message,1,"");
+                        // alert(data.message);
+                        // window.location.reload();
+                    } else {
+                        returnCas(data.message,"");
+                        // alert(data.message);
+                    }
+                }
+            });
+        }
+    }
+
+</script>
+</html>

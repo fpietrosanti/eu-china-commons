@@ -1,0 +1,2345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="SiteName" content="东莞市人民政府门户网站">
+		<meta name="SiteDomain" content="www.dg.gov.cn">
+		<meta name="SiteIDCode" content="4419000098">
+    <meta name="ColumnName" content="首页">
+    <meta name="ColumnDescription" content="提供网站重要信息公开栏目及热门办事服务事项入口。">
+    <meta name="ColumnKeywords" content="网站首页 政府信息 办事服务">
+    <meta name="ColumnType" content="首页">
+<meta name="Keywords" content="东莞市人民政府门户网站" />
+<meta name="description" content="东莞市人民政府门户网站（网址：www.dg.gov.cn）是由东莞市人民政府办公室主办，东莞市政务服务数据管理局承办。它以政府部门网站和镇街频道为依托，以需求为导向，以服务为宗旨，遵循‘以人为本’的设计理念，围绕信息公开、在线服务和公众参与三大政府网站功能定位，设置了‘政务公开’、‘解读回应’、‘政务服务’、‘政民互动’、‘走进东莞’五大频道，以丰富的内容、人性化的服务和强大的功能为用户提供服务。" />
+		<title>中国东莞 | 东莞市人民政府门户网站</title>
+		<link rel="icon" href="/images/dglogo.png" sizes"">
+		<link href="/css/web_index.css" rel="stylesheet">
+		<link href="/css/owl.carousel.min.css" rel="stylesheet">
+		<link href="/css/pc-common.css" rel="stylesheet">
+		<link href="/css/header.css" rel="stylesheet">
+		<script type="text/javascript" src="/js/pc-jquery.js"></script>
+		<script type="text/javascript" src="/js/web-floatAdv.js"></script>
+		<script type="text/javascript" src="/js/prototype.js"></script>
+		<script type="text/javascript" src="./js/tab.js"></script>
+		<script type="text/javascript" src="/js/ImageSlide.js"></script>
+		<script type="text/javascript" src="//app.dg.gov.cn/u/res/skin/survey/js/ajaxtoplist.js"></script>
+		<script type="text/javascript" src="//app.dg.gov.cn/u/res/skin/solicitation/js/ajaxtoplist.js"></script>
+			  <script type="text/javascript" src="/static/libs/swiper/swiper.min.js"></script>
+			  <script type="text/javascript" src="/js/jsonp.js"></script>
+		 <!--网站变灰色-->
+<!-- <style>
+.xb_nav,.cen-height,.home-rdzt,.footer,.duilian,.sv_newalert,.quick_links_wrap,.xb_search_div{
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    -webkit-filter: grayscale(100%);
+  }
+.header-bg{background-image:url('/2021images/header_bg_gray.jpg');}
+.logo img{filter: grayscale(0%)!important;}
+body{background:url('/images/web-bg_hui.jpg')center top no-repeat #e6e6e6!important;}
+.mssss{background:#fff!important;}
+</style>
+<script>
+  $(function(){
+    $('.xb_logo img').attr('src','/images/logo_gray.png')
+  })
+</script> -->
+
+
+			<script>
+				$(function() {
+					$('.sv_newalert').animate({
+						right: '10px'
+					}, 1000);
+					$('.sv_newalert .close').click(function() {
+						$('.sv_newalert').hide();
+					});
+				});
+			</script>
+			<!--手机版跳链手机版首页 -->
+		
+			<script>
+				function GetRequest() {
+					var url = location.search; //获取url中"?"符后的字串  
+					var theRequest = new Object();
+					if (url.indexOf("?") != -1) {
+						var str = url.substr(1);
+						strs = str.split("&");
+						for (var i = 0; i < strs.length; i++) {
+							theRequest[strs[i].split("=")[0]] = (strs[i].split("=")[1]);
+						}
+					}
+					return theRequest;
+				}
+			</script>
+
+			<!--------切换没有显示隐藏效果只有title有------------>
+			<script>
+				function setTab1(name, cursel, n) {
+					for (i = 1; i <= n; i++) {
+						var menu = document.getElementById(name + i);
+						var con = document.getElementById("con_" + name + "_" + i);
+						menu.className = i == cursel ? "hover" : "";
+					}
+				}
+			</script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					var ftb = $("#ftb").text();
+					if (ftb == "用戶登錄") {
+						$("#jt").attr("href", '//www.d' + 'g.gov.cn');
+						$("#jt").show();
+						$("#ft").hide();
+
+					}
+
+				});
+			</script>
+			<!--对联广告-->
+			<script type="text/javascript">
+				$(document).ready(function() {
+					var duilian = $("div.duilian");
+					var duilian_close = $("a.duilian_close");
+
+					var screen_w = screen.width;
+					if (screen_w > 1024) {
+						duilian.show();
+					}
+					$(window).scroll(function() {
+						var scrollTop = $(window).scrollTop();
+						duilian.stop().animate({
+							top: scrollTop + 200
+						});
+					});
+					duilian_close.click(function() {
+						$(this).parent().hide();
+						return false;
+					});
+
+
+				});
+			</script>
+			<script type="text/javascript">
+				function jmpser() {
+					if (document.all.searchForm.qt.value == "搜索东莞信息或服务") {
+						alert("请填写搜索信息");
+						return;
+					}
+
+					document.all.searchForm.action = "//search.gd.gov.cn/search/local/769001/";
+
+					document.all.searchForm.submit();
+
+				}
+			</script>
+			<script>
+				function ddd(obj, sType) {
+					var oDiv = document.getElementById(obj);
+					if (sType == 'show') {
+						oDiv.style.display = 'block';
+					}
+					if (sType == 'hide') {
+						oDiv.style.display = 'none';
+					}
+
+				}
+			</script>
+			<script>
+				// 时间格式转换
+				function timestampToTime(time) {
+					var date = new Date(time * 1000); //时间戳为10位需*1000，时间戳为13位的话不需乘1000
+					Y = date.getFullYear() + '-';
+					M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+					D = (date.getDate() < 10 ? '0' + (date.getDate()) : date.getDate()) + ' ';
+					h = date.getHours() + ':';
+					m = date.getMinutes() + ':';
+					s = date.getSeconds();
+					return M + D;
+				}
+			</script>
+	</head>
+	<body loaded="1" class="accbg" accidx="1" style="opacity: 1; overflow: visible;">
+		
+		 
+  <!---<script language="javascript" type="text/javascript" src="/js/floatAdv.js" accidx="2" class="accelem" style="transform: none; transform-origin: 0px 0px;"></script> -->
+		
+		<!-- 右小角弹窗 
+		<script accidx="3" class="accelem" style="transform: none; transform-origin: 0px 0px;">
+			$(function() {
+				$('.sv_newalert').animate({
+					right: '10px'
+				}, 1000);
+
+				$('.sv_newalert .close').click(function() {
+					$('.sv_newalert').hide();
+				});
+			});
+		</script>
+		<div class="sv_newalert "style=" height: 214px; z-index: 999999; width: 338px; transform: none; transform-origin: 0px 0px; right: 10px; background:none;"
+			accidx="5" accana="0" region="slist:视窗区1" acc="1"><a href="javascript:void(0)" target="_self" acckey="2"
+				class="accnode accstart acc2"></a><a class="close leaidx" accidx="6" leaidx="0" tabindex="0"
+				style="color:black;">关闭</a>
+			<div style="" accidx="7">
+            
+        </div>
+		<div style="width:320px; height:180px;background:url(/images/20240519105439.png);color:#ffffff;font-size:14px;line-height:30px;padding:20px;">省第四生态环境保护督察组进驻东莞市公告_边督边改_东莞市生态环境局网站<br><a href="https://dgepb.dg.gov.cn/ztlm/hjbhdc/bdbg/content/post_4205062.html"  target="_blank">https://dgepb.dg.gov.cn/ztlm/hjbhdc/bdbg/<br>content/post_4205062.html</a></div>
+			<!--<iframe scrolling="No" height="332" width="100%" frameborder="0" src="/20210602dbgg/index.html" allowtransparency="true" accidx="101"></iframe>
+		</div>-->
+		<DIV id="img" class="div_float_ad" >
+		<!-- 此处放关闭功能  -->
+			<div style="width:500px; float:left;display:none">
+				<div style="width:500px; position:absolute; z-index:999">
+					<div><a href="#"
+							onclick='hidfloatad()' style="color:while;text-decoration:none;font-size:11px; text-align:right;">关闭</a></div>
+						<script language="JavaScript">
+							//关闻漂浮图片
+							function hidfloatad() {
+								document.getElementById("img").style.display = "none";
+							}
+							//
+						</script>
+					
+				</div>
+			</div>
+
+
+		</DIV>
+		<script language="JavaScript" accidx="19" class="accelem" style="transform: none; transform-origin: 0px 0px;">
+			var ad1 = new AdMove("img");
+			ad1.Run();
+		</script>
+		<!--对联广告 -->
+		<div class="duilian duilian_left accelem" accidx="20" accana="1" region="slist:视窗区2" acc="1"
+			style="transform: none; transform-origin: 0px 0px;"><a href="javascript:void(0)" target="_self" acckey="2"
+				class="accnode accstart acc2"></a><a class="duilian_close leaidx" href="#" accidx="21" leaidx="5"></a>
+			<div class="duilian_con" accidx="22">
+				<br accidx="23">
+				<div style="width:103px;" accidx="24"><img src="/images/20180508.png" accidx="25" leaidx="6"
+						class="leaidx" tabindex="0">
+					<text class="acctext leaidx" accidx="26" leaidx="7" tabindex="0">东莞市人民政府</text>
+					<br accidx="27">
+					<text class="acctext leaidx" accidx="28" leaidx="8" tabindex="0">公报微信小程序</text>
+				</div>
+			</div>
+			<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+		</div>
+		<div class="duilian duilian_right accelem" style="display:none"><a href="javascript:void(0)" target="_self" acckey="2"
+				class="accnode accstart acc2"></a><a class="duilian_close leaidx" href="#" accidx="30" leaidx="9"></a>
+			<div class="duilian_con" accidx="31">
+				</div>
+			<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+		</div>
+		<!--<div class="mar"><img src="/images/20181212gg.png"/>
+    </div>-->
+<style>
+	.mssss{background:#E2F7EE}
+	.xb_header{padding-top:20px}
+</style>
+		<div class="mar  accelem" accidx="33" style="transform: none; transform-origin: 0px 0px;">
+			<!--引入头部-->
+			<script>/* JumpCodeAbort. */</script>
+
+  <!-- 手机版无障碍按钮 -->
+ <style>
+    .m-wza-wp{z-index:99999;display:none;position:fixed;top:70px;right:5px}
+    .m-wza{display:block;padding:5px;width:30px;height:30px;background:rgba(255,255,255,.9);text-align:center;font-size:0;border-radius:100%;box-shadow:0 2px 4px rgba(0,0,0,.25)}
+    .m-wza img{position:relative;top:5px;width:15px}
+    /*无障碍.m-wza .ico-name{display:block;padding-top:5px;color:#333;font-size:14px}*/
+  </style>
+  <div class="m-wza-wp"><a href="javascript:;" onclick="aria.start()" class="m-wza"><img src="/images/mwza_ico_16.png" alt="ico"><span class="ico-name"></span></a></div>
+  <div class="m-wza-wp" style="top:115px"><a href="javascript:;" onclick="aria.oldFixedStart()" class="m-wza"><img src="/images/mwza_ico_ghb.png" alt="ico" style="top:9px"><span class="ico-name"></span></a></div>
+  <script>
+  window.addEventListener('pageshow', function(event) {
+      // ios 有效, android 和 pc 每次都是 false
+      if(event.persisted) {
+          location.reload();
+      }else {
+          // ios 除外
+          if(sessionStorage.getItem('refresh') === 'true') {
+              location.reload();
+          }
+      }
+      sessionStorage.removeItem('refresh');
+  });
+    $(function() {
+      function repExc() {
+        if($(window).width() <= 576) {
+          $('.m-wza-wp').show();
+        }else {
+          $('.m-wza-wp').hide();
+        }
+      }
+      $(window).on('resize', repExc);
+      repExc();
+    });
+  </script>
+
+ <script defer="" async="" type="text/javascript" src="//app.dg.gov.cn/wza/dist/aria.js?appid=bf2be4484c67c41e1e1f3e782b00520d" charset="utf-8" id="ariascripts"></script>
+<link href="/css/zsy.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<div class="xb_header" accidx="34">
+		<div class="xb_logo" accidx="35" accana="3" region="slist:视窗区4"><a href="javascript:void(0)"
+				target="_self"  class="accnode accstart acc2"></a><a href="/" target="_parent" accidx="36"
+				leaidx="11" class="leaidx"><img src="/images/20181022logo.png"></a><a href="javascript:void(0)"
+				target="_self" class="accnode accend"></a></div>
+		<div class="xb_search_div" accidx="37" accana="4" region="slist:视窗区5"><a href="javascript:void(0)"
+				target="_self"  class="accnode accstart acc2"></a>
+			<div class="xb_weather" accidx="38">
+				<div class="xb_weather_div" accidx="39">
+					<div class="fl" accidx="40"><text class="acctext leaidx" accidx="41" leaidx="12"
+							tabindex="0">东莞</text><img src="/images/weather.png" accidx="42"></div>
+					<div class="fr" accidx="43">
+						<marquee style="width:128px; height: 29px;" direction="left" behavior="SCROLL" scrollamount="2"
+							scrolldelay="2" height="29" onMouseOver="stop()" onMouseOut="start()" accidx="44">
+							<script language="JavaScript" src="/js/date.js" accidx="45"></script>
+							<script language="JavaScript" src="/js/weather.js" accidx="46"></script>
+						</marquee>
+					</div>
+				</div>
+
+				<ul accidx="47">
+
+					<li class="icouser accbg" id="div1" onMouseOver="ddd(&#39;icouser_div&#39;, &#39;show&#39;);"
+						onMouseOut="ddd(&#39;icouser_div&#39;, &#39;hide&#39;);" accidx="48">
+						<a href="//tyrz.gd.gov.cn/tif/sso/static/?client_id=gdbsYSS&redirect_uri=http%3A%2F%2Fwww.gdzwfw.gov.cn%2F_goin_%2F%3Fr%3D%252F_in_%252F%253Fr%253D%25252Fportal%25252Findex%25253Fregion%25253D441900%2526p%253Dportal&response_type=code&scope=all&service=initService"
+							target="_blank" id="ftb" accidx="49" leaidx="13" class="leaidx"><img
+								src="/images/ico_01.png">用户登录</a>
+						
+					</li>
+
+					<li><a href="http://www.dg.gov.cn/dggrzx/index.html" target="_blank">个人中心</a></li>
+
+                    <li><img src="/images/cjr.png"><a href="javascript:;" class="leaidx" id="cniil_wza" onclick="aria.start()">无障碍</a></li>
+					<li><a href="javascript:;" class="leaidx" onclick="aria.oldFixedStart()">关怀版</a></li>
+					<li accidx="56" style="margin-top: 10px">
+						<script language="JavaScript" src="/js/jquerygbk.js" accidx="46"></script>
+						<a onClick="fantizi()" target="_blank" id="ft" accidx="57" leaidx="17" class="leaidx"><img
+								src="/images/ico_04_001.png"></a>
+						<a onClick="jiantizi()" target="_blank" id="jt" style="display:none" accidx="58" leaidx="18"
+							class="leaidx"><img src="/images/ico_03.png" style=""></a>
+
+						<a href="//www.dongguantoday.com/" target="_blank" accidx="59" leaidx="19"
+							class="leaidx"><img src="/images/ico_05.png"></a>
+					</li>
+					<li style="margin-top: 10px"><img src="/images/wzsyx.png"></li>
+					
+				</ul>
+				<div class="clear" accidx="60"></div>
+			</div>
+			<script>
+				function fantizi() {
+					ClickObject2();
+					$("#jt").show();
+					$("#ft").hide();
+				}
+
+				function jiantizi() {
+					ClickObject1();
+					$("#ft").show();
+					$("#jt").hide();
+				}
+			</script>
+			<style>
+				.xb_header .xb_search{margin-top: 35px;}
+			</style>
+			<div class="xb_search" accidx="61">
+
+				<form class="form-wrapper cf"
+					action="//search.gd.gov.cn/search/local_msg/769001?keywords=%E5%8A%9E%E4%BA%8B">
+					<input id="txtTitle_Top" name="keywords" type="text" class="search-txt" placeholder="搜索东莞信息或服务" />
+					 <input type="hidden" value="allCity" name="filterType" accidx="36" leaidx="9" class="leaidx" tabindex="0">
+      <input type="hidden" value="0" name="filterId" accidx="36" leaidx="9" class="leaidx" tabindex="0">
+					<span onClick="jmpser();" accidx="66" leaidx="22" >
+						<button class="leaidx" type="submit"
+							style="border:0;background:transparent;color:white;font-size:20px;line-height: 40px;">搜索</button>
+					</span>
+				</form>
+
+
+				<div class="clear" accidx="67"></div>
+			</div>
+			<div style="display:none">
+				<marquee style="width:490px; height: 40px;line-height: 40px;" direction="left" behavior="SCROLL"
+					scrollamount="2" scrolldelay="2" height="29" onMouseOver="stop()" onMouseOut="start()" accidx="44">
+					尊敬的网友：为贯彻落实省府办政府网站集约化工作的要求，市政府门户网站及本网站的各镇街、部门频道于2020年1月1日凌晨启用广东政府网站集约化平台，新平台使用期间可能会出现一些访问和显示错误问题，我们会不断进行纠错整改等工作，完成时间将另行公告告知。对此给您带来的不便，我们深表歉意，敬请谅解。欢迎您继续访问使用本网站！
+				</marquee>
+			</div>
+
+			<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+		</div>
+		<div class="clear" accidx="68"></div>
+	</div>
+	<div class="xb_nav accbg" accidx="69">
+		<ul accidx="70" accana="5" region="slist:视窗区6"><a href="javascript:void(0)" target="_self" 
+				class="accnode accstart acc2"></a>
+			<li class="hover" id="nav1" onMouseOver="setTab('nav',1,6)" accidx="71">
+				<a href="/" target="_parent" accidx="72" leaidx="23" class="leaidx">
+					<span class="ico1"></span>首页</a>
+			</li>
+			<li id="nav2" onMouseOver="setTab('nav',2,6)" accidx="73">
+				<a href="https://www.dg.gov.cn/zwgk/index.html" target="_blank" accidx="74" leaidx="24"
+						class="leaidx">
+						<span class="ico2"></span>政务公开</a>
+			</li>
+			<li id="nav3" onMouseOver="setTab('nav',3,6)" accidx="75">
+				<a href="/?type=3" accidx="76" leaidx="25" class="leaidx">
+						<span class="ico3"></span>解读回应</a>			</li>
+			<li id="nav4" onMouseOver="setTab('nav',4,6)" accidx="77">
+				<a href="//www.gdzwfw.gov.cn/portal/index?region=441900" target="_blank"
+						accidx="78" leaidx="26" class="leaidx">
+						<span class="ico4"></span>政务服务</a>			</li>
+			<li id="nav5" onMouseOver="setTab('nav',5,6)" accidx="79">
+				<a href="https://www.dg.gov.cn/zmhd/index.html" target="_blank" accidx="80" leaidx="27"
+						class="leaidx">
+						<span class="ico5"></span>政民互动</a>			</li>
+			<li id="nav6" onMouseOver="setTab('nav',6,6)" accidx="81">
+				<a href="https://www.dg.gov.cn/zjdz/index.html" target="_blank" accidx="82" leaidx="28"
+						class="leaidx">
+						<span class="ico6"></span>走进东莞</a>			</li>
+			<li accidx="83">
+				<a href="//libs.dg.gov.cn/code/xhtml/loading.html?from=%E6%8A%95%E8%B5%84%E4%B8%9C%E8%8E%9E"
+					target="_blank" accidx="84" leaidx="29" class="leaidx">
+					<span class="ico7"></span>投资东莞</a>
+			</li>
+			<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+		</ul>
+		<div class="clear" accidx="85"></div>
+	</div>
+	<script src="/js/jzf.js"></script>
+
+
+			<div class="cen cen-height" id="con_nav_1" style="display:block;" accidx="86">
+				        <style>
+          .zx_menu_con{ position: relative;}
+          .zx_menu_con .zntj_con{position: absolute;top: -10px; left: -10px; width: 0px; height: 532px;z-index: 10;}
+          .zx_menu_con .zntj_con .con_tab_bg{ background: #309d3e; overflow: hidden; width: 0px; position: relative;}
+          .zx_menu_con .zntj_con .con_tab_abc{width: 400px; overflow: hidden;position: relative;}
+          .zx_menu_con .zntj_con .zntj_con_text{ position: absolute; top:0px; left: -52px; width: 52px;  height: 229px; background: url(/images/tjbg1.png) top center no-repeat;color: #ffffff; padding-top: 40px;
+            text-decoration: none;}
+          .zx_menu_con .zntj_con .zntj_con_text img{ color: #ffffff; height: auto;text-align: center; display: block; margin: 0 auto;padding-bottom: 10px;}
+          .zx_menu_con .zntj_con .zntj_con_text span{color: #ffffff; width: 20px;height: auto; text-align: center; font-size: 20px;line-height: 24px; display: block;margin: 0 auto;}
+          .zx_menu_con em{font-style: normal;}
+          .zntj_con .bottom_news{ width:382px; margin:9px;background: #ffffff; height: 445px;  }
+		  /* overflow: auto; */
+          .zntj_con .xxgk_tit_tab{ background:#309d3e;  height:55px; line-height:55px; overflow:hidden; margin:0 0 10px 0;}
+          .zntj_con .xxgk_tit_tab span{ float:left;text-align:center; color:#ffffff; font-size:18px;font-weight: bold;  height:55px;
+              width: 33.3%;}
+          .zntj_con .xxgk_tit_tab span:nth-child(2){background: url(../images/zfzx_zntj_20181116_09.png) center right -6px no-repeat;}
+          .zntj_con .xxgk_tit_tab span:first-child{background: url(../images/zfzx_zntj_20181116_09.png) center right -6px no-repeat;}
+          .zntj_con .xxgk_tit_tab span.hover{ background:#ffffff; color:#333333; }
+          .zntj_con .xxgk_tit_tab span{ cursor:pointer;}
+          .zntj_con .xxgk_tit_tab a{ float:right; color:#333; text-align:center;  font-size:14px; font-weight:bold; padding:0 10px 0 0;}
+
+          .zntj_con .bottom_news ul{}
+          .zntj_con .bottom_news ul li{color: #5f5f5f;  line-height:25px;position:relative; overflow:hidden; font-size:14px; margin:10px 8px 10px 5px;}
+          .zntj_con .bottom_news ul li .point{float: left;display: block;margin-top: -1px;width: 2px;height: 2px;background-color: #000;margin: 12px 10px 0;}
+          .zntj_con .bottom_news ul li span{float: left;font-weight: bold; background:#fff;  color:#333333; font-size:16px;}
+          .zntj_con .bottom_news ul li a{ color:#333333;position: relative;}
+          .zntj_con .bottom_news ul li a:hover{color:#ff6600;}
+		  
+
+			/* 滚动条 */
+			.scrollbar-xy{overflow: auto;}
+			.scrollbar-xy::-webkit-scrollbar{ width: 6px;height: 6px;}
+			.scrollbar-y{overflow-y: auto; overflow-x: hidden;}
+			.scrollbar-y::-webkit-scrollbar{ width: 6px;height: auto;}
+			.scrollbar-x{overflow-x: auto; overflow-y: hidden;}
+			.scrollbar-x::-webkit-scrollbar{ height: 6px;width:auto;}
+			/* 滚动条轨道 */
+			.scrollbar-xy::-webkit-scrollbar-track,
+			.scrollbar-x::-webkit-scrollbar-track,
+			.scrollbar-y::-webkit-scrollbar-track {box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);border-radius: 3px;background: #E5E5E5;}
+			/* 滚动条滑块 */
+			.scrollbar-xy::-webkit-scrollbar-thumb,
+			.scrollbar-x::-webkit-scrollbar-thumb,
+			.scrollbar-y::-webkit-scrollbar-thumb{border-radius: 3px;background: linear-gradient(225deg, #689EE3 0%, #0262D6 100%);}
+        </style>  
+      	<div class="yc1 zx_menu_con">
+						<div class="zntj_con">
+							<a class="zntj_con_text"> <img src="/zmtsource/2021img0705.png" /> <span>智能推荐</span> </a>
+							<div class="con_tab_bg">
+								<div class="con_tab_abc">
+									<div class="bottom_news scrollbar-y">
+										<div class="xxgk_tit_tab" id="myTab9"><span class="hover" onClick="nTabs_span(this,0);">热点关注</span>
+										</div>
+										<dl id="myTab9_Content0" style="display: block;">
+											<dd id="my0">
+												<ul>
+													<!--  -->
+												</ul>
+											</dd>
+										</dl>
+					
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+            <script>
+                $(function(){
+                    $(".zntj_con").hover(function(){
+                    $(".zntj_con .bottom_news").css("display","block");
+                        $(".zx_menu_con .zntj_con .con_tab_bg").stop().animate({width:'400px'});
+                    },
+                    function abc(){	
+                        $(".zx_menu_con .zntj_con .con_tab_bg").stop().animate({width:'0px'});
+                        $(".zntj_con .bottom_news").css("display","none");
+                    }
+                    );
+                    $.ajax({
+                        type:"post",
+                        url:"/u/dgaccesslog/recommended",
+                        async:true,
+                        success:function(data){		
+						console.log("data11111",data)	
+                        if(data.results==0){
+                            var list=data.payload;
+                            var end=list.length>9?9:list.length;
+                            if(end!=0){
+                            var chtml=''
+                            for(var i=0;i<end;i++){
+                            chtml+='<li><a href="'+list[i].url+'" target="_blank"><span class="point"></span>'+list[i].title+'</a></li>'
+                            }
+                            $('#my0 ul').append(chtml);
+                            }
+                        }
+                        }
+                    });
+                })
+            </script> 
+				<!-- <a href="//www.dg.gov.cn/ztzllm/yqfk/index.html" class="yqfk-hd"><img style="max-width: 100%;" src="/mobile-images/yqfk-img.png"></a> -->
+				<style type="text/css">
+					.yqfk-hd{display: none;}
+					@media only screen and (max-width:750px ) {
+						.yqfk-hd{display: block;}
+					}
+				</style>
+				<div style="clear:both"></div>
+				<div class="" accidx="87">
+					<div class="news_left" accidx="88">
+						<div class="hot" accidx="89" accana="6" region="slist:视窗区7" acc="1">
+							<a href="javascript:void(0)" target="_self" acckey="2" class="accnode accstart acc2"></a>
+							<span class="accbg" accidx="90" style="background:#D00000">
+								<strong accidx="92" leaidx="30" class="leaidx" tabindex="0">今日关注</strong>
+							</span>
+															<b accidx="93">
+									<a href="https://www.gov.cn/yaowen/liebiao/202611/content_7087104.htm" target="_blank" title="习近平向“声援巴勒斯坦人民国际日”纪念大会致贺电"
+										accidx="94" leaidx="31"
+										class="leaidx">习近平向“声援巴勒斯坦人民国际日”纪念大会致贺电 </a>
+									<br accidx="95">
+									<p accidx="97" leaidx="32" class="leaidx" tabindex="0">
+
+									</p>
+								</b>
+														<div class="clear" accidx="98"></div>
+							<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+						</div>
+						<div class="news_div" accidx="99">
+							<div class="tpxw" accidx="100">
+								<iframe scrolling="No" height="332" width="100%" frameborder="0" src="/2018tpxw.html"
+									allowtransparency="true" accidx="101"></iframe>
+							</div>
+
+							<div class="news_div_right" accidx="102">
+								<div class="news_title" accidx="103">
+									<span class="hover" id="newsnav1" onMouseOver="setTab('newsnav',1,5)" accidx="104">
+										<a href="https://www.dg.gov.cn/jjdz/dzyw/index.html" target="_blank"
+												accidx="105" leaidx="33" class="leaidx">东莞要闻
+											</a>									</span>
+									<!-- <span id="newsnav2" onMouseOver="setTab('newsnav',2,6)" accidx="106">
+										<a href="https://www.dg.gov.cn/jjdz/xwfb/index.html" target="_blank"
+												accidx="107" leaidx="34" class="leaidx">新闻发布
+											</a>									</span> -->
+									<span id="newsnav2" onMouseOver="setTab('newsnav',2,5)" accidx="108">
+										<a href="//www.gd.gov.cn/xxts/" target="_blank" accidx="109" leaidx="35"
+											class="leaidx">政声传递
+										</a>
+									</span>
+									<span id="newsnav3" onMouseOver="setTab('newsnav',3,5)" accidx="110">
+										<a href="https://www.dg.gov.cn/jjdz/bmdt/index.html" target="_blank"
+												accidx="111" leaidx="36" class="leaidx">部门动态
+											</a>									</span>
+									<span id="newsnav4" onMouseOver="setTab('newsnav',4,5)" accidx="112">
+										<a href="https://www.dg.gov.cn/jjdz/zjdt/index.html" target="_blank"
+												accidx="113" leaidx="37" class="leaidx">镇街动态
+											</a>									</span>
+									<span id="newsnav5" onMouseOver="setTab('newsnav',5,5)" accidx="114">
+										<a href="https://www.dg.gov.cn/jjdz/zwgg/index.html" target="_blank"
+												accidx="115" leaidx="38" class="leaidx">政务公告
+											</a>									</span>
+									<div class="clear" accidx="116"></div>
+								</div>
+								<ul class="news_ul" id="con_newsnav_1" accidx="117" accana="7" region="slist:视窗区8"
+									acc="1"><a href="javascript:void(0)" target="_self" acckey="2"
+										class="accnode accstart acc2"></a>
+
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4608786.html" target="_blank"
+												class="leaidx">市委常委会召开会议 传达学习贯彻习近平总书记视察广东和出席APEC会议及相关活动重要讲话重要指示精神</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-24</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4608770.html" target="_blank"
+												class="leaidx">市委政协工作会议召开 推动东莞政协事业高质量发展 为建设“智创优品、和美宜居”现代化新东莞提供更有力支撑</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-24</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4608309.html" target="_blank"
+												class="leaidx">黎炳盛赴石碣镇、石龙镇调研发展和安全工作 激发产业创新活力 守牢安全发展底线</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-23</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4605863.html" target="_blank"
+												class="leaidx">黎炳盛赴东部工业园片区调研发展和安全工作 推动经济持续向新向优向好 切实加强安全防范</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-16</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4605847.html" target="_blank"
+												class="leaidx">市委全面深化改革委员会召开会议 传达学习省委深改委会议精神 推动进一步全面深化改革向纵深发展</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-15</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4605837.html" target="_blank"
+												class="leaidx">市委常委会召开会议 学习贯彻习近平总书记重要讲话重要指示精神 部署做好“三农”、信访、党校（行政学院）等工作</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-14</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4605836.html" target="_blank"
+												class="leaidx">黎炳盛赴镇街宣讲党的二十届五中全会精神并调研发展和安全工作 深入学习贯彻党的二十届五中全会精神 更好统筹高质量发展和高水平安全</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-14</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4605835.html" target="_blank"
+												class="leaidx">市政协重点提案调研座谈会召开 抓好重点提案成果转化落实 推动东莞生产性服务业实现跨越式发展</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-14</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/dzyw/content/post_4605057.html" target="_blank"
+												class="leaidx">韦皓赴清溪镇宣讲党的二十届五中全会精神并督导检查安全生产工作</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-12</span>
+										</li>
+																		<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+								</ul>
+
+
+								<ul class="news_ul" id="con_newsnav_2" style="display:none;" accidx="191">
+									<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge; IE=8; IE=9">
+<title>政声传递</title>
+<link rel="stylesheet" type="text/css" href="/css/pc-common.css">
+<script type="text/javascript" src="/js/jquery.js"></script>
+
+
+</head>
+
+<body style="">
+<div id="list" class="news_ul ">	
+	<ul>
+		
+	</ul>
+</div>
+
+<script type="text/javascript" >
+
+	$(function() {
+		var titleNum = getArgsFromHref(window.location.href, 'titlenum');
+		var titleNumInt = parseInt(titleNum);
+		var pageSize = getArgsFromHref(window.location.href, 'pagesize');
+		var pageSizeInt = parseInt(pageSize);
+		if(!titleNumInt){
+			titleNumInt = 100;
+		}
+		if(!pageSizeInt){
+			pageSizeInt = 9;
+		}
+		$.ajax({
+			url : '//app.gd.gov.cn/xxts/pushinfo_json.php',
+			dataType : "jsonp",
+			jsonp : "pushInfoJsonpCallBack",
+			jsonpCallback : "pushInfoJsonpCallBack",
+			success : function(data) {
+			$('.loading-table').hide();
+				$.each(data, function(i, json) {
+					var title=delHtmlTag(json.title);
+					var pubDate=delHtmlTag(json.pubDate);
+					
+					if(i<pageSizeInt){
+						var title=delHtmlTag(json.title);
+
+							if(title.length>=titleNumInt)
+								$("#list ul:first").append(
+									
+									"<li><a href"+"=\""+json.link+"\" title=\""+title+"\" target=\"_blank\">" + title.substring(0,titleNumInt)+"..</a><span>"+pubDate.split("-")[1] +"-" +  pubDate.split("-")[2]
+									+"</span></li>");
+							else
+							
+									$("#list ul:first").append(
+										"<li><a href"+"=\""+json.link+"\" title=\""+title+"\" target=\"_blank\">" + title+"</a><span>"+pubDate.split("-")[1] +"-" +  pubDate.split("-")[2]
+										+"</span></li>");
+					}	
+				});
+			},
+			error : function() {
+				//alert('fail');
+			}
+		})
+	});
+	function delHtmlTag(str){  
+		return str.replace(/<[^>]+>/g,"");//去掉所有的html标记  
+	}
+	function getArgsFromHref(sHref, sArgName)
+        {
+            var args    = sHref.split("?");
+            var retval = "";
+
+            if(args[0] == sHref) /*参数为空*/
+            {
+                return retval; /*无需做任何处理*/
+            }
+            var str = args[1];
+            args = str.split("&");
+            for(var i = 0; i < args.length; i ++)
+            {
+                str = args[i];
+                var arg = str.split("=");
+                if(arg.length <= 1) continue;
+                if(arg[0] == sArgName) retval = arg[1];
+            }
+            return retval;
+        }
+
+</script>
+
+
+
+</body></html>
+								</ul>
+								<ul class="news_ul" id="con_newsnav_3" style="display: none;"></a>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4608443.html"	target="_blank" class="leaidx">全省唯一！东莞低空政务应用场景“一网统飞”斩获绽放杯全国一等奖</a><span>
+												11-23</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4607193.html"	target="_blank" class="leaidx">万江街道一行赴东莞企业出海服务中心调研交流</a><span>
+												11-18</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4605472.html"	target="_blank" class="leaidx">松山湖“以绿制绿”案例入选全国绿色发展创新实践案例</a><span>
+												11-12</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4604580.html"	target="_blank" class="leaidx">东莞市政务服务和数据管理局召开党组（扩大）会议传达学习党的二十届五中全会精神</a><span>
+												11-10</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4604294.html"	target="_blank" class="leaidx">市住房公积金管理中心召开党组（扩大）会议传达学习党的二十届五中全会精神</a><span>
+												11-10</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4603810.html"	target="_blank" class="leaidx">市审计局召开党组（扩大）会议传达学习党的二十届五中全会精神</a><span>
+												11-06</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4603759.html"	target="_blank" class="leaidx">喜报！党建赋能 创新实干——东莞市人社局斩获省“先锋杯”工作创新赛一、三等奖</a><span>
+												11-06</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4602436.html"	target="_blank" class="leaidx">东莞组织召开2027年中央预算内投资等政策性资金申报政策培训会</a><span>
+												11-03</span></li>
+																					<li><a href="https://www.dg.gov.cn/jjdz/bmdt/content/post_4601790.html"	target="_blank" class="leaidx">阳光热线丨东莞市生态环境局：协同治气，让蓝天白云成为东莞常态</a><span>
+												10-31</span></li>
+																		</ul>
+								<!-- 赛选出不需要的标题或者链接js -->
+									<script type="text/javascript" src="/js/ywtitleno.js"></script>
+								<ul class="news_ul" id="con_newsnav_4" style="display: none;" >
+								
+
+								</ul>
+								<script>
+									$.ajax({
+										type: "get",
+										url: "//search.gd.gov.cn/jsonp/sites?callback=callback&including_url_doc=1&including_link_doc=1&including_attach_doc=1&pagesize=20&page=1&order=1&gkml=1&sites=769001,769002,769004&category_id=10509,10557,10607,10653,10698,10744,10799,10846,10895,10943,10991,11036,11082,11128,11176,11225,11326,11412,11457,11560,11653,11703,11753,11805,11856,11909,11955,12004,12052,16822,6359",
+										dataType: "jsonp",
+										success: function(data) {
+											var len = data.results.length;
+											for (var i = 0; i < len; i++) {
+												var tp = data.results[i];
+												var _title = escape2Html(tp.title);
+												var ap = timestampToTime(tp.date);
+												var ad = _title.length > 25 ? _title.substr(0, 32) + "..." : _title;
+												var _name = filterName(leaderData,_title)
+												var _url = filterName(leaderData,tp.url)
+												var firsttime = tp.first_publish_time && timestampToTime(tp.first_publish_time);
+												 if(_name!=true){
+													 if(_url!=true){ 
+														 $('#con_newsnav_4').append('<li><a href="' + tp.url + '">' + _title + '</a><span>' + firsttime +
+														'</span></li>')
+													 }
+													
+												}
+											}
+											$.each($('#con_newsnav_4 li'),function(i,item){
+												if(i>8){
+													$(this).hide()
+												}
+											})
+										}
+									});
+								</script>
+
+
+								<ul class="news_ul" id="con_newsnav_5" style="display: none;" accidx="267" accana="11"
+									region="slist:视窗区12" acc="1"><a href="javascript:void(0)" target="_self" acckey="2"
+										class="accnode accstart acc2"></a>
+
+																			<li class="accbg" style="">
+											<a href="http://www.dg.gov.cn/jjdz/zwgg/content/post_4495521.html" target="_blank"
+												class="leaidx">东莞市2025年政府网站监管年度报表</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">01-30</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="http://www.dg.gov.cn/jjdz/zwgg/content/post_4490284.html" target="_blank"
+												class="leaidx">中国东莞|东莞市人民政府门户网站-2025年政府网站工作...</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">01-16</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/zwgg/content/post_4602919.html" target="_blank"
+												class="leaidx">东莞市市级河湖长名单公告</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">11-04</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/zwgg/content/post_4597490.html" target="_blank"
+												class="leaidx">关于认定东莞市第二十批上市后备企业公示的通告</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">10-21</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/zwgg/content/post_4573490.html" target="_blank"
+												class="leaidx">东莞市人民政府办公室公开选调公务员公告</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">08-14</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/zwgg/content/post_4566348.html" target="_blank"
+												class="leaidx">东莞市人民政府办公室系统2026年公开招聘编外聘用人员递...</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">07-28</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/zwgg/content/post_4554049.html" target="_blank"
+												class="leaidx">东莞市人民政府办公室系统2026年公开招聘编外聘用人员拟...</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">06-26</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/zwgg/content/post_4546847.html" target="_blank"
+												class="leaidx">东莞市人民政府办公室系统2026年公开招聘编外聘用人员笔...</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">06-06</span>
+										</li>
+																			<li class="accbg" style="">
+											<a href="https://www.dg.gov.cn/jjdz/zwgg/content/post_4543376.html" target="_blank"
+												class="leaidx">广东省事业单位2026年集中公开招聘高校毕业生拟聘用人员...</a><span
+												accidx="271" leaidx="112" class="leaidx"
+												tabindex="0">05-27</span>
+										</li>
+									
+									<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+								</ul>
+							</div>
+							<div class="clear" accidx="304"></div>
+
+
+						</div>
+					</div>
+					<div class="news_right" accidx="305" accana="12" region="slist:视窗区13" acc="1"><a
+							href="javascript:void(0)" target="_self" acckey="2" class="accnode accstart acc2"></a>
+						<ul accidx="306">
+							<li class="ico1" accidx="307">
+								<a href="https://www.dg.gov.cn/zdlyxxgk/index.html" target="_blank" accidx="308"
+										leaidx="129" class="leaidx"><span></span>重点领域信息</a>							</li>
+							<li class="ico2" accidx="309">
+    <a href="https://www.dg.gov.cn/zwgk/zfgb/zfgb/index.html" target="_blank"><span></span>政府公报</a></li>
+							</li>
+							<li class="ico3" accidx="311"><a href="https://gddata.gd.gov.cn/opdata/base/collect?chooseValue=collectForm&deptCode=513" target="_blank"
+									accidx="312" leaidx="131" class="leaidx"><span></span>数据开放</a></li>
+							<li class="ico4" accidx="313">
+								<a href="https://www.dg.gov.cn/sjfb/index.html" target="_blank" accidx="314"
+										leaidx="132" class="leaidx">
+										<span></span>数据发布</a>
+															</li>
+							<li class="ico5" accidx="315">
+								<a href="https://www.dg.gov.cn/zwgk/jcgk/jcygk/index.html" target="_blank" accidx="316"
+										leaidx="133" class="leaidx">
+										<span></span>五公开专栏</a>
+															</li>
+							<li class="ico6" accidx="317"><a href="//www.gdzwfw.gov.cn/portal/index?region=441900"
+									target="_blank" accidx="318" leaidx="134" class="leaidx"><span></span>政务服务网</a></li>
+							<li class="ico7"><a href="https://credit.dg.gov.cn/new_dgxy/homepage/creditindex/toMainIndex" target="_blank"><span></span>信用东莞</a></li>
+							<li class="ico8"><a href="//www.dg.gov.cn/gkmlpt/index#710"
+									target="_blank" accidx="322" leaidx="136" class="leaidx"><span accidx="323"></span>
+									<text class="acctext leaidx" accidx="324" leaidx="137" tabindex="0">政府网站</text>
+									<br accidx="325">
+									<text class="acctext leaidx" accidx="326" leaidx="138" tabindex="0">工作年度报表</text>
+								</a></li>
+						</ul>
+						<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+					</div>
+					<div class="clear" accidx="327"></div>
+				</div>
+			</div>
+			<div class="cen cen-height" id="con_nav_2" style="display: none;" accidx="328" accana="13"
+				region="list:列表区1" acc="1"><a href="javascript:void(0)" target="_self" acckey="5"
+					class="accnode accstart acc5"></a>
+				<div class="zwgk_left" accidx="329" style="">
+					<div class="zwgk_left1" accidx="330" style="">
+						<style>
+							.zwgk_left1 dl{height:310px}
+							.zwgk_left1 dl dd{margin: 10px 20px;}
+							.clearfix{*zoom:1;}
+							.clearfix:after{content:"";display: block;clear:both;}
+						</style>
+						<div class="zwgk_left1_title" accidx="331" style="">
+							<span accidx="332">
+      							<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/index.html" target="_blank" accidx="77" leaidx="24" class="leaidx">领导信息</a>							</span>
+						</div>
+						<dl accidx="334" style="">
+						
+							<dd accidx="351" style="height:155px">
+								<span accidx="353" leaidx="146" class="leaidx" tabindex="0">市　长</span>
+								<ul accidx="362">
+									<li accidx="363" accana="86" style="width:100px;margin-left:20px">
+										<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/szfld/sc/dlsz/content/post_4590345.html" target="_blank"
+												accidx="364" leaidx="151" class="leaidx" style="text-align: center;">
+												<img src="https://www.dg.gov.cn/img/0/684/684815/4590345.jpg" accidx="330" leaidx="113" class="leaidx" tabindex="0" style="width:100px">
+												<b style="font-weight: normal;display: inline-block;text-align: center;width: 100%;">黎炳盛</b>
+											</a>
+																			</li>
+									
+								</ul>
+
+								<div class="clear" accidx="369"></div>
+							</dd> 
+							<dd accidx="351">
+
+								<span >副市长</span>
+								<ul class="clearfix cols4">
+									<li>
+										<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/szfld/fsc/content/post_4346637.html" target="_blank">曾坚朋</a>									</li>
+									
+									<li class="name-2">
+										<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/szfld/fsc/content/post_357746.html" target="_blank">黎军</a>										</li>
+									<li>
+										<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/szfld/fsc/content/post_4136031.html" target="_blank">卢建军</a>										</li>
+									<li>
+										<a href="http://www.dg.gov.cn/zwgk/jcgk/ld/szfld/fsc/content/post_4346638.html" target="_blank">陈海波</a>									</li>
+									
+										<li>
+										<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/szfld/fsc/content/post_4081841.html" target="_blank">陈庆松</a>										</li>
+									<li class="name-2">
+										<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/szfld/fsc/content/post_4503771.html" target="_blank">杨宇</a>									</li>
+								
+								</ul>
+
+								<div class="clear" accidx="369"></div>
+							</dd>
+							<dd class="mar-t" accidx="370" style="margin-top">
+								<span accidx="372" leaidx="154" class="leaidx" tabindex="0">秘书长</span>
+								<ul accidx="373" class="clearfix">
+																			<li style="padding-top:2px;" accidx="374"><a href="http://www.dg.gov.cn/zwgk/jcgk/ld/szfld/msc/content/post_4440281.html"
+												target="_blank" accidx="375" leaidx="155"
+												class="leaidx">袁仕望</a></li>
+																	</ul>
+								<div class="clear" accidx="376"></div>
+							</dd>
+						</dl>
+						
+					</div>
+					<div class="zwgk_left2" accidx="388" style="">
+						<div class="zwgk_left2_title" accidx="389">
+							<span class="hover accbg" id="zwgk1" onMouseOver="setTab(&#39;zwgk&#39;,1,5)" accidx="390"
+								style=""><a href="//www.dg.gov.cn/gkmlpt/policy" target="_blank" accidx="391"
+									leaidx="160" class="leaidx">政府文件</a></span>
+							<span id="zwgk2" onMouseOver="setTab(&#39;zwgk&#39;,2,5)" accidx="392">
+								<a href="https://www.dg.gov.cn/zwgk/czxx/index.html" target="_blank" accidx="393"
+										leaidx="161" class="leaidx">财政信息</a>							</span>
+						
+							<span id="zwgk3" onMouseOver="setTab(&#39;zwgk&#39;,3,5)" accidx="396">
+								<a href="https://www.dg.gov.cn/gkmlpt/index#705" target="_blank" accidx="397"
+										leaidx="163" class="leaidx">人事任免</a>							</span>
+							<span id="zwgk4" onMouseOver="setTab(&#39;zwgk&#39;,4,5)" accidx="398"><a
+									href="//tjj.dg.gov.cn/gkmlpt/index#832" target="_blank" accidx="399"
+									leaidx="164" class="leaidx">统计信息</a></span>
+							<div class="clear" accidx="400"></div>
+						</div>
+						<ul class="news_ul" id="con_zwgk_1" accidx="401">
+
+
+						</ul>
+						<script>
+							JSONP.add('/postmeta/g/681_1.js', '_cms_handle_gkml_index', function(data) {
+								var len = 10;
+								for (var i = 0; i < len; i++) {
+									var tp = data.articles[i];
+									var fz = tp.title.length;
+									var dy
+									var ad
+									var ap = tp.created_at.substring(5, 10);
+									if (tp.title.length > 28) {
+										dy = tp.title.substring(28, fz);
+										ad = tp.title.replace(dy, "...");
+									} else {
+										ad = tp.title;
+									}
+									var ad = tp.title.replace(dy, "...");
+									var firsttime = tp.first_publish_time && timestampToTime(tp.first_publish_time);
+									$('#con_zwgk_1').append('<li class="accbg" style=""><a href="' + tp.url +
+										'" target="_blank" class="leaidx">' + ad +
+										'</a><span accidx="569" leaidx="246" class="leaidx" tabindex="0">' + firsttime + '</span></li>')
+								}
+							});
+						</script>
+						<ul class="news_ul" id="con_zwgk_2" style="display:none;" accidx="442">
+
+
+						</ul>
+						<script>
+							var alldata2 = [];
+
+							function push_data(arrys, data) {
+								for (var i = 0; i < data.articles.length; i++) {
+									arrys.push(data.articles[i]);
+								}
+							}
+
+							JSONP.add('//www.dg.gov.cn/dgmzzjj/postmeta/g/1562_1.js', '_cms_handle_gkml_index', function(data) { //东莞市民族宗教事务局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dgsafety.dg.gov.cn/postmeta/g/530_1.js', '_cms_handle_gkml_index', function(data) { //东莞市应急管理局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//www.dg.gov.cn/dggzw/postmeta/g/1492_1.js', '_cms_handle_gkml_index', function(
+							data) { //东莞市人民政府国有资产监督管理委员会
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dgdp.dg.gov.cn/postmeta/g/11_1.js', '_cms_handle_gkml_index', function(data) { //东莞发展和改革局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dgsfj.dg.gov.cn/postmeta/g/41_1.js', '_cms_handle_gkml_index', function(data) { //东莞司法局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//tjj.dg.gov.cn/postmeta/g/828_1.js', '_cms_handle_gkml_index', function(data) { //东莞统计局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//jtj.dg.gov.cn//postmeta/g/861_1.js', '_cms_handle_gkml_index', function(data) { //东莞交通运输局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//gaj.dg.gov.cn/postmeta/g/3216_1.js', '_cms_handle_gkml_index', function(data) { //东莞警察局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dgstb.dg.gov.cn/postmeta/g/76_1.js', '_cms_handle_gkml_index', function(data) { //东莞科学技术局
+								push_data(alldata2, data)
+							});
+
+							// JSONP.add('//mzj.dg.gov.cn/postmeta/g/123_1.js', '_cms_handle_gkml_index', function (data) {//东莞民政局
+							//     alldata2 = zjdwpx(alldata2, data.articles);
+							// });
+							JSONP.add('//dgwater.dg.gov.cn/postmeta/g/987_1.js', '_cms_handle_gkml_index', function(data) { //东莞水务局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//czj.dg.gov.cn/postmeta/g/1047_1.js', '_cms_handle_gkml_index', function(data) { //东莞财政局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dgepb.dg.gov.cn/postmeta/g/1093_1.js', '_cms_handle_gkml_index', function(data) { //东莞生态环境局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//audit.dg.gov.cn/postmeta/g/1164_1.js', '_cms_handle_gkml_index', function(data) { //东莞审计局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//lyj.dg.gov.cn/postmeta/g/1220_1.js', '_cms_handle_gkml_index', function(data) { //东莞林业局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//edu.dg.gov.cn/postmeta/g/169_1.js', '_cms_handle_gkml_index', function(data) { //东莞教育局局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dgamr.dg.gov.cn/postmeta/g/3253_1.js', '_cms_handle_gkml_index', function(data) { //东莞市场监督管理局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dgboc.dg.gov.cn/postmeta/g/231_1.js', '_cms_handle_gkml_index', function(data) { //东莞市商务局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dggjj.dg.gov.cn/postmeta/g/279_1.js', '_cms_handle_gkml_index', function(data) { //东莞市公积金管理中心
+								push_data(alldata2, data)
+							});
+
+							//   JSONP.add('//wgx.dg.gov.cn/postmeta/g/1333_1.js', '_cms_handle_gkml_index', function (data) {//东莞文化广电旅游体育局
+							//                                alldata2  = zjdwpx(alldata2,data.articles);                            
+							//   });
+							JSONP.add('//im.dg.gov.cn/postmeta/g/357_1.js', '_cms_handle_gkml_index', function(data) { //智造东莞
+								push_data(alldata2, data)
+							});
+							JSONP.add('//nyncj.dg.gov.cn/postmeta/g/392_1.js', '_cms_handle_gkml_index', function(data) { //东莞农业农村局
+								push_data(alldata2, data)
+							});
+							//   JSONP.add('//dghrss.dg.gov.cn/postmeta/g/440_1.js', '_cms_handle_gkml_index', function (data) {//东莞人力资源和社会保障局
+							//                                alldata2  = zjdwpx(alldata2,data.articles);                            
+							//   });
+
+							JSONP.add('//dgcg.dg.gov.cn/postmeta/g/483_1.js', '_cms_handle_gkml_index', function(data) { //东莞城市管理和综合执法局
+								push_data(alldata2, data)
+							});
+							JSONP.add('//dghb.dg.gov.cn/postmeta/g/565_1.js', '_cms_handle_gkml_index', function(data) { //东莞卫生健康局
+								push_data(alldata2, data)
+
+								var mz1 = 0;
+								var mz2 = 0;
+								for (var i = 0; i < alldata2.length - 1; i++) {
+									for (var j = 0; j < alldata2.length - 1 - i; j++) {
+										if (("" + alldata2[j].date).indexOf("-") > -1) {
+											mz1 = Date.parse(alldata2[j].date) / 1000
+										} else {
+											mz1 = alldata2[j].date
+										}
+										if (("" + alldata2[j + 1].date).indexOf("-") > -1) {
+											mz2 = Date.parse(alldata2[j + 1].date) / 1000
+										} else {
+											mz2 = alldata2[j + 1].date
+										}
+										if (mz1 < mz2) {
+											var temp = alldata2[j];
+											alldata2[j] = alldata2[j + 1];
+											alldata2[j + 1] = temp;
+										}
+									}
+								}
+
+								for (var i = 0; i < 10; i++) {
+									var tp_alldata2 = alldata2[i];
+									var ad_alldata2 = tp_alldata2.title.length > 28 ? tp_alldata2.title.substr(0, 28) + "..." :
+										tp_alldata2.title;
+									var ap_alldata2 = timestampToTime(tp_alldata2.date);
+									$('#con_zwgk_2').append('<li><a href="' + tp_alldata2.url + '" target="_blank">' + ad_alldata2 +
+										'</a><span>' + ap_alldata2 + '</span></li>')
+								}
+							});
+						</script>
+
+						<!--<ul class="news_ul" id="con_zwgk_3" style="display: none;" accidx="481">
+
+                        </ul>-->
+						<ul class="news_ul" id="con_zwgk_3" style="display:none;" accidx="524">
+
+							
+						</ul>
+						 <script>
+                
+               JSONP.add('//www.dg.gov.cn/postmeta/g/705_1.js', '_cms_handle_gkml_index', function (data) {
+                        for(var i = 0; i < 10; i++) {
+	                        var tp = data.articles[i];
+                          var ad = tp.title.length > 30 ? tp.title.substr(0,30) + "..." : tp.title;
+                           $('#con_zwgk_3').append('<li><a href="' + tp.url + '" target="_blank" class="leaidx" title="'+tp.title+'">' + ad + '</a><span>'+timestampToTime(tp.date)+'</span> </li>')
+                        }
+        });  
+            </script>
+						<ul class="news_ul" id="con_zwgk_4" style="display: none;" accidx="563">
+
+
+						</ul>
+						<script>
+							JSONP.add('//tjj.dg.gov.cn//postmeta/g/832_1.js', '_cms_handle_gkml_index', function(data) {
+								var len1 = 10;
+								for (var i = 0; i < len1; i++) {
+									var tp = data.articles[i];
+									var ap = timestampToTime(tp.date);
+									var ad = tp.title.length > 28 ? tp.title.substr(0, 30) + "..." : tp.title;
+
+									$('#con_zwgk_4').append('<li class="accbg" style=""><a href="' + tp.url +
+										'" target="_blank" class="leaidx">' + ad.replace(/<br\s*\/?>/gi, '') +
+										'</a><span accidx="569" leaidx="246" class="leaidx" tabindex="0">' + ap + '</span></li>')
+								}
+							});
+						</script>
+
+					</div>
+					<div class="clear" accidx="606" style=""></div>
+					<div class="zw_bg" accidx="607" style="">
+						<ul class="clearfix" accidx="608">
+							<li accidx="609"><a href="//www.dg.gov.cn/gkmlpt/index#694" target="_blank"
+									accidx="610" leaidx="265" class="leaidx">政府工作报告</a></li>
+							<li accidx="611">
+								    <a href="https://www.dg.gov.cn/zwgk/zfgb/zfgb/index.html" target="_blank">政府公报</a></li>
+							</li>
+							<li accidx="613">
+								<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/index.html" target="_blank" accidx="614"
+										leaidx="267" class="leaidx">政策解读</a>							</li>
+							<li accidx="615">
+								<a href="https://www.dg.gov.cn/zwgk/fzzfjsqkbg/index.html" target="_blank" accidx="616"
+										leaidx="268" class="leaidx">法治政府建设情况报告</a>							</li>
+						</ul>
+						<div class="clear" accidx="617"></div>
+					</div>
+				</div>
+				<div class="zwgk_right" accidx="618" style="">
+					<div class="padd10" accidx="619">
+						<div class="zwgk_left2_title" accidx="620"><span class="hover accbg" accidx="621" style="">
+								<a href="/gkmlpt/link" target="_blank" accidx="622" leaidx="269"
+									class="leaidx">政府信息公开平台</a></span>
+							<div class="clear" accidx="623"></div>
+						</div>
+						<ul class="zwgk_ml" accidx="624">
+							<li class="accbg" accidx="625" style=""><a href="/gkmlxt/gkml_zn.html" target="_blank"
+									accidx="626" leaidx="270" class="leaidx">政府信息公开指南</a></li>
+							<li class="accbg" accidx="627" style=""><a href="/gkmlpt/link" target="_blank" accidx="628"
+									leaidx="271" class="leaidx">政府信息公开目录</a></li>
+							<li class="accbg" accidx="629" style=""><a href="/gkmlxt/gkml_nb.html" target="_blank"
+									accidx="630" leaidx="272" class="leaidx">政府信息公开年报</a></li>
+							<li class="ysq accbg" accidx="631" style=""><a href="//ysq.dg.gov.cn/" target="_blank" >依申请公开</a>&nbsp;<span accidx="633"></span></li>
+							<li class="accbg" accidx="641" style="">
+								<a href="//ysq.dg.gov.cn/query.html" target="_blank">市依申请公开系统（处理状态查询）</a>
+							</li>
+							<li class="accbg" accidx="641" style="">
+								<a href="https://www.dg.gov.cn/zwgk/dzrbzwgbb/index.html" target="_blank" accidx="642"
+										leaidx="278" class="leaidx">《东莞日报》政务公布版</a>							</li>
+							<li>
+								<a href="https://www.dg.gov.cn/zwgk/ggqsydwxxgk/index.html" target="_blank" >公共企事业单位信息公开</a>							</li>
+				
+						</ul>
+						<ul class="zwgk_xxgk" accidx="643">
+							<li accidx="644">
+								<a href="https://www.dg.gov.cn/zwgk/jcgk/bm/index.html" target="_blank" accidx="645"
+										leaidx="279" class="leaidx">机构职能</a>							</li>
+							<li accidx="646">
+								<a href="https://www.dg.gov.cn/zwgk/jcgk/ld/index.html" target="_blank" accidx="77" leaidx="24" class="leaidx">领导信息</a>							</li>
+							<li accidx="648">
+								<a href="https://www.dg.gov.cn/jjdz/dzyw/index.html" target="_blank" accidx="649"
+										leaidx="281" class="leaidx">动态信息</a>							</li>
+							<li accidx="650">
+								<a href="https://www.dg.gov.cn/gkmlpt/index#705" target="_blank" accidx="651"
+										leaidx="282" class="leaidx">人事任免</a>							</li>
+							<li accidx="652"><a href="//tjj.dg.gov.cn/gkmlpt/index#832" target="_blank"
+									accidx="653" leaidx="283" class="leaidx">统计信息</a></li>
+							<li accidx="654">
+								<a href="https://www.dg.gov.cn/jjdz/zwgg/index.html" target="_blank" accidx="655"
+										leaidx="284" class="leaidx">政务公告</a>							</li>
+							<li accidx="656"><a href="//www.dg.gov.cn/gkmlpt/policy" target="_blank"
+									accidx="657" leaidx="285" class="leaidx">政府文件</a></li>
+							<li accidx="658">
+								<a href="https://www.dg.gov.cn/zwgk/czxx/index.html" target="_blank" accidx="659"
+										leaidx="286" class="leaidx">财政信息</a>							</li>
+							<li accidx="660"><a href="https://gdgpo.czt.gd.gov.cn/" target="_blank" accidx="661"
+									leaidx="287" class="leaidx">政府采购</a></li>
+							<li accidx="662"><a href="//dgdp.dg.gov.cn/gkmlpt/index#13" target="_blank"
+									accidx="663" leaidx="288" class="leaidx">规划计划</a></li>
+							<li accidx="664">
+								    <a href="https://www.dg.gov.cn/zwgk/zfgb/zfgb/index.html" target="_blank">政府公报</a></li>
+							</li>
+							<li accidx="666"><a href="http://dgdp.dg.gov.cn/fzgg/zdxm/szdjz/index.html" target="_blank"
+									accidx="667" leaidx="290" class="leaidx">重大项目</a></li>
+							
+							<li accidx="670"><a
+									href="//www.gdzwfw.gov.cn/portal/affairs-public-duty-list?region=441900"
+									target="_blank" accidx="671" leaidx="292" class="leaidx">权责清单</a></li>
+							<li accidx="672"><a href="//dgsafety.dg.gov.cn/" target="_blank" accidx="673"
+									leaidx="293" class="leaidx">应急信息</a></li>
+							<li accidx="672"><a href="//www.dg.gov.cn/zwgk/cwhy/" target="_blank" accidx="673"
+									leaidx="293" class="leaidx">常务会议</a></li>
+							<li accidx="672"><a href="//www.dg.gov.cn/zwgk/zfgb/zkxx/" target="_blank" accidx="673"
+									leaidx="293" class="leaidx">招考信息</a></li>
+							<div class="clear" accidx="674"></div>
+						</ul>
+					</div>
+				</div>
+				<div class="clear" accidx="675" style=""></div>
+				<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+			</div>
+			<div class="cen cen-height" id="con_nav_3" style="display: none;" accidx="676" accana="14"
+				region="list:列表区2" acc="1"><a href="javascript:void(0)" target="_self" acckey="5"
+					class="accnode accstart acc5"></a>
+					<div class="jdhy_left" accidx="677" style="">
+					<div class="jdhy_left1" accidx="678" style="">
+						<div class="zwgk_left2_title" accidx="679" style=""><span class="hover accbg" accidx="680"
+								style="">
+								<a href="https://www.dg.gov.cn/zwgk/jdhy/xwfbh/index.html" target="_blank" accidx="681"
+										leaidx="294" class="leaidx">新闻发布会</a>							</span>
+							<div class="clear" accidx="682" style=""></div>
+						</div>
+						<ul class="news_ul" accidx="683" style="">
+															<li class="accbg" style="">
+									<a href="https://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4597475.html" target="_blank"
+										class="leaidx">2026年东莞民营企业家日·莞商（侨商）大会新闻发布会</a><span
+										class="leaidx" tabindex="0">10-21</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="https://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4431279.html" target="_blank"
+										class="leaidx">2026东莞市新闻发言人及新闻助理名单</a><span
+										class="leaidx" tabindex="0">09-30</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="https://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4572656.html" target="_blank"
+										class="leaidx">2026第十七届东莞台湾名品博览会新闻发布会</a><span
+										class="leaidx" tabindex="0">08-14</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="https://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4536243.html" target="_blank"
+										class="leaidx">《东莞市全球智造中心建设总体方案（2026-2030年）》新闻发布会</a><span
+										class="leaidx" tabindex="0">05-09</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4509359.html" target="_blank"
+										class="leaidx">2026“食博会·预博会和农博会”新闻发布会</a><span
+										class="leaidx" tabindex="0">03-10</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4498815.html" target="_blank"
+										class="leaidx">2026年东莞市人民政府一号文新闻发布会</a><span
+										class="leaidx" tabindex="0">02-05</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4456763.html" target="_blank"
+										class="leaidx">“乐购东莞 潮起来！”消费季活动新闻发布会</a><span
+										class="leaidx" tabindex="0">11-05</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4451220.html" target="_blank"
+										class="leaidx">2025年东莞民营企业家日新闻发布会</a><span
+										class="leaidx" tabindex="0">10-23</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4423630.html" target="_blank"
+										class="leaidx">2025年第十六届东莞台湾名品博览会新闻发布会</a><span
+										class="leaidx" tabindex="0">08-19</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4372688.html" target="_blank"
+										class="leaidx">2025WWS世界女子斯诺克锦标赛新闻发布会</a><span
+										class="leaidx" tabindex="0">04-21</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4346282.html" target="_blank"
+										class="leaidx">2025食博会·预博会新闻发布会</a><span
+										class="leaidx" tabindex="0">03-03</span>
+								</li>
+															<li class="accbg" style="">
+									<a href="http://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4329140.html" target="_blank"
+										class="leaidx">《东莞市儿童友好城市建设管理办法》新闻发布会</a><span
+										class="leaidx" tabindex="0">01-14</span>
+								</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="jdhy_right" accidx="734" style="">
+					<div class="jdhy_right1" accidx="735">
+						<div class="zwgk_left2_title">
+								<span class="hover" id="xwfbh1" onmouseover="setTab('xwfbh',1,3)">
+																			<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/gjs/index.html" target="_blank">国家、省</a>
+																	</span>
+								<span id="xwfbh2" onmouseover="setTab('xwfbh',2,3)">
+																			<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/szfjqbm/index.html" target="_blank">市政府及其部门</a>
+																	</span>
+								<span id="xwfbh3" onmouseover="setTab('xwfbh',3,3)">
+																			<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/zjyqjqbm/index.html" target="_blank">镇街园区及其部门</a>
+																	</span>
+							<div class="clear" accidx="739"></div>
+						</div>
+						<div class="bd">
+							<ul class="news_ul" accidx="740" id="con_xwfbh_1">
+																	<li class="accbg" style="">
+										<a href="https://www.gov.cn/zhengce/jiedu/" target="_blank"
+											class="leaidx">国家政策解读</a><span
+											class="leaidx" tabindex="0">11-02</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="http://www.gd.gov.cn/zwgk/zcjd/index.html" target="_blank"
+											class="leaidx">省政策解读</a><span
+											class="leaidx" tabindex="0">11-02</span>
+									</li>
+															</ul>
+							<ul class="news_ul"  id="con_xwfbh_2" style="display:none">
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/szfjqbm/content/post_4602935.html" target="_blank"
+											class="leaidx">《关于废止&lt;东莞市交通运输局交通建设工程从业单位信用评价及动态管理办法&gt;的通知》的政策解读</a><span
+											class="leaidx" tabindex="0">11-04</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/szfjqbm/content/post_4598022.html" target="_blank"
+											class="leaidx">《东莞市人力资源和社会保障局劳务派遣行政许可实施细则》政策解读</a><span
+											class="leaidx" tabindex="0">10-22</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/szfjqbm/content/post_4591677.html" target="_blank"
+											class="leaidx">《东莞市工程建设项目招标代理机构及从业人员管理办法》政策解读</a><span
+											class="leaidx" tabindex="0">09-30</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/szfjqbm/content/post_4567215.html" target="_blank"
+											class="leaidx">《东莞市经营主体住所（经营场所）登记管理办法》政策解读</a><span
+											class="leaidx" tabindex="0">07-31</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/szfjqbm/content/post_4579276.html" target="_blank"
+											class="leaidx">《东莞市推动AI服务器产业高质量发展实施方案》政策解读</a><span
+											class="leaidx" tabindex="0">07-15</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/szfjqbm/content/post_4554781.html" target="_blank"
+											class="leaidx">《关于调整和明确我市基本医疗保险及大病保险政策有关问题的通知》政策解读</a><span
+											class="leaidx" tabindex="0">06-30</span>
+									</li>
+															</ul>
+							<ul class="news_ul" accidx="740" id="con_xwfbh_3" style="display:none">
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/zjyqjqbm/content/post_4594139.html" target="_blank"
+											class="leaidx">关于《万江街道社区集体资产交易办法》的政策解读</a><span
+											class="leaidx" tabindex="0">10-13</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/zjyqjqbm/content/post_4593792.html" target="_blank"
+											class="leaidx">政策解读：《清溪镇积极发展老年助餐服务实施方案》</a><span
+											class="leaidx" tabindex="0">10-12</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/zjyqjqbm/content/post_4588387.html" target="_blank"
+											class="leaidx">关于《常平镇非法危险化学品、烟花爆竹举报奖励暂行办法》的政策解读</a><span
+											class="leaidx" tabindex="0">09-22</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/zjyqjqbm/content/post_4583006.html" target="_blank"
+											class="leaidx">（音频解读）关于《道滘镇支持企业高质量发展十条政策措施》的政策解读</a><span
+											class="leaidx" tabindex="0">09-10</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/zjyqjqbm/content/post_4574143.html" target="_blank"
+											class="leaidx">关于《万江街道关于企业员工子女入学指标的补充规定》的政策解读</a><span
+											class="leaidx" tabindex="0">08-18</span>
+									</li>
+																	<li class="accbg" style="">
+										<a href="https://www.dg.gov.cn/zwgk/jdhy/zcjd/zjyqjqbm/content/post_4563085.html" target="_blank"
+											class="leaidx">关于《常平镇“育林行动”企业管理工作细则》的政策解读</a><span
+											class="leaidx" tabindex="0">07-17</span>
+									</li>
+															</ul>
+						</div>
+					
+					</div>
+					<div class="jdhy_right2" accidx="765">
+						<div class="zwgk_left2_title" accidx="766"><span class="hover accbg" accidx="767" style="">
+
+																	<a href="https://www.dg.gov.cn/zwgk/jdhy/zctj/index.html" target="_blank" accidx="768" leaidx="331"
+										class="leaidx">政策图解</a>
+
+
+															</span>
+							<div class="clear" accidx="769"></div>
+						</div>
+						<ul accidx="770">
+							<li accidx="771">
+
+																	<a href="https://www.dg.gov.cn/zwgk/jdhy/zctj/content/post_4593586.html" target="_blank" accidx="772" leaidx="332"
+										class="leaidx">
+										<img src="https://www.dg.gov.cn/img/0/686/686447/4593586.png" style=""> </a>
+								
+
+							</li>
+							<li class="mar-l2" accidx="773">
+																	<a href="https://www.dg.gov.cn/zwgk/jdhy/zctj/content/post_4590284.html" target="_blank" accidx="774" leaidx="333"
+										class="leaidx">
+										<img src="https://www.dg.gov.cn/img/0/684/684785/4590284.png" style=""> </a>
+								
+							</li>
+						</ul>
+
+						<div class="clear" accidx="775"></div>
+					</div>
+				</div>
+				<div class="clear" accidx="776" style=""></div>
+				<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+			</div>
+			<div class="cen cen-height" id="con_nav_4" style="display: none;" accidx="777" accana="15"
+				region="slist:视窗区14" acc="1"><a href="javascript:void(0)" target="_self" acckey="2"
+					class="accnode accstart acc2"></a>
+				<div class="wsbs_left" accidx="778" style="">
+					<div class="zwgk_left2_title" accidx="779" style=""><span class="hover accbg leaidx" accidx="781"
+							leaidx="334" tabindex="0" style="">热门事项</span>
+						<div class="clear" accidx="782" style=""></div>
+					</div>
+					<ul class="wsbs_left_ul" accidx="783" style="">
+						<li accidx="784"><a
+								href="//www.gdzwfw.gov.cn/portal/lv3/hot?region=441900&amp;type=person&amp;id=7900000002&amp;area_code=441900&amp;lv1_code=7700000001&amp;lv1_name=%E6%8A%A4%E7%85%A7%E9%80%9A%E8%A1%8C%E8%AF%81&amp;lv2_name=%E5%8A%9E%E7%90%86%E6%B8%AF%E6%BE%B3%E9%80%9A%E8%A1%8C%E8%AF%81"
+								target="_blank" accidx="785" leaidx="335" class="leaidx">· 办理港澳通行证</a></li>
+						<li accidx="786"><a
+								href="//www.gdzwfw.gov.cn/portal/lv3/hot?region=441900&amp;type=person&amp;id=7900000028&amp;area_code=441900&amp;lv1_code=7700000003&amp;lv1_name=%E9%A9%BE%E9%A9%B6%E3%80%81%E8%A1%8C%E9%A9%B6&amp;lv2_name=%E8%A1%A5%E6%8D%A2%E9%A2%86%E8%BD%A6%E8%BE%86%E8%A1%8C%E9%A9%B6%E8%AF%81"
+								target="_blank" accidx="787" leaidx="336" class="leaidx">· 补换领车辆行驶证</a></li>
+						
+						<li accidx="790"><a
+								href="//www.gdzwfw.gov.cn/portal/personal/mattersLv2/hot?region=441900&lv2code=7700000013"
+								target="_blank" accidx="791" leaidx="338" class="leaidx">· 公积金查询</a></li>
+						<li accidx="792"><a
+								href="//www.gdzwfw.gov.cn/portal/guide/13440000455857174Y2442169016000"
+								target="_blank" accidx="793" leaidx="339" class="leaidx">· 残疾人证申请</a></li>
+
+
+						<li accidx="794"><a
+								href="//www.gdzwfw.gov.cn/portal/lv3/hot?region=441900&type=person&id=7900000485&area_code=441900&lv1_code=7700000011&lv1_name=%E7%A4%BE%E4%BF%9D&lv2_name=%E5%85%BB%E8%80%81%E4%BF%9D%E9%99%A9%E5%BE%85%E9%81%87%E7%94%B3%E9%A2%86"
+								target="_blank" accidx="795" leaidx="340" class="leaidx">· 养老保险申领</a></li>
+						<li accidx="796"><a
+								href="//www.gdzwfw.gov.cn/portal/personal/mattersLv2/hot?region=441900&lv2code=7700000016"
+								target="_blank" accidx="797" leaidx="341" class="leaidx">· 法律公证</a></li>
+						<li accidx="798"><a href="//www.gdzwfw.gov.cn/portal/guide/13441900515406245A3442192121001"
+								target="_blank" accidx="799" leaidx="342" class="leaidx">· 医疗救助申请</a></li>
+						<li accidx="800"><a
+								href="//www.gdzwfw.gov.cn/portal/v2/lv3/hot?region=441900&area_code=441900&type=person&id=7900001692&lv1code=7700000064&lv1_name=%E4%BD%8F%E6%9C%89%E6%89%80%E5%B1%85&lv2_name=%E6%88%BF%E5%B1%8B%E7%A7%9F%E8%B5%81%E7%99%BB%E8%AE%B0%E5%A4%87%E6%A1%88"
+								target="_blank" accidx="801" leaidx="343" class="leaidx">· 房屋租赁备案</a></li>
+
+
+					</ul>
+
+					<div class="clear" accidx="802" style=""></div>
+					<ul class="qyzswy" accidx="803" style="">
+					
+						<li accidx="808" style="margin-bottom: 10px;"><a href="//zwfw.dg.gov.cn/html/portal/tsfwzq/index.html" target="_blank"
+								accidx="809" leaidx="346" class="leaidx">东莞市特色服务专区</a></li>
+						
+									<li accidx="810" style="margin-bottom: 10px;"><a href="https://ygp.gdzwfw.gov.cn/ggzy-portal/index.html#/441900/index"
+								target="_blank" accidx="811" leaidx="347" class="leaidx">公共资源交易</a></li>
+								<li style="width: auto; float: none; clear: both;"><a target="_blank" href="https://zwfw.dg.gov.cn/dgecsp/#/home">企莞家 | 东莞市企业综合服务平台</a></li>
+					</ul>
+					<div class="clear" accidx="812" style=""></div>
+					
+					<div class="clear" accidx="818" style=""></div>
+				</div>
+				<div class="wsbs_cen" accidx="819" style="">
+					<div class="zwgk_left2_title" accidx="820"><span class="hover accbg leaidx" accidx="822"
+							leaidx="350" tabindex="0" style="">热门服务</span>
+						<div class="clear" accidx="823"></div>
+					</div>
+					<div class="wsbs_img" accidx="824">
+						<ul accidx="825">
+							<li accidx="826"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000013"
+									target="_blank" accidx="827" leaidx="351" class="leaidx">住房公积金</a></li>
+							<li accidx="828"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000001"
+									target="_blank" accidx="829" leaidx="352" class="leaidx">护照、通行证</a></li>
+							<li accidx="830"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000003"
+									target="_blank" accidx="831" leaidx="353" class="leaidx">驾驶、行驶</a></li>
+							<li accidx="832"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000004"
+									target="_blank" accidx="833" leaidx="354" class="leaidx">户政</a></li>
+							<li accidx="834"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000011"
+									target="_blank" accidx="835" leaidx="355" class="leaidx">社保</a></li>
+							<li accidx="836"><a title="社会保障（社会保险、社会救助）"
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000009"
+									target="_blank" accidx="837" leaidx="356" class="leaidx">租房购房置业</a></li>
+							<li accidx="838"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000007"
+									target="_blank" accidx="839" leaidx="357" class="leaidx">就业创业</a></li>
+							<li accidx="840"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000028"
+									target="_blank" accidx="841" leaidx="358" class="leaidx">职业资格</a></li>
+							<li accidx="842"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000012"
+									target="_blank" accidx="843" leaidx="359" class="leaidx">教育服务</a></li>
+							<li accidx="844"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000016"
+									target="_blank" accidx="845" leaidx="360" class="leaidx">法律公证</a></li>
+							<li accidx="846"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000017"
+									target="_blank" accidx="847" leaidx="361" class="leaidx">税务</a></li>
+							<li accidx="848"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000014"
+									target="_blank" accidx="849" leaidx="362" class="leaidx">水电气</a></li>
+							<li accidx="850"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000032"
+									target="_blank" accidx="851" leaidx="363" class="leaidx">失业</a></li>
+							<li accidx="852"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000021"
+									target="_blank" accidx="853" leaidx="364" class="leaidx">困难救助</a></li>
+							<li accidx="854"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000022"
+									target="_blank" accidx="855" leaidx="365" class="leaidx">律师</a></li>
+							<li accidx="856"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000023"
+									target="_blank" accidx="857" leaidx="366" class="leaidx">民族宗教</a></li>
+							<li accidx="858"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000020"
+									target="_blank" accidx="859" leaidx="367" class="leaidx">老年人</a></li>
+							<li accidx="860"><a
+									href="//www.gdzwfw.gov.cn/portal/v2/personal/mattersLv2/hot?region=441900&lv2code=7700000018"
+									target="_blank" accidx="861" leaidx="368" class="leaidx">助残服务</a></li>
+
+
+						</ul>
+						<div class="clear" accidx="862"></div>
+					</div>
+
+				</div>
+				<div class="wsbs_right" accidx="863" style="">
+					<div class="wsbs_right_img" accidx="864"><a
+							href="//www.gdzwfw.gov.cn/portal/index?region=441900" target="_blank" accidx="865"
+							leaidx="369" class="leaidx"><img src="/images/wsbs.png" style=""></a></div>
+					<div class="qzzqd" accidx="866"><span accidx="867"><a
+								href="//www.gdzwfw.gov.cn/portal/affairs-public-duty-list?region=441900"
+								target="_blank" accidx="868" leaidx="370" class="leaidx"><img src="/images/qzqd_ico.png"
+									style="">权责清单</a></span><span class="span1" accidx="869"><a
+								href="//www.gdzwfw.gov.cn/portal/affairs-public-duty-service?region=441900"
+								target="_blank" accidx="870" leaidx="371" class="leaidx"><img src="/images/ggfw_ico.png"
+									style="">公共服务事项清单</a></span>
+						<div class="clear" accidx="871"></div>
+					</div>
+					<ul accidx="872">
+						<li accidx="873"><a href="https://www.gdzwfw.gov.cn/zhwd/"
+								target="_blank" accidx="874" leaidx="372" class="leaidx"><img src="/images/znzx_img.png"
+									accidx="875" style=""><span accidx="877" leaidx="373"
+									class="leaidx" tabindex="0">智能咨询</span></a>
+							<div class="clear" accidx="878"></div>
+						</li>
+						<li><a href="//ysx.gdzwfw.gov.cn/yhzx-consultation?mt=consult&?bizid=30000" target="_blank" accidx="880" leaidx="374"
+								class="leaidx"><img src="/images/wsbs_img.png" accidx="881" style=""><span accidx="883"
+									leaidx="375" class="leaidx" tabindex="0">我要咨询</span>
+								
+							</a>
+							<div class="clear" accidx="886"></div>
+						</li>
+						<li accidx="895"><a href="https://ysx.gdzwfw.gov.cn/yhzx-complain?bizid=30000" target="_blank" accidx="896"
+								leaidx="380" class="leaidx"><img src="/images/wsbs_img2.png" accidx="897" style=""><span
+									accidx="899" leaidx="381" class="leaidx" tabindex="0">我要投诉</span>
+							
+							</a>
+							<div class="clear" accidx="902"></div>
+						</li>
+						<li accidx="887"><a href="//www.gdzwfw.gov.cn/portal/v2/progress-query" target="_blank"
+								accidx="888" leaidx="377" class="leaidx"><img src="/images/wsbs_img1.png" accidx="889"
+									style=""><span accidx="891" leaidx="378" class="leaidx" tabindex="0">办件查询</span>
+							
+							</a>
+							<div class="clear" accidx="894"></div>
+						</li>
+						
+						<li accidx="903"><a href="https://www.gdzwfw.gov.cn/portal/v2/express/index" target="_blank"
+								accidx="904" leaidx="383" class="leaidx"><img src="/images/wsbs_img3.png" accidx="905"
+									style=""><span accidx="907" leaidx="384" class="leaidx" tabindex="0">快递查询</span>
+								
+							</a>
+							<div class="clear" accidx="910"></div>
+						</li>
+							<li accidx="903"><a href="http://zwfw.dg.gov.cn/html/portal/gjzw/zxyy/qxzbsdt.html?useXcxUrl=1" target="_blank"
+								accidx="904" leaidx="383" class="leaidx"><img src="/images/20231104211453.jpg" accidx="905"
+									style=""><span accidx="907" leaidx="384" class="leaidx" tabindex="0">办事预约</span>
+								
+							</a>
+							<div class="clear" accidx="910"></div>
+						</li><li accidx="903"><a href="http://www.dg.gov.cn/ztfw_whjy.html" target="_blank"
+								accidx="904" leaidx="383" class="leaidx"><img src="/images/zwfw_ztfw.png" accidx="905"
+									style=""><span accidx="907" leaidx="384" class="leaidx" tabindex="0">主题服务</span>
+							</a>
+							<div class="clear" accidx="910"></div>
+						</li>
+					</ul>
+					<div class=" clear" accidx="911"></div>
+				</div>
+				<div class=" clear" accidx="912" style=""></div>
+				<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+			</div>
+			<div class="cen cen-height" id="con_nav_5" style="display: none;" accidx="913" accana="16"
+				region="slist:视窗区15" acc="1"><a href="javascript:void(0)" target="_self" acckey="2"
+					class="accnode accstart acc2"></a>
+				<div class="wlwz_left" accidx="914" style="">
+
+					<ul class="wsxf">
+
+						<li class="ico4"><a href="//ts.gdwsxf.gd.gov.cn/dg/web/index"
+								target="_blank"><span></span>领导信箱</a></li>
+
+													<li class="ico6"><a href="//ts.gdwsxf.gd.gov.cn/dg/web/index"
+									target="_blank"><span></span>网上投诉</a></li>
+												<li class="ico2"><a href="https://12345.dg.cn/pc-snapshot/#/?callType=1"
+								target="_blank"><span></span>咨询投诉</a></li>
+						<li class="ico9"><a href="//www.dg.gov.cn/12345/201801/page/order/more_appeals_list.html"
+								target="_blank"><span></span>留言公开</a></li>
+						
+						<li class="ico8"><a href="https://12345.dg.cn/external/index"
+								target="_blank"><span></span>业务知识库</a></li>
+						<li class="ico7"><a href="//www.dg.gov.cn/znjqr" target="_blank" accidx="997" leaidx="422"
+								class="leaidx"><span></span>智能问答</a></li>
+						<li class="ico3"><a href="//www.dg.gov.cn/12345/" target="_blank"><span></span>
+								12345
+								<br>
+								政府热线
+							</a></li>
+
+						<li class="ico1" accidx="1004"><a href="//www.dg.gov.cn/wsxf/index.html" target="_blank"
+								accidx="1005" leaidx="426" class="leaidx"><span></span>网上信访</a></li>
+					</ul>
+					<div class="clear" accidx="1006" style=""></div>
+				</div>
+				<div class="wlwz_right" accidx="1007" style="">
+					<div class="zwgk_left2_title" accidx="1008"><span class="hover accbg" accidx="1009" style="">
+													</span>
+						<div class="clear" accidx="1011"></div>
+					</div>
+					
+					<div class="zjdc" accidx="1038">
+						<div class="zwgk_left2_title" accidx="1039">
+							<span class="hover accbg" id="survey2" onMouseOver="setTab(&#39;survey&#39;,2,4)"
+								accidx="1040" style="">
+								 <a href="https://www.dg.gov.cn/zmhd/zjdc/index.html" target="_blank" accidx="1041"
+										leaidx="438" class="leaidx">征集调查</a>							</span>
+							<div class="clear" accidx="1042"></div>
+						</div>
+						
+
+						<div id="con_survey_2">
+							<div id="myzj">
+								<div style="display:block">
+																			<dl>
+											<dd style="float:none; width:570px;"><a href="https://www.dg.gov.cn/hdjlpt/yjzj/answer/54260"
+													target="_blank">关于公开征求《东莞市实有人口登记服务条例（公开征求意见稿）》意见的公告</a>
+												<p accidx="992">征集时间：2026-11-25至
+													2026-12-24</p>
+											</dd>
+											<div class="clear"></div>
+										</dl>
+																			<dl>
+											<dd style="float:none; width:570px;"><a href="https://www.dg.gov.cn/hdjlpt/yjzj/answer/53043"
+													target="_blank">关于公开征求对《东莞市生活垃圾分类管理规定》《东莞市扬尘污染防治规定》两部市政府规章修正草案意见的公告</a>
+												<p accidx="992">征集时间：2026-09-22至
+													2026-10-22</p>
+											</dd>
+											<div class="clear"></div>
+										</dl>
+																			<dl>
+											<dd style="float:none; width:570px;"><a href="https://www.dg.gov.cn/hdjlpt/yjzj/answer/52958"
+													target="_blank">关于公开征集“2027年东莞市十件民生实事”意见建议的公告</a>
+												<p accidx="992">征集时间：2026-09-20至
+													2026-10-20</p>
+											</dd>
+											<div class="clear"></div>
+										</dl>
+																			<dl>
+											<dd style="float:none; width:570px;"><a href="https://www.dg.gov.cn/hdjlpt/yjzj/answer/52210"
+													target="_blank">关于《东莞市人民政府关于废止〈东莞市环境卫生管理规定〉的决定（征求意见稿）》公开征求意见的公告</a>
+												<p accidx="992">征集时间：2026-08-14至
+													2026-09-15</p>
+											</dd>
+											<div class="clear"></div>
+										</dl>
+																			<dl>
+											<dd style="float:none; width:570px;"><a href="https://www.dg.gov.cn/hdjlpt/yjzj/answer/52169"
+													target="_blank">关于公开征求对《东莞市一般工业固体废物管理办法（草案征求意见稿）》意见的公告</a>
+												<p accidx="992">征集时间：2026-08-12至
+													2026-09-14</p>
+											</dd>
+											<div class="clear"></div>
+										</dl>
+																	</div>
+	<style>
+		.zjdc dl dd p{margin-top:10px}
+	</style>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="clear" accidx="1052" style=""></div>
+				<a href="javascript:void(0)" target="_self" class="accnode accend"></a>
+			</div>
+			<div class="cen cen-height" id="con_nav_6" style="display: none;" accidx="1053" accana="18"
+				region="slist:视窗区17" acc="1"><a href="javascript:void(0)" target="_self" acckey="2"
+					class="accnode accstart acc2"></a>
+				<div class="zjdg" accidx="1054" style="">
+					<div class="zjdg_left" accidx="1055" style="">
+						<div class="zwgk_left2_title" accidx="1056" style=""><span class="hover accbg" accidx="1057"
+								style="">
+								 <a href="https://www.dg.gov.cn/zjdz/index.html" accidx="1058" leaidx="441"
+										class="leaidx">走进东莞</a>
+															</span>
+							<div class="clear" accidx="1059" style=""></div>
+						</div>
+						<div class="gk" accidx="1060" style="">
+															<dl id="con_zjdg_1" style="display: block;">
+									<dt accidx="1062"><img src="/images/zjdg.png" class="leaidx" tabindex="0" style="">
+									</dt>
+									<dd accidx="1064">
+										<text class="acctext leaidx" tabindex="0">
+
+
+											　　【境域】东莞市位于广东省中南部，地理坐标位于东经113°31′～114°15′，北纬22°3...
+										</text>
+										<a href="http://www.dg.gov.cn/zjdz/dzgk/zrdl/content/post_2824920.html" target="_blank" class="zc_more leaidx">[详细]</a>
+
+									</dd>
+								</dl>
+							
+							<dl id="con_zjdg_2" style="display:none;">
+																	<dt accidx="1062"><img src="/images/zjdg.png" class="leaidx" tabindex="0" style="">
+									</dt>
+									<dd accidx="1064">
+										<text class="acctext leaidx" tabindex="0">
+
+
+											镇街名称行政村（社区）个数行政村名称社区名称莞城街道8东正 市桥 北隅 西隅 罗沙 博厦 兴塘 ...
+										</text>
+										<a href="http://www.dg.gov.cn/zjdz/dzgk/xzqh/content/post_2824924.html " target="_blank" class="zc_more leaidx">[详细]</a>
+
+									</dd>
+							</dl>
+																						<dl id="con_zjdg_3" style="display:none;">
+									<dt accidx="1062"><img src="/images/zjdg.png " class="leaidx" tabindex="0" style="">
+									</dt>
+									<dd accidx="1064">
+										<text class="acctext leaidx" tabindex="0">
+
+
+											　　【建置沿革】东莞于东晋咸和六年（331）立县，初名宝安县，隶属东官郡。唐至德二年（757）更...
+										</text>
+										<a href="https://www.dg.gov.cn/zjdz/dzgk/jzyg/content/post_299364.html " target="_blank" class="zc_more leaidx">[详细]</a>
+
+									</dd>
+								</dl>
+																						<dl id="con_zjdg_4" style="display:none;">
+									<dt accidx="1062"><img src="/images/zjdg.png" class="leaidx" tabindex="0" style="">
+									</dt>
+									<dd accidx="1064">
+										<text class="acctext leaidx" tabindex="0">
+
+											　　2024年末全市户籍人口326.95万人。全年出生人口3.53万人，出生率为11.67‰；死...
+										</text>
+										<a href="https://www.dg.gov.cn/zjdz/dzgk/rkmzyy/content/post_4429536.html " target="_blank" class="zc_more leaidx">[详细]</a>
+
+									</dd>
+								</dl>
+							
+							<div class="gk_nav" accidx="1085">
+								<span class="hover" id="zjdg1" onMouseOver="setTab(&#39;zjdg&#39;,1,4)" accidx="1086">
+									<a href="https://www.dg.gov.cn/zjdz/dzgk/zrdl/index.html" target="_blank" accidx="1087"
+											leaidx="454" class="leaidx">自然地理</a>								</span>
+								<span id="zjdg2" onMouseOver="setTab(&#39;zjdg&#39;,2,4)" accidx="1088">
+									<a href="https://www.dg.gov.cn/zjdz/dzgk/xzqh/index.html" target="_blank" accidx="1089"
+											leaidx="455" class="leaidx">行政区划</a>								</span>
+								<span id="zjdg3" onMouseOver="setTab(&#39;zjdg&#39;,3,4)" accidx="1090">
+									<a href="https://www.dg.gov.cn/zjdz/dzgk/jzyg/index.html" target="_blank" accidx="1091"
+											leaidx="456" class="leaidx">建制沿革</a>								</span>
+								<span style="width:125px; border:0px;" id="zjdg4"
+									onMouseOver="setTab(&#39;zjdg&#39;,4,4)" accidx="1092">
+									<a href="https://www.dg.gov.cn/zjdz/dzgk/rkmzyy/index.html" target="_blank" accidx="1093"
+											leaidx="457" class="leaidx">人口·民族·语言</a>								</span>
+								<div class="clear" accidx="1094"></div>
+							</div>
+						</div>
+					</div>
+					<div class="zjdg_cen imgHover1" accidx="1093">
+						<div class="zwgk_left2_title" accidx="1094"><span class="hover accbg leaidx" accidx="1096"
+								accana="292" leaidx="457" tabindex="0" style="">城市特色</span>
+							<div class="clear" accidx="1097"></div>
+						</div>
+						<ul accidx="1098">
+
+															<li accidx="1099" accana="293"><a href="https://www.dg.gov.cn/zjdz/csts/yqjj/index.html" target="_blank"
+										accidx="1100" leaidx="458" class="leaidx">
+										<img src="/images/zjdg_img.png" accidx="1101" leaidx="459" class="leaidx"
+											tabindex="0" style="">
+										<span class="accbg leaidx" accidx="1103" leaidx="460" tabindex="0"
+											style="">园区经济</span></a></li>
+																						<li accidx="1104" accana="294"><a href="https://www.dg.gov.cn/zjdz/csts/zzmc/index.html" target="_blank"
+										accidx="1105" leaidx="461" class="leaidx">
+										<img src="/images/zjdg_img1.png" accidx="1106" leaidx="462" class="leaidx"
+											tabindex="0" style="">
+										<span class="accbg leaidx" accidx="1108" leaidx="463" tabindex="0"
+											style="">制造名城</span></a></li>
+																						<li accidx="1109" accana="295"><a href="https://www.dg.gov.cn/zjdz/csts/dzys/index.html" target="_blank"
+										accidx="1110" leaidx="464" class="leaidx">
+										<img src="/images/zjdg_img2.png" accidx="1111" leaidx="465" class="leaidx"
+											tabindex="0" style="">
+										<span class="accbg leaidx" accidx="1113" leaidx="466" tabindex="0"
+											style="">东莞元素</span></a></li>
+																						<li accidx="1114" accana="296"><a href="https://www.dg.gov.cn/zjdz/csts/whmc/index.html" target="_blank"
+										accidx="1115" leaidx="467" class="leaidx"><img src="/images/zjdg_img3.png"
+											accidx="1116" leaidx="468" class="leaidx" tabindex="0" style=""><span
+											class="accbg leaidx" accidx="1118" leaidx="469" tabindex="0"
+											style="">文化名城</span></a></li>
+																						<li accidx="1119" accana="297">
+									<a href="https://www.dg.gov.cn/zjdz/csts/myjj/index.html" target="_blank" accidx="1120" leaidx="470"
+										class="leaidx">
+										<img src="/images/zjdg_img4.png" accidx="1121" leaidx="471" class="leaidx"
+											tabindex="0" style="">
+										<span class="accbg leaidx" accidx="1123" leaidx="472" tabindex="0"
+											style="">民营经济</span></a>
+								</li>
+																						<li accidx="1124" accana="298"><a href="https://www.dg.gov.cn/zjdz/csts/mqmp/index.html" target="_blank"
+										accidx="1125" leaidx="473" class="leaidx"><img src="/images/zjdg_img5.png"
+											accidx="1126" leaidx="474" class="leaidx" tabindex="0" style=""><span
+											class="accbg leaidx" accidx="1128" leaidx="475" tabindex="0"
+											style="">名企名品</span></a></li>
+													</ul>
+					</div>
+				
+					<div class="clear" accidx="1131" style=""></div>
+				</div>
+				<div class="zjdg1" accidx="1132" style="">
+					<ul accidx="1133">
+						<li class="ico1" accidx="1134">
+							<a href="https://www.dg.gov.cn/zjdz/whdz/gjww/index.html" target="_blank" accidx="1135"
+									leaidx="477" class="leaidx"><span></span>古迹文物</a>						</li>
+						<li class="ico2" accidx="1136">
+							<a href="https://www.dg.gov.cn/zjdz/whdz/mjys/index.html" target="_blank" accidx="1137"
+									leaidx="478" class="leaidx"><span></span>民间艺术</a>						</li>
+						<li class="ico3" accidx="1138">
+							<a href="https://www.dg.gov.cn/zjdz/whdz/dztc/index.html" target="_blank" accidx="1139"
+									leaidx="479" class="leaidx"><span></span>东莞特产</a>						</li>
+						<li class="ico4" accidx="1140">
+							<a href="https://www.dg.gov.cn/zjdz/csts/dzzz/index.html" target="_blank" accidx="1141"
+									leaidx="480" class="leaidx"><span></span>东莞之最</a>						</li>
+						<li class="ico5" accidx="1142">
+							<a href="https://www.dg.gov.cn/zjdz/csts/hzmc/index.html" target="_blank" accidx="1143"
+									leaidx="481" class="leaidx"><span></span>会展名城</a>						</li>
+						<li class="ico6" accidx="1144">
+							<a href="https://www.dg.gov.cn/zjdz/whdz/zrzs/index.html" target="_blank" accidx="1145"
+									leaidx="482" class="leaidx"><span></span>莞人莞事</a>						</li>
+						<li class="ico7" accidx="1146">
+							<a href="https://www.dg.gov.cn/zjdz/whdz/ftrq/index.html" target="_blank" accidx="1147"
+									leaidx="483" class="leaidx"><span></span>风土人情</a>						</li>
+						<li class="ico8" accidx="1148">
+							<a href="https://www.dg.gov.cn/zjdz/csts/stlc/index.html" target="_blank" accidx="1149"
+									leaidx="484" class="leaidx"><span></span>生态绿城</a>						</li>
+					</ul>
+					<div class="clear" accidx="1150"></div>
+				</div>
+			</div>
+			<div class="cen home-rdzt" accidx="1151">
+			<div class="redzt" style="background:#C62D00;!important"><a href="https://www.dg.gov.cn/jjdz/rdzt/index.html" target="_blank"><b>热点专题</b></a></div>				<div id="news-zt" class="owl-carousel">
+											<div class="item">
+							<a href="https://dgepb.dg.gov.cn/ztlm/dslzyhjbhdczgd/dcxxjbd/index.html" target="_blank" title=" 第三轮中央生态环境保护督察在广东"><img src="https://www.dg.gov.cn/img/0/664/664657/4536322.png"/></a>
+						</div> 
+											<div class="item">
+							<a href="http://www.gd.gov.cn/hdjl/wjcjf/index.html" target="_blank" title=" 整治形式主义为基层减负"><img src="https://www.dg.gov.cn/img/0/594/594860/4364878.jpg"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://www.dg.gov.cn/ztzllm/tddgmsbgxhyjhx/" target="_blank" title=" 推动大规模设备更新和消费品以旧换新"><img src="https://www.dg.gov.cn/img/0/594/594859/4364876.jpg"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://dgdp.dg.gov.cn/ztzl/gthz/index.html" target="_blank" title=" 深化两岸创新发展合作"><img src="https://www.dg.gov.cn/img/0/594/594857/4364868.jpg"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://www.dg.gov.cn/qdml.html" target="_blank" title=" 政府信息主动公开基本目录清单"><img src="https://www.dg.gov.cn/img/0/594/594856/4364866.png"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://yst.gdzwfw.gov.cn/web/pc/?adt=YST_62001_gd" target="_blank" title=" 粤商通"><img src="https://www.dg.gov.cn/img/0/594/594855/4364862.png"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://www.dg.gov.cn/jjdz/ztzl/zwgksxbzml/" target="_blank" title=" 东莞市政务公开事项标准目录"><img src="https://www.dg.gov.cn/img/0/594/594854/4364861.jpg"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://www.dg.gov.cn/gkmlxt/gkml_nb.html" target="_blank" title=" 政府信息公开年度报告"><img src="https://www.dg.gov.cn/img/0/594/594852/4364860.png"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%9C%E8%8E%9E%E6%96%87%E6%98%8E%E7%BD%91" target="_blank" title=" 社会主义核心价值观"><img src="https://www.dg.gov.cn/img/0/594/594850/4364857.jpg"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://publicadv.timedg.com/adsite/" target="_blank" title=" 东莞市公益广告库"><img src="https://www.dg.gov.cn/img/0/594/594849/4364856.jpg"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://www.dg.gov.cn/12345/" target="_blank" title=" 东莞政府服务热线12345"><img src="https://www.dg.gov.cn/img/0/594/594848/4364855.png"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://credit.dg.gov.cn/" target="_blank" title=" 信用信息双公示"><img src="https://www.dg.gov.cn/img/0/594/594847/4364849.jpg"/></a>
+						</div> 
+											<div class="item">
+							<a href="https://libs.dg.gov.cn/code/xhtml/loading.html?from=%E6%95%B0%E6%8D%AE%E5%BC%80%E6%94%BE" target="_blank" title=" 数据公开"><img src="https://www.dg.gov.cn/img/0/594/594846/4364848.png"/></a>
+						</div> 
+									</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+<script>
+$('#news-zt').owlCarousel({
+ 		items: 1,
+ 		loop: true,
+ 		nav: true,
+ 		margin: 0,
+ 		responsive: {
+ 			580: {
+ 				items: 1,
+ 				margin: 0
+ 			},
+ 			900: {
+ 				items: 3,
+ 				margin: 20
+ 			}
+ 		},
+ 		navText: ['<i></i>', '<i></i>']
+ 	}
+
+ );
+ 
+</script>
+		<script type="text/javascript" src="/js/web_index_quick_links.js"></script>
+		<!-- 首页js -->
+		<script type="text/javascript" src="/js/index.js"></script>
+		<!--引入尾部-->
+		 <script>/* JumpCodeAbort. */</script>
+ <div class="footer accelem" accidx="1154" accana="19" region="slist:视窗区18" acc="1" style="transform: none; transform-origin: 0px 0px;"><a href="javascript:void(0)" target="_self" acckey="2" class="accnode accstart acc2"></a>
+        	<div class="mar" accidx="1155">
+            	<div class="footer_nav" accidx="1156">
+                	<ul accidx="1157">
+                    	<li onclick="show_div(&#39;1&#39;)" style="display: none;" accidx="1158"></li>
+                    	<li class="unnewdh accbg leaidx" id="menu_2" onclick="show_div(&#39;2&#39;)" accidx="1160" leaidx="485" tabindex="0">省及省内地市</li>
+                      	<li class="unnewdh accbg leaidx" id="menu_3" onclick="show_div(&#39;3&#39;)" accidx="1162" leaidx="486" tabindex="0">党委系统</li>
+                    	<li class="unnewdh accbg leaidx" id="menu_4" onclick="show_div(&#39;4&#39;)" accidx="1164" leaidx="487" tabindex="0">政府系统</li>
+                    	<li class="unnewdh accbg leaidx" id="menu_5" onclick="show_div(&#39;5&#39;)" accidx="1166" leaidx="488" tabindex="0">人大政协法院检察</li>
+                    	<li class="unnewdh accbg leaidx" id="menu_6" onclick="show_div(&#39;6&#39;)" accidx="1168" leaidx="489" tabindex="0">中央省驻莞单位</li>
+                    	<li class="unnewdh accbg leaidx" id="menu_7" onclick="show_div(&#39;7&#39;)" accidx="1170" leaidx="490" tabindex="0">镇街园区</li>
+                    </ul>
+                    <div class="clear" accidx="1171"></div>
+                </div>
+                <div id="div_1" style="display:block; height:0px;" class="mar" accidx="1172"></div>
+                <div id="div_2" style="display: none;" class="mar link_1" accidx="1173" accunique="1">
+                	<ul accidx="1174">
+                      <li accidx="1175"> <a href="http://www.gd.gov.cn/" target="_blank" accidx="1176" leaidx="491" class="leaidx">广东省人民政府</a></li>
+                      <li accidx="1177"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E5%B9%BF%E5%B7%9E" target="_blank" accidx="1178" leaidx="492" class="leaidx">广州</a></li>
+  <li accidx="1179"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%B7%B1%E5%9C%B3" target="_blank" accidx="1180" leaidx="493" class="leaidx">深圳</a></li>
+  <li accidx="1181"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E7%8F%A0%E6%B5%B7" target="_blank" accidx="1182" leaidx="494" class="leaidx">珠海</a></li>
+  <li accidx="1183"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%B1%95%E5%A4%B4" target="_blank" accidx="1184" leaidx="495" class="leaidx">汕头</a></li>
+  <li accidx="1185"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E4%BD%9B%E5%B1%B1" target="_blank" accidx="1186" leaidx="496" class="leaidx">佛山</a></li>
+  <li accidx="1187"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E9%9F%B6%E5%85%B3" target="_blank" accidx="1188" leaidx="497" class="leaidx">韶关</a></li>
+  <li accidx="1189"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%B2%B3%E6%BA%90" target="_blank" accidx="1190" leaidx="498" class="leaidx">河源</a></li>
+  <li accidx="1191"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%A2%85%E5%B7%9E" target="_blank" accidx="1192" leaidx="499" class="leaidx">梅州</a></li>
+  <li accidx="1193"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%83%A0%E5%B7%9E" target="_blank" accidx="1194" leaidx="500" class="leaidx">惠州</a></li>
+  <li accidx="1195"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%B1%95%E5%B0%BE" target="_blank" accidx="1196" leaidx="501" class="leaidx">汕尾</a></li>
+                   <li accidx="1197"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E4%B8%AD%E5%B1%B1" target="_blank" accidx="1198" leaidx="502" class="leaidx">中山</a></li>
+   <li accidx="1199"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%B1%9F%E9%97%A8" target="_blank" accidx="1200" leaidx="503" class="leaidx">江门</a></li>
+   <li accidx="1201"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E9%98%B3%E6%B1%9F" target="_blank" accidx="1202" leaidx="504" class="leaidx">阳江</a></li>
+   <li accidx="1203"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%B9%9B%E6%B1%9F" target="_blank" accidx="1204" leaidx="505" class="leaidx">湛江</a></li>
+   <li accidx="1205"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E8%8C%82%E5%90%8D" target="_blank" accidx="1206" leaidx="506" class="leaidx">茂名</a></li>
+   <li accidx="1207"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E8%82%87%E5%BA%86" target="_blank" accidx="1208" leaidx="507" class="leaidx">肇庆</a></li>
+   <li accidx="1209"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%B8%85%E8%BF%9C" target="_blank" accidx="1210" leaidx="508" class="leaidx">清远</a></li>
+   <li accidx="1211"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%BD%AE%E5%B7%9E" target="_blank" accidx="1212" leaidx="509" class="leaidx">潮州</a></li>
+   <li accidx="1213"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E6%8F%AD%E9%98%B3" target="_blank" accidx="1214" leaidx="510" class="leaidx">揭阳</a></li>
+   <li accidx="1215"> <a href="http://libs.dg.gov.cn/code/xhtml/url.html?from=%E4%BA%91%E6%B5%AE" target="_blank" accidx="1216" leaidx="511" class="leaidx">云浮</a></li>
+                  </ul>
+  <div class="clear" accidx="1217"></div>
+                </div>
+                <div id="div_3" style="display:none;" class="mar link_1" accidx="1218">
+                	<ul accidx="1219">
+                  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%BA%AA%E5%BE%8B%E6%A3%80%E6%9F%A5%E5%A7%94%E5%91%98%E4%BC%9A%EF%BC%88%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%9B%91%E5%AF%9F%E5%A7%94%E5%91%98%E4%BC%9A%EF%BC%89" target="_blank">中共东莞市纪律检查委员会（东莞市监察委员会）</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A7%94%E5%8A%9E%E5%85%AC%E5%AE%A4" target="_blank">中共东莞市委办公室</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A7%94%E7%BB%84%E7%BB%87%E9%83%A8" target="_blank">中共东莞市委组织部</a></li>
+
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%9B%BD%E5%AE%B6%E4%BF%9D%E5%AF%86%E5%B1%80" target="_blank">市国家保密局</a></li>
+ 
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A7%94%E5%AE%A3%E4%BC%A0%E9%83%A8" target="_blank">中共东莞市委宣传部</a></li>
+                        <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A7%94%E7%BB%9F%E6%88%98%E9%83%A8" target="_blank">中共东莞市委统战部</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%9C%E8%8E%9E%E6%8A%A5%E4%B8%9A%E4%BC%A0%E5%AA%92%E9%9B%86%E5%9B%A2" target="_blank">东莞报业传媒集团</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%9C%E8%8E%9E%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%8F%B0" target="_blank">东莞广播电视台</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%9B%B4%E5%B1%9E%E6%9C%BA%E5%85%B3%E5%B7%A5%E4%BD%9C%E5%A7%94%E5%91%98%E4%BC%9A" target="_blank">中共东莞市直属机关工作委员会</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A7%94%E5%8F%B0%E6%B9%BE%E5%B7%A5%E4%BD%9C%E5%8A%9E%E5%85%AC%E5%AE%A4" target="_blank">中共东莞市委台港澳工作办公室</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A7%94%E5%85%9A%E6%A0%A1" target="_blank">中共东莞市委党校</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E6%A1%A3%E6%A1%88%E9%A6%86" target="_blank">市档案馆</a></li>
+    <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%AD%E5%85%B1%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A7%94%E5%A4%96%E4%BA%8B%E5%B7%A5%E4%BD%9C%E5%A7%94%E5%91%98%E4%BC%9A%E5%8A%9E%E5%85%AC%E5%AE%A4" target="_blank">中共东莞市委外事工作委员会办公室</a></li>
+        <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%BA%BA%E6%B0%91%E9%98%B2%E7%A9%BA%E5%8A%9E%E5%85%AC%E5%AE%A4" target="_blank">市人民防空办公室</a></li>     
+                      
+                       
+                  
+                  
+                  
+                  </ul>
+  <div class="clear" accidx="1252"></div>
+                </div>
+                <div id="div_4" style="display:none;" class="mar link" accidx="1253">
+                <ul accidx="1254">
+  <li><a href="http://www.dg.gov.cn/" target="_blank">市人民政府办公室</a></li>
+ 
+   <li><a href="https://www.dg.gov.cn/dfz/index.html" target="_blank">市人民政府地方志办公室</a></li>  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%8F%91%E5%B1%95%E5%92%8C%E6%94%B9%E9%9D%A9%E5%B1%80" target="_blank">市发展和改革局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80" target="_blank">市教育局</a></li>
+    <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%B1%80" target="_blank">市科学技术局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%B7%A5%E4%B8%9A%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%B1%80" target="_blank">市工业和信息化局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%85%AC%E5%AE%89%E5%B1%80" target="_blank">市公安局</a></li>
+
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E6%B0%91%E6%94%BF%E5%B1%80" target="_blank">市民政局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%8F%B8%E6%B3%95%E5%B1%80" target="_blank">市司法局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E8%B4%A2%E6%94%BF%E5%B1%80" target="_blank">市财政局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E5%92%8C%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C%E5%B1%80" target="_blank">市人力资源和社会保障局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E8%87%AA%E7%84%B6%E8%B5%84%E6%BA%90%E5%B1%80" target="_blank">市自然资源局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%B8%8D%E5%8A%A8%E4%BA%A7%E7%99%BB%E8%AE%B0%E4%B8%AD%E5%BF%83" target="_blank">市不动产登记中心</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E7%94%9F%E6%80%81%E7%8E%AF%E5%A2%83%E5%B1%80" target="_blank">市生态环境局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%BD%8F%E6%88%BF%E5%92%8C%E5%9F%8E%E4%B9%A1%E5%BB%BA%E8%AE%BE%E5%B1%80" target="_blank">市住房和城乡建设局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E5%B1%80" target="_blank">市交通运输局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%85%AC%E8%B7%AF%E7%AE%A1%E7%90%86%E5%B1%80" target="_blank">东莞市公路事务中心</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E6%B0%B4%E5%8A%A1%E5%B1%80" target="_blank">市水务局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%86%9C%E4%B8%9A%E5%86%9C%E6%9D%91%E5%B1%80" target="_blank">市农业农村局</a></li>
+   <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%95%86%E5%8A%A1%E5%B1%80" target="_blank">市商务局</a></li>
+   <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%A4%96%E5%95%86%E6%8A%95%E8%B5%84%E4%BF%83%E8%BF%9B%E4%B8%AD%E5%BF%83" target="_blank">市外商投资促进中心</a></li>
+    <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E6%96%87%E5%8C%96%E5%B9%BF%E7%94%B5%E6%97%85%E6%B8%B8%E4%BD%93%E8%82%B2%E5%B1%80" target="_blank">市文化广电旅游体育局</a></li>
+     <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%B1%80" target="_blank">市卫生健康局</a></li>
+     <li><a href="http://www.dg.gov.cn/tyjrj/" target="_blank">市退役军人事务局</a></li>
+   <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%BA%94%E6%80%A5%E7%AE%A1%E7%90%86%E5%B1%80" target="_blank">市应急管理局</a></li>
+   <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%AE%A1%E8%AE%A1%E5%B1%80" target="_blank">市审计局</a></li>
+   <li><a href="https://www.dg.gov.cn/gzw/index.html" target="_blank">市人民政府国有资产监督管理委员会</a></li>   <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%B8%82%E5%9C%BA%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%80%EF%BC%88%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%B1%80%EF%BC%89" target="_blank">市市场监督管理局</a></li>
+   <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E7%BB%9F%E8%AE%A1%E5%B1%80" target="_blank">市统计局</a></li>
+    <li><a href="https://www.dg.gov.cn/ylbzj/index.html" target="_blank">市医疗保障局</a></li>     <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E9%87%91%E8%9E%8D%E5%B7%A5%E4%BD%9C%E5%B1%80" target="_blank">市地方金融管理局</a></li>
+     <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%9F%8E%E5%B8%82%E7%AE%A1%E7%90%86%E5%92%8C%E7%BB%BC%E5%90%88%E6%89%A7%E6%B3%95%E5%B1%80" target="_blank">市城市管理和综合执法局</a></li>
+    <li><a href="https://www.dg.gov.cn/wsxf/index.html" target="_blank">市信访局</a></li> 
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E6%9E%97%E4%B8%9A%E5%B1%80" target="_blank">市林业局</a></li>
+   <li><a href="http://gdjt.dg.gov.cn/" target="_blank">市轨道交通局</a></li>
+   <li><a href="http://www.dg.gov.cn/dgipb/" target="_blank">市投资促进局</a></li>
+ <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E5%9F%8E%E5%BB%BA%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B1%80" target="_blank">市城建工程管理局</a></li>
+ <li><a href="https://www.dg.gov.cn/dgcoop/index.html" target="_blank">市供销合作联社</a></li> 
+                
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83" target="_blank">市住房公积金管理中心</a></li>
+  <li><a href="https://www.dg.gov.cn/ccpit/index.html" target="_blank">中国国际贸易促进委员会东莞市委员会</a></li>  
+</ul>
+  <div class="clear" accidx="1351"></div>
+                </div>
+                <div id="div_5" style="display:none;" class="mar link" accidx="1352">
+                <ul accidx="1353">
+  <li accidx="1354"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%BA%BA%E5%A4%A7" target="_blank" accidx="1355" leaidx="576" class="leaidx">市人大</a></li>
+  <li accidx="1356"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E6%94%BF%E5%8D%8F" target="_blank" accidx="1357" leaidx="577" class="leaidx">市政协</a></li>
+  <li accidx="1358"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%B8%AD%E7%BA%A7%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2" target="_blank" accidx="1359" leaidx="578" class="leaidx">市中级人民法院</a></li>
+  <li accidx="1360"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2" target="_blank" accidx="1361" leaidx="579" class="leaidx">第一人民法院</a></li>
+  <li accidx="1362"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E7%AC%AC%E4%BA%8C%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2" target="_blank" accidx="1363" leaidx="580" class="leaidx">第二人民法院</a></li>
+  <li accidx="1364"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E7%AC%AC%E4%B8%89%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2" target="_blank" accidx="1365" leaidx="581" class="leaidx">第三人民法院</a></li>
+  <li accidx="1366"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E4%BA%BA%E6%B0%91%E6%A3%80%E5%AF%9F%E9%99%A2" target="_blank" accidx="1367" leaidx="582" class="leaidx">市人民检察院</a></li>
+  <li accidx="1368"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E7%AC%AC%E4%B8%80%E5%B8%82%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%A3%80%E5%AF%9F%E9%99%A2" target="_blank" accidx="1369" leaidx="583" class="leaidx">第一市区人民检察院</a></li>
+  <li accidx="1370"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%A3%80%E5%AF%9F%E9%99%A2" target="_blank" accidx="1371" leaidx="584" class="leaidx">第二市区人民检察院</a></li>
+  <li accidx="1372"><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E7%AC%AC%E4%B8%89%E5%B8%82%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%A3%80%E5%AF%9F%E9%99%A2" target="_blank" accidx="1373" leaidx="585" class="leaidx">第三市区人民检察院</a></li>
+</ul>
+  <div class="clear" accidx="1374"></div>
+                </div>
+                <div id="div_6" style="display:none;" class="mar link" accidx="1375">
+               <ul accidx="1376">
+ <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E7%A8%8E%E5%8A%A1%E5%B1%80" target="_blank">市税务局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E5%B8%82%E9%82%AE%E6%94%BF%E7%AE%A1%E7%90%86%E5%B1%80" target="_blank">市邮政管理局</a></li>
+  <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%9C%E8%8E%9E%E7%94%B5%E4%BF%A1" target="_blank">东莞电信</a></li>
+  
+</ul>
+  <div class="clear" accidx="1389"></div>
+                </div>
+               <div id="div_7" style="display:none; width: 1200px;" class="mar dhzj" accidx="1378" >
+                <div class="lkjj2" accidx="1379">
+                <ul accidx="1380">
+  <li accidx="1381">
+  <div class="tbt hui6 leaidx" accidx="1383" accana="409" leaidx="586" tabindex="0">城区片区</div>
+  <div class="lbqh" accidx="1384">
+  <ul>
+    <li><a href="https://www.dg.gov.cn/dongcheng/index.html" target="_blank">东城街道</a> </li>    <li><a href="https://www.dg.gov.cn/nancheng/index.html" target="_blank">南城街道</a></li>    <li><a href="https://www.dg.gov.cn/guancheng/index.html" target="_blank">莞城街道</a></li>    <li><a href="https://www.dg.gov.cn/wanjiang/index.html" target="_blank">万江街道</a></li>    <li><a href="http://www.dg.gov.cn/gaobu" target="_blank">高埗镇</a></li>    <li><a href="https://www.dg.gov.cn/shijie/index.html" target="_blank">石碣镇</a></li>    <li><a href="https://www.dg.gov.cn/shilong/index.html" target="_blank">石龙镇</a></li>  </ul>
+  <div class="clear" accidx="1398"></div>
+  </div>
+  </li>
+  <li accidx="1399">
+  <div class="tbt hui6 leaidx" accidx="1401" accana="416" leaidx="593" tabindex="0">松山湖片区</div>
+  <div class="lbqh" accidx="1402">
+  <ul>
+    <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E6%9D%BE%E5%B1%B1%E6%B9%96(%E7%94%9F%E6%80%81%E5%9B%AD)" target="_blank"> 松山湖高新区</a></li>
+    <li><a href="https://www.dg.gov.cn/liaobu/index.html" target="_blank">寮步镇</a></li>    <li><a href="https://www.dg.gov.cn/dalang/index.html" target="_blank">大朗镇</a></li>    <li><a href="https://www.dg.gov.cn/dalingshan/index.html" target="_blank">大岭山镇</a></li>    <li><a href="https://www.dg.gov.cn/chashan/index.html" target="_blank">茶山镇</a></li>    <li><a href="https://www.dg.gov.cn/dk/index.html" target="_blank">东坑镇</a></li>    <li><a href="https://www.dg.gov.cn/hj/index.html" target="_blank">黄江镇</a></li>  </ul>
+  <div class="clear" accidx="1418"></div>
+  </div>
+  </li>
+  <li accidx="1419">
+  <div class="tbt hui6 leaidx" accidx="1421" accana="424" leaidx="601" tabindex="0">滨海湾片区</div>
+  <div class="lbqh" accidx="1422">
+  <ul>
+    <li><a href="http://libs.dg.gov.cn/code/xhtml/loading.html?from=%E4%B8%9C%E8%8E%9E%E6%BB%A8%E6%B5%B7%E6%B9%BE%E6%96%B0%E5%8C%BA%E7%BD%91%E7%AB%99" target="_blank">滨海湾新区</a></li>
+    <li><a href="https://www.dg.gov.cn/changan/index.html" target="_blank">长安镇</a></li>    <li><a href="https://www.dg.gov.cn/shatian/index.html" target="_blank">沙田镇</a></li>    <li><a href="https://www.dg.gov.cn/humen/index.html" target="_blank">虎门镇</a></li>    <li><a href="https://www.dg.gov.cn/houjie/index.html" target="_blank">厚街镇</a></li>  </ul>
+  <div class="clear" accidx="1434"></div>
+  </div>
+  </li>
+  <li accidx="1435">
+  <div class="tbt hui6 leaidx" accidx="1437" accana="430" leaidx="607" tabindex="0">水乡新城片区</div>
+  <div class="lbqh" accidx="1438">
+  <ul>
+    <li><a href="http://dgsx.dg.gov.cn/" target="_blank">水乡经济区</a></li>
+    <li><a href="https://www.dg.gov.cn/daojiao/index.html" target="_blank">道滘镇</a></li>    <li><a href="https://www.dg.gov.cn/machong/index.html" target="_blank">麻涌镇</a></li>    <li><a href="https://www.dg.gov.cn/wnd/index.html" target="_blank">望牛墩镇</a></li>    <li><a href="https://www.dg.gov.cn/hongmei/index.html" target="_blank">洪梅镇</a></li>    <li><a href="https://www.dg.gov.cn/zhongtang/index.html" target="_blank">中堂镇</a></li>  </ul>
+  <div class="clear" accidx="1450"></div>
+  </div>
+  </li>
+  <li accidx="1451">
+  <div class="tbt hui6 leaidx" accidx="1453" accana="436" leaidx="613" tabindex="0">东部产业园片区</div>
+  <div class="lbqh" accidx="1454">
+   <ul>
+    <li><a href="https://www.dg.gov.cn/cp/index.html" target="_blank">常平镇</a></li>    <li><a href="https://www.dg.gov.cn/hengli/index.html" target="_blank">横沥镇</a></li>    <li><a href="https://www.dg.gov.cn/xiegang/index.html" target="_blank">谢岗镇</a></li>    <li><a href="https://www.dg.gov.cn/qiaotou/index.html" target="_blank">桥头镇</a></li>    <li><a href="https://www.dg.gov.cn/qishi/index.html" target="_blank">企石镇</a></li>    <li><a href="https://www.dg.gov.cn/shipai/index.html" target="_blank">石排镇</a></li>  </ul>
+  <div class="clear" accidx="1470"></div>
+  </div>
+  </li>
+  <li accidx="1471">
+  <div class="tbt hui6 leaidx" accidx="1473" accana="444" leaidx="621" tabindex="0">东南临深片区</div>
+  <div class="lbqh" accidx="1474">
+   <ul>
+    <li><a href="https://www.dg.gov.cn/tangxia/index.html" target="_blank">塘厦镇</a></li>    <li><a href="https://www.dg.gov.cn/qingxi/index.html" target="_blank">清溪镇</a></li>    <li><a href="https://www.dg.gov.cn/fg/index.html" target="_blank">凤岗镇</a></li>    <li><a href="https://www.dg.gov.cn/zmt/index.html" target="_blank">樟木头镇</a></li>  </ul>
+  <div class="clear" accidx="1484"></div>
+  </div>
+  </li>
+</ul>
+            </div>
+                </div>
+               <div class="footer_div" accidx="1431">
+                	<div class="dzjg" accidx="1432">
+                    	<div class="dzjg_div" accidx="1433"><span id="_ideConac" accidx="1435"><a href="//bszs.conac.cn/sitename?method=show&amp;id=44123BF629A71D89E053022819ACC4F4" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="/images/red.png" data-bd-imgshare-binded="1"></a></span><script src="//dcs.conac.cn/js/20/304/0000/60099564/CA203040000600995640001.js" type="text/javascript" accidx="1436"></script><span id="_ideConac"></span></div>
+                        <div class="zc">
+                      <script id="_jiucuo_" sitecode="4419000098" src="//pucha.kaipuyun.cn/exposure/jiucuo.js"></script>
+                        </div>
+                        <div class="fooder_slhbg"><a><img src="/images/slh_tb.png"></a></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="footer_cen">
+                    	 主办单位：东莞市人民政府办公室&nbsp;&nbsp;承办：东莞市政务服务和数据管理局&nbsp;&nbsp;网站标识码 : 4419000098<br>
+                         <a href="http://beian.miit.gov.cn/">备案号：粤ICP备19114884号</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44190002000375" target="_blank"><img src="/images/tb.png">粤公网安备 44190002000375号</a>&nbsp;&nbsp;技术支持：开普云&nbsp;&nbsp;
+                         <a href="https://www.dg.gov.cn/ymys/tydb/wzdt/index.html" target="_blank">网站地图</a>&nbsp;&nbsp;
+                              
+
+<a href="https://www.dg.gov.cn/ymys/tydb/content/post_347180.html" target="_blank" accidx="80" leaidx="21" class="leaidx">联系我们</a>                    </div>
+                    
+                    <div class="clear"></div>
+                </div>
+              <div style="display:none;" accidx="1530">
+ <a href="https://www.cnzz.com/stat/website.php?web_id=1260766440" target="_blank" title="站长统计" accidx="1533" leaidx="644" class="leaidx">站长统计</a>
+  <script language="JavaScript" accidx="1534">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10000418" src="/js/10000418.js" accidx="1535"></script></div>
+<!-- 非本域名链接跳转弹窗 开始-->
+
+<style accidx="1536">
+.alert-mengban{position: fixed;top: 0px;left: 0px;z-index: 1000;background: #ccc;opacity: 0.8 !important;filter: alpha(opacity=80) !important;width: 100%;height: 100%;display: none;}
+.alert-warning{position: fixed;left: 50%;top:-400px;margin-left:-300px; width: 600px;height: 160px;background:#fff;z-index: 1001;display: none;}
+.alert-delete{width: 100%;height: 38px;position: relative;}
+
+.alert-delete span{position: absolute;top:10px;right: 10px; width: 19px;height: 19px;background: url(/images/2018_delete.png) center center no-repeat;cursor:pointer;}
+.alert-wzsm{width: 560px;height: 30px;margin: 0px auto 0; line-height: 35px;font-size: 18px;color: #000;text-align: center;font-family:"Microsoft YaHei"; padding-bottom: 15px;}
+.alert-wzsm p{font-size:18px;font-family:"Microsoft YaHei";}
+.alert-footer{width: 100%; font-size: 16px;color: #000;}
+.alert-footer span{cursor: pointer;float: left;font-family:"Microsoft YaHei";}
+.continue{width: 124px;height: 30px;display:inline-table; background-color:#347bd7;border:2px solid;border-radius:25px; color:#FFFFFF; text-align:center; line-height:30px;}
+.fangqi{line-height: 30px;font-size: 16px;color: #347bd7;margin-left: 30px;}
+.xuanze{width: 210px;height: 42px;margin: 13px auto 0;}
+@media only screen and (max-width: 414px) {
+.alert-warning{position: fixed;left:2%;top:-400px;margin-left:0; width: 96%;height: auto;background: #fff;background-size: 100%; z-index: 1001;}
+.alert-wzsm{width: 80%;height: auto;margin: 15px auto 0; line-height: 28px;font-size: 18px;color: #000;text-align: center; }
+.alert-wzsm p{font-size:18px;}
+.alert-footer{width: 100%; height: 70px;line-height: 70px;font-size: 18px;color: white;margin-top: 10px;}
+.continue{ width: 124px;height: 30px;background-size: 100%; display:inline-table; background-color:#000099;}
+}
+</style>
+
+<a id="hash" href="javascript:void(0)" onclick="return false;" accidx="1537" leaidx="645" class="leaidx"></a>
+<div class="alert-warning accalpha" accidx="1538">
+	<div class="alert-delete" accidx="1539">
+		<span id="closets" accidx="1540" style=""></span>
+	</div>
+	<div class="alert-wzsm" accidx="1541">
+		<p accidx="1543" leaidx="646" class="leaidx" tabindex="0">您访问的链接即将离开“东莞市人民政府”门户网站，是否继续？</p>
+		<p id="outUrl" style="display: none" accidx="1544"></p>
+	</div>
+	<div class="alert-footer" accidx="1545">
+		<div class="xuanze" accidx="1546">
+			<span class="continue leaidx" onclick="window.open(outUrl.innerText);document.getElementById(&#39;closets&#39;).click();" accidx="1548" leaidx="647" tabindex="0">继续访问</span>
+			<span class="fangqi leaidx" accidx="1550" leaidx="648" tabindex="0">放弃</span>
+		</div>
+	</div>
+</div>
+<div class="alert-mengban accalpha" accidx="1551"></div>
+<div class="Whidden" style="display:none" accidx="1552">
+</div>
+<script accidx="1553">
+	$("a").each(function() {
+		var htm = $(this).html();
+		$(this).click(function() {
+			if (this.href != "" && this.href.toLowerCase().indexOf("javascript") == -1 && this.href.toLowerCase().indexOf(".gov") == -1 && this.href.toLowerCase().indexOf("sun0769") == -1 && this.href.toLowerCase().indexOf("zwgk.dg.gov.cn") == -1 && this.href.toLowerCase().indexOf("yjx.dg.gov.cn") == -1 && this.href.toLowerCase().indexOf("javascript:next") == -1) {
+				document.getElementById('outUrl').innerText = this.href;
+				document.getElementById('hash').click();
+				$(".alert-mengban").fadeIn(200);
+				$(".alert-warning").delay(200).show().animate({
+					top: "200px"
+				}, 300);
+				$("#closets,.fangqi,.alert-mengban").click(function() {
+					$(".alert-warning").animate({
+						top: "-400px"
+					}, 200).hide(300);
+					$(".alert-mengban").delay(300).fadeOut(300);
+				});
+				$(".continue").click(function() {
+					$(".alert-warning").hide(200);
+					$(".alert-mengban").delay(200).fadeOut(200);
+				})
+				return false;
+			}
+		});
+	});
+</script>
+<!-- 非本域名链接跳转弹窗 结束-->
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5d1821d67b05a49f8836c03f5f3656b3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+		<!-- en -->
+		<div class="m-wza-wp" style="display: none;top:160px"><a href="//www.dongguantoday.com/mobile_11839.shtml" class="m-wza">
+		<img src="/images/en_ico.png" alt="ico" style="width:30px;top:0"></a></div>
+
+		<a href="javascript:void(0)" target="_self" class="accnode accend"></a></div>
+		<link rel="stylesheet" type="text/css" href="/css/index-base.css">
+		<script type="text/javascript" src="/js/common.js"></script>
+		<script type="text/javascript" accidx="1557" class="accelem"
+			style="transform: none; transform-origin: 0px 0px;">
+			//var unreadNewMsgUrl = "//sc.chinaz.com";
+			//Dialog icon base path
+			ds.Dialog.defaults.iconBasePath = 'images/';
+
+			function showInfoTip(content, type, onhide) {
+				var icons = {
+					success: 'success.png',
+					info: 'info.png'
+				};
+				var icon = icons[type] || 'error.png';
+				return ds.dialog({
+					title: '消息提示',
+					content: content,
+					onhide: onhide,
+					onyes: true,
+					icon: icon,
+					timeout: 3,
+					width: 200
+				});
+			}
+		</script>
+		<!---------图片新闻---------->
+		
+	<script language="javascript" accidx="1558" class="accelem" style="transform: none; transform-origin: 0px 0px;">
+			var menu = ['menu_1', 'menu_2', 'menu_3', 'menu_4', 'menu_5', 'menu_6', 'menu_7'];
+			var arra = ['div_1', 'div_2', 'div_3', 'div_4', 'div_5', 'div_6', 'div_7'];
+
+			function show_div(id) {
+				if (id == 1) {
+					for (var i = 1; i < arra.length; i++) {
+						document.getElementById(arra[i]).style.display = 'none';
+						document.getElementById(menu[i]).className = 'unnewdh';
+					}
+				} else {
+					var classname = document.getElementById('menu_' + id).className;
+					for (var i = 1; i < arra.length; i++) {
+						document.getElementById(arra[i]).style.display = 'none';
+						document.getElementById(menu[i]).className = 'unnewdh';
+					}
+					if (classname == "unnewdh") {
+						document.getElementById('div_' + id).style.display = '';
+						document.getElementById('menu_' + id).className = 'newdh';
+					}
+				}
+			}
+		</script>
+
+
+
+
+
+	</body>
+	
+	
+	
+		<script>window.NFCMS_SITE_ID=769001;window.NFCMS_PUB_TYPE="page";window.NFCMS_PAGE_ID="42";</script><script src="//statistics.gd.gov.cn/scripts/s.js?t=1795530206" async></script>
+</html>
