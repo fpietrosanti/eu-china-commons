@@ -4,14 +4,14 @@
 
 ## 0. What it is and how we treat it
 
-- **The document.** *China's Open-Source Technology: Landscape and History. A report on China's digital technology value chain*, dated November 2026, 149 pages, English. The file was shared with the project as "China Technology Autonomy and Open-Source Substitution.pdf" (SHA-256 `36f38fd9…6ad`). It names no author or institution and gives no publication URL.
+- **The document.** *China's Open-Source Technology: Landscape and History. A report on China's digital technology value chain*, dated November 2026, 149 pages, English. The file was shared with the project as "China Technology Autonomy and Open-Source Substitution.pdf" (SHA-256 `36f38fd9…6ad`). The PDF itself names no author or institution. It is published here with the author's permission (Ian, 24 Nov 2026).
 - **Scope.**
   - 7 historical periods (1994–2026) and 7 technology layers plus 2 cross-cutting themes, divided into 117 areas.
   - **504 projects**: 250 Chinese open source, 106 Chinese commercial, 112 international upstreams and 36 standards.
   - 26 named cases, 8 "dependency chains", 21 project profiles, and a funding and substitution chapter.
   - GitHub and Gitee repository data collected on **2026-11-22**.
-- **Where it is kept.** The PDF and the extracted data (`projects.tsv` and `labelled_links.tsv` with 741 links) are stored privately on the server (`/home/euchina/private/ian-report/`). We do not redistribute them until the author gives permission.
-- **Evidence level.** The report is a single secondary source with no stated author, so it is level **C** ("reported by…"). It links almost every claim to a primary source, so verification is cheap. We archived 55 of its primary sources in `sources/archive/`, and we upgrade a claim to A or B only after reading the archived original.
+- **Where it is.** The PDF and the extracted data are in [`data/external/cn-oss-landscape-2026-11/`](../data/external/cn-oss-landscape-2026-11/): `projects.tsv`/`.json` hold the 504 projects and `sources.tsv` the 741 links. On the site they are at [/data/](https://eu-china-commons.eu/data/).
+- **Evidence level.** The report is a single secondary source, and its author is not named in the PDF, so it is level **C** ("reported by…"). It links almost every claim to a primary source, so verification is cheap. We archived 55 of its primary sources in `sources/archive/`, and we upgrade a claim to A or B only after reading the archived original.
 - **Overlap with our repo.**
   - **Links:** 107 of its 741 unique links are already cited in the repo. Of the 634 new ones, 292 are not code repositories.
   - **Projects:** 93 of its 250 Chinese open-source projects are already mentioned, and **157 are new to us**; the list is in §6.
@@ -25,7 +25,7 @@
 - Its tone is non-adversarial and analytic, and it consistently separates deployment evidence from activity metrics. This matches our methodology.
 
 **Limits and points to check**
-1. **Authorship and status unknown.** We cannot cite it as B until we know who wrote it and whether it is published.
+1. **Authorship not stated in the PDF.** It can be cited as grey literature once the author's full name and affiliation are added.
 2. **Policy coverage is thin below the national level.**
    - It cites one Beijing measure (2026-05) and otherwise refers generically to "Beijing, Shanghai, Shenzhen and other cities".
    - Our multilevel registry (R03) is far deeper here.
@@ -193,7 +193,7 @@ Each item below needs a primary check before it enters `data/cooperation/eu-cn.j
 | 17.9 | **Open chip education bridge** | IHP's open PDK (EU) set against One Student One Chip and XiangShan: a neutral-ground education pilot | Contact IHP / Chips JU and OSCC; check export-control limits for mature nodes | E3, B4 | Low–Med |
 | 17.10 | **Industrial standards** | AAS/BaSyx vs Chinese industrial data (IoTDB); Oniro vs Dianhong/OpenHarmony industry use | Standards documents, Eclipse working groups | A4, E3 | Low–Med |
 | 17.11 | **Open-source funding amounts in China** | The report has none; we have provincial data (R12) | Extend R12 with Hegaoji outputs for OS/DB and OpenAtom donations | A1 | Medium |
-| 17.12 | **Contact the author** | Authorship, permission to cite or publish, sharing the dataset, aligning methods (vitality vs OpenRank), mutual review | Fabio → Ian | G | High |
+| 17.12 | **Author follow-up** | Permission to publish given 24 Nov. Still open: full attribution, dataset updates, aligning methods (vitality vs OpenRank), mutual review | Fabio → Ian | G | High |
 
 ## 6. Chinese open-source projects in the report not yet in our repo (157)
 
@@ -202,4 +202,5 @@ Hummingbird E203, Wujian 100, XuanTie C910, XuanTie C906, One Student One Chip, 
 *Matching is by name against `docs/` and `data/`, so a project we cite under another name may appear here by mistake.*
 
 ## Changelog
-- 2026-11-24: first analysis. 55 primary sources archived: 53 by direct fetch, OceanBase/Alipay through the relay. The NDRC 2023 compute-network guidance link cited by the report (`ndrc.gov.cn/xxgk/jd/jd/202312/t20231229_1363000.html`) returns **404**, including from a residential IP; it needs a replacement source. The dataset is kept privately pending the author's permission.
+- 2026-11-24: first analysis. 55 primary sources archived: 53 by direct fetch, OceanBase/Alipay through the relay. The NDRC 2023 compute-network guidance link cited by the report (`ndrc.gov.cn/xxgk/jd/jd/202312/t20231229_1363000.html`) returns **404**, including from a residential IP; it needs a replacement source. 
+- 2026-11-24 (later): the author gave permission. The PDF and the extracted dataset are published in data/external/ and on the site.

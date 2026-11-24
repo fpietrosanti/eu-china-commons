@@ -1,0 +1,302 @@
+page	in_repo_2026-11-24	url	anchor_text
+10	no	https://www.cac.gov.cn/2024-04/20/c_1715291120716362.htm	Thirty years of internet access in China
+10	no	https://www.cac.gov.cn/2014-04/18/c_126407251.htm	Twenty years of internet access in China
+10	no	https://un.china-mission.gov.cn/zgylhg/jsyfz/kjcfz/201010/P020210831735669982692.pdf	China | State Council white paper on the internet in
+10	no	https://www.miit.gov.cn/jgsj/xxjsfzs/xxgk/art/2020/art_039da78ddd74466e96261230fd6ee706.html	State Council Document No. 18 (2000)
+12	no	https://www.sec.gov/Archives/edgar/data/1329099/000119312505143732/df1a.htm	Baidu F-1 filing
+12	no	https://www.sec.gov/Archives/edgar/vprr/0601/06012852.pdf	Tencent 2005 annual report
+12	no	https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/qtwj/qtwj2010before/200811/t20081129_65760.html	National S&T plan 2006–2020
+12	no	https://www.cnnic.cn/n4/2022/0401/c88-803.html	CNNIC 22nd survey report
+12	no	https://projects.apache.org/	Apache APISIX enters the Apache Incubator | Apache Casbin enters the Apache Incubator | Apache DevLake enters the Apache Incubator | Apache DolphinScheduler enters the Apache Incubator | Apache Doris enters the Apache Incubator | Apache Dubbo enters the Apache Incubator | Apache ECharts enters the Apache Incubator | Apache EventMesh enters the Apache Incubator | Apache Flink enters the Apache Incubator | Apache GeaFlow enters the Apache Incubator | Apache IoTDB enters the Apache Incubator | Apache Kafka enters the Apache Incubator | Apache Kylin enters the Apache Incubator | Apache Linkis enters the Apache Incubator | Apache Ozhera enters the Apache Incubator | Apache Pulsar enters the Apache Incubator | Apache Seata enters the Apache Incubator | Apache project records | g enters the Apache Incubator | n enters the Apache Incubator | o enters the Apache Incubator | oMQ enters the Apache Incubator | oject | u enters the Apache Incubator
+12	no	https://www.rt-thread.org/	elease
+14	no	https://www.miit.gov.cn/gxsj/tjfx/txy/art/2020/art_5a829c1825084070a99ec46991d167da.html	MIIT on 3G development
+14	no	https://www.cnnic.cn/n4/2022/0401/c88-935.html	CNNIC mid-2012 report
+14	no	https://vldb.org/pvldb/vol15/p3385-xu.pdf	OceanBase team paper (VLDB 2022)
+14	yes	https://dubbo.apache.org/	Apache Dubbo | ces Dubbo
+14	yes	https://echarts.apache.org/	Apache ECharts | ces ECharts
+14	yes	https://www.oceanbase.com/	obao
+14	no	https://rocketmq.apache.org/	
+14	no	https://github.com/emqx/emqx	
+14	yes	https://gitee.com/	OSCHINA launches Gitee | ce hosting platform
+16	no	https://www.cac.gov.cn/2014-06/26/c_1111325916.htm	National IC industry guideline (2014)
+16	no	https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201410/t20141014_1149902.htm	IC fund establishment notice
+16	no	https://www.chinamobileltd.com/en/ir/reports/ar2014.pdf	China Mobile 2014 annual report
+16	no	https://oceanbase.github.io/docs/blogs/arch/all-in-one	OceanBase architecture | retrospective
+16	no	https://landscape.cncf.io/	CNCF Landscape | CNCF project records | ChaosBlade joins the CNCF sandbox | Dragonfly joins the CNCF sandbox | Dragonfly moves to CNCF incubation | Falco joins the CNCF sandbox | Falco moves to CNCF incubation | Harbor moves to CNCF incubation | Karmada joins the CNCF sandbox | Karmada moves to CNCF incubation | Kepler joins the CNCF sandbox | Kuasar joins the CNCF sandbox | Kube-OVN joins the CNCF sandbox | KubeEdge joins the CNCF sandbox | KubeEdge moves to CNCF incubation | Serverless Devs joins the CNCF sandbox | SuperEdge joins the CNCF sandbox | asmEdge joins the CNCF sandbox | ela joins the CNCF sandbox | ela moves to CNCF incubation | ess joins the CNCF sandbox | oject | om CNCF | urt joins the CNCF sandbox | urt moves to CNCF incubation
+16	no	https://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/201507/t20150706_192586.html	State Council on Internet Plus
+16	no	https://github.com/guanzhi/GmSSL	GmSSL
+16	no	https://github.com/vuejs/core	ue.js
+16	yes	https://ant.design/	ces Ant Design
+17	no	https://riscv.org/about/history/	d the ISA specifications | national
+17	yes	https://github.com/pingcap/tidb	ces TiDB on GitHub
+17	no	https://skywalking.apache.org/	elease
+17	no	https://goharbor.io/	ces Harbor
+17	yes	https://www.paddlepaddle.org.cn/	ces PaddlePaddle
+17	no	https://tarscloud.org/	RS framework
+17	no	https://github.com/ApolloAuto/apollo	github.com
+17	yes	https://www.pingcap.com/	TiDB 1.0 general availability
+17	no	https://d7y.io/	ces Dragonfly
+17	no	https://www.fisco.com.cn/	ces FISCO BCOS
+17	yes	https://nacos.io/	ces Nacos
+18	no	https://kubeedge.io/	ces KubeEdge
+20	no	https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list	US Entity List addition (2019)
+20	no	https://blog.centos.org/2020/12/future-is-centos-stream/	CentOS project announcement
+20	no	https://superuser.openinfra.org/articles/how-china-mobile-cloud-gave-its-openstack-cloud-a-60-pb-arm-block-storage-foundation-on-openatom-openeuler/	China Mobile Cloud block storage case | superuser.openinfra.org
+20	no	https://gcc.gnu.org/gcc-12/changes.html	GCC 12 | GCC 12 LoongArch | ch support | support
+20	no	https://www.cac.gov.cn/2021-03/13/c_1617210747414735.htm	14th Five-Year Plan outline
+20	no	https://www.ndrc.gov.cn/xxgk/jd/jd/202202/t20220217_1315795.html	NDRC on East Data West Computing
+20	no	https://flink.apache.org/2019/02/13/batch-as-a-special-case-of-streaming-and-alibabas-contribution-of-blink/	Alibaba announces it will contribute Blink to Apache Flink | Alibaba contributes Blink | flink.apache.org
+21	no	https://flink.apache.org/news/2019/08/22/release-1.9.0.html	ges the Blink query planner
+21	no	https://ysyx.oscc.cc/	ocessor
+21	no	https://github.com/OpenAtomFoundation/TobudOS	budOS under the OpenAtom Foundation | ncentOS Tiny IoT OS
+21	yes	https://milvus.io/	
+21	no	https://www.tpc.org/tpcc/	OceanBase tops the TPC-C benchmark
+21	yes	https://www.openeuler.org/zh/	Huawei opens its server OS code and launches the openEuler community
+21	no	https://cg.cs.tsinghua.edu.cn/jittor/	
+21	yes	https://www.mindspore.cn/	e
+21	no	https://github.com/ccfos/nightingale	Nightingale
+21	yes	https://opengauss.org/	
+22	yes	https://openanolis.cn/	Alibaba Cloud and partners start the OpenAnolis community
+22	yes	https://www.openharmony.cn/	d system for richer devices | elease
+22	no	https://chainmaker.org.cn/	
+22	yes	https://www.loongson.cn/	
+22	no	https://lfaidata.foundation/projects/milvus/	om LF AI & Data
+22	yes	https://github.com/oceanbase/oceanbase	e code base
+22	yes	https://github.com/OpenXiangShan/XiangShan	esented at the first RISC-V Summit China | github.com
+22	no	https://github.com/StarRocks/starrocks	ce
+23	yes	https://oniroproject.org/	
+23	no	https://github.com/XUANTIE-RV/openc910	es
+23	yes	https://www.openatom.org/	
+23	yes	https://www.opencloudos.org/	
+23	yes	https://www.openkylin.top/	
+23	no	https://kernelnewbies.org/Linux_5.19	e
+23	yes	https://www.tongsuo.net/	ngsuo and donated to the OpenAtom Foundation
+23	yes	https://modelscope.cn/	
+25	no	https://github.com/zai-org/ChatGLM-6B	ChatGLM-6B | ce ChatGLM-6B
+25	yes	https://github.com/QwenLM/Qwen	Qwen | ces Qwen-7B
+25	no	https://arxiv.org/abs/2412.19437	DeepSeek-V3 technical report | arxiv.org
+25	no	https://www.alibabagroup.com/en-US/document-1582482069362049024	Tongyi Qianwen launch
+25	yes	https://github.com/langgenius/dify	Dify | ces Dify
+25	no	https://developer.huawei.com/consumer/cn/harmonyos	HarmonyOS developers | oid app support
+25	yes	https://www.starrocks.io/	
+25	no	https://releases.llvm.org/16.0.0/docs/ReleaseNotes.html	get
+26	no	https://www.moonbitlang.com/	
+26	yes	https://github.com/infiniflow/ragflow	ces RAGFlow
+26	no	https://cangjie-lang.cn/	ced | ence
+26	no	https://www.cncf.io/archived-projects/	
+27	no	https://github.com/open-vela	
+27	yes	https://github.com/deepseek-ai/DeepSeek-V3	
+29	yes	https://github.com/deepseek-ai/DeepSeek-R1	DeepSeek-R1
+29	no	https://github.com/deepseek-ai/open-infra-index	DeepSeek Open Infra Index
+29	no	https://github.com/vllm-ascend/vllm-ascend-recipes/blob/main/models/en/DeepSeek/DeepSeek-V4-Flash.yaml	github.com | vLLM Ascend recipe
+29	no	https://arxiv.org/abs/2607.20145	SLAI T-Rex | SLAI T-Rex preprint | arxiv.org
+29	no	https://home.alibabagroup.com/en-US/document-1830678592242057216	Alibaba three-year investment
+29	no	https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm	Alibaba FY2026 20-F
+29	no	https://www.cppcc.gov.cn/zxww/2026/03/16/ARTI1773644951646391.shtml	15th Five-Year Plan outline | cppcc.gov.cn
+29	yes	https://atomgit.com/openeuler	AtomGit | chived
+29	no	https://github.com/vllm-project/vllm-ascend	eleases the vLLM-Ascend plug-in | vLLM-Ascend
+29	no	https://qwenlm.github.io/blog/qwen3/	
+29	no	https://github.com/tile-ai/tilelang	nels written in TileLang
+29	no	https://github.com/PaddlePaddle/ERNIE	ces the ERNIE 4.5 series
+30	yes	https://github.com/MoonshotAI/Kimi-K2	eleases Kimi K2 weights
+30	no	https://www.hiascend.com/cann	ced
+30	no	https://hugegraph.apache.org/	om the Apache Incubator
+30	yes	https://atomgit.com/openharmony	chived
+34	yes	https://riscv.org/about/faq/	riscv.org
+34	no	https://docs.kernel.org/arch/loongarch/introduction.html	Linux LoongArch | docs.kernel.org
+34	no	https://docs.xiangshan.cc/zh-cn/latest/blog/2026/01/05/biweekly-93/	docs.xiangshan.cc
+34	no	https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-28/ee953a2d-ad7e-47dc-9ac2-e7f9dbb3a0a4.PDF	disc.static.szse.cn
+34	no	https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/master/docs/tutorials/FlowTutorial.md	github.com
+35	no	https://www.smics.com/uploads/67f6423d/e00981.pdf	smics.com
+35	no	https://skywater-pdk.readthedocs.io/en/main/status.html	skywater-pdk.readthedocs.io
+35	no	https://github.com/IHP-GmbH/IHP-Open-PDK	IHP PDK
+35	no	https://github.com/TinyTapeout/tinytapeout-ihp-0p2	github.com
+35	no	https://www-a.naura.com/content/details_30_2270.html	www-a.naura.com
+35	no	https://static.cninfo.com.cn/finalpage/2026-03-31/1225062431.PDF	static.cninfo.com.cn
+35	no	https://static.cninfo.com.cn/finalpage/2026-04-16/1225108553.PDF	static.cninfo.com.cn
+35	no	https://investor.asml.com/annual-reports/2025/downloads	investor.asml.com
+36	no	https://www.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901618_c.pdf	hkexnews.hk
+36	no	https://www.ymtc.com/en/news/35.html	ymtc.com
+36	no	https://www.cxmt.com/en/news/info_19.html	cxmt.com
+36	no	https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm	3dfabric.tsmc.com
+37	no	https://www.jcetglobal.com/uploads/2025-08-20/50092556385059a0.pdf	jcetglobal.com
+37	no	https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF	static.cninfo.com.cn
+37	no	https://www.uciexpress.org/specifications/ucie-3-0	UCIe 3.0
+37	no	https://github.com/OpenXiangShan/difftest	github.com
+38	no	https://www.uciexpress.org/specifications	uciexpress.org
+38	no	https://www.hisilicon.com/cn/products/kunpeng/huawei-kunpeng/huawei-kunpeng-920	hisilicon.com
+38	no	https://www.phytium.com.cn/homepage/production/15/	phytium.com.cn
+38	no	https://loongson.cn/product/show?id=26	loongson.cn
+39	no	https://github.com/Ascend/pytorch	TorchNPU
+39	no	https://github.com/MooreThreads/torch_musa	torch_musa
+39	no	https://www.hiascend.com/cann/document	CANN
+40	no	https://www.opencompute.org/documents/inspur-3ou-4-socket-olympus-server-whistler-mother-board-spec-v0-1-2-pdf	opencompute.org
+40	no	https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b1064d4ab30f4624935282b521f7beae/M3T1A669N1260561708310835358/Update-Huawei%20TaiShan%20Server%20Data%20Sheet.pdf	e.huawei.com
+40	no	https://www.alibabacloud.com/help/en/ecs/user-guide/elastic-rdma-erdma/	alibabacloud.com
+40	no	https://www.opencompute.org/projects/server/mezz-nic/	OCP NIC
+41	no	https://www.loongson.cn/EN/news/show?id=645	loongson.cn
+41	no	https://github.com/qemu/qemu/blob/master/docs/system/loongarch/virt.rst	github.com
+41	no	https://qemu.googlesource.com/edk2/%2B/refs/tags/edk2-stable202408.01/OvmfPkg/LoongArchVirt/Readme.md	qemu.googlesource.com
+42	no	https://github.com/openbmc/meta-inspur	OpenBMC meta-inspur
+42	no	https://www.opencompute.org/projects/regional-communities/regional-project-community-prc/cloud-firmware-china/	opencompute.org
+42	no	https://github.com/vllm-project/vllm-ascend/blob/main/docs/source/getting_started/installation.md	github.com
+43	no	https://www.openeuler.org/en/wiki/about/introduce/	openeuler.org
+43	no	https://docs.openanolis.cn/anolisos	docs.openanolis.cn
+43	no	https://www.openeuler.org/whitepaper/en/OpenAtom%20openEuler%20Use%20Cases%20%28Featured%202025%29.pdf	openeuler.org
+43	no	https://openanolis.cn/anolisos/commercialrelease	openanolis.cn
+44	no	https://www.openkylin.top/index-en.html	openKylin
+44	no	https://github.com/linuxdeepin/dde-session	github.com
+44	no	https://ggzyfw.beijing.gov.cn/jyxxcggg/20260812/5665839.html	ggzyfw.beijing.gov.cn
+44	yes	https://openharmony.cn/	OpenHarmony
+44	no	https://consumer.huawei.com/cn/support/harmonyos/	consumer.huawei.com
+44	yes	https://projects.eclipse.org/working-group/oniro	Eclipse Oniro | projects.eclipse.org
+45	no	https://github.com/RT-Thread/rt-thread	RT-Thread
+45	no	https://github.com/openharmony/docs/blob/master/en/readme/kernel.md	github.com
+45	no	https://docs.zephyrproject.org/latest/	docs.zephyrproject.org
+46	no	https://chromium.googlesource.com/chromium/src/	chromium.googlesource.com
+46	no	https://gitee.com/openkylin/community/issues/IB011P	gitee.com
+46	no	https://developer.huawei.com/consumer/en/doc/harmonyos-guides/hap-package/	developer.huawei.com
+46	no	https://openprinting.github.io/cups/drivers.html	openprinting.github.io
+47	no	https://wiki.debian.org/Ports/loong64	wiki.debian.org
+47	yes	https://docs.mesa3d.org/	docs.mesa3d.org
+48	no	https://github.com/openharmony/docs/blob/master/en/application-dev/quick-start/arkts-get-started.md	github.com
+48	no	https://github.com/openharmony/docs/blob/master/en/application-dev/ui/arkui-overview.md	github.com
+48	no	https://developer.huawei.com/consumer/cn/doc/HarmonyOS-Guides/arkts-overview/	developer.huawei.com
+48	no	https://github.com/openharmony/arkcompiler_ets_frontend/blob/master/AGENTS.md	github.com
+48	no	https://github.com/openharmony/arkcompiler_ets_runtime/blob/master/docs/overview.md	github.com
+49	no	https://developer.huawei.com/consumer/cn/doc/guidebook/programming-language2-0000002623694207/	developer.huawei.com
+49	no	https://docs.moonbitlang.com/en/stable/toolchain/wasm/component-model-tutorial.html	docs.moonbitlang.com
+49	no	https://en.oceanbase.com/customer/alipay	en.oceanbase.com
+49	no	https://www.debian.org/ports/	Debian Ports
+51	no	https://github.com/openeuler-mirror/gcc	github.com
+52	no	https://github.com/opensumi/core	OpenSumi
+52	no	https://github.com/codefuse-ai/codefuse-ide	CodeFuse IDE
+52	no	https://www.huaweicloud.com/product/codearts/ide.html	CodeArts IDE
+53	no	https://github.com/xmake-io/xmake	Xmake
+53	no	https://github.com/moonbitlang/moon	github.com
+53	no	https://github.com/xmake-io/xrepo	Xrepo
+53	no	https://mooncakes.io/	Mooncakes
+53	no	https://package.openanolis.cn/	package.openanolis.cn
+54	yes	https://www.openatom.org/journalism/detail/Q5U5ZPm9veBs	openatom.org
+54	no	https://git-scm.com/docs/git-clone	git-scm.com
+54	no	https://github.com/kubesphere/ks-devops	KubeSphere DevOps
+54	no	https://landscape.cd.foundation/	landscape.cd.foundation
+55	no	https://docs.sigstore.dev/cosign/verifying/verify/	docs.sigstore.dev
+55	no	https://slsa.dev/spec/v1.0/provenance	slsa.dev
+55	no	https://github.com/in-toto/specification	in-toto
+55	no	https://docs.openeuler.org/en/docs/25.09/server/security/sbom/sbom.html	docs.openeuler.org
+55	no	https://openssf.org/blog/2024/03/30/xz-backdoor-cve-2024-3094/	openssf.org
+56	no	https://github.com/kuasar-io/kuasar/blob/main/docs/vmm/how-to-run-kuasar-with-isulad-and-stratovirt.md	github.com
+57	no	https://github.com/openeuler-mirror/iSulad	iSulad
+57	no	https://www.cncf.io/announcements/2026/01/14/cloud-native-computing-foundation-announces-dragonflys-graduation/	cncf.io
+58	no	https://www.cncf.io/case-studies/chinaunicom/	cncf.io
+58	no	https://www.cncf.io/announcements/2026/09/07/cloud-native-computing-foundation-announces-karmada-graduation/	cncf.io
+58	no	https://endusers.cncf.io/architectures/china-merchants-bank/	endusers.cncf.io
+58	no	https://ceph.io/en/	Ceph
+59	no	https://openinfra.org/open-infrastructure-blueprint-white-paper/	openinfra.org
+59	no	https://superuser.openinfra.org/articles/china-mobiles-use-of-the-open-infrastructure-blueprint/	superuser.openinfra.org
+59	no	https://prometheus.io/docs/introduction/overview/	prometheus.io
+59	no	https://opentelemetry.io/docs/	OpenTelemetry
+60	no	https://velero.io/docs/	velero.io
+60	no	https://www.ndrc.gov.cn/xxgk/jd/jd/202312/t20231229_1363000.html	ndrc.gov.cn
+61	no	https://github.com/falcosecurity/falco/security	github.com
+62	no	https://github.com/sonic-net/SONiC	github.com
+62	no	https://github.com/sonic-net/SONiC/wiki/Supported-Devices-and-Platforms	github.com
+62	no	https://github.com/ovn-org/ovn	OVN
+62	no	https://github.com/openvswitch/ovs/blob/main/Documentation/howto/dpdk.rst	github.com
+62	no	https://superuser.openinfra.org/articles/2020-superuser-awards-nominee-china-mobile-network-cloud-integration-team/	superuser.openinfra.org
+63	no	https://www.zte.com.cn/china/about/news/20260626C3.html	zte.com.cn
+63	no	https://openairinterface.org/ran/	OAI RAN
+63	no	https://openairinterface.org/core-network/	OAI 5G Core
+63	no	https://www.cncf.io/projects/kubeedge/	cncf.io
+63	yes	https://github.com/kubeedge/kubeedge	github.com
+64	no	https://openairinterface.org/oai-license-model/	openairinterface.org
+64	no	https://www.o-ran.org/specifications	o-ran.org
+64	no	https://datatracker.ietf.org/doc/html/rfc8998	RFC 8998 | datatracker.ietf.org
+66	no	https://github.com/opengauss-mirror/openGauss-server/blob/master/COPYRIGHT	github.com
+66	no	https://www.cncf.io/blog/2019/11/26/case-study-tikv-in-jd-cloud/	JD Cloud TiKV
+66	no	https://news.apache.org/foundation/entry/the-apache-software-foundation-announces81	news.apache.org
+66	no	https://doris.apache.org/docs/3.x/gettingStarted/what-is-apache-doris/	doris.apache.org
+67	no	https://flink.apache.org/2019/08/22/apache-flink-1.9.0-release-announcement/	Flink 1.9
+68	yes	https://github.com/apache/rocketmq	Apache RocketMQ
+68	no	https://cwiki.apache.org/confluence/display/INCUBATOR/RocketMQProposal	cwiki.apache.org
+68	no	https://github.com/infinilabs/analysis-ik	IK Analysis
+68	no	https://docs.opensearch.org/latest/	docs.opensearch.org
+69	no	https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-project-apache-seatunnel	news.apache.org
+69	no	https://seatunnel.apache.org/docs/connectors/source/Doris/	seatunnel.apache.org
+69	no	https://paimon.apache.org/	paimon.apache.org
+70	no	https://docs.datahub.com/docs/	docs.datahub.com
+70	no	https://github.com/oceanbase/oceanbase/releases	github.com
+73	no	https://github.com/open-compass/opencompass	OpenCompass
+73	yes	https://opensource.org/ai/open-source-ai-definition	opensource.org
+74	yes	https://github.com/PaddlePaddle/Paddle	PaddlePaddle
+74	no	https://www.mindspore.cn/en	MindSpore
+75	no	https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash	DeepSeek-V4-Flash
+75	yes	https://github.com/QwenLM/Qwen3	Qwen3
+76	no	https://arxiv.org/abs/2607.08215	arxiv.org
+77	no	https://github.com/PaddlePaddle/PaddleDetection	PaddleDetection
+77	no	https://github.com/PaddlePaddle/Paddle/blob/develop/paddle/cinn/README.md	github.com
+79	no	https://privacy.wps.cn/policies/eula/WPS-Office-common	privacy.wps.cn
+79	no	https://swt.fj.gov.cn/xxgk/czzj/zbcg/202610/t20261010_7223359.htm	swt.fj.gov.cn
+79	no	https://github.com/ONLYOFFICE/DocumentServer	ONLYOFFICE
+80	no	https://solution.wps.cn/console/policies/agreements?source=footer	solution.wps.cn
+80	yes	https://github.com/nextcloud/server	Nextcloud
+80	yes	https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2025/cds/251204_cds_open-source	schleswig-holstein.de
+80	no	https://www.sastind.gov.cn/n10086167/n10086221/c10709299/content.html	sastind.gov.cn
+81	no	https://static.cninfo.com.cn/finalpage/2026-08-22/1225490345.PDF	static.cninfo.com.cn
+81	no	https://wjw.beijing.gov.cn/xwzx_20031/jcdt/202311/t20231121_3306000.html	wjw.beijing.gov.cn
+81	no	https://dghb.dg.gov.cn/xwzx/tpxw/content/post_4575246.html	dghb.dg.gov.cn
+82	no	https://static.cninfo.com.cn/finalpage/2026-08-15/1225475393.PDF	static.cninfo.com.cn
+82	no	https://github.com/FreeCAD/FreeCAD	FreeCAD
+83	no	https://static.cninfo.com.cn/finalpage/2026-04-02/1225073175.PDF	static.cninfo.com.cn
+83	no	https://www.ssme.sh.gov.cn/public/product%21serviceDetail.do?productId=2c91c2876b64cca6016b8d886a6e199e	ssme.sh.gov.cn
+83	no	https://static.cninfo.com.cn/finalpage/2026-08-28/1225521518.PDF	static.cninfo.com.cn
+83	no	https://e.huawei.com/cn/news/2026/industries/manufacturing/openharmony-equipment-components-factory	e.huawei.com
+83	no	https://www.supcon.com/news/1141.html	supcon.com
+84	no	https://github.com/open62541/open62541	open62541
+84	no	https://www.bidding.csg.cn/ggxx/1200373594.jhtml	bidding.csg.cn
+84	yes	https://github.com/eclipse-basyx	Eclipse BaSyx
+84	no	https://github.com/eclipse-basyx/basyx-python-sdk	AAS Python SDK
+84	no	https://news.apache.org/foundation/entry/the-apache-software-foundation-announces68	news.apache.org
+85	no	https://openfoam.org/	openfoam.org
+85	no	https://www.automotivelinux.org/announcements/aglmembers_oct19/	automotivelinux.org
+85	no	https://www.automotivelinux.org/announcements/sodev/	AGL SoDeV
+85	no	https://newsroom.eclipse.org/news/community-news/eclipse-s-core-eclipse-safe-open-vehicle-core-project-unites-qualcomm-advance	Eclipse S-CORE | newsroom.eclipse.org
+86	no	https://ir.baidu.com/news-releases/news-release-details/baidu-announces-first-quarter-2026-results/	ir.baidu.com
+86	no	https://openatom.cn/journalism/detail/GoUTwn6XQb6L	M-Robots 2.0
+86	no	https://docs.ros.org/en/rolling/	docs.ros.org
+87	no	https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-28/5f9c5ea4-b8cb-4235-a4e3-92ddaeb5cf4c.PDF#page=12	disc.static.szse.cn
+87	no	https://github.com/eclipse-hawkbit/hawkbit	hawkBit
+87	no	https://github.com/uptane/uptane-standard/blob/master/uptane-standard.md	github.com
+87	no	https://www.dg.gov.cn/chashan/2019xb/jjcs/mtjj/content/post_4575745.html	dg.gov.cn
+88	no	https://www.iso.org/publication/PUB200262.html	ISO 26262
+90	no	https://kfqgw.beijing.gov.cn/cxyzkfq/cxcg/202611/t20261109_4938439.html	kfqgw.beijing.gov.cn
+91	no	https://github.com/guanzhi/GmSSL/tree/24ae482701a7b124826c382fffc55c19f76d475d	github.com
+92	no	https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework	github.com
+92	no	https://github.com/openeuler-mirror/secGear	secGear
+92	no	https://github.com/apache/teaclave/blob/main/docs/security-model.md	github.com
+93	no	https://github.com/FISCO-BCOS/FISCO-BCOS	FISCO BCOS
+93	no	https://ethereum.org/developers/docs/nodes-and-clients/	ethereum.org
+93	no	https://ethereum.org/developers/docs/nodes-and-clients/client-diversity/	ethereum.org
+93	no	https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202509/t20250930_3973725.htm	mof.gov.cn
+93	no	https://www.mof.gov.cn/jrttts/202312/t20231226_3924138.htm	mof.gov.cn
+94	no	https://www.itsec.gov.cn/aqkkcp/cpgg/202609/t20260920_275291.html	itsec.gov.cn
+94	no	https://www.itsec.gov.cn/aqkkcp/ywjs/202307/t20230727_141347.html	itsec.gov.cn
+94	yes	https://www.miit.gov.cn/xwdt/szyw/art/2021/art_86371f315d484a36811c5c94298912fa.html	miit.gov.cn
+94	yes	https://www.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_95c0b992336a4cb1b87ec3ccc576a669.html	miit.gov.cn
+94	yes	https://www.beijing.gov.cn/zhengce/zhengcefagui/202605/t20260507_4639888.html	beijing.gov.cn
+94	yes	https://openatom.org/projects	openatom.org
+95	yes	https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy	digital-strategy.ec.europa.eu
+95	yes	https://www.sovereign.tech/programs/fund	Sovereign Tech Fund
+95	yes	https://www.sovereign.tech/tech/openssh	sovereign.tech
+95	no	https://www.sovereign.tech/public/files/SovereignTechFund_Evaluation_Report_Pilot_Phase.pdf	sovereign.tech
+95	yes	https://digital-strategy.ec.europa.eu/en/policies/cra-open-source	digital-strategy.ec.europa.eu
+95	no	https://esp.ethereum.foundation/	esp.ethereum.foundation
+95	no	https://blog.ethereum.org/en/2021/03/23/supporting-ethereums-client-ecosystem	blog.ethereum.org
+95	no	https://www.etc.org.cn/UserFiles/Article/file/6381135796203235945973495.pdf	etc.org.cn
+95	no	https://landscape.riscv.org/	RISC-V Landscape
+95	yes	https://www.openatom.cn/journalism/detail/bdPGZ0UY6bn5	openatom.cn
+96	no	https://docs.deps.dev/	docs.deps.dev
+96	no	https://github.com/kaiyuanshe/2025-China-Open-Source-Report/blob/main/data.md	github.com
+96	no	https://www.oecd.org/en/publications/mapping-the-semiconductor-value-chain_4154cdbf-en.html	oecd.org
+140	no	https://github.com/openeuler-mirror/bishengjdk-11/blob/master/README_EN.md	github.com

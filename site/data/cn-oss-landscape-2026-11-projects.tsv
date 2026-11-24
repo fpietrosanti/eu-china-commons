@@ -1,0 +1,505 @@
+area_code	area	name	kind	org	since	governance	stars	vitality	in_repo	url	desc	page
+01-01	ISAs and Processor IP	XiangShan	OSS	BOSC and ICT, CAS	2021	Community or academic	7.4K	64.4	True	https://github.com/OpenXiangShan/XiangShan	Open high-performance RISC-V core (Nanhu, Kunminghu generations)	33
+01-01	ISAs and Processor IP	NutShell	OSS	One Student One Chip	2019	Community or academic	1.6K	43.1	True	https://github.com/OSCPU/NutShell	RISC-V core designed and taped out by the first OSOC cohort	33
+01-01	ISAs and Processor IP	Hummingbird E203	OSS	Nuclei System Technology	2018	Company-led	2.0K	32.0	False	https://github.com/riscv-mcu/e203_hbirdv2	Open RISC-V core for teaching and lowpower devices	33
+01-01	ISAs and Processor IP	Wujian 100	OSS	T-Head (Alibaba)	2019	Company-led	2.0K	24.2	False	https://github.com/XUANTIE-RV/wujian100_open	Open SoC platform for building MCUs	33
+01-01	ISAs and Processor IP	XuanTie C910	OSS	T-Head (Alibaba)	2021	Company-led	1.5K	22.0	False	https://github.com/XUANTIE-RV/openc910	T-Head's open 64-bit out-of-order RISC-V core	33
+01-01	ISAs and Processor IP	XuanTie C906	OSS	T-Head (Alibaba)	2021	Company-led	426	18.5	False	https://github.com/XUANTIE-RV/openc906	Open 64-bit in-order RISC-V core that runs Linux	33
+01-01	ISAs and Processor IP	One Student One Chip	OSS	ICT, CAS	2019	Community or academic	—	—	False	https://ysyx.oscc.cc	Open training programme where students design and tape out CPUs	33
+01-01	ISAs and Processor IP	RISC-V	Standard	RISC-V International	2010	Standards body	4.9K	63.3 33	True	https://github.com/riscv/riscv-isa-manual	Open ISA standard with a large Chinese membership	33
+01-03	Process Design Kits	LoongArch	Standard	Loongson	2021	Standards body	277	21.1	True	https://github.com/loongson/LoongArch-Documentation	Loongson's own ISA, supported in mainline GCC, LLVM and Linux	34
+01-03	Process Design Kits	iEDA	OSS	Peng Cheng Lab and ICT, CAS	2022	Community or academic	565	41.9	True	https://github.com/OSCC-Project/iEDA	Chinese open-source physical-design EDA infrastructure	34
+01-03	Process Design Kits	Empyrean	Commercial	Empyrean Technology	2009	Commercial product	—	—	True	https://www.empyrean.com.cn	China's largest EDA vendor, with full analog and FPD flows	34
+01-03	Process Design Kits	Primarius	Commercial	Primarius Technologies	2010	Commercial product	—	—	False	https://www.primarius-tech.com	Device modelling and circuit simulation EDA	34
+01-03	Process Design Kits	X-Epic	Commercial	X-Epic	2020	Commercial product	—	—	False	https://www.x-epic.com	Digital verification EDA: simulation, formal and prototyping	34
+01-03	Process Design Kits	OpenROAD	Upstream	The OpenROAD Project	2018	Community or academic	3.3K	71.6	False	https://github.com/The-OpenROAD-Project/OpenROAD	Open automated RTL-to-GDS digital flow	34
+01-03	Process Design Kits	Verilator	Upstream	CHIPS Alliance	2019	Foundation hosted	4.1K	68.2	False	https://github.com/verilator/verilator	Open Verilog simulator used by XiangShan and others	34
+01-03	Process Design Kits	Yosys	Upstream	YosysHQ	2012	Community or academic	4.9K	68.1	True	https://github.com/YosysHQ/yosys	Open-source Verilog synthesis suite	34
+01-04	Materials and Equipment	SMIC Design Services	Commercial	SMIC	—	Commercial product	—	—	False	https://www.smics.com	Provides PDKs, IP and design support to customers	35
+01-04	Materials and Equipment	IHP SG13G2	Upstream	IHP (Germany)	2023	Community or academic	910	57.3	True	https://github.com/IHP-GmbH/IHP-Open-PDK	Open 130nm SiGe BiCMOS PDK	35
+01-04	Materials and Equipment	SKY130 PDK	Upstream	Google and SkyWater	2020	Community or academic	3.8K	34.2	False	https://github.com/google/skywater-pdk	First open, manufacturable 130nm PDK	35
+01-04	Materials and Equipment	GF180MCU PDK	Upstream	Google and GlobalFoundries	2022	Community or academic	533	20.3	False	https://github.com/google/gf180mcu-pdk	Open 180nm PDK	35
+01-04	Materials and Equipment	NAURA	Commercial	NAURA Technology Group	2001	Commercial product	—	—	True	https://www.naura.com	Etch, deposition and cleaning equipment	35
+01-04	Materials and Equipment	AMEC	Commercial	Advanced MicroFabrication Equipment	2004	Commercial product	—	—	True	https://www.amec-inc.com	Plasma etch and MOCVD equipment	35
+01-04	Materials and Equipment	Anji Microelectronics	Commercial	Anji Microelectronics	2006	Commercial product	—	—	False	https://www.anjimicro.com	CMP slurries and wet electronic chemicals	35
+01-04	Materials and Equipment	SMEE	Commercial	Shanghai Micro Electronics Equipment	2002	Commercial product	—	—	True	https://www.smee.com.cn	Lithography scanners, including for advanced packaging	35
+01-04	Materials and Equipment	ACM Research (Shanghai)	Commercial	ACM Research	2005	Commercial product	—	—	False	https://www.acmrcsh.com.cn	Single-wafer cleaning and plating equipment	35
+01-04	Materials and Equipment	Piotech	Commercial	Piotech	2010	Commercial product	—	—	False	https://www.piotech.cn	PECVD and ALD thin-film deposition equipment	35
+01-07	Packaging and Test	SMIC	Commercial	SMIC	2000	Commercial product	—	—	True	https://www.smics.com	Mainland China's largest foundry	36
+01-07	Packaging and Test	Hua Hong Semiconductor	Commercial	Hua Hong Group	1996	Commercial product	—	—	False	https://www.huahonggrace.com	Specialty foundry: power, embedded memory, analog	36
+01-07	Packaging and Test	Nexchip	Commercial	Nexchip Semiconductor	2015	Commercial product	—	—	False	https://www.nexchip.com.cn	Mature-node foundry, notably display drivers	36
+01-07	Packaging and Test	YMTC Xtacking	Commercial	YMTC	2016	Commercial product	—	—	False	https://www.ymtc.com	3D NAND with the Xtacking waferbonding architecture	36
+01-07	Packaging and Test	CXMT	Commercial	ChangXin Memory Technologies	2016	Commercial product	—	—	False	https://www.cxmt.com	DRAM including DDR5 and LPDDR5X	36
+01-07	Packaging and Test	HBM	Standard	JEDEC	2013	Standards body	—	—	True	https://www.jedec.org	High-bandwidth stacked DRAM standard used by AI accelerators	36
+01-09	Chiplet Interfaces	JCET	Commercial	JCET Group	1972	Commercial product	—	—	False	https://www.jcetglobal.com	Leading OSAT including advanced packaging	37
+01-09	Chiplet Interfaces	TFME	Commercial	Tongfu Microelectronics	1997	Commercial product	—	—	False	https://www.tfme.com	OSAT with CPU and GPU packaging experience	37
+01-09	Chiplet Interfaces	Huatian Technology	Commercial	Tianshui Huatian Technology	2003	Commercial product	—	—	False	https://www.ht-tech.com	OSAT covering SiP and wafer-level packaging	37
+01-09	Chiplet Interfaces	CoWoS	Upstream	TSMC	2012	Commercial product	—	—	False	https://3dfabric.tsmc.com	2.5D packaging used to pair GPUs with HBM	37
+01-09	Chiplet Interfaces	NEMU	OSS	BOSC and Nanjing University	2020	Community or academic	357	51.4	False	https://github.com/OpenXiangShan/NEMU	Fast RISC-V ISA simulator used as the DiffTest reference	37
+01-09	Chiplet Interfaces	XiangShan DiffTest	OSS	BOSC	2021	Community or academic	193	50.9	False	https://github.com/OpenXiangShan/difftest	Co-simulation framework that checks a CPU against a reference model	37
+01-09	Chiplet Interfaces	AccoTEST	Commercial	AccoTEST	1993	Commercial product	—	—	False	https://www.accotest.com	Analog and mixed-signal IC test systems	37
+01-09	Chiplet Interfaces	Changchuan Technology	Commercial	Hangzhou Changchuan Technology	2008	Commercial product	—	—	False	https://www.hzcctech.com	IC testers and handlers	37
+01-09	Chiplet Interfaces	UCIe	Standard	UCIe Consortium	2022	Standards body	—	— 37	True	https://www.uciexpress.org	Open die-to-die interconnect standard	37
+02-02	GPUs and NPUs	Chiplet Interface Bus Standard	Standard	CCITA	2023	Standards body	—	—	False	https://www.ccita.net	Chinese group standard T/CESA 1248-2023	38
+02-02	GPUs and NPUs	Bunch of Wires (BoW)	Standard	OCP Open Chiplet Economy	2020	Standards body	—	—	False	https://www.opencompute.org/projects/open-chiplet-economy	Simple parallel die-to-die interface spec	38
+02-02	GPUs and NPUs	Kunpeng 920	Commercial	Huawei	2019	Commercial product	—	—	False	https://www.hikunpeng.com	Arm-based server processor	38
+02-02	GPUs and NPUs	Phytium	Commercial	Phytium Technology	2014	Commercial product	—	—	True	https://www.phytium.com.cn	Arm-based desktop and server CPUs	38
+02-02	GPUs and NPUs	Loongson 3A6000	Commercial	Loongson	2023	Commercial product	—	—	False	https://www.loongson.cn	LoongArch desktop processor	38
+02-02	GPUs and NPUs	Hygon CPU	Commercial	Hygon Information Technology	2018	Commercial product	—	—	False	https://www.hygon.cn	x86-compatible server processors	38
+02-02	GPUs and NPUs	Zhaoxin	Commercial	Zhaoxin	2013	Commercial product	—	—	True	https://www.zhaoxin.com	x86-compatible desktop and server CPUs	38
+02-02	GPUs and NPUs	Sunway	Commercial	Sunway	—	Commercial product	—	—	False	https://www.swcpu.cn	In-house ISA processors for supercomputers and servers	38
+02-03	Servers and Systems	torch_npu	OSS	Huawei	2021	Company-led	609	65.2	False	https://github.com/Ascend/pytorch	PyTorch backend for Ascend NPUs	39
+02-03	Servers and Systems	torch_musa	OSS	Moore Threads	2023	Company-led	523	39.8	False	https://github.com/MooreThreads/torch_musa	PyTorch backend for Moore Threads MUSA GPUs	39
+02-03	Servers and Systems	Ascend	Commercial	Huawei	2018	Commercial product	—	—	True	https://www.hiascend.com	AI accelerators and Atlas hardware	39
+02-03	Servers and Systems	Cambricon	Commercial	Cambricon Technologies	2016	Commercial product	—	—	False	https://www.cambricon.com	Cloud and edge AI chips	39
+02-03	Servers and Systems	Hygon DCU	Commercial	Hygon Information Technology	—	Commercial product	—	—	False	https://www.hygon.cn	GPGPU accelerators with a CUDA-like software stack	39
+02-03	Servers and Systems	MetaX	Commercial	MetaX	2020	Commercial product	—	—	False	https://www.metax-tech.com	General-purpose GPUs and AI inference chips	39
+02-03	Servers and Systems	Kunlunxin	Commercial	Kunlunxin (Baidu)	2021	Commercial product	—	—	False	https://www.kunlunxin.com	AI accelerators spun out of Baidu	39
+02-03	Servers and Systems	Biren	Commercial	Biren Technology	2019	Commercial product	—	—	False	https://www.birentech.com	General-purpose GPU chips	39
+02-03	Servers and Systems	Iluvatar CoreX	Commercial	Iluvatar CoreX	2015	Commercial product	—	—	False	https://www.iluvatar.com	GPGPU training and inference products	39
+02-03	Servers and Systems	Inspur OCP Platforms	Commercial	Inspur Information	—	Commercial product	—	—	False	https://www.inspur.com	Servers and racks built to OCP specifications	39
+02-03	Servers and Systems	Kunpeng TaiShan Servers	Commercial	Huawei	2019	Commercial product	—	—	False	https://www.hikunpeng.com	Servers built on Kunpeng processors	39
+02-03	Servers and Systems	Sugon	Commercial	Sugon	1996	Commercial product	—	— 39	True	https://www.sugon.com	Servers, storage and liquid-cooled data centres	39
+02-04	NICs and High-speed Interconnects	Scorpio Rack	Standard	ODCC	2011	Standards body	—	—	False	https://www.odcc.org.cn	Rack server spec started by Baidu, Alibaba and Tencent	40
+02-04	NICs and High-speed Interconnects	Alibaba Cloud eRDMA	Commercial	Alibaba Cloud	2021	Commercial product	—	—	False	https://www.alibabacloud.com	Elastic RDMA in the cloud; driver is in mainline Linux	40
+02-04	NICs and High-speed Interconnects	OCP NIC 3.0	Standard	Open Compute Project	2019	Standards body	—	—	False	https://www.opencompute.org	Open form-factor and interface spec for server NICs	40
+02-04	NICs and High-speed Interconnects	UnifiedBus	Standard	Huawei	2025	Standards body	—	—	False	https://www.unifiedbus.com	Interconnect protocol for superpods; spec published 2025	40
+02-06	BMC and Management Firmware	Kunlun Firmware	Commercial	Kunlun Taike	—	Commercial product	—	—	False	http://www.kunluntech.com.cn	Chinese UEFI firmware for domestic CPUs	41
+02-06	BMC and Management Firmware	Byosoft Firmware	Commercial	Byosoft	2007	Commercial product	—	—	False	https://www.byosoft.com.cn	Chinese BIOS and UEFI firmware	41
+02-06	BMC and Management Firmware	QEMU	Upstream	QEMU community	2003	Community or academic	14K	81.8	True	https://github.com/qemu/qemu	Open emulator with LoongArch and RISC-V virtual machines	41
+02-06	BMC and Management Firmware	coreboot	Upstream	coreboot community	1999	Community or academic	2.8K	72.6	True	https://github.com/coreboot/coreboot	Lightweight open-source firmware	41
+02-06	BMC and Management Firmware	EDK II	Upstream	TianoCore	2006	Community or academic	6.4K	72.2	True	https://github.com/tianocore/edk2	Reference UEFI implementation, now including LoongArch	41
+02-06	BMC and Management Firmware	openUBMC	OSS	openUBMC community (Huawei)	2024	Community or academic	—	— 41	False	https://www.openubmc.cn	Open server management firmware community started by Huawei	41
+03-01	Kernels and Distributions	OpenBMC	Upstream	Linux Foundation	2015	Foundation hosted	2.6K	69.2	False	https://github.com/openbmc/openbmc	Open BMC firmware stack with Inspur among maintainers	42
+03-01	Kernels and Distributions	OCP Open System Firmware	Standard	Open Compute Project	2019	Standards body	—	—	False	https://www.opencompute.org/projects/open-system-firmware	Open specs for server firmware and management	42
+03-01	Kernels and Distributions	CANN	OSS	Huawei	2025	Company-led	—	—	True	https://www.hiascend.com/cann	Ascend compute architecture; opensourced from 2025	42
+03-01	Kernels and Distributions	Ascend Driver	Commercial	Huawei	—	Commercial product	—	—	False	https://www.hiascend.com	Kernel driver and firmware for Ascend NPUs	42
+03-01	Kernels and Distributions	MUSA SDK	Commercial	Moore Threads	2022	Commercial product	—	—	False	https://developer.mthreads.com	Driver and compute stack for Moore Threads GPUs	42
+03-01	Kernels and Distributions	Cambricon Neuware	Commercial	Cambricon Technologies	2018	Commercial product	—	—	False	https://developer.cambricon.com	Driver and software stack for Cambricon MLUs	42
+03-01	Kernels and Distributions	OpenCloudOS	OSS	OpenCloudOS community (Tencent)	2021	Community or academic	0	1.9 42	True	https://github.com/OpenCloudOS/OpenCloudOS-Kernel	Server OS community started by Tencent and partners	42
+03-03	Desktop Operating Systems	openEuler	OSS	OpenAtom Foundation (donated by Huawei)	2019	Foundation hosted	—	—	True	https://atomgit.com/openeuler/community	Open-source OS for servers, cloud and edge	43
+03-03	Desktop Operating Systems	Anolis OS	OSS	OpenAnolis (Alibaba Cloud)	2020	Community or academic	—	—	True	https://gitee.com/anolis/cloud-kernel.git	Open distribution compatible with the CentOS ecosystem	43
+03-03	Desktop Operating Systems	Linux kernel	Upstream	Linux Foundation	1991	Foundation hosted	256K	72.9	True	https://github.com/torvalds/linux	Common upstream; LoongArch merged in 5.19	43
+03-03	Desktop Operating Systems	BC-Linux	Commercial	China Mobile	—	Commercial product	—	—	False	https://mirrors.cmecloud.cn/bclinux/	China Mobile's server distribution, with an openEuler-based edition	43
+03-03	Desktop Operating Systems	Kylin Server OS	Commercial	KylinSoft	—	Commercial product	—	—	False	https://www.kylinos.cn	Server OS widely used in government and key industries	43
+03-03	Desktop Operating Systems	UOS Server	Commercial	UnionTech	2019	Commercial product	—	—	False	https://www.uniontech.com	UnionTech's server edition of UOS	43
+03-03	Desktop Operating Systems	Alibaba Cloud Linux	Commercial	Alibaba Cloud	—	Commercial product	—	—	True	https://www.alibabacloud.com	Alibaba Cloud's default server image OS	43
+03-03	Desktop Operating Systems	TencentOS Server	Commercial	Tencent Cloud	—	Commercial product	—	—	True	https://cloud.tencent.com	Tencent Cloud's server operating system	43
+03-04	Mobile Operating Systems	deepin	OSS	deepin community (UnionTech)	2004	Community or academic	418	59.4	True	https://github.com/linuxdeepin/dde-file-manager	Linux distribution with its own DDE desktop	44
+03-04	Mobile Operating Systems	Ubuntu Kylin	OSS	Ubuntu Kylin community	2013	Community or academic	165	16.7	True	https://github.com/ukui/ukui-desktop-environment	Official Chinese Ubuntu flavour that develops the UKUI desktop	44
+03-04	Mobile Operating Systems	openKylin	OSS	openKylin community (KylinSoft)	2022	Community or academic	—	—	True	https://gitee.com/openkylin/community.git	Desktop-focused open-source OS root community	44
+03-04	Mobile Operating Systems	UOS Desktop	Commercial	UnionTech	2019	Commercial product	—	—	False	https://www.uniontech.com	Commercial desktop OS based on deepin	44
+03-04	Mobile Operating Systems	Kylin Desktop OS	Commercial	KylinSoft	—	Commercial product	—	—	False	https://www.kylinos.cn	Desktop OS widely used in government offices	44
+03-04	Mobile Operating Systems	OpenHarmony	OSS	OpenAtom Foundation (donated by Huawei)	2020	Foundation hosted	—	—	True	https://atomgit.com/openharmony/docs	Open-source OS for many kinds of devices	44
+03-04	Mobile Operating Systems	HarmonyOS	Commercial	Huawei	2019	Commercial product	—	—	True	https://developer.huawei.com/consumer/cn/harmonyos	Huawei device OS; from HarmonyOS NEXT it no longer runs Android apps	44
+03-04	Mobile Operating Systems	Eclipse Oniro	Upstream	Eclipse Foundation	2021	Foundation hosted	—	—	True	https://oniroproject.org	OpenHarmony-based project at the Eclipse Foundation	44
+03-04	Mobile Operating Systems	AOSP	Upstream	Google	2008	Company-led	—	—	True	https://source.android.com	Common upstream for Chinese Android phones	44
+03-06	Browser Engines	RT-Thread	OSS	RT-Thread Development Team	2006	Community or academic	12K	71.1	True	https://github.com/RT-Thread/rt-thread	China's most widely used open embedded RTOS	45
+03-06	Browser Engines	AliOS Things	OSS	Alibaba	2017	Company-led	4.6K	34.2	True	https://github.com/alibaba/AliOS-Things	Alibaba's lightweight IoT operating system	45
+03-06	Browser Engines	TobudOS (formerly TencentOS Tiny)	OSS	OpenAtom Foundation (donated by Tencent)	2019	Foundation hosted	5.9K	32.6	False	https://github.com/OpenAtomFoundation/TobudOS	Lightweight RTOS for IoT devices	45
+03-06	Browser Engines	Huawei LiteOS	OSS	Huawei	2015	Company-led	4.9K	30.3	False	https://github.com/LiteOS/LiteOS	Huawei's lightweight IoT OS, later a kernel option in OpenHarmony	45
+03-06	Browser Engines	openvela	OSS	Xiaomi	2024	Company-led	—	—	False	https://github.com/open-vela	Open edition of Xiaomi Vela, built on NuttX	45
+03-06	Browser Engines	UniProton	OSS	openEuler community	2022	Foundation hosted	—	—	False	https://atomgit.com/openeuler/UniProton	Industrial real-time OS from openEuler	45
+03-06	Browser Engines	SylixOS	Commercial	ACOINFO	2006	Commercial product	—	—	False	https://www.acoinfo.com	Chinese RTOS for industrial and aerospace systems	45
+03-06	Browser Engines	Zephyr	Upstream	Linux Foundation	2016	Foundation hosted	17K	86.8	False	https://github.com/zephyrproject-rtos/zephyr	Embedded RTOS hosted by the Linux Foundation	45
+03-06	Browser Engines	Apache NuttX	Upstream	Apache Software Foundation	2007	Foundation graduated	4.1K	75.2	False	https://github.com/apache/nuttx	POSIX-style RTOS; Xiaomi is a major contributor	45
+03-06	Browser Engines	ArkWeb	OSS	OpenHarmony community	2022	Foundation hosted	—	— 45	True	https://atomgit.com/openharmony/web_webview	OpenHarmony's web component, based on Chromium	45
+03-08	C Libraries and System ABI	QAX Trusted Browser	Commercial	QI-ANXIN	—	Commercial product	—	—	False	https://www.qianxin.com	Browser for government and enterprise domestic terminals	46
+03-08	C Libraries and System ABI	Chromium	Upstream	Google	2008	Company-led	25K	69.5	True	https://github.com/chromium/chromium	Engine upstream for nearly all Chinese browsers	46
+03-08	C Libraries and System ABI	Linyaps	OSS	OpenAtom Foundation (donated by UnionTech)	2022	Foundation hosted	215	51.2	True	https://github.com/OpenAtom-Linyaps/linyaps	Cross-distribution Linux app packaging and runtime	46
+03-08	C Libraries and System ABI	Spark Store	OSS	Spark community	2019	Community or academic	—	—	False	https://www.spark-app.store	Community app store for Chinese Linux desktops	46
+03-08	C Libraries and System ABI	Flatpak	Upstream	Flatpak community	2015	Community or academic	5.1K	63.0	True	https://github.com/flatpak/flatpak	Cross-distribution Linux app format	46
+03-08	C Libraries and System ABI	CUPS	Upstream	OpenPrinting	1999	Foundation hosted	1.8K	59.9	False	https://github.com/OpenPrinting/cups	Linux printing system used for peripheral support	46
+03-08	C Libraries and System ABI	HAP Package	Standard	OpenHarmony community	2020	Standards body	—	—	False	https://www.openharmony.cn	App package format for OpenHarmony and HarmonyOS	46
+03-08	C Libraries and System ABI	IPP	Standard	Printer Working Group	1999	Standards body	—	—	True	https://www.pwg.org/ipp/	Network printing protocol that reduces permodel drivers	46
+03-09	Graphics and Multimedia	glibc	Upstream	GNU Project	1987	Community or academic	1.9K	52.2	True	https://github.com/bminor/glibc	GNU C library; LoongArch support since 2.36	47
+03-09	Graphics and Multimedia	musl	Upstream	musl community	2011	Community or academic	—	—	True	https://musl.libc.org	Lightweight C library for embedded and containers	47
+03-09	Graphics and Multimedia	LoongArch ABI Specs	Standard	Loongson	2021	Standards body	39	16.7	False	https://github.com/loongson/la-abi-specs	LoongArch ELF and calling convention specifications	47
+03-09	Graphics and Multimedia	Treeland	OSS	deepin community	2023	Community or academic	80	55.2	False	https://github.com/linuxdeepin/treeland	deepin's Wayland compositor	47
+03-09	Graphics and Multimedia	ArkUI-X	OSS	OpenHarmony community	2022	Foundation hosted	—	—	False	https://gitee.com/arkui-x/docs	Runs ArkUI apps on Android and iOS	47
+03-09	Graphics and Multimedia	Mesa	Upstream	freedesktop.org	1993	Community or academic	—	—	True	https://mesa3d.org	Open graphics stack; many Chinese GPU drivers build on it	47
+03-09	Graphics and Multimedia	Wayland	Upstream	freedesktop.org	2008	Community or academic	—	—	True	https://wayland.freedesktop.org	Modern Linux display protocol	47
+04-02	Domain-specific Languages	MoonBit	OSS	IDEA	2023	Company-led	1.3K	61.1	False	https://github.com/moonbitlang/core	New language and toolchain for Wasm and native targets	48
+04-02	Domain-specific Languages	Wa-lang	OSS	Wa-lang community	2022	Community or academic	1.8K	45.8	False	https://github.com/wa-lang/wa	General-purpose language targeting Wasm	48
+04-02	Domain-specific Languages	Cangjie	OSS	Huawei	2024	Company-led	—	—	False	https://cangjie-lang.cn	Huawei's language for HarmonyOS apps; compiler opened in 2025	48
+04-02	Domain-specific Languages	ArkTS	OSS	OpenHarmony community	2022	Foundation hosted	—	—	True	https://atomgit.com/openharmony/arkcompiler_ets_frontend	Main app language for OpenHarmony, extended from TypeScript	48
+04-02	Domain-specific Languages	TileLang	OSS	Peking University and partners	2024	Community or academic	9.0K	66.3 48	False	https://github.com/tile-ai/tilelang	DSL for AI kernels; DeepSeek published kernels written in it	48
+04-03	Compilers and Toolchains	Taichi	OSS	Taichi Graphics	2019	Company-led	28K	47.1	True	https://github.com/taichi-dev/taichi	High-performance parallel language embedded in Python	49
+04-03	Compilers and Toolchains	Apache Calcite	Upstream	Apache Software Foundation	2012	Foundation graduated	5.2K	66.5	True	https://github.com/apache/calcite	SQL parser and optimiser used by many Chinese engines	49
+04-03	Compilers and Toolchains	Chisel	Upstream	CHIPS Alliance	2012	Foundation hosted	4.8K	60.5	True	https://github.com/chipsalliance/chisel	Hardware construction language XiangShan is written in	49
+04-03	Compilers and Toolchains	Eclipse 4diac	Upstream	Eclipse Foundation	2007	Foundation hosted	82	48.0	False	https://github.com/eclipse-4diac/4diac-forte	IEC 61499 industrial control environment	49
+04-03	Compilers and Toolchains	WIT	Standard	Bytecode Alliance	2022	Standards body	—	—	True	https://component-model.bytecodealliance.org	Interface language of the Wasm component model	49
+04-03	Compilers and Toolchains	openEuler GCC	OSS	openEuler community	2020	Foundation hosted	2	38.2	False	https://github.com/openeuler-mirror/gcc	GCC branch maintained by openEuler with Kunpeng optimisations	49
+04-03	Compilers and Toolchains	OpenArkCompiler	OSS	Huawei	2019	Company-led	—	—	False	https://gitee.com/openarkcompiler/OpenArkCompiler	Huawei's multi-language compiler	49
+04-03	Compilers and Toolchains	BiSheng Compiler	Commercial	Huawei	2020	Commercial product	—	—	False	https://www.hikunpeng.com/developer/devkit/compiler/bisheng	LLVM-based C/C++ compiler tuned for Kunpeng	49
+04-03	Compilers and Toolchains	LLVM	Upstream	LLVM Foundation	2003	Community or academic	42K	91.9	True	https://github.com/llvm/llvm-project	Compiler infrastructure; LoongArch backend official since LLVM 16	49
+04-03	Compilers and Toolchains	GCC	Upstream	GNU Project	1987	Community or academic	11K	—	True	https://github.com/gcc-mirror/gcc	GNU compiler; LoongArch support since GCC 12	49
+04-05	Linkers, Debuggers and Runtime Libraries	WasmEdge	OSS	Second State	2019	Foundation hosted	11K	66.1	False	https://github.com/WasmEdge/WasmEdge	Wasm runtime for cloud-native and edge	50
+04-05	Linkers, Debuggers and Runtime Libraries	Alibaba Dragonwell	OSS	Alibaba	2019	Company-led	4.3K	64.9	False	https://github.com/dragonwell-project/dragonwell8	Alibaba's OpenJDK build for e-commerce scale Java	50
+04-05	Linkers, Debuggers and Runtime Libraries	Tencent Kona JDK	OSS	Tencent	2019	Company-led	1.0K	60.3	True	https://github.com/Tencent/TencentKona-8	Tencent's OpenJDK distribution	50
+04-05	Linkers, Debuggers and Runtime Libraries	BiSheng JDK	OSS	Huawei	2020	Foundation hosted	25	41.5	False	https://github.com/openeuler-mirror/bishengjdk-8	Huawei's OpenJDK build tuned for Kunpeng	50
+04-05	Linkers, Debuggers and Runtime Libraries	Node.js	Upstream	OpenJS Foundation	2009	Foundation hosted	124K	85.0	True	https://github.com/nodejs/node	JavaScript runtime that hosts several Chinese toolchains	50
+04-05	Linkers, Debuggers and Runtime Libraries	OpenJDK	Upstream	OpenJDK community	2007	Community or academic	24K	79.1	True	https://github.com/openjdk/jdk	Common upstream of the Chinese JDK builds	50
+04-05	Linkers, Debuggers and Runtime Libraries	WAMR	Upstream	Bytecode Alliance	2019	Community or academic	6.2K	61.3	False	https://github.com/wasm-micro-runtime/wasm-micro-runtime	Lightweight Wasm runtime started by Intel's China team	50
+04-05	Linkers, Debuggers and Runtime Libraries	WebAssembly	Standard	W3C	2017	Standards body	—	—	True	https://webassembly.org	Portable bytecode standard across languages	50
+04-05	Linkers, Debuggers and Runtime Libraries	Kunpeng DevKit	Commercial	Huawei	2020	Commercial product	—	—	False	https://www.hikunpeng.com/developer/devkit	Porting, compiling and performance tuning tools	50
+04-05	Linkers, Debuggers and Runtime Libraries	GNU Binutils	Upstream	GNU Project	1990	Community or academic	—	— 50	False	https://www.gnu.org/software/binutils/	Assembler and linker; LoongArch support since 2.38	50
+04-06	Front-end and Cross-platform Frameworks	GDB	Upstream	GNU Project	1986	Community or academic	—	—	True	https://sourceware.org/gdb/	GNU debugger; LoongArch support since GDB 13	51
+04-06	Front-end and Cross-platform Frameworks	LLDB	Upstream	LLVM Foundation	2010	Community or academic	—	—	False	https://lldb.llvm.org	LLVM's debugger	51
+04-06	Front-end and Cross-platform Frameworks	Ant Design	OSS	Ant Group	2015	Company-led	100K	82.2	True	https://github.com/ant-design/ant-design	Enterprise React component library	51
+04-06	Front-end and Cross-platform Frameworks	Vite	OSS	VoidZero (founded by Evan You)	2020	Community or academic	84K	76.4	True	https://github.com/vitejs/vite	Front-end build tool now default for most frameworks	51
+04-06	Front-end and Cross-platform Frameworks	Element Plus	OSS	Element community (from Ele.me)	2020	Community or academic	28K	73.2	True	https://github.com/element-plus/element-plus	Vue 3 component library that grew out of Ele.me's Element	51
+04-06	Front-end and Cross-platform Frameworks	Vue.js	OSS	Evan You and the Vue core team	2014	Community or academic	55K	70.9	True	https://github.com/vuejs/core	Progressive front-end framework led by Evan You	51
+04-06	Front-end and Cross-platform Frameworks	Rspack	OSS	ByteDance	2022	Company-led	13K	69.9	False	https://github.com/web-infra-dev/rspack	Rust bundler compatible with webpack	51
+04-06	Front-end and Cross-platform Frameworks	uni-app	OSS	DCloud	2018	Company-led	42K	69.7	True	https://github.com/dcloudio/uni-app	Write once for mini-programs, apps and HarmonyOS	51
+04-06	Front-end and Cross-platform Frameworks	Lynx	OSS	ByteDance	2025	Company-led	15K	67.7	False	https://github.com/lynx-family/lynx	Cross-platform framework for native UI written with web tech	51
+04-06	Front-end and Cross-platform Frameworks	Taro	OSS	JD.com	2018	Company-led	38K	67.2	True	https://github.com/NervJS/taro	JD.com's multi-platform development framework	51
+04-06	Front-end and Cross-platform Frameworks	Hippy	OSS	Tencent	2019	Company-led	8.6K	54.0	False	https://github.com/Tencent/Hippy	Tencent's cross-platform UI framework	51
+04-06	Front-end and Cross-platform Frameworks	TDesign	OSS	Tencent	2021	Company-led	4.1K	52.6 51	True	https://github.com/Tencent/tdesign	Tencent's enterprise design system and components	51
+05-02	Build Systems	Qwen Code	OSS	Alibaba Tongyi Lab	2025	Company-led	31K	77.9	False	https://github.com/QwenLM/qwen-code	Command-line coding agent for Qwen models	52
+05-02	Build Systems	OpenSumi	OSS	Alibaba and Ant Group	2022	Company-led	3.7K	49.2	False	https://github.com/opensumi/core	Framework for building custom IDEs	52
+05-02	Build Systems	CodeGeeX	OSS	Zhipu AI and Tsinghua University	2022	Company-led	8.8K	27.6	False	https://github.com/zai-org/CodeGeeX	Open code model and IDE plug-ins	52
+05-02	Build Systems	CodeFuse	OSS	Ant Group	2023	Company-led	133	16.4	False	https://github.com/codefuse-ai/codefuse	Ant Group's code LLMs and AI coding tools	52
+05-02	Build Systems	CodeArts IDE	Commercial	Huawei Cloud	2023	Commercial product	—	—	False	https://www.huaweicloud.com/product/codearts.html	Huawei Cloud desktop IDE for HarmonyOS and Java	52
+05-02	Build Systems	DevEco Studio	Commercial	Huawei	2020	Commercial product	—	—	False	https://developer.huawei.com/consumer/cn/deveco-studio/	Official IDE for HarmonyOS apps	52
+05-02	Build Systems	Tongyi Lingma	Commercial	Alibaba Cloud	2023	Commercial product	—	—	False	https://lingma.aliyun.com	Alibaba Cloud's AI coding assistant	52
+05-02	Build Systems	Trae	Commercial	ByteDance	2025	Commercial product	—	—	True	https://www.trae.ai	ByteDance's AI-native IDE	52
+05-04	Code Hosting and Collaboration	Xmake	OSS	Xmake community	2015	Community or academic	12K	68.6	False	https://github.com/xmake-io/xmake	Lua-based cross-platform C/C++ build tool	53
+05-04	Code Hosting and Collaboration	hb build tool	OSS	OpenHarmony community	2020	Foundation hosted	—	—	False	https://atomgit.com/openharmony/build	OpenHarmony's GN and Ninja build system	53
+05-04	Code Hosting and Collaboration	Bazel	Upstream	Google	2015	Company-led	26K	77.1	False	https://github.com/bazelbuild/bazel	Large-scale multi-language build system	53
+05-04	Code Hosting and Collaboration	Harbor	OSS	CNCF (started by VMware China)	2016	Foundation graduated	30K	68.5	True	https://github.com/goharbor/harbor	Cloud-native artifact registry; CNCF graduated	53
+05-04	Code Hosting and Collaboration	Open-source mirror sites	OSS	TUNA and other mirrors	2015	Community or academic	1.9K	45.0	False	https://github.com/tuna/tunasync	Package mirrors run by universities and companies	53
+05-04	Code Hosting and Collaboration	Mooncakes	OSS	MoonBit team	2024	Company-led	—	—	False	https://mooncakes.io	MoonBit package registry	53
+05-04	Code Hosting and Collaboration	ohpm	Commercial	Huawei	2023	Commercial product	—	—	False	https://ohpm.openharmony.cn	Package manager and registry for OpenHarmony libraries	53
+05-04	Code Hosting and Collaboration	Gitea	OSS	Gitea community	2016	Community or academic	59K	78.0 53	True	https://github.com/go-gitea/gitea	Self-hosted Git service with Chinese core maintainers	53
+05-06	Signing and Build Provenance	Gitee	Commercial	OSCHINA	2013	Commercial product	—	—	True	https://gitee.com	China's largest code hosting platform	54
+05-06	Signing and Build Provenance	AtomGit	Commercial	OpenAtom Foundation	2023	Commercial product	—	—	True	https://atomgit.com	Code hosting platform of the OpenAtom Foundation	54
+05-06	Signing and Build Provenance	GitCode	Commercial	CSDN	2020	Commercial product	—	—	True	https://gitcode.com	CSDN's code platform hosting Cangjie and CANN	54
+05-06	Signing and Build Provenance	Git	Upstream	Git community	2005	Community or academic	64K	81.9	True	https://github.com/git/git	Distributed version control system	54
+05-06	Signing and Build Provenance	OneDev	OSS	OneDev community	2019	Community or academic	15K	62.9	False	https://github.com/theonedev/onedev	Self-hosted Git server with built-in CI	54
+05-06	Signing and Build Provenance	Apache DevLake	OSS	ASF (donated by Merico)	2021	Foundation graduated	3.2K	61.2	False	https://github.com/apache/devlake	Engineering metrics data platform	54
+05-06	Signing and Build Provenance	KubeSphere DevOps	OSS	QingCloud	2020	Company-led	164	36.4	False	https://github.com/kubesphere/ks-devops	CI/CD component inside KubeSphere	54
+05-06	Signing and Build Provenance	Jenkins	Upstream	CD Foundation	2011	Foundation hosted	27K	74.2	True	https://github.com/jenkinsci/jenkins	Most common self-hosted CI in Chinese enterprises	54
+05-06	Signing and Build Provenance	Sigstore Cosign	Upstream	OpenSSF	2021	Foundation hosted	6.5K	61.9 54	False	https://github.com/sigstore/cosign	Open signing tool for containers and artifacts	54
+05-07	SBOMs and Vulnerability Response	in-toto	Upstream	CNCF	2016	Foundation graduated	1.1K	45.3	True	https://github.com/in-toto/in-toto	Attestation framework for each supplychain step	55
+05-07	SBOMs and Vulnerability Response	SLSA	Standard	OpenSSF	2021	Standards body	2.0K	52.6	True	https://github.com/slsa-framework/slsa	Build provenance levels for software supply chains	55
+05-07	SBOMs and Vulnerability Response	OpenDigger	OSS	X-lab, East China Normal University	2021	Community or academic	370	46.8	True	https://github.com/X-lab2017/open-digger	Open-source ecosystem metrics, origin of OpenRank	55
+05-07	SBOMs and Vulnerability Response	openEuler SBOM	OSS	openEuler community	2023	Foundation hosted	—	—	False	https://www.openeuler.org	Software bills of materials for openEuler releases	55
+05-07	SBOMs and Vulnerability Response	OSV	Upstream	Google	2021	Company-led	3.1K	62.3	True	https://github.com/google/osv.dev	Open-source vulnerability database and format	55
+05-07	SBOMs and Vulnerability Response	OpenSSF Scorecard	Upstream	OpenSSF	2020	Foundation hosted	5.9K	59.9	True	https://github.com/ossf/scorecard	Automated security scoring for opensource projects	55
+06-02	Containers and Runtimes	StratoVirt	OSS	openEuler community	2020	Foundation hosted	—	—	False	https://atomgit.com/openeuler/stratovirt	Lightweight virtualisation platform from openEuler	56
+06-02	Containers and Runtimes	ZStack	Commercial	ZStack	2015	Commercial product	—	—	True	https://www.zstack.io	Chinese cloud and virtualisation platform	56
+06-02	Containers and Runtimes	FusionCompute	Commercial	Huawei	—	Commercial product	—	—	False	https://e.huawei.com	Huawei's server virtualisation platform	56
+06-02	Containers and Runtimes	Kata Containers	Upstream	OpenInfra Foundation	2017	Foundation hosted	9.2K	72.1	False	https://github.com/kata-containers/kata-containers	VM-isolated container runtime; Ant and Alibaba are major contributors	56
+06-02	Containers and Runtimes	OpenStack	Upstream	OpenInfra Foundation	2010	Foundation hosted	3.2K	70.0	True	https://github.com/openstack/nova	Common base for Chinese telco and government clouds	56
+06-02	Containers and Runtimes	KVM	Upstream	Linux kernel community	2007	Community or academic	—	—	True	https://linux-kvm.org	In-kernel virtualisation used by Chinese clouds	56
+06-03	Kubernetes and Orchestration	Dragonfly	OSS	CNCF (donated by Alibaba)	2017	Foundation graduated	3.4K	58.4	True	https://github.com/dragonflyoss/dragonfly	P2P image and file distribution; CNCF graduated	57
+06-03	Kubernetes and Orchestration	Kuasar	OSS	CNCF (started by Huawei)	2023	Foundation hosted	1.5K	43.1	False	https://github.com/kuasar-io/kuasar	Multi-sandbox container runtime	57
+06-03	Kubernetes and Orchestration	Inclavare Containers	OSS	CNCF (donated by Alibaba)	2020	Foundation hosted	636	23.5	False	https://github.com/inclavare-containers/inclavare-containers	Container runtime for confidential computing	57
+06-03	Kubernetes and Orchestration	iSulad	OSS	openEuler community	2019	Foundation hosted	—	—	False	https://atomgit.com/openeuler/iSulad	Lightweight container engine written in C	57
+06-03	Kubernetes and Orchestration	containerd	Upstream	CNCF	2015	Foundation graduated	22K	73.1	False	https://github.com/containerd/containerd	Industry-standard container runtime	57
+06-03	Kubernetes and Orchestration	Volcano	OSS	CNCF (started by Huawei)	2019	Foundation incubating	6.1K	67.0	True	https://github.com/volcano-sh/volcano	Batch scheduler for AI and big-data jobs	57
+06-03	Kubernetes and Orchestration	Karmada	OSS	CNCF (started by Huawei)	2021	Foundation graduated	5.8K	66.0	False	https://github.com/karmada-io/karmada	Multi-cloud, multi-cluster orchestration	57
+06-03	Kubernetes and Orchestration	Sealos	OSS	Labring	2018	Company-led	18K	64.5	False	https://github.com/labring/sealos	Cloud OS built around Kubernetes	57
+06-03	Kubernetes and Orchestration	HAMi	OSS	CNCF (4Paradigm, Dynamia)	2021	Foundation incubating	5.0K	64.0	True	https://github.com/Project-HAMi/HAMi	Sharing and virtualisation for heterogeneous AI accelerators	57
+06-03	Kubernetes and Orchestration	KubeVela	OSS	CNCF (started by Alibaba)	2020	Foundation incubating	7.9K	61.9	False	https://github.com/kubevela/kubevela	OAM-based application delivery platform	57
+06-03	Kubernetes and Orchestration	Rainbond	OSS	Goodrain	2017	Company-led	6.3K	59.8	False	https://github.com/goodrain/rainbond	App platform that hides Kubernetes details	57
+06-03	Kubernetes and Orchestration	OpenKruise	OSS	CNCF (started by Alibaba)	2019	Foundation incubating	5.4K	56.3	False	https://github.com/openkruise/kruise	Extended workload management for Kubernetes	57
+06-03	Kubernetes and Orchestration	Koordinator	OSS	CNCF (started by Alibaba)	2022	Foundation hosted	1.8K	55.9 57	False	https://github.com/koordinator-sh/koordinator	Co-location scheduler for online and batch work	57
+06-04	Distributed Storage	KubeSphere	OSS	QingCloud	2018	Company-led	17K	54.6	True	https://github.com/kubesphere/kubesphere	Enterprise Kubernetes management platform	58
+06-04	Distributed Storage	KCL	OSS	CNCF (started by Ant Group)	2022	Foundation hosted	2.4K	53.6	True	https://github.com/kcl-lang/kcl	Configuration and policy language for cloud native	58
+06-04	Distributed Storage	CMB Heterogeneous Orchestration	Commercial	China Merchants Bank	—	Commercial product	—	—	False	https://www.cmbchina.com	CMB's Kubernetes-based heterogeneous compute scheduling	58
+06-04	Distributed Storage	Kubernetes	Upstream	CNCF	2014	Foundation graduated	129K	88.4	True	https://github.com/kubernetes/kubernetes	De facto orchestrator with large Chinese contribution	58
+06-04	Distributed Storage	Fluid	OSS	CNCF (Nanjing University, Alibaba)	2020	Foundation incubating	2.0K	65.6	True	https://github.com/fluid-cloudnative/fluid	Dataset orchestration and caching for AI and big data	58
+06-04	Distributed Storage	JuiceFS	OSS	Juicedata	2021	Company-led	15K	65.2	False	https://github.com/juicedata/juicefs	POSIX file system on top of object storage	58
+06-04	Distributed Storage	CubeFS	OSS	CNCF (from JD.com, maintained with OPPO)	2019	Foundation graduated	5.7K	60.8	False	https://github.com/cubefs/cubefs	Cloud-native file and object storage; CNCF graduated	58
+06-04	Distributed Storage	HwameiStor	OSS	CNCF (started by DaoCloud)	2022	Foundation hosted	659	47.1	False	https://github.com/hwameistor/hwameistor	Local storage system for Kubernetes	58
+06-04	Distributed Storage	Curve	OSS	NetEase	2020	Archived	2.4K	30.9	True	https://github.com/opencurve/curve	NetEase's block and file storage; archived by CNCF in 2024	58
+06-04	Distributed Storage	China Mobile Cloud Block Storage	Commercial	China Mobile Cloud	—	Commercial product	—	—	False	https://ecloud.10086.cn	Telco cloud block storage on a domestic stack	58
+06-04	Distributed Storage	Ceph	Upstream	Ceph Foundation	2006	Foundation hosted	17K	81.1	True	https://github.com/ceph/ceph	Distributed storage widely used by Chinese clouds	58
+06-06	Observability	Serverless Devs	OSS	CNCF (started by Alibaba Cloud)	2020	Foundation hosted	1.8K	38.3	False	https://github.com/Serverless-Devs/Serverless-Devs	Multi-cloud serverless developer tool	59
+06-06	Observability	OpenFunction	OSS	CNCF (started by QingCloud)	2021	Foundation hosted	1.7K	25.7	False	https://github.com/OpenFunction/OpenFunction	Cloud-native function-as-a-service platform	59
+06-06	Observability	China Mobile Cloud	Commercial	China Mobile	2014	Commercial product	—	—	False	https://ecloud.10086.cn	Telco public cloud built on OpenStack and in-house parts	59
+06-06	Observability	Apache SkyWalking	OSS	ASF (started by Wu Sheng)	2015	Foundation graduated	25K	67.6	False	https://github.com/apache/skywalking	APM system and an early China-originated Apache top-level project	59
+06-06	Observability	Nightingale	OSS	CCF Open Source Development Committee (donated by DiDi)	2020	Community or academic	14K	63.5	False	https://github.com/ccfos/nightingale	Open-source monitoring and alerting system	59
+06-06	Observability	Apache HertzBeat	OSS	Apache Software Foundation	2022	Foundation graduated	7.5K	63.5	False	https://github.com/apache/hertzbeat	Agentless real-time monitoring system	59
+06-06	Observability	DeepFlow	OSS	Yunshan Networks	2022	Company-led	4.3K	59.7	False	https://github.com/deepflowio/deepflow	Zero-instrumentation observability built on eBPF	59
+06-06	Observability	Apache Ozhera	OSS	ASF (donated by Xiaomi)	2023	Foundation incubating	123	41.0	False	https://github.com/apache/ozhera	Application observability platform	59
+06-06	Observability	Prometheus	Upstream	CNCF	2012	Foundation graduated	68K	78.8	True	https://github.com/prometheus/prometheus	De facto cloud-native monitoring	59
+06-06	Observability	OpenTelemetry	Upstream	CNCF	2019	Foundation hosted	7.8K	69.1	True	https://github.com/open-telemetry/opentelemetry-collector	Open telemetry collection standard	59
+06-09	Cloud Security Operations	ChaosBlade	OSS	CNCF (started by Alibaba)	2019	Foundation hosted	6.5K	51.8	False	https://github.com/chaosblade-io/chaosblade	Chaos engineering toolkit	60
+06-09	Cloud Security Operations	Velero	Upstream	VMware	2017	Company-led	10K	68.5	False	https://github.com/velero-io/velero	Kubernetes backup and migration tool	60
+06-09	Cloud Security Operations	CSI	Standard	CNCF	2017	Standards body	1.5K	46.8	True	https://github.com/container-storage-interface/spec	Container storage interface standard	60
+06-09	Cloud Security Operations	Kepler	Upstream	CNCF	2022	Foundation hosted	1.6K	55.0	True	https://github.com/sustainable-computing-io/kepler	Energy metering for Kubernetes	60
+06-09	Cloud Security Operations	East Data West Computing	Standard	NDRC and others	2022	Standards body	—	—	False	https://www.ndrc.gov.cn	National plan for compute hubs and datacentre clusters	60
+06-09	Cloud Security Operations	ODCC Specifications	Standard	ODCC	2014	Standards body	—	—	False	https://www.odcc.org.cn	Chinese specs for data-centre facilities, cooling and servers	60
+06-09	Cloud Security Operations	Elkeid	OSS	ByteDance	2021	Company-led	2.7K	47.0 60	False	https://github.com/bytedance/Elkeid	ByteDance's host and container intrusion detection	60
+07-01	Switching and Routing	secPaver	OSS	openEuler community	2021	Foundation hosted	—	—	False	https://atomgit.com/openeuler/secpaver	Security policy tooling for openEuler	61
+07-01	Switching and Routing	Falco	Upstream	CNCF	2016	Foundation graduated	9.6K	64.1	True	https://github.com/falcosecurity/falco	Cloud-native runtime threat detection	61
+07-01	Switching and Routing	Kube-OVN	OSS	CNCF (started by Alauda)	2019	Foundation hosted	2.4K	63.0	False	https://github.com/kubeovn/kube-ovn	Kubernetes network plug-in built on OVN	61
+07-01	Switching and Routing	Kmesh	OSS	CNCF (started by Huawei)	2023	Foundation hosted	768	52.8	True	https://github.com/kmesh-net/kmesh	Sidecarless service mesh built on eBPF	61
+07-01	Switching and Routing	Spiderpool	OSS	CNCF (started by DaoCloud)	2022	Foundation hosted	683	49.4	False	https://github.com/spidernet-io/spiderpool	Underlay and RDMA networking for AI and bare metal	61
+07-01	Switching and Routing	Istio	Upstream	CNCF	2017	Foundation graduated	39K	75.4	True	https://github.com/istio/istio	De facto service mesh with deep Chinese involvement	61
+07-01	Switching and Routing	OpenWrt	Upstream	OpenWrt community	2004	Community or academic	29K	80.8	True	https://github.com/openwrt/openwrt	Open OS for home and edge routers	61
+07-01	Switching and Routing	FRRouting	Upstream	Linux Foundation	2017	Foundation hosted	4.4K	73.0 61	False	https://github.com/FRRouting/frr	Open routing protocol suite	61
+07-03	Radio Access Networks, 3G to 6G	SONiC	Upstream	Linux Foundation	2016	Foundation hosted	3.0K	62.5	True	https://github.com/sonic-net/SONiC	Open network OS used at scale by Alibaba and Tencent	62
+07-03	Radio Access Networks, 3G to 6G	SAI	Standard	Open Compute Project	2015	Standards body	625	53.9	True	https://github.com/opencomputeproject/SAI	Switch abstraction interface SONiC uses to support Chinese ASICs	62
+07-03	Radio Access Networks, 3G to 6G	DPDK	Upstream	Linux Foundation	2010	Foundation hosted	4.5K	72.7	True	https://github.com/DPDK/dpdk	User-space packet processing libraries	62
+07-03	Radio Access Networks, 3G to 6G	FD.io VPP	Upstream	Linux Foundation	2016	Foundation hosted	1.6K	67.3	False	https://github.com/FDio/vpp	High-performance software data plane	62
+07-03	Radio Access Networks, 3G to 6G	OVN / Open vSwitch	Upstream	Linux Foundation	2009	Foundation hosted	4.0K	64.8	False	https://github.com/openvswitch/ovs	Virtual switching and virtual networks	62
+07-03	Radio Access Networks, 3G to 6G	LoxiLB	Upstream	CNCF	2022	Foundation hosted	1.9K	52.2	False	https://github.com/loxilb-io/loxilb	eBPF-based cloud-native load balancer	62
+07-03	Radio Access Networks, 3G to 6G	ZTE OpenAN	Commercial	ZTE	—	Commercial product	—	—	False	https://www.zte.com.cn	ZTE's open radio access network offering	62
+07-03	Radio Access Networks, 3G to 6G	srsRAN	Upstream	Software Radio Systems	2014	Company-led	1.1K	25.7	False	https://github.com/srsran/srsRAN_Project	Open 4G/5G RAN software	62
+07-03	Radio Access Networks, 3G to 6G	OpenAirInterface	Upstream	OpenAirInterface Software Alliance	2014	Community or academic	—	—	False	https://openairinterface.org	Open 4G/5G RAN and core software	62
+07-03	Radio Access Networks, 3G to 6G	O-RAN Specifications	Standard	O-RAN Alliance	2018	Standards body	—	— 62	False	https://www.o-ran.org	Open RAN interface specs; China Mobile is a founder	62
+07-06	Protocol Interoperability and Patent Licensing	China Mobile Network Cloud	Commercial	China Mobile	2019	Commercial product	—	—	False	https://www.10086.cn	Telco cloud resource pools for the core network	63
+07-06	Protocol Interoperability and Patent Licensing	Open5GS	Upstream	Open5GS community	2017	Community or academic	2.8K	61.0	True	https://github.com/open5gs/open5gs	Open 4G/5G core implementation	63
+07-06	Protocol Interoperability and Patent Licensing	free5GC	Upstream	NYCU (Taiwan)	2019	Community or academic	2.4K	55.6	False	https://github.com/free5gc/free5gc	5G core written in Go	63
+07-06	Protocol Interoperability and Patent Licensing	OAI 5G Core	Upstream	OpenAirInterface Software Alliance	2019	Community or academic	—	—	False	https://openairinterface.org	Open 5G core network	63
+07-06	Protocol Interoperability and Patent Licensing	KubeEdge	OSS	CNCF (started by Huawei)	2018	Foundation graduated	7.6K	64.0	True	https://github.com/kubeedge/kubeedge	Kubernetes for edge computing; CNCF graduated	63
+07-06	Protocol Interoperability and Patent Licensing	OpenYurt	OSS	CNCF (started by Alibaba)	2020	Foundation incubating	2.0K	55.5	False	https://github.com/openyurtio/openyurt	Non-intrusive Kubernetes edge platform	63
+07-06	Protocol Interoperability and Patent Licensing	Baetyl	OSS	LF Edge (donated by Baidu)	2018	Foundation hosted	1.9K	27.3	False	https://github.com/baetyl/baetyl	Baidu's edge computing framework	63
+07-06	Protocol Interoperability and Patent Licensing	SuperEdge	OSS	CNCF (started by Tencent)	2020	Archived	1.1K	27.0	False	https://github.com/superedge/superedge	Tencent's edge container project; archived by CNCF in 2025	63
+07-06	Protocol Interoperability and Patent Licensing	OAI Public License	Standard	OpenAirInterface Software Alliance	2015	Standards body	—	—	False	https://openairinterface.org/legal/oai-public-license/	Open licence that accommodates FRAND patents	64
+07-06	Protocol Interoperability and Patent Licensing	RFC 8998	Standard	IETF	2021	Standards body	—	—	False	https://www.rfc-editor.org/rfc/rfc8998	Adds SM2, SM3 and SM4 cipher suites to TLS 1.3	64
+08-01	Relational and Distributed Databases	TiDB	OSS	PingCAP	2015	Company-led	41K	75.4	True	https://github.com/pingcap/tidb	MySQL-compatible distributed HTAP database	65
+08-01	Relational and Distributed Databases	OceanBase	OSS	Ant Group	2010	Company-led	10K	71.9	True	https://github.com/oceanbase/oceanbase	Distributed database behind Alipay ledgers; open-sourced in 2021	65
+08-01	Relational and Distributed Databases	TiKV	OSS	CNCF (donated by PingCAP)	2016	Foundation graduated	17K	65.0	True	https://github.com/tikv/tikv	Distributed transactional KV store; CNCF graduated	65
+08-01	Relational and Distributed Databases	PolarDB-X	OSS	Alibaba Cloud	2021	Company-led	1.7K	39.5	False	https://github.com/polardb/polardbx-sql	MySQL-compatible distributed database	65
+08-01	Relational and Distributed Databases	PolarDB	OSS	Alibaba Cloud	2021	Company-led	1	8.9	False	https://github.com/ApsaraDB/PolarDB-for-PostgreSQL	Alibaba Cloud's cloud-native database; PG and distributed editions are open	65
+08-01	Relational and Distributed Databases	openGauss	OSS	openGauss community (Huawei)	2020	Community or academic	—	—	True	https://gitee.com/opengauss/openGauss-server	Enterprise relational database derived from PostgreSQL	65
+08-01	Relational and Distributed Databases	GaussDB	Commercial	Huawei Cloud	—	Commercial product	—	—	False	https://www.huaweicloud.com/product/gaussdb.html	Huawei's commercial distributed database, common in banking	65
+08-01	Relational and Distributed Databases	DM Database	Commercial	Dameng	2000	Commercial product	—	— 65	False	https://www.dameng.com	Long-standing Chinese RDBMS, strong in government and energy	65
+08-02	Analytics Engines	KingbaseES	Commercial	Kingbase	1999	Commercial product	—	—	False	https://www.kingbase.com.cn	Chinese RDBMS compatible with Oracle and PostgreSQL	66
+08-02	Analytics Engines	GoldenDB	Commercial	ZTE	2014	Commercial product	—	—	False	https://www.goldendb.com	Distributed database used in bank core systems	66
+08-02	Analytics Engines	TDSQL	Commercial	Tencent Cloud	2002	Commercial product	—	—	False	https://cloud.tencent.com/product/tdsql	Tencent's distributed database for WeChat Pay and banks	66
+08-02	Analytics Engines	MySQL	Upstream	Oracle	1995	Company-led	13K	73.0	True	https://github.com/mysql/mysql-server	Main protocol Chinese distributed databases stay compatible with	66
+08-02	Analytics Engines	PostgreSQL	Upstream	PostgreSQL Global Development Group	1996	Community or academic	23K	68.3	True	https://github.com/postgres/postgres	Upstream of openGauss, PolarDB, Kingbase and others	66
+08-02	Analytics Engines	Apache Doris	OSS	ASF (donated by Baidu)	2017	Foundation graduated	16K	75.5	True	https://github.com/apache/doris	Real-time analytics database that began as Baidu Palo	66
+08-02	Analytics Engines	StarRocks	OSS	Linux Foundation (from CelerData)	2021	Foundation hosted	12K	74.8	True	https://github.com/StarRocks/starrocks	Fast analytics database; donated to the Linux Foundation in 2023	66
+08-02	Analytics Engines	Databend	OSS	Databend Labs	2020	Company-led	9.5K	66.7	False	https://github.com/databendlabs/databend	Cloud-native warehouse written in Rust	66
+08-02	Analytics Engines	MatrixOne	OSS	MatrixOrigin	2021	Company-led	2.1K	64.5	False	https://github.com/matrixorigin/matrixone	Hyper-converged HTAP cloud-native database	66
+08-02	Analytics Engines	Apache Kyuubi	OSS	ASF (donated by NetEase)	2018	Foundation graduated	2.4K	60.7	False	https://github.com/apache/kyuubi	Multi-tenant distributed SQL gateway	66
+08-02	Analytics Engines	Apache Kylin	OSS	ASF (donated by eBay China)	2014	Foundation graduated	3.8K	52.3	True	https://github.com/apache/kylin	OLAP engine; first Apache TLP led by a Chinese team	66
+08-04	Message Queues	RisingWave	OSS	RisingWave Labs	2021	Company-led	9.4K	66.7	False	https://github.com/risingwavelabs/risingwave	PostgreSQL-compatible streaming database	67
+08-04	Message Queues	Apache Celeborn	OSS	ASF (donated by Alibaba)	2021	Foundation graduated	1.1K	57.2	False	https://github.com/apache/celeborn	Remote shuffle service for big-data engines	67
+08-04	Message Queues	Apache StreamPark	OSS	Apache Software Foundation	2021	Foundation graduated	4.4K	53.5	False	https://github.com/apache/streampark	Development and management platform for streaming jobs	67
+08-04	Message Queues	Alibaba Blink	OSS	Alibaba	2016	Company-led	—	—	False	https://flink.apache.org/2019/02/13/batch-as-a-special-case-of-streaming-and-alibabas-contribution-of-blink/	Alibaba's internal Flink fork, merged upstream in 2019	67
+08-04	Message Queues	Apache Flink	Upstream	Apache Software Foundation	2014	Foundation graduated	26K	76.9	True	https://github.com/apache/flink	Stream processor where Alibaba is a top contributor	67
+08-04	Message Queues	Apache RocketMQ	OSS	ASF (donated by Alibaba)	2012	Foundation graduated	23K	68.7	True	https://github.com/apache/rocketmq	Message queue used in Alibaba's Double 11 transactions	67
+08-04	Message Queues	Apache EventMesh	OSS	ASF (donated by WeBank)	2019	Foundation graduated	1.8K	56.5	False	https://github.com/apache/eventmesh	Event-driven serverless middleware	67
+08-04	Message Queues	Apache InLong	OSS	ASF (donated by Tencent)	2019	Foundation graduated	1.5K	54.0	False	https://github.com/apache/inlong	Data ingestion platform that grew out of TubeMQ	67
+08-04	Message Queues	Apache BifroMQ	OSS	ASF (donated by Baidu)	2023	Foundation incubating	813	45.0	False	https://github.com/apache/bifromq	Multi-tenant MQTT broker	67
+08-04	Message Queues	Apache Kafka	Upstream	Apache Software Foundation	2011	Foundation graduated	34K	77.7 67	True	https://github.com/apache/kafka	De facto log and event streaming platform	67
+08-06	Data Integration and Governance	Apache Pulsar	Upstream	Apache Software Foundation	2016	Foundation graduated	15K	72.7	True	https://github.com/apache/pulsar	Cloud-native messaging used at scale by Tencent and others	68
+08-06	Data Integration and Governance	Infinity	OSS	InfiniFlow	2023	Company-led	4.8K	56.7	True	https://github.com/infiniflow/infinity	Hybrid vector and full-text database for RAG	68
+08-06	Data Integration and Governance	IK Analysis	OSS	INFINI Labs	2012	Community or academic	18K	44.2	False	https://github.com/infinilabs/analysis-ik	Most used Chinese tokenizer for Elasticsearch	68
+08-06	Data Integration and Governance	INFINI Easysearch	Commercial	INFINI Labs	2022	Commercial product	—	—	False	https://infinilabs.cn	Elasticsearch-compatible Chinese search engine	68
+08-06	Data Integration and Governance	OpenSearch	Upstream	Linux Foundation	2021	Foundation hosted	14K	74.3	True	https://github.com/opensearch-project/OpenSearch	Open search engine forked from Elasticsearch	68
+08-06	Data Integration and Governance	Apache Lucene	Upstream	Apache Software Foundation	1999	Foundation graduated	3.6K	67.1	True	https://github.com/apache/lucene	Full-text search library	68
+08-06	Data Integration and Governance	Apache SeaTunnel	OSS	Apache Software Foundation	2017	Foundation graduated	9.8K	70.1	False	https://github.com/apache/seatunnel	Multi-source data synchronisation platform	68
+08-06	Data Integration and Governance	Apache DolphinScheduler	OSS	ASF (donated by Analysys)	2019	Foundation graduated	15K	67.6	True	https://github.com/apache/dolphinscheduler	Visual distributed workflow scheduler	68
+08-06	Data Integration and Governance	Flink CDC	OSS	ASF (donated by Alibaba)	2020	Foundation hosted	6.5K	62.3 68	False	https://github.com/apache/flink-cdc	Real-time change data capture on Flink	68
+08-08	Data Catalogues, Lineage and Access	Canal	OSS	Alibaba	2013	Company-led	30K	55.8	True	https://github.com/alibaba/canal	Incremental MySQL binlog subscription	69
+08-08	Data Catalogues, Lineage and Access	Apache Linkis	OSS	ASF (donated by WeBank)	2019	Foundation graduated	3.4K	55.6	False	https://github.com/apache/linkis	Middleware that connects many compute engines	69
+08-08	Data Catalogues, Lineage and Access	DataX	OSS	Alibaba	2017	Company-led	17K	52.5	False	https://github.com/alibaba/DataX	Alibaba's offline data synchronisation tool	69
+08-08	Data Catalogues, Lineage and Access	Apache Paimon	OSS	ASF (donated by Alibaba)	2022	Foundation graduated	3.5K	69.3	False	https://github.com/apache/paimon	Lake format for unified streaming and batch	69
+08-08	Data Catalogues, Lineage and Access	Apache Amoro	OSS	ASF (donated by NetEase)	2022	Foundation incubating	1.2K	56.2	False	https://github.com/apache/amoro	Lakehouse management system	69
+08-08	Data Catalogues, Lineage and Access	Apache GraphAr	OSS	ASF (donated by Alibaba)	2022	Foundation incubating	383	46.1	False	https://github.com/apache/incubator-graphar	Standard file format for graph data	69
+08-08	Data Catalogues, Lineage and Access	Apache Iceberg	Upstream	Apache Software Foundation	2017	Foundation graduated	9.4K	72.4	True	https://github.com/apache/iceberg	Open table format	69
+08-08	Data Catalogues, Lineage and Access	Apache Gravitino	OSS	ASF (donated by Datastrato)	2023	Foundation graduated	3.4K	66.9	False	https://github.com/apache/gravitino	Unified metadata and data catalogue	69
+08-08	Data Catalogues, Lineage and Access	OpenMetadata	Upstream	Collate	2021	Company-led	16K	74.8	True	https://github.com/open-metadata/OpenMetadata	Open metadata platform	69
+08-08	Data Catalogues, Lineage and Access	DataHub	Upstream	LinkedIn and Acryl Data	2019	Community or academic	13K	74.5 69	True	https://github.com/datahub-project/datahub	Metadata catalogue and lineage	69
+08-10	Microservices and API Gateways	Apache Atlas	Upstream	Apache Software Foundation	2015	Foundation hosted	2.2K	57.7	True	https://github.com/apache/atlas	Data governance and metadata management	70
+08-10	Microservices and API Gateways	Apache ShardingSphere	OSS	ASF (donated by Dangdang)	2016	Foundation graduated	21K	74.8	True	https://github.com/apache/shardingsphere	Database sharding and migration middleware	70
+08-10	Microservices and API Gateways	TiDB Data Migration	OSS	PingCAP	2019	Company-led	465	52.8	False	https://github.com/pingcap/tiflow	Full and incremental MySQL-to-TiDB migration	70
+08-10	Microservices and API Gateways	OceanBase OMS	Commercial	OceanBase	—	Commercial product	—	—	False	https://www.oceanbase.com	Migration and sync service for OceanBase	70
+08-10	Microservices and API Gateways	Nacos	OSS	Alibaba	2018	Company-led	34K	71.5	True	https://github.com/alibaba/nacos	Service discovery and configuration management	70
+08-10	Microservices and API Gateways	Apache Dubbo	OSS	ASF (donated by Alibaba)	2011	Foundation graduated	42K	70.7	True	https://github.com/apache/dubbo	RPC and microservice framework widely used in Chinese Java stacks	70
+08-10	Microservices and API Gateways	Apache ShenYu	OSS	Apache Software Foundation	2018	Foundation graduated	8.9K	68.6	False	https://github.com/apache/shenyu	API gateway written in Java	70
+08-10	Microservices and API Gateways	Apache APISIX	OSS	ASF (donated by API7.ai)	2019	Foundation graduated	17K	68.5 70	True	https://github.com/apache/apisix	Cloud-native API gateway	70
+08-11	Time-series, Vector, Graph and KV Databases	Apache brpc	OSS	ASF (donated by Baidu)	2017	Foundation graduated	18K	66.6	False	https://github.com/apache/brpc	Baidu's industrial C++ RPC framework	71
+08-11	Time-series, Vector, Graph and KV Databases	Apache Seata	OSS	ASF (donated by Alibaba)	2019	Foundation incubating	26K	66.5	False	https://github.com/apache/incubator-seata	Distributed transaction framework	71
+08-11	Time-series, Vector, Graph and KV Databases	go-zero	OSS	go-zero community	2020	Community or academic	33K	65.3	False	https://github.com/zeromicro/go-zero	Go microservice framework with code generation	71
+08-11	Time-series, Vector, Graph and KV Databases	Higress	OSS	CNCF (started by Alibaba)	2022	Foundation hosted	9.8K	64.3	False	https://github.com/higress-group/higress	Envoy-based AI and API gateway	71
+08-11	Time-series, Vector, Graph and KV Databases	Apache Fory	OSS	ASF (donated by Ant Group)	2023	Foundation graduated	4.6K	62.1	True	https://github.com/apache/fory	Fast multi-language serialisation (formerly Fury)	71
+08-11	Time-series, Vector, Graph and KV Databases	Spring Cloud Alibaba	OSS	Alibaba	2018	Company-led	29K	61.2	False	https://github.com/alibaba/spring-cloud-alibaba	Spring Cloud integration for Alibaba middleware	71
+08-11	Time-series, Vector, Graph and KV Databases	Kratos	OSS	Bilibili	2019	Community or academic	26K	60.1	True	https://github.com/go-kratos/kratos	Go microservice framework	71
+08-11	Time-series, Vector, Graph and KV Databases	CloudWeGo	OSS	ByteDance	2021	Company-led	8.1K	55.2	False	https://github.com/cloudwego/kitex	ByteDance's Go and Rust microservice stack (Kitex, Hertz)	71
+08-11	Time-series, Vector, Graph and KV Databases	Sentinel	OSS	Alibaba	2018	Company-led	23K	50.0	True	https://github.com/alibaba/Sentinel	Flow control and circuit breaking	71
+08-11	Time-series, Vector, Graph and KV Databases	TARS	OSS	Linux Foundation (donated by Tencent)	2017	Foundation hosted	10K	44.3	True	https://github.com/TarsCloud/Tars	Tencent's multi-language RPC framework	71
+08-11	Time-series, Vector, Graph and KV Databases	PolarisMesh	OSS	Tencent	2021	Company-led	2.6K	30.2	False	https://github.com/polarismesh/polaris	Service discovery and governance	71
+08-11	Time-series, Vector, Graph and KV Databases	TDengine	OSS	TDengine (Taos Data)	2019	Company-led	25K	74.2	True	https://github.com/taosdata/TDengine	Time-series database for IoT	71
+08-11	Time-series, Vector, Graph and KV Databases	Milvus	OSS	LF AI & Data (donated by Zilliz)	2019	Foundation hosted	47K	73.7	True	https://github.com/milvus-io/milvus	Vector database; LF AI & Data graduated	71
+08-11	Time-series, Vector, Graph and KV Databases	Apache IoTDB	OSS	ASF (donated by Tsinghua University)	2017	Foundation graduated	6.4K	67.2	True	https://github.com/apache/iotdb	Industrial IoT time-series database	71
+08-11	Time-series, Vector, Graph and KV Databases	GreptimeDB	OSS	Greptime	2022	Company-led	6.8K	65.4 71	False	https://github.com/GreptimeTeam/greptimedb	Observability database written in Rust	71
+08-12	Data Visualisation and BI	Apache Kvrocks	OSS	ASF (donated by Meitu)	2019	Foundation graduated	4.5K	59.8	False	https://github.com/apache/kvrocks	Redis-compatible store on RocksDB	72
+08-12	Data Visualisation and BI	Apache HugeGraph	OSS	ASF (donated by Baidu)	2018	Foundation graduated	3.2K	58.2	False	https://github.com/apache/hugegraph	Graph database; became an Apache TLP in 2026	72
+08-12	Data Visualisation and BI	Apache Pegasus	OSS	ASF (donated by Xiaomi)	2017	Foundation incubating	2.1K	49.9	True	https://github.com/apache/incubator-pegasus	Xiaomi's distributed key-value store	72
+08-12	Data Visualisation and BI	openGemini	OSS	CNCF (started by Huawei)	2022	Foundation hosted	1.2K	49.2	False	https://github.com/openGemini/openGemini	Cloud-native time-series database	72
+08-12	Data Visualisation and BI	Apache GeaFlow	OSS	ASF (donated by Ant Group)	2023	Foundation incubating	807	48.2	False	https://github.com/apache/geaflow	Streaming graph compute engine	72
+08-12	Data Visualisation and BI	NebulaGraph	OSS	Vesoft	2019	Company-led	12K	47.1	False	https://github.com/vesoft-inc/nebula	Distributed graph database	72
+08-12	Data Visualisation and BI	TuGraph	OSS	Ant Group	2022	Company-led	1.8K	35.2	False	https://github.com/TuGraph-family/tugraph-db	Graph database from Ant Group and Tsinghua	72
+08-12	Data Visualisation and BI	DataEase	OSS	FIT2CLOUD	2021	Company-led	25K	68.6	False	https://github.com/dataease/dataease	Open-source BI and dashboard tool	72
+08-12	Data Visualisation and BI	Apache ECharts	OSS	ASF (donated by Baidu)	2013	Foundation graduated	68K	66.9	True	https://github.com/apache/echarts	One of the most used open charting libraries	72
+08-12	Data Visualisation and BI	AntV	OSS	Ant Group	2017	Company-led	13K	58.5	True	https://github.com/antvis/G2	Ant Group's visualisation grammar and chart libraries	72
+08-12	Data Visualisation and BI	FineBI	Commercial	FanRuan	2006	Commercial product	—	—	False	https://www.fanruan.com	Leading Chinese commercial BI and reporting	72
+08-12	Data Visualisation and BI	Apache Superset	Upstream	Apache Software Foundation	2015	Foundation graduated	76K	82.4 72	True	https://github.com/apache/superset	Open-source BI platform	72
+09-02	Frameworks and Operators	MinerU	OSS	Shanghai AI Laboratory	2024	Community or academic	84K	71.7	False	https://github.com/opendatalab/MinerU	Turns PDFs into machine-readable data	73
+09-02	Frameworks and Operators	OpenCompass	OSS	Shanghai AI Laboratory	2023	Community or academic	7.6K	61.1	True	https://github.com/open-compass/opencompass	LLM evaluation platform	73
+09-02	Frameworks and Operators	Data-Juicer	OSS	Alibaba Tongyi Lab	2023	Company-led	7.3K	57.7	False	https://github.com/datajuicer/data-juicer	Data processing system for LLM training	73
+09-02	Frameworks and Operators	C-Eval	OSS	SJTU, Tsinghua and partners	2023	Community or academic	1.9K	21.4	True	https://github.com/hkust-nlp/ceval	Chinese benchmark for LLMs	73
+09-02	Frameworks and Operators	WuDaoCorpora	OSS	BAAI	2021	Community or academic	—	—	False	https://data.baai.ac.cn	BAAI's large Chinese pre-training corpus	73
+09-02	Frameworks and Operators	PaddlePaddle	OSS	Baidu	2016	Company-led	24K	75.4 73	True	https://github.com/PaddlePaddle/Paddle	China's first open industrial deep-learning framework	73
+09-03	Pre-training and Post-training	FlagGems	OSS	BAAI	2024	Community or academic	1.2K	66.8	False	https://github.com/flagos-ai/FlagGems	Triton-based operator library across chip vendors	74
+09-03	Pre-training and Post-training	MindSpore	OSS	Huawei	2020	Company-led	4.7K	52.0	True	https://github.com/mindspore-ai/mindspore	Huawei's AI framework, native on Ascend	74
+09-03	Pre-training and Post-training	Jittor	OSS	Tsinghua University	2020	Community or academic	3.2K	48.7	False	https://github.com/Jittor/jittor	Tsinghua's JIT-compiled deep-learning framework	74
+09-03	Pre-training and Post-training	OneFlow	OSS	OneFlow	2020	Company-led	9.4K	35.2	True	https://github.com/Oneflow-Inc/oneflow	Deep-learning framework designed for distributed training	74
+09-03	Pre-training and Post-training	PyTorch	Upstream	PyTorch Foundation	2016	Foundation hosted	106K	90.1	True	https://github.com/pytorch/pytorch	Main training framework; Chinese chips attach as plug-ins	74
+09-03	Pre-training and Post-training	verl	OSS	ByteDance Seed	2024	Company-led	24K	73.0	True	https://github.com/verl-project/verl	Reinforcement learning framework for LLMs	74
+09-03	Pre-training and Post-training	LLaMA-Factory	OSS	Developers at Beihang University	2023	Community or academic	76K	68.0	False	https://github.com/hiyouga/LlamaFactory	Unified fine-tuning framework for LLMs	74
+09-03	Pre-training and Post-training	ms-swift	OSS	Alibaba ModelScope	2023	Company-led	16K	67.7	False	https://github.com/modelscope/ms-swift	Training and fine-tuning for hundreds of models	74
+09-03	Pre-training and Post-training	Colossal-AI	OSS	HPC-AI Tech	2021	Company-led	41K	63.2	False	https://github.com/hpcaitech/ColossalAI	Parallel training system for large models	74
+09-03	Pre-training and Post-training	OpenRLHF	OSS	OpenRLHF community	2023	Community or academic	10K	57.3	False	https://github.com/OpenRLHF/OpenRLHF	Ray-based RLHF training framework	74
+09-03	Pre-training and Post-training	MindSpeed	OSS	Huawei	2023	Company-led	—	—	False	https://gitee.com/ascend/MindSpeed	Distributed LLM training acceleration on Ascend	74
+09-03	Pre-training and Post-training	SLAI T-Rex	OSS	SLAI	2025	Community or academic	—	—	False	https://www.slai.edu.cn	Open model training experiment on Ascend clusters	74
+09-03	Pre-training and Post-training	DeepSpeed	Upstream	LF AI & Data (from Microsoft)	2020	Foundation hosted	43K	70.6 74	False	https://github.com/deepspeedai/DeepSpeed	Distributed training optimisation library	74
+09-04	Models and Weights	ModelScope	OSS	Alibaba	2022	Company-led	9.2K	59.9	True	https://github.com/modelscope/modelscope	China's largest open model hub	75
+09-04	Models and Weights	Hunyuan	OSS	Tencent	2024	Company-led	13K	44.4	False	https://github.com/Tencent-Hunyuan/HunyuanVideo	Tencent's open text, image, video and 3D models	75
+09-04	Models and Weights	ERNIE	OSS	Baidu	2019	Company-led	7.7K	42.8	True	https://github.com/PaddlePaddle/ERNIE	Baidu's ERNIE models; the 4.5 series was opened in 2025	75
+09-04	Models and Weights	Qwen	OSS	Alibaba Tongyi Lab	2023	Company-led	28K	37.2	True	https://github.com/QwenLM/Qwen3	Open-weight model family with one of the largest sets of derivatives	75
+09-04	Models and Weights	DeepSeek	OSS	DeepSeek	2023	Company-led	105K	36.2	True	https://github.com/deepseek-ai/DeepSeek-V3	Releases V3, R1 and later models as open weights	75
+09-04	Models and Weights	GLM	OSS	Zhipu AI	2022	Company-led	4.4K	33.1	True	https://github.com/zai-org/GLM-4.5	Zhipu's open-weight language models	75
+09-04	Models and Weights	InternLM	OSS	Shanghai AI Laboratory	2023	Community or academic	7.3K	31.2	True	https://github.com/InternLM/InternLM	Open model series from Shanghai AI Lab	75
+09-04	Models and Weights	Yi	OSS	01.AI	2023	Company-led	7.8K	30.7	True	https://github.com/01-ai/Yi	01.AI's open-weight models	75
+09-04	Models and Weights	Kimi K2	OSS	Moonshot AI	2025	Company-led	11K	29.2	True	https://github.com/MoonshotAI/Kimi-K2	Moonshot's trillion-parameter open-weight MoE model	75
+09-04	Models and Weights	Baichuan	OSS	Baichuan AI	2023	Company-led	4.1K	24.9	True	https://github.com/baichuan-inc/Baichuan2	Baichuan's open-weight models	75
+09-04	Models and Weights	MiniMax	OSS	MiniMax	2025	Company-led	3.2K	22.4	True	https://github.com/MiniMax-AI/MiniMax-M1	MiniMax's open-weight long-context models	75
+09-06	Industry AI Applications	vLLM-Ascend	OSS	vLLM community and Huawei	2025	Community or academic	3.1K	72.9	False	https://github.com/vllm-project/vllm-ascend	Ascend hardware plug-in for vLLM	76
+09-06	Industry AI Applications	Mooncake	OSS	Moonshot AI and Tsinghua	2024	Company-led	7.1K	69.4	False	https://github.com/kvcache-ai/Mooncake	Kimi's KVCache-centric serving architecture	76
+09-06	Industry AI Applications	ncnn	OSS	Tencent	2017	Company-led	24K	67.3	True	https://github.com/Tencent/ncnn	High-performance mobile inference framework	76
+09-06	Industry AI Applications	MNN	OSS	Alibaba	2019	Company-led	17K	66.8	True	https://github.com/alibaba/MNN	Alibaba's on-device inference engine	76
+09-06	Industry AI Applications	Xinference	OSS	Xorbits	2023	Company-led	9.7K	65.8	False	https://github.com/xorbitsai/inference	Unified serving for open models	76
+09-06	Industry AI Applications	FastDeploy	OSS	Baidu	2022	Company-led	3.7K	63.3	False	https://github.com/PaddlePaddle/FastDeploy	PaddlePaddle's multi-hardware deployment kit	76
+09-06	Industry AI Applications	LMDeploy	OSS	Shanghai AI Laboratory	2023	Community or academic	8.2K	62.5	False	https://github.com/InternLM/lmdeploy	Compression, deployment and serving toolkit	76
+09-06	Industry AI Applications	KTransformers	OSS	Tsinghua MADSys and Approaching AI	2024	Community or academic	20K	61.7	False	https://github.com/kvcache-ai/ktransformers	Hybrid CPU-GPU local inference for large models	76
+09-06	Industry AI Applications	vLLM	Upstream	PyTorch Foundation	2023	Foundation hosted	97K	87.5	True	https://github.com/vllm-project/vllm	LLM serving engine that Chinese chips plug into	76
+09-06	Industry AI Applications	SGLang	Upstream	LMSYS	2024	Community or academic	39K	84.0	True	https://github.com/sgl-project/sglang	Fast serving framework recommended for DeepSeek models	76
+09-07	AI Compilers and Hardware Back-ends	FunASR	OSS	Alibaba Tongyi Lab	2022	Company-led	21K	68.4	False	https://github.com/modelscope/FunASR	Industrial speech recognition toolkit	77
+09-07	AI Compilers and Hardware Back-ends	PaddleOCR	OSS	Baidu	2020	Company-led	93K	65.0	False	https://github.com/PaddlePaddle/PaddleOCR	One of the most used open OCR toolkits	77
+09-07	AI Compilers and Hardware Back-ends	InsightFace	OSS	InsightFace community	2017	Community or academic	30K	57.6	False	https://github.com/deepinsight/insightface	Open face recognition toolbox	77
+09-07	AI Compilers and Hardware Back-ends	PaddleDetection	OSS	Baidu	2019	Company-led	14K	45.9	False	https://github.com/PaddlePaddle/PaddleDetection	Model library for industrial visual inspection	77
+09-07	AI Compilers and Hardware Back-ends	CMB Heterogeneous Compute	Commercial	China Merchants Bank	—	Commercial product	—	—	False	https://www.cmbchina.com	CMB serves models on mixed chips with vLLM and SGLang	77
+09-07	AI Compilers and Hardware Back-ends	CINN	OSS	Baidu	2021	Company-led	24K	75.4	True	https://github.com/PaddlePaddle/Paddle	PaddlePaddle's neural network compiler	77
+09-07	AI Compilers and Hardware Back-ends	FlagTree	OSS	BAAI	2025	Community or academic	389	59.6	False	https://github.com/flagos-ai/FlagTree	Unified Triton compiler for many AI chips	77
+09-07	AI Compilers and Hardware Back-ends	DeepEP	OSS	DeepSeek	2025	Company-led	10K	51.5	False	https://github.com/deepseek-ai/DeepEP	Expert-parallel communication library for MoE	77
+09-07	AI Compilers and Hardware Back-ends	FlashMLA	OSS	DeepSeek	2025	Company-led	13K	46.8	False	https://github.com/deepseek-ai/FlashMLA	Efficient decoding kernels for MLA attention	77
+09-07	AI Compilers and Hardware Back-ends	Triton	Upstream	OpenAI	2021	Company-led	21K	73.3	True	https://github.com/triton-lang/triton	GPU kernel language that Chinese chips port to	77
+09-07	AI Compilers and Hardware Back-ends	Apache TVM	Upstream	Apache Software Foundation	2017	Foundation graduated	14K	72.5	True	https://github.com/apache/tvm	DL compiler many Chinese chip vendors build on	77
+09-08	Agents and AI Application Platforms	Dify	OSS	LangGenius	2023	Company-led	162K	84.0	True	https://github.com/langgenius/dify	Platform for building LLM apps and agents	78
+09-08	Agents and AI Application Platforms	RAGFlow	OSS	InfiniFlow	2024	Company-led	95K	80.5	True	https://github.com/infiniflow/ragflow	RAG engine built on deep document understanding	78
+09-08	Agents and AI Application Platforms	LobeHub	OSS	LobeHub	2023	Company-led	86K	79.1	True	https://github.com/lobehub/lobehub	Open AI chat and agent workspace	78
+09-08	Agents and AI Application Platforms	DeerFlow	OSS	ByteDance	2025	Company-led	86K	78.4	False	https://github.com/bytedance/deer-flow	Multi-agent framework for deep research	78
+09-08	Agents and AI Application Platforms	Cherry Studio	OSS	CherryHQ	2024	Company-led	54K	76.8	False	https://github.com/CherryHQ/cherry-studio	Desktop AI client for many model providers	78
+09-08	Agents and AI Application Platforms	AstrBot	OSS	AstrBot community	2022	Community or academic	47K	72.8	False	https://github.com/AstrBotDevs/AstrBot	Agent chatbot framework for many IM platforms	78
+09-08	Agents and AI Application Platforms	FastGPT	OSS	Labring	2023	Company-led	30K	70.0	False	https://github.com/labring/FastGPT	Knowledge-base Q&A and workflow platform	78
+09-08	Agents and AI Application Platforms	AgentScope	OSS	Alibaba Tongyi Lab	2024	Company-led	36K	68.7	False	https://github.com/agentscope-ai/agentscope	Multi-agent development framework	78
+09-08	Agents and AI Application Platforms	MaxKB	OSS	FIT2CLOUD	2024	Company-led	23K	67.7	True	https://github.com/1Panel-dev/MaxKB	Enterprise agent and knowledge-base platform	78
+09-08	Agents and AI Application Platforms	MetaGPT	OSS	DeepWisdom	2023	Company-led	71K	43.3 78	False	https://github.com/FoundationAgents/MetaGPT	Multi-agent framework modelled on a software team	78
+10-02	Email and Collaboration	WPS Office	Commercial	Kingsoft Office	1988	Commercial product	—	—	False	https://www.wps.cn	China's most installed office suite	79
+10-02	Email and Collaboration	Yozo Office	Commercial	Yozo	2000	Commercial product	—	—	False	https://www.yozosoft.com	Chinese office suite common in government procurement	79
+10-02	Email and Collaboration	LibreOffice	Upstream	The Document Foundation	2010	Community or academic	4.7K	78.0	True	https://github.com/LibreOffice/core	Open office suite chosen by European public bodies	79
+10-02	Email and Collaboration	ONLYOFFICE	Upstream	Ascensio System (Latvia)	2016	Company-led	7.2K	48.7	True	https://github.com/ONLYOFFICE/DocumentServer	OOXML-compatible online document server	79
+10-02	Email and Collaboration	OFD	Standard	GB/T 33190	2016	Standards body	—	—	True	https://openstd.samr.gov.cn	Chinese fixed-layout document standard used by e-invoices	79
+10-02	Email and Collaboration	ODF	Standard	OASIS	2005	Standards body	—	—	True	https://www.oasis-open.org	International open document format standard	79
+10-03	Electronic Seals and Signatures	SiYuan	OSS	B3log	2020	Company-led	47K	74.7	False	https://github.com/siyuan-note/siyuan	Local-first personal knowledge management	80
+10-03	Electronic Seals and Signatures	Halo	OSS	FIT2CLOUD	2018	Company-led	40K	67.9	True	https://github.com/halo-dev/halo	Open website and content management system	80
+10-03	Electronic Seals and Signatures	WPS WebOffice	Commercial	Kingsoft Office	—	Commercial product	—	—	False	https://solution.wps.cn	Private-deployment online collaborative documents	80
+10-03	Electronic Seals and Signatures	Feishu	Commercial	ByteDance	2016	Commercial product	—	—	False	https://www.feishu.cn	Integrated collaboration platform	80
+10-03	Electronic Seals and Signatures	DingTalk	Commercial	Alibaba	2014	Commercial product	—	—	False	https://www.dingtalk.com	Enterprise messaging and collaboration	80
+10-03	Electronic Seals and Signatures	WeCom	Commercial	Tencent	2016	Commercial product	—	—	False	https://work.weixin.qq.com	Enterprise messaging and office platform	80
+10-03	Electronic Seals and Signatures	Nextcloud	Upstream	Nextcloud GmbH	2016	Company-led	38K	80.3	True	https://github.com/nextcloud/server	Self-hosted files and collaboration, popular with European governments	80
+10-03	Electronic Seals and Signatures	eSign	Commercial	Tiangu Information	2002	Commercial product	—	—	True	https://www.esign.cn	Electronic signature and contract service	80
+10-03	Electronic Seals and Signatures	Electronic Seal Rules	Standard	General Office of the State Council	2019	Standards body	—	—	False	https://www.gov.cn	Standards and rules for government eseals	80
+10-03	Electronic Seals and Signatures	Certificates and Timestamps	Standard	State Cryptography Administration	2005	Standards body	—	—	False	https://www.oscca.gov.cn	Certificates and trusted timestamps under the E-Signature Law	80
+10-05	Industry Business Systems	JeecgBoot	OSS	JEECG	2019	Company-led	49K	62.6	True	https://github.com/jeecgboot/JeecgBoot	Low-code enterprise application platform	81
+10-05	Industry Business Systems	RuoYi	OSS	RuoYi community	2018	Community or academic	—	—	True	https://gitee.com/y_project/RuoYi	One of the most used admin back-office frameworks in China	81
+10-05	Industry Business Systems	Yonyou YonBIP	Commercial	Yonyou	1988	Commercial product	—	—	False	https://www.yonyou.com	ERP and business platform for large enterprises	81
+10-05	Industry Business Systems	Kingdee Cosmic	Commercial	Kingdee	1993	Commercial product	—	—	False	https://www.kingdee.com	Cloud-native enterprise management platform	81
+10-05	Industry Business Systems	Odoo	Upstream	Odoo SA	2005	Company-led	56K	87.6	True	https://github.com/odoo/odoo	Open-source ERP suite	81
+10-05	Industry Business Systems	Hospital Information Systems	Commercial	Winning Health, iMedical and others	—	Commercial product	—	—	False	https://www.winning.com.cn	Core hospital systems, a major replacement area	81
+10-05	Industry Business Systems	Electronic Medical Records	Commercial	Goodwill and others	—	Commercial product	—	—	False	https://www.bjgoodwill.com	Electronic medical record and clinical data systems	81
+10-05	Industry Business Systems	Industry ERP and MES	Commercial	Digiwin, Yonyou and others	—	Commercial product	—	—	False	https://www.digiwin.com	Business systems for manufacturers	81
+11-02	PLM	ZWSOFT CAx	Commercial	ZWSOFT	1998	Commercial product	—	—	False	https://www.zwsoft.cn	Chinese CAD, CAE and CAM software	82
+11-02	PLM	GstarCAD	Commercial	Gstarsoft	1992	Commercial product	—	—	False	https://www.gstarcad.com	Chinese DWG-compatible CAD	82
+11-02	PLM	CAXA	Commercial	CAXA Technology	1993	Commercial product	—	—	False	https://www.caxa.com	Chinese CAD and PLM software	82
+11-02	PLM	FreeCAD	Upstream	FreeCAD community	2002	Community or academic	36K	78.2	True	https://github.com/FreeCAD/FreeCAD	Open parametric 3D CAD	82
+11-02	PLM	Open CASCADE	Upstream	Open Cascade SAS	1999	Company-led	3.2K	60.7	False	https://github.com/Open-Cascade-SAS/OCCT	Open geometry kernel behind FreeCAD and others	82
+11-02	PLM	Digiwin PLM	Commercial	Digiwin	—	Commercial product	—	—	False	https://www.digiwin.com	Product lifecycle management for manufacturers	82
+11-02	PLM	SIPM PLM	Commercial	SIPM	2001	Commercial product	—	—	False	https://www.sipmtech.com	Chinese PLM software	82
+11-02	PLM	Engineering BOM	Standard	Industry practice	—	Standards body	—	— 82	False	https://www.iso.org	Bill of materials between design and manufacturing	82
+11-04	PLC and SCADA	Digiwin MES	Commercial	Digiwin	—	Commercial product	—	—	False	https://www.digiwin.com	Manufacturing execution system	83
+11-04	PLC and SCADA	OpenHarmony Smart Factory	Commercial	Several manufacturers	2023	Commercial product	—	—	False	https://www.openharmony.cn	Factory cases that connect line equipment via OpenHarmony	83
+11-04	PLC and SCADA	Blacklake	Commercial	Blacklake Technology	2016	Commercial product	—	—	False	https://www.blacklake.cn	Cloud manufacturing collaboration and MES	83
+11-04	PLC and SCADA	SUPCON DCS / SIS	Commercial	SUPCON	1993	Commercial product	—	—	False	https://www.supcon.com	China's market-leading distributed control system	83
+11-04	PLC and SCADA	HollySys	Commercial	HollySys	1993	Commercial product	—	—	False	https://www.hollysys.com	DCS, PLC and rail control systems	83
+11-04	PLC and SCADA	Inovance	Commercial	Inovance Technology	2003	Commercial product	—	—	False	https://www.inovance.com	Chinese PLCs, servo drives and inverters	83
+11-04	PLC and SCADA	FUXA	Upstream	FUXA community	2019	Community or academic	5.3K	60.5	False	https://github.com/frangoteam/FUXA	Web-based open SCADA and HMI	83
+11-04	PLC and SCADA	OpenPLC	Upstream	OpenPLC Project	2016	Community or academic	1.6K	40.2	False	https://github.com/thiagoralves/OpenPLC_v3	Open PLC runtime for IEC 61131-3	83
+11-07	Engineering Solvers	Neuron	OSS	EMQ Technologies	2021	Company-led	1.4K	52.0	True	https://github.com/emqx/neuron	Industrial protocol gateway for dozens of PLC protocols	84
+11-07	Engineering Solvers	Dianhong	OSS	China Southern Power Grid	2023	Company-led	—	—	True	https://www.csg.cn	Power-grid IoT OS built on OpenHarmony	84
+11-07	Engineering Solvers	open62541	Upstream	open62541 community	2014	Community or academic	3.3K	67.8	False	https://github.com/open62541/open62541	Open OPC UA implementation in C	84
+11-07	Engineering Solvers	OPC UA	Standard	OPC Foundation	2008	Standards body	—	—	True	https://opcfoundation.org	Information model and protocol for industrial interoperability	84
+11-07	Engineering Solvers	Eclipse Ditto	Upstream	Eclipse Foundation	2017	Foundation hosted	953	57.7	False	https://github.com/eclipse-ditto/ditto	Framework for device digital twins	84
+11-07	Engineering Solvers	Eclipse BaSyx	Upstream	Eclipse Foundation	2018	Foundation hosted	84	44.9	False	https://github.com/eclipse-basyx/basyx-java-server-sdk	Open implementation of the Asset Administration Shell	84
+11-07	Engineering Solvers	Asset Administration Shell	Standard	Industrial Digital Twin Association	2018	Standards body	—	—	False	https://industrialdigitaltwin.org	Standard data model for industrial digital twins	84
+12-01	In-vehicle OS and Middleware	SU2	Upstream	SU2 Foundation	2012	Community or academic	1.9K	61.6	True	https://github.com/su2code/SU2	Open multiphysics solver and optimiser	85
+12-01	In-vehicle OS and Middleware	OpenFOAM	Upstream	OpenFOAM Foundation	2004	Community or academic	2.3K	54.5	True	https://github.com/OpenFOAM/OpenFOAM-dev	Open computational fluid dynamics solver	85
+12-01	In-vehicle OS and Middleware	CalculiX	Upstream	CalculiX project	1998	Community or academic	—	—	True	http://www.calculix.de	Open finite-element structural solver	85
+12-01	In-vehicle OS and Middleware	OpenHarmony for Vehicles	OSS	OpenHarmony community	2023	Foundation hosted	—	—	False	https://www.openharmony.cn	Vehicle cockpit work in OpenHarmony	85
+12-01	In-vehicle OS and Middleware	Banma Zhixing	Commercial	Banma Network	2015	Commercial product	—	—	False	https://www.ebanma.com	Cockpit OS from Alibaba and SAIC's joint venture	85
+12-01	In-vehicle OS and Middleware	Chinese automotive SOA	Commercial	Neusoft Reach,	—	Commercial	—	—	False	https://www.thundersoft.com		85
+12-01	In-vehicle OS and Middleware	Eclipse S-CORE	Upstream	Eclipse Foundation	2024	Foundation hosted	112	53.5	True	https://github.com/eclipse-score/score	Open collaboration on a core automotive software platform	85
+12-01	In-vehicle OS and Middleware	Automotive Grade Linux	Upstream	Linux Foundation	2014	Foundation hosted	—	—	False	https://www.automotivelinux.org	Automotive Linux platform with SAIC among members	85
+12-03	Robot Software	Baidu Apollo	OSS	Baidu	2017	Company-led	27K	53.9	True	https://github.com/ApolloAuto/apollo	Open autonomous-driving platform	86
+12-03	Robot Software	Apollo Go	Commercial	Baidu	2020	Commercial product	—	—	False	https://www.apollogo.com	Baidu's robotaxi service	86
+12-03	Robot Software	openpilot	Upstream	comma.ai	2016	Company-led	64K	75.6	False	https://github.com/commaai/openpilot	Open driver-assistance system	86
+12-03	Robot Software	Autoware	Upstream	Autoware Foundation	2015	Community or academic	12K	60.8	False	https://github.com/autowarefoundation/autoware	ROS-based open autonomous-driving software	86
+12-03	Robot Software	dora-rs	OSS	dora-rs community	2022	Community or academic	4.1K	64.5	False	https://github.com/dora-rs/dora	Low-latency robotics dataflow framework in Rust	86
+12-03	Robot Software	Unitree SDK	OSS	Unitree Robotics	2023	Company-led	1.5K	48.2	False	https://github.com/unitreerobotics/unitree_sdk2	SDK for Unitree quadruped and humanoid robots	86
+12-03	Robot Software	M-Robots OS	OSS	OpenAtom Foundation	2024	Foundation hosted	—	—	False	https://www.openatom.org	Robot OS built on OpenHarmony	86
+12-03	Robot Software	LeRobot	Upstream	Hugging Face	2024	Company-led	29K	69.3	True	https://github.com/huggingface/lerobot	Open robot-learning library	86
+12-03	Robot Software	ROS 2	Upstream	Open Robotics	2017	Community or academic	6.3K	51.5	True	https://github.com/ros2/ros2	De facto robot software stack used widely in China	86
+12-06	Functional Safety and Certification	EMQX	OSS	EMQ Technologies	2013	Company-led	17K	72.7	False	https://github.com/emqx/emqx	Large-scale MQTT broker	87
+12-06	Functional Safety and Certification	NanoMQ	OSS	LF Edge (donated by EMQ)	2020	Foundation hosted	2.7K	57.0	False	https://github.com/nanomq/nanomq	Lightweight MQTT broker for the edge	87
+12-06	Functional Safety and Certification	JetLinks	OSS	JetLinks	2019	Company-led	6.7K	48.8	False	https://github.com/jetlinks/jetlinks-community	IoT device connection and management platform	87
+12-06	Functional Safety and Certification	openEuler Embedded	OSS	openEuler community	2021	Foundation hosted	—	—	False	https://atomgit.com/openeuler/yocto-meta-openeuler	Embedded edition of openEuler	87
+12-06	Functional Safety and Certification	ThingsBoard	Upstream	ThingsBoard Inc.	2016	Company-led	23K	73.3	True	https://github.com/thingsboard/thingsboard	Open IoT platform	87
+12-06	Functional Safety and Certification	OpenHarmony Fare Gates	Commercial	Dongguan Rail Transit	2023	Commercial product	—	—	False	https://www.openharmony.cn	Metro fare gates running OpenHarmony	87
+12-06	Functional Safety and Certification	SWUpdate	Upstream	SWUpdate community	2014	Community or academic	1.9K	59.1	False	https://github.com/sbabic/swupdate	OTA update agent for embedded Linux	87
+12-06	Functional Safety and Certification	Eclipse hawkBit	Upstream	Eclipse Foundation	2015	Foundation hosted	617	55.7	False	https://github.com/eclipse-hawkbit/hawkbit	Back end for device software rollout	87
+12-06	Functional Safety and Certification	Uptane	Standard	Linux Foundation	2017	Standards body	—	—	False	https://uptane.org	Security framework for vehicle OTA	87
+12-06	Functional Safety and Certification	ISO 26262	Standard	ISO	2011	Standards body	—	—	False	https://www.iso.org/standard/68383.html	Functional safety standard for road vehicles	88
+12-06	Functional Safety and Certification	IEC 61508	Standard	IEC	1998	Standards body	—	—	False	https://webstore.iec.ch	Base functional safety standard for E/E systems	88
+12-06	Functional Safety and Certification	MISRA C	Standard	MISRA	1998	Standards body	—	—	False	https://misra.org.uk	Coding guidelines for safety-critical C	88
+13-02	Digital Identity and Key Management	GmSSL	OSS	Peking University	2014	Community or academic	6.2K	54.8	False	https://github.com/guanzhi/GmSSL	Open crypto library with Chinese SM algorithms	91
+13-02	Digital Identity and Key Management	Tongsuo	OSS	OpenAtom Foundation (donated by Ant Group)	2020	Foundation hosted	1.6K	51.8	True	https://github.com/Tongsuo-Project/Tongsuo	OpenSSL-based crypto library with SM support	91
+13-02	Digital Identity and Key Management	OpenSSL	Upstream	OpenSSL Foundation	1998	Community or academic	32K	78.3	True	https://github.com/openssl/openssl	Includes partial SM2, SM3 and SM4 support since 3.0	91
+13-02	Digital Identity and Key Management	Bouncy Castle	Upstream	Legion of the Bouncy Castle	2000	Community or academic	2.7K	—	False	https://github.com/bcgit/bc-java	Java crypto library often used for SM algorithms	91
+13-02	Digital Identity and Key Management	Casdoor	OSS	Casbin community	2021	Community or academic	15K	68.6	False	https://github.com/casdoor/casdoor	Web-based identity platform	91
+13-02	Digital Identity and Key Management	Apache Casbin	OSS	Apache Software Foundation	2017	Foundation incubating	21K	59.7 91	False	https://github.com/apache/casbin	Multi-language access control library	91
+13-04	Consortium and Public Blockchain Clients	MaxKey	OSS	MaxKey community	2019	Community or academic	8	15.8	False	https://github.com/MaxKeyTop/MaxKey	Chinese single sign-on and IAM system	92
+13-04	Consortium and Public Blockchain Clients	Keycloak	Upstream	CNCF	2014	Foundation incubating	38K	78.9	True	https://github.com/keycloak/keycloak	Open identity and access management	92
+13-04	Consortium and Public Blockchain Clients	EUDI Wallet	Upstream	European Commission	2023	Company-led	780	49.7	True	https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework	Public architecture and reference code for the EU identity wallet	92
+13-04	Consortium and Public Blockchain Clients	Apache Teaclave	OSS	ASF (donated by Baidu)	2019	Foundation graduated	810	34.9	False	https://github.com/apache/teaclave	TEE-based secure computing platform	92
+13-04	Consortium and Public Blockchain Clients	Occlum	OSS	Ant Group	2019	Company-led	1.5K	30.0	False	https://github.com/occlum/occlum	Library OS for Intel SGX	92
+13-04	Consortium and Public Blockchain Clients	Penglai	OSS	IPADS, Shanghai Jiao Tong University	2020	Community or academic	148	17.5	False	https://github.com/Penglai-Enclave/Penglai-Enclave-sPMP	Trusted execution environment for RISC-V	92
+13-04	Consortium and Public Blockchain Clients	secGear	OSS	openEuler community	2020	Foundation hosted	—	—	False	https://atomgit.com/openeuler/secGear	Unified confidential computing framework	92
+13-04	Consortium and Public Blockchain Clients	FISCO BCOS	OSS	FISCO consortium (WeBank and partners)	2017	Community or academic	2.6K	54.2	False	https://github.com/FISCO-BCOS/FISCO-BCOS	China's most deployed open consortium blockchain	92
+13-04	Consortium and Public Blockchain Clients	XuperChain	OSS	Baidu	2019	Company-led	1.7K	28.1	True	https://github.com/xuperchain/xuperchain	Baidu's open blockchain platform	92
+13-04	Consortium and Public Blockchain Clients	ChainMaker	OSS	ChainMaker community	2021	Community or academic	—	— 92	False	https://chainmaker.org.cn	State-backed blockchain platform	92
+15-01	Government Procurement and Standards	Ethereum clients	Upstream	Ethereum community	2014	Community or academic	51K	75.5	False	https://github.com/ethereum/go-ethereum	Public chain run on several independent clients	93
+15-01	Government Procurement and Standards	Hyperledger Fabric	Upstream	LF Decentralized Trust	2016	Foundation hosted	17K	65.8	False	https://github.com/hyperledger/fabric	Permissioned ledger many early Chinese projects started from	93
+15-01	Government Procurement and Standards	Blockchain-based Service Network	Commercial	State Information Center and partners	2020	Commercial product	—	—	False	https://www.bsnbase.com	Public blockchain infrastructure and cross-chain hub	93
+15-01	Government Procurement and Standards	SM Algorithm Standards	Standard	State Cryptography Administration	2010	Standards body	—	—	False	https://www.oscca.gov.cn	National SM2, SM3, SM4 standards, mostly also ISO standards	93
+15-01	Government Procurement and Standards	OpenChain ISO/IEC 5230	Standard	Linux Foundation	2020	Standards body	—	—	True	https://openchainproject.org	International standard for open-source licence compliance	93
