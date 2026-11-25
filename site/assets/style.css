@@ -87,3 +87,6 @@ ol.sources li{word-break:break-all;font-size:.88rem}
 .brand img{width:42px;height:28px;flex:none}
 .hero .payoff{font-size:1.3rem;font-weight:600;color:var(--bridge);margin:0 0 12px}
 .founder{color:var(--muted);font-size:.92rem;margin-top:14px}
+/* key sources block */
+.key .key-card{border-left:4px solid var(--cn)}
+.key .key-card h3 a{color:var(--fg)}

@@ -72,11 +72,12 @@ function slug(s) { return String(s).toLowerCase().replace(/<[^>]+>/g, '').replac
 
 // ---------- research chapters (docs → /research/<slug>/) ----------
 const CHAPTERS = [
+  ['EXT-REPORT-CN-OSS-LANDSCAPE.md', 'external-report-china-oss-history', 'External report: China\'s open-source landscape and history (Nov 2026), analysis and research roadmap', 'key'],
+  ['KAIYUANSHE-CORPUS.md', 'kaiyuanshe-corpus', 'KAIYUANSHE (开源社) corpus: China Open Source Annual Reports 2016–2025, AI Blue Book 2026 and OpenShare data', 'key'],
   ['FUNDING-CHAPTER.md', 'funding', 'How Europe and China fund open source — chapter with conclusions', 'chapter'],
   ['FUNDING-COMPARISON.md', 'funding-data', 'Funding for open source: EU vs China, comparison tables in EUR', 'data'],
   ['FUNDING-MODALITIES.md', 'funding-modalities', 'How each side funds open source for sovereignty: modalities compared', 'analysis'],
   ['PROJECT-FUNDING.md', 'project-funding', 'How 34 major open-source projects are funded (EU and China)', 'analysis'],
-  ['EXT-REPORT-CN-OSS-LANDSCAPE.md', 'external-report-china-oss-history', 'External report: China\'s open-source landscape and history (Nov 2026), analysis and research roadmap', 'analysis'],
   ['CN-OSS-LANDSCAPE.md', 'china-open-source-landscape', 'The Chinese open-source landscape: projects and code platforms', 'analysis'],
   ['CN-FOUNDATIONS.md', 'chinese-foundations', 'Chinese open-source foundations and OpenAtom finances', 'analysis'],
   ['COSCON-THEMES.md', 'coscon-themes', 'COSCon (China Open Source Conference) themes by year', 'analysis'],
@@ -167,6 +168,17 @@ ${body}
 const ORG = { '@context': 'https://schema.org', '@type': 'ResearchProject', name: NAME.en, alternateName: NAME.zh, url: BASE + '/', sameAs: [REPO, 'https://www.linkedin.com/company/eu-china-commons/'], email: EMAIL, founder: { '@type': 'Person', name: 'Fabio Pietrosanti', url: 'https://fabio.pietrosanti.it/' }, description: 'Independent observatory on European and Chinese digital commons and open-source policy, funding and public-sector reuse.' };
 const firstPara = (s) => (s.replace(/\r/g, '').split('\n').filter((l) => l.trim() && !/^(#|\||>|\*|-|_)/.test(l.trim()))[0] || '').replace(/[*`[\]]/g, '').slice(0, 155);
 
+
+// ---------- key sources (home, research, data) ----------
+const KYS = 'https://kaiyuanshe.github.io/';
+function keySources(lang, up) {
+  const zh = lang === 'zh';
+  const r = up + 'research/', d = up + 'data/';
+  return `<section id="key-sources" class="key"><h2>${zh ? '核心资料' : 'Key sources'}</h2><p class="lead">${zh ? '本项目研究中国开源时最依赖的两组外部资料：完整存档、开放获取，并逐条核实。' : 'The two external bodies of evidence this research relies on most for the Chinese side: archived in full, openly accessible, and verified claim by claim.'}</p><div class="grid">
+<article class="card key-card"><span class="badge">${zh ? '外部报告 · 2026年11月' : 'External report · Nov 2026'}</span><h3><a href="${d}china-open-source-landscape-2026-11.pdf">China's Open-Source Technology: Landscape and History</a></h3><p>${zh ? '149页，504个项目（250个中国开源项目）、26个案例、8条依赖链、资金与替代章节，741个来源链接。经作者许可发布。' : '149 pages: 504 projects (250 Chinese open source), 26 cases, 8 dependency chains, a funding and substitution chapter, 741 source links. Published with the author\'s permission.'}</p><p class="meta"><a href="${d}china-open-source-landscape-2026-11.pdf">PDF</a> · <a href="${d}cn-oss-landscape-2026-11-projects.tsv">${zh ? '504个项目数据' : '504-project dataset'}</a> · <a href="${d}cn-oss-landscape-2026-11-sources.tsv">${zh ? '741个来源' : '741 sources'}</a> · <a href="${r}external-report-china-oss-history/">${zh ? '分析与研究路线图' : 'Our analysis & roadmap'}</a></p></article>
+<article class="card key-card"><span class="badge">KAIYUANSHE 开源社 · 2015–2026</span><h3><a href="${r}kaiyuanshe-corpus/">${zh ? '开源社：中国开源年度报告与 OpenShare 数据' : 'KAIYUANSHE: China Open Source Annual Reports and OpenShare data'}</a></h3><p>${zh ? '2016–2025年《中国开源年度报告》（2023–2025有英文版，CC BY-SA 4.0）、《中国人工智能开源生态蓝皮书2026》、中国开源地图，以及 OpenShare/OpenDigger 全球开源排行与地图数据。全部存档。' : 'China Open Source Annual Reports 2016–2025 (English editions 2023–2025, CC BY-SA 4.0), the China AI Open Source Ecosystem Blue Book 2026, the Chinese OSS Landscape, and OpenShare/OpenDigger global leaderboards and maps. All archived.'}</p><p class="meta"><a href="${KYS}2025-China-Open-Source-Report/" rel="noopener">2025</a> · <a href="${KYS}2024-China-Open-Source-Report/" rel="noopener">2024</a> · <a href="${KYS}2023-China-Open-Source-Report/" rel="noopener">2023</a> · <a href="${KYS}China-Artificial-Intelligence-Open-Source-Ecosystem-Blue-Book-2026/" rel="noopener">${zh ? 'AI蓝皮书 2026' : 'AI Blue Book 2026'}</a> · <a href="https://open-share.com/insight/open-leaderboard" rel="noopener">OpenShare</a> · <a href="${r}kaiyuanshe-corpus/">${zh ? '全部资料清单' : 'Full inventory'}</a></p></article>
+</div></section>`;
+}
 // ---------- research pages ----------
 const research = [];
 for (const [file, s, title, kind] of CHAPTERS) {
@@ -210,10 +222,10 @@ for (const [lang, file, rel, title, crumb] of [
     body: `<h1>${esc(title)}</h1>\n${html}` }));
   if (lang === 'en') alt['manifesto/index.html'] = 'zh/manifesto/index.html';
 }
-const kindLabel = { chapter: 'Chapter', data: 'Data', analysis: 'Analysis', method: 'Method' };
+const kindLabel = { key: 'Key source', chapter: 'Chapter', data: 'Data', analysis: 'Analysis', method: 'Method' };
 write('research/index.html', page({ rel: 'research/index.html', title: 'Research', desc: 'Chapters, analyses, data tables and methodology of the Europe–China Digital Commons Observatory.',
   crumbs: [['Home', ''], ['Research', 'research/']], jsonld: [ORG],
-  body: `<h1>Research</h1><p class="lead">Every chapter is generated from the files in the public repository, so each figure can be traced to its source and evidence level.</p><div class="grid">${research.map((r) => `<article class="card"><span class="badge">${kindLabel[r.kind]}</span><h3><a href="${r.s}/">${esc(r.title)}</a></h3><p>${esc(r.desc)}</p></article>`).join('')}</div>` }));
+  body: `<h1>Research</h1><p class="lead">Every chapter is generated from the files in the public repository, so each figure can be traced to its source and evidence level.</p>${keySources('en', '../')}<h2>All research</h2><div class="grid">${research.map((r) => `<article class="card"><span class="badge">${kindLabel[r.kind]}</span><h3><a href="${r.s}/">${esc(r.title)}</a></h3><p>${esc(r.desc)}</p></article>`).join('')}</div>` }));
 
 // ---------- catalogue (verified, EN) ----------
 const cat = rd('data/catalogue-verified.json', []);
@@ -283,18 +295,19 @@ const fund = [...rd('data/funding/eu.json', []), ...rd('data/funding/cn.json', [
 fs.writeFileSync(path.join(SITE, 'data/funding.csv'), csv(fund, ['id', 'side', 'level', 'jurisdiction', 'province', 'funder', 'instrument', 'instrument_type', 'year', 'period', 'amount', 'currency', 'amount_type', 'summable', 'oss_share', 'evidence', 'sources', 'note']));
 fs.writeFileSync(path.join(SITE, 'data/project-funding.csv'), csv(plist.map((p) => ({ ...p, channels: JSON.stringify(p.funding_channels || {}) })), ['id', 'name', 'side', 'origin', 'host', 'licence', 'channels']));
 fs.copyFileSync(path.join(root, 'data/project-funding.json'), path.join(SITE, 'data/project-funding.json'));
+fs.copyFileSync(path.join(root, 'data/external/kaiyuanshe/repos.tsv'), path.join(SITE, 'data/kaiyuanshe-repos.tsv'));
 for (const f of ['china-open-source-landscape-2026-11.pdf', 'projects.tsv', 'sources.tsv']) fs.copyFileSync(path.join(root, 'data/external/cn-oss-landscape-2026-11', f), path.join(SITE, 'data', f === 'china-open-source-landscape-2026-11.pdf' ? f : 'cn-oss-landscape-2026-11-' + f));
-const DS = [['catalogue.csv', 'Catalogue of verified cases (CSV)'], ['catalogue-verified.json', 'Catalogue (JSON)'], ['funding.csv', 'Public and private open-source funding records (CSV, original currency)'], ['funding.json', 'Funding records with EUR conversion (JSON)'], ['project-funding.csv', 'Funding of 34 projects (CSV)'], ['project-funding.json', 'Funding of 34 projects (JSON)'], ['china-open-source-landscape-2026-11.pdf', 'External report (Nov 2026): China\'s Open-Source Technology: Landscape and History, 149 pp., published with the author\'s permission'], ['cn-oss-landscape-2026-11-projects.tsv', '504 projects from that report: kind, governance, vitality (TSV)'], ['cn-oss-landscape-2026-11-sources.tsv', '741 sources cited in that report (TSV)']];
+const DS = [['catalogue.csv', 'Catalogue of verified cases (CSV)'], ['catalogue-verified.json', 'Catalogue (JSON)'], ['funding.csv', 'Public and private open-source funding records (CSV, original currency)'], ['funding.json', 'Funding records with EUR conversion (JSON)'], ['project-funding.csv', 'Funding of 34 projects (CSV)'], ['project-funding.json', 'Funding of 34 projects (JSON)'], ['china-open-source-landscape-2026-11.pdf', 'External report (Nov 2026): China\'s Open-Source Technology: Landscape and History, 149 pp., published with the author\'s permission'], ['cn-oss-landscape-2026-11-projects.tsv', '504 projects from that report: kind, governance, vitality (TSV)'], ['cn-oss-landscape-2026-11-sources.tsv', '741 sources cited in that report (TSV)'], ['kaiyuanshe-repos.tsv', 'KAIYUANSHE (开源社) published reports and sites: inventory of the 24 archived repositories with licence, last commit and live URL (TSV)']];
 write('data/index.html', page({ rel: 'data/index.html', alternate: 'zh/data/index.html', title: 'Open data', desc: 'Download the observatory datasets: verified catalogue, open-source funding records in EUR, project funding. CC BY 4.0.',
   crumbs: [['Home', ''], ['Data', 'data/']],
   jsonld: [{ '@context': 'https://schema.org', '@type': 'Dataset', name: 'Europe–China Digital Commons Observatory datasets', description: 'Catalogue of verified cases, open-source funding records (EU and China) and project funding', url: `${BASE}/data/`, license: 'https://creativecommons.org/licenses/by/4.0/', creator: ORG, distribution: DS.map(([f]) => ({ '@type': 'DataDownload', encodingFormat: f.endsWith('csv') ? 'text/csv' : f.endsWith('pdf') ? 'application/pdf' : f.endsWith('tsv') ? 'text/tab-separated-values' : 'application/json', contentUrl: `${BASE}/data/${f}` })) }],
-  body: `<h1>Open data</h1><p class="lead">All data are CC BY 4.0, except the external report PDF, whose rights remain with its author. Each record carries its source and evidence level. Corrections: <a href="${ISSUES}" rel="noopener">GitHub issues</a>.</p><ul>${DS.map(([f, d]) => `<li><a href="${f}">${f}</a> — ${esc(d)}</li>`).join('')}</ul>` }));
+  body: `<h1>Open data</h1><p class="lead">All data are CC BY 4.0, except the external report PDF, whose rights remain with its author. Each record carries its source and evidence level. Corrections: <a href="${ISSUES}" rel="noopener">GitHub issues</a>.</p>${keySources('en', '../')}<h2>All downloads</h2><ul>${DS.map(([f, d]) => `<li><a href="${f}">${f}</a> — ${esc(d)}</li>`).join('')}</ul>` }));
 write('zh/data/index.html', page({ lang: 'zh', rel: 'zh/data/index.html', alternate: 'data/index.html', title: '开放数据', desc: '下载观察站数据集：已核实案例目录、中欧开源资金记录（含欧元换算）、项目资金。CC BY 4.0。',
   crumbs: [['首页', 'zh/'], ['数据', 'zh/data/']],
-  body: `<h1>开放数据</h1><p class="lead">全部数据采用 CC BY 4.0 许可，每条记录均注明来源与证据等级。欢迎通过 <a href="${ISSUES}" rel="noopener">GitHub issues</a> 指正。</p><ul>${DS.map(([f]) => `<li><a href="../../data/${f}">${f}</a></li>`).join('')}</ul>` }));
+  body: `<h1>开放数据</h1><p class="lead">全部数据采用 CC BY 4.0 许可，每条记录均注明来源与证据等级。欢迎通过 <a href="${ISSUES}" rel="noopener">GitHub issues</a> 指正。</p>${keySources('zh', '../../')}<h2>全部下载</h2><ul>${DS.map(([f]) => `<li><a href="../../data/${f}">${f}</a></li>`).join('')}</ul>` }));
 write('zh/research/index.html', page({ lang: 'zh', rel: 'zh/research/index.html', alternate: 'research/index.html', title: '研究', desc: '观察站的研究章节、分析、数据表与方法（目前为英文）。',
   crumbs: [['首页', 'zh/'], ['研究', 'zh/research/']],
-  body: `<h1>研究</h1><p class="lead">研究报告目前以英文发布，中文版本正在准备中。</p><ul>${research.map((r) => `<li><a href="../../research/${r.s}/" hreflang="en">${esc(r.title)}</a></li>`).join('')}</ul>` }));
+  body: `<h1>研究</h1><p class="lead">研究报告目前以英文发布，中文版本正在准备中。</p>${keySources('zh', '../../')}<h2>全部研究</h2><ul>${research.map((r) => `<li><a href="../../research/${r.s}/" hreflang="en">${esc(r.title)}</a></li>`).join('')}</ul>` }));
 alt['research/index.html'] = 'zh/research/index.html';
 
 // ---------- landing pages: SEO head + static links (between markers) ----------
@@ -325,7 +338,7 @@ ${shareMeta(lang, lang === 'zh' ? '../' : '')}
   const links = lang === 'zh'
     ? `<!--seo-links--><section id="explore"><h2>浏览</h2><ul class="clean"><li><a href="manifesto/"><b>宣言与使命</b></a></li><li><a href="roadmap/">路线图与研究议程</a></li><li><a href="research/">研究章节</a></li><li><a href="catalogue/">开源成功实践目录（${bi.length} 条）</a></li><li><a href="data/">开放数据下载</a></li></ul></section><!--/seo-links-->`
     : `<!--seo-links--><section id="explore"><h2>Explore the research</h2><ul class="clean"><li><a href="manifesto/"><b>Manifesto & Mission</b></a></li><li><a href="roadmap/"><b>Roadmap & research agenda</b></a></li>${research.slice(0, 6).map((r) => `<li><a href="research/${r.s}/">${esc(r.title)}</a></li>`).join('')}<li><a href="research/">All research</a> · <a href="catalogue/">Catalogue (${cat.length} verified cases)</a> · <a href="projects/">Funding of ${plist.length} projects</a> · <a href="data/">Open data</a></li></ul></section><!--/seo-links-->`;
-  h = h.replace(/<!--seo-links-->[\s\S]*?<!--\/seo-links-->\n?/, '').replace('<section id="contact">', links + '\n<section id="contact">');
+  h = h.replace(/<!--seo-links-->[\s\S]*?<!--\/seo-links-->\n?/, '').replace('<section id="contact">', links.replace('<!--seo-links-->', '<!--seo-links-->' + keySources(lang, lang === 'zh' ? '../' : '')) + '\n<section id="contact">');
   fs.writeFileSync(f, h); urls.unshift(rel); alt[rel] = other;
 }
 patchLanding('index.html', 'en', 'zh/index.html');

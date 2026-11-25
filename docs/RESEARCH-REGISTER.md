@@ -27,6 +27,7 @@ Each line of research is a **branch** that stays open over time. An entry record
 | R15 | Funding of major projects | 3 Nov | 3 Nov | ◐ | – | docs/PROJECT-FUNDING.md, data/project-funding.json |
 | R16 | Multi-LLM iterative research (cross-cutting) | 2 Nov | 3 Nov | ◐ | – | reviews/, data/llm-runs.tsv |
 | R17 | External report "China's Open-Source Technology: Landscape and History" (Nov 2026, 504 projects) | 24 Nov | 24 Nov | ◐ | 2 / 1 | docs/EXT-REPORT-CN-OSS-LANDSCAPE.md |
+| R18 | KAIYUANSHE corpus: China Open Source Annual Reports 2016–2025, AI Blue Book 2026, OpenShare/OpenDigger data (key source) | 25 Nov | 25 Nov | ◐ | – | docs/KAIYUANSHE-CORPUS.md |
 
 ---
 
@@ -100,6 +101,19 @@ Each line of research is a **branch** that stays open over time. An entry record
 - **Did not work / limits:** no author or publication status, so it stays at level C; no figures for open-source-specific funding; policy coverage below the national level is thin; Europe gets only 4 reference points.
 - **Re-run:** `pdftohtml -xml -i ian.pdf out` → parse `<a href>` and font-31 rows at left≈85 (script in the session notes; data in ~euchina/private/ian-report/).
 - **Next:** tasks 17.1–17.12 in docs/EXT-REPORT-CN-OSS-LANDSCAPE.md §5.
+
+## R18 — KAIYUANSHE corpus (key source)
+- **Question:** what do KAIYUANSHE's open, bilingual reports and the OpenShare/OpenDigger data add, and which open gaps do they close (COSR25 level, FY annual reports, COSCon 2016, China's share of global activity)?
+- **Round 1 (25 Nov):** at Fabio's request, everything was downloaded from kaiyuanshe.github.io and open-share.com.
+  - 24 Pages repositories mirrored (`git clone --mirror`, ~1 GB) and the live site crawled.
+  - open-share.com is a React app whose public analytics are static JSON on selfoss.open-digger.cn (endpoints read from the JS bundle). Open World and Open Leaderboard dumped (9 scopes × 4 group types, yearly 2015– and monthly 2020–) with `tools/openshare_dump.py`.
+  - Account data (profiles, members, points) not collected.
+- **Worked:** reports 2023–2025 have full English text (CC BY-SA 4.0); 2016 CC0, 2018–19 Apache-2.0; the 2020–21 PDFs (also EN/JP) are on the `hexo` branch of kaiyuanshe.github.io.
+- **Did not work / limits:**
+  - the KAIYUANSHE FY2022–25 annual reports are not among the Pages sites;
+  - the Chinese OSS Landscape is young (31 entries);
+  - `data.yml` in its repo is a template; the live data is `data/full.json`.
+- **Next:** tasks 18.1–18.8 in docs/KAIYUANSHE-CORPUS.md §5.
 
 ## Chapter closures
 - **Funding (R12–R15) → docs/FUNDING-CHAPTER.md v1.0, 3 Nov 2026.**
