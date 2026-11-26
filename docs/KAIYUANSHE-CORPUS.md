@@ -86,8 +86,41 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 | 18.5 | COSCon 2016 slogan from the archived COSCON2016 site. | Update COSCON-THEMES row 1 |
 | 18.6 | Read the AI Blue Book 2026 (EN) for policy, funding and international-cooperation passages. | Note plus claims TSV |
 | 18.7 | Read the commercialisation and questionnaire chapters for funding models of Chinese open-source companies, to compare with PROJECT-FUNDING. | Rows in project-funding where applicable |
+| 18.9 | Ask KAIYUANSHE/X-lab for the inclusion criteria of the "China" scope and for the country-attribution method behind "influence". | Note in §6 |
 | 18.8 | Refresh the mirror quarterly (`git remote update` in each mirror, re-run `tools/openshare_dump.py`). | Manifest diff |
 
+## 6. Findings from the OpenDigger data (18.2–18.3, first pass, 26 Nov 2026)
+
+*Figures recomputed by us from the archived OpenShare/OpenDigger files ([`tools/kys_opendigger_analysis.py`](../tools/kys_opendigger_analysis.py); tables in [`data/external/kaiyuanshe/derived/`](../data/external/kaiyuanshe/derived/), full summary in [SUMMARY.md](../data/external/kaiyuanshe/derived/SUMMARY.md)). The figures are level A as calculations on the published data. As measures of "open source", they are only as good as OpenRank and GitHub/Gitee/AtomGit coverage, so read them with the caveats below.*
+
+1. **FACT (A, OpenDigger 2025). Europe contributes more developer activity than China; China owns more of the projects that matter.**
+
+   | | Share of active developers | Share of developer OpenRank contribution | Share of project OpenRank influence |
+   |---|---|---|---|
+   | EU27 | 20.5% | 28.9% | 6.6% |
+   | China | 8.6% | 6.5% | 20.1% |
+   | US | 17.0% | 22.9% | 68.7% |
+
+   - Germany is second in the world for developer contribution, after the US and ahead of China. France is 6th, the Netherlands 9th.
+   - **INFERENCE.** This is the clearest quantitative case for the project's "compete above, cooperate below" thesis: Europe supplies labour to the commons largely through projects initiated elsewhere (mostly US), while China has built its own project base.
+2. **FACT (A). Chinese projects hold 13.7% of the global top-300 OpenRank (2025), up from 2.1% in 2015.**
+   - The number of Chinese projects in the top 300 fell from 60 (2018) to 34 (2025), so the share is concentrating in fewer, larger projects.
+   - **OpenHarmony is no. 1 in the world in 2025** (OpenRank 82,122, twice Azure's). openEuler is 13th.
+   - Chinese initiators hold 16.7% of the top-300 initiator OpenRank, up from 4.1% in 2015. Huawei is 2nd after Microsoft and Alibaba 11th.
+3. **FACT (A). Chinese projects make up 25.9% of foundation OpenRank (2025), up from 2.7% in 2015.**
+   - The OpenAtom Foundation is no. 1 of 34 foundations.
+   - Inside the ASF, Chinese projects account for 25,394 of 106,336 OpenRank (24%).
+   - This supports the external report's finding (R17) that Apache is the main international foundation channel for Chinese projects.
+4. **FACT (A). China's share of global active developers is flat at about 8–9% (2021–2025)**, and of developer contribution at about 6.5%. The growth in point 2 comes from projects, not from developer headcount.
+5. **Cross-match (18.3).** Of the 282 projects in OpenShare's China scope, 94 match the external report's 504 by name and 188 do not. The unmatched include 1Panel, SecretFlow, Coze, OpenTiny, JumpServer, Asterinas, openFuyao, OpenBMB, DeepSeek-V3/R1, MeterSphere and KusionStack. Name matching is approximate (variants such as "DeepSeek-V3" vs "DeepSeek"); list in `xmatch-opendigger-vs-ext-report.tsv`.
+
+**Caveats.**
+- OpenRank weights project activity by collaboration networks. Large corporate projects with many employee contributors, such as OpenHarmony, score high whatever their external adoption.
+- Developers are located by self-declared profile data; many have none.
+- "Influence" lists only 30 countries, so shares of influence are shares of that subset.
+- OpenShare's "China" scope is KAIYUANSHE/X-lab's list (282 projects, 136 initiators). Inclusion criteria are not published; ask (18.9).
+
 ## Changelog
+- 26 Nov 2026: 18.2 and 18.3 first pass (§6): EU27/China/US shares, China in the global top 300 (2015–2025), foundations, cross-match with the external report.
 - 25 Nov 2026: OpenShare/OpenDigger dump complete. 3,409 files (181 MB) with SHA-256 in [`data/external/kaiyuanshe/openshare-manifest.tsv`](../data/external/kaiyuanshe/openshare-manifest.tsv): 3,384 leaderboard files (9 scopes × 4 group types, years 2015–2026, months 2020-01–2026-10) plus overview and geo files. The 36 404s are month 2026-11, not yet published.
 - 25 Nov 2026: corpus archived (24 repositories, live site, OpenShare/OpenDigger JSON); inventory and roadmap written.

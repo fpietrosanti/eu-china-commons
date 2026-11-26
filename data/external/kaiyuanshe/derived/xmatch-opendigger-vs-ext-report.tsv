@@ -1,0 +1,283 @@
+china_rank_2025	name	openrank_2025	in_ext_report	ext_report_name	ext_kind
+1	OpenHarmony	82121.69	yes	OpenHarmony	OSS
+2	openEuler	18827.14	yes	openEuler	OSS
+3	PaddlePaddle	9182.16	yes	PaddlePaddle	OSS
+4	MindSpore	9160.16	yes	MindSpore	OSS
+5	Milvus	3914.43	yes	Milvus	OSS
+6	Ascend	3702.76	yes	Ascend	Commercial
+7	ModelScope	3613.54	yes	ModelScope	OSS
+8	openGauss	3484.05	yes	openGauss	OSS
+9	Apache Doris	3374.09	yes	Apache Doris	OSS
+10	openKylin	3199.05	yes	openKylin	OSS
+11	Ant Design	3112.98	yes	Ant Design	OSS
+12	Cangjie	3091.11	yes	Cangjie	OSS
+13	TiDB	3048.55	yes	TiDB	OSS
+14	Anolis OS	2968.32	yes	Anolis OS	OSS
+15	RAGFlow	2586.68	yes	RAGFlow	OSS
+16	verl	2535.06	yes	verl	OSS
+18	StarRocks	2336.15	yes	StarRocks	OSS
+20	XiangShan	1662.58	yes	XiangShan	OSS
+21	ms-swift	1568.78	yes	ms-swift	OSS
+22	TDengine	1533.09	yes	TDengine	OSS
+24	AntV	1399.45	yes	AntV	OSS
+25	CloudWeGo	1379.25	yes	CloudWeGo	OSS
+26	DataEase	1336.74	yes	DataEase	OSS
+28	EMQX	1302.82	yes	EMQX	OSS
+30	CANN	1132.33	yes	CANN	OSS
+31	Apache Flink	1130.3	yes	Apache Flink	Upstream
+33	Volcano	1061.42	yes	Volcano	OSS
+34	OceanBase	1056.76	yes	OceanBase	OSS
+36	FastGPT	944.2	yes	FastGPT	OSS
+37	Higress	942.11	yes	Higress	OSS
+38	TiKV	907.67	yes	TiKV	OSS
+39	Moonbit	906.62	yes	MoonBit	OSS
+40	MaxKB	892.87	yes	MaxKB	OSS
+41	Apache IoTDB	881.07	yes	Apache IoTDB	OSS
+43	Apache Pulsar	832.13	yes	Apache Pulsar	Upstream
+45	Apache Paimon	811.13	yes	Apache Paimon	OSS
+46	Nacos	794.06	yes	Nacos	OSS
+48	OpenCompass	765.53	yes	OpenCompass	OSS
+50	Xinference	758.34	yes	Xinference	OSS
+51	Apache APISIX	734.16	yes	Apache APISIX	OSS
+52	Kata Containers	729.36	yes	Kata Containers	Upstream
+53	Databend	725.95	yes	Databend	OSS
+54	KTransformers	707.86	yes	KTransformers	OSS
+55	RT-Thread	706.95	yes	RT-Thread	OSS
+56	LMDeploy	693.66	yes	LMDeploy	OSS
+58	Apache Dubbo	677.89	yes	Apache Dubbo	OSS
+59	MatrixOne	676.77	yes	MatrixOne	OSS
+61	JuiceFS	653.82	yes	JuiceFS	OSS
+63	Apache ShardingSphere	642.19	yes	Apache ShardingSphere	OSS
+64	Karmada	619.99	yes	Karmada	OSS
+67	Apache Seata	558.11	yes	Apache Seata	OSS
+71	Apache RocketMQ	485.06	yes	Apache RocketMQ	OSS
+72	Harbor	473.06	yes	Harbor	OSS
+73	Apache ECharts	456.69	yes	Apache ECharts	OSS
+75	Dragonfly	427.53	yes	Dragonfly	OSS
+77	Mooncake	423.87	yes	Mooncake	OSS
+78	KubeEdge	423.52	yes	KubeEdge	OSS
+79	Apache SkyWalking	419.11	yes	Apache SkyWalking	OSS
+80	TuGraph	384.53	yes	TuGraph	OSS
+81	TileLang	381.47	yes	TileLang	OSS
+85	Apache Celeborn	374.88	yes	Apache Celeborn	OSS
+86	DeerFlow	373.86	yes	DeerFlow	OSS
+88	Taro	368.29	yes	Taro	OSS
+89	Apache DolphinScheduler	362.02	yes	Apache DolphinScheduler	OSS
+93	Qwen Code	345.47	yes	Qwen Code	OSS
+94	OpenKruise	321.72	yes	OpenKruise	OSS
+95	Fluid	316.47	yes	Fluid	OSS
+96	Halo	306.92	yes	Halo	OSS
+102	DeepEP	257.37	yes	DeepEP	OSS
+103	AgentScope	254.11	yes	AgentScope	OSS
+105	Koordinator	245.58	yes	Koordinator	OSS
+107	Sealos	221.36	yes	Sealos	OSS
+108	bRPC	214.55	yes	Apache brpc	OSS
+109	CubeFS	199.28	yes	CubeFS	OSS
+110	KubeVela	198.76	yes	KubeVela	OSS
+112	OpenSumi	189.76	yes	OpenSumi	OSS
+115	CodeFuse	181.47	yes	CodeFuse	OSS
+120	Geaflow	150.55	yes	Apache GeaFlow	OSS
+125	Tongsuo	125.8	yes	Tongsuo	OSS
+130	Spring Cloud Alibaba	107.45	yes	Spring Cloud Alibaba	OSS
+134	OpenYurt	99.5	yes	OpenYurt	OSS
+136	Canal	95.7	yes	Canal	OSS
+139	OpenDigger	79.25	yes	OpenDigger	OSS
+141	Inclavare Containers	77.73	yes	Inclavare Containers	OSS
+151	ChaosBlade	61.9	yes	ChaosBlade	OSS
+160	Sentinel	43.6	yes	Sentinel	OSS
+161	Occlum	42.69	yes	Occlum	OSS
+168	Serverless Devs	34.15	yes	Serverless Devs	OSS
+172	DataX	31.74	yes	DataX	OSS
+179	OpenCloudOS	26.07	yes	OpenCloudOS	OSS
+182	PolarDB-X	22.41	yes	PolarDB-X	OSS
+234	XuperCore	0.8	yes	XuperChain	OSS
+237	AliOS Things	0.64	yes	AliOS Things	OSS
+256	Baetyl	0	yes	Baetyl	OSS
+17	1Panel	2352.73	no		
+19	DaoCloud Public Image Mirror	1778.9	no		
+23	SecretFlow	1409.08	no		
+27	FlagOS	1317.4	no		
+29	Coze	1168.31	no		
+32	Apache Ozone	1075.76	no		
+35	Galacean	945.15	no		
+42	OpenTiny	874.46	no		
+44	KWDB	815.12	no		
+47	GPUStack	787.91	no		
+49	JumpServer	761.95	no		
+57	inclusionAI	685.91	no		
+60	amis	664.44	no		
+62	UBML	652.39	no		
+65	Asterinas	595.85	no		
+66	openFuyao	577.45	no		
+68	React Component	537.09	no		
+69	OpenBMB	526.94	no		
+70	Seed	494.17	no		
+74	OpenSPG	439.82	no		
+76	DeepSeek-V3	426.21	no		
+82	OpenSolon	379.65	no		
+83	Ant Design X	378.08	no		
+84	UmiJS	375.09	no		
+87	DeepSeek-R1	372.84	no		
+90	dbgpt	360.11	no		
+91	MeterSphere	353.49	no		
+92	Open Cluster Management	345.52	no		
+97	CodeWave	299.68	no		
+98	agentUniverse	287.82	no		
+99	AReal	273.73	no		
+100	Fury	264.08	no		
+101	KusionStack	257.72	no		
+104	VSAG	247.45	no		
+106	NG-ZORRO	232.98	no		
+111	Lark	192.81	no		
+113	Sofastack	186.36	no		
+114	KCL Lang	186.19	no		
+116	Astron	179.54	no		
+117	Intelligent Machine Learning	166.89	no		
+118	Apache Answer	153.4	no		
+119	NeovateAI	153.33	no		
+121	Trae Agent	146.57	no		
+122	EggJS	140.88	no		
+123	玲珑	139.98	no		
+124	cnpm	131.38	no		
+126	SQLE	124.61	no		
+127	Chaos Mesh	117.21	no		
+128	Peter Cat	113.22	no		
+129	Utoo	113.06	no		
+131	Apache ServiceComb	103.58	no		
+132	Dragonwell	103.53	no		
+133	PikiwiDB	102.27	no		
+135	Agent Learning Framework	96.27	no		
+137	Ice	95.29	no		
+138	Apollo Auto	80.48	no		
+140	Jeandle	79.05	no		
+142	pymycobot	72.28	no		
+143	DTVM	68.64	no		
+144	DeepSeek-VL2	68.58	no		
+145	Kimi CLI	68.47	no		
+146	Arthas	68.06	no		
+147	Koupleless	67.97	no		
+148	ModelPack	65.51	no		
+149	MidwayJS	63.85	no		
+150	AWTK	62.31	no		
+152	MOSN	61.22	no		
+153	TKEStack	60.1	no		
+154	hapjs	56.53	no		
+155	PolarDB-for-PostgreSQL	56.05	no		
+156	GraphScope	50.63	no		
+157	Unitree SDK2	50.39	no		
+158	WeaveFox	49.39	no		
+159	ByConity	44.22	no		
+162	MagicQuill	42.52	no		
+163	Vearch	40.77	no		
+164	Codeya IDE	39.24	no		
+165	Open-AutoGLM	35.94	no		
+166	weapp	35.41	no		
+167	OpenTenBase	34.21	no		
+169	Unitree RL Gym	33.71	no		
+170	Hypertrons	32.6	no		
+171	HyperCRX	32.14	no		
+173	Unitree RL Lab	31.23	no		
+174	OpenDeRisk	30.97	no		
+175	EasyExcel	30.76	no		
+176	Fusion Design	30.22	no		
+177	FATE	27.97	no		
+178	Unitree MuJoCo	27.81	no		
+180	HUATUO	24.43	no		
+181	TqSdk	22.83	no		
+183	Lowcode Engine	21.94	no		
+184	AQ-MedAI	21.51	no		
+185	GreatSQL	21.29	no		
+186	DBLE	19.34	no		
+187	DeepCode	18.98	no		
+188	OpenKona	18.89	no		
+189	Sparse4D	18.14	no		
+190	Dora SSR	17.11	no		
+191	EmbodiedGen	15.13	no		
+192	Havenask	15.09	no		
+193	RPLIDAR SDK and ROS Drivers	13.91	no		
+194	JPush SDKs	13.77	no		
+195	Ocean Engine	13.39	no		
+196	Vineyard	12.55	no		
+197	SeekDB	12.01	no		
+198	OpenInula	11.6	no		
+199	Apache HoraeDB	11.28	no		
+200	Angel-ML	10.81	no		
+201	Unieo	10.66	no		
+202	Ant Chain	10.43	no		
+203	Retrofit Spring Boot Starter	9.06	no		
+204	AIGW	8.87	no		
+205	SpatialGen	8.65	no		
+206	Page Agent	8.37	no		
+207	MiniBlink	7.99	no		
+208	myCobot ROS	7.14	no		
+209	OpenNJet	7.01	no		
+210	OpenMessaging	6.84	no		
+211	Laf	6.54	no		
+212	狮偶	6.32	no		
+213	HoloMotion	6.08	no		
+214	Biadu Map Huiyan	5.64	no		
+215	Teambition	4.13	no		
+216	Bruno	4.06	no		
+217	Traas Stack	3.96	no		
+218	HStreamDB	3.73	no		
+219	BELLE	3.21	no		
+220	PlankAssembly	3.21	no		
+221	DvaJS	2.88	no		
+222	OpenSandbox	2.51	no		
+223	Kurator	2.17	no		
+224	LiteOS	2.04	no		
+225	ThinkJS	1.79	no		
+226	SuperMap iClient for JavaScript	1.77	no		
+227	MesaLock Linux	1.54	no		
+228	OpenSergo	1.21	no		
+229	KubeDL	0.96	no		
+230	Sealer	0.9	no		
+231	Noslate	0.89	no		
+232	OpenKraken	0.81	no		
+233	RT-TKern	0.8	no		
+235	SQLFlow	0.79	no		
+236	CeresDB	0.73	no		
+238	Macaca	0.59	no		
+239	StoneDB	0.46	no		
+240	CrowdOS	0.46	no		
+241	Couler	0.43	no		
+242	TencentOS Tiny	0.42	no		
+243	SpriteJS	0.42	no		
+244	Ant Mini Program	0.28	no		
+245	TD Redis Operator	0.25	no		
+246	OpenASCE	0.24	no		
+247	Kindling	0.16	no		
+248	Chimeejs	0.14	no		
+249	OpenViking	0	no		
+250	Lark CLI	0	no		
+251	QwenPaw	0	no		
+252	Nanobot	0	no		
+253	Kimi Code	0	no		
+254	MiniMax Code	0	no		
+255	ZCode	0	no		
+257	DeepSeek Harness	0	no		
+258	Mars	0	no		
+259	OpenGalaxy	0	no		
+260	DTLE	0	no		
+261	Weex	0	no		
+262	HyperEnclave	0	no		
+263	KarasJS	0	no		
+264	mPaaS	0	no		
+265	Apache OpenDAL	0	no		
+266	Mindplus Desktop	0	no		
+267	KubeOperator	0	no		
+268	XPocket	0	no		
+269	Rancher	0	no		
+270	Data4Test	0	no		
+271	iBond FLEX	0	no		
+272	Feeyo NIO	0	no		
+273	Feeyo RedisProxy	0	no		
+274	eKuiper	0	no		
+275	Carsmos	0	no		
+276	Cloud HPC	0	no		
+277	EasyBaaS	0	no		
+278	HyperBench	0	no		
+279	MetaToC	0	no		
+280	OpenV2X	0	no		
+281	SmartIDE	0	no		
+282	ZTDBP	0	no		

@@ -1,0 +1,137 @@
+rank	id	name	name_zh	openrank	participants
+1	:companies/huawei	Huawei	华为	126038.43	33865
+2	:companies/alibaba	Alibaba	阿里巴巴	29461.62	20173
+3	:companies/bytedance	ByteDance	字节跳动	19788.82	15398
+4	:companies/antgroup	Ant group	蚂蚁集团	17922.95	10784
+5	:companies/baidu	Baidu	百度	14881.47	6177
+6	:companies/tencent	Tencent	腾讯	12087.81	8211
+7	:companies/pingcap	PingCAP	PingCAP	7731.76	864
+8	:companies/espressif	ESPRESSIF	乐鑫科技	6510.52	4408
+9	:companies/fit2cloud	Fit2Cloud	飞致云	6004.71	2734
+10	:companies/infiniflow	Infinity Flow	Infinity Flow	5460.18	3067
+11	:companies/daocloud	DaoCloud	道客云	4896.68	2039
+12	:companies/zilliz	Zilliz	赜睿信息科技	4815.86	1551
+13	:institutions/sh_ai_lab	Shanghai Artificial Intelligence Laboratory	上海人工智能实验室	4084.61	3711
+14	:companies/selectdb	SelectDB	SelectDB	3434.09	776
+15	:companies/openkylin	openKylin	开放麒麟	3199.05	773
+16	:companies/deepin	Deepin	深度	2717.9	282
+17	:companies/huanjiyun	Huanjiyun	环际云	2715.64	998
+18	:universities/thu	Tsinghua University	清华大学	2542.69	1967
+19	:companies/starrocks	StarRocks	StarRocks	2336.15	779
+20	:companies/xiaomi	Xiaomi	小米	2314.71	2166
+21	:companies/deepseek	DeepSeek	深度求索	2288.28	5152
+22	:institutions/cas	Chinese Academy of Sciences	中国科学院	1662.58	216
+23	:companies/xorbits	Xorbits AI	Xorbits AI	1611.81	918
+24	:companies/taos	TAOS Data	涛思数据	1533.09	430
+25	:institutions/baai	Beijing Academy of Artificial Intelligence	智源研究院	1317.4	554
+26	:companies/emq	EMQ	映云科技	1306.55	438
+27	:companies/jd	JD	京东	1119.38	1592
+28	:companies/guojusoft	Guojusoft	国炬软件	1117.19	1361
+29	:companies/seeed	Seeed	矽递科技	940.33	387
+30	:institutions/idea	IDEA	粤港澳大湾区数字经济研究院	906.62	230
+31	:companies/apecloud	ApeCloud	云猿生	890.78	223
+32	:companies/timecho	Timecho	天谋科技	881.07	150
+33	:companies/streamnative	StreamNative	原流数据	832.13	374
+34	:companies/yahoo	Yahoo	Yahoo	832.13	374
+35	:companies/inspur	Inspur	浪潮	815.12	102
+36	:companies/gpustack	GPUStack.ai	数澈软件	787.91	577
+37	:companies/alauda	Alauda	灵雀云	768.88	76
+38	:companies/api7	API7	API7	734.16	663
+39	:companies/databend	Databend Labs	Databend Labs	725.95	116
+40	:companies/datafuse	Datafuse Labs	Datafuse	725.95	116
+41	:companies/didi	Didi	滴滴	716.35	465
+42	:companies/rtthread	RT-Thread	上海睿赛德电子科技有限公司	706.95	278
+43	:universities/hubu	Hubei University	湖北大学	702.29	444
+44	:companies/sipeed	Sipeed	矽速科技	693.01	951
+45	:universities/hust	Huazhong University of Science and Technology	华中科技大学	689.43	725
+46	:companies/matrix_origin	Matrix Origin	矩阵起源	676.77	75
+47	:companies/juicedata	JuiceData	果汁数据	653.82	201
+48	:companies/sensetime	SenseTime	商汤科技	643.66	303
+49	:companies/sphereex	SphereEx	SphereEx	642.19	310
+50	:companies/datacanvas	DataCanvas	数据画布	632.54	40
+51	:companies/datawhale	DataWhale	科鲸	615.77	703
+52	:companies/qiniu	Qiniu	七牛云	609.45	208
+53	:companies/dreamnum	DreamNum	上海梦数科技有限公司	603.63	284
+54	:companies/bytebase	Bytebase	Bytebase	533.95	215
+55	:companies/modelbest	ModelBest	面壁智能	526.94	795
+56	:companies/unitree	Unitree Robotics	宇树科技	519.07	692
+57	:companies/opencsg	OpenCSG	开放传神	487.89	126
+58	:companies/actiontech	ActionTech	爱可生	487.37	39
+59	:companies/vmware	VMWare	VMWare	473.06	719
+60	:companies/qingcloud	QingCloud	青云	467.38	453
+61	:companies/netease	Netease	网易	458.92	201
+62	:companies/dcloud	DCloud	DCloud	431.49	502
+63	:companies/yunion	Yunion	云联	407.43	105
+64	:companies/chaitin	Chaitin	北京长亭科技有限公司	399.27	484
+65	:companies/moonshot	Moonshot AI	Moonshot AI	396	656
+66	:universities/pku	Peking University	北京大学	381.47	277
+67	:companies/iflytek	iFLYTEK	科大讯飞	372.39	159
+68	:companies/whaleops	WhaleOps	WhaleOps	362.02	338
+69	:companies/horizon_robotics	Horizon Robotics	地平线	312.87	122
+70	:companies/zhipu	Zhipu AI	智谱	260.06	583
+71	:companies/goodrain	Goodrain	好雨云	249.93	82
+72	:companies/thinkphp	ThinkPHP	ThinkPHP	248.32	164
+73	:companies/siliconflow	SiliconFlow	硅基流动	246.59	117
+74	:companies/elephant_robotics	Elephant Robotics	大象机器人	236.11	54
+75	:companies/ctrip	CTrip	携程	207.27	23
+76	:companies/360	360	奇虎360	201.93	204
+77	:companies/tuya	Tuya	杭州涂鸦信息技术有限公司	201.61	200
+78	:companies/vesoft	Vesoft	悦数科技	189.43	141
+79	:companies/dtstack	DTStack	杭州玳数科技有限公司	160.29	56
+80	:companies/youzan	Youzan	有赞	155.8	325
+81	:companies/segmentfault	Segment Fault	思否	154.35	115
+82	:universities/whu	Wuhan University	武汉大学	152	180
+83	:companies/ke_holdings	KE Holdings	贝壳	143.96	75
+84	:companies/koderover	KodeRover	KodeRover	143.84	29
+85	:companies/webank	WeBank	微众银行	135.08	111
+86	:companies/zlg	ZLG	致远电子	132.44	32
+87	:companies/shinnytech	ShinnyTech	信易科技	129.47	23
+88	:companies/noear	Noear	杭州无耳科技有限公司	126.32	65
+89	:companies/minimax	MiniMax	稀宇科技	101.1	213
+90	:companies/manycore	Manycore Tech	群核科技	96.89	109
+91	:companies/ottermind	OtterMind	爱獭科技（杭州）有限公司	95.73	203
+92	:companies/bilibili	Bilibili	哔哩哔哩	93.39	193
+93	:companies/datavane	Datavane	杭州晴朗网络科技有限公司	86.76	68
+94	:companies/kyligence	Kyligence	Kyligence	77.98	30
+95	:companies/vipshop	Vipshop	唯品会	74.06	45
+96	:companies/cnblogs	CNBlogs	杭州语源科技有限公司	67.48	43
+97	:companies/taichi	Taichi	太极	61.39	99
+98	:companies/meituan	Meituan	美团	56.3	100
+99	:companies/oneflow	Oneflow	一流科技	49.33	24
+100	:companies/dfrobot	DFRobot	智位机器人	45.57	97
+101	:companies/iqiyi	iQiyi	爱奇艺	40.02	46
+102	:companies/douban	Douban	豆瓣	38.93	34
+103	:companies/jiguang	Jiguang	极光	37.93	57
+104	:companies/alluxio	Alluxio	Alluxio	34.47	41
+105	:companies/slamtec	SLAMTEC	思岚科技	32.51	44
+106	:companies/easycorp	EasyCorp	EasyCorp	29.38	40
+107	:companies/greatdb	GreateDB	GreatDB	21.29	18
+108	:universities/hku	The University of Hong Kong	香港大学	18.98	68
+109	:companies/supermap	SuperMap	超图软件	14.41	24
+110	:companies/douyu	Douyu	Douyu	8.69	10
+111	:companies/primihub	Primitiv Hub	PrimiHub	7.15	12
+112	:companies/zstack	ZStack	云轴科技	6.79	9
+113	:companies/megvii	Megvii	旷视科技	6.46	14
+114	:companies/chatopera	Chatopera	Chatopera	4.19	5
+115	:companies/cloudwise	Cloud Wise	云智慧	3.09	4
+116	:companies/sequoiadb	SequoiaDB	巨杉数据库	2.73	6
+117	:companies/juejin	Juejin	掘金	2.72	13
+118	:companies/variflight	VariFlight	飞常准	2.27	7
+119	:companies/harmonycloud	HarmonyCloud	谐云	1.14	3
+120	:companies/tongdun	Tongdun Technology	同盾科技	0.5	1
+121	:companies/stoneatom	StoneAtom	石原子	0.46	4
+122	:companies/zte	ZTE	ZTE	0.39	1
+123	:universities/cug	China University of Geosciences	中国地质大学（武汉）	0.31	1
+124	:companies/linux_china	Linux China	Linux中国	0.3	1
+125	:companies/gaas	GAAS	GaaS	0	0
+126	:companies/fuzhi	Shendu Fuzhi	复志	0	0
+127	:companies/2mui	2mui	2mui	0	0
+128	:companies/dodoedu	DodoEdu	DodoEdu	0	0
+129	:companies/e_ray	e-Ray	e-Ray	0	0
+130	:companies/galaxy_future	Galaxy Future	银河未来	0	0
+131	:companies/gitlab_cn	GitLab.cn	GitLab.cn	0	0
+132	:companies/hundsun	Hundsun	恒生电子	0	0
+133	:companies/oushu	Oushu	偶数科技	0	0
+134	:companies/perfma	PerfMa	笨马网络	0	0
+135	:companies/qunar	Qunar	去哪儿	0	1
+136	:companies/rancher	Rancher Labs	Rancher Labs	0	1
