@@ -44,6 +44,8 @@
 
 ## 2. Findings useful to our research, by branch
 
+> **Verification status (17.1, 26 Nov 2026).** The 70 claims of this section and §1.5 were checked against the archived primaries: **15 confirmed (A), 22 partly (20 A, 2 B), 0 contradicted outright, 33 not archived (still C).** Several "partly" verdicts change the meaning of a claim. §7 lists the corrections, which take precedence over the wording below; per-claim table in [`verification-17.1.tsv`](../data/external/cn-oss-landscape-2026-11/verification-17.1.tsv).
+
 ### R03 / A1 — National policy and industrial-policy timeline [F, level C until verified]
 - **State Council Document No. 18 (2000)** was the first joint support framework for software and integrated circuits: a VAT refund above an effective 3% rate, plus income-tax and import breaks for chips. Most industrial policy of the next 20 years followed this template. *New to the repo.*
 - **Hegaoji (核高基, 2006 plan, started 2008)** was national S&T major project no. 1, covering core electronic devices, high-end chips and basic software. It funded Loongson, Phytium, NeoKylin/Kylin, Dameng and Kingbase for a decade. The report's thesis: products funded this way gained large user bases only when external shocks created migration demand (Entity List 2019, CentOS end of life 2020). *We had 核高基 only in the registry; the narrative and the "funding without users" lesson are new.*
@@ -201,6 +203,50 @@ Hummingbird E203, Wujian 100, XuanTie C910, XuanTie C906, One Student One Chip, 
 
 *Matching is by name against `docs/` and `data/`, so a project we cite under another name may appear here by mistake.*
 
+## 7. Verification of §2 against archived primaries (17.1, 26 Nov 2026)
+
+Checked against `sources/archive/`, including the 24 Nov residential fetches. Every evidence quote in the table was matched automatically against the archived text.
+
+| Verdict | Claims | New level |
+|---|---|---|
+| Confirmed | 15 | A |
+| Partly | 22 | 20 A, 2 B |
+| Not supported | 0 | – |
+| Primary not archived | 33 | C |
+
+**Closed from §1.5 (now A):**
+- DeepSeek-V4 / V4-Flash and SLAI T-Rex on Ascend (arXiv 2607.20145, 2607.08215).
+- Karmada graduation (CNCF, 7 Sep 2026).
+- CNITSEC Announcement No. 3/2026 (20 Sep 2026).
+- Southern Power Grid Digital interim report 2026: "14 万余套" terminals on OpenHarmony/openEuler.
+
+The Schleswig-Holstein release is still open.
+
+**Corrections. These replace the wording in §2:**
+1. **Doc. No. 34/2025.** "Domestic product" means place of production plus component-cost share, for goods, with a 20% price deduction. Intangible assets are excluded, and the text explicitly forbids discrimination by investor nationality, so **code origin plays no role**. This matters for the EU: the rule is about manufacturing location, not about open-source provenance.
+2. The **MoF operating-system procurement standard** (财库〔2023〕34号, Dec 2023) came *before* Doc. 34/2025, not after it.
+3. **The CNITSEC evaluation is voluntary** ("由企业和用户自主选择使用"). It becomes binding only through category standards, for example operating systems bought by Party and government bodies at township level and above. Announcement 3/2026 lists CPUs, AI chips, printer chips, operating systems and databases, and **no office suites**.
+4. **The 14th Five-Year Plan was not the first national mention of open source.** 国发〔2015〕40号 (Internet Plus, 2015) already calls for open-source communities and foundations. Use: "first five-year plan outline to name open source".
+5. **Shunyi tender.** This is a WPS office-suite licence renewal for Windows and Linux desktop environments (2,500 Linux-environment clients). It is not an operating-system migration.
+6. **Beijing Tongren Hospital.** The database and storage migration is confirmed (Oct 2023), but the source does not say "domestic hardware".
+7. **China Merchants Bank.** The accelerators come from three domestic vendors; there is no domestic/imported mix.
+8. **China Mobile Cloud 60 PB.** Kunpeng and BC-Linux/openEuler are confirmed, but the storage is "BC distributed block storage", not Ceph.
+9. **RFC 8998** is an Informational RFC on the Independent Submission stream, not an IETF-consensus standard.
+10. **SAIC** is a member of AGL (2019), not of Eclipse S-CORE.
+11. **Dragonfly** graduated in 2026 (the cited CNCF page is dated 14 Jan 2026), not in 2025.
+12. **The Beijing open-source measure** is 京经信发〔2025〕56号, dated 24 Dec 2025. May 2026 is only its republication date.
+13. **Smaller items:**
+    - Fujian: the notice gives RMB 56,800 and no seat count.
+    - Big Fund phase 1: the MoF notice gives no amount.
+    - AtomGit and GitCode were merged on 21 Nov 2025 according to OpenAtom.
+    - Hegaoji rests on a secondary source (B).
+
+**Still to fetch.** The list is in the notes kept with the table.
+- *Chinese sites:* MOST 2006 Hegaoji list, the 2014 Windows 8 notice, the MIIT 14th FYP software plan, "AI+" opinions, Big Fund 2–3 registrations, Fujian tender file, Shenzhen Metro.
+- *Fetchable directly:* Schleswig-Holstein, Federal Register 2019-10616, CentOS blog, GCC/Linux/LLVM release notes, CNCF Dragonfly, ASF HugeGraph, SMIC filing, Alibaba 20-F, ISO entries.
+- *R05 cross-participation* (8 projects) can partly be answered from the R18 OpenDigger dump.
+
 ## Changelog
+- 26 Nov 2026: 17.1 verification (§7): 15 confirmed, 22 partly, 33 not archived; 13 corrections.
 - 2026-11-24: first analysis. 55 primary sources archived: 53 by direct fetch, OceanBase/Alipay through the relay. The NDRC 2023 compute-network guidance link cited by the report (`ndrc.gov.cn/xxgk/jd/jd/202312/t20231229_1363000.html`) returns **404**, including from a residential IP; it needs a replacement source. 
 - 2026-11-24 (later): the author gave permission. The PDF and the extracted dataset are published in data/external/ and on the site.

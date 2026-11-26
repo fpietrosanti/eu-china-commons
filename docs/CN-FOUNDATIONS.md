@@ -70,6 +70,7 @@ Research note, 2026-11-03. Evidence levels per METHODOLOGY.md §4. Self-reported
 ## 7. Findings
 1. **FACT (C/B).** OpenAtom holds most of the money in Chinese open source. The roughly CNY 600m it reports for 2020–26 is about 1,000 times KAIYUANSHE's CNY 0.6m FY21 income.
 2. **FACT (B).** OpenAtom's portfolio follows industrial-policy priorities: OS, LoongArch, chips, embodied AI, industrial control. Its 2026 conference coverage does not mention international cooperation.
+   - *Qualification (26 Nov 2026, R18 C1):* KAIYUANSHE's 2024 report says OpenAtom **hosted the 2nd Open Source Congress** (Beijing, 25–26 Aug 2024) with the Linux Foundation, Eclipse Foundation, OSI, OpenInfra, OIN and the Rust Foundation (C). The finding holds for the 2026 coverage. It should be read as a change from 2024 to 2026, not as a constant absence of international cooperation.
 3. **FACT (A).** KAIYUANSHE is the community-side actor with international ties: it co-ran COSCon'20 with the ASF and received a Near Foundation donation in 2021. It publishes detailed but unaudited finances.
 4. **FACT (B).** OpenAtom now stewards the Mulan licence family, which includes the OSI-approved Mulan PSL v2. That makes it a concrete counterpart for EU licence work (EUPL compatibility).
 5. **INFERENCE.** Disclosure is weak. OpenAtom's work reports are scanned images and stop at 2023 online, which limits verifiable comparison. Next steps: OCR, and the 民政部 慈善中国 / 社会组织 registry from a CN IP.
@@ -156,6 +157,7 @@ Source: OpenAtom 2022 and 2023 年度工作报告 (annual-inspection filings to 
 **Rough classification of 2023 spending.**
 - About 47% was directly open-source-specific engineering and infrastructure (OpenHarmony, openEuler, ecosystem platform).
 - About 24% was events, competitions and campus programmes.
+- *Note (R18 C2):* KAIYUANSHE's 2024 report says the 2023 OpenAtom Competition "awarded" CNY 13.384 m in prizes (C), against CNY 5.62 m of competition spending in these accounts. The gap is unreconciled: prizes may have been paid partly by co-organisers or local governments. Do not use 13.4 m as OpenAtom spending.
 - About 29% went to "other public-interest" activity, mixed.
 - Admin was 3.95% of total expenditure.
 

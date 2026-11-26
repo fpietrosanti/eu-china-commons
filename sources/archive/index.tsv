@@ -329,3 +329,17 @@
 2026-11-24T19:47:17Z	https://www.wps.cn	www.wps.cn-fd18e6ea52.res.html	residential	200	08e4f2a37195c426fc95f2f79f980aa93db7d66eeb905571f6e00e7359314bf1
 2026-11-24T19:47:26Z	https://www.wps.cn/	www.wps.cn-dff064bc3b.res.html	residential	200	08e4f2a37195c426fc95f2f79f980aa93db7d66eeb905571f6e00e7359314bf1
 2026-11-24T19:50:58Z	https://www.zhipuai.cn	www.zhipuai.cn-57f31a206f.res.html	residential	200	a0093c4e535ed3e4b63049008eed92640b366eeeaa7334b93d363a3a91ee3225
+2026-11-26T07:40:48Z	https://blog.centos.org/2020/12/future-is-centos-stream/	blog.centos.org-263205b676.html	direct	200	5689d6d846c9a3438a42fcb8b59ae5bb52c09fd88bb82b789ca3e3a6acc7499b
+2026-11-26T07:40:50Z	https://flink.apache.org/news/2019/08/22/release-1.9.0.html	flink.apache.org-e50234b7a6.html	direct	200	0c47ace172598352d8c8c481e15b6b45a181abaf080a324642e6a4264a5b0a7e
+2026-11-26T07:40:53Z	https://gcc.gnu.org/gcc-12/changes.html	gcc.gnu.org-2194655584.html	direct	200	afafdf1d90a3ee36c25a36910317ab0badf9fc21c7616dc89a7d59bb566ffbd2
+2026-11-26T07:40:55Z	https://goharbor.io/	goharbor.io-e47063975a.html	direct	200	865b00b21392c6426631cbc6b48818dd1adc5eff0e9dd4ea506d45ffb54d3e04
+2026-11-26T07:40:57Z	https://hugegraph.apache.org/	hugegraph.apache.org-d01729fa8b.html	direct	200	d07790a9989836187bd00aaa73615eee0c5aa41f41672815819548400491e8df
+2026-11-26T07:41:00Z	https://kernelnewbies.org/Linux_5.19	kernelnewbies.org-b98d94c1e7.html	direct	200	50d055413ea7c5a48ab05252445a702f8f9de7dd5aaf41aa035dbee27db15128
+2026-11-26T07:41:03Z	https://releases.llvm.org/16.0.0/docs/ReleaseNotes.html	releases.llvm.org-d3dc116788.html	direct	200	0d31f43d11993fb241a18e2deadd34ab5a2660341441d49d2a07df685a89363b
+2026-11-26T07:41:05Z	https://skywater-pdk.readthedocs.io/en/main/status.html	skywater-pdk.readthedocs.io-61a065cee8.html	direct	200	f68ae987269b8588f0773d0b1d998299da27e50d7966a4fc45996b64ebd0e648
+2026-11-26T07:41:08Z	https://www.cncf.io/announcements/2026/01/14/cloud-native-computing-foundation-announces-dragonflys-graduation/	www.cncf.io-3be575a6f7.html	direct	200	6751dfebf67ffb9778c6400823c1cd76af892160662f9e769c3d986c07237b62
+2026-11-26T07:41:10Z	https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list	www.federalregister.gov-259e301465.html	direct	200	9576cd0fecb209a7db56e90de7cacc3ffddc672e7941af0de48e76b8b288c226
+2026-11-26T07:41:13Z	https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2025/cds/251204_cds_open-source	www.schleswig-holstein.de-b145a9e2ea.html	direct	200	58326725b4c9aa6a7017fbb5b004bab912ad37dd5af8fa8f21dcdeddf6954fc9
+2026-11-26T07:41:19Z	https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm	www.sec.gov-89fc480c80.relay.md	relay	200	92372a07fa713a3657e9d24527ce0a5d1d16c5ab11fd3b708122d7877c43982d
+2026-11-26T07:41:46Z	https://www.smics.com/uploads/67f6423d/e00981.pdf	www.smics.com-799556e0da.pdf	direct	200	b184a848a948b236497cabddc4d3c8bf943abeeaeccd2bb4e8dd4a2785213eca
+2026-11-26T07:41:48Z	https://www.uciexpress.org/specifications	www.uciexpress.org-310248a686.html	direct	200	c7e36343b6f4a8457513fa0f58489ed96920803027a48c332e4c72a6ab3af65c

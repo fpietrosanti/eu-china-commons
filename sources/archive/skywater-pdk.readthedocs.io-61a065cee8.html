@@ -1,0 +1,2822 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
+
+    <style>
+      body,
+      input {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: "Roboto Mono", "Courier New", Courier, monospace
+      }
+    </style>
+  
+
+  <link rel="stylesheet" href="_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="_static/stylesheets/application-fixes.css"/>
+  <link rel="stylesheet" href="_static/stylesheets/symbiflow.css"/>
+  
+  <link rel="stylesheet" href="_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>Current Status – Experimental Preview &#8212; SkyWater SKY130 PDK  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=75810a84" />
+    <link rel="stylesheet" type="text/css" href="_static/material.css?v=79c92029" />
+    <link rel="stylesheet" type="text/css" href="_static/extra.css?v=3e03d0bf" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Known Issues" href="known_issues.html" />
+    <link rel="prev" title="Versioning Information" href="versioning.html" />
+  
+   
+
+  <script async type="text/javascript" src="/_/static/javascript/readthedocs-addons.js"></script><meta name="readthedocs-project-slug" content="skywater-pdk" /><meta name="readthedocs-version-slug" content="main" /><meta name="readthedocs-resolver-filename" content="/status.html" /><meta name="readthedocs-http-status" content="200" /></head>
+  <body dir=ltr
+        data-md-color-primary=light-green data-md-color-accent=teal>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#status" tabindex="1" class="md-skip"> Skip to content </a>
+  <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="index.html" title="SkyWater SKY130 PDK  documentation"
+           class="md-header-nav__button md-logo">
+          
+            &nbsp;
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <span class="md-header-nav__topic">SkyWater SKY130 PDK</span>
+          <span class="md-header-nav__topic"> Current Status – Experimental Preview </span>
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" action="search.html" method="GET" name="search">
+      <input type="text" class="md-search__input" name="q" placeholder="Search"
+              autocapitalize="off" autocomplete="off" spellcheck="false"
+              data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            <a href="https://github.com/fossi-foundation/skywater-pdk" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    fossi-foundation/skywater-pdk
+  </div>
+</a>
+          </div>
+        </div>
+      
+      
+  
+  <script src="_static/javascripts/version_dropdown.js"></script>
+  <script>
+    var json_loc = ""versions.json"",
+        target_loc = "../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+  </script>
+  
+
+    </div>
+  </nav>
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list" style="float:left">
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">SkyWater SKY130 PDK  documentation</a></li>
+      </ul>
+      <ul class="md-tabs__list" id="chipsalliance-header" style="float:right">
+        
+
+<li class="md-tabs__item"><a href="https://www.skywatertechnology.com/" class="md-tabs__link"><i class="md-icon">business</i> SkyWater</a></li>
+<li class="md-tabs__item"><a href="https://efabless.com/open_shuttle_program" class="md-tabs__link"><i class="md-icon">precision_manufacturing</i> Shuttle Program</a></li>
+<li class="md-tabs__item"><a href="https://join.skywater.tools/" class="md-tabs__link"><i class="md-icon">chat_bubble</i> Chat</a></li>
+<li class="md-tabs__item"><a href="https://groups.google.com/g/skywater-pdk-announce" class="md-tabs__link"><i class="md-icon">campaign</i>Announcements</a></li>
+<li class="md-tabs__item"><a href="https://groups.google.com/g/skywater-pdk-users" class="md-tabs__link"><i class="md-icon">mail</i> Mailing List</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="index.html" title="SkyWater SKY130 PDK documentation" class="md-nav__button md-logo">
+      
+        <img src="_static/" alt=" logo" width="48" height="48">
+      
+    </a>
+    <a href="index.html"
+       title="SkyWater SKY130 PDK documentation">SkyWater SKY130 PDK</a>
+  </label>
+    <div class="md-nav__source">
+      <a href="https://github.com/fossi-foundation/skywater-pdk" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    fossi-foundation/skywater-pdk
+  </div>
+</a>
+    </div>
+  
+  
+
+<ul class="md-nav__list">
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-0" type="checkbox" id="__toc-0-0">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-0"> Versioning Information
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="versioning.html#current-status" class="md-nav__link">
+        Current Status</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="versioning.html#version-number-format" class="md-nav__link">
+        Version Number Format</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="#" class="md-nav__link md-nav__link--active">
+        Current Status</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-2" type="checkbox" id="__toc-0-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-2"> Known Issues
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#documentation" class="md-nav__link">
+        Documentation</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-2-1" type="checkbox" id="__toc-0-2-1">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-2-1"> PDK Contents Issues
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-2-1-0" type="checkbox" id="__toc-0-2-1-0">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-2-1-0"> Tooling Compatibility
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#cadence-virtuoso-support" class="md-nav__link">
+        Cadence Virtuoso Support</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#mentor-calibre-support" class="md-nav__link">
+        Mentor Calibre Support</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-2-2" type="checkbox" id="__toc-0-2-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-2-2"> Specific Libraries
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-fd-pr-base" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">fd</span><span>_</span><span class="lib-type">pr</span><span>_</span><span class="lib-name">base</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-fd-pr-rf" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">fd</span><span>_</span><span class="lib-type">pr</span><span>_</span><span class="lib-name">rf</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-fd-pr-rf2" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">fd</span><span>_</span><span class="lib-type">pr</span><span>_</span><span class="lib-name">rf2</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-osu-sc-sky130-oklahoma-state-university-provided-standard-cell-library" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">osu</span><span>_</span><span class="lib-type">sc</span> - SKY130 Oklahoma State University provided standard cell library</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-fd-sp-flash-sky130-flash-build-space" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">fd</span><span>_</span><span class="lib-type">sp</span><span>_</span><span class="lib-name">flash</span> - SKY130 Flash Build Space</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-fd-sp-sram-sky130-sram-build-space" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">fd</span><span>_</span><span class="lib-type">sp</span><span>_</span><span class="lib-name">sram</span> - SKY130 SRAM Build Space</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-fd-io-sky130-foundry-provided-io-cells" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">fd</span><span>_</span><span class="lib-type">io</span> - SKY130 Foundry Provided IO Cells</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#sky130-ef-io-sky130-efabless-provided-io-cells" class="md-nav__link">
+        <span class="lib-process">sky130</span><span>_</span><span class="lib-src">ef</span><span>_</span><span class="lib-type">io</span> - SKY130 eFabless Provided IO Cells</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-2-3" type="checkbox" id="__toc-0-2-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-2-3"> Design Rule Checking
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#using-mentor-calibre" class="md-nav__link">
+        Using Mentor Calibre</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#using-magic" class="md-nav__link">
+        Using Magic</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="known_issues.html#scripts-and-pdk-tooling" class="md-nav__link">
+        Scripts and PDK Tooling</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3" type="checkbox" id="__toc-0-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3"> Design Rules
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/background.html" class="md-nav__link">
+        Background</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/masks.html" class="md-nav__link">
+        Masks</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-2" type="checkbox" id="__toc-0-3-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-2"> Criteria & Assumptions
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#process-stack-diagram" class="md-nav__link">
+        Process Stack Diagram</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#general" class="md-nav__link">
+        General</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#minimum-critical-dimensions" class="md-nav__link">
+        Minimum Critical Dimensions</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-2-3" type="checkbox" id="__toc-0-3-2-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-2-3"> Semiconductor Criteria
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#basic-parameters" class="md-nav__link">
+        Basic Parameters</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#junction-depths" class="md-nav__link">
+        Junction Depths</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#other-width-criteria" class="md-nav__link">
+        Other Width Criteria</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#punchthrough-criteria" class="md-nav__link">
+        Punchthrough Criteria</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#latch-up-esd-criteria" class="md-nav__link">
+        Latch-up/ESD Criteria</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#implant-angles" class="md-nav__link">
+        Implant angles</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#physical-criteria" class="md-nav__link">
+        Physical Criteria</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#laser-fuse-criteria" class="md-nav__link">
+        Laser Fuse Criteria</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#other-criteria-and-parameters" class="md-nav__link">
+        Other criteria and parameters</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#criteria-for-high-voltage-fet" class="md-nav__link">
+        Criteria for High Voltage FET</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#criteria-for-polyimide-manufacturability" class="md-nav__link">
+        Criteria for polyimide manufacturability</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/assumptions.html#criteria-for-vpp-capacitor" class="md-nav__link">
+        Criteria for VPP capacitor</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-3" type="checkbox" id="__toc-0-3-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-3"> Layers Reference
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/layers.html#layers-definitions" class="md-nav__link">
+        Layers Definitions</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/layers.html#auxiliary-layers" class="md-nav__link">
+        Auxiliary Layers</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/layers.html#devices-and-layout-vs-schematic-lvs-information" class="md-nav__link">
+        Devices and Layout vs Schematic (LVS) Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/layers.html#gds-layers-information" class="md-nav__link">
+        GDS Layers Information</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/layers.html#device-and-layout-vs-schematic" class="md-nav__link">
+        Device and Layout vs. Schematic</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/summary.html" class="md-nav__link">
+        Summary of Key Periphery Rules</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-6" type="checkbox" id="__toc-0-3-6">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-6"> Periphery Rules
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#x" class="md-nav__link">
+        <span class="drc-rule">(x.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#dnwell" class="md-nav__link">
+        <span class="drc-rule">(dnwell.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#nwell" class="md-nav__link">
+        <span class="drc-rule">(nwell.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#pwbm" class="md-nav__link">
+        <span class="drc-rule">(pwbm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#pwdem" class="md-nav__link">
+        <span class="drc-rule">(pwdem.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hvtp" class="md-nav__link">
+        <span class="drc-rule">(hvtp.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hvtr" class="md-nav__link">
+        <span class="drc-rule">(hvtr.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#lvtn" class="md-nav__link">
+        <span class="drc-rule">(lvtn.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#ncm" class="md-nav__link">
+        <span class="drc-rule">(ncm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#difftap" class="md-nav__link">
+        <span class="drc-rule">(difftap.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#tunm" class="md-nav__link">
+        <span class="drc-rule">(tunm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#poly" class="md-nav__link">
+        <span class="drc-rule">(poly.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#rpm" class="md-nav__link">
+        <span class="drc-rule">(rpm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#varac" class="md-nav__link">
+        <span class="drc-rule">(varac.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#photo" class="md-nav__link">
+        <span class="drc-rule">(photo.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#npc" class="md-nav__link">
+        <span class="drc-rule">(npc.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#n-psd" class="md-nav__link">
+        <span class="drc-rule">(n/ psd.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#licon" class="md-nav__link">
+        <span class="drc-rule">(licon.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#li" class="md-nav__link">
+        <span class="drc-rule">(li.-.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#ct" class="md-nav__link">
+        <span class="drc-rule">(ct.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#capm" class="md-nav__link">
+        <span class="drc-rule">(capm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#vpp" class="md-nav__link">
+        <span class="drc-rule">(vpp.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#m1" class="md-nav__link">
+        <span class="drc-rule">(m1.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#via" class="md-nav__link">
+        <span class="drc-rule">(via.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#m2" class="md-nav__link">
+        <span class="drc-rule">(m2.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#via2" class="md-nav__link">
+        <span class="drc-rule">(via2.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#m3" class="md-nav__link">
+        <span class="drc-rule">(m3.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#via3" class="md-nav__link">
+        <span class="drc-rule">(via3.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#nsm" class="md-nav__link">
+        <span class="drc-rule">(nsm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#indm" class="md-nav__link">
+        <span class="drc-rule">(indm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#m4" class="md-nav__link">
+        <span class="drc-rule">(m4.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#via4" class="md-nav__link">
+        <span class="drc-rule">(via4.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#m5" class="md-nav__link">
+        <span class="drc-rule">(m5.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#pad" class="md-nav__link">
+        <span class="drc-rule">(pad.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#rdl" class="md-nav__link">
+        <span class="drc-rule">(rdl.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#mf" class="md-nav__link">
+        <span class="drc-rule">(mf.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hvi" class="md-nav__link">
+        <span class="drc-rule">(hvi.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hvnwell" class="md-nav__link">
+        <span class="drc-rule">(hvnwell.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hvdifftap" class="md-nav__link">
+        <span class="drc-rule">(hvdifftap.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hvpoly" class="md-nav__link">
+        <span class="drc-rule">(hvpoly.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hvntm" class="md-nav__link">
+        <span class="drc-rule">(hvntm.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#denmos" class="md-nav__link">
+        <span class="drc-rule">(denmos.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#depmos" class="md-nav__link">
+        <span class="drc-rule">(depmos.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#extd" class="md-nav__link">
+        <span class="drc-rule">(extd.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#hv" class="md-nav__link">
+        <span class="drc-rule">(hv.-.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#vhvi" class="md-nav__link">
+        <span class="drc-rule">(vhvi.-.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#uhvi" class="md-nav__link">
+        <span class="drc-rule">(uhvi.-.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#ulvt" class="md-nav__link">
+        <span class="drc-rule">(ulvt-.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#pwres" class="md-nav__link">
+        <span class="drc-rule">(pwres.-.-)</span></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/periphery.html#rfdiode" class="md-nav__link">
+        <span class="drc-rule">(rfdiode.-.-)</span></a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/wlcsp.html" class="md-nav__link">
+        WLCSP Rules</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-8" type="checkbox" id="__toc-0-3-8">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-8"> High Voltage Methodology
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/hv.html#failure-mechanisms-in-high-voltage-devices" class="md-nav__link">
+        Failure Mechanisms in High Voltage Devices</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/hv.html#high-voltage-implementation-methodology" class="md-nav__link">
+        High Voltage Implementation Methodology</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-9" type="checkbox" id="__toc-0-3-9">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-9"> Very High Voltage Methodology
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/hv.html#failure-mechanisms-in-vhv-devices" class="md-nav__link">
+        Failure Mechanisms in VHV Devices</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/hv.html#vhv-implementation-methodology" class="md-nav__link">
+        VHV Implementation Methodology</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-10" type="checkbox" id="__toc-0-3-10">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-10"> Antenna Rules
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/antenna.html#definitions" class="md-nav__link">
+        Definitions</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/antenna.html#tables" class="md-nav__link">
+        Tables</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-11" type="checkbox" id="__toc-0-3-11">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-11"> Parasitic Layout Extraction
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/rcx.html#resistance-rules" class="md-nav__link">
+        Resistance Rules</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/rcx.html#resistance-values" class="md-nav__link">
+        Resistance Values</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/rcx.html#capacitance-rules" class="md-nav__link">
+        Capacitance Rules</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-11-3" type="checkbox" id="__toc-0-3-11-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-11-3"> Capacitance Values
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/rcx.html#basic-capacitance-fringe-downward" class="md-nav__link">
+        Basic Capacitance - Fringe Downward</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/rcx.html#basic-capacitance-fringe-upward" class="md-nav__link">
+        Basic Capacitance - Fringe Upward</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/rcx.html#basic-capacitance-parallel" class="md-nav__link">
+        Basic Capacitance - Parallel</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/rcx.html#discrepencies" class="md-nav__link">
+        Discrepencies</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12" type="checkbox" id="__toc-0-3-12">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12"> Device Details
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-0" type="checkbox" id="__toc-0-3-12-0">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-0"> 1.8V NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#spice-model-information" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#details" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-1" type="checkbox" id="__toc-0-3-12-1">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-1"> 1.8V low-VT NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id1" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id2" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-2" type="checkbox" id="__toc-0-3-12-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-2"> 1.8V PMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id3" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id4" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-3" type="checkbox" id="__toc-0-3-12-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-3"> 1.8V low-VT PMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id5" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id6" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-4" type="checkbox" id="__toc-0-3-12-4">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-4"> 1.8V high-VT PMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id7" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id8" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-5" type="checkbox" id="__toc-0-3-12-5">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-5"> 1.8V accumulation-mode MOS varactors
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id9" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id12" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-6" type="checkbox" id="__toc-0-3-12-6">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-6"> 3.0V native NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id13" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id14" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-7" type="checkbox" id="__toc-0-3-12-7">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-7"> 5.0V native NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id16" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id17" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-8" type="checkbox" id="__toc-0-3-12-8">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-8"> 5.0V/10.5V NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id18" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id19" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-9" type="checkbox" id="__toc-0-3-12-9">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-9"> 5.0V/10.5V PMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id20" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id21" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-10" type="checkbox" id="__toc-0-3-12-10">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-10"> 10V/16V PMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id22" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id23" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-11" type="checkbox" id="__toc-0-3-12-11">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-11"> 11V/16V NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id24" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id25" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-12" type="checkbox" id="__toc-0-3-12-12">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-12"> 20V NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id27" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id28" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-13" type="checkbox" id="__toc-0-3-12-13">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-13"> 20V native NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id30" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id31" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-14" type="checkbox" id="__toc-0-3-12-14">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-14"> 20V zero-VT NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id32" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id33" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-15" type="checkbox" id="__toc-0-3-12-15">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-15"> 20V isolated NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id34" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id35" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-16" type="checkbox" id="__toc-0-3-12-16">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-16"> 20V PMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id37" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id38" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-17" type="checkbox" id="__toc-0-3-12-17">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-17"> ESD NMOS FET
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id39" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id40" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-18" type="checkbox" id="__toc-0-3-12-18">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-18"> Diodes
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id41" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id74" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-19" type="checkbox" id="__toc-0-3-12-19">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-19"> Bipolar NPN transistor
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id75" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id76" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-20" type="checkbox" id="__toc-0-3-12-20">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-20"> Bipolar PNP transistor
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id77" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id78" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-21" type="checkbox" id="__toc-0-3-12-21">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-21"> SRAM cells
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id79" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id80" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id81" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id82" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#sonos-cells" class="md-nav__link">
+        SONOS cells</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#generic-resistors" class="md-nav__link">
+        Generic resistors</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-24" type="checkbox" id="__toc-0-3-12-24">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-24"> P+ poly precision resistors
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id83" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id86" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-25" type="checkbox" id="__toc-0-3-12-25">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-25"> P- poly precision resistors
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id92" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id95" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-26" type="checkbox" id="__toc-0-3-12-26">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-26"> MiM capacitors
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id96" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id97" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-3-12-27" type="checkbox" id="__toc-0-3-12-27">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-3-12-27"> Vertical Parallel Plate (VPP) capacitors
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id98" class="md-nav__link">
+        Spice Model Information</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/device-details.html#id99" class="md-nav__link">
+        Details</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="rules/errors.html" class="md-nav__link">
+        Error Messages</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-4" type="checkbox" id="__toc-0-4">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-4"> PDK Contents
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-4-0" type="checkbox" id="__toc-0-4-0">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-4-0"> Libraries
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#library-naming" class="md-nav__link">
+        Library Naming</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#creating-new-libraries" class="md-nav__link">
+        Creating New Libraries</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-4-0-2" type="checkbox" id="__toc-0-4-0-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-4-0-2"> <span class="lib-type">Primitive</span> Libraries
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#foundry-provided" class="md-nav__link">
+        <span class="lib-src">Foundry</span> provided</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-4-0-3" type="checkbox" id="__toc-0-4-0-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-4-0-3"> <span class="lib-type">Digital Standard Cell</span> Libraries
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#foundry-provided-digital-standard-cell-libraries" class="md-nav__link">
+        <span class="lib-src">Foundry</span> provided <span class="lib-type">Digital Standard Cell</span> Libraries</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#third-party-provided-digital-standard-cell-libraries" class="md-nav__link">
+        <span class="lib-src">Third party</span> provided <span class="lib-type">Digital Standard Cell</span> Libraries</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-4-0-4" type="checkbox" id="__toc-0-4-0-4">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-4-0-4"> <span class="lib-type">Build Space</span> Libraries
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#foundry-provided-build-space-libraries" class="md-nav__link">
+        <span class="lib-src">Foundry</span> provided <span class="lib-type">Build Space</span> Libraries</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-4-0-5" type="checkbox" id="__toc-0-4-0-5">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-4-0-5"> <span class="lib-type">IO and Periphery</span> Libraries
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#foundry-provided-io-and-periphery-libraries" class="md-nav__link">
+        <span class="lib-src">Foundry</span> provided <span class="lib-type">IO and Periphery</span> Libraries</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="contents/libraries.html#third-party-provided-io-and-periphery-libraries" class="md-nav__link">
+        <span class="lib-src">Third party</span> provided <span class="lib-type">IO and Periphery</span> Libraries</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="contents/file_types.html" class="md-nav__link">
+        File Types</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-5" type="checkbox" id="__toc-0-5">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-5"> Analog Design
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="analog/virtuoso.html" class="md-nav__link">
+        With Cadence Virtuoso</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="analog/magic.html" class="md-nav__link">
+        With MAGIC</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="analog/klayout.html" class="md-nav__link">
+        With Klayout</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="analog/bag.html" class="md-nav__link">
+        With Berkeley Analog Generator (BAG)</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="analog/fasoc.html" class="md-nav__link">
+        With FASoC</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="analog/new.html" class="md-nav__link">
+        With your design flow?</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-6" type="checkbox" id="__toc-0-6">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-6"> Digital Design
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="digital/innovus.html" class="md-nav__link">
+        With Cadence Innovus</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="digital/openroad.html" class="md-nav__link">
+        With OpenROAD</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="digital/new.html" class="md-nav__link">
+        With your design flow?</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-7" type="checkbox" id="__toc-0-7">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-7"> Simulation
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="sim/spectre.html" class="md-nav__link">
+        With Cadence Spectre</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="sim/ngspice.html" class="md-nav__link">
+        With ngspice</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="analog/new.html" class="md-nav__link">
+        With your design flow?</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-8" type="checkbox" id="__toc-0-8">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-8"> Physical & Design Verification
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-8-0" type="checkbox" id="__toc-0-8-0">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-8-0"> Automated Design Rule (DRC) Checking
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="verification/drc/calibre.html" class="md-nav__link">
+        With Mentor Calibre</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification/drc/magic.html" class="md-nav__link">
+        With Magic</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification/drc/klayout.html" class="md-nav__link">
+        With KLayout</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-8-1" type="checkbox" id="__toc-0-8-1">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-8-1"> Layout Versus Schematic (LVS) Checking
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="verification/lvs/calibre.html" class="md-nav__link">
+        With Mentor Calibre</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification/lvs/magic.html" class="md-nav__link">
+        With Magic</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification/lvs/klayout.html" class="md-nav__link">
+        With KLayout</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-8-2" type="checkbox" id="__toc-0-8-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-8-2"> Parasitic Extraction (PEX)
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="verification/pex/calibre.html" class="md-nav__link">
+        With Mentor Calibre</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification/pex/magic.html" class="md-nav__link">
+        With Magic</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification/pex/klayout.html" class="md-nav__link">
+        With KLayout</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification.html#todo-calibre-decks" class="md-nav__link">
+        TODO: Calibre Decks</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="verification.html#todo-magic-decks" class="md-nav__link">
+        TODO: MAGIC Decks</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-9" type="checkbox" id="__toc-0-9">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-9"> Python API
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-9-0" type="checkbox" id="__toc-0-9-0">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-9-0"> skywater_pdk package
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#submodules" class="md-nav__link">
+        Submodules</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-9-0-1" type="checkbox" id="__toc-0-9-0-1">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-9-0-1"> skywater_pdk.base module
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.Cell" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">Cell</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.Library" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">Library</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.LibraryNode" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">LibraryNode</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.LibrarySource" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">LibrarySource</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.LibraryType" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">LibraryType</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.LibraryVersion" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">LibraryVersion</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.parse_filename" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">parse_filename()</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.base.parse_pathname" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">parse_pathname()</span></code></a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-9-0-2" type="checkbox" id="__toc-0-9-0-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-9-0-2"> skywater_pdk.corners module
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.corners.Corner" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">Corner</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.corners.CornerFlag" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">CornerFlag</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.corners.CornerType" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">CornerType</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.corners.OptionalTuple" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">OptionalTuple</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.corners.parse_filename" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">parse_filename()</span></code></a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-9-0-3" type="checkbox" id="__toc-0-9-0-3">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-9-0-3"> skywater_pdk.sizes module
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.sizes.CellSize" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">CellSize</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.sizes.CellSizeLowPower" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">CellSizeLowPower</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.sizes.CellSizeMinimum" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">CellSizeMinimum</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.sizes.CellSizeNumeric" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">CellSizeNumeric</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.sizes.InvalidSuffixError" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">InvalidSuffixError</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.sizes.parse_size" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">parse_size()</span></code></a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-9-0-4" type="checkbox" id="__toc-0-9-0-4">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-9-0-4"> skywater_pdk.utils module
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.utils.OrderedFlag" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">OrderedFlag</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.utils.comparable_to_none" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">comparable_to_none()</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.utils.dataclass_json_passthru_config" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">dataclass_json_passthru_config()</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.utils.dataclass_json_passthru_sequence_config" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">dataclass_json_passthru_sequence_config()</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.utils.extract_numbers" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">extract_numbers()</span></code></a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#skywater_pdk.utils.sortable_extracted_numbers" class="md-nav__link">
+        <code class="docutils literal notranslate"><span class="pre">sortable_extracted_numbers()</span></code></a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="python-api/skywater_pdk.html#module-skywater_pdk" class="md-nav__link">
+        Module contents</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="previous.html" class="md-nav__link">
+        Previous Nomenclature</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="glossary.html" class="md-nav__link">
+        Glossary</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-12" type="checkbox" id="__toc-0-12">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-12"> How to Contribute
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="contributing.html#contributor-license-agreement" class="md-nav__link">
+        Contributor License Agreement</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="contributing.html#code-reviews" class="md-nav__link">
+        Code reviews</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-12-2" type="checkbox" id="__toc-0-12-2">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-12-2"> Community Guidelines
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="contributing.html#resolve-peacefully" class="md-nav__link">
+        Resolve peacefully</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="contributing.html#reporting-problems" class="md-nav__link">
+        Reporting problems</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  <input class="md-toggle md-nav__toggle" data-md-toggle="toc-0-13" type="checkbox" id="__toc-0-13">
+      <label class="md-nav__link md-nav__link--nested" for="__toc-0-13"> Partners
+        <span class="md-nav__icon"><span class="md-icon"></span></span></label><nav class="md-nav">
+          <ul class="md-nav__list">
+  <li class="md-nav__item">
+  
+      <a href="partners.html#open-source-skywater-pdk" class="md-nav__link">
+        Open Source SkyWater PDK</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="partners.html#open-source-mpw-shuttle-program" class="md-nav__link">
+        Open Source MPW Shuttle Program</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="partners.html#industry-partners" class="md-nav__link">
+        Industry partners</a>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="partners.html#academic-partners" class="md-nav__link">
+        Academic partners</a>
+    
+
+  
+  </li></ul>
+        </nav>
+    
+
+  
+  </li>
+  <li class="md-nav__item">
+  
+      <a href="references.html" class="md-nav__link">
+        References</a>
+    
+
+  
+  </li>
+</ul>
+
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+<li class="md-nav__item"><a class="md-nav__extra_link" href="_sources/status.rst.txt">Show Source</a> </li>
+
+<li id="searchbox" class="md-nav__item"></li>
+
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  <section id="current-status-current-status">
+<h1 id="status--page-root">Current Status – <strong>Experimental Preview</strong><a class="headerlink" href="#status--page-root" title="Link to this heading">¶</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Google and SkyWater are currently treating the current content as an <strong>experimental preview</strong> / <strong>alpha release</strong>.</p>
+</div>
+<p>While the SKY130 process node and the PDK from which this open source release was derived have been used to create many designs that have been successfully manufactured commercially in significant quantities, the open source PDK is not intended to be used for production settings at this current time. It <em>should</em> be usable for doing test chips and initial design verification (but this is not guaranteed).</p>
+<p>Google, SkyWater and our partners are currently doing internal validation and test designs, including silicon validation or the released data and plan to publish these results.</p>
+<p>The PDK will be tagged with a production version when ready to do production design, see the “<a class="reference internal" href="versioning.html#versioning-information"><span class="std std-ref">Versioning Information</span></a>” section for a full description of the version numbering scheme.</p>
+<p>To get notified about future new releases of the PDK, and other important news, please sign up on the
+<a class="reference external" href="https://groups.google.com/forum/#!forum/skywater-pdk-announce">skywater-pdk-announce mailing list</a>
+[<a class="reference external" href="https://groups.google.com/forum/#!forum/skywater-pdk-announce/join">join link</a>].</p>
+</section>
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="versioning.html" title="Versioning Information"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Versioning Information </span>
+              </div>
+            </a>
+          
+          
+            <a href="known_issues.html" title="Known Issues"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> Known Issues </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-social">
+          
+            <div class="md-footer-social__link">
+              <a href="https://github.com/fossi-foundation/skywater-pdk" target="_blank">GitHub</a>
+            </div>
+            <div class="md-footer-social__link">
+              <!-- <a href="https://github.com/SymbiFlow/sphinx_symbiflow_theme/blob/master/LICENSE" target="_blank"><img alt="License Badge" src="https://img.shields.io/github/license/SymbiFlow/symbiflow-arch-defs"/></a> -->
+              <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">License</a>
+            </div>
+        </div>
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2020, SkyWater PDK Authors.
+              
+          </div>
+            Created using
+            <a href="http://www.sphinx-doc.org/">Sphinx</a> 9.0.4.
+             and
+            <a href="https://github.com/SymbiFlow/sphinx_symbiflow_theme">Material for
+              Sphinx</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="_static/javascripts/application.js"></script>
+  <script src="_static/javascripts/symbiflow.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>
