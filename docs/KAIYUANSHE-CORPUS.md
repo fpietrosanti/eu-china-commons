@@ -60,8 +60,8 @@ The inventory, with HEAD commit, licence, branches and live URL, is in [`data/ex
 | Open gap (file) | How the corpus closes it |
 |---|---|
 | COSR25 figures read at level C via secondary reports ([CN-OSS-LANDSCAPE.md](CN-OSS-LANDSCAPE.md) §"Read the KAIYUANSHE 2024 and 2025 reports directly") | The original text in ZH and EN is now archived: re-read the tables and raise them to B, or to A where we recompute them from OpenDigger. |
-| KAIYUANSHE FY2022–FY2025 annual reports not fetched ([CN-FOUNDATIONS.md](CN-FOUNDATIONS.md) §2) | 2020 and 2021 annual reports are in the archive (PDF). 2022–2025 are **not** among the published sites; next step 18.4. |
-| COSCon 2016–2017 themes only at level D ([COSCON-THEMES.md](COSCON-THEMES.md)) | The COSCON2016 site repo (official 2016 page) is archived; check the slogan (18.5). |
+| KAIYUANSHE FY2022–FY2025 annual reports not fetched ([CN-FOUNDATIONS.md](CN-FOUNDATIONS.md) §2) | 2020 and 2021 annual reports are in the archive (PDF). In the public wiki repo `kaiyuanshe/memory-fragments` (mirrored 26 Nov), the 2022 report is a stub and the 2023 report is an unfinished draft whose **financial statement section is empty**. FY2022–25 finances are therefore still unpublished (negative result, 18.4). |
+| COSCon 2016–2017 themes only at level D ([COSCON-THEMES.md](COSCON-THEMES.md)) | ✔ 2016 settled at level A from the official site (18.5). |
 | No time series of China's share of global open-source activity | OpenShare's Open World and the "China" scope of the leaderboard give yearly and monthly series since 2015, with a public metric (OpenRank). |
 | The 504-project list in the external report lacks AtomGit/Gitee activity | The leaderboard's repo and project entries cover Gitee and AtomGit via OpenDigger where available. Cross-match (18.3). |
 
@@ -75,6 +75,16 @@ The inventory, with HEAD commit, licence, branches and live URL, is in [`data/ex
 
 KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) row `x-kaiyuanshe`, [DIRECTORY-CN.md](DIRECTORY-CN.md) `cm-kaiyuanshe`. The yearly "State of Europe–China Digital Commons" in [OPERATIONS.md](OPERATIONS.md) is planned to be released alongside their report. Building the reading below as an open, citable index of their work is also a concrete basis for contacting them.
 
+**Their international liaison group (国际接轨组) is the natural counterpart.** Source: public wiki, `kaiyuanshe/memory-fragments`, `Wiki/执行委员会/国际接轨组/`, level A for their own plans.
+- **Remit.** Its 2024–25 and 2025–26 work plans give it the job of connecting Chinese and global open-source communities. This means:
+  - multilingual content, including the English edition of the annual report;
+  - presence at international conferences;
+  - helping Chinese projects go abroad (openKylin is named).
+- **European events in 2025.** Members attended FOSDEM (Brussels, Feb 2025) and OpenUK's State of Open Con (London, Feb 2025).
+- **Advisory council.** It discussed "sovereign AI" after an LF AI & Data webinar (Apr 2025) and planned to publish its views.
+- **For engagement.** The group meets every two weeks and already targets FOSDEM-type venues. A joint session or a bilingual interview series at FOSDEM 2027 or COSCon'26 fits both their plan and our mission. Contact through the group, not through individuals; the wiki names volunteers and we do not reproduce their names.
+- The wiki also holds council minutes (`kaiyuanshe/RFC`, mirrored), useful for governance (CN-FOUNDATIONS §2).
+
 ## 5. Research roadmap (R18)
 
 | # | Task | Output |
@@ -82,8 +92,8 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 | 18.1 | Read the EN data chapters 2023–2025 and extract every quantitative claim about China vs the world (developers, OpenRank, top projects, foundations). | `data/external/kaiyuanshe/cosr-claims.tsv` with chapter, claim and level |
 | 18.2 | Recompute the headline figures from the OpenShare files: China's share of developers, contribution and influence; top Chinese projects and initiators per year; Operating System and Cloud Native scopes. | Table in CN-OSS-LANDSCAPE, level A for the figures |
 | 18.3 | Cross-match the leaderboard's "China" scope (project and repo, 2025) with the external report's 504 projects and with our catalogue. | List of projects missing from each |
-| 18.4 | Find the KAIYUANSHE FY2022–2025 annual reports (kaiyuanshe.cn, WeChat) and archive them. | Update CN-FOUNDATIONS §2 |
-| 18.5 | COSCon 2016 slogan from the archived COSCON2016 site. | Update COSCON-THEMES row 1 |
+| 18.4 | ◐ KAIYUANSHE FY2022–2025 annual reports: wiki has a 2022 stub and an unfinished 2023 draft with empty finances (26 Nov). kaiyuanshe.cn times out from the server and returns 403 via the residential IP; try the shared Chrome or ask them. | Update CN-FOUNDATIONS §2 |
+| 18.5 | ✔ COSCon 2016 slogan from the archived COSCON2016 site: "天下开源是一家、社区携手迸火花" (A), 26 Nov. | Done: COSCON-THEMES row 1 |
 | 18.6 | Read the AI Blue Book 2026 (EN) for policy, funding and international-cooperation passages. | Note plus claims TSV |
 | 18.7 | Read the commercialisation and questionnaire chapters for funding models of Chinese open-source companies, to compare with PROJECT-FUNDING. | Rows in project-funding where applicable |
 | 18.9 | Ask KAIYUANSHE/X-lab for the inclusion criteria of the "China" scope and for the country-attribution method behind "influence". | Note in §6 |
@@ -121,6 +131,7 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 - OpenShare's "China" scope is KAIYUANSHE/X-lab's list (282 projects, 136 initiators). Inclusion criteria are not published; ask (18.9).
 
 ## Changelog
+- 26 Nov 2026: 18.5 done (COSCon 2016 slogan, A); 18.4 negative result (finances unpublished); KAIYUANSHE wiki (memory-fragments) and RFC repos mirrored; international liaison group described in §4.
 - 26 Nov 2026: 18.2 and 18.3 first pass (§6): EU27/China/US shares, China in the global top 300 (2015–2025), foundations, cross-match with the external report.
 - 25 Nov 2026: OpenShare/OpenDigger dump complete. 3,409 files (181 MB) with SHA-256 in [`data/external/kaiyuanshe/openshare-manifest.tsv`](../data/external/kaiyuanshe/openshare-manifest.tsv): 3,384 leaderboard files (9 scopes × 4 group types, years 2015–2026, months 2020-01–2026-10) plus overview and geo files. The 36 404s are month 2026-11, not yet published.
 - 25 Nov 2026: corpus archived (24 repositories, live site, OpenShare/OpenDigger JSON); inventory and roadmap written.

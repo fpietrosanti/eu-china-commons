@@ -41,7 +41,7 @@ Research note, 2026-11-03. Evidence levels per METHODOLOGY.md §4. Self-reported
 
   The report itself flags missing reimbursement rules; budgeting was planned for 2022.
 - **Priorities.** COSCon, the 中国开源年度报告 (published since 2015), open-source education, open-source risk governance, international links (ASF, Near). See COSCON-THEMES.md.
-- **Gap.** We have not yet fetched the FY2022–FY2025 annual reports. They are probably at kaiyuanshe.github.io/document/kys-report-20XX/.
+- **Gap (updated 26 Nov 2026, R18.4).** Annual reports 2020 and 2021 exist as PDFs (kaiyuanshe.github.io repo, branch `hexo`, `document/kys-report-2020`, `kys-report-2021`; archived). For FY2022–FY2025 there is no published report: the public wiki (`kaiyuanshe/memory-fragments`) has only a 2022 stub and an unfinished 2023 draft with an empty financial section. See [KAIYUANSHE-CORPUS.md](KAIYUANSHE-CORPUS.md).
 
 ## 3. COPU (中国开源软件推进联盟, China OSS Promotion Union)
 - **Governance.** An industry alliance chaired by **Lu Shouqun (陆首群)**, who runs regular meetings (例会). Vice-chair Liu Peng (刘澎). Members: companies, universities and institutes. Sources: https://cosspu.org.cn/osinfo/shownews.php?id=277 (A, minutes 2025-07-08); http://copu-oss.org.cn/download/ (A).

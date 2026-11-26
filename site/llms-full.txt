@@ -274,8 +274,8 @@ The inventory, with HEAD commit, licence, branches and live URL, is in [`data/ex
 | Open gap (file) | How the corpus closes it |
 |---|---|
 | COSR25 figures read at level C via secondary reports ([CN-OSS-LANDSCAPE.md](CN-OSS-LANDSCAPE.md) §"Read the KAIYUANSHE 2024 and 2025 reports directly") | The original text in ZH and EN is now archived: re-read the tables and raise them to B, or to A where we recompute them from OpenDigger. |
-| KAIYUANSHE FY2022–FY2025 annual reports not fetched ([CN-FOUNDATIONS.md](CN-FOUNDATIONS.md) §2) | 2020 and 2021 annual reports are in the archive (PDF). 2022–2025 are **not** among the published sites; next step 18.4. |
-| COSCon 2016–2017 themes only at level D ([COSCON-THEMES.md](COSCON-THEMES.md)) | The COSCON2016 site repo (official 2016 page) is archived; check the slogan (18.5). |
+| KAIYUANSHE FY2022–FY2025 annual reports not fetched ([CN-FOUNDATIONS.md](CN-FOUNDATIONS.md) §2) | 2020 and 2021 annual reports are in the archive (PDF). In the public wiki repo `kaiyuanshe/memory-fragments` (mirrored 26 Nov), the 2022 report is a stub and the 2023 report is an unfinished draft whose **financial statement section is empty**. FY2022–25 finances are therefore still unpublished (negative result, 18.4). |
+| COSCon 2016–2017 themes only at level D ([COSCON-THEMES.md](COSCON-THEMES.md)) | ✔ 2016 settled at level A from the official site (18.5). |
 | No time series of China's share of global open-source activity | OpenShare's Open World and the "China" scope of the leaderboard give yearly and monthly series since 2015, with a public metric (OpenRank). |
 | The 504-project list in the external report lacks AtomGit/Gitee activity | The leaderboard's repo and project entries cover Gitee and AtomGit via OpenDigger where available. Cross-match (18.3). |
 
@@ -289,6 +289,16 @@ The inventory, with HEAD commit, licence, branches and live URL, is in [`data/ex
 
 KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) row `x-kaiyuanshe`, [DIRECTORY-CN.md](DIRECTORY-CN.md) `cm-kaiyuanshe`. The yearly "State of Europe–China Digital Commons" in [OPERATIONS.md](OPERATIONS.md) is planned to be released alongside their report. Building the reading below as an open, citable index of their work is also a concrete basis for contacting them.
 
+**Their international liaison group (国际接轨组) is the natural counterpart.** Source: public wiki, `kaiyuanshe/memory-fragments`, `Wiki/执行委员会/国际接轨组/`, level A for their own plans.
+- **Remit.** Its 2024–25 and 2025–26 work plans give it the job of connecting Chinese and global open-source communities. This means:
+  - multilingual content, including the English edition of the annual report;
+  - presence at international conferences;
+  - helping Chinese projects go abroad (openKylin is named).
+- **European events in 2025.** Members attended FOSDEM (Brussels, Feb 2025) and OpenUK's State of Open Con (London, Feb 2025).
+- **Advisory council.** It discussed "sovereign AI" after an LF AI & Data webinar (Apr 2025) and planned to publish its views.
+- **For engagement.** The group meets every two weeks and already targets FOSDEM-type venues. A joint session or a bilingual interview series at FOSDEM 2027 or COSCon'26 fits both their plan and our mission. Contact through the group, not through individuals; the wiki names volunteers and we do not reproduce their names.
+- The wiki also holds council minutes (`kaiyuanshe/RFC`, mirrored), useful for governance (CN-FOUNDATIONS §2).
+
 ## 5. Research roadmap (R18)
 
 | # | Task | Output |
@@ -296,13 +306,48 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 | 18.1 | Read the EN data chapters 2023–2025 and extract every quantitative claim about China vs the world (developers, OpenRank, top projects, foundations). | `data/external/kaiyuanshe/cosr-claims.tsv` with chapter, claim and level |
 | 18.2 | Recompute the headline figures from the OpenShare files: China's share of developers, contribution and influence; top Chinese projects and initiators per year; Operating System and Cloud Native scopes. | Table in CN-OSS-LANDSCAPE, level A for the figures |
 | 18.3 | Cross-match the leaderboard's "China" scope (project and repo, 2025) with the external report's 504 projects and with our catalogue. | List of projects missing from each |
-| 18.4 | Find the KAIYUANSHE FY2022–2025 annual reports (kaiyuanshe.cn, WeChat) and archive them. | Update CN-FOUNDATIONS §2 |
-| 18.5 | COSCon 2016 slogan from the archived COSCON2016 site. | Update COSCON-THEMES row 1 |
+| 18.4 | ◐ KAIYUANSHE FY2022–2025 annual reports: wiki has a 2022 stub and an unfinished 2023 draft with empty finances (26 Nov). kaiyuanshe.cn times out from the server and returns 403 via the residential IP; try the shared Chrome or ask them. | Update CN-FOUNDATIONS §2 |
+| 18.5 | ✔ COSCon 2016 slogan from the archived COSCON2016 site: "天下开源是一家、社区携手迸火花" (A), 26 Nov. | Done: COSCON-THEMES row 1 |
 | 18.6 | Read the AI Blue Book 2026 (EN) for policy, funding and international-cooperation passages. | Note plus claims TSV |
 | 18.7 | Read the commercialisation and questionnaire chapters for funding models of Chinese open-source companies, to compare with PROJECT-FUNDING. | Rows in project-funding where applicable |
+| 18.9 | Ask KAIYUANSHE/X-lab for the inclusion criteria of the "China" scope and for the country-attribution method behind "influence". | Note in §6 |
 | 18.8 | Refresh the mirror quarterly (`git remote update` in each mirror, re-run `tools/openshare_dump.py`). | Manifest diff |
 
+## 6. Findings from the OpenDigger data (18.2–18.3, first pass, 26 Nov 2026)
+
+*Figures recomputed by us from the archived OpenShare/OpenDigger files ([`tools/kys_opendigger_analysis.py`](../tools/kys_opendigger_analysis.py); tables in [`data/external/kaiyuanshe/derived/`](../data/external/kaiyuanshe/derived/), full summary in [SUMMARY.md](../data/external/kaiyuanshe/derived/SUMMARY.md)). The figures are level A as calculations on the published data. As measures of "open source", they are only as good as OpenRank and GitHub/Gitee/AtomGit coverage, so read them with the caveats below.*
+
+1. **FACT (A, OpenDigger 2025). Europe contributes more developer activity than China; China owns more of the projects that matter.**
+
+   | | Share of active developers | Share of developer OpenRank contribution | Share of project OpenRank influence |
+   |---|---|---|---|
+   | EU27 | 20.5% | 28.9% | 6.6% |
+   | China | 8.6% | 6.5% | 20.1% |
+   | US | 17.0% | 22.9% | 68.7% |
+
+   - Germany is second in the world for developer contribution, after the US and ahead of China. France is 6th, the Netherlands 9th.
+   - **INFERENCE.** This is the clearest quantitative case for the project's "compete above, cooperate below" thesis: Europe supplies labour to the commons largely through projects initiated elsewhere (mostly US), while China has built its own project base.
+2. **FACT (A). Chinese projects hold 13.7% of the global top-300 OpenRank (2025), up from 2.1% in 2015.**
+   - The number of Chinese projects in the top 300 fell from 60 (2018) to 34 (2025), so the share is concentrating in fewer, larger projects.
+   - **OpenHarmony is no. 1 in the world in 2025** (OpenRank 82,122, twice Azure's). openEuler is 13th.
+   - Chinese initiators hold 16.7% of the top-300 initiator OpenRank, up from 4.1% in 2015. Huawei is 2nd after Microsoft and Alibaba 11th.
+3. **FACT (A). Chinese projects make up 25.9% of foundation OpenRank (2025), up from 2.7% in 2015.**
+   - The OpenAtom Foundation is no. 1 of 34 foundations.
+   - Inside the ASF, Chinese projects account for 25,394 of 106,336 OpenRank (24%).
+   - This supports the external report's finding (R17) that Apache is the main international foundation channel for Chinese projects.
+4. **FACT (A). China's share of global active developers is flat at about 8–9% (2021–2025)**, and of developer contribution at about 6.5%. The growth in point 2 comes from projects, not from developer headcount.
+5. **Cross-match (18.3).** Of the 282 projects in OpenShare's China scope, 94 match the external report's 504 by name and 188 do not. The unmatched include 1Panel, SecretFlow, Coze, OpenTiny, JumpServer, Asterinas, openFuyao, OpenBMB, DeepSeek-V3/R1, MeterSphere and KusionStack. Name matching is approximate (variants such as "DeepSeek-V3" vs "DeepSeek"); list in `xmatch-opendigger-vs-ext-report.tsv`.
+
+**Caveats.**
+- OpenRank weights project activity by collaboration networks. Large corporate projects with many employee contributors, such as OpenHarmony, score high whatever their external adoption.
+- Developers are located by self-declared profile data; many have none.
+- "Influence" lists only 30 countries, so shares of influence are shares of that subset.
+- OpenShare's "China" scope is KAIYUANSHE/X-lab's list (282 projects, 136 initiators). Inclusion criteria are not published; ask (18.9).
+
 ## Changelog
+- 26 Nov 2026: 18.5 done (COSCon 2016 slogan, A); 18.4 negative result (finances unpublished); KAIYUANSHE wiki (memory-fragments) and RFC repos mirrored; international liaison group described in §4.
+- 26 Nov 2026: 18.2 and 18.3 first pass (§6): EU27/China/US shares, China in the global top 300 (2015–2025), foundations, cross-match with the external report.
+- 25 Nov 2026: OpenShare/OpenDigger dump complete. 3,409 files (181 MB) with SHA-256 in [`data/external/kaiyuanshe/openshare-manifest.tsv`](../data/external/kaiyuanshe/openshare-manifest.tsv): 3,384 leaderboard files (9 scopes × 4 group types, years 2015–2026, months 2020-01–2026-10) plus overview and geo files. The 36 404s are month 2026-11, not yet published.
 - 25 Nov 2026: corpus archived (24 repositories, live site, OpenShare/OpenDigger JSON); inventory and roadmap written.
 
 
@@ -873,7 +918,7 @@ Research note, 2026-11-03. Evidence levels per METHODOLOGY.md §4. Self-reported
 
   The report itself flags missing reimbursement rules; budgeting was planned for 2022.
 - **Priorities.** COSCon, the 中国开源年度报告 (published since 2015), open-source education, open-source risk governance, international links (ASF, Near). See COSCON-THEMES.md.
-- **Gap.** We have not yet fetched the FY2022–FY2025 annual reports. They are probably at kaiyuanshe.github.io/document/kys-report-20XX/.
+- **Gap (updated 26 Nov 2026, R18.4).** Annual reports 2020 and 2021 exist as PDFs (kaiyuanshe.github.io repo, branch `hexo`, `document/kys-report-2020`, `kys-report-2021`; archived). For FY2022–FY2025 there is no published report: the public wiki (`kaiyuanshe/memory-fragments`) has only a 2022 stub and an unfinished 2023 draft with an empty financial section. See [KAIYUANSHE-CORPUS.md](KAIYUANSHE-CORPUS.md).
 
 ## 3. COPU (中国开源软件推进联盟, China OSS Promotion Union)
 - **Governance.** An industry alliance chaired by **Lu Shouqun (陆首群)**, who runs regular meetings (例会). Vice-chair Liu Peng (刘澎). Members: companies, universities and institutes. Sources: https://cosspu.org.cn/osinfo/shownews.php?id=277 (A, minutes 2025-07-08); http://copu-oss.org.cn/download/ (A).
@@ -1070,7 +1115,7 @@ Scope: a light pass with about 25 sources. Track lists are complete only where n
 
 | Ed. | Year | Date | City / venue | Official theme (主题) | Tracks / key topics found | Source | Ev. |
 |---|---|---|---|---|---|---|---|
-| 1 | 2016 | 15–16 Oct | Beijing, Beihang Univ. | 源力觉醒 (per Qwen, 3 Nov; not found on the archived page, level D) | first edition under the COSCon name, after the 2015 Apache Roadshow China | https://kaiyuanshe.github.io/tags/COSCon/ (coscon-2016-summary) | A (event); theme: gap |
+| 1 | 2016 | 15–16 Oct | Beijing, Beihang Univ. | **天下开源是一家、社区携手迸火花** ("open source worldwide is one family; communities join hands to spark") — stated as the conference's "ideal" (理想) on the official COSCon 2016 site (kaiyuanshe/COSCON2016, gh-pages index.html, archived 25 Nov 2026; venue and dates 北京航空航天大学 10.15–10.16 confirmed on the same page). Level A. Qwen's "源力觉醒" does not appear there (D, discarded). | first edition under the COSCon name, after the 2015 Apache Roadshow China | https://kaiyuanshe.github.io/tags/COSCon/ (coscon-2016-summary) | A (event); theme: gap |
 | 2 | 2017 | 18–19 Nov | Shanghai, SJTU Minhang | 社区经营与项目贡献 per Qwen (D) ("Community Loves Contribution" caption, not confirmed as the theme) | community, contribution | same, coscon-2017-summary | A; theme D |
 | 3 | 2018 | 21 Oct | Shenzhen | **桥接东西，Open Source 源力不息** ("Bridging East and West") — verified 3 Nov on kaiyuanshe.github.io Activity page 2 (summary post 2018-10-26) | keynotes, 5 university lightning talks, 3 workshops; forums on **open-source education** and **open hardware** | same, coscon-2018-summary | A |
 | 4 | 2019 | 2–3 Nov | Shanghai, ECNU | 开源无疆、携手出航 / "Let's Cross the Boundaries Together" | open-source software, **open hardware**, **community operations & governance**, **education** | same, coscon-2019 | A |
@@ -1098,7 +1143,7 @@ The **中国开源年度报告** (China Open Source Annual Report) has been rele
 2. **COSCon keeps an international frame; the state events stress industry.** COSCon partnered with the ASF in 2020, and its 2019 and 2022 themes are about crossing borders. OpenAtom's 2026 theme is "empowering industry", and the Xinhua report on it does not mention international cooperation.
 3. **Governance and compliance are recurring tracks** (2019 community governance, 2021 risk governance). This parallels EU OSPO and supply-chain-compliance work (CRA, OpenSSF, Eclipse ORC WG).
 4. **The event is moving to Beijing** (2024, 2025). This may bring it closer to the policy centre; that is speculative.
-5. **Gaps:** we have no full track lists for most years and themes for 2016–2017 are only from Qwen (D); 2018 verified (A). Next pass: fetch each year's 议程 page on kaiyuanshe.cn from a CN IP.
+5. **Gaps:** we have no full track lists for most years and the 2016 theme is now A (official COSCon 2016 site, R18.5) while 2017 is still only from LLM leads (D); 2018 verified (A). Next pass: fetch each year's 议程 page on kaiyuanshe.cn from a CN IP.
 
 
 === Industrial open-source stacks in Europe and China — https://eu-china-commons.eu/research/industrial-stacks/ ===

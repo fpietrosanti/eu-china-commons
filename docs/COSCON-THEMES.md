@@ -7,7 +7,7 @@ Scope: a light pass with about 25 sources. Track lists are complete only where n
 
 | Ed. | Year | Date | City / venue | Official theme (主题) | Tracks / key topics found | Source | Ev. |
 |---|---|---|---|---|---|---|---|
-| 1 | 2016 | 15–16 Oct | Beijing, Beihang Univ. | 源力觉醒 (per Qwen, 3 Nov; not found on the archived page, level D) | first edition under the COSCon name, after the 2015 Apache Roadshow China | https://kaiyuanshe.github.io/tags/COSCon/ (coscon-2016-summary) | A (event); theme: gap |
+| 1 | 2016 | 15–16 Oct | Beijing, Beihang Univ. | **天下开源是一家、社区携手迸火花** ("open source worldwide is one family; communities join hands to spark") — stated as the conference's "ideal" (理想) on the official COSCon 2016 site (kaiyuanshe/COSCON2016, gh-pages index.html, archived 25 Nov 2026; venue and dates 北京航空航天大学 10.15–10.16 confirmed on the same page). Level A. Qwen's "源力觉醒" does not appear there (D, discarded). | first edition under the COSCon name, after the 2015 Apache Roadshow China | https://kaiyuanshe.github.io/tags/COSCon/ (coscon-2016-summary) | A (event); theme: gap |
 | 2 | 2017 | 18–19 Nov | Shanghai, SJTU Minhang | 社区经营与项目贡献 per Qwen (D) ("Community Loves Contribution" caption, not confirmed as the theme) | community, contribution | same, coscon-2017-summary | A; theme D |
 | 3 | 2018 | 21 Oct | Shenzhen | **桥接东西，Open Source 源力不息** ("Bridging East and West") — verified 3 Nov on kaiyuanshe.github.io Activity page 2 (summary post 2018-10-26) | keynotes, 5 university lightning talks, 3 workshops; forums on **open-source education** and **open hardware** | same, coscon-2018-summary | A |
 | 4 | 2019 | 2–3 Nov | Shanghai, ECNU | 开源无疆、携手出航 / "Let's Cross the Boundaries Together" | open-source software, **open hardware**, **community operations & governance**, **education** | same, coscon-2019 | A |
@@ -35,4 +35,4 @@ The **中国开源年度报告** (China Open Source Annual Report) has been rele
 2. **COSCon keeps an international frame; the state events stress industry.** COSCon partnered with the ASF in 2020, and its 2019 and 2022 themes are about crossing borders. OpenAtom's 2026 theme is "empowering industry", and the Xinhua report on it does not mention international cooperation.
 3. **Governance and compliance are recurring tracks** (2019 community governance, 2021 risk governance). This parallels EU OSPO and supply-chain-compliance work (CRA, OpenSSF, Eclipse ORC WG).
 4. **The event is moving to Beijing** (2024, 2025). This may bring it closer to the policy centre; that is speculative.
-5. **Gaps:** we have no full track lists for most years and themes for 2016–2017 are only from Qwen (D); 2018 verified (A). Next pass: fetch each year's 议程 page on kaiyuanshe.cn from a CN IP.
+5. **Gaps:** we have no full track lists for most years and the 2016 theme is now A (official COSCon 2016 site, R18.5) while 2017 is still only from LLM leads (D); 2018 verified (A). Next pass: fetch each year's 议程 page on kaiyuanshe.cn from a CN IP.
