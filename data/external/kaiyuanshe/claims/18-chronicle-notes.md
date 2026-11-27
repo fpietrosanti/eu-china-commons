@@ -14,7 +14,7 @@ Novelty check: `rg -il` over the repo, excluding `site/`. "0" means no hit at al
 | 1 | **OpenAtom Model License v1.0**, launched at the OpenAtom Ecosystem Conference (Sep 2024). Drafters: CESI, Huawei, Ant, Grandall. Early adopters: CETC TaiJi, vivo | R11/R09 | 0 | OpenAtom's own AI-model licence, alongside Mulan. A counterpart for EU licence work (EUPL, AI Act open-source exemption) |
 | 2 | **Mulan-Qizhi Model License (Beta)**: OpenAtom with Magnolia and OpenI (Dec 2023). Covers weights, not training code | R11 | 0 | Precursor to #1. Shows the Mulan family stretching to models |
 | 3 | **Zhiyuan Open AI Model License v1**: CAICT/BAAI (May 2023). Also the **Mulan-Magnolia Open Data License 2.0** (SJTU, Aug 2023) | R09 | 0 | Chinese model and data licence family. Compare with OSAID and EU practice |
-| 4 | **OfficeTen ruling**, Supreme People's Court IP Tribunal (12 Oct 2023; reported 18 Feb 2024): GPLv2 breach and copyright protection are separate questions | R03 | 0 | Top-court open-source licence jurisprudence. Pair with the French **Lasso/Orange €650k** ruling (14 Feb 2024, same chapter) |
+| 4 | **OfficeTen ruling** (correct case name: Wangjing v Yibang, (2021)最高法知民终51号), Supreme People's Court IP Tribunal (12 Oct 2023; reported 18 Feb 2024): GPLv2 breach and copyright protection are separate questions | R03 | 0 | Top-court open-source licence jurisprudence. Pair with the French **Lasso/Orange** ruling (judgment: €800k + €60k costs, not €650k) (14 Feb 2024, same chapter) |
 | 5 | **DedeCMS case**, Wuxi Intermediate Court (19 Feb 2024): copyleft reach through the GPL sphinxclient. Mass litigation criticised | R03 | 0 | Second court data point |
 | 6 | **SBOM Chain Initiative**: NIISDRC with 39 institutions (Sep 2024). Industry standard *SBOM Data Format Specification*, project no. **2024-1400T-SJ** (CESI, Dec 2024) | R03 / security | 0 | China's SBOM track, a direct analogue to the CRA's SBOM duty. One of the few cases where a document number is given |
 | 7 | **GB 45438-2025** AIGC labelling standard (in force Sep 2025): open models without implicit labelling may face limits on commercial use | R03 / ai | 0 | A binding national standard that touches open-weight distribution |
@@ -53,7 +53,7 @@ TSV row numbers are in brackets.
 **COSR 2024**
 - **2nd Open Source Congress, Beijing**, with the **Eclipse Foundation** and others [181].
 - Preface: the US tightened chip controls while the "EU advanced open source compliance legislation" [211].
-- **Lasso ruling**, Paris Court of Appeal (14 Feb 2024): Orange pays €650k [184].
+- **Lasso ruling**, Paris Court of Appeal (14 Feb 2024): Orange pays €650k [184]. **Correction (27 Nov, level A):** the judgment (RG 22/18071) awards €500k + €150k + €150k = €800k plus €60k costs; see docs/GPL-CASE-LAW.md.
 - **Sovereign Tech Fund** gives €686,400 to FreeBSD [172]. **KDE e.V.** donation drive [169]. **Google** moves its Python team to Munich [170]. **Aikido** (Ghent) raises USD 17m [196]. **PREEMPT_RT** merged, announced at **Open Source Summit Europe** (Sep 2024) [115].
 - §7.2 "European policies":
   - Germany: BGH DABUS ruling [246]; draft law protecting security researchers [247].

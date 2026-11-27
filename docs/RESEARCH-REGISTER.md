@@ -115,6 +115,10 @@ Each line of research is a **branch** that stays open over time. An entry record
   - `data.yml` in its repo is a template; the live data is `data/full.json`.
 - **Next:** tasks 18.1–18.8 in docs/KAIYUANSHE-CORPUS.md §5.
 - **27 Nov:** contribution flows put in evidence at Fabio's request: [CONTRIBUTION-FLOWS](CONTRIBUTION-FLOWS.md) (2025 Table 2-5: China-led projects 79.1% from China, EU ≥3.2%; US-led 14.6% EU; EU work 45× more on US-led than on China-led projects). Proposed cooperation indicators I1–I6 for the Index (A5). The reverse flow (China → EU-led projects) is not published: new task 18.12 recomputes the matrix from OpenDigger.
+- **27 Nov (18.11, at Fabio's request):** three research notes, each with sources traced to primaries, quotes verified by script, 102 files archived (`research-agent`):
+  - [GPL-CASE-LAW](GPL-CASE-LAW.md): 9 Chinese and 10 European cases. Corrections: the "OfficeTen ruling" is *Wangjing v Yibang* (2021)最高法知民终51号; Orange was ordered to pay €800k + €60k costs, not €650k (CA Paris RG 22/18071, A); "不乱买 v 未来购" does not exist as named. Only China has ruled that a GPL violator keeps copyright in its own code; no European case found.
+  - [CRA-SBOM-CN](CRA-SBOM-CN.md): GB/T 47020-2026 (TC260, in force 1 Aug 2026) and SJ/T 12097-2026 (in force 1 Jun 2026) found; NIISDRC title is 《软件物料清单构成和要求》 (draft CQAE group standard, no number); no binding Chinese SBOM rule found; no SBOM implementing act under the CRA yet.
+  - [CN-ASEAN-RUSSIA-MECHANISMS](CN-ASEAN-RUSSIA-MECHANISMS.md): China–Russia consultation mechanism on AI and open source confirmed in both languages (A) but no meeting or output found; China–ASEAN alliance has no documented members or repos; deliverables are company-led (Qwen-SEA-LION, OpenHarmony club). ✖ Negative: WAIC plan has no ASEAN item. Adaptability matrix and proposals E1–E5; Russia not adaptable.
 
 ## Chapter closures
 - **Funding (R12–R15) → docs/FUNDING-CHAPTER.md v1.0, 3 Nov 2026.**

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>“未履行开源许可证义务的专有软件不受法律保护” — GPL抗辩的探讨（上）</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content="">
+	
+
+<!--样式头部文件-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="author" content="Minehtink.com"/>
+
+<link rel="icon" href="/home/images/favicon.ico">
+
+<link href="/home/css/swiper.min.css" rel="stylesheet">
+<link href="/home/fonts/iconfont.css?v=1665294931" rel="stylesheet">
+<link href="/home/js/wow/animate.css" rel="stylesheet">
+<link href="/home/css/common.css?v=1738740173" rel="stylesheet">
+<script src="/home/js/jquery-1.11.1.min.js"></script>
+<script src="/home/js/swiper.min.js"></script>
+<script src="/home/js/jquery.SuperSlide.2.1.2.js"></script>
+<script src="/home/js/common.js?v=1669176444"></script>
+<script src="/home/js/jquery.form.js"></script>
+<script src="/home/js/layer/layer.js"></script>
+
+<!--统计代码-->
+
+<!-- Plugins Guestbook CSS-->
+<link rel="stylesheet" href="/plugins/sy_guestbook/view/assets/css/sy.guestbook.css">
+<script defer src="/bt-stats.js?site=e884ff30-6023-4378-8c9f-a1eb4a3a51f3&version1"></script></head>
+
+<body class="home-body">
+<!--菜单-->
+<!-- 头部 -->
+<div class="header">
+    <div class="wrap">
+        <div class="hh-logo">
+            <a href="/">
+                            <img src="/home/images/logo3_new.svg" alt="" class="bg"><img src="/home/images/logo2_new.svg" alt="" class="sm">
+                        </a>
+        </div>
+        <div class="hh-right">
+            <a href="javascript:;" class="hh-sousuo"><i class="iconfont icon-sousuo"></i><i class="iconfont icon-close1"></i></a>
+            <a href="/en" class="hh-lang"><i class="iconfont icon-earth"></i><span>EN</span></a>
+            <div class="burger" id="burger"><div class="burger-in"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div>
+        </div>
+    </div>
+</div>
+<div class="m-toper">
+    <div class="wrap clearfix">
+        <div class="hh-logo">
+            <a href="/">
+                                    <img src="/home/images/logo3_new.svg" alt="">
+                            </a>
+        </div>
+        <div class="flexSpace"></div><a href="/en" class="hh-lang"><i class="iconfont icon-earth"></i><span>EN</span></a>
+        <div class="burger" id="burger"><div class="burger-in"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div>
+    </div>
+</div>
+<div class="header-search">
+    <div class="search-mask"></div>
+    <div class="search-wrap">
+        <form action="/portal/search/index.html" method="get">
+            <i class="iconfont icon-search"></i>
+            <!-- <label>搜索关键字</label> -->
+            <input type="text" placeholder="搜索关键字" name="keyword" value="">
+        </form>
+    </div>
+</div>
+<div class="full-menus">
+    <div class="menu-mask"></div>
+    <div class="menu-wrap">
+        <div class="firstNav-group">
+            <!--menu-->
+            
+                <div class="firstNav  " >
+                    <a href="javascript:;"><span>专业领域</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>专业领域</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/1.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">融贯中西、务实创新<br />
+汉坤律师事务所是中国领先的综合性律师事务所，专注于国内、国际间复杂的商业交易和争议的解决。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                        
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/59.html"><span>文化传媒娱乐</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">文化传媒娱乐</div>
+                                        <div class="tng-desc">拥有对行业的全方位理解和丰富的实务经验。</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/3710.html"><span>境内外资本市场</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">境内外资本市场</div>
+                                        <div class="tng-desc">汉坤是享有盛誉的资本市场领域内领先中国律所，公认的资本市场交易专家。</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/42.html"><span>能源、矿产与环保</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">能源、矿产与环保</div>
+                                        <div class="tng-desc">汉坤的能源（包括新能源和传统能源）、矿产与环保团队由数十名专业人士组成。该团队成员经验丰富，均毕业于国内外一流法学院，不仅拥有出色的法律文书撰写能力，而且能够熟练运用英文、法语等多种外语进行谈判。团队合伙人执业均超过十年，业务专长覆盖能源、矿产与环保行业及相关领域。<br />
+<br />
+</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/64.html"><span>生命科学与健康医疗</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">生命科学与健康医疗</div>
+                                        <div class="tng-desc">专业的律师团队和丰富的项目经验</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/31.html"><span>兼并和收购</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">兼并和收购</div>
+                                        <div class="tng-desc">汉坤的并购业务在国内外各类权威性排名中均处于市场领先地位。</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/65.html"><span>境外投资</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">境外投资</div>
+                                        <div class="tng-desc">我们代表客户在中国境外进行直接投资、收购股权或资产。</div>
+                                    </div>
+                                </div>
+                            
+                            <div class="secondMore">
+                                <a href="/portal/list/index/id/1.html">查看全部</a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  notChild" >
+                    <a href="/portal/list/index/id/2.html"><span>专业人员</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>专业人员</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/2.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">精准高效、专业务实<br />
+汉坤拥有超过900名专业人员，分布在北京、上海、深圳、香港、杭州、武汉、海口、新加坡、纽约市和硅谷。汉坤的律师拥有优秀的学历背景，具有长期服务境内外客户和参与复杂跨境交易的丰富经验。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav open " >
+                    <a href="javascript:;"><span>汉坤资讯</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>汉坤资讯</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/3.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">法律思维、商业智慧<br />
+汉坤深耕于各业务领域的专家，结合最前沿的实务经验，为您提供对立法动态、法律实务和热点法律问题的及时解读。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/7.html"><span>汉坤动态</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤动态</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav open">
+                                    <a href="/portal/list/index/id/8.html"><span>汉坤观点</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤观点</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/9.html"><span>汉坤出品</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤出品</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/10.html"><span>汉坤专递</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤专递</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/11.html"><span>新法目录</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">新法目录</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  " >
+                    <a href="javascript:;"><span>关于汉坤</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>关于汉坤</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/4.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">崇尚理性、满怀激情<br />
+汉坤始终致力于为客户提供迅捷而高水准的法律服务，在快速演化的环境中高效、务实地解决客户的复杂法律问题。我们在北京、上海、深圳、杭州、武汉、海口、香港、新加坡、纽约、硅谷和伦敦均有办公网络，为您提供各领域、各地域无缝连接的多元化专业法律服务，协助您达成目标，不断迎接新的挑战。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/14.html"><span>荣誉奖项</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">荣誉奖项</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/15.html"><span>社会责任</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">社会责任</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/16.html"><span>老友汇</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">老友汇</div>
+                                        <div class="tng-desc">“汉坤老友汇计划”旨在为汉坤大家庭的所有成员搭建一个长期交流互动的平台，持续为你提供专业人士发展的资讯和平台支持，一起洞见未来的新格局与新机遇。</div>
+                                    </div>
+                                </div>
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  notChild" >
+                    <a href="/portal/list/index/id/5.html"><span>招贤纳士</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>招贤纳士</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/5.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">兼容并蓄、以人为本<br />
+汉坤拥有一支高素质的律师团队，并提供极具市场竞争性的待遇。硬件上，汉坤各办公室都位于当地的一流写字楼，具有优越的办公环境；文化上，汉坤有着和谐的人际关系、宽松的工作氛围和以人为本的企业文化。期待优秀人才加盟本所！</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  notChild" >
+                    <a href="/portal/list/index/id/6.html"><span>联系我们</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>联系我们</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/6.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">期待与您的真诚合作<br />
+汉坤传承优秀、追求卓越，是您随时可以依赖的法律伙伴。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+            <!--menu-->
+        </div>
+    </div>
+</div>
+<!-- 头部  end -->
+<!--菜单-->
+
+<div class="pageBox ">
+
+	<!-- 这个banner图片取子分类的图片 -->
+	<div class="com-banner h50-banner" >
+		<a href="javascript:;" style="cursor:initial;">
+			<div class="bgVideo">
+				<div class="pic" style="background-image: url(https://www.hankunlaw.com/upload/portal/20211130/e1c8706a056a297992fc7c17163a397e.jpg);"></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="news-detail">
+		<div class="contentHand">
+			<a href="javascript:window.history.back();"><i class="iconfont icon-return1"></i><span>返回</span></a>
+			<a href="javascript:;" class="handle-share"><i class="iconfont icon-share"></i><span>分享</span></a>
+		</div>
+		<div class="contentInfo">
+			<div class="viewTit tal">
+				<h1 class="hh1">“未履行开源许可证义务的专有软件不受法律保护” — GPL抗辩的探讨（上）</h1>
+				<div class="d gray mt20">2023-03-23</div>
+			</div>
+			<div class="artContent mt30">
+				
+<p style="margin: 11px 0px 25px; text-indent: 0em; line-height: normal;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:#00355F">作者：段志超丨鲁学振丨蒋海楠</span></strong><span style="font-size: 10px;"><sup><span style='font-family: "思源黑体 CN Regular", sans-serif; color: rgb(0, 53, 95);'>[1]</span></sup></span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">在专有软件中使用开源软件但未履行开源许可证义务可能会影响专有软件权利人的后续行权。我们注意到近期南京市中级人民法院（“<strong>南京中院</strong>”）在一起涉及开源代码的软件著作权侵权案（（2021）苏01民初3229号）中，首次支持了被告的“GPL抗辩”，驳回了原告的侵权主张</span><span style="font-size: 10px;"><sup><span style='font-family: "思源黑体 CN Regular", sans-serif;'>[2]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">。根据南京中院在本案中确立的裁判规则，在计算机软件著作权侵权案件中，如果作为原告权利基础的计算机软件使用了GPL开源代码而未履行开源义务，权利人就该计算机软件所享有的著作权将不再得到法律保护，第三人可使用专有软件相关代码而无需承担侵权责任。<strong>南京中院在本案中的裁判观点为使用开源软件的企业提出了更高的合规要求，值得业界关注。</strong></span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">本文将以案涉GPL开源软件为切入点，从技术分析和法律适用层面逐步厘清法院对GPL抗辩的审理思路，辨析GPL抗辩的法律依据，并最终就企业合规给出建议。我们对该案件的分析将分为上下两篇，本篇主要从技术层面出发，分析GPL v2及Classpath Exception的适用问题；下篇主要从法律适用的角度探讨GPL抗辩成立的法理基础。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style="font-size:16px;font-family:'思源黑体 CN Regular',sans-serif">目次</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">一、</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">案件简述</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">二、</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">何为Classpath Exception？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">三、</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">涉案开源软件是如何与原告的其他代码通信的？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">四、</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">原告软件是否被GPL组件传染？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">五、</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">原告软件是否适用Classpath Exception？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">六、</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">案件之外：企业开源合规启示</span></strong></p>
+<p style="text-indent: 0em; line-height: 1.75em; margin-bottom: 15px; margin-top: 15px; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'><br></span></strong></p>
+<p style="text-indent: 0em; line-height: 1.75em; margin-bottom: 15px; margin-top: 15px; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>一、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>案件简述</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">本案中，原告研发了“未来软件—投标文件制作工具”软件，该软件使用了开源软件SharpZipLib（适用GPL v2.0 with Classpath Exception许可证</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[3]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">）。原告认为被告所开发的“云蜻蜓软件—投标文件制作工具”使用了其软件代码，且被告对代码亦存在接触可能性，因此以软件著作权侵权为由将被告诉至法院。被告认为，原告软件使用GPL组件，整体被GPLv2协议约束；即便认定原被告软件构成实质性相似，被告也因和原告存在GPL许可关系而不构成侵权。此外，原告未以GPL协议开源其代码，属于违反诚实信用原则，不应该支持其侵权诉讼请求。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">法院最终认定</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">，原告在<strong>主程序</strong>中使用了GPL组件，且其使用方式不满足Classpath Exception，原告负有将其软件代码以GPL协议开源的义务但未履行，不支持就相关代码的侵权诉讼请求。原告开发软件的<strong>预览程序</strong>未使用GPL代码，被告对该部分代码的使用侵犯了原告的著作权，需承担惩罚性赔偿的法律责任。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>二、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>何为Classpath Exception？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">涉案开源软件为SharpZipLib，主要功能是实现文件压缩，采用GPL v2.0 with Classpath Exception许可证。根据该许可证要求，如果在使用过程中将SharpZipLib与独立模块链接以生成可执行软件，那么最终形成的可执行文件因满足Classpath例外，而不受GPL协议约束，无需履行许可证义务。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">Classpath Exception（也称Classpath例外）的原文及译文我们摘录如下:</span></p>
+<ul class=" list-paddingleft-2" style="list-style-type: square;"><li>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><em style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">Linking this library statically or dynamically with other modules is making a combined work based on this library.  Thus, the terms and conditions of the GNU General Public License cover the whole combination.</span></em></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><em style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">As a special exception, </span></em><strong style="text-indent: 0em;"><em><span style=";font-family:'思源黑体 CN Regular',sans-serif">the copyright holders of this library give you permission to link this library with independent modules to produce an executable, regardless of the license terms of these independent modules</span></em></strong><em style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the terms and conditions of the license of that module.  </span></em><strong style="text-indent: 0em;"><em><span style=";font-family:'思源黑体 CN Regular',sans-serif">An independent module is a module which is not derived from or based on this library</span></em></strong><em style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">.  If you modify this library, you may extend this exception to your version of the library, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version.</span></em></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><em style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif"></span></em><em style="text-indent: 0em;"><span style=";font-family: '思源黑体 CN Regular',sans-serif">将此库与其他模块静态或动态地链接就是基于该库制作组合作品。因此，GNU通用公共许可证的条款和条件涵盖了整个组合。</span></em></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><em style="text-indent: 0em;"><span style=";font-family: '思源黑体 CN Regular',sans-serif"></span></em><em style="text-indent: 0em;"><span style=";font-family: '思源黑体 CN Regular',sans-serif">作为一个特殊例外，</span></em><strong style="text-indent: 0em;"><em><span style=";font-family:'思源黑体 CN Regular',sans-serif">此库的版权所有者允许您将此库与独立模块链接以生成可执行文件，而不管这些独立模块的许可条款如何</span></em></strong><em style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">，并根据您选择的条款复制和分发生成的可执行文件，前提是对于每个链接的独立模块，您还满足该模块许可证的条款和条件。</span></em><strong style="text-indent: 0em;"><em><span style=";font-family:'思源黑体 CN Regular',sans-serif">独立模块即不从该库派生或基于该库的模块</span></em></strong><em style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">。如果您修改此库，则可以将此例外扩展到您的库版本，但您没有义务这样做。如果您不希望这样做，请从您的版本中删除此异常声明。</span></em></p>
+</li></ul>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">追根溯源，Classpath Exception并非由SharpZipLib作者首创，其最早出现在为Java程序设计而开发的OpenJDK开源项目中</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[4]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">Java应用程序的开发需要使用JDK（Java Development Kit）将编写好的源代码文件转换为可供运行的应用程序。在此过程中，编写好的源文件.java在JDK中编译成.class字节码文件，JVM再将.class字节码文件翻译为机器可读的机器码（二进制语言）</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[5]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">。在解释器（Interpreter）进行解释的过程中，链接（Link）操作将会被执行</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[6]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">，目标程序（开发者自有部分）与被调用的库函数（存在于JDK中）将被<strong>链接</strong>在一起。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">OpenJDK是常用的开源的JDK，早期版本适用GPLv2协议。而根据GPLv2协议，链接将导致GPL下的传染问题。因此，通过OpenJDK进行源代码编译将导致整个软件需按照GPL协议开源，这对于Java生态而言是极不友好的。针对该问题，OpenJDK的项目作者在GPL v2.0上附加了Classpath例外</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[7]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">，允许用户通过静态/动态链接方式使用OpenJDK而不履行开源义务。</span></p>
+<p style="margin: 5px 0px; text-indent: 0em; text-align: center; line-height: normal;"><span style=";font-family:'思源黑体 CN Regular',sans-serif"><img src="https://www.hankunlaw.com/upload/default/20230328/df336e98ba64011d9f08b3163b7fb9c3.png" title="图片1.png" alt="图片1.png"></span></p>
+<p style="margin: 5px 0px 15px; text-align: center; text-indent: 0em; line-height: 1.75em;"><strong><span style="font-family:'思源黑体 CN Regular',sans-serif">图1 Java应用程序与JDK的关系</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">通过对GPL协议设置例外，以促进开源软件传播的情形并不少见。例如，开源软件MySQL即设定了Universal FOSS Exception，允许MySQL与特定开源软件通过<strong>接口</strong>通信而不需履行开放源代码的义务</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[8]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>三、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>涉案开源软件是如何与原告的其他代码通信的？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">回归本案，本案中法院已查明原告软件中就开源软件SharpZipLib调用方式是基于函数的调用，其调用方式见下图所示：</span></p>
+<p style="margin: 5px 0px; text-indent: 0em; text-align: center; line-height: normal;"><img src="https://www.hankunlaw.com/upload/default/20230328/5cc4f57e8a53ecbf36f9882a48c29862.png" title="图片2.png" alt="图片2.png"></p>
+<p style="margin: 5px 0px 15px; text-align: center; text-indent: 0em; line-height: 1.75em;"><strong><span style="font-family:'思源黑体 CN Regular',sans-serif">图2 涉案软件与开源软件SharpZipLib的关系</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">具体而言：</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>1.</span><span style="text-indent: 0em;"><span style="font-family:Times New Roman;font-size:10px">   </span></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>原告的软件分为主程序和预览程序两部分，两部分相互独立；</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>2.</span><span style="text-indent: 0em;"><span style="font-family:Times New Roman;font-size:10px">   </span></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>预览程序不调用开源软件SharpZipLib；</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>3.</span><span style="text-indent: 0em;"><span style="font-family:Times New Roman;font-size:10px">   </span></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>主程序将开源软件SharpZipLib作为动态链接库的一部分而调用，该过程的具体实现方式如下：</span></p>
+<ul class=" list-paddingleft-2" style="list-style-type: square;">
+<li><p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>原告在自行编写的FutureZR.cs文件中创建函数CompressZip()；</span></p></li>
+<li><p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>该.cs文件和SharpZipLib代码被一同编译为.dll（动态链接库）文件；</span></p></li>
+<li><p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>主程序运行时调用dll文件。</span></p></li>
+</ul>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">在实际使用中，为实现压缩功能，主程序调用.cs文件中的CompressZip()函数1次，CompressZip()继而调用SharpZipLib中的函数以实现压缩，并根据执行结果向主程序返回true/false表示压缩成功还是失败。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>四、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>原告软件是否被GPL组件传染？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">由于原告软件<strong><span style="text-decoration:underline;">主程序</span></strong>调用了开源软件SharpZipLib，原被告双方就<strong><span style="text-decoration:underline;">主程序</span></strong>是否受到GPL v2.0约束未进行过多争辩。法院综合（i）主程序与涉案GPL开源代码存在函数调用关系，且（ii）涉案GPL开源代码实现的压缩功能系投标文件上传前不可或缺的功能两点，认为主程序与开源代码结合为衍生作品，受GPL协议约束。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">就判断GPL协议的</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">“传染”范</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">围</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">，本判决提出，需对软件中原告独立创作的“自有代码”部分和从开源社区引入的“开源代码”进行区分，明确二者的交互关系以及开源代码的功能及其在软件中所起的作用，被传染的程序应当是与<span style="text-decoration:underline;">原开源软件形成密切通信使得二者高度牵连融合成一体的程序</span>，而非只要有数据交换就会构成传染。（本文概括为“<strong>密切通信</strong>”规则）</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">法院的上述</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">“密切通信”</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">规则与自由软件基金会（FSF）</span></strong><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[9]</span></sup></span><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">提出的判断是</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">否“</span></strong><strong><em><span style=";font-family:'思源黑体 CN Regular',sans-serif">通过共享或交换复杂数据结构而建立了密切的通信</span></em></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">”</span></strong><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[10]</span></sup></span><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">的判断规则是一致的。</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">FSF还认为“If modules are designed to run linked together in a shared address space, that almost surely means combining them into one program”</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[11]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">（如果两个模块运行时是在共享地址空间连接在一起的，那几乎肯定意味着它们被组合成一个程序）。也即，FSF认为运行时<span style="text-decoration:underline;">共享地址空间</span>的两个模块大概率存在“复杂数据结构”的交换，属于“密切通信”，会引发GPL传染。回归到本案中，主程序采用动态链接库形式调用开源软件，主程序处于<strong>共享的地址空间</strong>内，一般意义上认为已被传染。 </span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">本文认为，涉案软件是否被GPL传染是有探讨空间的。</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">本案的特殊之处在于，主程序函数调用交换的数据并不复杂。FSF也提出“如果主程序动态链接了插件，但是它们之间的通信限于调用插件的‘主’函数及其参数并等待其返回，那么这就是个可以算单一组合程序也可以算两个独立程序的<strong>临界情</strong></span><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">况</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">”</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[12]</span></sup></span><span style=";font-family:'思源黑体 CN Regular',sans-serif">。<span style="text-decoration:underline;">换言之，在虽处于共享空间但<strong>数据结构交换较为简单</strong>的情况下，主程序是否会被GPL插件传染，FSF是保有疑议的。</span>本文注意到，本判决在在界定传染范围时将该开源软件所起到的功能同样纳入分析“涉案GPL开源代码实现的压缩功能系投标文件上传前<strong>不可或缺的功能</strong>，因此，主程序系涉案GPL开源代码的衍生作品”。本文认为这种分析路径值得商榷，一者，这种基于“功能论”的观点在GPL文本以及FSF官方问答中没有依据；二来，既然特定的开源软件代码已经被用于所开发的软件中，那么在通常的情形下，它就会承担一定的功能。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>五、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>原告软件是否适用Classpath Exception？</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">在认定主程序已被GPL v2传染后，南京中院就Classpath Exception是否适用进行了分析，并认定本案并不适用该例外。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">双方争论焦点主要集中与本案是否符合Classpath Exception中“<strong>独立模块</strong>”、“<strong>链接调用</strong>”的例外规定，而这两点恰好也是适用Classpath例外的构成要件。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">为方便阅读，本文总结相关事实、原被告主张和法院认定如下：</span></p>
+<table cellspacing="0" cellpadding="0" width="1148"><tbody>
+<tr class="firstRow">
+<td style="border: 1px solid rgb(0, 0, 0); background: rgb(204, 204, 204); padding: 0px 7px;" width="143"><p style="margin: 4px 0px; text-align: center; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif;color:black">Classpath Exception（原文）</span></p></td>
+<td valign="top" style="border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-image: initial; border-left: none rgb(0, 0, 0); padding: 0px 7px;" width="1004"><p style="margin: 4px 0px; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:   120%;font-family:'思源黑体 CN Regular',sans-serif">本库文件的版权所有者允许你将本库文件与<strong><span style="text-decoration:underline;">独立模块链接</span></strong>以生成可执行文件，而不管这些独立模块的开源许可条款如何……一个独立的模块是一个<strong>不从本库衍生或基于本库的模块。</strong></span></p></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); border-image: initial; border-top: none rgb(0, 0, 0); background: rgb(204, 204, 204); padding: 0px 7px;" width="143"><p style="margin: 4px 0px; text-align: center; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif;color:black">原告主张</span></p></td>
+<td valign="top" style="border-top: none rgb(0, 0, 0); border-left: none rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding: 0px 7px;" width="1004"><p style="margin: 4px 0px; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">FutureZR.cs为独立模块与主程序链接，满足例外情况。</span></p></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); border-image: initial; border-top: none rgb(0, 0, 0); background: rgb(204, 204, 204); padding: 0px 7px;" width="143"><p style="margin: 4px 0px; text-align: center; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif;color:black">被告主张</span></p></td>
+<td valign="top" style="border-top: none rgb(0, 0, 0); border-left: none rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding: 0px 7px;" width="1004"><p style="margin: 4px 0px; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">SharpZipLib本身提供了用于链接调用的“ICSharpCode.SharpZipLib.dll”，但是原告却自行编写FutureZR.cs以调用SharpZipLib中的函数，并一起重新编译为FZR.dll以进行调用。“FZR.dll”以及相应的源代码属于对开源代码的演绎。原告调用FZR.dll不属于链接调用SharpZipLib，不满足例外情况。</span></p></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); border-image: initial; border-top: none rgb(0, 0, 0); background: rgb(204, 204, 204); padding: 0px 7px;" width="143"><p style="margin: 4px 0px; text-align: center; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif;color:black">法院认定</span></p></td>
+<td valign="top" style="border-top: none rgb(0, 0, 0); border-left: none rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding: 0px 7px;" width="1004"><p style="margin: 4px 0px; text-indent: 0em; line-height: 1.75em;"><span style=";line-height:   120%;font-family:'思源黑体 CN Regular',sans-serif">原告自行编写的FutureZR.cs文件与SharpZipLib开源代码一同编译成FZR.dll，并由主程序对其进行调用的方式，不符合“例外声明”中“一个独立的模块是一个不从本库衍生或基于本库的模块”关于独立模块的约定，<strong>例外声明对其不适用。</strong></span></p></td>
+</tr>
+</tbody></table>
+<ul class=" list-paddingleft-2" style="list-style-type: square;"><li>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">争议点：本案是否存在Classpath Exception中的</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">“独立模块”</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">，是否以链接方式调用？</span></strong></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif"></span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">本案中，原告主张FutureZR.cs作为</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">“独立模块”</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">与主程序链接满足例外情况，南京中院未予认可。</span></strong><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>具体地，南京中院认为“通过将自行编写的FutureZR.cs文件与SharpZipLib开源代码一同编译成FZR.dll，并由主程序对其进行调用的方式，不符合‘例外声明’中‘一个独立的模块是一个不从本库衍生或基于本库的模块’关于</span><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">独立模块</span></strong><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>的约定，‘例外声明’对其不适用”。</span></p>
+</li></ul>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">本文认为，原告若将主程序主张为Classpath Exception中的</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">“独立模块”</span></strong><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">，本案结果或有不同。具体原因如下：</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style="text-indent: 0em;"><span style='font-weight: bold; font-family: "思源黑体 CN Regular", sans-serif;'>1.</span><span style="font-family:Times New Roman;font-size:10px">   </span></span><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">主程序满足Classpath Exception中的</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">“独立模块”</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">。</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>原告的主程序非基于或衍生（Derive From）自开源组件，满足独立模块的概念。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style="text-indent: 0em;"><span style='font-weight: bold; font-family: "思源黑体 CN Regular", sans-serif;'>2.</span><span style="font-family:Times New Roman;font-size:10px">   </span></span><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">主程序与开源软件的调用满足</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">“链接”</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">调用。</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>前文分析可知，主程序通过动态链接的形式调用SharpZipLib的modified version（即FutureZR.cs文件与SharpZipLib开源代码一同编译成的FZR.dll文件），满足链接调用。该环节可能存在的争议点是主程序并非直接与SharpZipLib链接调用，然而本文认为这并不影响Classpath Exception的成立。一方面，Classpath Exception仅限定是以“链接形式结合独立模块”，并没有限定链接用文件的来源或产生方式；另一方面，即使原告自行编写了.dll文件，.dll以及相应的源代码确如被告所述属于对开源代码的演绎，但这仅是使得这部分代码被认定为衍生作品受GPL开源义务约束，与主程序调用方式是否满足Classpath例外无关。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>六、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>案件之外：企业开源合规的启示</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">南京中院此项裁判实际上对企业的开源合规提出了较高的要求，在不满足开源义务的情形下甚至可以除却软件权利人请求侵权赔偿的胜诉权。因此，企业的开源合规便显得更为必要。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">（一） 使用GPL</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">组件的合规方式仍未被颠覆</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>本判决对GPL协议的解读仍然是遵循GPL协议文本，且与FSF官方的理解基本保持一致。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>本案中，原告将GPL组件与自由代码在同一地址空间运行，存在整个程序被认定为“衍生自”GPL组件的风险。<strong>作为风险缓释措施</strong>，原告可采取管道（Pipes）、Sockets、命令行方式（Command-line）等方式以确保自有部分与开源组件在隔离的地址空间中进行通信，将自有代码和开源组件部分加以区隔。增加自有代码独立性，避免被认定为“通过共享或交换复杂数据结构而建立了密切的通信</span><span style="text-indent: 0em; font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[13]</span></sup></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>”以致被认定为衍生自（Derived From）开源组件。就Classpath Exception而言，考虑到尚不存在官方的解释，其具体合规调用方式存在一定的不确定性，可采用业界较为成熟的GPL的合规方式对相关组件进行处理。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">（二） 建立完</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">整的开源合规体系尤为关键</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>本案中，原告因未能履行开源协议，其基于自有代码的软件著作权实施受到阻碍。</span><strong style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>企业通过在内部搭建开源软件合规体系，在软件开发阶段引入开源合规理念，则可通过小成本撬动大收益。通过企业内部成体系的开源合规搭建，可实现对开源软件的引入、更新和退出进行全生命周期的管理。</strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>我们注意到，本案中原告软件所使用的SharpZipLib经历了多次协议的变更，从最初的GPL v2 with Classpath Exception变更到LGPL，再到2016年变为非常宽松的MIT协议。本案被告被认定的侵权行为系从2017年1月1日至2021年8月30日，在此期间，SharpZipLib已有适用MIT的版本</span><span style="text-indent: 0em; font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif;'>[14]</span></sup></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>。如果原告对其软件中的SharpZipLib开源组件存在监控和管理，则可直接换用MIT版本，届时将不存在自有代码被传染的问题，以致侵权行权受限，难以主张足额损害赔偿的问题。</span></p>
+<table cellspacing="0" cellpadding="0" width="1148"><tbody>
+<tr class="firstRow"><td valign="top" style="padding: 0px 7px; border-color: rgb(255, 255, 255);" width="1147"><p style="margin: 7px 0px; text-indent: 0em; line-height: 1.75em;"><span style="font-size: 16px;"><strong><span style='font-family: "思源黑体 CN Regular", sans-serif; color: rgb(0, 53, 95);'>特别声明</span></strong></span></p></td></tr>
+<tr style=";height:38px"><td valign="top" style="padding: 0px 7px; border-color: rgb(255, 255, 255);" height="38" width="1147">
+<p style="margin: 11px 0px; text-indent: 0em; line-height: 1.75em;"><span style=";font-family:   '思源黑体 CN Regular',sans-serif;color:black">汉坤律师事务所编写《汉坤法律评述》的目的仅为帮助客户及时了解中国或其他相关司法管辖区法律及实务的最新动态和发展，仅供参考，不应被视为任何意义上的法律意见或法律依据。</span></p>
+<p style="margin: 11px 0px; text-indent: 0em; line-height: 1.75em;"><span style=";font-family:   '思源黑体 CN Regular',sans-serif;color:black">如您对本期《汉坤法律评述》内容有任何问题或建议，请与汉坤律师事务所以下人员联系：</span></p>
+</td></tr>
+<tr style=";height:13px"><td valign="top" style="padding: 0px 7px; border-color: rgb(255, 255, 255);" height="13" width="1147">
+<p style="margin: 11px 0px; text-indent: 0em; line-height: 1.75em;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:#00355F">段志超</span></strong></p>
+<p style="margin: 2px 0px; text-indent: 0em; line-height: 1.75em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">电话：   +86 10 8516 4123</span></p>
+<p style="margin-bottom: 22px; text-indent: 0em; line-height: 1.75em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">Email：kevin.duan@hankunlaw.com<a href="mailto:"></a></span></p>
+</td></tr>
+</tbody></table>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[1]</span><span style="text-indent: 0em;"> </span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>实习生梁杰对本文的写作亦有贡献。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[2]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>参见知产宝 — 版权案例丨全国首起民事生效判决—GPL抗辩获得法院支持！，<a href="https://mp.weixin.qq.com/s/GiMWAdzbqg83OUlwdAQPrQ"><span style="font-size: 12px; color: black;">https://mp.weixin.qq.com/s/GiMWAdzbqg83OUlwdAQPrQ</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[3]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'><a href="https://github.com/icsharpcode/SharpZipLib"><span style="font-size: 12px; color: black;">https://github.com/icsharpcode/SharpZipLib</span></a>，SharpZipLib经历过协议变更，由之前的GPL v2 with classpath exception已经变更为MIT协议。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='text-indent: 0em; font-size: 13px; font-family: "思源黑体 CN Regular", sans-serif;'>[4]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='text-indent: 0em; font-size: 12px; font-family: "思源黑体 CN Regular", sans-serif;'>参见维基百科词条—GPL Linking Exception，</span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'><a href="https://wiki.alquds.edu/?query=GPL_linking_exception"><span style="font-size: 12px; color: black;">https://wiki.alquds.edu/?query=GPL_linking_exception</span></a></span><span style='text-indent: 0em; font-size: 13px; font-family: "思源黑体 CN Regular", sans-serif;'>。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[5]</span><span style="font-size: 12px; text-align: justify; text-indent: 0em;"> </span><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>一倾而尽，什么是JDK，JRE，JVM---深入分析，<a href="https://blog.csdn.net/weixin_38339025/article/details/90313695"><span style="font-size: 12px; color: black;">https://blog.csdn.net/weixin_38339025/article/details/90313695</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[6] chun_soft，Java代码编译和执行的整个过程，<a href="https://chunsoft.blog.csdn.net/article/details/113697528?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1-113697528-blog-5904542.pc_relevant_recovery_v2&amp;depth_1-utm_source=distribute.pc_relevant.none-task-">https://chunsoft.blog.csdn.net/article/details/113697528?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1-113697528-blog-5904542.pc_relevant_recovery_v2&amp;depth_1-utm_source=distribute.pc_relevant.none-task-</a>。</span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[7]</span><span style="font-size: 12px; text-align: justify; text-indent: 0em;"> </span><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>参见<a href="https://openjdk.org/legal/gplv2+ce.html"><span style="font-size: 12px; color: black;">https://openjdk.org/legal/gplv2+ce.html</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[8]</span><span style="font-size: 12px; text-align: justify; text-indent: 0em;"> </span><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'><a href="https://oss.oracle.com/licenses/universal-foss-exception/"><span style="font-size: 12px; color: black;">https://oss.oracle.com/licenses/universal-foss-exception/</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[9] FSF是一个致力于推广自由软件的美国民间非营利性组织。它于1985年10月由理查德·斯托曼创建。其主要工作是执行GNU计划，推动施行GPL协议，开发更多的自由软件。GPL许可证最初由FSF的理查德·斯托曼为GNU项目所撰写，FSF分别于1991年和2007年发布了GPL v2和GPL v3。参见维基百科词条“FSF”、“GPL”。</span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[10]</span><span style="font-size: 12px; text-align: justify; text-indent: 0em;"> </span><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>“什么时候一个程序和它的插件会被认为是一个单一的结合在一起的程序？这依赖于主程序如何调用插件。如果主程序使用fork和exec调用插件，那么它们之间通过共享或交换复杂数据结构而建立了密切的通信，这样它们就是一个单一的结合在一起的程序。如果主程序使用的是简单的fork和exec调用插件，并没有建立密切的通信，那么插件就是一个单独的程序。”参见<a href="https://www.gnu.org/licenses/gpl-faq.html"><span style="font-size: 12px; color: black;">https://www.gnu.org/licenses/gpl-faq.html</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[11]</span><span style="font-size: 12px; text-align: justify; text-indent: 0em;"> </span><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>参见<a href="https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation"><span style="font-size: 12px; color: black;">https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[12]</span><span style="font-size: 12px; text-align: justify; text-indent: 0em;"> </span><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>“If the main program dynamically links plug-ins, but the communication between them is limited to invoking the ‘main’ function of the plug-in with some options and waiting for it to return, that is a borderline case.”参见<a href="https://www.gnu.org/licenses/gpl-faq.en.html#GPLPlugins"><span style="font-size: 12px; color: black;">https://www.gnu.org/licenses/gpl-faq.en.html#GPLPlugins</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[13]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'><a href="https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation"><span style="font-size: 12px; color: black;">https://www.gnu.org/licenses/gpl-faq.en.html#MereAggregation</span></a>。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[14]</span><span style="font-size: 12px; text-align: justify; text-indent: 0em;"> </span><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>参见SharpZibLib 1.0.0版（2018年发布）的MIT协议，<a href="https://github.com/icsharpcode/SharpZipLib/blob/v1.0.0/LICENSE.txt"><span style="font-size: 12px; color: black;">https://github.com/icsharpcode/SharpZipLib/blob/v1.0.0/LICENSE.txt</span></a>。</span></span></p>
+			</div>
+			<!--附件-->
+			<div class="mt30">
+									<a style="display: inline-block;
+		width: 160px;
+		height: 38px;
+		border: 1px solid #1363A7;
+		background: transparent;
+		color: #1363A7;
+		text-align: center;
+		cursor: pointer;
+		font-size: 14px;
+		box-sizing: border-box;
+		line-height: 36px;
+		transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		display: block;" target="_blank" class="btn-red download-btn" data-id="13020" href="https://www.hankunlaw.com/upload/portal/20230330/3efd09bcc273ba1ec174294bf7c27fd0.pdf">PDF下载</a>
+							</div>
+			<!--附件-->
+		</div>
+	</div>
+</div>
+
+
+
+<!--footer-->
+<div class="subscribeView">
+    <div class="wrap">
+        <div class="viewLeft">
+            <div class="t">汉坤 简报</div>
+            <div class="d">定期发送电子邮件，内容涵盖市场、行业趋势。</div>
+        </div>
+        <div class="viewRight">
+            <div class="label">进行订阅</div>
+            <form id="yuyuebook-form" role="form" method="post">
+                <input type="hidden" name="type" value="subscribe">
+                <input datatype="e" name="email" nullmsg="您的邮箱" errormsg="邮箱地址格式错误" type="text" class="ipt" placeholder="您的邮箱">
+                <button id="yuyuebook-submit" type="submit">订阅</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/home/js/Validform_v5.3.2_min.js"></script>
+<script>
+    //统计下载
+    $('.download-btn').click(function(){
+        const dataId = $(this).data('id');
+        if(dataId){
+            $.ajax({
+                url: "/portal/article/dodownload.html?id="+dataId ,
+                type: 'get',
+            })
+        }
+    })
+
+    var receiptForm = $("#yuyuebook-form").Validform({
+        tiptype:function(msg,o,cssctl){
+            if(o.type==3){
+                layer.msg(msg)
+            }
+        },
+        showAllError:false,
+        callback: function(){
+            $('#yuyuebook-form').ajaxSubmit({
+                url: "/portal/index/addmsg.html",
+                type: "post",
+                success: function (data) {
+                    if (data.code == 0) {
+                        layer.msg(data.msg);
+                    } else {
+                        $('#yuyuebook-form').resetForm()
+                        layer.alert(data.msg,{icon:1,title:0});
+                    }
+                }
+            });
+            return false
+        },
+        ignoreHidden: true
+    })
+</script>
+
+<div class="footer" style="background-image: url(https://www.hankunlaw.com/upload/admin/20211109/e5c4cc405b6fd1809121e4ee02e4f76c.jpg);">
+    <div class="ft-center">
+        <div class="wrap ftc-wrap">
+            <div class="ft-options">
+                <!--menu-->
+                
+                    <a href="/portal/list/index/id/1.html">专业领域</a>
+                
+
+                    <a href="/portal/list/index/id/2.html">专业人员</a>
+                
+
+                    <a href="/portal/list/index/id/3.html">汉坤资讯</a>
+                
+
+                    <a href="/portal/list/index/id/4.html">关于汉坤</a>
+                
+
+                    <a href="/portal/list/index/id/5.html">招贤纳士</a>
+                
+
+                    <a href="/portal/list/index/id/6.html">联系我们</a>
+                
+                <!--menu-->
+            </div>
+        </div>
+    </div>
+    <div class="ft-address">
+        <div class="wrap">
+            <div class="ftaddress-swiper">
+                <div class="list swiper-wrapper">
+                    
+                        <dl class="swiper-slide">
+                            <dt>北京</dt>
+                            <dd>
+                                北京市东城区东长安街1号东方广场C1座9层<br>邮编：100738<br>电话：+86 10 8525 5500<br>传真：+86 10 8525 5511/5522<br>Email：beijing@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>上海</dt>
+                            <dd>
+                                上海市静安区石门一路288号兴业太古汇香港兴业中心二座33层 <br>邮编：200041<br>电话：+86 21 6080 0909 <br>传真：+86 21 6080 0999 <br>Email：shanghai@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>深圳</dt>
+                            <dd>
+                                深圳市福田区中心四路1-1号嘉里建设广场第三座20层<br>邮编：518048<br>电话：+86 755 3680 6500<br>传真：+86 755 3680 6599 <br>Email：shenzhen@hankunlaw.com                             </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>杭州</dt>
+                            <dd>
+                                杭州市上城区三新路118号杭州国际金融中心汇西办公楼一座2001-06<br>邮编：310000<br>电话：+86 571 8532 5000<br>传真：+86 571 8532 5001<br>Email：hangzhou@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>武汉</dt>
+                            <dd>
+                                武汉市洪山区珞喻路10号群光中心31层3107-18室<br>邮编：430070<br>电话：+86 27 5937 6200<br>传真：+86 27 5937 6211<br>Email：wuhan@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>海口</dt>
+                            <dd>
+                                海口市龙华区滨海大道105号百方广场A座19层1903室<br>邮编：570100<br>电话：+86 898 3665 5000<br>传真：+86 898 3665 5011<br>Email：haikou@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>香港</dt>
+                            <dd>
+                                香港中环皇后大道中15号置地广场告罗士打大厦43楼4301-10室<br>电话：+852 2820 5600<br>传真：+852 2820 5611 <br>Email：hongkong@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>新加坡</dt>
+                            <dd>
+                                莱佛士坊1号#53-00莱佛士坊一号1座<br>邮编：048616<br>电话：+65 6013 2999<br>传真：+65 6013 2998<br>Email：singapore@hankunlaw.com                             </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>纽约</dt>
+                            <dd>
+                                <span style="font-size:16px;">Han Kun LLP</span><br>美国纽约州纽约市麦迪逊大道551号1308室<br>邮编：10022<br>电话：+1 516 960 3600<br>传真：+1 516 960 3080<br>Email：newyork@us.hankunlaw.com                              </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>硅谷</dt>
+                            <dd>
+                                <span style="font-size:16px;">Han Kun LLP</span><br>美国加州帕洛阿托市Page Mill路425号2楼200室<br>邮编：94306-2075<br>电话：+1 650 206 7838<br>Email：siliconvalley@us.hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>伦敦</dt>
+                            <dd>
+                                <span style="font-size:16px;">Han Kun LLP</span><br>英国伦敦皇家交易所大楼1-2号一楼<br>邮编：EC3V 3LF<br>电话：+44 20 8078 9782<br>Email：info@hankunlondon.co.uk                            </dd>
+                        </dl>
+                    
+                </div>
+            </div>
+            
+            <div class="swiper-box">
+                <div class="swiper-btn swiper-btn-prev"><i class="iconfont icon-leftarrow"></i></div>
+                <div class="swiper-btn swiper-btn-next"><i class="iconfont icon-rightarrow"></i></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        if(!isMobile()){
+            var ftofficeSwiper = new Swiper('.ftaddress-swiper', {
+                slidesPerView: isMobile() ? 1 : 4,
+                speed:600,
+                spaceBetween: 20,
+                navigation:{
+                    prevEl:'.ft-address .swiper-btn-prev',
+                    nextEl:'.ft-address .swiper-btn-next',
+                },
+            })
+        }
+    </script>
+    <div class="bottomCopyr">
+        <div class="wrap br-wrap">
+            <div class="bcleft">
+                <div class="ft-links">
+                    <a href="/portal/page/index/id/32.html">法律声明</a>
+                    <a href="/portal/page/index/id/33.html">隐私条款</a>
+                </div>
+                <a href="http://beian.miit.gov.cn" target="_blank">京ICP备07502885号-1</a>
+            </div>
+            <div class="ft-share">
+                <!--友情链接-->
+                
+                    <a href="javascript:;" data-code="https://www.hankunlaw.com/upload/admin/20220714/32da58960bcfc1fcf1c41793c99a578d.jpg" target="_self"><img src="https://www.hankunlaw.com/upload/admin/20211228/ee0b24ac97f85caaf8fe4abe46ddbf12.png" alt=""></a>
+                
+
+                    <a href="https://weibo.com/n/%E6%B1%89%E5%9D%A4%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/31196174a64a68d476fe6301e6591150.png" alt=""></a>
+                
+
+                    <a href="https://www.linkedin.com/company/han-kun-law-offices/" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/d56f6de3a76ddf29fab45cfc53a22ce5.png" alt=""></a>
+                
+
+                    <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAAx4d_q4dIUjUyYcJJicTN9nsVdyZsBTyiJXAPSn-OcPqvJoWHs9dsWmzJTBfDHcUI/?" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/9bba808114e5098a3dc8c1c2fcf89661.png" alt=""></a>
+                
+                <!--友情链接-->
+            </div>
+            <div class="ft-right">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo" class="power">Copyright ⓒ  2026  Han Kun Law Offices All Rights Reserved.</a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank"></a>
+                <a href="https://minethink.com" target="_blank" class="power">Powered by Minethink</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="shareBox">
+	<a href="javascript:;" class="close">
+		<i class="iconfont icon-close1"></i>
+	</a>
+	<!-- <div class="customShare">
+        
+            <a href="javascript:;" data-code="https://www.hankunlaw.com/upload/admin/20220714/32da58960bcfc1fcf1c41793c99a578d.jpg" target="_self"><img src="https://www.hankunlaw.com/upload/admin/20211228/ee0b24ac97f85caaf8fe4abe46ddbf12.png" alt=""></a>
+        
+
+            <a href="https://weibo.com/n/%E6%B1%89%E5%9D%A4%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/31196174a64a68d476fe6301e6591150.png" alt=""></a>
+        
+
+            <a href="https://www.linkedin.com/company/han-kun-law-offices/" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/d56f6de3a76ddf29fab45cfc53a22ce5.png" alt=""></a>
+        
+
+            <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAAx4d_q4dIUjUyYcJJicTN9nsVdyZsBTyiJXAPSn-OcPqvJoWHs9dsWmzJTBfDHcUI/?" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/9bba808114e5098a3dc8c1c2fcf89661.png" alt=""></a>
+        
+	</div> -->
+    <div class="customShare">
+    </div>
+    <link rel="stylesheet" href="/home/js/shareJs/share.min.css">
+    <script type="text/javascript" src="/home/js/shareJs/jquery.share.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $('.customShare').share({sites: ['wechat', 'weibo', 'linkedin']});
+    </script>
+</div>
+
+<a href="javascript:;" class="backTop" onclick="$('body,html').animate({scrollTop:0})"><i class="iconfont icon-xiangshangjiantou"></i></a>
+<script src="/home/js/wow/wow.min.js"></script>
+<script type="text/javascript">
+    new WOW().init();
+</script>
+<!--footer-->
+
+
+
+</body>
+</html>

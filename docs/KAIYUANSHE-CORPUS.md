@@ -99,6 +99,7 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 | 18.9 | Ask KAIYUANSHE/X-lab for the inclusion criteria of the "China" scope and for the country-attribution method behind "influence". | Note in §6 |
 | 18.10 | Resolve conflicts C1–C5 (§7.3) and check the 2023 VC tables against the Chinese edition before adding a CN equity-VC layer to data/funding. | Corrections in CN-FOUNDATIONS / FUNDING-COMPARISON |
 | 18.11 | Trace the new items of §7.3 to primaries: model licences, GPL rulings, SBOM standard 2024-1400T-SJ, GB 45438-2025, WAIC initiative, China–ASEAN and China–Russia mechanisms. | Archive + level A/B |
+| 18.11 ✔ (27 Nov, partial) | Done for GPL rulings ([GPL-CASE-LAW](GPL-CASE-LAW.md)), SBOM standards ([CRA-SBOM-CN](CRA-SBOM-CN.md): 2024-1400T-SJ is now SJ/T 12097-2026; national GB/T 47020-2026; GB 45438-2025 is AI-content labelling, not SBOM) and China–ASEAN/Russia mechanisms ([CN-ASEAN-RUSSIA-MECHANISMS](CN-ASEAN-RUSSIA-MECHANISMS.md); WAIC plan does not mention ASEAN). Model licences still open. | Archived, levels A/A-v/B |
 | 18.12 | Recompute the country × project-origin contribution matrix from OpenDigger event data, adding EU-led projects and the EU27 as one unit (indicators I1–I6 in [CONTRIBUTION-FLOWS](CONTRIBUTION-FLOWS.md)). | Matrix at level A + code |
 | 18.8 | Refresh the mirror quarterly (`git remote update` in each mirror, re-run `tools/openshare_dump.py`). | Manifest diff |
 
@@ -170,7 +171,7 @@ All the English chapters of the 2023–2025 reports and the AI Blue Paper were r
 ### 7.3 Chronicles, open-source AI, embodied AI, Web3 (511 events)
 - **New to the repo, to trace to primaries:**
   - Chinese **AI model and data licences**: OpenAtom Model License v1.0 (Sep 2024), Mulan-Qizhi (Dec 2023), Zhiyuan/BAAI (May 2023), Mulan-Magnolia Open Data License.
-  - **Court rulings on the GPL**: OfficeTen, Supreme People's Court IP Tribunal (Oct 2023); DedeCMS, Wuxi (Feb 2024).
+  - **Court rulings on the GPL**: Supreme People's Court IP Tribunal, Wangjing v Yibang ((2021)最高法知民终51号, 12 Oct 2023, about the OfficeTen software; the report calls it the "OfficeTen ruling"); DedeCMS, Wuxi (Feb 2024). Traced to primaries and compared with European case law in [GPL-CASE-LAW](GPL-CASE-LAW.md).
   - **SBOM**:
     - the SBOM Chain initiative (Sep 2024);
     - the industry standard *SBOM Data Format Specification*, project no. 2024-1400T-SJ, a direct analogue of the CRA's SBOM duty;
@@ -188,7 +189,7 @@ All the English chapters of the 2023–2025 reports and the AI Blue Paper were r
   - The EU Open Source Policy Summit 2025 explored an EU-supported long-term maintenance fund.
   - The Horizon Europe **€107 m RAISE pilot** is mentioned.
   - The 2025 report names a Commission "open source first" roadmap with a "European Open Source Sovereignty Fund"; the name and fund label are **unverified (C)**, so check against R01.
-  - It reports the **OpenHarmony × Eclipse Oniro** overseas launch and the Lasso/Orange €650k ruling.
+  - It reports the **OpenHarmony × Eclipse Oniro** overseas launch and the Lasso/Orange ruling (reported as €650k; the judgment awards €800k plus €60k costs, see [GPL-CASE-LAW](GPL-CASE-LAW.md)).
 - **Conflicts with our documents (to resolve; our A-level data prevails meanwhile):**
   - **C1:** OpenAtom's hosting of the 2024 Congress qualifies CN-FOUNDATIONS §7 finding 2 (no international cooperation in its 2026 coverage). Restate the finding as a 2024→2026 change.
   - **C2:** the report says CNY 13.384 m was awarded in the 2023 OpenAtom Competition, but OpenAtom's own 2023 accounts show CNY 5.62 m spent. The prizes may have been paid partly outside the foundation (co-organisers, local governments). Do not use 13.4 m as OpenAtom spending.

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>“未履行开源许可证义务的专有软件不受法律保护” — GPL抗辩的探讨（下）</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content="">
+	
+
+<!--样式头部文件-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="author" content="Minehtink.com"/>
+
+<link rel="icon" href="/home/images/favicon.ico">
+
+<link href="/home/css/swiper.min.css" rel="stylesheet">
+<link href="/home/fonts/iconfont.css?v=1665294931" rel="stylesheet">
+<link href="/home/js/wow/animate.css" rel="stylesheet">
+<link href="/home/css/common.css?v=1738740173" rel="stylesheet">
+<script src="/home/js/jquery-1.11.1.min.js"></script>
+<script src="/home/js/swiper.min.js"></script>
+<script src="/home/js/jquery.SuperSlide.2.1.2.js"></script>
+<script src="/home/js/common.js?v=1669176444"></script>
+<script src="/home/js/jquery.form.js"></script>
+<script src="/home/js/layer/layer.js"></script>
+
+<!--统计代码-->
+
+<!-- Plugins Guestbook CSS-->
+<link rel="stylesheet" href="/plugins/sy_guestbook/view/assets/css/sy.guestbook.css">
+<script defer src="/bt-stats.js?site=e884ff30-6023-4378-8c9f-a1eb4a3a51f3&version1"></script></head>
+
+<body class="home-body">
+<!--菜单-->
+<!-- 头部 -->
+<div class="header">
+    <div class="wrap">
+        <div class="hh-logo">
+            <a href="/">
+                            <img src="/home/images/logo3_new.svg" alt="" class="bg"><img src="/home/images/logo2_new.svg" alt="" class="sm">
+                        </a>
+        </div>
+        <div class="hh-right">
+            <a href="javascript:;" class="hh-sousuo"><i class="iconfont icon-sousuo"></i><i class="iconfont icon-close1"></i></a>
+            <a href="/en" class="hh-lang"><i class="iconfont icon-earth"></i><span>EN</span></a>
+            <div class="burger" id="burger"><div class="burger-in"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div>
+        </div>
+    </div>
+</div>
+<div class="m-toper">
+    <div class="wrap clearfix">
+        <div class="hh-logo">
+            <a href="/">
+                                    <img src="/home/images/logo3_new.svg" alt="">
+                            </a>
+        </div>
+        <div class="flexSpace"></div><a href="/en" class="hh-lang"><i class="iconfont icon-earth"></i><span>EN</span></a>
+        <div class="burger" id="burger"><div class="burger-in"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div>
+    </div>
+</div>
+<div class="header-search">
+    <div class="search-mask"></div>
+    <div class="search-wrap">
+        <form action="/portal/search/index.html" method="get">
+            <i class="iconfont icon-search"></i>
+            <!-- <label>搜索关键字</label> -->
+            <input type="text" placeholder="搜索关键字" name="keyword" value="">
+        </form>
+    </div>
+</div>
+<div class="full-menus">
+    <div class="menu-mask"></div>
+    <div class="menu-wrap">
+        <div class="firstNav-group">
+            <!--menu-->
+            
+                <div class="firstNav  " >
+                    <a href="javascript:;"><span>专业领域</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>专业领域</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/1.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">融贯中西、务实创新<br />
+汉坤律师事务所是中国领先的综合性律师事务所，专注于国内、国际间复杂的商业交易和争议的解决。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                        
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/59.html"><span>文化传媒娱乐</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">文化传媒娱乐</div>
+                                        <div class="tng-desc">拥有对行业的全方位理解和丰富的实务经验。</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/3710.html"><span>境内外资本市场</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">境内外资本市场</div>
+                                        <div class="tng-desc">汉坤是享有盛誉的资本市场领域内领先中国律所，公认的资本市场交易专家。</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/42.html"><span>能源、矿产与环保</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">能源、矿产与环保</div>
+                                        <div class="tng-desc">汉坤的能源（包括新能源和传统能源）、矿产与环保团队由数十名专业人士组成。该团队成员经验丰富，均毕业于国内外一流法学院，不仅拥有出色的法律文书撰写能力，而且能够熟练运用英文、法语等多种外语进行谈判。团队合伙人执业均超过十年，业务专长覆盖能源、矿产与环保行业及相关领域。<br />
+<br />
+</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/64.html"><span>生命科学与健康医疗</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">生命科学与健康医疗</div>
+                                        <div class="tng-desc">专业的律师团队和丰富的项目经验</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/31.html"><span>兼并和收购</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">兼并和收购</div>
+                                        <div class="tng-desc">汉坤的并购业务在国内外各类权威性排名中均处于市场领先地位。</div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="secondNav ">
+                                    <a target="" href="/portal/article/index/cid/1/id/65.html"><span>境外投资</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">境外投资</div>
+                                        <div class="tng-desc">我们代表客户在中国境外进行直接投资、收购股权或资产。</div>
+                                    </div>
+                                </div>
+                            
+                            <div class="secondMore">
+                                <a href="/portal/list/index/id/1.html">查看全部</a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  notChild" >
+                    <a href="/portal/list/index/id/2.html"><span>专业人员</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>专业人员</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/2.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">精准高效、专业务实<br />
+汉坤拥有超过900名专业人员，分布在北京、上海、深圳、香港、杭州、武汉、海口、新加坡、纽约市和硅谷。汉坤的律师拥有优秀的学历背景，具有长期服务境内外客户和参与复杂跨境交易的丰富经验。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav open " >
+                    <a href="javascript:;"><span>汉坤资讯</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>汉坤资讯</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/3.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">法律思维、商业智慧<br />
+汉坤深耕于各业务领域的专家，结合最前沿的实务经验，为您提供对立法动态、法律实务和热点法律问题的及时解读。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/7.html"><span>汉坤动态</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤动态</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav open">
+                                    <a href="/portal/list/index/id/8.html"><span>汉坤观点</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤观点</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/9.html"><span>汉坤出品</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤出品</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/10.html"><span>汉坤专递</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">汉坤专递</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/11.html"><span>新法目录</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">新法目录</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  " >
+                    <a href="javascript:;"><span>关于汉坤</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>关于汉坤</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/4.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">崇尚理性、满怀激情<br />
+汉坤始终致力于为客户提供迅捷而高水准的法律服务，在快速演化的环境中高效、务实地解决客户的复杂法律问题。我们在北京、上海、深圳、杭州、武汉、海口、香港、新加坡、纽约、硅谷和伦敦均有办公网络，为您提供各领域、各地域无缝连接的多元化专业法律服务，协助您达成目标，不断迎接新的挑战。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/14.html"><span>荣誉奖项</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">荣誉奖项</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/15.html"><span>社会责任</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">社会责任</div>
+                                        <div class="tng-desc"></div>
+                                    </div>
+                                </div>
+                                                            <div class="secondNav ">
+                                    <a href="/portal/list/index/id/16.html"><span>老友汇</span><i class="iconfont icon-rightarrow"></i></a>
+                                    <div class="thirdNav-group">
+                                        <div class="tng-title">老友汇</div>
+                                        <div class="tng-desc">“汉坤老友汇计划”旨在为汉坤大家庭的所有成员搭建一个长期交流互动的平台，持续为你提供专业人士发展的资讯和平台支持，一起洞见未来的新格局与新机遇。</div>
+                                    </div>
+                                </div>
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  notChild" >
+                    <a href="/portal/list/index/id/5.html"><span>招贤纳士</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>招贤纳士</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/5.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">兼容并蓄、以人为本<br />
+汉坤拥有一支高素质的律师团队，并提供极具市场竞争性的待遇。硬件上，汉坤各办公室都位于当地的一流写字楼，具有优越的办公环境；文化上，汉坤有着和谐的人际关系、宽松的工作氛围和以人为本的企业文化。期待优秀人才加盟本所！</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+
+                <div class="firstNav  notChild" >
+                    <a href="/portal/list/index/id/6.html"><span>联系我们</span><i class="iconfont icon-rightarrow"></i></a>
+                    <div class="secondNav-group">
+                        <!-- 这里是移动端专用返回一级 -->
+                        <div class="secondBack">
+                            <i class="iconfont icon-leftarrow"></i><span>联系我们</span>
+                        </div>
+                        <div class="secondNav">
+                            <a href="/portal/list/index/id/6.html"><span>概况</span><i class="iconfont icon-rightarrow"></i></a>
+                            <div class="thirdNav-group">
+                                <div class="tng-title">概况</div>
+                                <div class="tng-desc">期待与您的真诚合作<br />
+汉坤传承优秀、追求卓越，是您随时可以依赖的法律伙伴。</div>
+                            </div>
+                        </div>
+
+                        <!-- 只有专业领域有查看全部 -->
+                                                    <!-- 子分类 -->
+                                                        <!-- 子分类 -->
+                        
+                    </div>
+                </div>
+
+            
+            <!--menu-->
+        </div>
+    </div>
+</div>
+<!-- 头部  end -->
+<!--菜单-->
+
+<div class="pageBox ">
+
+	<!-- 这个banner图片取子分类的图片 -->
+	<div class="com-banner h50-banner" >
+		<a href="javascript:;" style="cursor:initial;">
+			<div class="bgVideo">
+				<div class="pic" style="background-image: url(https://www.hankunlaw.com/upload/portal/20211130/e1c8706a056a297992fc7c17163a397e.jpg);"></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="news-detail">
+		<div class="contentHand">
+			<a href="javascript:window.history.back();"><i class="iconfont icon-return1"></i><span>返回</span></a>
+			<a href="javascript:;" class="handle-share"><i class="iconfont icon-share"></i><span>分享</span></a>
+		</div>
+		<div class="contentInfo">
+			<div class="viewTit tal">
+				<h1 class="hh1">“未履行开源许可证义务的专有软件不受法律保护” — GPL抗辩的探讨（下）</h1>
+				<div class="d gray mt20">2023-03-27</div>
+			</div>
+			<div class="artContent mt30">
+				
+<p style="margin: 11px 0px 25px; text-indent: 0em; line-height: normal;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:#00355F">作者：段志超丨鲁学振丨蒋海楠</span></strong><span style="font-size: 10px;"><sup><span style='font-family: "思源黑体 CN Regular", sans-serif; color: rgb(0, 53, 95);'>[1]</span></sup></span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">在上篇中，我们对原告软件与开源组件SharpZipLib之间的通信关系进行了技术层面的剖析，并讨论了法院对GPL传染范围的界定标准以及本案是否满足许可证中规定的Classpath Exception。作为下篇，本文将着笔于法律层面的分析，就GPL抗辩是否存在法律依据，以及未履行许可证义务的专有软件是否有权获得著作权法上的保护与各位读者探讨。</span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong><span style="font-size:16px;font-family:'思源黑体 CN Regular',sans-serif">目次：</span></strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>一、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>法院认定：被告就主程序的GPL抗辩成立</span></strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>二、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>探讨：GPL抗辩的理据及适用边界</span></strong></p>
+<ul class=" list-paddingleft-2" style="list-style-type: square;">
+<li><p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">探讨1：主程序是否是侵权演绎作品？</span></strong></p></li>
+<li><p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">探讨2：如果主程序是侵权演绎作品，其是否应予保护？</span></strong></p></li>
+<li><p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">探讨3：诚信原则在本案的适用空间</span></strong></p></li>
+</ul>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif"></span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>三、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>再思考：GPL的传染性与著作权法下演绎作品的交错</span></strong></p>
+<ul class=" list-paddingleft-2" style="list-style-type: square;">
+<li><p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">GPL</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">协议文本：传染范围及于著作权法下的</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">“演绎作品”</span></strong></p></li>
+<li><p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">FSF</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">官方问答：通信机制已成为判断传染范围的行业惯例</span></strong></p></li>
+</ul>
+<p style="line-height: 1.75em; text-indent: 0em; margin-bottom: 15px; margin-top: 15px; text-align: justify;"><strong><span style='text-decoration: underline; font-size: 14px; font-family: "思源黑体 CN Regular", sans-serif;'><br clear="all" style="page-break-before:always"></span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>一、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>法院认定：被告就主程序的GPL抗辩成立</span></strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">基于对技术焦点的审理，法院认为原告的软件可分为主程序和预览程序两个部分，其中主程序受到GPL协议约束，而预览程序与主程序相对独立未受到GPL协议约束。就此，法院将原告的诉讼请求也对应到主程序和预览程序两个部分，并作出<strong>不同认定</strong>。</span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">对于主程序，法院认为，因其受GPL协议约束但未履行开源义务，基于该部分的侵权主张不予支持。</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">就该部分的逻辑，法院分两步展开：</span></p>
+<ul class=" list-paddingleft-2" style="list-style-type: square;">
+<li><p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">第一步</span></strong><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>：由于主程序系GPL开源代码的衍生作品，受到GPL约束，原告未公开源码的行为违反了GPL协议，构成违约。违约行为导致授权人（即SharpZipLib权利人）与原告之间的许可授权自动解除，原告无权使用SharpZipLib开源代码。</span></p></li>
+<li><p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">第二步</span></strong><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>：原告在起诉被告侵权时未能从自身规范开源代码的使用，并证明自身代码的正当性，如果支持了原告的诉讼请求，将“导致一个不当、不法的行为人指责另一个实施相同行为的不当、不法行为人的逻辑怪圈”。在此基础上，“法院如果基于原告的该权利认定其他行为人构成计算机软件侵权，即会保护原告未来公司不当行为带来的收益，势必赋予其特殊法律地位和特别商事利益，不符合公平、诚信原则”，最终法院未予支持原告的侵权主张。</span></p></li>
+</ul>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">对于预览程序，法院支持了原告的侵权主张。</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">考虑到被告存在持续侵权行为，主观恶意明显，原告要求被告承担惩罚性赔偿共计300万元。法院认为，预览程序不是涉案GPL开源代码的衍生作品，未被GPL开源代码传染，不受GPL协议的约束，在进行侵权行为分析时不受GPL协议的影响。</span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">通过本案，南京中院在计算机软件著作权侵权纠纷中设立了GPL抗辩规则。</span></strong><span style=";font-family:'思源黑体 CN Regular',sans-serif">该规则可被归纳为，如果被告可举证证明原告软件未履行GPL开源义务，那么<span style="text-decoration:underline;">就软件中受到GPL协议约束的部分</span>，法院对原告的著作权侵权主张不予支持。前述<span style="text-decoration:underline;">受到GPL协议约束的部分</span>是指被GPL协议所传染的代码，判断标准为是否“与原GPL软件密切通信使得二者高度牵连融合为一体”。换言之，软件开发者无法依据已被GPL传染但未开源的自有代码向未经许可的第三人主张著作权侵权。</span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>二、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>探讨：GPL抗辩的理据及适用边界</span></strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">涉及开源软件的民事纠纷尚不多见，南京中院在本案中为强化开源软件知识产权保护贡献了司法智慧，有利于促进开源软件的传播及构建开源生态秩序。南京中院在本案中提出的GPL抗辩的理据及其适用边界值得进一步探讨。</span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">（一） 探讨</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">1：主程序是否是侵权演绎作品？</span></strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>在展开讨论之前，我们首先理清下著作权法下演绎作品的概念。演绎作品（同衍生作品）是利用已有作品的表达创作的新作品。演绎作品的作者享有著作权，但权利的对象仅限于自己的创作结果，不延及原作，演绎作品的作者在行使著作权之前必需征得原著作权人的许可</span><span style="font-size: 10px;"><sup><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[2]</span></sup></span><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>。</span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>若将原告软件视为一个整体，原告软件可视为在开源软件SharpZiplib的基础上再创作而形成的新的作品，属于该开源软件的演绎作品。开源软件SharpZiplib适用GPL协议，如深圳中院法院在罗盒案</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[3]</span></sup></span><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>以及南京中院在本案中所认定的，GPL协议可理解为附解除条件的许可合同，因未履行GPL许可证义务，原告与开源软件权利人之间的许可合同自动解除。原告未经许可使用GPL组件，其软件产品属于侵权演绎作品。<strong style="text-align: justify; white-space: normal;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'> </span></strong></span></p>
+<p style="margin: 5px 0px; text-indent: 0em; text-align: center; line-height: normal;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'><strong style="text-align: justify; white-space: normal;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'><img src="https://www.hankunlaw.com/upload/default/20230329/ddad25c7fe10f3739c586e3b087ccd34.png" title="图片1.png" alt="图片1.png"></span></strong></span></p>
+<p style="margin: 5px 0px 15px; text-indent: 0em; text-align: center; line-height: normal;"><strong style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>图1 将涉案软件整体上视为开源软件的演绎作品</strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>然而，司法实践也常将软件作品拆分为不同部分单独予以保护。本案中，南京中院认为，原告软件由主程序与预览程序组成，可以独立运行，各自构成独立的作品。这种将计算机软件作品拆分为多个作品予以保护的观点亦为最高院所认可。例如，在最高院审理的“不乱买诉闪亮时尚</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[4]</span></sup></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>”著作权侵权案件中，被告主张原告代码中含有大量开源代码，存在权属问题。对此，最高院认为“本案中不乱买公司明确其主张权利的代码为其后端代码而非前端代码，闪亮时尚公司并未举证证明不乱买公司后端代码中存在开源代码，闪亮时尚公司该上诉理由亦不能成立。”</span></p>
+<p style="margin: 5px 0px; text-indent: 0em; text-align: center; line-height: normal;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'><strong style="text-align: justify; white-space: normal;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'><img src="https://www.hankunlaw.com/upload/default/20230329/0a60b5c06b1e6ac814abfcf476201fe3.png" title="图片2.png" alt="图片2.png"></span></strong></span></p>
+<p style="margin: 5px 0px 15px; text-indent: 0em; text-align: center; line-height: normal;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'><strong style="text-align: justify; white-space: normal;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>图2 将涉案软件分模块看待</span></strong></span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>那么独立的“主程序”是否是开源软件的演绎作品呢？如前所述，演绎作品是指在保持原有作品基本表达的基础上，增加符合独创性要求的新表达而形成的作品</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[5]</span></sup></span><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>。本案中，</span><strong style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>从源代码层面而言</strong><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>，原告的主程序由原告自主创作而成，体现了原告独立的智力成果，</span><strong style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>其中不包含开源代码，不涉及对开源代码的融合。在传统的著作权法理论下，主程序不属于在保持原有开源软件基本表达（即原作品）的基础上形成的演绎作品。</strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>本案中，主程序通过链接的方式调用了开源软件，并与其进行了数据交换，这是否会影响主程序是否是开源软件演绎作品的认定？我们将在下文第三部分进一步展开分析。</span></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">（二） 探讨2：</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">如果主程序是侵权演绎作品，其是否应予保护</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">？</span></strong></p>
+<p style="margin: 15px 0px; line-height: 1.75em; text-indent: 0em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">从司法实践角度而言，我国法院已在多个案件中确定了对侵权作品的著作权保护。</span></strong><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>例如，在（2015）民申字第119号案以及（2014）穗越法知民初字第437号案中，被诉侵权人都提出与本案GPL抗辩类似的不侵权抗辩逻辑，但法院均未予以认可。此外，我们还了解到在2011年由北京市第一中级人民法院终审判决的一起著作权侵权案件中，两审法院都对违反GPL协议的软件给予了著作权法上的保护，北京市第一中级人民法院在判决中强调“原告软件本身虽然是非法演绎作品，但其本身仍是创作活动的产物，原告付出了创造性劳动，原告对于软件享有著作权，有权禁止他人使用。被告关于原告软件应遵循GPL协议成为开源代码，任何使用该软件的第三方均不构成侵权的主张，本院不予支持</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[6]</span></sup></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>。”</span></p>
+<table cellspacing="0" cellpadding="0" width="1148"><tbody>
+<tr style=";height:30px" class="firstRow">
+<td style="border: 1px solid rgb(0, 0, 0); background: rgb(204, 204, 204); padding: 0px 7px;" height="30" width="69"><br></td>
+<td style="border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-image: initial; border-left: none rgb(0, 0, 0); background: rgb(204, 204, 204); padding: 0px 7px;" height="30" width="523">
+<p style="text-align: center; line-height: 1.75em; text-indent: 0em;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:black">（2015）民申字第119号</span></strong></p>
+<p style="text-align: center; line-height: 1.75em; text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:black">最高人民法院</span></p>
+</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-image: initial; border-left: none rgb(0, 0, 0); background: rgb(204, 204, 204); padding: 0px 7px;" height="30" width="555">
+<p style="text-align: center; line-height: 1.75em; text-indent: 0em;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:black">（2014）穗越法知民初字第437号</span></strong></p>
+<p style="text-align: center; line-height: 1.75em; text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:black">广东省广州市越秀区人民法院</span></p>
+</td>
+</tr>
+<tr style=";height:61px">
+<td style="border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); border-image: initial; border-top: none rgb(0, 0, 0); padding: 0px 7px;" height="61" width="69"><p style="margin: 4px 0px; text-align: center; line-height: 1.75em; text-indent: 0em;"><strong><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">被告不侵权抗辩</span></strong></p></td>
+<td valign="top" style="border-top: none rgb(0, 0, 0); border-left: none rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="61" width="523"><p style="margin: 4px 0px; line-height: 1.75em; text-indent: 0em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">原告出版的《新译史记一八》未经许可，使用了中华书局享有著作权的点校本《史记》，属权利瑕疵。</span></p></td>
+<td valign="top" style="border-top: none rgb(0, 0, 0); border-left: none rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="61" width="555"><p style="margin: 4px 0px; line-height: 1.75em; text-indent: 0em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">原告未能提交证据证明其获得了原作品著作权人的许可。</span></p></td>
+</tr>
+<tr style=";height:86px">
+<td style="border-right: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-left: 1px solid rgb(0, 0, 0); border-image: initial; border-top: none rgb(0, 0, 0); padding: 0px 7px;" height="86" width="69"><p style="margin: 4px 0px; text-align: center; line-height: 1.75em; text-indent: 0em;"><strong><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">裁判观点</span></strong></p></td>
+<td valign="top" style="border-top: none rgb(0, 0, 0); border-left: none rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="86" width="523"><p style="margin: 4px 0px; line-height: 1.75em; text-indent: 0em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">关于三民书局是否在《新译史记一八》中使用中华书局享有著作权的点校本《史记》，以及是否构成权利瑕疵的问题，系另外的法律关系，与本案无关，本院不予评述。</span></p></td>
+<td valign="top" style="border-top: none rgb(0, 0, 0); border-left: none rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="86" width="555"><p style="margin: 4px 0px; line-height: 1.75em; text-indent: 0em;"><span style=";line-height:120%;font-family:'思源黑体 CN Regular',sans-serif">尽管嘉兴轩越公司未提交原作品著作权人同意其行使汇编作品著作权的证据，<span style="text-decoration:underline;">但不意味着其对涉案作品不享有著作权，且嘉兴轩越公司与原作品著作权人的纠纷属另案处理之范畴。</span></span></p></td>
+</tr>
+</tbody></table>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">从法理层面而言，侵权作品仍受著作权法保护符合知识产权的基本性质。</span></strong><span style='text-indent: 0em; text-decoration-line: underline; font-family: "思源黑体 CN Regular", sans-serif;'>知识产权的核心为禁用权，知识产权的享有不保证权利人有权使用智力成果，但权利人有权去禁止他人就知识产权客体的特定行为</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[</span></sup><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>7]</span></sup></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; text-decoration: none;'>。</span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>同样的，著作权专有权利的作用并不在于确认权利人有为某种行为的自由，而在于阻止他人未经许可利用其作品</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[8]</span></sup></span><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>。例如，违禁作品往往由于有悖于国家法律法规、社会道德而被认定为非法，但是并不影响违禁作品的著作权人对未经授权而出版、传播的行为主张侵权，并要求对方停止侵害。在本案中，尽管原告使用了开源代码而未履行许可证义务具有法律上的可责性（即原告存在侵权行为），但是权利有瑕疵并不等于没有权利，原告基于自有代码所享有排除他人未经许可的复制、使用的权利并不应被当然地剥夺。</span></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>因此，本文倾向于认为，即便是侵权作品，其在满足独创性要求，构成新作品的情况下，同样受到著作权法的保护，任何未经授权的复制行为都应在著作权法下得到制止。至于法院所关注的，原告是否违反了GPL协议，是否因未履行GPL开源义务而与案外人（开源软件权利人）存在违约/侵权纠纷等，这仅涉及原告是否有权使用软件中的开源代码，属于另案法律纠纷，不影响原告基于自己创作的满足独创性要求的新作品禁止他人的侵权行为。</span></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">（三） 探讨3：</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">诚信原则在本案的适用空间</span></strong></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>本案中，法院认为“开源许可协议已经成为国际软件行业内公认的有效契约文本，遵守协议文本规定也是信守诚实信用原则的体现”，“如果基于原告的该权利认定其他行为人构成计算机软件侵权，即会保护原告未来公司的不当行为带来的利益，势必赋予其特殊法律地位和特别商事利益，不符合公平、诚信原则”，基于此，法院进一步解释了不支持原告诉讼情况的合理性。法院这种将遵守开源协议等于信守诚实信用原则，并据此直接进行案件裁判的处理方式存在可探讨空间。</span></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>从司法适用的角度而言，诚实信用原则作为民法下的基本原则，其主要功能为填补法律漏洞，在法律没有具体规定时，诚实信用原则才可直接作为案件裁判的依据</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[9]</span></sup></span><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>。本案中，在著作权侵权的一般规则仍有适用余地的情况下，法院主动诉诸法律原则进行裁判有待商榷。</span></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>此外，即使遵守开源协议是诚实信用的体现，该诚实信用义务也仅存在于开源协议双方当事人而不是原被告之间。原告未履行开源义务的行为应由合同另一方当事人即SharpZipLib的权利人主张违约或侵权责任。本案中，基于自有代码提出侵权是原告与被告之间的法律关系，似乎没有适用基于开源协议文本所产生的诚信义务的空间。</span></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>诚实信用原则的适用还需兼顾社会秩序和公平正义</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[10]</span></sup></span><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>。本文倾向于认为，如果将创作过程中的违法行为和创作过程中的独创性混为一谈，否定作者对其智力投入而享有的著作权，且禁止其遏制下游的侵权行为，易引发侵权行为的持续扩张，也会对社会秩序产生一定的不利影响。</span></p>
+<p style="margin-top: 15px; margin-bottom: 15px; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>三、</span></strong><strong style="text-indent: 0em;"><span style='font-family: "思源黑体 CN Regular", sans-serif;'>再思考 — GPL的传染性与著作权法下演绎作品的交错</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">本案中，法院审理焦点始终围绕开源软件及其所适用的GPL许可证。就GPL的传染范围，法院给出了其判断标准 — “确定被传染的部分应当是与原开源软件形成密切通信使得二者高度牵连融合成一体的程序，而非只要有数据交换就会构成传染”。南京中院的上述认定也是和行业实践中的惯常做法相一致的。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">（一） GPL协</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">议文本：传染范围及于著作权法下的</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">“演绎作品”</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>然而，就在业界广泛讨论GPL“传染性”，并试图从代码通信角度对“传染”这一概念进行解构并提出相应“隔离手段”时，我们似乎忽略了GPL协议中并没有“传染”一词。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>通常认为，GPL的传染性源于GPL协议中对程序（Program）一词的定义。以GPLv2为例，GPLv2第0条规定，</span><em style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language.[下文中所说的“程序”指任何程序或作品，而“程序的衍生作品”指该程序或者著作权法下的衍生作品，即全部或部分包含了该程序的作品，无论是原样包含或做了修改，乃至翻译成了其他语言（后文中“修改”涵盖翻译）。每个许可获得者称作“你”。]</em><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>根据该规定，GPLv2的所能约束的计算机软件为“Program or any derivative work under copyright law”，意指开源软件本身以及著作权法下构成开源软件衍生作品（同演绎作品）的代码</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[11]</span></sup></span><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>GPLv2协议作者一方面拟借助著作权法下衍生作品的概念来限定开源义务约束的代码范围，但另一方面又未能明确具体适用哪一国家的著作权法对该概念进行解释，这导致实践中难以直接从法律角度对GPL协议进行解释。另一方面，GPL为格式合同且限制用户对协议文本进行修改，这进一步削弱了开源软件开发者主动向用户释明传染范围的动力。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">（二） FSF官</span></strong><strong style="text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">方问答：通信机制已成为判断传染范围的行业惯例</span></strong></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>鉴于法律难以就GPL传染问题给出标准并稳定的回答，而开源软件使用者有合法合规使用GPL组件的需求，使用者们将关注的焦点转移至了自由软件基金会（FSF）官方Q&amp;A中。各种作为风险缓释措施的技术隔离手段也非来自GPL协议文本，而是基于FSF对GPL常见问题Q&amp;A</span><span style="font-size: 10px;"><sup><span style='font-size: 10px; font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>[12]</span></sup></span><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>的总结。</span></p>
+<p style="margin: 15px 0px; text-indent: 0em; line-height: 1.75em; text-align: justify;"><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>例如，FSF认为“</span><em style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>究竟怎么区分是两个独立的程序，还是一个程序的两个部分呢？这是一个法律命题，最终会由法官来决定。我们相信合理的标准既依赖于通信的机制（exec、pipes、rpc、共享地址空间的函数调用，等等），也依赖于通信的语义（交换了什么样的信息）</em><span style='font-family: "思源黑体 CN Regular", sans-serif; text-indent: 0em;'>”。FSF从技术层面对何时相关代码属于开源软件的衍生作品，何时属于独立的程序进行了尝试性回答。实践中，这种回答也逐步取代了GPLv2协议文本中规定的“derivative work under copyright law”而成为了某种行业惯例，并最终也影响了我国法院对GPL传染问题的理解。可以认为，GPL的传染性判断规则正在与著作权法下演绎作品的概念逐步分离，这种概念的分化，也将更为深远的影响后续案件的审理。</span></p>
+<table cellspacing="0" cellpadding="0" width="1148"><tbody>
+<tr class="firstRow"><td valign="top" style="padding: 0px 7px; border-color: rgb(255, 255, 255);" width="1147"><p style="margin: 7px 0px; line-height: 1.75em; text-indent: 0em;"><span style="font-size: 16px;"><strong><span style='font-family: "思源黑体 CN Regular", sans-serif; color: rgb(0, 53, 95);'>特别声明</span></strong></span></p></td></tr>
+<tr style=";height:38px"><td valign="top" style="padding: 0px 7px; border-color: rgb(255, 255, 255);" height="38" width="1147">
+<p style="margin: 11px 0px; line-height: 1.75em; text-indent: 0em;"><span style=";font-family:   '思源黑体 CN Regular',sans-serif;color:black">汉坤律师事务所编写《汉坤法律评述》的目的仅为帮助客户及时了解中国或其他相关司法管辖区法律及实务的最新动态和发展，仅供参考，不应被视为任何意义上的法律意见或法律依据。</span></p>
+<p style="margin: 11px 0px; line-height: 1.75em; text-indent: 0em;"><span style=";font-family:   '思源黑体 CN Regular',sans-serif;color:black">如您对本期《汉坤法律评述》内容有任何问题或建议，请与汉坤律师事务所以下人员联系：</span></p>
+</td></tr>
+<tr style=";height:13px"><td valign="top" style="padding: 0px 7px; border-color: rgb(255, 255, 255);" height="13" width="1147">
+<p style="margin: 11px 0px; line-height: 1.75em; text-indent: 0em;"><strong><span style=";font-family:'思源黑体 CN Regular',sans-serif;color:#00355F">段志超</span></strong></p>
+<p style="margin: 2px 0px; line-height: 1.75em; text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">电话：   +86 10 8516 4123</span></p>
+<p style="margin-bottom: 22px; line-height: 1.75em; text-indent: 0em;"><span style=";font-family:'思源黑体 CN Regular',sans-serif">Email：kevin.duan@hankunlaw.com<a href="mailto:"></a></span></p>
+</td></tr>
+</tbody></table>
+<p style="line-height: 1.5em;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; font-size: 12px;'>[1] 实习生梁杰对本文亦有贡献。</span></p>
+<p style="line-height: 1.5em;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; font-size: 12px;'>[2] 李琛，《知识产权法关键词》，法律出版社，第80页。</span></p>
+<p style="line-height: 1.5em;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; font-size: 12px;'>[3] 案号：（2019）粤03民初3928号。</span></p>
+<p style="line-height: 1.5em;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; font-size: 12px;'>[4] 案号：（2019）最高法知民终663号。</span></p>
+<p style="line-height: 1.5em;"><span style='text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; font-size: 12px;'>[5] 王迁《知识产权法教程》，中国人民大学出版社，2021年版，第225页。</span></p>
+<p style="line-height: 1.5em;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[6] “中国法院为什么保护违反GPL软件协议的行为？”<a href="https://law.wkinfo.com.cn/judgment-documents/detail/MjAxMDA0NDA5ODI%3D?searchId=279e320ef70946a7bdf7c77783bba2bf&amp;index=1&amp;q=GPL%20%E4%B8%AD%E5%9B%BD%E6%B3%95%E9%99%A2&amp;module=">https://law.wkinfo.com.cn/judgment-documents/detail/MjAxMDA0NDA5ODI%3D?searchId=279e320ef70946a7bdf7c77783bba2bf&amp;index=1&amp;q=GPL%20%E4%B8%AD%E5%9B%BD%E6%B3%95%E9%99%A2&amp;module=</a>。</span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[7]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; letter-spacing: 1px; background: rgb(254, 255, 255);'>王迁《知识产权法教程》，中国人民大学出版社，2021年版第9页。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[8]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif; letter-spacing: 1px; background: rgb(254, 255, 255);'>王迁《知识产权法教程》，中国人民大学出版社，2021年版第226页。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[9]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>吴兆祥、陈龙业，《民法总则基本原则的解读》，载《民事审判指导与参考》2017年第1辑（总第69辑）。</span></span></p>
+<p style="line-height: 1.5em;"><span style="font-size: 12px;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[10]</span><span style="font-size: 12px; text-indent: 0em;"> </span><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>李夏旭，《诚信原则法律修正功能的适用及限度》，载《法学》2021年02期。</span></span></p>
+<p style="line-height: 1.5em;"><span style='font-size: 12px; text-align: justify; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[11] GPLv2将 "<em>Program or any derivative work under copyright law</em>" 解释为"<em>a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language</em>"。这和我国法律体系下对演绎作品的理解存在一定的偏差。例如，对开源软件少量的修改可能形成演绎作品，当综合GPLv2协议以及自由软件精神，修改后形成的新的版本（虽然未必构成演绎作品），也需要对外开源。</span></p>
+<p style="line-height: 1.5em;"><span style='font-size: 12px; text-indent: 0em; font-family: "思源黑体 CN Regular", sans-serif;'>[12] <a href="https://www.gnu.org/licenses/gpl-faq.zh-cn.html#MereAggregation">https://www.gnu.org/licenses/gpl-faq.zh-cn.html#MereAggregation</a>。</span></p>
+			</div>
+			<!--附件-->
+			<div class="mt30">
+									<a style="display: inline-block;
+		width: 160px;
+		height: 38px;
+		border: 1px solid #1363A7;
+		background: transparent;
+		color: #1363A7;
+		text-align: center;
+		cursor: pointer;
+		font-size: 14px;
+		box-sizing: border-box;
+		line-height: 36px;
+		transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		display: block;" target="_blank" class="btn-red download-btn" data-id="13031" href="https://www.hankunlaw.com/upload/portal/20230330/0201f38351b7c1a0efdc8914f0bbb4db.pdf">PDF下载</a>
+							</div>
+			<!--附件-->
+		</div>
+	</div>
+</div>
+
+
+
+<!--footer-->
+<div class="subscribeView">
+    <div class="wrap">
+        <div class="viewLeft">
+            <div class="t">汉坤 简报</div>
+            <div class="d">定期发送电子邮件，内容涵盖市场、行业趋势。</div>
+        </div>
+        <div class="viewRight">
+            <div class="label">进行订阅</div>
+            <form id="yuyuebook-form" role="form" method="post">
+                <input type="hidden" name="type" value="subscribe">
+                <input datatype="e" name="email" nullmsg="您的邮箱" errormsg="邮箱地址格式错误" type="text" class="ipt" placeholder="您的邮箱">
+                <button id="yuyuebook-submit" type="submit">订阅</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/home/js/Validform_v5.3.2_min.js"></script>
+<script>
+    //统计下载
+    $('.download-btn').click(function(){
+        const dataId = $(this).data('id');
+        if(dataId){
+            $.ajax({
+                url: "/portal/article/dodownload.html?id="+dataId ,
+                type: 'get',
+            })
+        }
+    })
+
+    var receiptForm = $("#yuyuebook-form").Validform({
+        tiptype:function(msg,o,cssctl){
+            if(o.type==3){
+                layer.msg(msg)
+            }
+        },
+        showAllError:false,
+        callback: function(){
+            $('#yuyuebook-form').ajaxSubmit({
+                url: "/portal/index/addmsg.html",
+                type: "post",
+                success: function (data) {
+                    if (data.code == 0) {
+                        layer.msg(data.msg);
+                    } else {
+                        $('#yuyuebook-form').resetForm()
+                        layer.alert(data.msg,{icon:1,title:0});
+                    }
+                }
+            });
+            return false
+        },
+        ignoreHidden: true
+    })
+</script>
+
+<div class="footer" style="background-image: url(https://www.hankunlaw.com/upload/admin/20211109/e5c4cc405b6fd1809121e4ee02e4f76c.jpg);">
+    <div class="ft-center">
+        <div class="wrap ftc-wrap">
+            <div class="ft-options">
+                <!--menu-->
+                
+                    <a href="/portal/list/index/id/1.html">专业领域</a>
+                
+
+                    <a href="/portal/list/index/id/2.html">专业人员</a>
+                
+
+                    <a href="/portal/list/index/id/3.html">汉坤资讯</a>
+                
+
+                    <a href="/portal/list/index/id/4.html">关于汉坤</a>
+                
+
+                    <a href="/portal/list/index/id/5.html">招贤纳士</a>
+                
+
+                    <a href="/portal/list/index/id/6.html">联系我们</a>
+                
+                <!--menu-->
+            </div>
+        </div>
+    </div>
+    <div class="ft-address">
+        <div class="wrap">
+            <div class="ftaddress-swiper">
+                <div class="list swiper-wrapper">
+                    
+                        <dl class="swiper-slide">
+                            <dt>北京</dt>
+                            <dd>
+                                北京市东城区东长安街1号东方广场C1座9层<br>邮编：100738<br>电话：+86 10 8525 5500<br>传真：+86 10 8525 5511/5522<br>Email：beijing@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>上海</dt>
+                            <dd>
+                                上海市静安区石门一路288号兴业太古汇香港兴业中心二座33层 <br>邮编：200041<br>电话：+86 21 6080 0909 <br>传真：+86 21 6080 0999 <br>Email：shanghai@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>深圳</dt>
+                            <dd>
+                                深圳市福田区中心四路1-1号嘉里建设广场第三座20层<br>邮编：518048<br>电话：+86 755 3680 6500<br>传真：+86 755 3680 6599 <br>Email：shenzhen@hankunlaw.com                             </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>杭州</dt>
+                            <dd>
+                                杭州市上城区三新路118号杭州国际金融中心汇西办公楼一座2001-06<br>邮编：310000<br>电话：+86 571 8532 5000<br>传真：+86 571 8532 5001<br>Email：hangzhou@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>武汉</dt>
+                            <dd>
+                                武汉市洪山区珞喻路10号群光中心31层3107-18室<br>邮编：430070<br>电话：+86 27 5937 6200<br>传真：+86 27 5937 6211<br>Email：wuhan@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>海口</dt>
+                            <dd>
+                                海口市龙华区滨海大道105号百方广场A座19层1903室<br>邮编：570100<br>电话：+86 898 3665 5000<br>传真：+86 898 3665 5011<br>Email：haikou@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>香港</dt>
+                            <dd>
+                                香港中环皇后大道中15号置地广场告罗士打大厦43楼4301-10室<br>电话：+852 2820 5600<br>传真：+852 2820 5611 <br>Email：hongkong@hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>新加坡</dt>
+                            <dd>
+                                莱佛士坊1号#53-00莱佛士坊一号1座<br>邮编：048616<br>电话：+65 6013 2999<br>传真：+65 6013 2998<br>Email：singapore@hankunlaw.com                             </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>纽约</dt>
+                            <dd>
+                                <span style="font-size:16px;">Han Kun LLP</span><br>美国纽约州纽约市麦迪逊大道551号1308室<br>邮编：10022<br>电话：+1 516 960 3600<br>传真：+1 516 960 3080<br>Email：newyork@us.hankunlaw.com                              </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>硅谷</dt>
+                            <dd>
+                                <span style="font-size:16px;">Han Kun LLP</span><br>美国加州帕洛阿托市Page Mill路425号2楼200室<br>邮编：94306-2075<br>电话：+1 650 206 7838<br>Email：siliconvalley@us.hankunlaw.com                            </dd>
+                        </dl>
+                    
+
+                        <dl class="swiper-slide">
+                            <dt>伦敦</dt>
+                            <dd>
+                                <span style="font-size:16px;">Han Kun LLP</span><br>英国伦敦皇家交易所大楼1-2号一楼<br>邮编：EC3V 3LF<br>电话：+44 20 8078 9782<br>Email：info@hankunlondon.co.uk                            </dd>
+                        </dl>
+                    
+                </div>
+            </div>
+            
+            <div class="swiper-box">
+                <div class="swiper-btn swiper-btn-prev"><i class="iconfont icon-leftarrow"></i></div>
+                <div class="swiper-btn swiper-btn-next"><i class="iconfont icon-rightarrow"></i></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        if(!isMobile()){
+            var ftofficeSwiper = new Swiper('.ftaddress-swiper', {
+                slidesPerView: isMobile() ? 1 : 4,
+                speed:600,
+                spaceBetween: 20,
+                navigation:{
+                    prevEl:'.ft-address .swiper-btn-prev',
+                    nextEl:'.ft-address .swiper-btn-next',
+                },
+            })
+        }
+    </script>
+    <div class="bottomCopyr">
+        <div class="wrap br-wrap">
+            <div class="bcleft">
+                <div class="ft-links">
+                    <a href="/portal/page/index/id/32.html">法律声明</a>
+                    <a href="/portal/page/index/id/33.html">隐私条款</a>
+                </div>
+                <a href="http://beian.miit.gov.cn" target="_blank">京ICP备07502885号-1</a>
+            </div>
+            <div class="ft-share">
+                <!--友情链接-->
+                
+                    <a href="javascript:;" data-code="https://www.hankunlaw.com/upload/admin/20220714/32da58960bcfc1fcf1c41793c99a578d.jpg" target="_self"><img src="https://www.hankunlaw.com/upload/admin/20211228/ee0b24ac97f85caaf8fe4abe46ddbf12.png" alt=""></a>
+                
+
+                    <a href="https://weibo.com/n/%E6%B1%89%E5%9D%A4%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/31196174a64a68d476fe6301e6591150.png" alt=""></a>
+                
+
+                    <a href="https://www.linkedin.com/company/han-kun-law-offices/" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/d56f6de3a76ddf29fab45cfc53a22ce5.png" alt=""></a>
+                
+
+                    <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAAx4d_q4dIUjUyYcJJicTN9nsVdyZsBTyiJXAPSn-OcPqvJoWHs9dsWmzJTBfDHcUI/?" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/9bba808114e5098a3dc8c1c2fcf89661.png" alt=""></a>
+                
+                <!--友情链接-->
+            </div>
+            <div class="ft-right">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo" class="power">Copyright ⓒ  2026  Han Kun Law Offices All Rights Reserved.</a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank"></a>
+                <a href="https://minethink.com" target="_blank" class="power">Powered by Minethink</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="shareBox">
+	<a href="javascript:;" class="close">
+		<i class="iconfont icon-close1"></i>
+	</a>
+	<!-- <div class="customShare">
+        
+            <a href="javascript:;" data-code="https://www.hankunlaw.com/upload/admin/20220714/32da58960bcfc1fcf1c41793c99a578d.jpg" target="_self"><img src="https://www.hankunlaw.com/upload/admin/20211228/ee0b24ac97f85caaf8fe4abe46ddbf12.png" alt=""></a>
+        
+
+            <a href="https://weibo.com/n/%E6%B1%89%E5%9D%A4%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/31196174a64a68d476fe6301e6591150.png" alt=""></a>
+        
+
+            <a href="https://www.linkedin.com/company/han-kun-law-offices/" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/d56f6de3a76ddf29fab45cfc53a22ce5.png" alt=""></a>
+        
+
+            <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAAx4d_q4dIUjUyYcJJicTN9nsVdyZsBTyiJXAPSn-OcPqvJoWHs9dsWmzJTBfDHcUI/?" data-code="" target="_blank"><img src="https://www.hankunlaw.com/upload/admin/20211228/9bba808114e5098a3dc8c1c2fcf89661.png" alt=""></a>
+        
+	</div> -->
+    <div class="customShare">
+    </div>
+    <link rel="stylesheet" href="/home/js/shareJs/share.min.css">
+    <script type="text/javascript" src="/home/js/shareJs/jquery.share.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $('.customShare').share({sites: ['wechat', 'weibo', 'linkedin']});
+    </script>
+</div>
+
+<a href="javascript:;" class="backTop" onclick="$('body,html').animate({scrollTop:0})"><i class="iconfont icon-xiangshangjiantou"></i></a>
+<script src="/home/js/wow/wow.min.js"></script>
+<script type="text/javascript">
+    new WOW().init();
+</script>
+<!--footer-->
+
+
+
+</body>
+</html>

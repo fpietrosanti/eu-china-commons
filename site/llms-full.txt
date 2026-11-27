@@ -435,6 +435,7 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 | 18.9 | Ask KAIYUANSHE/X-lab for the inclusion criteria of the "China" scope and for the country-attribution method behind "influence". | Note in §6 |
 | 18.10 | Resolve conflicts C1–C5 (§7.3) and check the 2023 VC tables against the Chinese edition before adding a CN equity-VC layer to data/funding. | Corrections in CN-FOUNDATIONS / FUNDING-COMPARISON |
 | 18.11 | Trace the new items of §7.3 to primaries: model licences, GPL rulings, SBOM standard 2024-1400T-SJ, GB 45438-2025, WAIC initiative, China–ASEAN and China–Russia mechanisms. | Archive + level A/B |
+| 18.11 ✔ (27 Nov, partial) | Done for GPL rulings ([GPL-CASE-LAW](GPL-CASE-LAW.md)), SBOM standards ([CRA-SBOM-CN](CRA-SBOM-CN.md): 2024-1400T-SJ is now SJ/T 12097-2026; national GB/T 47020-2026; GB 45438-2025 is AI-content labelling, not SBOM) and China–ASEAN/Russia mechanisms ([CN-ASEAN-RUSSIA-MECHANISMS](CN-ASEAN-RUSSIA-MECHANISMS.md); WAIC plan does not mention ASEAN). Model licences still open. | Archived, levels A/A-v/B |
 | 18.12 | Recompute the country × project-origin contribution matrix from OpenDigger event data, adding EU-led projects and the EU27 as one unit (indicators I1–I6 in [CONTRIBUTION-FLOWS](CONTRIBUTION-FLOWS.md)). | Matrix at level A + code |
 | 18.8 | Refresh the mirror quarterly (`git remote update` in each mirror, re-run `tools/openshare_dump.py`). | Manifest diff |
 
@@ -506,7 +507,7 @@ All the English chapters of the 2023–2025 reports and the AI Blue Paper were r
 ### 7.3 Chronicles, open-source AI, embodied AI, Web3 (511 events)
 - **New to the repo, to trace to primaries:**
   - Chinese **AI model and data licences**: OpenAtom Model License v1.0 (Sep 2024), Mulan-Qizhi (Dec 2023), Zhiyuan/BAAI (May 2023), Mulan-Magnolia Open Data License.
-  - **Court rulings on the GPL**: OfficeTen, Supreme People's Court IP Tribunal (Oct 2023); DedeCMS, Wuxi (Feb 2024).
+  - **Court rulings on the GPL**: Supreme People's Court IP Tribunal, Wangjing v Yibang ((2021)最高法知民终51号, 12 Oct 2023, about the OfficeTen software; the report calls it the "OfficeTen ruling"); DedeCMS, Wuxi (Feb 2024). Traced to primaries and compared with European case law in [GPL-CASE-LAW](GPL-CASE-LAW.md).
   - **SBOM**:
     - the SBOM Chain initiative (Sep 2024);
     - the industry standard *SBOM Data Format Specification*, project no. 2024-1400T-SJ, a direct analogue of the CRA's SBOM duty;
@@ -524,7 +525,7 @@ All the English chapters of the 2023–2025 reports and the AI Blue Paper were r
   - The EU Open Source Policy Summit 2025 explored an EU-supported long-term maintenance fund.
   - The Horizon Europe **€107 m RAISE pilot** is mentioned.
   - The 2025 report names a Commission "open source first" roadmap with a "European Open Source Sovereignty Fund"; the name and fund label are **unverified (C)**, so check against R01.
-  - It reports the **OpenHarmony × Eclipse Oniro** overseas launch and the Lasso/Orange €650k ruling.
+  - It reports the **OpenHarmony × Eclipse Oniro** overseas launch and the Lasso/Orange ruling (reported as €650k; the judgment awards €800k plus €60k costs, see [GPL-CASE-LAW](GPL-CASE-LAW.md)).
 - **Conflicts with our documents (to resolve; our A-level data prevails meanwhile):**
   - **C1:** OpenAtom's hosting of the 2024 Congress qualifies CN-FOUNDATIONS §7 finding 2 (no international cooperation in its 2026 coverage). Restate the finding as a 2024→2026 change.
   - **C2:** the report says CNY 13.384 m was awarded in the 2023 OpenAtom Competition, but OpenAtom's own 2023 accounts show CNY 5.62 m spent. The prizes may have been paid partly outside the foundation (co-organisers, local governments). Do not use 13.4 m as OpenAtom spending.
@@ -553,6 +554,842 @@ All the English chapters of the 2023–2025 reports and the AI Blue Paper were r
 - 26 Nov 2026: 18.2 and 18.3 first pass (§6): EU27/China/US shares, China in the global top 300 (2015–2025), foundations, cross-match with the external report.
 - 25 Nov 2026: OpenShare/OpenDigger dump complete. 3,409 files (181 MB) with SHA-256 in [`data/external/kaiyuanshe/openshare-manifest.tsv`](../data/external/kaiyuanshe/openshare-manifest.tsv): 3,384 leaderboard files (9 scopes × 4 group types, years 2015–2026, months 2020-01–2026-10) plus overview and geo files. The 36 404s are month 2026-11, not yet published.
 - 25 Nov 2026: corpus archived (24 repositories, live site, OpenShare/OpenDigger JSON); inventory and roadmap written.
+
+
+=== China's open-source cooperation with ASEAN and Russia: what exists, what it delivers, and what Europe could adapt — https://eu-china-commons.eu/research/china-asean-russia-mechanisms/ ===
+
+# China's open-source cooperation mechanisms with ASEAN and Russia, and whether they could be adapted for Europe
+
+China's open-source cooperation with Russia is, so far, a sequence of summit pledges with no documented meeting or project; with ASEAN it produces real activity, but state-led and mostly built around access to Chinese models and compute. This note inventories every mechanism we could trace to a primary text, separates announcements from delivered results, and tests each one for adaptation to EU–China cooperation.
+
+Research note for the EU–China Digital Commons Observatory. Compiled 27 November 2026. Evidence levels follow docs/METHODOLOGY.md §4:
+- **A**: primary text read in the original language and archived.
+- **A-v**: primary text read via relay.
+- **B**: reliable secondary source.
+- **C**: single or self-reported source.
+- **D**: unverified.
+
+Every primary cited here is archived in [`sources/archive/`](../sources/archive/) (method `research-agent` in `index.tsv`), and the full list with verbatim quotes, checked by script against the archived text, is in [`data/external/research-2026-11/asean-russia-sources.tsv`](../data/external/research-2026-11/asean-russia-sources.tsv).
+
+---
+
+## 1. Summary
+
+- **FACT (A).** China's open-source cooperation with Russia exists mainly as **treaty-style language in top-level texts**. It has moved from operating systems (2021) to "AI and open-source technologies" (2024) to a "software cooperation mechanism" (2026). The 16 May 2024 joint statement commits both sides to "建立并用好定期磋商机制加强人工智能和开源技术合作". The Russian text reads "запустить механизм регулярных консультаций в целях укрепления сотрудничества в области развития искусственного интеллекта и технологий открытого кода".
+- **FACT (A).** The prime ministers' communiqué of 3 November 2025 placed this work in an **AI Working Group under the Communications and IT Cooperation Subcommission** of the Regular Meeting of Heads of Government. It created an "AI Cooperation Expert Committee" there, described as an "analysis and consultation mechanism".
+- **FACT (A).** The communiqué of 21 October 2026 still only commits both sides to "制定并批准…专家委员会运作规程" (draft and approve the committee's rules of procedure).
+- **INFERENCE.** Two and a half years after the 2024 pledge, the consultation mechanism exists on paper. No public record of a meeting dedicated to AI and open source was found, and no joint open-source project was found.
+- **FACT (A).** China–ASEAN cooperation is **denser and more operational**, but it is **state-led and industrial-promotion oriented**.
+  - In September 2025 in Nanning, MOST published a three-year AI capacity plan for ASEAN (2025–2027), whose items include co-building "人工智能开源开放社区" (B).
+  - At the same event, MOST launched a "China–ASEAN AI Open Source Alliance" (B).
+  - NDRC and Guangxi launched a "China–ASEAN Countries AI Application Cooperation Center" whose remit includes "提供开源开放服务" (A).
+  - In January 2026 ASEAN digital ministers endorsed an **ASEAN-China Digital Work Plan for 2026** that names "open-sources" as one of its focus areas (A).
+  - MIIT and CAICT opened a China–ASEAN AI Industry Innovation Center in Beijing on 24 May 2026, with the ASEAN Secretary-General present (A).
+- **FACT (B/C).** The most concrete open-source output in ASEAN with a Chinese component is not intergovernmental. It is **AI Singapore's Qwen-SEA-LION-v4** (Nov 2025), an open-weight regional model built on Alibaba's Qwen3-32B (B).
+- **FACT (C).** A Malaysian university, UTAR, opened an OpenHarmony club with the OpenHarmony TSC chair in July 2026.
+- **FACT (B).** One year after launch, Chinese official media report Guangxi AI agreements with 8 ASEAN states, but they report **no outputs of the open-source alliance** (no repository, membership list or charter was found).
+- **INFERENCE.** The Chinese template is the same across partners:
+  - The SCO "AI Application Cooperation Center" (Tianjin, May 2025) and the ASEAN centre (Nanning, Sept 2025) use an identical four-part remit: development foundations, **open-source and open services**, industry matchmaking, and talent.
+  - "Open source" here means mainly **access to Chinese open-weight models, compute and platforms**. It does not mean jointly governed commons.
+  - The model is asymmetric: China is the provider and the partner is the recipient.
+- **Verdict for Europe:**
+  - The China–Russia model is **not adaptable**. It is a geopolitical alignment instrument, and EU sanctions and the suspension of cooperation with Russia exclude it.
+  - The China–ASEAN model is **not adaptable as a package**, because Europe is not a capacity-building recipient. **Several of its instruments are adaptable with changes**:
+    - an open-source line in an existing digital dialogue's work plan;
+    - a technical expert group;
+    - foundation-hosted joint projects instead of state-launched "alliances";
+    - reciprocal OSPO and training exchanges;
+    - transparent evaluation of open-weight models.
+  - The ASEAN-China 2026 work plan lists open source as a focus area. The **ASEAN-EU 2026 Digital Work Plan does not** (A). This is a gap in Europe's own ASEAN offer.
+
+---
+
+## 2. Mechanism inventory
+
+"Delivered" means a documented result, not an announcement. Announced items are marked *(announced)*.
+
+| # | Mechanism | Partners | Instrument | Start | Owner (CN side) | Delivered outputs | Level | Source |
+|---|---|---|---|---|---|---|---|---|
+| R1 | Cooperation on terminal OS (Aurora, HarmonyOS, openEuler) under the MIIT–Mintsifry MoU on digital technology development | CN–RU | PM regular-meeting communiqué | 30 Nov 2021 | MIIT | None documented. A Russian openEuler derivative, OpenScaler, exists as a community and company effort (C). | A (text); C (OpenScaler) | mfa-cn-ru-pm26-communique-2021-12-01.html |
+| R2 | "Regular consultation mechanism" on AI and open-source technologies | CN–RU | Heads-of-state joint statement | 16 May 2024 | Not named | No public meeting record found | A (CN + RU) | mfa-cn-ru-2024-05-16.html; kremlin-supplement-6132-ru-cn-2024-05-16.html |
+| R3 | AI Working Group plus AI Cooperation Expert Committee, under the Communications and IT Cooperation Subcommission | CN–RU | PM communiqué (intergovernmental commission) | 3 Nov 2025 (*committee announced*) | Subcommission (MIIT side inferred, not stated) | Rules of procedure still to be approved as of Oct 2026 | A | mfa-cn-ru-pm30-communique-2025-11-04.html; xinhua-cn-ru-pm31-2026-10-22.html |
+| R4 | Open-source cooperation clause (projects, communities, industrial uptake) | CN–RU | PM communiqués 2025, 2026; summit statement 2026 | Nov 2025 | Not named | None documented | A | same as R3; mfa-cn-ru-2026-05-20.html |
+| R5 | "Software cooperation mechanism" to explore | CN–RU | Heads-of-state joint statement | 20 May 2026 (*announced*) | Not named | None | A | mfa-cn-ru-2026-05-20.html |
+| R6 | Russia–China inter-agency working group (Mintsifry plus Chinese agencies) on AI | CN–RU | Ministerial working group | Before May 2026 | Not named | Manturov says it "has been created" | C | comnews-digital-silk-road-moscow-beijing-2026-05-21.html |
+| R7 | Consultations on military applications of AI | CN–RU | Foreign-ministry consultations | 20 Nov 2025 | MFA | Meeting held; no open-source content | B | profile-ru-cn-military-ai-consultations-2025-11-21.html |
+| A1 | ASEAN-China Joint Statement on a Sustainable and Inclusive Digital Ecosystem | ASEAN–CN | Leaders' joint statement (27th summit, Vientiane) | 10 Oct 2024 | MFA / MIIT | Basis for the 2026–2030 action plan. The statement **does not mention open source**. | A | asean-china-2024-joint-statement-digital-ecosystem.pdf |
+| A2 | MOST three-year work plan on AI capacity for ASEAN (2025–2027): local-language LLMs, compute alliance, "co-build AI open-source/open communities" | ASEAN–CN | Unilateral ministry plan, presented at a conference | 16 Sep 2025 | MOST (Intl. Cooperation Dept.), Guangxi | Training courses (see A7); target "AI cooperation system by 2027" | B (full text not found) | chinanews-most-asean-ai-plan-2025-09-16.html |
+| A3 | China–ASEAN AI Open Source Alliance (中国—东盟人工智能开源联盟) | ASEAN–CN | State-launched alliance, presented as a project supporting the China–ASEAN AI Innovation Cooperation Center | 16 Sep 2025 | MOST / Guangxi | **None found.** No charter, members or repository located. | B (launch); D (activity) | chinanews-most-asean-ai-plan-2025-09-16.html |
+| A4 | China–ASEAN Countries AI Application Cooperation Center ("南A中心", Nanning) | ASEAN–CN | NDRC-led centre, provincial implementation | 18 Sep 2025 | NDRC, Guangxi gov. | By Dec 2025: 61 domestic AI projects signed, 54 "AI+" opportunity lists, 84 ASEAN scenario demands, 14 ASEAN firms signed. These figures are self-reported. | A (launch); C (figures) | ndrc-cn-asean-ai-ministerial-roundtable-2025-09-18.html; stdaily-2026-10-13-guangxi.html |
+| A5 | China–ASEAN AI Ministerial Roundtable and proposed "China–ASEAN AI ministerial cooperation mechanism" | ASEAN–CN | Ministerial roundtable | 18 Sep 2025 (*mechanism proposed*) | NDRC, Guangxi | Roundtable held; mechanism status unknown | A | ndrc-cn-asean-ai-ministerial-roundtable-2025-09-18.html |
+| A6 | ASEAN-China Digital Work Plan 2026 (focus: policy alignment, infrastructure, **open-sources**, security) and Action Plan 2026–2030 | ASEAN–CN | ADGMIN+China work plan, endorsed by ASEAN ministers | 16 Jan 2026 | MIIT | Endorsed; implementation reports not yet published | A | adgmin6-jms-2026-digital-go-jp.pdf; chinadaily-adgmin6-china-2026-01-16.html |
+| A7 | ASEAN "AI+" industrial talent training course (15 days; 20+ participants from 8 ASEAN states) | ASEAN–CN | Government training programme | 20 Jul 2026 | MOST Intl. Cooperation Dept.; Guangxi ASEAN Technology Transfer Center | Course held | B | stdaily-2026-07-21.html |
+| A8 | China–ASEAN AI Industry Innovation Center (Beijing; Guangxi sub-centre from 17 Sep 2026) | ASEAN–CN | MIIT/CAICT centre under the ADGMIN+China channel | 24 May 2026 | MIIT, CAICT | Inaugurated; ASEAN SG speech | A (SG remarks) | asean-sg-remarks-china-asean-ai-industry-innovation-center-2026-05.pdf |
+| A9 | Qwen-SEA-LION-v4 (open-weight regional LLM on Qwen3-32B) | AI Singapore (SG national programme) plus Alibaba Cloud | Company–national programme collaboration | 24 Nov 2025 | Alibaba (company) | Model released, free download on AISG site and Hugging Face | B (company press release; multiple media) | alibabacloud-qwen-sea-lion-v4-2025-11-24.html |
+| A10 | UTAR OpenHarmony club (Malaysia) | UTAR plus OpenHarmony TSC / Huawei | University–community link | 1 Jul 2026 | Huawei / OpenHarmony TSC | Club inaugurated | C | thestar-utar-openharmony-club-2026-07-19.html |
+| O1 | China–SCO AI Application Cooperation Center (same four-part remit incl. "提供开源开放服务") | SCO–CN | NDRC-led centre | 29 May 2025 | NDRC, Tianjin | Not assessed | B | xinhua-china-sco-ai-forum-2025-05-30.html |
+| O2 | China–BRICS AI Development and Cooperation Center (at CAICT) | BRICS–CN | MIIT-led centre | 19 Jul 2024 | MIIT, CAICT | First overseas "transfer centre" (Kuaishou, Brazil, May 2025) | C | search summary only (not archived) |
+| O3 | Global AI Governance Action Plan, point 5 ("打造跨国开源社区和安全、可靠开源平台"; open-source compliance and community security guidelines) | Global | Unilateral Chinese action plan (WAIC) | 26 Jul 2025 | MFA / WAIC | Text | A | mfa-global-ai-governance-action-plan-2025-07-26.html |
+| O4 | World AI Cooperation Organization (29 founding states incl. Russia, Indonesia, Laos, Cambodia) | Global | Intergovernmental treaty organisation, HQ Shanghai | 16 Jul 2026 | MFA | Agreement signed | A | mfa-en-waico-2026-07-17.html |
+| O5 | NDRC "AI Cooperation Development Action Plan", action 3 "开源生态共享行动" | Global | Unilateral Chinese plan | 17 Jul 2026 | NDRC | Text | A | ndrc-ai-cooperation-action-plan-2026-07-17.html |
+| O6 | APEC Digital and AI Ministerial (Chengdu): "open source" raised to APEC ministerial level for the first time | APEC | Ministerial statement (China host) | 23 Jul 2026 | MIIT | Text (as reported by MIIT minister) | B | thepaper-apec-digital-ai-ministerial-2026.html |
+
+---
+
+## 3. China–ASEAN
+
+### 3.1 Formal layer: ADGMIN+China
+
+- **FACT (A).** On 10 October 2024, at the 27th ASEAN-China Summit, the parties adopted the *ASEAN-China Joint Statement on Facilitating Cooperation in Building a Sustainable and Inclusive Digital Ecosystem*.
+  - It covers policy exchange, infrastructure, emerging technologies including "best practices in artificial intelligence principles, development, safety and governance", digital security and literacy.
+  - **It does not mention open source.**
+  - It names the ASEAN-China Digital Ministers' Meeting as the delivery mechanism.
+- **FACT (A).** The 6th ADGMIN (Hanoi, 15–16 January 2026) recorded four China items:
+  - It "noted the establishment of the China-ASEAN AI Industry Innovation Center and the China-ASEAN Digital Academy".
+  - It "endorsed the Action Plan for China-ASEAN Cooperation on Building a Sustainable and Inclusive Digital Ecosystem (2026–2030)".
+  - It also endorsed the "ASEAN-China Digital Work Plan for 2026 focusing on policy and strategy alignment, digital infrastructure, open-sources, digital security and trust".
+  - China was represented by MIIT Vice-Minister Zhang Yunming (B, China Daily).
+- **FACT (A).** In the same statement the ASEAN-EU 2026 Digital Work Plan covers:
+  - secure and trusted connectivity;
+  - AI governance;
+  - digital platforms and online scams;
+  - digital standards;
+  - digital trade;
+  - Earth observation.
+
+  It does **not** list open source. The text of the 2026 work plans themselves was not found.
+- **FACT (A).** On 24 May 2026 the ASEAN Secretary-General opened the **China-ASEAN AI Industry Innovation Center** in Beijing. In his speech:
+  - He thanked MIIT and CAICT and called the inauguration the implementation of the 2026–2030 Action Plan.
+  - He urged "low-cost, replicable Large Language Models tailored to ASEAN needs".
+  - He announced an ASEAN AI Safety Network (AI SAFE) with regulatory-sandbox cooperation "between ASEAN and China".
+  - He said ACFTA 3.0, signed in October 2025, contains Digital Economy chapters.
+  - He said DEFA was "set for signing in November 2026".
+
+  The speech does not mention open source.
+
+### 3.2 Operational layer: Guangxi as the delivery platform
+
+- **FACT (B).** On 16 September 2025 MOST published in Nanning the *面向东盟人工智能赋能发展科技能力提升行动三年工作方案(2025-2027)*. Its main items are:
+  - joint R&D;
+  - LLMs in local languages;
+  - sector scenarios;
+  - visiting scientists;
+  - a China–ASEAN AI cooperation network;
+  - a China–ASEAN AI Compute Alliance;
+  - "携手开展人工智能全球治理，共建人工智能开源开放社区，推动模型开源和基础设施开放共享".
+
+  The target is "到2027年…基本建立中国与东盟各国的人工智能合作体系". Officials from Cambodia, Indonesia, Laos and Malaysia reportedly endorsed it. The full text was not found on most.gov.cn.
+- **FACT (B).** The same day, a "China–ASEAN AI Open Source Alliance" was launched as one of the projects supporting the China–ASEAN AI Innovation Cooperation Center.
+  - **NOT VERIFIED:** founders, members, governance, licence policy, repositories and platform. No trace was found in follow-up reporting from 2026.
+- **FACT (A).** On 18 September 2025 NDRC and the Guangxi government co-hosted the 2025 China–ASEAN AI Ministerial Roundtable. The roundtable:
+  - launched the **China–ASEAN Countries AI Application Cooperation Center**, explicitly to implement Xi's SCO+ pledge on "人工智能应用合作中心";
+  - set the centre's remit as "夯实人工智能发展基础、提供开源开放服务、加强产业合作对接、促进人才培育";
+  - proposed a China–ASEAN "AI+" action;
+  - proposed a **China–ASEAN AI ministerial cooperation mechanism**.
+
+  ASEAN states and observer states sent representatives of their AI authorities.
+- **FACT (B, figures C).** The centre ("南A中心") follows a "北上广研发+广西集成+东盟应用" path, with R&D in Beijing, Shanghai and Guangzhou, integration in Guangxi, and application in ASEAN. Nanning has issued 22 support measures. Self-reported results as of December 2025 are 61 domestic AI projects signed, 54 "AI+" opportunity lists, 84 ASEAN scenario demands and 14 ASEAN firms signed.
+- **FACT (B).** On 20 July 2026 MOST's International Cooperation Department ran a 15-day "AI+" training course in Nanning. It had 20+ participants (executives, researchers and officials) from Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Thailand and Viet Nam. The Guangxi ASEAN Technology Transfer Center hosted it.
+- **FACT (B, C for figures).** At the September 2026 technology-transfer conference, Xinhua and S&T Daily reported three things:
+  - One year after the plan, Guangxi had AI cooperation with 8 ASEAN states.
+  - "ASEAN sets the problem, Guangxi publishes the challenge" scenarios were released covering 7 ASEAN states.
+  - Since 2013 China has bilateral technology-transfer mechanisms with 9 ASEAN states and has trained 1,400+ technical staff.
+
+  **Neither report mentions the open-source alliance.**
+- **FACT (B).** A September 2026 S&T Daily report describes iFlytek's "Spark ASEAN multilingual LLM" and private deployment, CSG power-line AI in Laos, and Runjian (80+ compute and data-centre projects in ASEAN). These are commercial deployments, not open-source projects.
+
+### 3.3 Company and community layer
+
+- **FACT (B).** On 24 November 2025 AI Singapore, the national programme launched by Singapore's National Research Foundation, released **Qwen-SEA-LION-v4**:
+  - It is "built on Alibaba's Qwen3-32B foundation model".
+  - It is free to download from AISG and Hugging Face.
+  - AISG contributed "open-source region-specific data curation".
+  - Media reported the switch from Meta's Llama family (B, TechNode, SCMP, Computer Weekly).
+
+  **INFERENCE.** This is the clearest delivered "China–ASEAN open-source AI" output, and it came from company-to-programme cooperation on open weights, not from an intergovernmental mechanism. The licence was not checked in this pass.
+- **FACT (C).** On 1 July 2026 Universiti Tunku Abdul Rahman (Malaysia) inaugurated an OpenHarmony club, described as the first outside China. Huawei's Chen Haibo, who chairs the OpenHarmony TSC, co-officiated. OpenAtom is not mentioned.
+- **FACT (C).** openEuler exhibited at FOSSASIA Summit 2024 (Viet Nam participants mentioned). These are not structured ASEAN programmes.
+- **NOT FOUND:** Gitee or ModelScope international programmes targeting ASEAN, and OpenAtom MoUs with ASEAN governments or foundations.
+
+### 3.4 Governance reading
+
+- **INFERENCE.** The China–ASEAN layer stacks several instruments:
+  - leaders' statements (A1);
+  - ministerial work plans in an ASEAN-owned forum (ADGMIN, A6);
+  - Chinese unilateral ministry plans presented to ASEAN (A2);
+  - state-launched alliances and centres hosted by a Chinese province (A3, A4, A8);
+  - company deals (A9, A10).
+- **INFERENCE.** Funding is Chinese central and provincial (Nanning's 22 measures). No ASEAN co-funding was found.
+- **INFERENCE.** Three ministries run parallel China–ASEAN AI centres: MOST (innovation centre and alliance), NDRC (application centre) and MIIT/CAICT (industry innovation centre). This suggests inter-ministerial competition, not one designed programme.
+- **INFERENCE.** "Open source" is used in two senses:
+  - mainly, as access to Chinese open-weight models, compute and tooling for ASEAN users;
+  - only secondarily, as jointly governed communities.
+
+  No evidence was found of ASEAN maintainers in governance roles in Chinese foundations.
+
+---
+
+## 4. China–Russia
+
+### 4.1 Text trail (all A unless stated)
+
+| Date | Document | Open-source wording |
+|---|---|---|
+| 30 Nov 2021 | 26th PM regular meeting communiqué | Cooperation in terminal operating systems, "包括极光、鸿蒙、欧拉操作系统", under the MIIT–Mintsifry MoU on digital technology development |
+| 16 May 2024 | Heads-of-state joint statement, 75th anniversary | ICT list includes "开源" / "открытый исходный код"; and "建立并用好定期磋商机制加强人工智能和开源技术合作" / "запустить механизм регулярных консультаций… искусственного интеллекта и технологий открытого кода" |
+| 8 May 2025 | Heads-of-state joint statement, 80th anniversary of victory | **No "开源"**. The AI paragraph refers to the China–BRICS AI Development and Cooperation Center and the AI capacity-building plan. |
+| 3–4 Nov 2025 | 30th PM communiqué (Hangzhou) | Creates the AI Cooperation Expert Committee within the subcommission's AI Working Group "作为分析与协商机制". Separate open-source clause: "在开源领域持续加强合作，鼓励企业、开发者等积极拥抱开源，共同打造优质开源项目和社区，推动优质开源成果在重点行业的产业化落地". Also CAC–Roskomnadzor exchanges. |
+| 20 May 2026 | Heads-of-state joint statement (treaty extended) | "双方商定探索建立软件合作机制，共同赋能数字基础设施建设。深化开源领域合作交流…" |
+| 21 Oct 2026 | 31st PM communiqué (St Petersburg) | "制定并批准人工智能合作专家委员会运作规程"; "持续加强软件领域开源合作…推动在工业领域重点行业推广". Also: joint AI conference in China in 2027; federated-learning pilot; MOST–Russian Ministry of Economic Development innovation MoU (20 May 2026); resumption of the 4th China–Russia Innovation Dialogue. |
+
+### 4.2 Did the consultation mechanism meet?
+
+- **NOT VERIFIED.** No dated meeting of an "AI and open-source consultation mechanism" was found in Chinese or Russian sources (MFA, gov.cn, Kremlin, Russian press).
+- **FACT (A).** The 2025 and 2026 PM communiqués place AI cooperation in the **AI Working Group of the Communications and IT Cooperation Subcommission**. The 2026 communiqué shows the expert committee's rules were still not approved.
+- **FACT (C).** In May 2026 First Deputy PM Manturov said a Russian–Chinese inter-agency working group of Mintsifry and Chinese agencies "has been created" (ComNews). The same article finds no open-source content in practical Russia–China digital cooperation.
+- **FACT (B).** On 20 November 2025 Moscow hosted Russia–China foreign-ministry consultations on military applications of AI. Open source was not mentioned.
+- **INFERENCE.** The 2024 "regular consultation mechanism" has most likely been folded into the existing subcommission structure. No public output is documented (no minutes, projects or repositories). The level is not verified.
+
+### 4.3 Russian open-source context
+
+- **FACT (B).** On 18 October 2024 a Linux kernel MAINTAINERS patch removed about a dozen entries, most of them Russian maintainers, "due to various compliance requirements". kernel.org's administrator linked the removals to employers on US/EU sanctions lists. Linus Torvalds publicly backed the removal (The Register, Heise, LWN). Their code remained in the tree.
+- **FACT (C).** GitFlic, a Russian code-hosting platform, belongs to Resolute, which is controlled by Astra Group (CNews, Oct 2024). Mintsifry's national open-source repository experiment (2022–2024, operator ANO "Открытый код") was reoriented to existing platforms and then to rules for domestic repositories. This comes from secondary search results; the Mintsifry primary was not fetched.
+- **FACT (C).** OpenScaler is a Russian community distribution derived from openEuler. The company "Личи Технологии" offers paid support, including on Yandex Cloud Marketplace. It is the only concrete Russian product found that is based on a Chinese open-source operating system.
+- **NOT VERIFIED.** Any Russian distribution of OpenHarmony; any role for Kaspersky or Yandex in China–Russia open-source cooperation.
+- **NOT FETCHED (B, from background knowledge).** GitHub restricted accounts of sanctioned Russian entities from 2022. Re-fetch before publishing.
+
+### 4.4 Reading
+
+- **INFERENCE.** For Russia, open-source cooperation with China is a **substitute channel** after sanctions cut it off from Western foundations and platforms (see the kernel episode).
+- **INFERENCE.** For China, it adds a partner to the "against politicisation of technology" narrative found in the 2025 and 2026 statements.
+- **INFERENCE.** The delivery record is thin. The text has escalated (consultation, then expert committee, then software mechanism) while documented outputs stay at zero.
+
+---
+
+## 5. Other comparable mechanisms
+
+- **SCO (B).** On 29 May 2025 NDRC and Tianjin published the *中国—上合组织国家人工智能应用合作中心建设方案*. Its four-part remit is identical to the ASEAN centre's and includes "提供开源开放服务".
+  - **FACT (A).** The SCO heads-of-state statement on AI (1 September 2025) does not contain "开源".
+  - **INFERENCE.** Nanning copies the Tianjin design.
+- **BRICS (C).** The China–BRICS AI Development and Cooperation Center was launched at CAICT on 19 July 2024. MIIT Vice-Minister Shan Zhongde attended. No open-source content was found.
+- **Africa.**
+  - **FACT (A-v via secrss).** The *China–Africa Digital Cooperation Development Action Plan* (29 July 2024) proposes "共建人工智能合作中心" but contains no "开源".
+  - **NOT VERIFIED.** The KAIYUANSHE lead that MIIT promoted openEuler in Africa in July 2024.
+- **Global layer.**
+  - **FACT (A).** Point 5 of the WAIC *Global AI Governance Action Plan* (26 July 2025, 13 points) calls for cross-border open-source communities, secure open-source platforms, open-source compliance systems and community security guidelines.
+  - **FACT (A).** Point 12 covers capacity building for developing countries generally.
+  - **FACT (A).** **The plan does not mention ASEAN.** This corrects the KAIYUANSHE lead.
+  - **FACT (A).** NDRC's *人工智能合作发展行动计划* (17 July 2026), action 3, adds "协同制定开源合规体系与安全准则" and "支持各国基于开源模型开展本土化创新".
+  - **FACT (A).** The WAICO founding agreement was signed on 16 July 2026 by 29 states, including Russia, Indonesia, Laos and Pakistan.
+  - **FACT (B).** The APEC Digital and AI Ministerial (Chengdu, July 2026) raised "open source" to APEC ministerial level for the first time, according to MIIT.
+- **MIIT "International AI Open Source Cooperation Initiative".**
+  - **FACT (C).** It was announced on 10 July 2025 for release at WAIC with OpenAtom, CSDN and OSChina (aibase).
+  - **NOT VERIFIED.** Whether it was actually released.
+  - **FACT (B).** In October 2026 MIIT referred to building the AI open-source community **AtomGit**.
+
+---
+
+## 6. Adaptability matrix for Europe
+
+EU baseline (from this repo's EU-CN-COOPERATION-MAP, level A):
+- The EU–China High-Level Digital Dialogue is dormant; its last round was in September 2023.
+- The EU–China ICT Dialogue (DG CONNECT–MIIT) has not met since 2020; resumption was agreed in 2023.
+- The Cross-Border Data Flow Communication Mechanism is active (2024; 2nd meeting July 2025).
+- The Joint Steering Committee on S&T is active.
+
+Legal anchors:
+- the Council Recommendation on research security, C/2024/3510 (A, EUR-Lex);
+- the CRA, including open-source steward obligations;
+- NIS2;
+- the EU restrictive measures on Russia;
+- the EU dual-use regulation;
+- the AI Act obligations for GPAI providers and modifiers.
+
+| Mechanism (ref) | Instrument type | What it actually delivers | Dependencies created | EU law and values compatibility | Verdict | EU–China version |
+|---|---|---|---|---|---|---|
+| CN–RU regular consultation on AI and OSS (R2) | Heads-of-state joint statement | Political signal; no documented meetings | Russian reliance on Chinese platforms (OpenScaler / openEuler) | **Incompatible for EU–Russia.** EU sanctions, the suspension of R&I cooperation with Russian public entities since 2022, and foundation compliance practice (kernel 2024) exclude it. For EU–China, a summit-level pledge without a work plan repeats the CN–RU failure mode. | **Not adaptable** (EU–RU). Not useful as a template (EU–CN). | None. Use it as a negative lesson: a pledge without a body, rules and minutes delivers nothing. |
+| CN–RU AI Working Group and Expert Committee (R3) | Working group under an intergovernmental commission; expert committee with industry and academia | Not yet operational (rules pending, Oct 2026) | None yet | The **form** (expert committee under a sectoral subcommission) matches EU practice, e.g. the ICT Dialogue working groups. The content (sovereignty, regulation coordination against "politicisation") does not. | **Adaptable with changes** (form only, EU–CN) | **E1:** a technical expert group on open-source supply-chain security under the ICT Dialogue or Digital Dialogue, with published ToR and minutes and multistakeholder observers (foundations, OSPOs). |
+| CN–RU "software cooperation mechanism" (R5) | Summit pledge | Nothing yet | — | Not applicable to the EU. EU–China software cooperation is market-based and subject to CRA, NIS2 and procurement rules. | **Not adaptable** | — |
+| ADGMIN+China work plan with an "open-sources" line (A6) | Annual ministerial work plan in a partner-owned forum | Work plan endorsed; implementation reports pending | Low by itself | Compatible: it is a dialogue work-plan item. | **Adaptable** | **E2:** add an "open source and digital commons" line to the work plan of the EU–China Digital Dialogue or ICT Dialogue when they resume. **E2b (EU–ASEAN):** add open source to the ASEAN-EU Digital Work Plan 2027, closing the gap with ASEAN-China 2026. |
+| MOST three-year AI capacity plan (A2) | Unilateral donor plan presented to partners | Training, scenarios, LLMs in local languages | High. Partners depend on Chinese models, compute and integrators (the "北上广研发+广西集成+东盟应用" design). | The EU is not a recipient. The donor–recipient asymmetry is inapplicable, and the Global Gateway already plays this role for the EU in ASEAN. | **Not adaptable** (EU–CN) | Reciprocal version only (E4). |
+| China–ASEAN AI Open Source Alliance (A3) | State-launched alliance | Nothing documented | Unknown | Opaque membership and governance conflict with open-governance norms. Research-security due diligence would be hard. | **Adaptable with changes** | **E3:** joint projects hosted by a **neutral foundation** under existing open governance (e.g. Eclipse Foundation or Linux Foundation Europe with OpenAtom; the OpenHarmony × Eclipse Oniro precedent, KAIYUANSHE C). Requirements: open membership, public repositories, IP policy, sanctions and export-control screening of members. |
+| AI Application Cooperation Centers, SCO / ASEAN (A4, O1) | NDRC centre with provincial implementation | Deal pipeline: projects signed, demand lists | High. Commercial market access for Chinese AI firms. | An industrial-promotion vehicle, not a commons. Data, AI Act and procurement issues would arise in the EU. | **Not adaptable** | — |
+| MIIT/CAICT AI Industry Innovation Center (A8) | Ministry-affiliated centre | Showcase, dialogue, standards coordination | Medium | CAICT is MIIT-affiliated. Standards coordination is compatible via ETSI/CEN-CENELEC channels, but not via a China-hosted centre. | **Adaptable with changes** | Standards and OSS-compliance exchange inside E1. No physical centre. |
+| Training courses (A7) | Government-funded short courses | 20+ trainees per course | Soft dependency (network, product familiarity) | Reciprocal exchanges are compatible, subject to research security (C/2024/3510). | **Adaptable with changes** | **E4:** reciprocal OSPO-to-OSPO exchange: EU OSPO network / OSOR and university OSPOs with Chinese university OSPOs. Short, symmetric, public curricula, and no sensitive technologies. |
+| Qwen-SEA-LION (A9) | Company plus public programme, open weights | Released regional model | Model-lineage dependency on Qwen. Licence and update cadence controlled by Alibaba. | Compatible if licence terms are met. AI Act GPAI duties fall on modifiers in scope. A security evaluation is advisable. | **Adaptable with changes** (it already happens de facto) | **E5:** EU public LLM programmes publish open, reproducible evaluations (safety, bias, provenance) of Chinese open-weight bases before use. A joint benchmark on European low-resource languages with Chinese labs is possible on neutral infrastructure. |
+| UTAR OpenHarmony club (A10) | University–community link | One club | Low | Compatible | **Adaptable** | Already exists in EU form (Oniro). Extend it through student-club and maintainer-mentoring programmes. |
+| WAIC Action Plan pt 5 / NDRC plan action 3 (O3, O5) | Unilateral global plans | Text | — | Shared topics with the CRA: OSS compliance and security guidelines | **Adaptable with changes** (as an agenda) | E1 agenda item: compare CRA steward obligations with China's SBOM standards SJ/T 12097-2026 (project 2024-1400T-SJ) and GB/T 47020-2026 ([CRA-SBOM-CN](CRA-SBOM-CN.md)) and open-source compliance guidelines. |
+| WAICO (O4) | Treaty organisation, HQ Shanghai | Organisation established | Institutional dependency on a China-hosted body | The EU and its member states are not founders (as reported). Joining is a political decision beyond this project's scope. | **Not adaptable** (as a channel for this project) | Engage through the UN Global Dialogue on AI Governance instead. |
+
+---
+
+## 7. Concrete proposals
+
+These are recommendations (INFERENCE), ranked by feasibility.
+
+1. **E2: an open-source line in an existing dialogue.** When the EU–China High-Level Digital Dialogue or the ICT Dialogue resumes, add a work-plan item called "open source and digital commons".
+   - Model: the ASEAN-China 2026 work plan line, but with EU-style transparency (public agenda and outcome note).
+   - No new body is needed.
+   - Owners: DG CONNECT with MIIT. The EU-CN-COOPERATION-MAP already identifies the HL Digital Dialogue as owner (map row 1).
+2. **E1: a technical expert group on open-source supply-chain security.** This is the EU counterpart of the China–Russia "expert committee", but with published ToR and minutes and foundation observers. Agenda:
+   - CRA open-source steward obligations against China's SBOM data-format standards ([CRA-SBOM-CN](CRA-SBOM-CN.md)) and OSS compliance guidelines (WAIC pt 5, NDRC action 3);
+   - vulnerability-disclosure interoperability (CVE / CNVD);
+   - licence-compliance case law ([GPL-CASE-LAW](GPL-CASE-LAW.md)).
+3. **E3: neutral-foundation hosting rule.** Any EU-supported joint project with Chinese partners is hosted by an established open-governance foundation. A state-launched "alliance" is not acceptable. Members are screened against EU sanctions lists, which matters because several EU Russia packages list Chinese entities (B, not re-fetched).
+4. **E4: reciprocal OSPO exchanges.** Run symmetric 1–2 week exchanges between EU and Chinese public-sector and university OSPOs on topics such as governance, licence compliance, maintainer funding and procurement. These are reviewed under the 2024 research-security Recommendation.
+5. **E5: transparent evaluation of open weights.** EU-funded LLM programmes publish reproducible evaluations of Chinese open-weight base models before using them. This would make the de facto "Qwen-SEA-LION" pattern auditable.
+6. **E2b: EU–ASEAN.** Propose an open-source item for the ASEAN-EU Digital Work Plan 2027 and for a Global Gateway SCOPE-Digital component. This would give ASEAN partners a jointly governed option beside the Chinese model-access offer.
+7. **Russia: no adaptation; monitor instead.** Track the China–Russia expert committee and software mechanism (31st PM communiqué follow-up, 2027). Flag any project in which EU-hosted foundations could be asked to accept sanctioned entities through Chinese intermediaries.
+
+---
+
+## 8. Not verified, corrections, and open questions
+
+**Corrections to the KAIYUANSHE leads (level C):**
+- **Lead 1 (China–Russia, May 2024): confirmed (A)** in both the Chinese and the Russian text.
+- **Lead 2a (MIIT "International AI Open Source Cooperation Initiative"):** the announcement is confirmed (C). Its release at WAIC 2025 is **not verified**.
+- **Lead 2b (MOST China–ASEAN AI open-source community):** **partly confirmed (B).**
+  - The MOST plan says "共建人工智能开源开放社区".
+  - The body actually launched is a "China–ASEAN AI Open Source Alliance".
+  - No community platform was found.
+- **Lead 3 (WAIC action plan):** the 13 points are confirmed and point 5 is confirmed (A). **"China–ASEAN capacity building" is not in the text**; point 12 is generic. Correction.
+- **Lead 4 ("co-builds communities with ASEAN"):** **not supported** by any delivered community found. It is an aspiration (C).
+
+**Open questions:**
+1. Membership, charter and repositories of the China–ASEAN AI Open Source Alliance. Next step: ask the Guangxi S&T Department and the China–ASEAN Technology Transfer Center.
+2. Full texts of the MOST 2025–2027 plan, the ASEAN-China Digital Work Plan 2026 and Action Plan 2026–2030, and the ASEAN-EU Digital Work Plan 2026.
+3. Whether the "China–ASEAN AI ministerial cooperation mechanism" (proposed September 2025) has met.
+4. Dates and minutes of meetings of the China–Russia Communications and IT Subcommission AI Working Group, 2024–2026. The Russian text of the 30th and 31st communiqués (government.ru) was not fetched.
+5. Licence of Qwen-SEA-LION-v4 and the Qwen3 base. Whether AISG's funding comes from the National Multimodal LLM Programme.
+6. The openEuler-in-Africa lead (July 2024) and Huawei's OpenHarmony/openEuler work in the Middle East (opensourceforu, Nov 2025; not fetched).
+7. The ChinaDaily claim that the 2026 ASEAN-China work plan includes "open-source technologies" exchanges is consistent with the ADGMIN statement (A). Concrete activities are unknown.
+8. Mintsifry's primary decision on the national repository, and the GitHub 2022 restrictions. Both need a primary re-fetch.
+9. Whether any EU member state already runs an open-source item in a bilateral China dialogue (cross-check the EU-CN-COOPERATION-MAP member-state rows).
+
+
+=== GPL in court: Chinese and European case law compared — https://eu-china-commons.eu/research/gpl-case-law/ ===
+
+# GPL in court: China and Europe compared
+
+Chinese courts now enforce the GPL as a binding contract, much as German and French courts do, and China's Supreme People's Court has gone further than any European court on one question: a developer that breaches the GPL still owns the copyright in its own code. This note compares 9 Chinese and 10 European cases (including the CJEU), traced where possible to the judgments, and draws the consequences for European and Chinese contributors working on each other's projects.
+
+Research note for the EU–China Digital Commons Observatory. Compiled 27 November 2026.
+Evidence levels follow `docs/METHODOLOGY.md` §4. A = primary text read in the original language. A-v = primary text read through a relay, translation or OCR. B = reliable secondary source. C = single secondary source. D = unverified lead, never stated as fact.
+Archived copies are in [`sources/archive/`](../sources/archive/) (method `research-agent` in `index.tsv`). Every URL is listed in [`data/external/research-2026-11/gpl-sources.tsv`](../data/external/research-2026-11/gpl-sources.tsv) with a verbatim quote, checked by script against the archived text.
+
+---
+
+## Key findings
+
+1. **FACT (A).** China's Supreme People's Court (SPC) has decided two GPL appeals on the merits. They are *Luohe v Fengling* ((2021)最高法知民终2063号, 5 May 2023, GPLv3) and *Wangjing v Yibang* ((2021)最高法知民终51号, 12 Oct 2023, GPLv2). Their reasoning was then distilled into an SPC "adjudication point" (裁判要旨, Dec 2024) and into item 25 of the SPC annual report on IP law application (Apr 2026).
+2. **FACT (A).** The Observatory's "OfficeTen case" is *Wangjing Technology (Suzhou) v Zhejiang Yibang and Suzhou Qi'ao*. "OfficeTen" is the name of the plaintiff's gateway software. The SPC held that "whether a developer violated GPLv2" and "whether it holds copyright" are "two relatively independent legal questions". A GPL violator may therefore still sue infringers.
+3. **FACT (A / A-v).** Chinese courts treat the GPL as a contract: a standard-form copyright licence (格式化著作权许可使用协议) subject to a **condition subsequent** (附解除条件). Breach terminates the licence automatically, and continued use becomes copyright infringement. German courts reached the same construction in 2004 under §158(2) BGB.
+4. **FACT (A).** France reached the same practical result by a different route. In *Entr'ouvert v Orange*, the Cour de cassation (5 Oct 2022) applied CJEU *IT Development* (C-666/18). It held that a licensor may sue for infringement (contrefaçon) even though the breach is contractual. On remand, the Paris Court of Appeal (14 Feb 2024, RG 22/18071) awarded **EUR 800,000 in damages plus EUR 60,000 in costs**. **Correction:** our C-level note said EUR 650,000. That figure counts only two of the three damages heads.
+5. **FACT (A-v / B).** On the copyright of a violator's own work, Chinese lower courts are split. Nanjing (2021)苏01民初3229号 refused to protect a GPL-tainted program. The SPC (2023) and the Jiangsu High Court ((2024)苏民终581号) hold that the plaintiff's own non-compliance is no defence, though it may reduce damages. **We found no European judgment on this question.**
+6. **FACT (A-v).** Chinese GPL litigation is mainly **commercial**: firms sue competitors, and the GPL is often raised as a defence. One licensor ran a **mass-litigation campaign** (DedeCMS) that the Wuxi court criticised by name. European enforcement is mainly **community-driven**: individual kernel and netfilter authors (Welte, Hellwig), developer groups (Stockfish) and SFC-funded users (Steck v AVM). Commercial licensors (Entr'ouvert) are the exception.
+7. **INFERENCE.** Damages are low in both jurisdictions, except where the licensor also sells the software commercially (dual licensing): Entr'ouvert in France, VirtualApp in China. German courts have split on damages for GPL breach. LG Bochum (2016) allowed licence-analogy damages, and OLG Hamm (2017) set them at zero on appeal.
+
+---
+
+## 1. China: the case law
+
+### 1.1 Cases table
+
+| # | Court, date | Case no. | Parties | Licence | Holding (short) | Level | Source |
+|---|---|---|---|---|---|---|---|
+| C1 | Beijing No. 1 Intermediate Court, 2011 (final) | not verified | Huilan v Beijing Zhonghengdian (EasySite / G-BOP) | GPL / BSD (DNN) | An open-source licence is valid. The plaintiff's software, though an "illegal derivative work", is still protected | C | CMS 2018; Hankun 2023 |
+| C2 | Beijing IP Court (2015 filing; judgment date not verified) → **Beijing High Court, 6 Nov 2019** | (2015)京知民初字第631号 → **(2018)京民终471号** | Digital Heaven (DCloud, HBuilder) v YouZi (APICloud) | GPLv3 (Aptana module) | Three plug-ins are independent works, and the GPL does not bind them because no GPL file sits in their folders or the root. Infringement found. Damages cut on appeal from RMB 1.25m (plus costs) to **RMB 500,000 + 210,000 costs** | A-v | iphouse relay of judgment |
+| C3 | Shenzhen Intermediate Court, 30 Apr 2021 → **SPC IP Tribunal, 5 May 2023** | (2019)粤03民初3928号 → **(2021)最高法知民终2063号** | Jining Luohe (VirtualApp) v Fujian & Beijing Fengling (点心桌面) | GPLv3 | The GPL is a contract with a condition subsequent, and failing to release source terminates the licence. The project manager may sue without the contributors' consent. No notice-and-cure step is needed before suing. **RMB 500,000** upheld | A | ipc.court.gov.cn full text |
+| C4 | **Guangzhou IP Court, 29 Sep 2021** (final, no appeal) | **(2019)粤73知民初207号** | Jining Luohe v Guangzhou Wanyou and others | GPLv3 | Same contract construction. The licensor's "commercial use needs authorisation" rider is a void "further restriction" (GPLv3 §§7, 10). The defendant may charge membership fees, but its failure to release source was infringement. **RMB 500,000**. Listed among the SPC's **2021 Top-10 IP cases** | A (SPC list) / A-v (judgment via elawcn) | court.gov.cn 355881; elawcn |
+| C5 | Nanjing Intermediate Court (date not verified; reported as final) | (2021)苏01民初3229号 | Nanjing Weilai (未来, bid-document tool) v Jiangsu Yunqingting (云蜻蜓) | GPLv2 + Classpath Exception (SharpZipLib) | The main program is GPL-derivative and unreleased, so the plaintiff's licence terminated and its infringement claim on that part is **rejected** (good-faith reasoning). The separable preview program is protected | B (Hankun, 2 articles) | hankunlaw.com |
+| C6 | Suzhou Intermediate Court, 14 Jul 2020 → **SPC IP Tribunal, 12 Oct 2023** | (2018)苏05民初845号 → **(2021)最高法知民终51号** | Wangjing Tech (Suzhou) ("OfficeTen") v Zhejiang Yibang, Suzhou Qi'ao | GPLv2 (OpenWRT) | This is an infringement case, not a contract case. Privity bars ruling on the plaintiff's GPL compliance when the OpenWRT rightholders are not parties. Whether the plaintiff breached the GPL and whether it holds copyright are independent questions. **RMB 500,000** upheld | A | ipc.court.gov.cn 3773, 3042; court.gov.cn 425412; ifross/OpenAtom translation |
+| C7 | **Wuxi Intermediate Court**, judgment reported 19 Feb 2024 (date line illegible in our copy) | **(2023)苏02民初482号** | Shanghai Zhuozhuo (DedeCMS) v a website operator (name redacted) | GPLv2-or-later (sphinxclient), analysed under GPLv3 | DedeCMS links to the GPL library sphinxclient, so the whole program must be GPL. The licensor cannot charge licence fees, so there was no infringement of the reproduction right. Its attribution rider is valid under GPLv3 §7(b), so attribution infringement was found: **RMB 800** total. The court criticised the licensor's mass litigation. Appeal lies to the Jiangsu High Court | A-v (OCR of judgment PDF) | oschina-hosted PDF |
+| C8 | **Jiangsu High Court**, 2024 | **(2024)苏民终581号** | not stated in our source | "open-source licence" (not stated) | Being bound by an open-source licence does not mean the rights software was licensed under it. "Plaintiff did not open-source" is generally no defence, but it may reduce damages. **SPC annual report (2025), item 25** | A (SPC summary); parties not verified | ipc.court.gov.cn 5637 |
+| C9 | SPC IP Tribunal | (2019)最高法知民终663号 | Bu Luan Mai (不乱买) v Shanliang Shishang (闪亮时尚) | unspecified "open-source code" | Only the back-end code was claimed. The defendant did not prove it contained open-source code, so the defence failed | C (quoted in Hankun) | hankunlaw.com 13031 |
+
+**Note on the brief.** The brief named "不乱买 v 未来购". We found no such case. The nearest matches are C9 (不乱买 v 闪亮时尚, SPC) and C5 (a Nanjing case brought by "未来公司"). **INFERENCE:** the brief's name conflates the two.
+
+### 1.2 Notes per case
+
+**C6 Wangjing v Yibang ("OfficeTen"): the SPC's main GPL ruling.**
+- **FACT (A).** The plaintiff's OfficeTen gateway software was developed from OpenWRT (GPLv2). The defendants hired two former employees, who downloaded the source code from the plaintiff's server. A forensic report found 90.2% identity in the non-open-source code (People's Court Daily, reprinted on court.gov.cn on 18 Feb 2024 and ipc.court.gov.cn on 19 Feb 2024).
+- **FACT (A).** The SPC gave three reasons for rejecting the GPL defence (裁判要旨, ipc.court.gov.cn, 13 Dec 2024).
+  1. The dispute is "著作权侵权纠纷，而非合同纠纷". Under privity, the court should not decide whether the plaintiff breached the GPL while the OpenWRT rightholders are absent.
+  2. The defendants had no evidence that the plaintiff waived its copyright through the GPL.
+  3. Even an assumed "权利瑕疵" (defect of title) does not bar an infringement remedy.
+- **FACT (A).** The court added a reservation. Its ruling "并不表明" that the plaintiff escapes its own potential liability to upstream rightholders.
+- **FACT (A).** The award was RMB 500,000. The SPC split it into RMB 425,000 in damages and RMB 75,000 in costs. The SPC approved the first-instance figure "且已考虑到 OpenWRT 系统软件等因素" (ifross/OpenAtom bilingual text of the judgment, A-v). The plaintiff's open-source base was therefore discounted at the damages stage.
+- **FACT (A).** The SPC listed the case among its "five years, 100 cases" typical cases (published 15 May 2024).
+- **FACT (B).** Commentators split. Wang Qian (ECUPL, quoted in People's Court Daily) likens the case to an unauthorised film adaptation of a novel, which is still protected against third parties. Lawyer You Yunting argues that the judgment does not deny GPL "infectiousness" (Jiemian; not archived).
+
+**C3 Luohe v Fengling (SPC 2023).** This is the leading SPC statement on licence nature and standing.
+- **FACT (A).** The SPC endorsed the lower court's analysis. "GPL3.0协议的内容具有合同性质，开源软件的发布可视为要约，用户使用即为承诺". The licence is "附解除条件", so failure to release source terminates it automatically.
+- **FACT (A).** On standing, contributors who submit pull requests do not become joint authors: "软件开源并不会当然产生项目管理人与贡献者推定为合作作者的效力". The project manager "无需贡献者的同意或授权".
+- **FACT (A).** The GPLv3 §8 notice-and-cure mechanism is no precondition to suing. The patent no-litigation clause in §10 does not bar copyright suits.
+- **FACT (A).** The SPC refused to divide the damages. Contributors who later prove authorship must claim a share from Luohe.
+
+**C4 Luohe v Wanyou (Guangzhou IP Court 2021).**
+- **FACT (A-v).** The court held that breach of an open-source licence gives a choice between contract and tort remedies: "两者竞合，由当事人自行选择". It assessed the case in tort at the plaintiff's election.
+- **FACT (A-v).** The court struck down Luohe's own "commercial use requires authorisation" rider as a "进一步限制" under GPLv3 §10.
+- **FACT (A-v).** The judgment describes open-source authors as having transferred ("让渡") all economic rights to users. **INFERENCE:** this is a loose formulation, and later SPC judgments do not repeat it.
+- **FACT (A).** "一审宣判后，双方当事人均未上诉" (SPC Top-10 list, 21 Apr 2022).
+
+**C5 Nanjing (2021)苏01民初3229号.**
+- **FACT (B).** According to Hankun (Mar 2023), the court held that the plaintiff's main program was a derivative of SharpZipLib and did not qualify for the Classpath Exception. The plaintiff's licence therefore terminated.
+- **FACT (B).** The court refused relief on good-faith grounds. Granting it would create "一个不当、不法的行为人指责另一个实施相同行为的不当、不法行为人的逻辑怪圈" (quoted by Hankun).
+- **FACT (B).** The plaintiff won only on the separable preview program. Hankun calls this the first final civil judgment to accept a "GPL defence".
+- **INFERENCE.** This is the opposite of C6 on the same question. C6 is an SPC judgment, and C8 (Jiangsu High Court, 2024) follows C6, so C5 now looks like an outlier.
+
+**C7 DedeCMS (Wuxi, (2023)苏02民初482号).**
+- **FACT (A-v, OCR).** The plaintiff claimed RMB 5,800 (the commercial licence fee) plus RMB 8,700 in costs.
+- **FACT (A-v, OCR).** The court called open-source licences "附条件地许可给不特定公众的著作权许可合同". It found that sphinxclient is called inside the program, not across a process boundary, so the two form "一个大程序的两个组合部分". The whole program had to be released under the GPL. The licensor's commercial-use clause conflicts with the GPL, and the defendant "获得了对涉案软件使用的授权".
+- **FACT (A-v, OCR).** The attribution clause was upheld as a permitted additional term under GPLv3 §7(b). Breach of it infringed the right of authorship (署名权): RMB 800 and an apology on the defendant's homepage.
+- **FACT (A-v, OCR).** In setting damages, the court said the licensor, "在使用他人代码时却未遵守他人软件的GPL许可协议", acted against good faith (OCR text: "有违诚信和原则"). It also said the licensor's nationwide mass suits "大量占用解决纠纷的公共资源". The operative text says any appeal lies to the Jiangsu High Court.
+- **INFERENCE.** Commentators (You Yunting, Zhichanli, 20 Mar 2024) expected the appeal to go to the SPC. The judgment's own text points to the Jiangsu High Court, so that expectation was mistaken.
+
+**C8 Jiangsu High Court (2024)苏民终581号.**
+- **FACT (A).** The SPC annual report (2025) summary, published 21 Apr 2026, gives the holding: "权利软件受开源协议的约束，并不意味着权利软件自动适用开源协议进行了许可". The plaintiff's non-compliance "可作为确定赔偿数额的考量因素".
+- **INFERENCE (not verified).** Our working hypothesis is that this is the appeal from a DedeCMS mass-litigation judgment, possibly C7 itself. Three facts point that way: the court is the Wuxi appeal court, the case was docketed in 2024, and the holding answers exactly the question Wuxi decided. If so, the Wuxi "GPL defence" result was not followed on appeal. Parties and outcome must be confirmed from the full judgment.
+
+**C2 DCloud v YouZi (Beijing).**
+- **FACT (A-v).** The Beijing High Court accepted that the three plug-ins are independent works. It rejected the GPL defence because the defendants conceded that no GPL text was in the plug-ins' folders or the root directory.
+- **INFERENCE (B, CMS 2018).** The test used for licence scope (where the licence file sits) is a formal one. Commentators criticised it.
+
+**C1 Huilan (Beijing, 2011).**
+- **FACT (C, quoted by Hankun).** The court said the plaintiff's software, "虽然是非法演绎作品", is still protected, and a GPL-based non-infringement defence fails. This is an early Chinese answer to the "violator's copyright" question. It is consistent with C6. Case number not verified.
+
+### 1.3 Institutional signals 2024–2026
+
+- **FACT (A).** In January 2026, the SPC listed "开源技术知识产权法律问题研究" (legal questions of IP in open-source technology) as a major annual judicial research topic. Source: SPC IP Tribunal roundtable published 24 May 2026.
+- **FACT (A).** A roundtable participant (辜凌云) summarises the Chinese position as follows. The GPL is a "附解除条件的著作权合同" (C4). A licence defect "不阻却对第三方侵权的救济" (C6).
+- **FACT (A).** A roundtable participant (Zhang Ping, 张平) lists open questions: unilateral revocation by contributors, multi-licence conflicts, and the standing of Chinese translations of foreign licences. The same participant proposes an OpenAtom-led mediation or arbitration channel for licence disputes.
+- **FACT (B).** A law-firm review (Landi/iCourt, 2 Sep 2026) treats C3, C5, C6 and C8 as the current body of law. We found **no other 2024–2026 GPL judgment.**
+- **Negative result.** We found **no Chinese judgment on the AGPL** and **no judgment on any Mulan licence**. This is not an exhaustive search of 中国裁判文书网.
+
+---
+
+## 2. Europe: the case law
+
+### 2.1 Cases table
+
+| # | Court, date | Case no. | Parties | Licence | Holding (short) | Level | Source |
+|---|---|---|---|---|---|---|---|
+| E1 | LG München I, 19 May 2004 (prelim. injunction of 2 Apr 2004 upheld) | 21 O 6123/04 | Harald Welte v Sitecom Deutschland | GPLv2 (netfilter/iptables) | The GPL is valid standard terms. §4 GPL operates as a condition subsequent (§158(2) BGB). It is not an inadmissible split of rights under §31 UrhG. Injunction granted | A-v (ifrOSS English translation) | ifross.org PDF |
+| E2 | LG Frankfurt a.M., 6 Sep 2006 | 2-6 O 224/06 | Welte v D-Link | GPLv2 (msdosfs, mtd, initrd) | First German main-proceedings judgment. Authorship of separately written modules; GPL incorporated as standard terms; §4 is not unfair; antitrust objections fail. Claim granted. Damages amount **not verified** | B (ifrOSS commentary) | ifross.org |
+| E3 | LG Berlin, 2011 (judgment reported 8 Nov 2011) | 16 O 255/10 not verified | AVM v Cybits | GPLv2 (Linux in Fritz!Box firmware) | Third parties may modify and reinstall the GPL parts of router firmware. AVM's copyright and trademark claims rejected, except on misleading status displays | B (FSFE, party-aligned) | fsfe.org |
+| E4 | LG Bochum, 3 Mar 2016 → OLG Hamm, 13 Jun 2017 | I-8 O 294/15 → 4 U 72/16 | Rightholder v a university (WLAN software) | GPLv2 | LG: licence-analogy damages are available even for gratis GPL software (dual licensing). **OLG: no damages; value of use "zero"**; injunction and warning costs only | B (ifrOSS) / C (Kanzlei Plutte via fetch, not archived) | ifross.org; ra-plutte.de |
+| E5 | LG Hamburg, 2016 → OLG Hamburg, 28 Feb 2019 | not verified | Christoph Hellwig v VMware | GPLv2 (Linux kernel) | Dismissed on evidence and standing: Hellwig did not identify his protected code in VMware's product. Merits not reached. No further appeal | B (SFC) | sfconservancy.org |
+| E6 | LG München I, settlement 7 Nov 2022 | 42 O 9765/21 | Stockfish developers v ChessBase | GPLv3 | **Settlement**: one-year distribution ban, licence reinstated afterwards on compliance, a compliance officer, and contractual penalties | B (FSFE) | fsfe.org |
+| E7 | LG Berlin, 2023–2024 (fees ruling; not appealed) | not verified | Sebastian Steck (device purchaser) v AVM | LGPLv2.1 | Resolved when AVM delivered installation scripts. AVM paid the plaintiff's fees. **No merits judgment** (reports differ) | B (SFC) / C (heise) | sfconservancy.org |
+| E8 | CA Paris, 16 Sep 2009 | 04/24298 (reported) | Edu4 v AFPA | GPL (VNC) | Edu4 breached the GPL by distributing modified VNC without source. Outcome on termination not verified | C | edri.org, linuxfr.org (not archived) |
+| E9 | TGI Paris, 21 Jun 2019 → CA Paris, 19 Mar 2021 → **Cass. civ. 1re, 5 Oct 2022** → **CA Paris, 14 Feb 2024** | RG 11/07081 → 19/17493 → **n° 21-15.386** → **RG 22/18071** | Entr'ouvert v Orange, Orange Business Services | GPLv2 (Lasso) | 2019/2021: infringement claim inadmissible (non-cumul of contract and tort). 2021: **EUR 150,000 for parasitism**. 2022: quashed; the licensor may sue in infringement (CJEU C-666/18). 2024: infringement of Lasso through breach of GPLv2 §§2, 3, 4, 10 and of moral rights. **EUR 500,000 + 150,000 + 150,000** and **EUR 60,000** in costs. No further appeal | A | Joinup PDF; curia.europa.eu PDF; april.org |
+| E10 | **CJEU (5th Ch.), 18 Dec 2019** | **C-666/18** | IT Development v Free Mobile | proprietary licence | Breach of a software-licence clause concerning IP rights is an "infringement of IP rights" under Directive 2004/48. The rightholder gets the Directive's guarantees "regardless of the liability regime applicable under national law" | A-v (dispositif as quoted by Cour de cassation and CA Paris) | curia.europa.eu (via French judgments) |
+
+**Negative results.**
+- **No BGH ruling** on the GPL was found.
+- No GPL judgment was found in the **Netherlands, Spain or Italy**. *Jin v IChessU* was an Israeli dispute that was settled in 2008. It was not a Dutch case.
+- The French **Free/iliad** dispute (BusyBox/iptables, 2008–2011) is reported as settled. Not verified.
+- **No court decision under the EUPL** was found.
+
+### 2.2 Notes
+
+- **FACT (A-v).** In E1, the Munich court answered the German law objection that rights of use cannot be split arbitrarily. It held that "GPL No. 4 does not constitute a circumvention of German Copyright Act Section 31 Para. 1 Subsect. 2." Its reasons: the offer to license stays open, and the infringer can re-acquire rights by complying.
+- **FACT (A).** In E9, the Cour de cassation (para. 19) held that a rightholder who would lose the guarantees of Articles 7 and 13 of Directive 2004/48 by suing in contract "est recevable à agir en contrefaçon". The CA Paris on remand quoted C-666/18 verbatim and awarded damages under three separate heads. The heads were economic consequences, moral prejudice (including the omitted attribution of Lasso in Orange's code) and the infringer's profits.
+- **FACT (A).** April confirmed with the Cour de cassation registry that no further appeal was lodged against the 2024 ruling (update of 24 May 2024).
+- **FACT (B).** In E5, SFC concluded that the ruling was decided "on procedure and standing, not on substance" and "does not set precedent".
+- **INFERENCE.** German enforcement relies on summary proceedings (einstweilige Verfügung) and on settlements. Few merits judgments exist, so the doctrine rests on E1, E2 and a handful of LG decisions from 2015–2016 (Leipzig, Hannover, Halle, Bochum; C, not archived).
+
+### 2.3 EUPL and developments 2024–2026
+
+- **FACT (A).** EUPL-1.2 Art. 15 chooses the law of the EU Member State where the licensor is established, or Belgian law if the licensor is outside the EU. Art. 14 gives disputes to the court of the licensor's residence, and to the CJEU (Art. 272 TFEU) where an EU institution is the licensor. All linguistic versions "have identical value".
+- **FACT (A).** By contrast, the GPL has no choice-of-law clause and an English-only official text. The SPC judge in C6 had to produce his own translation (People's Court Daily, 2024).
+- **FACT (B).** Developments 2024–2026 in Europe:
+  - Orange did not appeal E9.
+  - E7 closed in late 2024; SFC announced the outcome on 9 Jan 2025.
+  - We found no new European GPL merits judgment in 2025–2026.
+  - The 23 Dec 2025 *SFC v Vizio* ruling is a US case and is outside scope.
+
+---
+
+## 3. Comparative assessment
+
+### 3.1 Comparison table
+
+| Question | China | Europe |
+|---|---|---|
+| Legal nature of the GPL | Contract: a standard-form copyright licence, accepted by conduct, with a condition subsequent (C3, C4, C7; A) | Germany: standard terms (AGB) with a condition subsequent, §158(2) BGB (E1, E2; A-v/B). France: a licence contract whose breach is also contrefaçon (E9; A) |
+| Contract vs infringement claim | Claimant chooses (C4: "竞合"). Courts in practice decide in tort (C3, C4, C6) | Germany: copyright infringement after automatic termination. France: non-cumul rule overridden for IP licences by C-666/18 (E9, E10) |
+| Who can sue | Project manager or main author alone; contributors are not presumed joint authors (C3, C4; A) | Individual authors of identifiable code (E1, E2). Failure to prove authorship of specific code is fatal (E5). Device purchasers have sued under the LGPL (E7; no merits ruling) |
+| Notice-and-cure before suit (GPLv3 §8) | Not required (C3; A) | No ruling found |
+| Scope of copyleft ("infectiousness") | Decided on the facts: in-process calls and linking bring code in (C7, C5, C4). Separate folders or modules stay out (C2). The SPC avoided the question in C6 | Rarely decided. No European court has ruled squarely on linking. E3 treats firmware as a collective work |
+| Licensor's added restrictions | "Commercial use needs a licence" riders are void as "further restrictions" (C4, C7). Attribution riders are valid under §7(b) (C7) | No equivalent ruling found |
+| Does a GPL violator keep copyright? | **Yes**, says the SPC (C6) and the Jiangsu High Court (C8). Non-compliance may lower damages (C6, C8). **No**, said Nanjing (C5; outlier) | **No judgment found.** INFERENCE: the general rule that unauthorised adaptations are themselves protected would point to "yes" (not verified against case law) |
+| Remedies | Injunction, damages, apology or "eliminate effects"; take-down of apps (C3, C4) | Injunction (mainly summary), information claims, damages, costs; settlements with compliance programmes (E6) |
+| Damages | Mostly statutory, at the old RMB 500,000 cap (C3, C4, C6). RMB 710,000 (C2). RMB 800 (C7) | EUR 0 (E4, OLG Hamm) up to EUR 950,000 in total across E9 (incl. EUR 150,000 for parasitism) |
+| Litigation culture | Commercial: competitors, ex-employee code theft. The GPL is often a defence. Mass litigation by one licensor (C7). Courts curb abuse through damages | Community: individual developers, gpl-violations.org, SFC, FSFE. Aim: compliance, not money. One commercial suit (E9) |
+| Apex court role | The SPC writes rules (裁判要旨, typical cases, annual report, 2026 research topic) | No BGH ruling. The Cour de cassation and the CJEU rule on procedure and remedies, not on copyleft scope |
+
+### 3.2 Discussion
+
+**Characterisation.**
+- **INFERENCE (from A sources).** Both systems use contract-law tools: the Chinese 附解除条件 and the German §158(2) BGB. With them, both convert a licence breach into copyright infringement.
+- **INFERENCE.** Neither follows the US "condition vs covenant" debate (Jacobsen v Katzer is cited as background by a participant in the SPC roundtable of May 2026).
+- **INFERENCE.** France arrived late and by a different route. EU law (C-666/18) forced the opening of the infringement route, because the remedy guarantees of Directive 2004/48 must be available whatever the national liability regime.
+- **INFERENCE.** The practical outcomes now converge. A violator loses its licence, the author may sue for infringement, and an injunction is available.
+
+**The "unclean hands" question.**
+- **INFERENCE.** This is the sharpest difference, and it exists only because China has the cases. In China the GPL is often pleaded *against* the plaintiff: a defendant who copied proprietary code argues that the plaintiff's own GPL obligations make the code free.
+- **INFERENCE.** The SPC's answer protects investment, with the sanction moved to damages. The plaintiff keeps its copyright, the defendant gets no licence, and the court reduces the award for the GPL base (C6, C8). It also leaves upstream authors free to sue the plaintiff (C6).
+- **INFERENCE.** In Europe the scenario has not reached a court as far as we can find. European defendants have argued that the plaintiff lacked title (E5), not that the plaintiff's work had to be free.
+- **INFERENCE.** The SPC's approach has a cost for copyleft. Downstream users cannot themselves enforce the plaintiff's copyleft obligation. Only the upstream author can, and, as the SPC noted, that author is usually foreign and absent from the case.
+
+**Who enforces copyleft.**
+- **INFERENCE.** In Europe, upstream authors (kernel and netfilter developers) enforce the GPL against device makers.
+- **INFERENCE.** In China, no reported case has an upstream international author suing a Chinese distributor. In C6, the OpenWRT authors were absent and the court declined to examine the plaintiff's compliance for that reason.
+- **INFERENCE.** As a result, Chinese copyleft compliance is policed mainly by defendants raising it as a defence, and through damages reductions.
+
+**Damages.**
+- **FACT (A).** Chinese awards cluster at RMB 500,000, which was the statutory cap under the 2010 Copyright Law (C3, C4, C6). The 2020 law raised the cap to RMB 5 million (quoted in C7).
+- **FACT (A).** The French award of EUR 800,000 reflects a commercial licensor with a public-procurement market.
+- **FACT (B/C).** German courts are split on whether gratis GPL use has any licence value (E4).
+
+**Mass litigation.**
+- **FACT (A-v).** Wuxi (C7) is the only judgment in either jurisdiction that criticises a GPL-related enforcement *model*.
+- **INFERENCE.** Europe has no parallel. The nearest European concern is the "copyright troll" debate around Patrick McHardy's kernel enforcement in Germany, which we did not research or verify (D, lead only).
+
+---
+
+## 4. What this means for EU–China cooperation
+
+1. **INFERENCE.** European authors whose GPL code is used in Chinese products can rely on Chinese courts to treat the GPL as an enforceable licence. Breach terminates it (C3, C4). Standing is generous for a project manager or main author (C3), and the GPLv3 §8 notice is not a precondition (C3). A European author has standing as a foreign rightholder under the Berne Convention (general law, not checked here).
+2. **INFERENCE.** A Chinese firm that ships European GPL code without releasing its source does not lose copyright in its own additions against Chinese copiers (C6, C8). European upstream authors keep a separate claim against that firm (C6 reservation). For European contributors, the SPC's privity reasoning (C6) means compliance is not reviewed unless the upstream author is a party. Enforcement therefore requires the European author to litigate in China.
+3. **INFERENCE.** Chinese contributors to European projects face a mirror picture. GPL enforcement in Germany is author-driven, and E5 shows that German courts require precise proof of which code a plaintiff wrote. Clear authorship records (sign-offs, DCO, CLAs) matter in both systems: C3 relied on GitHub merge history, and E5 failed for want of it.
+4. **INFERENCE.** Both systems reject licensor-added commercial restrictions where the licence forbids them (C4, C7). European firms that dual-license (the Entr'ouvert model) should not expect a Chinese court to enforce a "commercial use requires authorisation" rider on GPL code.
+5. **FACT (A).** **Mulan PSL v2** is bilingual, and "THE CHINESE VERSION SHALL PREVAIL" in case of divergence. It has no choice-of-law clause in the text we archived. **EUPL-1.2** chooses the licensor's Member State law and courts and gives all language versions equal value.
+   - **INFERENCE.** A European contributor to a Mulan-licensed Chinese project accepts a Chinese-text-controlling licence. A Chinese contributor to an EUPL project accepts the law of the licensor's EU Member State.
+   - **INFERENCE.** Neither licence has yet been tested in court (negative result).
+6. **FACT (A, repo record CNC-12).** **GB/T 44272-2024** ("Information technology – Open source – Open source licence framework") was published on 23 Aug 2024 and took effect on 1 Mar 2025 (SAMR listing). Its full text has not been read.
+   - **INFERENCE.** As a recommended national standard, it does not bind courts. It may still give Chinese judges a vocabulary for licence elements. Whether it addresses copyleft scope or the condition-subsequent construction is **not verified**.
+7. **INFERENCE.** The SPC's 2026 research topic on open-source IP and its proposed OpenAtom mediation channel create an opening for structured dialogue. The partners could be EU judicial-training bodies, EUIPO, or the European Commission OSPO under the Interoperable Europe framework. A concrete shared agenda would cover four questions:
+   - the condition-subsequent construction;
+   - remedies for violators' works;
+   - the GPLv3 §8 cure period;
+   - licence-text language (official translations of GPL, EUPL and Mulan).
+
+---
+
+## 5. Not verified / open questions
+
+1. **(2024)苏民终581号.** Parties, date and whether it is the DedeCMS appeal (C7) are not verified. Full judgment not read.
+2. **Wuxi C7 date.** The date line is illegible in our OCR copy (seal). The date of 19 Feb 2024 comes from secondary sources (KAIYUANSHE report, You Yunting). Defendant's name is redacted in our copy.
+3. **Nanjing C5.** Judgment date, full party names and finality are from Hankun only (B). Primary text not read.
+4. **Beijing IP Court C2** first-instance judgment date not verified. The Beijing High Court judgment is from a database relay (A-v).
+5. **C1 Huilan v Zhonghengdian (2011).** Case number and text not verified (C).
+6. **C9 不乱买 v 闪亮时尚.** Date and full holding not verified (C).
+7. **VirtualApp licence change date.** C4 refers to a version before "撤回GPLV3协议即2019年10月29日". C3 says the GPL statement was deleted on 29 Oct **2017**. The discrepancy is unresolved.
+8. **Chinese AGPL / Mulan cases.** None found. 中国裁判文书网 was not searched directly.
+9. **Germany.**
+   - E2 damages figure (≈EUR 3,000 reported on a mailing list) not verified.
+   - E3 case number and appeal not verified.
+   - E5 file numbers not verified.
+   - E4 OLG Hamm reasoning read only through a law-firm summary fetched by tool. No copy is archived, and a quote is not given.
+   - LG Berlin 2006 (16 O 134/06), LG München I 2007 (7 O 5245/07, Skype), and the 2015 Leipzig, Hannover and Halle decisions are C, not archived.
+   - The McHardy enforcement controversy is a lead (D).
+10. **No BGH GPL ruling** was found. This is not exhaustive (juris not searched).
+11. **France.** E8 (Edu4/AFPA) outcome on termination and the Free/iliad settlement are not verified.
+12. **CJEU C-666/18.** The judgment text could not be fetched (EUR-Lex returned empty or blocked responses). Its holding is taken from the verbatim quotations in the Cour de cassation and CA Paris judgments (A-v).
+13. **Europe, "violator keeps copyright".** No case found. The doctrinal inference (unauthorised adaptations are protected) is not checked against German or French case law.
+14. **GB/T 44272-2024** content not read. The Mulan PSL v2 governing-law position is based on the SPDX text only.
+15. **Exchange rates.** Not applied. Compare RMB and EUR amounts only with an explicit rate and date.
+
+
+=== SBOM rules compared: the EU Cyber Resilience Act and China's SBOM standards — https://eu-china-commons.eu/research/cra-sbom-china/ ===
+
+# SBOM rules compared: the EU Cyber Resilience Act and China's SBOM standards
+
+The EU makes the software bill of materials (SBOM) a legal duty from December 2027; China has published two recommended SBOM standards in 2026 and runs a state-backed SBOM platform. This note compares the Cyber Resilience Act with GB/T 47020-2026, SJ/T 12097-2026 and the NIISDRC community standard, clause by clause, and identifies where a common format and mutual recognition are possible.
+
+*EU–China Digital Commons Observatory, ad-hoc comparative note. Research cut-off: 27 November 2026.*
+*Evidence labels follow docs/METHODOLOGY.md §4: **A** = primary official text read in the original language; **A-v** = primary text via relay; **B** = reliable secondary; **C** = single secondary or self-reported; **D** = unverified (never stated as fact). Each statement is marked FACT or INFERENCE. Sources are listed in [`data/external/research-2026-11/sbom-sources.tsv`](../data/external/research-2026-11/sbom-sources.tsv) with verbatim quotes checked by script; archived copies are in [`sources/archive/`](../sources/archive/) (method `research-agent`).*
+
+---
+
+## Summary
+
+- FACT (A): The EU requires an SBOM by law. Under Regulation (EU) 2024/2847 (the Cyber Resilience Act, CRA), every manufacturer of a product with digital elements must draw up an SBOM "in a commonly used and machine-readable format covering at the very least the top-level dependencies". The obligation applies from 11 December 2027.
+- FACT (A): By November 2026 China has three SBOM texts at three levels. None of them is mandatory:
+  - **GB/T 47020-2026** *Cybersecurity technology — Data format of software bill of materials*, a recommended national standard from TC260. It was published on 28 January 2026 and took effect on 1 August 2026.
+  - **SJ/T 12097-2026** *Information technology — Software bill of materials data format specification*, a recommended MIIT electronics-industry standard. It was published on 11 March 2026 and took effect on 1 June 2026.
+  - A **community/group-standard draft** from NIISDRC, 《软件物料清单构成和要求》 (*Composition and Requirements for SBOM*). It defines its own JSON format, "DP-SBOM 1.0".
+- FACT (A): The EU texts treat the SBOM as a security artefact. The CRA does not mention licences in its SBOM provisions. The Chinese texts make licence information a required field, so they combine security with open-source licence compliance.
+- FACT (A): The CRA SBOM is not public by default. It sits in the technical documentation and goes to a market surveillance authority on a reasoned request. GB/T 47020 instead names suppliers, acquirers and **regulators** as users. It also expects an "SBOM sharing platform". In parallel, a state-backed "open-source community SBOM platform" project exists, run by NIISDRC under MIIT.
+- INFERENCE: The two systems can interoperate at the level of identifiers and data fields. Both use PURL, and the NIISDRC draft maps its fields to SPDX 2.2 and CycloneDX 1.6. However, no Chinese text we read cites ISO/IEC 5962:2021 (SPDX) as a normative reference. China has chosen national formats rather than adopting SPDX or CycloneDX.
+
+---
+
+## 1. The EU side: what the CRA requires
+
+### 1.1 Definition and core obligation
+
+FACT (A): Article 3(39) defines an SBOM as "a formal record containing details and supply chain relationships of components included in the software elements of a product with digital elements".
+
+FACT (A): Annex I, Part II, point (1) requires manufacturers to "identify and document vulnerabilities and components contained in products with digital elements, including by drawing up a software bill of materials in a commonly used and machine-readable format covering at the very least the top-level dependencies of the products".
+
+FACT (A): The SBOM duty sits in Part II of Annex I, "Vulnerability handling requirements". In other words, the CRA treats the SBOM as a tool for vulnerability handling. Recital 77 says an SBOM "helps manufacturers and users to track known newly emerged vulnerabilities and cybersecurity risks".
+
+### 1.2 Format and elements: a power not yet used
+
+FACT (A): Article 13(24) states: "The Commission may, by means of implementing acts taking into account European or international standards and best practices, specify the format and elements of the software bill of materials referred to in Part II, point (1), of Annex I."
+
+FACT (A): As of 27 November 2026, the Commission has adopted no such implementing act:
+- The Commission's CRA implementation roadmap lists acts and deliverables up to 11 December 2027. None of them concerns the SBOM.
+- The Commission guidance on applying the CRA, C/2026/6013 (OJ C, 17 November 2026), does not contain the terms "SBOM" or "software bill of materials" (full-text search of the OJ text).
+
+FACT (A): The CRA itself names no format. "Commonly used and machine-readable" is the only test.
+
+### 1.3 Who sees the SBOM
+
+- FACT (A): Recital 77 says manufacturers "should not be obliged to make the SBOM public".
+- FACT (A): Annex VII point 2(b) makes the SBOM part of the technical documentation. Annex VII point 8 provides that it is supplied "further to a reasoned request from a market surveillance authority provided that it is necessary in order for that authority to be able to check compliance".
+- FACT (A): Annex II point 9 covers information for users. If the manufacturer decides to make the SBOM available to the user, it must say where the SBOM can be accessed.
+- FACT (A): Article 13(25) lets ADCO, the CRA administrative cooperation group of market surveillance authorities, run a Union-wide dependency assessment, "in particular on components qualifying as free and open-source software". Recital 22 states that "in order to protect the confidentiality of SBOMs", authorities should pass dependency information to ADCO "in an anonymised and aggregated manner".
+
+### 1.4 Third-party components and open source
+
+- FACT (A): Article 13(5) requires due diligence on third-party components, "including when integrating components of free and open-source software that have not been made available on the market in the course of a commercial activity".
+- FACT (A): Article 13(6) covers vulnerabilities found in components. Manufacturers must report them to "the person or entity manufacturing or maintaining the component". Where they have developed a fix, they must share it with that person or entity.
+- FACT (A): Recital 18 excludes non-monetised FOSS from the CRA's scope. It says "the provision of products with digital elements qualifying as free and open-source software that are not monetised by their manufacturers should not be considered to be a commercial activity".
+- FACT (A): Article 24 sets a lighter regime for "open-source software stewards" (defined in Art. 3(14)). Stewards must keep a documented cybersecurity policy, cooperate with market surveillance authorities, and meet Article 14 reporting obligations to the extent that they are involved in development. Article 24 does not contain an SBOM obligation. Article 64(10)(b) exempts stewards from administrative fines.
+
+### 1.5 Enforcement and timeline
+
+- FACT (A): Article 64(2) sets fines for breaching Annex I or Articles 13 and 14 of up to EUR 15 000 000 or 2.5 % of worldwide annual turnover, whichever is higher.
+- FACT (A): Article 71(2) sets the dates. The CRA applies from 11 December 2027. Article 14 reporting applies from 11 September 2026. Chapter IV (notification of conformity assessment bodies) applies from 11 June 2026.
+- FACT (A): Article 14 requires an early warning within 24 hours of becoming aware of an actively exploited vulnerability. A vulnerability notification must follow within 72 hours. Both go to the CSIRT designated as coordinator and to ENISA, via the single reporting platform.
+
+### 1.6 Standardisation (M/606) and technical guidance
+
+- FACT (A): The Commission's standardisation request is Implementing Decision C(2025)618 of 3 February 2025 (M/606). It was amended by C(2026)7861 of 10 November 2026. The amended Annex I sets 30 November 2026 as the deadline for item 15, "European standard(s) on vulnerability handling for products with digital elements".
+- FACT (B): FprEN 40000-1-3 *Vulnerability Handling* is drafted in CEN/CLC/JTC 13/WG 9. Its abstract repeats the Annex I wording on SBOMs and top-level dependencies. The iTeh catalogue, which mirrors CEN data, lists stage 50.20 (formal vote) from 19 November 2026 and a projected publication date of 10 February 2027.
+- FACT (B): No CRA harmonised standard has yet been cited in the Official Journal. Without OJ citation there is no presumption of conformity. This rests on secondary trackers; we did not check the OJ directly.
+- FACT (A): Germany's BSI TR-03183-2 v2.1.0 (20 August 2025) goes beyond the CRA minimum:
+  - It requires JSON or XML in "CycloneDX, version 1.6 or higher" or "SPDX, version 3.0.1 or higher".
+  - It requires "recursive dependency resolution" down to the first component outside the scope of delivery.
+  - It makes "distribution licences" a required component field.
+  - It states that "an SBOM MUST NOT contain vulnerability information".
+- FACT (A): ENISA published the *SBOM Adoption State of Play 2026* (June 2026) and a *Technical Advisory for Software Bill of Materials* (October 2026). In the survey, 44 % of respondents used CycloneDX and 29 % used SPDX. The Advisory notes that SPDX 2.2.1 is ISO/IEC 5962:2021 and that CycloneDX is ECMA-424.
+
+### 1.7 International soft law: who signed
+
+- FACT (A): *A Shared Vision of SBOM for Cybersecurity* was published on 3 September 2025, authored by CISA with NSA and other partners.
+  - Agencies from **seven EU Member States** are listed: Czechia (NÚKIB), France (ANSSI), Germany (BSI), Italy (ACN), the Netherlands (NCSC-NL), Poland (NASK) and Slovakia (NBÚ).
+  - The other partners are from Australia, Canada, India, Japan (METI, NCO), New Zealand, Singapore and South Korea (NIS/NCSC, KISA).
+  - No Chinese agency and no EU body is a signatory. A footnote records that the Commission's DG CONNECT "contributed to the drafting" and that the document "does not bind the European Commission".
+- FACT (A): The *2026 Minimum Elements for a Software Bill of Materials* (29 July 2026) has a similar co-author list (CISA, NSA, FBI and others). It contains no Chinese agency, and the same DG CONNECT footnote appears.
+  - It sets a deeper expectation than the CRA: "An SBOM should include information for all components ... including transitive dependencies. There is no minimum depth."
+  - It reports that the G7 partners and the EU released *Software Bill of Materials for AI – Minimum Elements* in May 2026. We did not read that document.
+
+---
+
+## 2. The Chinese side: standards, platforms and rules
+
+### 2.1 National standard GB/T 47020-2026 (TC260)
+
+- FACT (A): GB/T 47020-2026 is titled 网络安全技术 软件物料清单数据格式 / *Cybersecurity technology — Data format of software bill of materials*.
+  - It is a **recommended** (推荐性) national standard under TC260.
+  - Its plan number was 20243686-T-469, issued on 31 December 2024.
+  - It was published on 28 January 2026 and took effect on 1 August 2026.
+  - The 37 drafting units include the Ministry of Water Resources Information Centre, CAS IIE, CAICT, CESI, CNCERT, Huawei, Alibaba Cloud, Ant Group, JD, ZTE, Kylin Software, Qi An Xin and Changan Automobile.
+- FACT (A): The project description on std.samr.gov.cn reflects the project stage, not the final text. It lists these data blocks: software, inventory, component, file, code snippet, dependency, service, interface, **patch**, development-environment and runtime-environment information. It states that the standard "适用于指导软件供应链供方、需方和监管方之间进行软件组件信息的生成、共享和使用，软件物料清单共享平台的建设和运营可参考使用". In English: it guides generation, sharing and use between supply-chain suppliers, acquirers **and regulators**, and SBOM sharing platforms may use it as a reference.
+- FACT (A-v): TC260 consulted on the draft from 16 May to 15 July 2024. The TC260 notice is relayed by secrss.com. The original attachment links on tc260.org.cn are no longer live.
+- Not verified: We could not read the final text, because the openstd preview was not accessible. We therefore do not know whether GB/T 47020 maps to SPDX or CycloneDX, cites ISO/IEC 5962, or sets a required dependency depth.
+
+### 2.2 Industry standard SJ/T 12097-2026 (MIIT, TC28)
+
+- FACT (A): SJ/T 12097-2026 is titled 信息技术 软件物料清单数据格式规范 / *IT — SBOM data format specification*.
+  - It is a recommended electronics-industry (SJ) standard under MIIT.
+  - It was published on 11 March 2026 and took effect on 1 June 2026, with filing no. 107733-2026 (filing announcement 2026 No. 8).
+- FACT (A): The project number is 2024-1400T-SJ, in MIIT's *2024 fifth batch of industry-standard projects* (dated November 2024). The technical committee is TC28, the National IT Standardisation TC.
+  - The lead drafter is CESI. NIISDRC is second. Other drafters include Peking University, the **OpenAtom Open Source Foundation**, Ant, Baidu, Inspur, Alibaba Cloud, Huawei Cloud, ZTE, CSTC, ISCAS and the OpenSDV automotive open-source alliance.
+  - *Correction to our lead:* December 2024 was when the **project** was approved, not when the standard was approved.
+- FACT (C, drafter's corporate blog, 中电金信, 6 July 2026): the blog describes the content:
+  - The standard requires JSON, XML or YAML in UTF-8.
+  - It sets requirements at two tiers: modules graded 应/宜/可 (shall/should/may) and fields graded mandatory or optional.
+  - It uses **PURL** as the component identifier.
+  - Hash fields support **SM3** alongside SHA-256.
+  - It adds "AI Function" and "AI Generated Snippet" fields.
+  - The blog presents the standard as an alternative to SPDX/CycloneDX "符合我国产业发展实际与法律法规要求".
+  - It reports two companion industry-standard projects nearing approval: 2025-1697T-SJ (implementation guide) and 2025-1696T-SJ (tool capability requirements).
+- FACT (A): The same MIIT 2024 plan also contains 2024-1395T-SJ 工业软件 部件和物料清单 (industrial software, components and BOM). Its status is not checked.
+
+### 2.3 NIISDRC: SBOM Standards Community, "SBOM Chain Initiative", national platform project
+
+- FACT (A): On 24 October 2024, NIISDRC (国家工业信息安全发展研究中心) released 《软件物料清单构成和要求》 as an "SBOM 标准社区版", a community edition. The exact title uses 和, not 及.
+  - NIISDRC says that in September 2024 it built the "SBOM标准社区" (SBOM Standards Community) with **39** research institutes and companies, including Huawei and ISCAS.
+  - It also launched the "SBOM筑链计划" (SBOM Chain Initiative).
+  - Both are based on the national special project "开源社区软件物料清单（SBOM）平台" (open-source community SBOM platform).
+- FACT (A): The community site sbom.openatom.tech is operated under the OpenAtom Foundation. It says the community relies on the MIIT special project of that name.
+  - The project repository's README says the MIIT "high-quality special project" was assigned in **2023** to NIISDRC and eleven partners, including CESI, Huawei, Nanjing University, Peking University, China Construction Bank and China Mobile IT.
+- FACT (A): The repository is atomgit.com/sbomopensource/SBOMFormatAndRequirements, last commit 23 April 2025. Its Word file labelled 发布版 has a **group-standard cover**: "团体标准 CQAE*****—2024", "中国电子质量管理协会 发布" (China Electronic Quality Management Association; English name not verified), "（送审稿）".
+  - The standard number is left blank.
+  - We found no published T/CQAE number. We could not search ttbz.org.cn, because it is behind a CAPTCHA and we did not try to pass it.
+  - The status as a group standard is therefore **not verified**.
+- FACT (A): The content of the NIISDRC text, as published in the repository:
+  - "SBOM的所有数据应基于JSON格式构建" (all SBOM data shall be JSON).
+  - It defines its own format identifier, "DP-SBOM-1.0".
+  - Mandatory component fields: author, supplier, name, version, **hash**, **PURL** identifier, **licence**, timestamp and dependencies.
+  - Optional fields include vulnerability records, patches, security configuration advice, security test results, copyright and file/snippet data.
+  - Tool depth has four levels: basic, medium (direct and indirect dependencies), detailed and dynamic.
+  - For foundational software (OS, databases, middleware), the SBOM shall "at least list all **directly dependent** components".
+  - Delivery shall be encrypted and access-controlled. Documents shall be digitally signed.
+  - Tools shall "兼容主流的SBOM格式，如SPDX、CycloneDX". Informative Annex B compares DP-SBOM with SPDX 2.2 and CycloneDX 1.6 field by field.
+  - The only normative reference is GB/T 7408.1-2023 (date/time format). **ISO/IEC 5962 is not cited.**
+- FACT (A): The community site also hosts "spdx-CN", described as a Chinese translation of SPDX 3.0.1 by the 源译识 translation project together with the **openEuler** project.
+
+### 2.4 Related standards (context)
+
+- FACT (A): **GB/T 43848-2024** 网络安全技术 软件产品开源代码安全评价方法 is a recommended TC260 standard, published 25 April 2024 and in force from 1 November 2024. The KAIYUANSHE lead attributes it to CAICT; the drafting units were not retrieved (samr rate-limited).
+- FACT (A): **GB/T 44272-2024** 信息技术 开源 开源许可证框架 is a recommended TC28 standard, published 23 August 2024 and in force from 1 March 2025. Its drafters are led by Peking University, followed by CESI, ISCAS and the OpenAtom Foundation. The lead's "CESI" attribution is therefore partial.
+- FACT (A): **GB/T 43698-2024** 网络安全技术 软件供应链安全要求 is a recommended TC260 standard, published 25 April 2024 and in force from 1 November 2024. Whether it requires an SBOM is **not verified**, because we did not read the text.
+- FACT (A): **GB 45438-2025** is **not** an SBOM standard. It is the **mandatory** national standard 网络安全技术 人工智能生成合成内容标识方法 (labelling of AI-generated synthetic content), under the CAC and executed by TC260. It was published 28 February 2025 and took effect on 1 September 2025.
+- FACT (A): std.samr.gov.cn lists as "related standards" YD/T 7154—2026 交换机和路由器软件物料信息描述要求 (software-material description for switches and routers, telecom industry) and two guidance-document plans: 20263049-Z-469 人工智能物料清单数据格式规范 (AI BOM data format) and 20263051-Z-469 人工智能物料清单实施指南 (AI BOM implementation guide). We did not check their content.
+- FACT (C): T/CCSA 569-2024 软件物料清单总体能力要求 is a CCSA group standard on overall SBOM capability. It was reported published on 12 November 2024 and in force from 1 January 2025, according to a standards-download forum only.
+- FACT (C): DSDX (Digital Supply-chain Data Exchange) is described as a "China's first" SBOM format. It was led by the OpenSCA community in August 2023, according to a single blog post.
+
+### 2.5 Binding rules: vulnerabilities, not SBOMs
+
+- FACT (A): The 《网络产品安全漏洞管理规定》 (MIIT, CAC and MPS, 工信部联网安〔2021〕66号, in force from 1 September 2021) binds network-product providers. Article 7 requires them to:
+  - "立即通知" (immediately notify) upstream component providers of vulnerabilities in their components;
+  - report the vulnerability to the MIIT cyber-threat and vulnerability information sharing platform "在2日内" (within 2 days).
+- FACT (A): Article 9(7) forbids providing undisclosed vulnerability information "向网络产品提供者之外的境外组织或者个人" (to overseas organisations or individuals other than the product provider).
+- Not found (D): We found no MIIT or CAC regulation that makes an SBOM mandatory. One industry website claims that a 2026 CAC/MIIT 《关键信息基础设施软件供应链安全管理实施细则》 requires SBOMs for critical-information-infrastructure procurement. We found no official text, so the claim is **not** stated as fact here.
+
+---
+
+## 3. Comparison table
+
+| Dimension | EU – CRA (Reg. 2024/2847) | China – GB/T 47020-2026 / SJ/T 12097-2026 / NIISDRC draft |
+|---|---|---|
+| **Legal nature** | Binding regulation, directly applicable (Art. 71) — A | Recommended national (GB/T) and industry (SJ/T) standards; NIISDRC text is a community/group draft — A. No binding SBOM rule found — D for claimed 2026 CII rule |
+| **Scope** | All "products with digital elements" placed on the EU market; non-monetised FOSS out of scope (Rec. 18) — A | Software supply chain generally (suppliers, acquirers, regulators) — A (GB/T project text); software life-cycle incl. procurement and O&M — A (NIISDRC) |
+| **Required depth** | "At the very least the top-level dependencies" (Annex I II(1)) — A | GB/T 47020: not verified. NIISDRC: foundational software at least all direct dependencies; four tool depth levels — A. SJ/T 12097: not verified |
+| **Format** | Any "commonly used and machine-readable" format; Commission may specify (Art. 13(24)), not done — A. In practice CycloneDX/SPDX (BSI TR: CDX ≥1.6, SPDX ≥3.0.1) — A | National formats. NIISDRC: JSON-only "DP-SBOM 1.0" — A. SJ/T 12097: JSON/XML/YAML — C. GB/T 47020: own data model — A (project text) |
+| **Reference to ISO/IEC 5962 (SPDX)** | Not in the Regulation; cited by ENISA advisory and CISA Min. Elements — A | Not cited in NIISDRC normative references — A; GB/T 47020 and SJ/T 12097: not verified |
+| **Mapping to SPDX/CycloneDX** | n/a (these are the de facto formats) | NIISDRC Annex B: field comparison with SPDX 2.2 / CycloneDX 1.6 — A. SJ/T uses PURL for "interoperability with global ecosystems" — C |
+| **Core data fields** | Not specified in law; BSI: creator, timestamp, component creator, name, version, filename, dependencies, distribution licences, hash — A | NIISDRC mandatory: author, supplier, name, version, hash, PURL, licence, timestamp, dependencies — A. SJ/T adds SM3 hashes and AI-generated-code fields — C. GB/T adds patch, dev/runtime environment, service, interface blocks — A (project text) |
+| **Licence compliance** | Not part of CRA SBOM wording — A (absence) | Licence is a mandatory field (NIISDRC); SBOM framed for "安全与合规" — A |
+| **Vulnerability data in SBOM** | CRA silent; BSI forbids vulnerability info inside SBOM — A | NIISDRC includes vulnerability, patch, security-test fields (optional) — A; GB/T includes patch information — A |
+| **Who sees the SBOM** | Not public by default (Rec. 77); MSA on reasoned request (Annex VII(8)); optional to users (Annex II(9)); ADCO gets anonymised aggregates (Rec. 22) — A | Supplier → acquirer, and regulator ("监管方"); SBOM sharing platform envisaged — A (GB/T project text); encrypted delivery, access control, signatures — A (NIISDRC) |
+| **Open-source carve-out** | Non-commercial FOSS excluded; stewards light regime, no fines (Arts 24, 64(10)(b)) — A | None found; standards address OSS risk directly (GB/T 43848 OSS code security evaluation) — A |
+| **Vulnerability reporting link** | Art. 14: 24 h early warning / 72 h notification to CSIRT + ENISA (from 11 Sep 2026); Art. 13(6) report to component maintainer — A | 2021 Rules: report to MIIT platform within 2 days; notify upstream immediately; no disclosure of unpublished vulns abroad — A |
+| **Enforcement** | Fines up to €15 m / 2.5 % turnover; market surveillance; CE marking — A | No sanctions attached to the standards (voluntary) — A; uptake via procurement/certification — INFERENCE |
+| **State platform** | No EU SBOM repository; ADCO dependency assessment only — A | MIIT special project "开源社区软件物料清单（SBOM）平台" (since 2023), NIISDRC-led SBOM Standards Community (39 members, Sep 2024) — A |
+| **Standard-setting actors** | CEN/CENELEC/ETSI (M/606), ENISA, national agencies (BSI) — A | TC260 (CAC-linked), TC28/CESI (MIIT), NIISDRC (MIIT), OpenAtom Foundation, large vendors (Huawei, Alibaba, Ant, ZTE) — A |
+
+---
+
+## 4. Analysis
+
+**Legal nature.** FACT (A): The CRA SBOM duty is binding law, with fines and market withdrawal behind it. FACT (A): All three Chinese texts are voluntary on their face. INFERENCE: In China, recommended standards often take effect through government procurement, sector regulators (finance, energy, water: note the many water-sector and grid drafting units of GB/T 47020) and certification schemes. Their real reach therefore depends on rules that we could not find.
+
+**Depth and content.** FACT (A): The CRA sets a low floor: top-level dependencies only. BSI and the 2026 CISA Minimum Elements both expect full recursive or transitive coverage. INFERENCE: The NIISDRC draft sits between the two, requiring direct dependencies for foundational software. The Chinese texts are broader in **content**: licences, copyright, patches, vulnerability records, development and runtime environment, and AI-generated code. The EU texts concentrate on **identification** and keep vulnerability data separate (BSI).
+
+**Security plus licence compliance.** FACT (A): The Chinese SBOM texts treat licence data as mandatory and present the SBOM as a tool for both security and compliance. FACT (A): The CRA SBOM is a vulnerability-handling instrument. INFERENCE: For licence compliance, a Chinese-format SBOM carries more than the CRA requires. A CRA-minimum SBOM would not satisfy the Chinese mandatory field list.
+
+**Who sees the data.** FACT (A): The EU chose confidentiality. The SBOM goes to authorities only on a reasoned request, and Union-level dependency analysis uses anonymised aggregates. FACT (A): GB/T 47020's project description names regulators as SBOM users and refers to sharing platforms. The NIISDRC community rests on a state "SBOM platform" project. INFERENCE: The Chinese design points towards central collection, or at least central tooling, of component data. The EU design keeps SBOMs with the manufacturer.
+
+**National formats.** FACT (A): DP-SBOM is a new JSON schema. FACT (C): SJ/T 12097 is presented as a domestic alternative to SPDX/CycloneDX, with SM3 hashes. INFERENCE: China is building a parallel format family that can be translated into SPDX/CycloneDX, rather than adopting the ISO standard (ISO/IEC 5962). China has nonetheless joined some SPDX activity, for example the SPDX 3.0.1 Chinese translation with openEuler.
+
+---
+
+## 5. Timeline
+
+| Date | Event | Level |
+|---|---|---|
+| 13 Jul 2021 / 1 Sep 2021 | MIIT/CAC/MPS Network Product Security Vulnerability Management Rules issued / in force (2-day reporting) | A |
+| 2023 | MIIT special project "开源社区软件物料清单（SBOM）平台" assigned to NIISDRC and 11 partners (self-reported in README) | A (self-description) |
+| Aug 2023 | DSDX format released by OpenSCA community | C |
+| 25 Apr 2024 | GB/T 43698-2024 (software supply chain security) and GB/T 43848-2024 (OSS code security evaluation) published | A |
+| 16 May–15 Jul 2024 | TC260 consultation on draft SBOM data-format national standard | A-v |
+| 23 Aug 2024 | GB/T 44272-2024 Open source licence framework published | A |
+| Sep 2024 | NIISDRC SBOM Standards Community (39 institutions) and "SBOM Chain Initiative" | A |
+| 24 Oct 2024 | NIISDRC releases 《软件物料清单构成和要求》 community edition | A |
+| 23 Oct / 20 Nov 2024 | CRA signed / published in OJ (L 2024/2847) | A |
+| Nov 2024 (published Dec 2024) | MIIT 2024 batch-5 plan includes 2024-1400T-SJ SBOM data format | A |
+| 12 Nov 2024 | T/CCSA 569-2024 reportedly published | C |
+| 31 Dec 2024 | National standard plan 20243686-T-469 issued | A |
+| 3 Feb 2025 | M/606 standardisation request C(2025)618 | A |
+| 23 Apr 2025 | Last commit in NIISDRC standard repository (draft with CQAE group-standard cover) | A |
+| 20 Aug 2025 | BSI TR-03183-2 v2.1.0 | A |
+| 3 Sep 2025 | *Shared Vision of SBOM* (CISA + partners; 7 EU Member State agencies; no China) | A |
+| 28 Jan 2026 | GB/T 47020-2026 published | A |
+| 11 Mar 2026 | SJ/T 12097-2026 published | A |
+| May 2026 | G7 + EU *SBOM for AI – Minimum Elements* (reported) | A (as reported in CISA doc) |
+| 1 Jun 2026 | SJ/T 12097-2026 in force | A |
+| Jun 2026 | ENISA *SBOM Adoption State of Play 2026* | A |
+| 11 Jun 2026 | CRA Chapter IV (notified bodies) applies | A |
+| 29 Jul 2026 | CISA-led *2026 Minimum Elements for SBOM* | A |
+| 1 Aug 2026 | GB/T 47020-2026 in force | A |
+| 11 Sep 2026 | CRA Art. 14 reporting obligations apply | A |
+| Oct 2026 | ENISA *Technical Advisory for SBOM* | A |
+| 10 Nov 2026 | M/606 amended (C(2026)7861); vulnerability-handling standard deadline 30 Nov 2026 | A |
+| 17 Nov 2026 | Commission CRA guidance C/2026/6013 (no SBOM content) | A |
+| 19 Nov 2026 | FprEN 40000-1-3 formal vote starts; projected publication 10 Feb 2027 | B |
+| 11 Dec 2027 | CRA fully applicable, including the SBOM obligation | A |
+
+---
+
+## 6. What this means for EU–China cooperation
+
+**Chinese manufacturers selling in the EU.** FACT (A): From 11 December 2027, any manufacturer placing a product with digital elements on the EU market, Chinese ones included, must hold a CRA-compliant SBOM. FACT (A): The CRA accepts any "commonly used" machine-readable format. INFERENCE:
+- A DP-SBOM or SJ/T 12097 document is unlikely to count as "commonly used" in the EU market. Chinese vendors will in practice need to emit CycloneDX or SPDX as well, or a lossless conversion.
+- PURL identifiers and hashes, which the Chinese texts require, make such conversion feasible.
+- SM3-only hashes would not be readable by most EU tooling. Dual hashing (SM3 + SHA-256) avoids the problem.
+
+**A common reference: ISO/IEC 5962.** FACT (A): SPDX 2.2.1 is an international standard (ISO/IEC 5962:2021), and China is an ISO member. INFERENCE: Two practical steps follow:
+- Both sides could cite ISO/IEC 5962 (and its SPDX 3 revision) as the exchange format.
+- The Commission could reference it in any Art. 13(24) implementing act, while Chinese standards could add a normative annex mapping to it.
+
+This would reduce divergence without either side giving up its own field set. The existing Chinese SPDX 3.0.1 translation, involving openEuler, is a starting point.
+
+**Joint SBOMs for shared open-source projects.**
+- FACT (A): Non-monetised FOSS is outside the CRA. Stewards have no SBOM obligation and no fines.
+- INFERENCE: Projects such as openEuler and OpenHarmony are governed by Chinese foundations, with OpenAtom hosting the SBOM community itself. When their packages enter EU products, the **integrating manufacturer** must cover them in its SBOM and exercise due diligence (Art. 13(5)).
+- INFERENCE: Upstream projects that publish SBOMs in SPDX/CycloneDX, with Chinese-standard fields as extensions, would lower compliance costs for EU integrators. This is a low-politics area for cooperation between foundations (OpenAtom, Eclipse, Linux Foundation Europe, OpenSSF).
+
+**Vulnerability handling.** FACT (A): Both systems require upstream notification: CRA Art. 13(6) and China's 2021 Rules Art. 7(1). Both have short reporting clocks to authorities: 24 h/72 h in the EU, 2 days in China. INFERENCE: A Chinese manufacturer with an actively exploited vulnerability in a product sold in both markets faces two parallel state notifications. China's rule against giving undisclosed vulnerability details to overseas organisations (Art. 9(7)) applies to finders and collectors, not to the product provider. How it affects CRA reporting by Chinese manufacturers or their EU subsidiaries is an open legal question.
+
+**Mutual recognition.** INFERENCE: Mutual recognition of SBOM *standards* is not on the agenda:
+- The EU has not yet fixed its own format.
+- China has three overlapping texts.
+- Neither side took part in the other's soft-law processes: no Chinese agency signed the 2025 *Shared Vision* or the 2026 *Minimum Elements*, and no EU body appears among the drafters of the Chinese texts.
+
+A realistic first step is a technical crosswalk (GB/T 47020 / SJ/T 12097 ↔ CycloneDX / SPDX), produced by standards bodies or open-source foundations.
+
+## 7. Risks
+
+- **State access to component data.** INFERENCE, based on A facts: The Chinese texts name regulators as SBOM users and are tied to a state SBOM platform project. An EU manufacturer selling in China might be asked to supply detailed SBOMs (including licences, patches and environment) to platforms that state bodies can access. That data maps the manufacturer's attack surface. The CRA chose the opposite design: no publication and anonymised aggregation.
+- **Divergence and double compliance.** INFERENCE: China now has two data-format standards that were developed in parallel: GB/T 47020 (TC260) and SJ/T 12097 (TC28/MIIT). There is also a group-standard draft with a third schema. A company may have to produce several formats for one product. The EU risks a similar split if national guidelines (BSI TR-03183-2) diverge from a future implementing act.
+- **Cryptographic divergence.** FACT (C): SJ/T 12097 supports SM3. INFERENCE: SM3-only SBOM integrity data would break verification in EU tooling.
+- **Format nationalism.** INFERENCE: Presenting national formats as answers to "国情" (national conditions) and "自主可控" (self-reliance and control) suggests the formats may become a tool of procurement preference rather than an interoperability layer.
+- **Evidence gap.** FACT: We could not read the final texts of GB/T 47020 or SJ/T 12097. The comparison of Chinese fields therefore rests partly on project descriptions (A) and a drafter's blog (C).
+
+---
+
+## 8. Not verified / open questions
+
+1. GB/T 47020-2026 final text: field list, required depth, any mapping to SPDX/CycloneDX, any reference to ISO/IEC 5962, and serialisation formats. The openstd online preview was not reachable.
+2. SJ/T 12097-2026 full text: everything beyond the std.samr metadata rests on one drafter's blog (C). The meaning of "BOM-SW-v2.0" in that blog is unknown.
+3. NIISDRC 《软件物料清单构成和要求》: was it published as a T/CQAE group standard, and with what number? The repository file shows "CQAE*****—2024 (送审稿)". ttbz.org.cn sits behind a CAPTCHA.
+4. Whether the national "open-source community SBOM platform" collects SBOMs from companies, who operates it, and on what legal basis.
+5. Whether any binding MIIT, CAC or sectoral rule (CII, finance, energy) requires SBOM delivery. The reported 2026 CAC/MIIT CII software-supply-chain rules are **D (unverified)**.
+6. Whether GB/T 43698-2024 (software supply chain security requirements) contains an SBOM requirement.
+7. GB/T 43848-2024 drafting units (the lead says CAICT); not retrieved.
+8. Status of the companion industry-standard projects 2025-1696T-SJ and 2025-1697T-SJ, and of 2024-1395T-SJ (industrial software BOM).
+9. Whether the Commission plans an Art. 13(24) SBOM implementing act before December 2027. None is listed on the roadmap.
+10. Final adoption and OJ citation of EN 40000-1-3. The projected publication date of 10 February 2027 is B.
+11. Content of the G7 *SBOM for AI – Minimum Elements* (May 2026). It may be relevant because SJ/T 12097 adds AI-generated-code fields and China plans AI-BOM guidance documents (20263049-Z-469, 20263051-Z-469).
+12. T/CCSA 569-2024 and DSDX: single-source (C).
 
 
 === How Europe and China fund open source — chapter with conclusions — https://eu-china-commons.eu/research/funding/ ===
