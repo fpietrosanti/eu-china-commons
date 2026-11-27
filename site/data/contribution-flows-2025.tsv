@@ -1,0 +1,21 @@
+project_origin	rank	country	eu27	openrank_contribution	share_pct	source
+CN	1	CN	no	25103.68	79.14	KAIYUANSHE China Open Source Annual Report 2025, data chapter, Table 2-5 (OpenDigger data)
+CN	2	US	no	1986.42	6.27	idem
+CN	3	CA	no	503.16	1.59	idem
+CN	4	DE	yes	427.91	1.35	idem
+CN	5	SG	no	414.82	1.31	idem
+CN	6	IN	no	371.04	1.18	idem
+CN	7	CZ	yes	231.42	0.73	idem
+CN	8	BG	yes	176.88	0.56	idem (rank order BG/SE as printed; SE value is higher)
+CN	9	SE	yes	186.05	0.59	idem
+CN	10	GB	no	168.73	0.53	idem
+US	1	US	no	119864.31	38.21	idem
+US	2	CN	no	24518.77	7.81	idem
+US	3	DE	yes	21472.93	6.84	idem
+US	4	GB	no	18612.48	5.92	idem
+US	5	CA	no	15874.62	5.06	idem
+US	6	IN	no	13702.15	4.36	idem
+US	7	FR	yes	11488.36	3.66	idem
+US	8	NL	yes	7084.93	2.26	idem
+US	9	PL	yes	5844.71	1.86	idem (rank order PL/CH as printed; CH value is higher)
+US	10	CH	no	5982.44	1.91	idem

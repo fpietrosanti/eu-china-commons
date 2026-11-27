@@ -99,6 +99,7 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 | 18.9 | Ask KAIYUANSHE/X-lab for the inclusion criteria of the "China" scope and for the country-attribution method behind "influence". | Note in §6 |
 | 18.10 | Resolve conflicts C1–C5 (§7.3) and check the 2023 VC tables against the Chinese edition before adding a CN equity-VC layer to data/funding. | Corrections in CN-FOUNDATIONS / FUNDING-COMPARISON |
 | 18.11 | Trace the new items of §7.3 to primaries: model licences, GPL rulings, SBOM standard 2024-1400T-SJ, GB 45438-2025, WAIC initiative, China–ASEAN and China–Russia mechanisms. | Archive + level A/B |
+| 18.12 | Recompute the country × project-origin contribution matrix from OpenDigger event data, adding EU-led projects and the EU27 as one unit (indicators I1–I6 in [CONTRIBUTION-FLOWS](CONTRIBUTION-FLOWS.md)). | Matrix at level A + code |
 | 18.8 | Refresh the mirror quarterly (`git remote update` in each mirror, re-run `tools/openshare_dump.py`). | Manifest diff |
 
 ## 6. Findings from the OpenDigger data (18.2–18.3, first pass, 26 Nov 2026)
@@ -144,6 +145,7 @@ All the English chapters of the 2023–2025 reports and the AI Blue Paper were r
 - **Chinese projects are inward-facing.**
   - 79.1% of contributions to China-led projects come from China, and EU countries supply only about 3%.
   - EU countries supply about 15% of contributions to US-led projects.
+  - Full table, EU aggregates, bounds and proposed cooperation indicators: [CONTRIBUTION-FLOWS](CONTRIBUTION-FLOWS.md).
   - **INFERENCE.** This measures the gap our cooperation agenda targets: European developers are a large external workforce of the commons, but they are almost absent from Chinese-led projects.
 - **Activity is moving off GitHub.** In 2025 China added about 15k new GitHub developers against over 1 m on Gitee/AtomGit. GitHub-only comparisons increasingly undercount China.
 - **Reliability.**

@@ -114,6 +114,7 @@ Each line of research is a **branch** that stays open over time. An entry record
   - the Chinese OSS Landscape is young (31 entries);
   - `data.yml` in its repo is a template; the live data is `data/full.json`.
 - **Next:** tasks 18.1–18.8 in docs/KAIYUANSHE-CORPUS.md §5.
+- **27 Nov:** contribution flows put in evidence at Fabio's request: [CONTRIBUTION-FLOWS](CONTRIBUTION-FLOWS.md) (2025 Table 2-5: China-led projects 79.1% from China, EU ≥3.2%; US-led 14.6% EU; EU work 45× more on US-led than on China-led projects). Proposed cooperation indicators I1–I6 for the Index (A5). The reverse flow (China → EU-led projects) is not published: new task 18.12 recomputes the matrix from OpenDigger.
 
 ## Chapter closures
 - **Funding (R12–R15) → docs/FUNDING-CHAPTER.md v1.0, 3 Nov 2026.**

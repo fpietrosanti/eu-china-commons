@@ -18,6 +18,7 @@ Data licence: CC BY 4.0. Source and data: https://github.com/fpietrosanti/eu-chi
 - [F] The transparency gap is the largest asymmetry found: European budgets and grants are published per project; Chinese support is visible as rules and ceilings, and award notices are scattered across local portals. [I] Any headline "China spends X vs Europe Y" is today unfounded in both directions.
 
 ## Research
+- [Who contributes to whom: EU–China contribution flows and cooperation targets](https://eu-china-commons.eu/research/contribution-flows/): European developers are one of the largest workforces of the global open-source commons, but they are almost absent from projects led from China. In 2025, 
 - [External report: China's open-source landscape and history (Nov 2026), analysis and research roadmap](https://eu-china-commons.eu/research/external-report-china-oss-history/): 1. Authorship not stated in the PDF. It can be cited as grey literature once the author's full name and affiliation are added.
 - [KAIYUANSHE (开源社) corpus: China Open Source Annual Reports 2016–2025, OpenShare data and related reports](https://eu-china-commons.eu/research/kaiyuanshe-corpus/): KAIYUANSHE is the volunteer community behind COSCon (China Open Source Conference) and, since 2015, the China Open Source Annual Report (中国开源年度报告). It is t
 - [How Europe and China fund open source — chapter with conclusions](https://eu-china-commons.eu/research/funding/): Labels: F fact (sourced, evidence A/B) · C commitment (announced, not shown as spent) · I inference · P proposal.

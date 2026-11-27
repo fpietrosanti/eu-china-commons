@@ -90,3 +90,13 @@ ol.sources li{word-break:break-all;font-size:.88rem}
 /* key sources block */
 .key .key-card{border-left:4px solid var(--cn)}
 .key .key-card h3 a{color:var(--fg)}
+.flows{border-top:4px solid var(--bridge);padding-top:.5rem}
+.ftiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem;margin:1rem 0}
+.ftile{border:1px solid color-mix(in srgb,var(--fg) 15%,transparent);border-radius:8px;padding:.8rem}
+.ftile b{display:block;font-size:2rem;line-height:1.1;color:var(--bridge)}
+.ftile span{font-size:.9rem}
+.fbars h3{font-size:1rem;margin:.8rem 0 .3rem}
+.fbar{display:grid;grid-template-columns:minmax(8rem,12rem) 1fr 3.5rem;align-items:center;gap:.5rem;margin:.25rem 0;font-size:.9rem}
+.ft{background:color-mix(in srgb,var(--fg) 8%,transparent);border-radius:4px;height:.9rem;overflow:hidden}
+.ff{display:block;height:100%}.ff.cn{background:var(--cn)}.ff.eu{background:var(--eu)}
+.fbar b{text-align:right}
