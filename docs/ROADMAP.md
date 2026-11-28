@@ -66,6 +66,7 @@ Principle: open source as a *shared, non-rival commons* — collaboration on pub
 - [ ] China access route — options mapped 28 Nov (docs/CN-EGRESS-OPTIONS.md): a small Alibaba Cloud International server in a mainland region that fetches the queue itself (no SOCKS tunnel, per provider terms and Chinese rules); decision and identity verification pending; then clear VPN and assisted queues
 - [x] Continuous research: agents revisit every chapter every ~5 days, verified facts published, proposals reviewed (tools/research_loop)
 - [ ] Search visibility and audience measurement (docs/SEARCH-VISIBILITY.md): ✔ sitemaps EN+ZH, real lastmod, IndexNow, visitor stats; Google Search Console and Bing (W1–W2), Baidu/360/Sogou (C2–C3), Chinese summary pages (C4), crawler and AI-bot statistics (decision D1)
+- [ ] Community channels: a Telegram channel/group and a WeChat group, joined by an automatic bridge that keeps each sender's identity, translates EN↔ZH, and announces new members on both sides; join QR codes and Telegram/WeChat banners with a call to contribute on every page; then replicate for BioHackit (docs/COMMUNITY-CHANNELS.md; bridge software options under evaluation)
 - [ ] LLM panel review of all content, sources and translations by DeepSeek, Qwen, GLM, ChatGPT, Gemini and Copilot in the shared Chrome (docs/LLM-PANEL-REVIEW.md) — waiting for logged-in accounts
 - [ ] Hong Kong mirror (EdgeOne Pages, free)
 
