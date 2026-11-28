@@ -120,6 +120,10 @@ Each line of research is a **branch** that stays open over time. An entry record
   - [CRA-SBOM-CN](CRA-SBOM-CN.md): GB/T 47020-2026 (TC260, in force 1 Aug 2026) and SJ/T 12097-2026 (in force 1 Jun 2026) found; NIISDRC title is 《软件物料清单构成和要求》 (draft CQAE group standard, no number); no binding Chinese SBOM rule found; no SBOM implementing act under the CRA yet.
   - [CN-ASEAN-RUSSIA-MECHANISMS](CN-ASEAN-RUSSIA-MECHANISMS.md): China–Russia consultation mechanism on AI and open source confirmed in both languages (A) but no meeting or output found; China–ASEAN alliance has no documented members or repos; deliverables are company-led (Qwen-SEA-LION, OpenHarmony club). ✖ Negative: WAIC plan has no ASEAN item. Adaptability matrix and proposals E1–E5; Russia not adaptable.
 
+## Continuous research (from 28 Nov 2026)
+- At Fabio's request, research agents revisit the 20 topics in `tools/research_loop/topics.tsv` in turn, one every 6 hours (systemd timer `eu-china-research-loop.timer`). Verified facts and negative results are published automatically under "Updates (continuous research)" in each chapter; proposed changes to text and conclusions go to [docs/research-loop/REVIEW-QUEUE.md](research-loop/REVIEW-QUEUE.md) for review. Design: [tools/research_loop/README.md](../tools/research_loop/README.md).
+- **Test run, 28 Nov (cn-foundations):** OpenAtom's 2025 audit report (CAC京审字[2026]0056号) has a text layer: income CNY 145.7M (2025) and 127.3M (2024); Huawei Cloud fees CNY 27.3M paid through ChinaSoft (about 21% of charitable spending); chair changed from 程晓明 to 谢少锋 by Jun 2026. 13 facts and 4 negative results published, 8 items queued for review.
+
 ## Chapter closures
 - **Funding (R12–R15) → docs/FUNDING-CHAPTER.md v1.0, 3 Nov 2026.**
 

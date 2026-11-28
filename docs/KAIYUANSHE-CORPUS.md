@@ -131,6 +131,7 @@ KAIYUANSHE is a stakeholder as well as a source: [COLLAB-MAP.md](COLLAB-MAP.md) 
 **Caveats.**
 - OpenRank weights project activity by collaboration networks. Large corporate projects with many employee contributors, such as OpenHarmony, score high whatever their external adoption.
 - Developers are located by self-declared profile data; many have none.
+- **Gitee and AtomGit are counted entirely as China** in the OpenShare country figures (no location data on those platforms), and AtomGit users are added to China's developer count at 80%; from 2025 values are multiplied by 1.15 (shares unchanged). Developer country is the geocoded GitHub profile location. Source: OpenDigger code, see [CONTRIBUTION-FLOWS](CONTRIBUTION-FLOWS.md) §5.1.
 - "Influence" lists only 30 countries, so shares of influence are shares of that subset.
 - OpenShare's "China" scope is KAIYUANSHE/X-lab's list (282 projects, 136 initiators). Inclusion criteria are not published; ask (18.9).
 
