@@ -15,7 +15,10 @@ const NAME = { en: 'Europe–China Digital Commons Observatory', zh: '中欧数�
 const TODAY = new Date().toISOString().slice(0, 10);
 const rd = (p, d) => { try { return JSON.parse(fs.readFileSync(path.join(root, p), 'utf8')); } catch { return d; } };
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const write = (rel, s) => { const f = path.join(SITE, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, s); urls.push(rel); };
+// Cookieless visit counter (self-hosted GoatCounter on the project server; no cookies, no personal data; bots are not counted)
+const COUNTER = '<!--gc--><script data-goatcounter="https://stats.eu-china-commons.eu/count" async src="https://stats.eu-china-commons.eu/count.js"></script><!--/gc-->';
+const withCounter = (h) => h.replace(/<!--gc-->[\s\S]*?<!--\/gc-->/g, '').replace('</body>', COUNTER + '\n</body>');
+const write = (rel, s) => { const f = path.join(SITE, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, rel.endsWith('.html') ? withCounter(s) : s); urls.push(rel); };
 const urls = [];
 const alt = {}; // rel -> {en, zh} for hreflang pairs
 
@@ -351,13 +354,14 @@ ${shareMeta(lang, lang === 'zh' ? '../' : '')}
   const up = lang === 'zh' ? '../' : '';
   h = h.replace(/<!--wx-->[\s\S]*?<!--\/wx-->\n?/, '').replace('<body>', '<body>\n<!--wx-->' + wxImg(up) + '<!--/wx-->');
   h = h.replace(/<a class="brand" href="([^"]*)">(?:<img[^>]*>)?/, (m, hr) => '<a class="brand" href="' + hr + '"><img src="' + up + 'assets/logo.svg" width="42" height="28" alt="">');
-  h = h.replace(/<!--pay-->[\s\S]*?<!--\/pay-->\n?/, '').replace(/(<div class="hero">[\s\S]*?<\/h1>)/, '$1\n  <!--pay--><p class="payoff">' + BRAND.pay[lang] + '</p><p class="sub"><b>' + (lang === 'zh' ? '以开放研究和广泛参与，推动中欧数字公地合作。' : 'Open research and open engagement for EU–China cooperation on the digital commons.') + '</b> <a href="manifesto/">' + (lang === 'zh' ? '阅读宣言与使命 →' : 'Read the manifesto & mission →') + '</a></p><!--/pay-->');
+  h = h.replace(/\n?[ \t]*<!--pay-->[\s\S]*?<!--\/pay-->\n?/, '').replace(/(<div class="hero">[\s\S]*?<\/h1>)/, '$1\n  <!--pay--><p class="payoff">' + BRAND.pay[lang] + '</p><p class="sub"><b>' + (lang === 'zh' ? '以开放研究和广泛参与，推动中欧数字公地合作。' : 'Open research and open engagement for EU–China cooperation on the digital commons.') + '</b> <a href="manifesto/">' + (lang === 'zh' ? '阅读宣言与使命 →' : 'Read the manifesto & mission →') + '</a></p><!--/pay-->');
   const links = lang === 'zh'
     ? `<!--seo-links--><section id="explore"><h2>浏览</h2><ul class="clean"><li><a href="manifesto/"><b>宣言与使命</b></a></li><li><a href="roadmap/">路线图与研究议程</a></li><li><a href="research/">研究章节</a></li><li><a href="catalogue/">开源成功实践目录（${bi.length} 条）</a></li><li><a href="data/">开放数据下载</a></li></ul></section><!--/seo-links-->`
     : `<!--seo-links--><section id="explore"><h2>Explore the research</h2><ul class="clean"><li><a href="manifesto/"><b>Manifesto & Mission</b></a></li><li><a href="roadmap/"><b>Roadmap & research agenda</b></a></li>${research.slice(0, 6).map((r) => `<li><a href="research/${r.s}/">${esc(r.title)}</a></li>`).join('')}<li><a href="research/">All research</a> · <a href="catalogue/">Catalogue (${cat.length} verified cases)</a> · <a href="projects/">Funding of ${plist.length} projects</a> · <a href="data/">Open data</a></li></ul></section><!--/seo-links-->`;
   h = h.replace(/<!--seo-links-->[\s\S]*?<!--\/seo-links-->\n?/, '').replace('<section id="contact">', links.replace('<!--seo-links-->', '<!--seo-links-->' + keySources(lang, lang === 'zh' ? '../' : '', false)) + '\n<section id="contact">');
   h = h.replace(/<!--flows-->[\s\S]*?<!--\/flows-->\n?/, '').replace('<section id="why"', '<!--flows-->' + flowsHighlight(lang, lang === 'zh' ? '../' : '') + '<!--/flows-->\n<section id="why"');
-  fs.writeFileSync(f, h); urls.unshift(rel); alt[rel] = other;
+  h = h.replace(/\n\s*\n(\s*\n)+/g, '\n\n');
+  fs.writeFileSync(f, withCounter(h)); urls.unshift(rel); alt[rel] = other;
 }
 patchLanding('index.html', 'en', 'zh/index.html');
 patchLanding('zh/index.html', 'zh', 'index.html');
@@ -366,11 +370,29 @@ patchLanding('zh/index.html', 'zh', 'index.html');
 const loc = (r) => BASE + '/' + r.replace(/index\.html$/, '');
 const pairs = {}; for (const [a, b] of Object.entries(alt)) { pairs[a] = b; pairs[b] = a; }
 const langOf = (r) => (r.startsWith('zh/') ? 'zh-CN' : 'en');
+// Real last-modified date per page: content hash (ignoring build date and counter) kept in data/site-lastmod.json.
+const LMF = path.join(root, 'data', 'site-lastmod.json');
+const lm = fs.existsSync(LMF) ? JSON.parse(fs.readFileSync(LMF, 'utf8')) : {};
+for (const r of new Set(urls)) {
+  const h = require('crypto').createHash('sha256').update(fs.readFileSync(path.join(SITE, r), 'utf8').split(TODAY).join('').replace(/<!--gc-->[\s\S]*?<!--\/gc-->/g, '').replace(/\s+/g, ' ')).digest('hex').slice(0, 16);
+  if (!lm[r] || lm[r].h !== h) lm[r] = { h, d: TODAY };
+}
+fs.writeFileSync(LMF, '{\n' + Object.keys(lm).sort().map((k) => JSON.stringify(k) + ': ' + JSON.stringify(lm[k])).join(',\n') + '\n}\n');
+const lastmod = (r) => (lm[r] ? lm[r].d : TODAY);
 fs.writeFileSync(path.join(SITE, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${[...new Set(urls)].map((r) => `<url><loc>${loc(r)}</loc><lastmod>${TODAY}</lastmod>${pairs[r] ? `<xhtml:link rel="alternate" hreflang="${langOf(r)}" href="${loc(r)}"/><xhtml:link rel="alternate" hreflang="${langOf(pairs[r])}" href="${loc(pairs[r])}"/>` : ''}</url>`).join('\n')}
+${[...new Set(urls)].map((r) => `<url><loc>${loc(r)}</loc><lastmod>${lastmod(r)}</lastmod>${pairs[r] ? `<xhtml:link rel="alternate" hreflang="${langOf(r)}" href="${loc(r)}"/><xhtml:link rel="alternate" hreflang="${langOf(pairs[r])}" href="${loc(pairs[r])}"/>` : ''}</url>`).join('\n')}
 </urlset>
 `);
+// Chinese-only sitemap for Baidu, Sogou, 360 and Shenma (they handle hreflang alternates poorly)
+fs.writeFileSync(path.join(SITE, 'sitemap-zh.xml'), `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${[...new Set(urls)].filter((r) => r.startsWith('zh/')).map((r) => `<url><loc>${loc(r)}</loc><lastmod>${lastmod(r)}</lastmod></url>`).join('\n')}
+</urlset>
+`);
+// IndexNow key file (Bing, Yandex, Seznam, Naver, Yep): tools/indexnow.py submits changed URLs after each deploy
+const INDEXNOW_KEY = '55674caacb02cd33b7d2bed0a3e1fa36';
+fs.writeFileSync(path.join(SITE, INDEXNOW_KEY + '.txt'), INDEXNOW_KEY);
 fs.writeFileSync(path.join(SITE, 'robots.txt'), `# Open research: all crawlers welcome, including AI and Chinese search engines.
 User-agent: *
 Allow: /
@@ -395,6 +417,7 @@ User-agent: PetalBot
 Allow: /
 
 Sitemap: ${BASE}/sitemap.xml
+Sitemap: ${BASE}/sitemap-zh.xml
 `);
 const chap = fs.readFileSync(path.join(root, 'docs/FUNDING-CHAPTER.md'), 'utf8');
 const findings = (chap.match(/^\d+\. \*\*\[.*$/gm) || []).map((l) => '- ' + l.replace(/^\d+\.\s*/, '').replace(/\*\*/g, '')).join('\n');

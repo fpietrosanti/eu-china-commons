@@ -22,3 +22,4 @@ User-agent: PetalBot
 Allow: /
 
 Sitemap: https://eu-china-commons.eu/sitemap.xml
+Sitemap: https://eu-china-commons.eu/sitemap-zh.xml

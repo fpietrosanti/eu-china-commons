@@ -50,8 +50,7 @@ sudo -u euchina -H bash -lc "cd $REPO && git add docs/$DOC docs/research-loop so
   if git diff --cached --quiet; then echo nothing; else set -o pipefail && node tools/build_site.js | tail -1 && git add site && \
   git commit -q -m 'Continuous research: $T ($V; $A)' && git pull -q --rebase --autostash && git push -q && echo pushed; fi" >> "$RUN/git.log" 2>&1
 if grep -q pushed "$RUN/git.log"; then
-  gh workflow run "Deploy site" -R fpietrosanti/eu-china-commons >> "$RUN/git.log" 2>&1
-  echo "$(date -u +%FT%TZ) $T deployed" >> "$LOG"
+  "$REPO/tools/deploy.sh" >> "$RUN/git.log" 2>&1 && echo "$(date -u +%FT%TZ) $T deployed + IndexNow" >> "$LOG"
 fi
 # keep run directories 60 days (raw files are archived in the repo when verified)
 find "$BASE/runs" -mindepth 1 -maxdepth 1 -type d -mtime +60 -exec rm -rf {} +
